@@ -1,0 +1,17 @@
+*.log
+
+logs/
+.cache/
+.mixin.out/
+.vscode/
+backups/
+CustomSkinLoader/
+journeymap/
+saves/
+screenshots/
+showdown/
+tacz_backup/
+trainers/
+
+/usercache.json
+/usernamecache.json
