@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 2,
+	"ingredient": {
+		"item": "adventuresmod:sunstone_bricks"
+	},
+	"result": "adventuresmod:sunstone_tile_slab"
+}

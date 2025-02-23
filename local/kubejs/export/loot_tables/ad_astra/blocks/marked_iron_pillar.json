@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "ad_astra:blocks/marked_iron_pillar",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "ad_astra:marked_iron_pillar"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

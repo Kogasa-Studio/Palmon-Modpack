@@ -1,0 +1,15 @@
+[
+	"#cobblemon:is_river",
+	"#cobblemon:is_swamp",
+	"biomesoplenty:bayou?",
+	"biomesoplenty:bog?",
+	"biomesoplenty:marsh?",
+	"biomesoplenty:moor?",
+	"biomesoplenty:muskeg?",
+	"biomesoplenty:wetland?",
+	"tfc:lake",
+	"tfc:river",
+	"wythers:desert_lakes?",
+	"wythers:guelta?",
+	"wythers:tropical_forest_river?"
+]

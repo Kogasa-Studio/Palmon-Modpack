@@ -1,0 +1,15 @@
+{
+	"type": "systeams:upgrade_shapeless",
+	"ingredients": [
+		{
+			"item": "thermal:dynamo_gourmand"
+		},
+		{
+			"item": "systeams:boiler_pipe"
+		}
+	],
+	"result": {
+		"item": "systeams:gourmand_boiler"
+	},
+	"replacement": "thermal:rf_coil"
+}

@@ -1,0 +1,118 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 4.0,
+				"max": 12.0
+			},
+			"bonus_rolls": 2.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:granite"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:tuff"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:calcite"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:dripstone_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:charcoal"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 6.0,
+						"max": 20.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"fire_aspect\",lvl:3},{id:\"silk_touch\",lvl:1}],display:{Lore:['[\"\",{\"text\":\"Very peculiar\",\"italic\":false,\"color\":\"#cc9900\"}]'],Name:'[\"\",{\"text\":\"Spicy \",\"italic\":false,\"color\":\"red\"},{\"text\":\"Magic\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\" \",\"italic\":false,\"color\":\"red\"},{\"text\":\"Shroom\",\"italic\":false,\"color\":\"gold\"}]'}}"
+						}
+					],
+					"name": "minecraft:red_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:brown_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"fire_protection\",lvl:5},{id:\"unbreaking\",lvl:3},{id:\"vanishing_curse\",lvl:1}],Trim:{material:\"gold\",pattern:\"silence\"},display:{Lore:['[\"\",{\"text\":\"Fire resistant\",\"italic\":false,\"color\":\"dark_red\"}]'],Name:'[\"\",{\"text\":\"Magma \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"Boots\",\"italic\":false,\"color\":\"red\"}]',color:16711680}}"
+						}
+					],
+					"name": "minecraft:leather_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"knockback\",lvl:2},{id:\"sharpness\",lvl:3}],display:{Lore:['[\"\",{\"text\":\"Made from dense pebbles\",\"italic\":false,\"color\":\"gray\"}]'],Name:'[\"\",{\"text\":\"Heavy Stone Sword\",\"italic\":false,\"color\":\"white\"}]'}}"
+						}
+					],
+					"name": "minecraft:stone_sword"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+[
+	"nuclearcraft:actuator",
+	"nuclearcraft:basic_electric_circuit",
+	"nuclearcraft:bioplastic",
+	"nuclearcraft:chassis",
+	"nuclearcraft:coil_bscco",
+	"nuclearcraft:coil_copper",
+	"nuclearcraft:coil_magnesium_diboride",
+	"nuclearcraft:empty_frame",
+	"nuclearcraft:empty_sink",
+	"nuclearcraft:motor",
+	"nuclearcraft:plate_advanced",
+	"nuclearcraft:plate_basic",
+	"nuclearcraft:plate_du",
+	"nuclearcraft:plate_elite",
+	"nuclearcraft:plate_extreme",
+	"nuclearcraft:research_paper",
+	"nuclearcraft:servo",
+	"nuclearcraft:sic_fiber",
+	"nuclearcraft:steel_frame"
+]

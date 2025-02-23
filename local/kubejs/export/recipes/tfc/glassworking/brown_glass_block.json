@@ -1,0 +1,13 @@
+{
+	"type": "tfc:glassworking",
+	"operations": [
+		"nickel",
+		"basin_pour"
+	],
+	"batch": {
+		"tag": "tfc:glass_batches"
+	},
+	"result": {
+		"item": "minecraft:brown_stained_glass"
+	}
+}

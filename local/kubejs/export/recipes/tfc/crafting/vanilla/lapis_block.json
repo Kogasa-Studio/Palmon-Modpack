@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		},
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		},
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		},
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		},
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		},
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		},
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		},
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		},
+		{
+			"item": "tfc:gem/lapis_lazuli"
+		}
+	],
+	"result": {
+		"item": "minecraft:lapis_block"
+	}
+}

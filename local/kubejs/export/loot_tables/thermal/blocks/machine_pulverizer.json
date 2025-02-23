@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "thermal:blocks/machine_pulverizer",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "cofh_core:nbt_sync"
+						}
+					],
+					"name": "thermal:machine_pulverizer"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

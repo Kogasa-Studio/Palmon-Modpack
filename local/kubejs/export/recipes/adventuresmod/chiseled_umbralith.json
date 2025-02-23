@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:polished_umbralith_slab"
+		}
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"item": "adventuresmod:chiseled_umbralith"
+	},
+	"show_notification": true
+}

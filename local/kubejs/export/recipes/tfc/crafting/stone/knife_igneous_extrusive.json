@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X",
+		"Y"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:stone/knife_head/igneous_extrusive"
+		},
+		"Y": {
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result": {
+		"item": "tfc:stone/knife/igneous_extrusive"
+	}
+}

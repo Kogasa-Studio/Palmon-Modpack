@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/smooth/rhyolite"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/smooth/rhyolite_wall",
+		"count": 6
+	}
+}

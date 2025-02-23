@@ -1,0 +1,27 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:lightweight",
+            "level": 2
+        },
+        {
+            "name": "tconstruct:reinforced",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "name": "tconstruct:sturdy",
+                "level": 2
+            },
+            {
+                "name": "tconstruct:overgrowth",
+                "level": 1
+            }
+        ]
+    }
+}

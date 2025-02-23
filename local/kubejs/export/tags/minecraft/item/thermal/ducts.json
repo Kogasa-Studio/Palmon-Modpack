@@ -1,0 +1,5 @@
+[
+	"thermal:energy_duct",
+	"thermal:fluid_duct",
+	"thermal:fluid_duct_windowed"
+]

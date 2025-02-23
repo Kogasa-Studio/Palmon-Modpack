@@ -1,0 +1,7 @@
+{
+	"netherexp:nether_wart_beard": "net.jadenxgamer.elysium_api.impl.use_behavior.UseBehavior",
+	"netherexp:warped_wart_beard": "net.jadenxgamer.elysium_api.impl.use_behavior.UseBehavior",
+	"netherexp:crimson_nylium_path": "net.jadenxgamer.elysium_api.impl.use_behavior.UseBehavior",
+	"netherexp:warped_nylium_path": "net.jadenxgamer.elysium_api.impl.use_behavior.UseBehavior",
+	"netherexp:soul_path": "net.jadenxgamer.elysium_api.impl.use_behavior.UseBehavior"
+}

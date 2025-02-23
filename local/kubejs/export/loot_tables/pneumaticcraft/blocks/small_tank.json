@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "pneumaticcraft:blocks/small_tank",
+	"pools": [
+		{
+			"name": "small_tank",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_name",
+							"source": "block_entity"
+						},
+						{
+							"function": "pneumaticcraft:te_serializer"
+						}
+					],
+					"name": "pneumaticcraft:small_tank"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

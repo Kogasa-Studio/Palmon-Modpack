@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "tfc:sharp_tools"
+									}
+								},
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								},
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:plant/cattail",
+									"properties": {
+										"part": "lower"
+									}
+								}
+							],
+							"name": "tfc:food/cattail_root"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "forge:shears"
+									}
+								},
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:plant/cattail",
+									"properties": {
+										"part": "lower"
+									}
+								}
+							],
+							"name": "tfc:plant/cattail"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

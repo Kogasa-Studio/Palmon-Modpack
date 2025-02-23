@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "enchanted:witch_oven",
+		"count": 1
+	},
+	"pattern": [
+		" A ",
+		"BBB",
+		"CCC"
+	],
+	"key": {
+		"A": {
+			"item": "castirongrill:cast_iron_grill"
+		},
+		"B": {
+			"tag": "forge:sheets/cast_iron"
+		},
+		"C": {
+			"tag": "forge:rods/cast_iron"
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"tag": "forge:cooked_fishes/salmon"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"tag": "forge:fruits/berries"
+			}
+		},
+		{
+			"item": "minecraft:bowl"
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"tag": "forge:vegetables/cabbage"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"tag": "forge:vegetables/onion"
+			}
+		}
+	],
+	"result": {
+		"item": "farmersdelight:grilled_salmon",
+		"modifiers": [
+			"tfc:copy_food"
+		]
+	}
+}

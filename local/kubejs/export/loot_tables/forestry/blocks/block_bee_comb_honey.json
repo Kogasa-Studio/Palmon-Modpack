@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "forestry:blocks/block_bee_comb_honey",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "forestry:block_bee_comb_honey"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

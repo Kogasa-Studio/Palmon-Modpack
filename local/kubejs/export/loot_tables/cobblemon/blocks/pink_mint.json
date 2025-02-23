@@ -1,0 +1,95 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:pink_mint_seeds"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					],
+					"name": "cobblemon:pink_mint_seeds"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "cobblemon:pink_mint",
+					"properties": {
+						"age": "7"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:pink_mint_leaf"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "cobblemon:pink_mint",
+					"properties": {
+						"age": "7"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						},
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "cobblemon:pink_mint",
+							"properties": {
+								"age": "7"
+							}
+						}
+					],
+					"name": "cobblemon:pink_mint_leaf"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "cobblemon:pink_mint",
+					"properties": {
+						"age": "7"
+					}
+				}
+			]
+		}
+	]
+}

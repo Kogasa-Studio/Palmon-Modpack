@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "cobblemon:vivichoke_seeds",
+							"properties": {
+								"age": "7"
+							}
+						}
+					],
+					"name": "cobblemon:vivichoke"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "cobblemon:vivichoke_seeds",
+							"properties": {
+								"age": {
+									"min": "0",
+									"max": "6"
+								}
+							}
+						}
+					],
+					"name": "cobblemon:vivichoke_seeds"
+				}
+			]
+		}
+	]
+}

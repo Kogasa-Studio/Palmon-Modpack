@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "cobblemon:relic_coin_pouch",
+							"properties": {
+								"natural": "true"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "cobblemon:relic_coin"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "cobblemon:relic_coin_pouch",
+							"properties": {
+								"natural": "false"
+							}
+						}
+					],
+					"name": "cobblemon:relic_coin_pouch"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+[
+	"#byg:is_snowy?",
+	"#c:snowy?",
+	"#cobblemon:is_glacial",
+	"#cobblemon:is_snowy_forest",
+	"#cobblemon:is_snowy_taiga",
+	"byg:cardinal_tundra?",
+	"minecraft:jagged_peaks",
+	"minecraft:snowy_beach",
+	"minecraft:snowy_plains",
+	"minecraft:snowy_slopes",
+	"terralith:emerald_peaks?",
+	"terralith:scarlet_mountains?",
+	"terralith:skylands_winter?",
+	"terralith:snowy_badlands?",
+	"tfc:plateau",
+	"wythers:crimson_tundra?",
+	"wythers:frozen_island?",
+	"wythers:snowy_bog?",
+	"wythers:snowy_canyon?",
+	"wythers:snowy_peaks?",
+	"wythers:snowy_tundra?"
+]

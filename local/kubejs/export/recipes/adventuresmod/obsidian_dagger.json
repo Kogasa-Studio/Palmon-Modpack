@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:ruined_hilt"
+		},
+		"J": {
+			"item": "adventuresmod:jadite_piece"
+		},
+		"O": {
+			"item": "adventuresmod:obsidian_fragments"
+		}
+	},
+	"pattern": [
+		" O ",
+		" O ",
+		"J#J"
+	],
+	"result": {
+		"item": "adventuresmod:obsidian_dagger"
+	},
+	"show_notification": true
+}

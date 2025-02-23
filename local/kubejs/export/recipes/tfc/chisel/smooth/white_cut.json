@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:smooth_sandstone/white",
+	"result": "tfc:cut_sandstone/white",
+	"mode": "smooth"
+}

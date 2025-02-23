@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:ore/rich_limonite/basalt",
+	"result": "tfc:ore/normal_limonite/basalt"
+}

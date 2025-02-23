@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cracked_bricks/rhyolite",
+	"result": "tfc:rock/cracked_bricks/rhyolite_stairs",
+	"mode": "stair"
+}

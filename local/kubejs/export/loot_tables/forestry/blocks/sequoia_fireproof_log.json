@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "forestry:blocks/sequoia_fireproof_log",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "forestry:sequoia_fireproof_log"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

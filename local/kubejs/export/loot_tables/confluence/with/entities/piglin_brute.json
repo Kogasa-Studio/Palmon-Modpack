@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "confluence:flesh_knuckles"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.1
+				},
+				{
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"direct_entity": {
+							"type": "minecraft:player"
+						}
+					}
+				}
+			]
+		}
+	]
+}

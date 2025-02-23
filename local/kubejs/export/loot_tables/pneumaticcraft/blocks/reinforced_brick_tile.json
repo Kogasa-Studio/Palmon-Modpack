@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "pneumaticcraft:blocks/reinforced_brick_tile",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "pneumaticcraft:reinforced_brick_tile"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

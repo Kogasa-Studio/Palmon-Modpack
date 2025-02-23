@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:cut_vilenite"
+		},
+		"O": {
+			"item": "adventuresmod:obsidian_fragments"
+		}
+	},
+	"pattern": [
+		"OOO",
+		"O#O",
+		"OOO"
+	],
+	"result": {
+		"count": 8,
+		"item": "adventuresmod:cut_dark_vilenite"
+	},
+	"show_notification": true
+}

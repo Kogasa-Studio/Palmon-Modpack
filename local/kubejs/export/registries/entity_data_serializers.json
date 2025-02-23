@@ -1,0 +1,7 @@
+{
+	"cofh_core:fluid_stack_eds": "cofh.core.init.CoreEntityDataSerializers$1",
+	"mekanism:robit_skin": "net.minecraft.network.syncher.EntityDataSerializer$1",
+	"mekanism:security": "net.minecraft.network.syncher.EntityDataSerializer$1",
+	"mekanism:uuid": "net.minecraft.network.syncher.EntityDataSerializer$1",
+	"create:carriage_data": "com.simibubi.create.content.trains.entity.CarriageSyncDataSerializer"
+}

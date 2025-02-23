@@ -1,0 +1,26 @@
+{
+	"random_sequence": "artifacts:entity_equipment/husk",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:vampiric_glove"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:thorn_pendant"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:config_value_chance",
+					"config": "entity_equipment"
+				}
+			]
+		}
+	]
+}

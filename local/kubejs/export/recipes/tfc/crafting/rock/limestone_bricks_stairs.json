@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/bricks/limestone"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/bricks/limestone_stairs",
+		"count": 8
+	}
+}

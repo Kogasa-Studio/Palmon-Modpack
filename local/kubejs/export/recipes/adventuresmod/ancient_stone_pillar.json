@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:polished_ancient_stone"
+		}
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 2,
+		"item": "adventuresmod:ancient_stone_pillar"
+	},
+	"show_notification": true
+}

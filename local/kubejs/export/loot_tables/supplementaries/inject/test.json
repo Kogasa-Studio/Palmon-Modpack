@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"custom_decoration": "supplementaries:village",
+							"destination": "minecraft:village"
+						}
+					],
+					"name": "minecraft:map"
+				}
+			]
+		}
+	]
+}

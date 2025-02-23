@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "minecraft:brown_mushroom"
+		},
+		{
+			"tag": "forge:slimeballs"
+		},
+		{
+			"item": "thermal:phytogro"
+		},
+		{
+			"item": "minecraft:experience_bottle"
+		}
+	],
+	"result": {
+		"item": "thermal:slime_mushroom_spores"
+	}
+}

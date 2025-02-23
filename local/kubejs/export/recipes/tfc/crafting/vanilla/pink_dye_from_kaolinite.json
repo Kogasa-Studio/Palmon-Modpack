@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:powder/kaolinite"
+		}
+	],
+	"result": {
+		"item": "minecraft:pink_dye"
+	}
+}

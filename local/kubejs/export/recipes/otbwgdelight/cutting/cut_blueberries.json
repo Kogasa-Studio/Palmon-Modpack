@@ -1,0 +1,17 @@
+{
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"item": "biomeswevegone:blueberries"
+		}
+	],
+	"result": [
+		{
+			"count": 5,
+			"item": "otbwgdelight:cut_blueberries"
+		}
+	],
+	"tool": {
+		"tag": "forge:tools/knives"
+	}
+}

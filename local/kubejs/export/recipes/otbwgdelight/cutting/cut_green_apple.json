@@ -1,0 +1,17 @@
+{
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"item": "biomeswevegone:green_apple"
+		}
+	],
+	"result": [
+		{
+			"count": 2,
+			"item": "otbwgdelight:cut_green_apple"
+		}
+	],
+	"tool": {
+		"tag": "forge:tools/knives"
+	}
+}

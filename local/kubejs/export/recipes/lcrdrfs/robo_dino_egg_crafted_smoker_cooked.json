@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "lcrdrfs:robo_dino_egg_crafted"
+	},
+	"result": "lcrdrfs:robo_dino_egg",
+	"experience": 0.35,
+	"cookingtime": 250
+}

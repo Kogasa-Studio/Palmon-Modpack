@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "computercraft:blocks/monitor_normal",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "computercraft:monitor_normal"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

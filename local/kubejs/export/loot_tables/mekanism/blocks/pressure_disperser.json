@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "mekanism:blocks/pressure_disperser",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mekanism:pressure_disperser"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,4 @@
+{
+	"reterraforged:interpolation": "net.minecraft.util.StringRepresentable$EnumCodec",
+	"reterraforged:scurve": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

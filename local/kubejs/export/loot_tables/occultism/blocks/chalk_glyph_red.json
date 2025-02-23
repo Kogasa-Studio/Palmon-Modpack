@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "occultism:blocks/chalk_glyph_red",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": []
+		}
+	]
+}

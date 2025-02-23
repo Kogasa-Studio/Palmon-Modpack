@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:alabaster/polished/gray",
+	"result": "tfc:alabaster/polished/gray_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:alabaster/polished/gray_slab"
+	}
+}

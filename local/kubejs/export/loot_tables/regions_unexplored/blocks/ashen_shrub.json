@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "regions_unexplored:blocks/ashen_shrub",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "regions_unexplored:ashen_shrub",
+							"properties": {
+								"half": "lower"
+							}
+						}
+					],
+					"name": "regions_unexplored:ashen_shrub"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

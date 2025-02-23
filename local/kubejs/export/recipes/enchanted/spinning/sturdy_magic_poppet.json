@@ -1,0 +1,20 @@
+{
+	"type": "enchanted:wheel",
+	"duration": 300,
+	"ingredients": [
+		{
+			"item": "enchanted:sturdy_poppet"
+		},
+		{
+			"item": "enchanted:anointing_paste"
+		},
+		{
+			"item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:strong_harming\"}"
+		}
+	],
+	"power": 1000,
+	"result": {
+		"item": "enchanted:sturdy_magic_poppet"
+	}
+}

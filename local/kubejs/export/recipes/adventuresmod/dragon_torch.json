@@ -1,0 +1,12 @@
+{
+	"type": "adventuresmod:dragon_forging",
+	"base": {
+		"item": "minecraft:torch"
+	},
+	"infusion": {
+		"item": "adventuresmod:eternal_powder"
+	},
+	"result": {
+		"item": "adventuresmod:dragon_torch"
+	}
+}

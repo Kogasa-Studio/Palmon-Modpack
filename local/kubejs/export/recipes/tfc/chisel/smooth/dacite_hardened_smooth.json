@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/hardened/dacite",
+	"result": "tfc:rock/smooth/dacite",
+	"mode": "smooth"
+}

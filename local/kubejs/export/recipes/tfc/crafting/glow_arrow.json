@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:arrow"
+		},
+		"Y": {
+			"item": "minecraft:glow_ink_sac"
+		}
+	},
+	"result": {
+		"item": "tfc:glow_arrow",
+		"count": 8
+	}
+}

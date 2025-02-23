@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:wood/planks/ash"
+		}
+	],
+	"result": {
+		"item": "tfc:wood/planks/ash_button"
+	}
+}

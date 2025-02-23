@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"###",
+		"#L#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "adventuresmod:stardust"
+		},
+		"L": {
+			"item": "minecraft:redstone_lamp"
+		}
+	},
+	"result": {
+		"item": "adventuresmod:stardust_lantern"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"YYY"
+	],
+	"key": {
+		"X": {
+			"tag": "forge:smooth_stone"
+		},
+		"Y": {
+			"tag": "forge:stone"
+		}
+	},
+	"result": {
+		"item": "tfc:quern"
+	}
+}

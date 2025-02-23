@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "mythril_ingot",
+	"ingredients": [
+		{
+			"item": "adventuresmod:mythril_fragment"
+		},
+		{
+			"item": "adventuresmod:mythril_fragment"
+		},
+		{
+			"item": "adventuresmod:mythril_fragment"
+		},
+		{
+			"item": "adventuresmod:mythril_fragment"
+		},
+		{
+			"item": "adventuresmod:enchanted_shards"
+		},
+		{
+			"item": "adventuresmod:shattered_silver_ingot"
+		},
+		{
+			"item": "adventuresmod:shattered_silver_ingot"
+		},
+		{
+			"item": "adventuresmod:shattered_silver_ingot"
+		},
+		{
+			"item": "adventuresmod:shattered_silver_ingot"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:mythril_ingot"
+	}
+}

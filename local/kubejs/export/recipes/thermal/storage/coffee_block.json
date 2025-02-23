@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"tag": "forge:crops/coffee"
+		},
+		"I": {
+			"item": "thermal:coffee"
+		}
+	},
+	"pattern": [
+		"###",
+		"#I#",
+		"###"
+	],
+	"result": {
+		"item": "thermal:coffee_block"
+	},
+	"show_notification": true
+}

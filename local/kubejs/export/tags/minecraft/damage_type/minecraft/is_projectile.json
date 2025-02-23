@@ -1,0 +1,21 @@
+[
+	"cataclysm:laser",
+	"cataclysm:maledictio_sagitta",
+	"draconicevolution:chaotic_arrow",
+	"draconicevolution:draconic_arrow",
+	"draconicevolution:draconium_arrow",
+	"draconicevolution:guardian_projectile",
+	"draconicevolution:wyvern_arrow",
+	"minecraft:arrow",
+	"minecraft:fireball",
+	"minecraft:mob_projectile",
+	"minecraft:thrown",
+	"minecraft:trident",
+	"minecraft:unattributed_fireball",
+	"minecraft:wither_skull",
+	"netherexp:soul_bullet",
+	"netherexp:will_o_wisp",
+	"thermal:basalz_projectile",
+	"thermal:blitz_projectile",
+	"thermal:blizz_projectile"
+]

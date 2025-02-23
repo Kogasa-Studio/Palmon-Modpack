@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:ore/rich_hematite/phyllite",
+	"result": "tfc:ore/normal_hematite/phyllite"
+}

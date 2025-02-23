@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/gabbro"
+	},
+	"result": "tfc:rock/bricks/gabbro_stairs",
+	"count": 1
+}

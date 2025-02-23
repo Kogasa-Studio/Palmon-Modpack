@@ -1,0 +1,17 @@
+{
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"item": "biomeswevegone:yucca_fruit"
+		}
+	],
+	"result": [
+		{
+			"count": 2,
+			"item": "otbwgdelight:cut_yucca"
+		}
+	],
+	"tool": {
+		"tag": "forge:tools/knives"
+	}
+}

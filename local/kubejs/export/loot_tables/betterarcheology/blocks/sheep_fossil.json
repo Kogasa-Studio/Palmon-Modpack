@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "betterarcheology:blocks/sheep_fossil",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "betterarcheology:sheep_fossil"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

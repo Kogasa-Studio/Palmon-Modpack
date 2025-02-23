@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomesoplenty:blocks/huge_clover_petal",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomesoplenty:huge_clover_petal"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"tag": "biomesoplenty:shears"
+					}
+				}
+			]
+		}
+	]
+}

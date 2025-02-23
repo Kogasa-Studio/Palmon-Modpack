@@ -1,0 +1,19 @@
+{
+	"type": "tfc:barrel_sealed",
+	"duration": 4800,
+	"output_item": {
+		"item": "cobblemon:red_apricorn",
+		"count": 1
+	},
+	"input_item": {
+		"ingredient": {
+			"tag": "forge:fruits/apple"
+		}
+	},
+	"input_fluid": {
+		"ingredient": {
+			"fluid": "tfc:limewater"
+		},
+		"amount": 1000
+	}
+}

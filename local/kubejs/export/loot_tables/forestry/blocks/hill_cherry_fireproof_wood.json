@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "forestry:blocks/hill_cherry_fireproof_wood",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "forestry:hill_cherry_fireproof_wood"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

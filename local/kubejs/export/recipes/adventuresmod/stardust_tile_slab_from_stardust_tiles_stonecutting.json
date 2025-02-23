@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 2,
+	"ingredient": {
+		"item": "adventuresmod:stardust_tiles"
+	},
+	"result": "adventuresmod:stardust_tile_slab"
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:gold_ingot"
+		},
+		"X": {
+			"item": "adventuresmod:tangerine"
+		}
+	},
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"result": {
+		"item": "adventuresmod:golden_tangerine"
+	},
+	"show_notification": true
+}

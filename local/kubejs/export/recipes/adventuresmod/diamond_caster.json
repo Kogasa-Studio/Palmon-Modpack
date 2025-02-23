@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"T": {
+			"item": "adventuresmod:topaz"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		},
+		"D": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"pattern": [
+		" T ",
+		" D ",
+		" S "
+	],
+	"result": {
+		"item": "adventuresmod:diamond_caster"
+	},
+	"show_notification": true
+}

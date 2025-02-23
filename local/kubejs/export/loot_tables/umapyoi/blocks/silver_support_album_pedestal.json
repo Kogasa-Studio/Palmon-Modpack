@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "umapyoi:blocks/silver_support_album_pedestal",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "umapyoi:silver_uma_pedestal"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

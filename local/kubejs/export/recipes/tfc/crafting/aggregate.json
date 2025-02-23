@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XYX",
+		"Y Y",
+		"XYX"
+	],
+	"key": {
+		"X": {
+			"tag": "forge:sand"
+		},
+		"Y": {
+			"tag": "forge:gravel"
+		}
+	},
+	"result": {
+		"item": "tfc:aggregate",
+		"count": 8
+	}
+}

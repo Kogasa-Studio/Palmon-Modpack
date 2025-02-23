@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/smooth/dolomite",
+	"result": "tfc:rock/smooth/dolomite_stairs",
+	"mode": "stair"
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "redstone",
+	"group": "wooden_trapdoor",
+	"key": {
+		"#": {
+			"item": "adventuresmod:corrupted_planks"
+		}
+	},
+	"pattern": [
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 2,
+		"item": "adventuresmod:corrupted_trapdoor"
+	},
+	"show_notification": true
+}

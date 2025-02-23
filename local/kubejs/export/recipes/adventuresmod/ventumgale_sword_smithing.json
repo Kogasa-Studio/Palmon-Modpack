@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {
+		"item": "adventuresmod:ventumgale_ingot"
+	},
+	"base": {
+		"item": "adventuresmod:mythril_sword"
+	},
+	"result": {
+		"item": "adventuresmod:ventumgale_sword"
+	},
+	"template": {
+		"item": "adventuresmod:gale_upgrade_smithing_template"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 2,
+	"ingredient": {
+		"item": "adventuresmod:polished_sunstone"
+	},
+	"result": "adventuresmod:sunstone_brick_slab"
+}

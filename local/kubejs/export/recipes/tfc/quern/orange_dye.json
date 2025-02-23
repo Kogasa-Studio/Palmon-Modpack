@@ -1,0 +1,10 @@
+{
+	"type": "tfc:quern",
+	"ingredient": {
+		"tag": "tfc:makes_orange_dye"
+	},
+	"result": {
+		"item": "minecraft:orange_dye",
+		"count": 2
+	}
+}

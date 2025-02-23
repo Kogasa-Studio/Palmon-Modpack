@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:meteorite_block"
+		},
+		"X": {
+			"item": "adventuresmod:comettine_block"
+		}
+	},
+	"pattern": [
+		"#X#",
+		"#X#",
+		"#X#"
+	],
+	"result": {
+		"count": 4,
+		"item": "adventuresmod:meteorite_lantern"
+	},
+	"show_notification": true
+}

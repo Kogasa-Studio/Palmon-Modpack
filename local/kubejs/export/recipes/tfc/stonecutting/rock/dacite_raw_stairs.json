@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/raw/dacite"
+	},
+	"result": "tfc:rock/raw/dacite_stairs",
+	"count": 1
+}

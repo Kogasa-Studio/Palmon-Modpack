@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:soot"
+		},
+		{
+			"item": "tfc:compost"
+		}
+	],
+	"result": {
+		"item": "tfc:rotten_compost"
+	}
+}

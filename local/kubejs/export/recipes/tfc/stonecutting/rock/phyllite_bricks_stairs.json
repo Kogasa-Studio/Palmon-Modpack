@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/phyllite"
+	},
+	"result": "tfc:rock/bricks/phyllite_stairs",
+	"count": 1
+}

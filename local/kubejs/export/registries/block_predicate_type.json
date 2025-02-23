@@ -1,0 +1,21 @@
+{
+	"tfc:dry_replaceable": "net.dries007.tfc.world.blockpredicate.TFCBlockPredicates$$Lambda/0x000002bebbe350d0",
+	"minecraft:has_sturdy_face": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"biomeswevegone:random_chance": "net.potionstudios.biomeswevegone.world.level.levelgen.blockpredicates.BWGBlockPredicateTypes$$Lambda/0x000002bebdb2da88",
+	"tfc:air_or_empty_fluid": "net.dries007.tfc.world.blockpredicate.TFCBlockPredicates$$Lambda/0x000002bebbe2d780",
+	"minecraft:all_of": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"minecraft:matching_fluids": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"minecraft:replaceable": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"minecraft:any_of": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"cobblemon:biome": "com.cobblemon.mod.common.world.predicate.CobblemonBlockPredicates$$Lambda/0x000002bebdb2cb28",
+	"cobblemon:altitude": "com.cobblemon.mod.common.world.predicate.CobblemonBlockPredicates$$Lambda/0x000002bebdb2cb28",
+	"tfc:replaceable": "net.dries007.tfc.world.blockpredicate.TFCBlockPredicates$$Lambda/0x000002bebbe33de0",
+	"minecraft:matching_block_tag": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"tfc:would_survive_with_fluid": "net.dries007.tfc.world.blockpredicate.TFCBlockPredicates$$Lambda/0x000002bebbe31bb8",
+	"minecraft:solid": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"minecraft:matching_blocks": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"minecraft:true": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"minecraft:not": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"minecraft:inside_world_bounds": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28",
+	"minecraft:would_survive": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x000002beb9b5db28"
+}

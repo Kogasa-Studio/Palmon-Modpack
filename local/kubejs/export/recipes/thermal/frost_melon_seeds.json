@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "thermal:frost_melon_slice"
+		}
+	],
+	"result": {
+		"item": "thermal:frost_melon_seeds"
+	}
+}

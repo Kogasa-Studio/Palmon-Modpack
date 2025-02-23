@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GRG",
+		"IGI",
+		"GRG"
+	],
+	"key": {
+		"G": {
+			"tag": "forge:glass_panes/colorless"
+		},
+		"R": {
+			"tag": "forge:storage_blocks/redstone"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:laser_lens_unit"
+	}
+}

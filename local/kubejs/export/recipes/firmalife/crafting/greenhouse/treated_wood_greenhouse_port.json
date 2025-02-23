@@ -1,0 +1,24 @@
+{
+	"__comment__": "This file was automatically created by mcresources",
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ZZ",
+		"XY",
+		"ZZ"
+	],
+	"key": {
+		"X": {
+			"item": "firmalife:treated_lumber"
+		},
+		"Y": {
+			"item": "firmalife:copper_pipe"
+		},
+		"Z": {
+			"item": "firmalife:reinforced_glass"
+		}
+	},
+	"result": {
+		"item": "firmalife:treated_wood_greenhouse_port",
+		"count": 8
+	}
+}

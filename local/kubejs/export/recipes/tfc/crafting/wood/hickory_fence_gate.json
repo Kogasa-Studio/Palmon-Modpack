@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"YXY",
+		"YXY"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:wood/planks/hickory"
+		},
+		"Y": {
+			"item": "tfc:wood/lumber/hickory"
+		}
+	},
+	"result": {
+		"item": "tfc:wood/planks/hickory_fence_gate",
+		"count": 2
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "enchanted:blocks/stripped_rowan_log",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "enchanted:stripped_rowan_log"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

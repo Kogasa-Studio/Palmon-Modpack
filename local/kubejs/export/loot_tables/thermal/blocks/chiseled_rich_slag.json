@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "thermal:blocks/chiseled_rich_slag",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "thermal:chiseled_rich_slag"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

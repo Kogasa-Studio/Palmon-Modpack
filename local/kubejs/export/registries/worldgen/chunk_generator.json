@@ -1,0 +1,9 @@
+{
+	"botania:skyblock": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:noise": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:flat": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:debug": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"tfc:overworld": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"ae2:spatial_storage": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"dimdungeons:dimdungeons_chunkgen": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

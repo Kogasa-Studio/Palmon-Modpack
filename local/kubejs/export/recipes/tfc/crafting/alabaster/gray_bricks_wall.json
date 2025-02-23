@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:alabaster/bricks/gray"
+		}
+	},
+	"result": {
+		"item": "tfc:alabaster/bricks/gray_wall",
+		"count": 6
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {
+		"item": "adventuresmod:celestial_plating"
+	},
+	"base": {
+		"item": "adventuresmod:voidarium_chestplate"
+	},
+	"result": {
+		"item": "adventuresmod:eternal_chestplate"
+	},
+	"template": {
+		"item": "adventuresmod:eternal_upgrade_smithing_template"
+	}
+}

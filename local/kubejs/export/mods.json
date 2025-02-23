@@ -1,0 +1,2485 @@
+[
+	{
+		"id": "kubejs",
+		"name": "KubeJS",
+		"version": "2001.6.5-build.16",
+		"description": "Customize your modpack or server with JavaScript!",
+		"authors": "LatvianModder",
+		"issue_tracker": "https://kubejs.com/support?source=kubejs&mc=2001&loader=forge",
+		"license": "GNU LGPLv3"
+	},
+	{
+		"id": "betterdungeons",
+		"name": "YUNG's Better Dungeons",
+		"version": "1.20-Forge-4.0.4",
+		"description": "A complete redesign of Minecraft's dungeons",
+		"authors": "YUNGNICKYOUNG, Acarii",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons",
+		"issue_tracker": "https://github.com/yungnickyoung/YUNGs-Better-Dungeons/issues",
+		"license": "LGPLv3"
+	},
+	{
+		"id": "ftbessentials",
+		"name": "FTB Essentials",
+		"version": "2001.2.2",
+		"description": "Adds many essential utility commands for servers",
+		"authors": "FTB Team",
+		"issue_tracker": "https://go.ftb.team/support-mod-issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "supermartijn642configlib",
+		"name": "SuperMartijn642's Config Library",
+		"version": "1.1.8",
+		"description": "Config Lib makes dealing with config files just a bit easier.",
+		"authors": "SuperMartijn642",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib",
+		"issue_tracker": "https://github.com/SuperMartijn642/SuperMartijn642sConfigLib/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "netherexp",
+		"name": "Jaden's Nether Expansion",
+		"version": "2.2.1",
+		"description": "A Large scale nether mod which Reimagines and Expands upon the entire Nether Dimension",
+		"authors": "ThatJadenXgamer",
+		"issue_tracker": "https://github.com/ThatJadenXgamer/Jadens-Nether-Expansion/issues",
+		"license": "CC-BY-NC-SA-4.0"
+	},
+	{
+		"id": "castirongrill",
+		"name": "TFC Cast Iron Grill",
+		"version": "2.3",
+		"description": "Cast iron grill addon for TFC.",
+		"authors": "HermitOwO",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/tfc-cast-iron-grill",
+		"issue_tracker": "https://github.com/HermitOwO/TFC-CastIronGrill/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "underground_villages",
+		"name": "Underground Villages Mod",
+		"version": "2.1.0",
+		"description": "Ever wanted to be a tunnel dweller? Wanted villages to also be underground? Well then this mod is for you!\nThis mod adds Underground Villages to your world.",
+		"authors": "Mrbysco, ShyNieke",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/underground-villages",
+		"issue_tracker": "https://github.com/Mrbysco/UndergroundVillages/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "botarium",
+		"name": "Botarium",
+		"version": "2.3.4",
+		"description": "A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things",
+		"authors": "CodexAdrian",
+		"homepage": "https://modrinth.com/mod/botarium",
+		"issue_tracker": "https://github.com/terrarium-earth/botarium/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "playeranimator",
+		"name": "Player Animator",
+		"version": "1.0.2-rc1+1.20",
+		"description": "Look for FabricMC (or QuiltMC) builds...",
+		"authors": "KosmX",
+		"license": "MIT"
+	},
+	{
+		"id": "integratedterminals",
+		"name": "IntegratedTerminals",
+		"version": "1.6.3",
+		"description": "Terminals for managing and overviewing Integrated Dynamics networks.",
+		"issue_tracker": "https://github.com/CyclopsMC/IntegratedTerminals/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "farmersdelight_tfc",
+		"name": "Farmers Delight TFC",
+		"version": "1.0.6",
+		"description": "MISSING DESCRIPTION",
+		"authors": "sirRobson",
+		"license": "Academic Free License v3.0"
+	},
+	{
+		"id": "slashblade",
+		"name": "Slash Blade:Resharped",
+		"version": "1.1.16",
+		"description": "SlashBlade Fork, but connecting the past and the future",
+		"authors": "Furia, NyMmd-MIT:nyatla, ObjModelImporter:forge, Resharped Code: MMF-Group",
+		"homepage": "https://minecraft.curseforge.com/projects/slashblade",
+		"license": "MIT License, Art Resources: All Rights Reserved."
+	},
+	{
+		"id": "draconicevolution",
+		"name": "Draconic Evolution",
+		"version": "3.1.2.604",
+		"authors": "brandon3055",
+		"license": "CoFH \"Don't Be a Jerk\" License"
+	},
+	{
+		"id": "stalwart_dungeons",
+		"name": "Stalwart Dungeons",
+		"version": "1.2.8",
+		"description": "Adds hard dungeons for adventurers who want to collect relics and atrifacts",
+		"authors": "Furti_Two, Zezer_123",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/stalwart-dungeons",
+		"license": "Academic Free License v3.0"
+	},
+	{
+		"id": "rubidium",
+		"name": "Rubidium (Embeddium)",
+		"version": "0.7.1",
+		"description": "Stub, to allow mods detecting Rubidium to function as expected.",
+		"license": "LGPL-3.0-only"
+	},
+	{
+		"id": "ad_astra_giselle_addon",
+		"name": "Ad Astra: Giselle Addon",
+		"version": "6.16",
+		"description": "Just add good things in my think for Ad Astra",
+		"authors": "gisellevonbingen",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon",
+		"issue_tracker": "https://github.com/gisellevonbingen/Minecraft-Ad-Astra-Giselle-Addon/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "thermal",
+		"name": "Thermal Series",
+		"version": "11.0.6",
+		"description": "Parent mod for all Thermal modules.\n\nContains all of the common components for the Thermal Series, such as materials and basic tools.",
+		"authors": "King Lemming",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "sound_physics_remastered",
+		"name": "Sound Physics Remastered",
+		"version": "1.20.1-1.4.8",
+		"description": "Provides realistic sound attenuation, reverberation, and absorption through blocks.",
+		"authors": "Sonic Ether, vlad2305m, Max Henkel, Saint",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered",
+		"issue_tracker": "https://github.com/henkelmax/sound-physics-remastered/issues",
+		"license": "GPL"
+	},
+	{
+		"id": "rftoolsbase",
+		"name": "RFToolsBase",
+		"version": "1.20-5.0.5",
+		"description": "The base class for all RFTools tech mods (and XNet/Deep Resonance)",
+		"issue_tracker": "http://github.com/McJtyMods/RFToolsBase/issues",
+		"license": "MIT License https://github.com/McJtyMods/RFToolsBase/blob/1.16/LICENCE"
+	},
+	{
+		"id": "modernfix",
+		"name": "ModernFix",
+		"version": "5.20.0+mc1.20.1",
+		"description": "Egregious, yet effective performance improvements for modern Minecraft",
+		"authors": "embeddedt",
+		"homepage": "https://modrinth.com/mod/modernfix",
+		"issue_tracker": "https://github.com/embeddedt/ModernFix/issues",
+		"license": "GNU LGPL 3.0"
+	},
+	{
+		"id": "armordamagelimit",
+		"name": "Armor Damage Limit",
+		"version": "1.0.0",
+		"description": "Ensuring that the durability loss in a single hit does not exceed a percentage of the armor's maximum durability.",
+		"authors": "Rinko1231",
+		"license": "MIT"
+	},
+	{
+		"id": "yungsapi",
+		"name": "YUNG's API",
+		"version": "1.20-Forge-4.0.6",
+		"description": "API Library for YUNG's minecraft mods.",
+		"authors": "YUNGNICKYOUNG",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-api",
+		"issue_tracker": "https://github.com/yungnickyoung/YUNGs-Api/issues",
+		"license": "LGPLv3"
+	},
+	{
+		"id": "maxhealthfix",
+		"name": "MaxHealthFix",
+		"version": "12.0.3",
+		"description": "Fixes the infamous MC-17876 bug. This bug would cause players with above 20 health to be reset when the restart the game.",
+		"authors": "Darkhax",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/max-health-fix",
+		"issue_tracker": "https://github.com/Darkhax-Minecraft/Max-Health-Fix/issues",
+		"license": "LGPL V2.1"
+	},
+	{
+		"id": "armorcurve",
+		"name": "Armor Curve",
+		"version": "3.0",
+		"description": "Allows custom equations for armor and enchant efficiency. Also adds a sudden death prevention feature for armor toughness and armor degradation mechanics.",
+		"authors": "Jackiecrazy",
+		"homepage": "http://example.com/",
+		"issue_tracker": "http://my.issue.tracker/",
+		"license": "Creative Commons Public License"
+	},
+	{
+		"id": "kambrik",
+		"name": "Kambrik",
+		"version": "6.1.1+1.20.1",
+		"description": "A Light-weight Kotlin Library Mod!",
+		"authors": "Me!",
+		"issue_tracker": "https://github.com/ejektaflex/Kambrik/issues",
+		"license": "GPL 3.0"
+	},
+	{
+		"id": "resourcepackoverrides",
+		"name": "Resource Pack Overrides",
+		"version": "8.0.3",
+		"description": "Ensures important resource packs stay always active and helps clean up the pack selection screen.",
+		"authors": "Fuzs",
+		"homepage": "https://github.com/Fuzss/resourcepackoverrides",
+		"issue_tracker": "https://github.com/Fuzss/resourcepackoverrides/issues",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "cobbreeding",
+		"name": "Cobbreeding",
+		"version": "1.7.4",
+		"description": "Adds Pokémon breeding to Cobblemon!",
+		"authors": "[Ludichat, Fuzuki]",
+		"license": "MIT"
+	},
+	{
+		"id": "tmtcd",
+		"name": "Tomtaru's Cobblemon & Farmer's Delight Tweaks",
+		"version": "0.0.3",
+		"description": "Integration between Cobblemon and Farmer's Delight",
+		"authors": "Tomtaru, Using MCreator",
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/tomtarus-cobblemon-and-farmers-delight-tweaks",
+		"license": "Mozilla Public License 2.0"
+	},
+	{
+		"id": "thermal_integration",
+		"name": "Thermal Integration",
+		"version": "11.0.1",
+		"description": "Integrating Thermal with the wider modded ecosystem!\n\nContains Thermal machine recipes and compatibility for many different mods.",
+		"authors": "King Lemming",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "pickupnotifier",
+		"name": "Pick Up Notifier",
+		"version": "8.0.0",
+		"description": "Be notified about all the things you've just collected.",
+		"authors": "Fuzs",
+		"homepage": "https://github.com/Fuzss/pickupnotifier",
+		"issue_tracker": "https://github.com/Fuzss/pickupnotifier/issues",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "balm",
+		"name": "Balm",
+		"version": "7.3.11",
+		"description": "Abstraction Layer (but not really)™ for Blay's multiplatform mods",
+		"authors": "BlayTheNinth",
+		"homepage": "https://mods.twelveiterations.com/",
+		"issue_tracker": "https://github.com/TwelveIterationMods/Balm/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "tfc",
+		"name": "TerraFirmaCraft",
+		"version": "3.2.12",
+		"description": "TerraFirmaCraft - The Next Generation",
+		"authors": "AlcatrazEscapee",
+		"issue_tracker": "https://github.com/TerraFirmaCraft/TerraFirmaCraft/issues",
+		"license": "EUPL-1.2"
+	},
+	{
+		"id": "cloth_config",
+		"name": "Cloth Config v10 API",
+		"version": "11.1.136",
+		"description": "An API for config screens.",
+		"issue_tracker": "https://github.com/architectury/ClothConfig/issues/",
+		"license": "GNU LGPLv3"
+	},
+	{
+		"id": "palmon",
+		"name": "Palmon",
+		"version": "0.0.1",
+		"description": "Test",
+		"authors": "Tonywww",
+		"license": "All Right Reserved"
+	},
+	{
+		"id": "supplementaries",
+		"name": "Supplementaries",
+		"version": "1.20-3.1.11",
+		"description": "Many functional and useful Vanilla+ blocks",
+		"authors": "MehVahdJukaar, Plantkillable",
+		"issue_tracker": "https://github.com/MehVahdJukaar/supplementaries/issues",
+		"license": "Supplementaries Team License v.1.1"
+	},
+	{
+		"id": "embeddium",
+		"name": "Embeddium",
+		"version": "0.3.31+mc1.20.1",
+		"description": "Embeddium is a fork of Rubidium, a fork of Sodium with patches for Forge",
+		"authors": "embeddedt",
+		"license": "LGPL-3.0-only"
+	},
+	{
+		"id": "structure_gel",
+		"name": "Structure Gel API",
+		"version": "2.16.2",
+		"description": "An API mod to improve the developer side of structure gen",
+		"authors": "Silver_David, KingPhygieBoo, Jonathing",
+		"homepage": "https://moddinglegacy.com/",
+		"issue_tracker": "https://gitlab.com/modding-legacy/structure-gel-api/-/issues",
+		"license": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+	},
+	{
+		"id": "solapplepie",
+		"name": "Spice of Life: Apple Pie Edition",
+		"version": "1.20.1-2.3.0",
+		"description": "A mod designed to encourage dietary variety!\n\nIt does so by rewarding the player with customizable benefits depending on how diverse their diet is. These benefits\nrequire maintaining a diverse diet, rather than a one-time consumption.",
+		"license": "LGPL-2.1"
+	},
+	{
+		"id": "ftbxmodcompat",
+		"name": "FTB XMod Compat",
+		"version": "2.1.2",
+		"description": "Provides cross-mod compatibilty/integration for all main FTB mods",
+		"authors": "FTB Team",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "repurposed_structures",
+		"name": "Repurposed Structures",
+		"version": "7.1.15+1.20.1-forge",
+		"description": "Taking existing vanilla structures and changing them up for extra variety!",
+		"authors": "TelepathicGrunt",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/repurposed-structures",
+		"issue_tracker": "https://github.com/TelepathicGrunt/RepurposedStructures/issues",
+		"license": "https://github.com/TelepathicGrunt/RepurposedStructures/blob/latest-released/LICENSE"
+	},
+	{
+		"id": "kubejsoffline",
+		"name": "KubeJS Offline (Forge)",
+		"version": "4.0.2",
+		"description": "This mod is designed to be used with KubeJS to allow for dynamic documentation that is usable offline. Run /kubejs_offline to generate the documentation.",
+		"authors": "ILIKEPIEFOO2",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "dustandash",
+		"name": "Dust and Ash",
+		"version": "0.1.6",
+		"description": "dadadalida",
+		"authors": "Tonywww, Dumnheint, Miya_Yomogi",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "thermal_innovation",
+		"name": "Thermal Innovation",
+		"version": "11.0.1",
+		"description": "Thermal Technology marches on. Adds Thermal-style tools and equipment!\n\nContains player-centric power - useful tools, gadgets, and armor.",
+		"authors": "King Lemming",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "biomesoplenty",
+		"name": "Biomes O' Plenty",
+		"version": "19.0.0.94",
+		"description": "Adds over 50 new biomes, blocks, and more!",
+		"authors": "Adubbz, Forstride",
+		"issue_tracker": "https://github.com/Glitchfiend/BiomesOPlenty/issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "explorify",
+		"name": "Explorify",
+		"version": "1.6.2",
+		"description": "A simplistic, vanilla-friendly collection of new structures.",
+		"authors": "bebebea_loste",
+		"homepage": "https://modrinth.com/datapack/explorify",
+		"license": "ARR"
+	},
+	{
+		"id": "amplified_nether",
+		"name": "Amplified Nether",
+		"version": "1.2.5",
+		"description": "The nether explorer's simple dream: doubled height and amplified terrain. What more is needed?",
+		"authors": "Stardust Labs",
+		"homepage": "https://www.stardustlabs.net/",
+		"issue_tracker": "https://github.com/Stardust-Labs-MC/Amplified-Nether/issues",
+		"license": "Stardust Labs License"
+	},
+	{
+		"id": "supermartijn642corelib",
+		"name": "SuperMartijn642's Core Lib",
+		"version": "1.1.18",
+		"description": "SuperMartijn642's Core Lib adds lots of basic implementations for guis that allow for similar code between Minecraft 1.12, 1.14, 1.15, and 1.16!",
+		"authors": "SuperMartijn642",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib",
+		"issue_tracker": "https://github.com/SuperMartijn642/SuperMartijn642sCoreLib/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "yungsbridges",
+		"name": "YUNG's Bridges",
+		"version": "1.20-Forge-4.0.3",
+		"description": "Adds naturally occurring bridges throughout the world!",
+		"authors": "YUNGNICKYOUNG",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-bridges",
+		"issue_tracker": "https://github.com/yungnickyoung/YUNGs-Bridges/issues",
+		"license": "LGPLv3"
+	},
+	{
+		"id": "botania",
+		"name": "Botania",
+		"version": "1.20.1-446-FORGE",
+		"description": "Botania is a mod that adds nature magic to Minecraft.",
+		"authors": "Vazkii, wiiv, williewillus, dylan4ever, Hubry, Alwinfy, artemisSystem, Falkory220",
+		"homepage": "https://botaniamod.net",
+		"issue_tracker": "https://github.com/Vazkii/Botania/issues",
+		"license": "Botania License"
+	},
+	{
+		"id": "resourcefulconfig",
+		"name": "Resourcefulconfig",
+		"version": "2.1.2",
+		"description": "A library for creating config files for your mod across multiple platforms.",
+		"issue_tracker": "https://github.com/Team-Resourceful/Resouceful-Config/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "spark",
+		"name": "spark",
+		"version": "1.10.53",
+		"description": "spark is a performance profiling plugin/mod for Minecraft clients, servers and proxies.",
+		"license": "GPLv3"
+	},
+	{
+		"id": "curios",
+		"name": "Curios API",
+		"version": "5.11.1+1.20.1",
+		"description": "A flexible and expandable accessory/equipment API for users and developers.",
+		"authors": "C4",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/curios",
+		"issue_tracker": "https://github.com/TheIllusiveC4/Curios/issues",
+		"license": "LGPL-3.0-or-later"
+	},
+	{
+		"id": "oculus",
+		"name": "Oculus",
+		"version": "1.8.0",
+		"description": "Unofficial Fork of \"Iris\", made to work with FML",
+		"authors": "NanoLive, dima_dencep, coderbot, IMS212, Justsnoopy30, FoundationGames",
+		"homepage": "https://curseforge.com/minecraft/mc-mods/oculus",
+		"issue_tracker": "https://github.com/Asek3/Oculus/issues",
+		"license": "LGPL-3.0-only"
+	},
+	{
+		"id": "searchables",
+		"name": "Searchables",
+		"version": "1.0.3",
+		"description": "A library mod to facilitate adding search bars with auto complete and search types.",
+		"authors": "Jaredlll08",
+		"homepage": "https://minecraft.curseforge.com/projects/searchables",
+		"issue_tracker": "https://github.com/jaredlll08/searchables/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "thermal_and_space",
+		"name": "Thermal And Space",
+		"version": "1.20.1-1.0.3",
+		"description": "Compat between Ad Astra and Thermal Expansion.",
+		"authors": "Mrthomas20121",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/thermal_and_space",
+		"issue_tracker": "https://github.com/Mrthomas20121/ThermalExtra/issues",
+		"license": "MIT License"
+	},
+	{
+		"id": "cobblemon",
+		"name": "Cobblemon",
+		"version": "1.5.2+1.20.1",
+		"description": "Adds Pokémon to the world, letting you find, battle, capture, and evolve them.",
+		"authors": "The Cobblemon Team",
+		"homepage": "https://cobblemon.com/",
+		"issue_tracker": "https://gitlab.com/cable-mc/cobblemon/-/issues",
+		"license": "MPL2.0"
+	},
+	{
+		"id": "yungsextras",
+		"name": "YUNG's Extras",
+		"version": "1.20-Forge-4.0.3",
+		"description": "Extra structures and vanilla+ content added throughout the game!",
+		"authors": "YUNGNICKYOUNG, Acarii",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-extras",
+		"issue_tracker": "https://github.com/yungnickyoung/YUNGs-Extras/issues",
+		"license": "LGPLv3"
+	},
+	{
+		"id": "framedblocks",
+		"name": "FramedBlocks",
+		"version": "9.3.1",
+		"authors": "XFactHD",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/framedblocks",
+		"issue_tracker": "https://www.github.com/xfacthd/framedblocks",
+		"license": "LGPL v3"
+	},
+	{
+		"id": "thermal_foundation",
+		"name": "Thermal Foundation",
+		"version": "11.0.6",
+		"description": "The Foundation of a Thermally Expanding World!\n\nContains the ores and world generation for the Thermal Series.",
+		"authors": "King Lemming",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "thermal_locomotion",
+		"name": "Thermal Locomotion",
+		"version": "11.0.1",
+		"description": "Thermal hits the tracks!\n\nContains the \"railyard\" of the Thermal Series - Rails and Minecarts to expand rail-centric gameplay.",
+		"authors": "King Lemming",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "constructionwand",
+		"name": "Construction Wand",
+		"version": "1.20.1-2.11",
+		"description": "Construction Wands make building easier!\n\nWith a Construction Wand you can place multiple blocks (up to 1024) at once, extending your build on the side you're\nfacing. If that's not enough: you can upgrade your wand with additional cores, allowing you to place a block\nbehind the block you are facing, conjure blocks in mid air or destroy lots of blocks very fast.\n\nThis is my first minecraft mod. May the odds be ever in your favor.",
+		"authors": "ThetaDev",
+		"homepage": "https://github.com/Theta-Dev/ConstructionWand",
+		"license": "MIT License"
+	},
+	{
+		"id": "wormhole",
+		"name": "Wormhole (Portals)",
+		"version": "1.1.16",
+		"description": "Wormhole allows you to construct portals with the use of wormhole stabilizer technology!",
+		"authors": "SuperMartijn642",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/wormhole-portals",
+		"issue_tracker": "https://github.com/SuperMartijn642/Wormhole/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "emiffect",
+		"name": "EMIffect",
+		"version": "1.1.2+mc1.20.1",
+		"description": "EMI addon that appends status effects in EMI and provides information about each status effect.",
+		"authors": "Prismwork, Flamarine",
+		"issue_tracker": "https://github.com/Prismwork/EMIffect/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "dynamic_fps",
+		"name": "Dynamic FPS",
+		"version": "3.7.7",
+		"description": "Reduce resource usage while Minecraft is in the background or idle.",
+		"authors": "juliand665 & LostLuma",
+		"homepage": "https://dapprgames.com/mods",
+		"issue_tracker": "https://github.com/juliand665/Dynamic-FPS/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "otbwgdelight",
+		"name": "Oh The Biomes We've Gone Delight",
+		"version": "1.1.1-1.20.1",
+		"description": "Example mod description.\nNewline characters can be used and will be replaced properly.",
+		"authors": "Project Count",
+		"license": "MIT"
+	},
+	{
+		"id": "trials",
+		"name": "Trials Chambers",
+		"version": "2.3.3",
+		"description": "1.20.1 Backport  of Trials Chambers.",
+		"authors": "Jusey1",
+		"homepage": "https://discord.gg/qGTuwEMgpT",
+		"license": "MIT License"
+	},
+	{
+		"id": "krypton",
+		"name": "Krypton Reforged",
+		"version": "0.2.3",
+		"description": "Networking optimization mod. Required on client as well.",
+		"license": "LGPL"
+	},
+	{
+		"id": "codechickenlib",
+		"name": "CodeChicken Lib",
+		"version": "4.4.0.516",
+		"description": "CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier.\nIt contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..",
+		"authors": "ChickenBones, covers1624",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8",
+		"issue_tracker": "https://github.com/TheCBProject/CodeChickenLib",
+		"license": "GNU Lesser General Public License v2.1"
+	},
+	{
+		"id": "fastleafdecay",
+		"name": "Fast Leaf Decay",
+		"version": "32",
+		"description": "Increases leaves decay rate, so that you won't end up with a bunch of floating leaves.",
+		"authors": "Olafski",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "thermal_dynamics",
+		"name": "Thermal Dynamics",
+		"version": "11.0.1",
+		"description": "Thermal gets dynamic!\n\nContains various logistic options for technical gameplay!",
+		"authors": "King Lemming, covers1624",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "smartbrainlib",
+		"name": "SmartBrainLib",
+		"version": "1.15",
+		"description": "A library mod for smarter Brains and easier usage of the Brain system.",
+		"authors": "Tslat",
+		"issue_tracker": "https://github.com/Tslat/SmartBrainLib/issues",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "confluence",
+		"name": "Terra Curio",
+		"version": "0.1.11",
+		"description": "Hi from Confluence Team",
+		"authors": "Westernat, Magic Harp, nakinosi, CoooBird, Gray, Amanita",
+		"license": "LGPL v3"
+	},
+	{
+		"id": "tfcgroomer",
+		"name": "TFC: Grooming Station",
+		"version": "1.20.1-0.1.3",
+		"description": "Auto groom animals while you spend your time on something better",
+		"authors": "LobsterJonn",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "fastload",
+		"name": "Fastload-Reforged",
+		"version": "3.4.0",
+		"description": "Load your world at lightning speed!",
+		"authors": "AbdElAziz",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/fastload",
+		"issue_tracker": "https://github.com/BumbleSoftware/Fastload/issues",
+		"license": "LGPL-3.0"
+	},
+	{
+		"id": "ati_structures",
+		"name": "ati_structures",
+		"version": "1.1.0",
+		"description": "MISSING DESCRIPTION",
+		"authors": "ATi",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/ati-structures",
+		"license": "Academic Free License v3.0"
+	},
+	{
+		"id": "cobgyms",
+		"name": "CobGyms",
+		"version": "2.0.2",
+		"description": "Unofficial implementation of Gyms for Cobblemon.",
+		"authors": "Gensir",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "ftblibrary",
+		"name": "FTB Library",
+		"version": "2001.2.7",
+		"description": "Foundational library for FTB mods.",
+		"authors": "FTB Team",
+		"issue_tracker": "https://go.ftb.team/support-mod-issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "rechiseled",
+		"name": "Rechiseled",
+		"version": "1.1.6",
+		"description": "Rechiseled allows you to exchange between various decorative blocks!",
+		"authors": "SuperMartijn642",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/rechiseled",
+		"issue_tracker": "https://github.com/SuperMartijn642/Rechiseled/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "formationsnether",
+		"name": "Formations Nether",
+		"version": "1.0.5",
+		"description": "Formations Nether adds plenty of new structures to the nether!",
+		"authors": "SuperMartijn642",
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/formations-nether",
+		"issue_tracker": "https://github.com/SuperMartijn642/FormationsNether/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "topaddon",
+		"name": "RMK The One Probe Addon",
+		"version": "1.5.0",
+		"description": "TOP Addon for different modpacks",
+		"authors": "YourNameHere, OtherNameHere",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "customskinloader",
+		"name": "CustomSkinLoader",
+		"version": "14.21.2",
+		"description": "Custom Skin Loader for Minecraft",
+		"authors": "[xfl03, JLChnToZ, ZekerZhayard]",
+		"homepage": "https://github.com/xfl03/MCCustomSkinLoader",
+		"issue_tracker": "https://github.com/xfl03/MCCustomSkinLoader/issues",
+		"license": "GPL-3.0-only"
+	},
+	{
+		"id": "jei",
+		"name": "Just Enough Items",
+		"version": "15.20.0.106",
+		"description": "JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.",
+		"authors": "mezz",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/jei",
+		"issue_tracker": "https://github.com/mezz/JustEnoughItems/issues?q=is%3Aissue",
+		"license": "The MIT License (MIT)"
+	},
+	{
+		"id": "ae2",
+		"name": "Applied Energistics 2",
+		"version": "15.3.2-beta",
+		"description": "A Mod about Matter, Energy and using them to conquer the world..",
+		"issue_tracker": "https://github.com/AppliedEnergistics/Applied-Energistics-2/issues",
+		"license": "See GitHub repository for details"
+	},
+	{
+		"id": "attributefix",
+		"name": "AttributeFix",
+		"version": "21.0.4",
+		"description": "Extends the maximum attribute ranges to allow for higher values.",
+		"authors": "Darkhax",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/attributefix",
+		"issue_tracker": "https://github.com/Darkhax-Minecraft/AttributeFix/issues",
+		"license": "LGPL V2.1"
+	},
+	{
+		"id": "yes_steve_model",
+		"name": "Yes Steve Model",
+		"version": "2.2.2",
+		"description": "A mod based on GeckoLib that modifies the player model",
+		"authors": "YS Group, TartaricAcid, TomatoPuddin, AryochiL",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "mekanism",
+		"name": "Mekanism",
+		"version": "10.4.13",
+		"description": "Mekanism is a Minecraft add-on featuring high-tech machinery that can be used to create powerful tools, armor, and weapons.",
+		"authors": "Aidancbrady, Thommy101, Thiakil, pupnewfster, dizzyd",
+		"homepage": "https://aidancbrady.com/mekanism/",
+		"issue_tracker": "https://github.com/mekanism/Mekanism/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "pasterdream",
+		"name": "PasterDream",
+		"version": "0.3.5.7",
+		"description": "测试版（未完工）",
+		"authors": "异星之尘",
+		"homepage": "https://www.mcmod.cn/class/8530.html",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "fallingleaves",
+		"name": "Falling Leaves",
+		"version": "2.1.0",
+		"description": "How the gentle wind\n    beckons through the leaves\n    as autumn colors fall,\n    dancing in a swirl\n    of golden memories:\n    the loveliest lies of all.",
+		"authors": "Cheaterpaul, Fourmisain, BrekiTomasson and RandomMcSomethin",
+		"issue_tracker": "https://github.com/Cheaterpaul/fallingleaves/issues",
+		"license": "LGPL-3.0"
+	},
+	{
+		"id": "naturescompass",
+		"name": "Nature's Compass",
+		"version": "1.20.1-1.11.2-forge",
+		"description": "Search for a biome and get information about it.",
+		"authors": "ChaosTheDude",
+		"homepage": "https://github.com/MattCzyr/NaturesCompass",
+		"issue_tracker": "https://github.com/MattCzyr/NaturesCompass/issues",
+		"license": "CC BY-NC-SA 4.0"
+	},
+	{
+		"id": "tmtcop",
+		"name": "Cobblemon O' Plenty",
+		"version": "2.0.0",
+		"description": "Adds Biome tags for BoP to Cobblemon",
+		"authors": "Tomtaru, using Mcreator",
+		"homepage": "https://mcreator.net",
+		"license": "Mozilla Public License 2.0"
+	},
+	{
+		"id": "champions",
+		"name": "Champions Unofficial",
+		"version": "1.20.1-2.1.7.1-beta-8",
+		"description": "Creates elite mobs of different rarities, with enhanced stats and extra abilities.",
+		"authors": "CrychicTeam, TheIllusiveC4",
+		"homepage": "https://github.com/TheIllusiveC4/Champions/",
+		"issue_tracker": "https://github.com/TheIllusiveC4/Champions/issues",
+		"license": "lgpl-3.0"
+	},
+	{
+		"id": "glitchcore",
+		"name": "GlitchCore",
+		"version": "0.0.1.1",
+		"description": "A library mod aimed at abstracting mod loaders and providing various utilities for our mods.",
+		"authors": "Adubbz",
+		"issue_tracker": "https://github.com/Glitchfiend/GlitchCore/issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "pneumaticcraft",
+		"name": "PneumaticCraft: Repressurized",
+		"version": "6.0.18+mc1.20.1",
+		"description": "PneumaticCraft: Repressurized: doing cool stuff with compressed air.",
+		"issue_tracker": "https://github.com/TeamPneumatic/pnc-repressurized/issues",
+		"license": "GNU GPLv3"
+	},
+	{
+		"id": "cofh_core",
+		"name": "CoFH Core",
+		"version": "11.0.2",
+		"description": "Core Library required for the functionality of all CoFH mods.\n\nAlso contains a number of optional gameplay tweaks for convenience.",
+		"authors": "King Lemming, Zeldo Kavira, covers1624, skyboy, Cynycal, Drullkus",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "midnightlib",
+		"name": "MidnightLib",
+		"version": "1.4.2",
+		"description": "Common Library for Team MidnightDust's mods.",
+		"authors": "TeamMidnightDust, Motschen",
+		"license": "MIT License"
+	},
+	{
+		"id": "fusion",
+		"name": "Fusion",
+		"version": "1.2.2",
+		"description": "Fusion allows resource packs to use additional texture and model types such as connected textures!",
+		"authors": "SuperMartijn642",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/rechiseled",
+		"issue_tracker": "https://github.com/SuperMartijn642/Rechiseled/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "lcrdrfs",
+		"name": "Laser Creeper Robot Dino Riders From Space",
+		"version": "3.0.0",
+		"description": "Because they are awesome!",
+		"authors": "vadis365 and xXCaptainSoilXx.",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "memoryleakfix",
+		"name": "Memory Leak Fix",
+		"version": "1.1.5",
+		"description": "A mod which fixes multiple memory leaks, both client-side & server-side",
+		"authors": "FX - PR0CESS",
+		"issue_tracker": "https://github.com/fxmorin/memoryleakfix/issues",
+		"license": "LGPL-2.1-only"
+	},
+	{
+		"id": "formations",
+		"name": "Formations",
+		"version": "1.0.3",
+		"description": "Formations adds utilities for structure datapacks!",
+		"authors": "SuperMartijn642",
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/formations",
+		"issue_tracker": "https://github.com/SuperMartijn642/Formations/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "puzzlesaccessapi",
+		"name": "Puzzles Access Api",
+		"version": "8.0.7",
+		"description": "A small collection of a few vanilla classes made extensible via access transformers / wideners.",
+		"authors": "Fuzs",
+		"homepage": "https://github.com/Fuzss/puzzlesaccessapi",
+		"issue_tracker": "https://github.com/Fuzss/puzzlesaccessapi/issues",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "forge",
+		"name": "Forge",
+		"version": "47.3.0",
+		"description": "Forge, a broad compatibility API.",
+		"authors": "LexManos,cpw",
+		"homepage": "https://minecraftforge.net/",
+		"issue_tracker": "https://minecraftforge.net/",
+		"license": "LGPL v2.1"
+	},
+	{
+		"id": "tfcrf",
+		"name": "TFC Regrowing Forests",
+		"version": "1.1",
+		"description": "Forests now regenerate and spread.",
+		"authors": "Verph",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/tfc-regrowing-forests",
+		"license": "BSD 3"
+	},
+	{
+		"id": "oworld2create",
+		"name": "0World2Create",
+		"version": "0.0NONE",
+		"description": "Prevent minecraft from opening the world creating screen when there's no existing world.",
+		"authors": "Tapio",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "formationsoverworld",
+		"name": "Formations Overworld",
+		"version": "1.0.4",
+		"description": "Formations Overworld adds plenty of new structures to the overworld!",
+		"authors": "SuperMartijn642",
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/formations-overworld",
+		"issue_tracker": "https://github.com/SuperMartijn642/FormationsOverworld/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "minecraft",
+		"name": "Minecraft",
+		"version": "1.20.1",
+		"description": "Minecraft, decompiled and deobfuscated with MCP technology",
+		"authors": "MCP: Searge,ProfMobius,IngisKahn,Fesh0r,ZeuX,R4wk,LexManos,Bspkrs",
+		"license": "Mojang Studios, All Rights Reserved"
+	},
+	{
+		"id": "emi",
+		"name": "EMI",
+		"version": "1.1.19+1.20.1+forge",
+		"description": "A featureful and accessible item and recipe viewer",
+		"authors": "Emi",
+		"license": "MIT"
+	},
+	{
+		"id": "systeams",
+		"name": "Thermal Systeams",
+		"version": "1.8.2",
+		"description": "Addon for the Thermal Series that adds Steam dynamos back to modern versions!",
+		"authors": "ChiefArug",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/systeams",
+		"issue_tracker": "https://github.com/ChiefArug/ThermalSysteams/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "voicechat",
+		"name": "Simple Voice Chat",
+		"version": "1.20.1-2.5.27",
+		"description": "A working voice chat in Minecraft!",
+		"authors": "Max Henkel",
+		"homepage": "https://modrepo.de/minecraft/voicechat/overview",
+		"issue_tracker": "https://github.com/henkelmax/simple-voice-chat/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "terrablender",
+		"name": "TerraBlender",
+		"version": "3.0.1.7",
+		"description": "A library mod for adding biomes in a simple and compatible manner with Minecraft's new biome/terrain system.",
+		"authors": "Adubbz",
+		"issue_tracker": "https://github.com/Glitchfiend/TerraBlender/issues",
+		"license": "LGPLv3"
+	},
+	{
+		"id": "theoneprobe",
+		"name": "The One Probe",
+		"version": "1.20.1-10.0.2",
+		"description": "The One Probe lets you examine the block that you are looking at. Having a\nprobe in your hand lets you examine it better but you can also make this\nprobe required if you so desire.",
+		"issue_tracker": "http://github.com/McJtyMods/TheOneProbe/issues",
+		"license": "MIT License https://github.com/McJtyMods/TheOneProbe/blob/1.16/LICENCE"
+	},
+	{
+		"id": "mousetweaks",
+		"name": "Mouse Tweaks",
+		"version": "2.25.1",
+		"description": "A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.",
+		"authors": "Ivan Molodetskikh (YaLTeR)",
+		"homepage": "https://minecraft.curseforge.com/projects/mouse-tweaks",
+		"issue_tracker": "https://github.com/YaLTeR/MouseTweaks/issues",
+		"license": "BSD-3-Clause"
+	},
+	{
+		"id": "bettercombat",
+		"name": "Better Combat",
+		"version": "1.8.6+1.20.1",
+		"description": "Easy, spectacular and fun melee combat system from Minecraft Dungeons.",
+		"authors": "Daedelus",
+		"license": "GPL-3.0"
+	},
+	{
+		"id": "ftbquests",
+		"name": "FTB Quests",
+		"version": "2001.4.9",
+		"description": "Lets you easily create and play with quests",
+		"authors": "FTB Team",
+		"issue_tracker": "https://github.com/FTBTeam/FTB-Mods-Issues/issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "nochatreports",
+		"name": "No Chat Reports",
+		"version": "1.20.1-v2.2.2",
+		"description": "Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account, as well as use Player Chat Reporting feature.",
+		"authors": "Aizistral",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/no-chat-reports",
+		"issue_tracker": "https://github.com/Aizistral-Studios/No-Chat-Reports/issues",
+		"license": "WTFPL"
+	},
+	{
+		"id": "shouldersurfing",
+		"name": "Shoulder Surfing Reloaded",
+		"version": "1.20.1-4.7.0",
+		"description": "Shoulder Surfing Reloaded is a highly configurable third person camera mod for minecraft, originally made by Sabar.",
+		"authors": "Exopandora",
+		"homepage": "https://github.com/Exopandora/ShoulderSurfing",
+		"license": "MIT"
+	},
+	{
+		"id": "ohthetreesyoullgrow",
+		"name": "Oh The Trees You'll Grow",
+		"version": "1.20.1-1.3.4",
+		"description": "A Minecraft library that aims to give users incredible configurability by allowing the creation of trees with Minecraft's structure template `.nbt` files.",
+		"authors": "Corgi Taco",
+		"homepage": "https://curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow",
+		"issue_tracker": "https://github.com/CorgiTaco/Oh-The-Trees-Youll-Grow/issues",
+		"license": "LGPLv3"
+	},
+	{
+		"id": "cleanswing",
+		"name": "Clean Swing Through Grass",
+		"version": "1.8",
+		"description": "Cleanly swing your sword through Grass",
+		"authors": "Raycoms",
+		"license": "GPL3"
+	},
+	{
+		"id": "spectrelib",
+		"name": "SpectreLib",
+		"version": "0.13.17+1.20.1",
+		"description": "Cross-platform library for Illusive Soulworks mods.",
+		"authors": "Illusive Soulworks",
+		"homepage": "https://github.com/illusivesoulworks/spectrelib",
+		"issue_tracker": "https://github.com/illusivesoulworks/spectrelib/issues",
+		"license": "LGPL-2.1-only"
+	},
+	{
+		"id": "corgilib",
+		"name": "CorgiLib",
+		"version": "4.0.3.3",
+		"description": "Library with handy utilities.",
+		"authors": "Corgi Taco",
+		"homepage": "https://github.com/CorgiTaco/CorgiLib",
+		"issue_tracker": "https://github.com/CorgiTaco/CorgiLib/issues",
+		"license": "LGPLv3"
+	},
+	{
+		"id": "kotlinforforge",
+		"name": "Kotlin For Forge",
+		"version": "4.11.0",
+		"description": "Makes Kotlin forge-friendly",
+		"authors": "thedarkcolour",
+		"license": "LGPL"
+	},
+	{
+		"id": "dimdungeons",
+		"name": "Dimensional Dungeons",
+		"version": "194",
+		"description": "This mod implements limitless proceedurally generated dungeons! These dungeons are placed in their own single dimension. Hence the name: Dimensional Dungeons.",
+		"authors": "Catastrophe573",
+		"issue_tracker": "https://github.com/AllenSeitz/DimDungeons/issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "pipez",
+		"name": "Pipez",
+		"version": "1.20.1-1.2.16",
+		"description": "Simple and efficient pipes",
+		"authors": "Max Henkel",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/pipez",
+		"issue_tracker": "https://github.com/henkelmax/pipez/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "notenoughanimations",
+		"name": "NotEnoughAnimations",
+		"version": "1.9.0",
+		"description": "Adding and improving animations in Third-Person.",
+		"authors": "tr7zw",
+		"homepage": "https://modrinth.com/mod/not-enough-animations",
+		"issue_tracker": "https://github.com/tr7zw/NotEnoughAnimations/issues",
+		"license": "tr7zw Protective License"
+	},
+	{
+		"id": "flywheel",
+		"name": "Flywheel",
+		"version": "0.6.11-13",
+		"description": "A modern engine for modded minecraft.",
+		"authors": "Jozufozu, PepperCode1",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/flywheel",
+		"issue_tracker": "https://github.com/Jozufozu/Flywheel/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "integrateddynamics",
+		"name": "IntegratedDynamics",
+		"version": "1.25.0",
+		"description": "Take full and automated control of your appliances.",
+		"issue_tracker": "https://github.com/CyclopsMC/IntegratedDynamics/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "adventuresmod",
+		"name": "Adventurer's Beyond",
+		"version": "1.20.1-1.1.2",
+		"description": "A mod that adds new biomes, dungeons, dimensions, blocks and much more! A grand Journey awaits you, all you need to do is take the first step...",
+		"authors": "J677",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "thermal_cultivation",
+		"name": "Thermal Cultivation",
+		"version": "11.0.1",
+		"description": "Thermal gets agrarian!\n\nContains the \"farm\" of the Thermal Series - various crops, foods, and associated gadgetry.",
+		"authors": "King Lemming",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "polymorph",
+		"name": "Polymorph",
+		"version": "0.49.8+1.20.1",
+		"description": "No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.",
+		"authors": "Illusive Soulworks",
+		"issue_tracker": "https://github.com/illusivesoulworks/polymorph/issues",
+		"license": "LGPL-3.0-or-later"
+	},
+	{
+		"id": "integratedterminalscompat",
+		"name": "IntegratedTerminalsCompat",
+		"version": "1.6.3",
+		"description": "Integrated Terminals compatibility with other mods. This mod is automatically packaged with Integrated Terminals.",
+		"issue_tracker": "https://github.com/CyclopsMC/IntegratedTerminals/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "zeta",
+		"name": "Zeta",
+		"version": "1.0-24",
+		"description": "A fully featured Library designed around loading highly configurable, agile developed. modular mods",
+		"authors": "Vazkii, quat, IThundxr, siuol, wiresegal, MehVahdJukaar",
+		"issue_tracker": "https://github.com/VazkiiMods/Zeta",
+		"license": "https://github.com/VazkiiMods/Zeta/blob/master/LICENSE.md"
+	},
+	{
+		"id": "entityculling",
+		"name": "EntityCulling",
+		"version": "1.7.2",
+		"description": "This mod uses async path-tracing to hide Tiles/Entities that are not visible.",
+		"authors": "tr7zw",
+		"homepage": "https://modrinth.com/mod/entityculling",
+		"issue_tracker": "https://github.com/tr7zw/EntityCulling/issues",
+		"license": "tr7zw Protective License"
+	},
+	{
+		"id": "tfcweldbutton",
+		"name": "TFC Weld Button",
+		"version": "1.1",
+		"description": "TFC Weld Button",
+		"authors": "HermitOwO",
+		"license": "MIT"
+	},
+	{
+		"id": "immediatelyfast",
+		"name": "ImmediatelyFast",
+		"version": "1.3.3+1.20.4",
+		"description": "Speed up and optimize immediate mode rendering in Minecraft",
+		"authors": "RK_01",
+		"issue_tracker": "https://github.com/RaphiMC/ImmediatelyFast/issues",
+		"license": "LGPL-3.0"
+	},
+	{
+		"id": "kubejs_create",
+		"name": "KubeJS Create",
+		"version": "2001.2.5-build.2",
+		"description": "KubeJS Create integration",
+		"authors": "LatvianModder",
+		"issue_tracker": "https://kubejs.com/support?source=kubejs_create&mc=2001&loader=forge",
+		"license": "GNU LGPLv3"
+	},
+	{
+		"id": "fastfurnace",
+		"name": "FastFurnace",
+		"version": "8.0.2",
+		"description": "Furnacing things faster, performance-wise",
+		"license": "MIT License"
+	},
+	{
+		"id": "trom",
+		"name": "The Rise Of Minerals",
+		"version": "1.3.4",
+		"description": "This mod add some minerals,weapons,armors and bosse",
+		"authors": "shuixingshow, Jin13583, Vzling",
+		"license": "MIT License"
+	},
+	{
+		"id": "appleskin",
+		"name": "AppleSkin",
+		"version": "2.5.1+mc1.20.1",
+		"description": "Adds various food-related HUD improvements",
+		"authors": "squeek",
+		"homepage": "https://github.com/squeek502/AppleSkin",
+		"issue_tracker": "https://github.com/squeek502/AppleSkin",
+		"license": "The Unlicense"
+	},
+	{
+		"id": "integratedtunnelscompat",
+		"name": "IntegratedTunnels-Compat",
+		"version": "1.8.33",
+		"description": "Integrated Tunnels compatibility with other mods.",
+		"issue_tracker": "https://github.com/CyclopsMC/IntegratedTunnels/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "lootr",
+		"name": "Lootr",
+		"version": "0.7.35.90",
+		"description": "Makes loot chest loot per-user.",
+		"authors": "Noobanidus",
+		"homepage": "https://minecraft.curseforge.com/projects/lootr",
+		"issue_tracker": "https://github.com/noobanidus/Lootr/issues",
+		"license": "https://github.com/noobanidus/Lootr/blob/1.16/LICENSE"
+	},
+	{
+		"id": "occultism",
+		"name": "Occultism",
+		"version": "1.140.2",
+		"description": "A magic mod inspired by the world of Jonathan Stroud's Bartimaeus. With the help of occult rituals players can summon entities from the \"Other Side\" to perform magic.",
+		"authors": "Kli Kli",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/occultism",
+		"issue_tracker": "https://github.com/klikli-dev/occultism/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "modernui",
+		"name": "Modern UI",
+		"version": "3.11.1.1",
+		"description": "Modern desktop framework from low-level 3D graphics API to high-level view model, for development of 2D/3D rendering software or game engine, with internationalization support and many new technologies.\nModern UI is a desktop application framework designed for standalone 2D and 3D rendering software development. It makes use of modern 3D graphical APIs and technologies to provide high real-time rendering performance. For good measure, Modern UI improves and optimizes a set of features used by Android and its own set of internationalization supporting text layout engine meeting Unicode specification.\nThis version is an official version that extends to Minecraft and Forge, which combines Modern UI with Minecraft and provides a large number of additional features and modding APIs.",
+		"authors": "BloCamLimb",
+		"homepage": "https://curseforge.com/minecraft/mc-mods/modern-ui",
+		"issue_tracker": "https://github.com/BloCamLimb/ModernUI/issues",
+		"license": "LGPL-3.0-or-later"
+	},
+	{
+		"id": "puzzleslib",
+		"name": "Puzzles Lib",
+		"version": "8.1.25",
+		"description": "Why's it called Puzzles you ask? That's the puzzle!",
+		"authors": "Fuzs",
+		"homepage": "https://github.com/Fuzss/puzzleslib",
+		"issue_tracker": "https://github.com/Fuzss/puzzleslib/issues",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "aquaculture",
+		"name": "Aquaculture 2",
+		"version": "2.5.3",
+		"description": "Welcome to Aquaculture! An expansion of Minecraft's fishing system.",
+		"authors": "Shadowclaimer, Girafi",
+		"homepage": "https://minecraft.curseforge.com/projects/aquaculture",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "emi_ores",
+		"name": "EMI Ores",
+		"version": "1.2+1.20.1+forge",
+		"description": "Easily view ore generation information from inside EMI.",
+		"authors": "Abbie",
+		"homepage": "https://modrinth.com/mod/emi-ores",
+		"issue_tracker": "https://github.com/Abbie5/emi-ores/issues",
+		"license": "LGPL-3.0-only"
+	},
+	{
+		"id": "cosmeticarmorreworked",
+		"name": "CosmeticArmorReworked",
+		"version": "1.20.1-v1a",
+		"description": "This mod allows you to wear two sets of armor, one for display, one for function. You can also hide armor for your skin. For PVP, you can stop the mod from functioning on your client side.",
+		"authors": "zlainsama",
+		"license": "Minecraft Mod Public License 1.0.1"
+	},
+	{
+		"id": "deuf",
+		"name": "DEUF - Duplicate Entity UUID Fix",
+		"version": "1.20.1-1.3",
+		"description": "Changes UUIDs of loaded Entities in case their UUIDs are already assigned (and removes log spam).",
+		"authors": "CAS_ual_TY",
+		"homepage": "https://github.com/CAS-ual-TY/DuplicateEntityUUIDFix",
+		"issue_tracker": "https://github.com/CAS-ual-TY/DuplicateEntityUUIDFix/issues",
+		"license": "MIT License"
+	},
+	{
+		"id": "forestry",
+		"name": "Forestry",
+		"version": "2.2.3",
+		"description": "Trees, bees and more.",
+		"authors": "SirSengir, mezz, Nedelosk, thedarkcolour",
+		"homepage": "https://github.com/thedarkcolour/ForestryCE",
+		"issue_tracker": "https://github.com/thedarkcolour/ForestryCE/issues",
+		"license": "GNU Lesser Public License v3"
+	},
+	{
+		"id": "aquamirae",
+		"name": "Aquamirae",
+		"version": "6.API15",
+		"description": "Ship graveyard with terrible deep sea creatures.",
+		"authors": "Obscuria, Pluvia",
+		"license": "Obscuria Lithium (c) 2023, All Rights Reserved."
+	},
+	{
+		"id": "ad_astra",
+		"name": "Ad Astra",
+		"version": "1.15.19",
+		"description": "Live long and prosper, Ad Astra!",
+		"authors": "Alex Nijjar",
+		"homepage": "https://modrinth.com/mod/ad-astra",
+		"issue_tracker": "https://github.com/terrarium-earth/ad-astra/issues",
+		"license": "Terrarium License"
+	},
+	{
+		"id": "cyclopscore",
+		"name": "Cyclops Core",
+		"version": "1.19.5",
+		"description": "Coremod for Integrated Dynamics, EvilCraft and others.",
+		"issue_tracker": "https://github.com/CyclopsMC/CyclopsCore/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "kuma_api",
+		"name": "KumaAPI",
+		"version": "20.1.9-SNAPSHOT",
+		"description": "Processes main resources.",
+		"authors": "BlayTheNinth",
+		"homepage": "https://mods.twelveiterations.com/mc/kuma",
+		"issue_tracker": "https://github.com/TwelveIterationMods/Kuma/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "embeddiumplus",
+		"name": "Embeddium++",
+		"version": "1.2.13",
+		"description": "The most reliable extension for Embeddium, providing performance features and quality options.",
+		"authors": "SrRapero720",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/embeddiumplus",
+		"issue_tracker": "https://github.com/SrRapero720/EmbeddiumPlus/issues",
+		"license": "All-Rights-Reserved"
+	},
+	{
+		"id": "waterflasks",
+		"name": "TFC Water Flasks",
+		"version": "3.0.5",
+		"description": "Water Flasks for TerraFirmaCraft! Updated for 1.20.1, this mod is inspired by the original Leather Water Sac mod.",
+		"authors": "Gaelmare",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/water-flasks",
+		"license": "GPL3"
+	},
+	{
+		"id": "netherportalfix",
+		"name": "NetherPortalFix",
+		"version": "13.0.1",
+		"description": "Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.",
+		"authors": "BlayTheNinth",
+		"homepage": "https://mods.twelveiterations.com/mc/netherportalfix",
+		"issue_tracker": "https://github.com/TwelveIterationMods/NetherPortalFix/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "geckolib",
+		"name": "GeckoLib 4",
+		"version": "4.7",
+		"description": "GeckoLib is an animation engine for Minecraft Mods, with support for complex 3D keyframe-based animations, 30+ easings, concurrent animation support, sound and particle keyframes, event keyframes, and more.",
+		"authors": "Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin",
+		"homepage": "http://geckolib.com/",
+		"issue_tracker": "https://github.com/bernie-g/geckolib/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "illagerinvasion",
+		"name": "Illager Invasion",
+		"version": "8.0.6",
+		"description": "The illagers are back! Be ready to fight new foes. A port of Illager Expansion.",
+		"authors": "Dricky, Safro, Zeckemith, Fuzs",
+		"homepage": "https://github.com/Fuzss/illagerinvasion",
+		"issue_tracker": "https://github.com/Fuzss/illagerinvasion/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "betteroceanmonuments",
+		"name": "YUNG's Better Ocean Monuments",
+		"version": "1.20-Forge-3.0.4",
+		"description": "A complete redesign of Minecraft's ocean monuments!",
+		"authors": "YUNGNICKYOUNG, Tera",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments",
+		"issue_tracker": "https://github.com/yungnickyoung/YUNGs-Better-Ocean-Monuments/issues",
+		"license": "LGPLv3"
+	},
+	{
+		"id": "connectivity",
+		"name": "Connectivity Mod",
+		"version": "1.20.1-6.5",
+		"description": "Lightweight mod which solves connection and packet size issues.",
+		"authors": "Someaddons",
+		"issue_tracker": "http://my.issue.tracker/",
+		"license": "ARR"
+	},
+	{
+		"id": "kubejsadditions",
+		"name": "KubeJS Addditions (Forge)",
+		"version": "4.3.3",
+		"description": "A mod that adds a bunch of additional features to KubeJS.",
+		"authors": "ILIKEPIEFOO2",
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/kubejs-additions",
+		"issue_tracker": "https://github.com/Hunter19823/kubejsadditions/issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "sophisticatedcore",
+		"name": "Sophisticated Core",
+		"version": "1.1.3.835",
+		"description": "Base mod of Sophisticated mods.",
+		"issue_tracker": "https://github.com/P3pp3rF1y/SophisticatedCore/issues",
+		"license": "GNU General Public License v3.0"
+	},
+	{
+		"id": "kleeslabs",
+		"name": "KleeSlabs",
+		"version": "15.0.1",
+		"description": "Break only the half of a double slab that you're looking at.",
+		"authors": "BlayTheNinth",
+		"homepage": "https://mods.twelveiterations.com/mc/kleeslabs",
+		"issue_tracker": "https://github.com/TwelveIterationMods/KleeSlabs/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "gpumemleakfix",
+		"name": "Gpu memory leak fix",
+		"version": "1.20.1-1.8",
+		"description": "Fixes some gpu memory leaks",
+		"authors": "Someaddon",
+		"license": "ARR"
+	},
+	{
+		"id": "findme",
+		"name": "FindMe",
+		"version": "3.2.1",
+		"description": "FindMe allows you to search for items in nearby inventories by pressing a key.\"",
+		"authors": "Buuz135",
+		"license": "MIT"
+	},
+	{
+		"id": "nanhealthfixer",
+		"name": "NaNHealthFixer",
+		"version": "1.20.1-0.0.1",
+		"description": "A Minecraft Mod.",
+		"authors": "TeamPotato",
+		"license": "MIT"
+	},
+	{
+		"id": "ktnilcks",
+		"name": "ItemLocks",
+		"version": "1.20.1-1.3.8",
+		"description": "Enables the client to lock slots to prevent accidental loss of items. Does not bypass server behavior.",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "controlling",
+		"name": "Controlling",
+		"version": "12.0.2",
+		"description": "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
+		"authors": "Jaredlll08",
+		"homepage": "https://minecraft.curseforge.com/projects/controlling",
+		"issue_tracker": "https://github.com/jaredlll08/Controlling/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "prism",
+		"name": "Prism",
+		"version": "1.0.5",
+		"description": "A library all about color! Provides lots of color-related functionality for dependent mods.",
+		"authors": "Grend",
+		"homepage": "https://anthonyhilyard.com/",
+		"license": "CC BY-NC-ND 4.0"
+	},
+	{
+		"id": "placebo",
+		"name": "Placebo",
+		"version": "8.6.2",
+		"description": "1 (one) library boi",
+		"license": "MIT License"
+	},
+	{
+		"id": "citadel",
+		"name": "Citadel",
+		"version": "2.6.1",
+		"description": "A shared code library for many of Alexthe666's mods. Code used from LLibrary with permission.",
+		"authors": "Alexthe666",
+		"homepage": "https://github.com/Alex-the-666/Citadel",
+		"issue_tracker": "https://github.com/Alex-the-666/Citadel/issues",
+		"license": "GNU LESSER GENERAL PUBLIC LICENSE"
+	},
+	{
+		"id": "emi_loot",
+		"name": "EMI Loot",
+		"version": "0.7.4+1.20.1+forge",
+		"description": "Plugin for EMI that shows chest loot, block drops, mob drops, and gameplay loot like fishing.",
+		"authors": "fzzyhmstrs, lxly9 (art), unilock (ports)",
+		"homepage": "https://github.com/fzzyhmstrs/EMI_loot",
+		"issue_tracker": "https://github.com/fzzyhmstrs/EMI_loot/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "mixinextras",
+		"name": "MixinExtras",
+		"version": "0.4.1",
+		"description": "Companion library to Mixin with lots of features to improve the compatibility and concision of your mixins!",
+		"authors": "LlamaLad7",
+		"homepage": "https://github.com/LlamaLad7/MixinExtras",
+		"license": "MIT"
+	},
+	{
+		"id": "emitrades",
+		"name": "EMI Trades",
+		"version": "1.2.1+mc1.20.1",
+		"description": "Villager trades for EMI.",
+		"authors": "Prismwork, Flamarine",
+		"issue_tracker": "https://github.com/Prismwork/EMITrades/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "bookshelf",
+		"name": "Bookshelf",
+		"version": "20.2.13",
+		"description": "A library for building other mods.",
+		"authors": "Darkhax",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+		"issue_tracker": "https://github.com/Darkhax-Minecraft/Bookshelf/issues",
+		"license": "LGPL V2.1"
+	},
+	{
+		"id": "sophisticatedbackpacks",
+		"name": "Sophisticated Backpacks",
+		"version": "3.22.1.1167",
+		"description": "Fancy and functional backpacks.",
+		"issue_tracker": "https://github.com/P3pp3rF1y/SophisticatedBackpacks/issues",
+		"license": "GNU General Public License v3.0"
+	},
+	{
+		"id": "uteamcore",
+		"name": "U Team Core",
+		"version": "5.1.4.346",
+		"description": "Join our discord server here: https://discord.hycrafthd.net\n\nThis library contains many useful modding stuff!",
+		"authors": "HyCraftHD, MrTroble",
+		"homepage": "https://u-team.info/mods/uteamcore",
+		"issue_tracker": "https://github.com/MC-U-Team/U-Team-Core/issues",
+		"license": "Apache-2.0 License"
+	},
+	{
+		"id": "umapyoi",
+		"name": "Umapyoi",
+		"version": "1.7.39-1.20.1",
+		"description": "(On your marks  Get set…  Go!)\nOoooooooooh  (horsey-buds!) Oooooooh  (horsey-hop! horsey-hop!)\nHorsey horsey meowsy meowsy  3 2 1  Fight!!",
+		"authors": "Tracen Academy Minecraft Group",
+		"license": "MIT License"
+	},
+	{
+		"id": "ftbteams",
+		"name": "FTB Teams",
+		"version": "2001.3.0",
+		"description": "FTB Teams adds ability to create your own teams that can be used for quests etc.",
+		"authors": "FTB Team",
+		"issue_tracker": "https://go.ftb.team/support-mod-issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "fzzy_config",
+		"name": "Fzzy Config",
+		"version": "0.6.0+1.20.1+forge",
+		"description": "Configuration engine with automatic GUI generation, client-server syncing, powerful validation and error handling, and much more.",
+		"authors": "fzzyhmstrs",
+		"issue_tracker": "https://github.com/fzzyhmstrs/fconfig/issues",
+		"license": "TDL-M (https://github.com/fzzyhmstrs/Timefall-Development-Licence-Modified)"
+	},
+	{
+		"id": "dummmmmmy",
+		"name": "MmmMmmMmmmmm",
+		"version": "1.20-2.0.2",
+		"description": "don't hurt me pls :S",
+		"authors": "MehVahdJukaar, Bonusboni",
+		"issue_tracker": "https://github.com/MehVahdJukaar/DuMmmMmmy/issues",
+		"license": "Supplementaries Team License"
+	},
+	{
+		"id": "farmersdelight",
+		"name": "Farmer's Delight",
+		"version": "1.20.1-1.2.6",
+		"description": "A cozy farming and cooking expansion for Minecraft!",
+		"authors": "vectorwing",
+		"homepage": "https://github.com/vectorwing/FarmersDelight",
+		"issue_tracker": "https://github.com/vectorwing/FarmersDelight/issues",
+		"license": "MIT License"
+	},
+	{
+		"id": "mr_cobblemon_legendarystructures",
+		"name": "Cobblemon: Legendary Structures",
+		"version": "2.0",
+		"description": "Adds legendary pokemon & their structures.",
+		"authors": "TSFlareon",
+		"homepage": "https://modrinth.com/datapack/cobblemon-legendary-structures",
+		"license": "MIT"
+	},
+	{
+		"id": "commoncapabilities",
+		"name": "CommonCapabilities",
+		"version": "2.9.4",
+		"description": "Forge Capabilities that can be shared by multiple mods.",
+		"issue_tracker": "https://github.com/CyclopsMC/CommonCapabilities/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "simpletms",
+		"name": "Cobblemon: Simple TM's",
+		"version": "1.1.2",
+		"description": "Brings TM's and TR's to Cobblemon",
+		"authors": "Dragomordor",
+		"license": "MIT"
+	},
+	{
+		"id": "cobbledex",
+		"name": "Cobbledex",
+		"version": "1.1.0",
+		"description": "A mod to track your progress on Cobblemon. Fabric and Forge compatible.",
+		"issue_tracker": "https://github.com/rafacasari/cobbledex/issues",
+		"license": "CC-BY-NC-4.0"
+	},
+	{
+		"id": "chunky",
+		"name": "Chunky",
+		"version": "1.3.146",
+		"description": "Pre-generates chunks, quickly, efficiently, and safely",
+		"authors": "pop4959",
+		"homepage": "https://github.com/pop4959/Chunky",
+		"issue_tracker": "https://github.com/pop4959/Chunky/issues",
+		"license": "GNU GPLv3"
+	},
+	{
+		"id": "lionfishapi",
+		"name": "LionfishAPI",
+		"version": "2.4",
+		"description": "HELLO",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "bountiful",
+		"name": "Bountiful",
+		"version": "6.0.4+1.20.1",
+		"description": "Bountiful adds bounty boards to the world.",
+		"authors": "Ejektaflex",
+		"license": "GPL 3.0"
+	},
+	{
+		"id": "leaky",
+		"name": "leaky mod",
+		"version": "1.20.1-2.1",
+		"description": "Your friendly leaking farm detector",
+		"authors": "Someaddon",
+		"license": "ARR"
+	},
+	{
+		"id": "precisionprospecting",
+		"name": "Precision Prospecting",
+		"version": "1.20.1-1.0.0",
+		"description": "Adding new prospecting tools",
+		"authors": "NotEnoughMail",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/precision-prospecting",
+		"issue_tracker": "https://github.com/Notenoughmail/precision-prospecting/issues",
+		"license": "EUPLv1.2"
+	},
+	{
+		"id": "cataclysm",
+		"name": "Cataclysm Mod",
+		"version": "2.38",
+		"description": "Hello\nAlso Listen Cataclysmic Tunes\nhttps://www.curseforge.com/minecraft/texture-packs/cataclysmic-tunes\nArtist=dogulkkun,mango03034,Gytator,LegendNoob\nPatron\n[Adam,\nAngry Mutant Enderman,\ndarkMind204,\nDENOBODY2,\nHippo0824,\nprinta,\nwalker,\n참치,\n3T,\ndanimodder,\nEternalOne,\nKarat Feng,\nlucy,\nnameed,\nPeopleMcNugget,\nqwerqweqq,\nSvmf2023,\nTh3P3dr3nder99]",
+		"authors": "L_Ender",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "patchouli",
+		"name": "Patchouli",
+		"version": "1.20.1-84-FORGE",
+		"description": "Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers",
+		"authors": "Vazkii",
+		"issue_tracker": "https://github.com/VazkiiMods/Patchouli",
+		"license": "CC BY-NC-SA 3.0"
+	},
+	{
+		"id": "collective",
+		"name": "Collective",
+		"version": "7.87",
+		"description": "Collective is a shared library with common code for all of Serilum's mods.",
+		"authors": "Rick South",
+		"homepage": "https://serilum.com/mod/collective",
+		"issue_tracker": "https://github.com/Serilum/.issue-tracker/labels/Library:%20Collective",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "rftoolsstorage",
+		"name": "RFToolsStorage",
+		"version": "1.20-5.0.3",
+		"description": "Everything related to storage",
+		"issue_tracker": "http://github.com/McJtyMods/RFToolsStorage/issues",
+		"license": "MIT License https://github.com/McJtyMods/RFToolsStorage/blob/1.16/LICENCE"
+	},
+	{
+		"id": "thermal_expansion",
+		"name": "Thermal Expansion",
+		"version": "11.0.1",
+		"description": "Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!\n\nContains the \"factory\" of the Thermal Series - Dynamos and Machines to both produce and process.",
+		"authors": "King Lemming",
+		"homepage": "https://teamcofh.com/",
+		"issue_tracker": "https://github.com/cofh/feedback",
+		"license": "CoFH - Don't Be A Jerk (Learn, Don't Steal)"
+	},
+	{
+		"id": "integratedtunnels",
+		"name": "IntegratedTunnels",
+		"version": "1.8.33",
+		"description": "Transfer other stuff over Integrated Dynamics networks.",
+		"issue_tracker": "https://github.com/CyclopsMC/IntegratedTunnels/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "elevatorid",
+		"name": "Elevator Mod",
+		"version": "1.20.1-1.9",
+		"description": "Simple port of the elevator from OpenBlocks to 1.8+",
+		"authors": "VsnGamer",
+		"homepage": "https://minecraft.curseforge.com/projects/openblocks-elevator/",
+		"issue_tracker": "https://github.com/VsnGamer/ElevatorMod/issues/",
+		"license": "MIT"
+	},
+	{
+		"id": "ftbultimine",
+		"name": "FTB Ultimine",
+		"version": "2001.1.5",
+		"description": "Allows you to break multiple blocks at once",
+		"authors": "FTB Team",
+		"issue_tracker": "https://go.ftb.team/support-mod-issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "resourcefullib",
+		"name": "Resourceful Lib",
+		"version": "2.1.29",
+		"description": "Team Resourceful Library",
+		"authors": "ThatGravyBoat, Epic_Oreo",
+		"issue_tracker": "https://github.com/Team-Resourceful/ResoucefulLib/issues/new/choose",
+		"license": "MIT"
+	},
+	{
+		"id": "deeperdarker",
+		"name": "Deeper and Darker",
+		"version": "1.3.3",
+		"description": "A Minecraft mod featuring new blocks, items, armor, and hidden mysteries to complement the Deep Dark.",
+		"authors": "Kyanite Team",
+		"issue_tracker": "https://github.com/KyaniteMods/DeeperAndDarker/issues",
+		"license": "AGPL-3.0"
+	},
+	{
+		"id": "architectury",
+		"name": "Architectury",
+		"version": "9.2.14",
+		"description": "A intermediary api aimed to ease developing multiplatform mods.",
+		"authors": "shedaniel",
+		"issue_tracker": "https://github.com/shedaniel/architectury/issues",
+		"license": "GNU LGPLv3"
+	},
+	{
+		"id": "computercraft",
+		"name": "CC: Tweaked",
+		"version": "1.113.1",
+		"description": "CC: Tweaked is a fork of ComputerCraft, adding programmable computers, turtles and more to Minecraft.",
+		"authors": "Daniel Ratcliffe, Aaron Mills, SquidDev",
+		"homepage": "https://tweaked.cc",
+		"issue_tracker": "https://github.com/cc-tweaked/CC-Tweaked/issues",
+		"license": "ComputerCraft Public License (https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE)"
+	},
+	{
+		"id": "cupboard",
+		"name": "Cupboard utilities",
+		"version": "1.20.1-2.7",
+		"description": "Cupboard mod providing utilities",
+		"authors": "Someaddon",
+		"license": "ARR"
+	},
+	{
+		"id": "aqua_creepers",
+		"name": "AquaCreepers",
+		"version": "3.0.0",
+		"description": "A mod to add more danger to the high seas.",
+		"authors": "vadis365",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "enchanted",
+		"name": "Enchanted",
+		"version": "3.1.3",
+		"description": "Enchanted is your mod for all things occult or witchcraft.",
+		"authors": "Favouriteless",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/enchanted-witchcraft",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "stateobserver",
+		"name": "StateObserver",
+		"version": "1.4.3",
+		"description": "Observing blockstate changes over a large area without a performance hit.",
+		"authors": "Favouriteless",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/stateobserver",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "polylib",
+		"name": "PolyLib",
+		"version": "2000.0.3-build.143",
+		"authors": "CreeperHost",
+		"issue_tracker": "https://github.com/CreeperHost/PolyLib/issues",
+		"license": "Insert License Here"
+	},
+	{
+		"id": "tradingpost",
+		"name": "Trading Post",
+		"version": "8.0.2",
+		"description": "Rule the village! Trade with every villager at once!",
+		"authors": "Fuzs",
+		"homepage": "https://github.com/Fuzss/tradingpost",
+		"issue_tracker": "https://github.com/Fuzss/tradingpost/issues",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "tfcoreprocessing",
+		"name": "Ore Processing for TFC",
+		"version": "1.1.0.1",
+		"description": "This mod allows you to increase the yield per ore by a lenghty chain of processes, each increasing slightly up to 2.5 times the original capacity!",
+		"authors": "JPAN",
+		"license": "MIT"
+	},
+	{
+		"id": "betteradvancements",
+		"name": "Better Advancements",
+		"version": "0.4.2.25",
+		"description": "Improvements to the advancements screen.",
+		"authors": "way2muchnoise",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/better-advancements",
+		"issue_tracker": "https://github.com/https://github.com/way2muchnoise/BetterAdvancements/issues",
+		"license": "\"Don't Be a Jerk\" non-commercial care-free license"
+	},
+	{
+		"id": "rhino",
+		"name": "Rhino",
+		"version": "2001.2.3-build.6",
+		"description": "A fork of Mozilla's Rhino library, modified for use in mods",
+		"authors": "latvian.dev, Mozilla",
+		"issue_tracker": "https://github.com/KubeJS-Mods/Rhino/issues",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "jmi",
+		"name": "JourneyMap Integration",
+		"version": "1.20.1-0.14-48",
+		"description": "The mod that adds mod integration for JourneyMap.",
+		"authors": "frankV",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/journeymap-integration",
+		"issue_tracker": "https://github.com/frank89722/JourneyMapIntegration/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "biomemakeover",
+		"name": "Biome Makeover",
+		"version": "1.20.1-1.11.4",
+		"description": "Biome Makeover is a mod designed to update vanilla's biomes.",
+		"authors": "LASERKNIGHTS",
+		"license": "Custom"
+	},
+	{
+		"id": "amendments",
+		"name": "Amendments",
+		"version": "1.20-1.2.14",
+		"description": "Many tweaks to Vanilla Blocks",
+		"authors": "MehVahdJukaar",
+		"issue_tracker": "https://github.com/MehVahdJukaar/amendments/issues",
+		"license": "Supplementaries Team License v.1.1"
+	},
+	{
+		"id": "sophisticatedstorage",
+		"name": "Sophisticated Storage",
+		"version": "1.1.4.1021",
+		"description": "Fancy and functional storage containers.",
+		"issue_tracker": "https://github.com/P3pp3rF1y/SophisticatedStorage/issues",
+		"license": "GNU General Public License v3.0"
+	},
+	{
+		"id": "elysium_api",
+		"name": "Elysium",
+		"version": "1.0.2",
+		"description": "Elysium is a Library Mod full of various Java and Data-Driven Utilities to help both Mod Developers and Modpack Creators",
+		"authors": "ThatJadenXgamer",
+		"license": "GNU-LESSER-GENERAL-PUBLIC-LICENSE"
+	},
+	{
+		"id": "easymagic",
+		"name": "Easy Magic",
+		"version": "8.0.1",
+		"description": "Enchanting tables as they always should have been! Items stay after closing, and easy re-rolls.",
+		"authors": "Fuzs",
+		"homepage": "https://github.com/Fuzss/easymagic",
+		"issue_tracker": "https://github.com/Fuzss/easymagic/issues",
+		"license": "MPL-2.0"
+	},
+	{
+		"id": "itemfilters",
+		"name": "Item Filters",
+		"version": "2001.1.0-build.59",
+		"description": "Adds Item Filters that can be used in other mods to filter multiple items in devices",
+		"authors": "LatvianModder",
+		"issue_tracker": "https://github.com/LatvianModder/Item-Filters/issues",
+		"license": "GNU LGPLv3"
+	},
+	{
+		"id": "biomeswevegone",
+		"name": "Oh The Biomes We've Gone",
+		"version": "1.5.1",
+		"description": "Sequel to Oh The Biomes You'll Go, this mod adds a variety of new biomes to the game.",
+		"authors": "Joseph T. McQuigg (JT122406), AOCAWOL, YaBoiChips, Corgi Taco",
+		"homepage": "https://potionstudios.net/",
+		"issue_tracker": "https://github.com/Potion-Studios/Oh-The-Biomes-Weve-Gone/issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "xlpackets",
+		"name": "XL Packets",
+		"version": "1.18.2-2.1",
+		"description": "Mod to help clients connect to servers with large datapacks",
+		"authors": "Tfarecnim",
+		"license": "Unlicense"
+	},
+	{
+		"id": "obscure_api",
+		"name": "Obscure API",
+		"version": "15",
+		"description": "Heart of all Obscuria Collection mods.",
+		"authors": "Obscuria",
+		"license": "Obscuria Lithium (c) 2023, All Rights Reserved."
+	},
+	{
+		"id": "create",
+		"name": "Create",
+		"version": "0.5.1.j",
+		"description": "Technology that empowers the player.",
+		"authors": "simibubi",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/create",
+		"issue_tracker": "https://github.com/Creators-of-Create/Create/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "fastsuite",
+		"name": "Fast Suite",
+		"version": "5.0.1",
+		"description": "Introduces multithreading to the json recipe system.",
+		"license": "MIT License"
+	},
+	{
+		"id": "clumps",
+		"name": "Clumps",
+		"version": "12.0.0.4",
+		"description": "Clumps xp orbs together.",
+		"authors": "Jaredlll08",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/clumps",
+		"issue_tracker": "https://github.com/jaredlll08/Clumps/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "journeymap",
+		"name": "Journeymap",
+		"version": "5.10.3",
+		"description": "JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.20-1.9-SNAPSHOT. Built: 2024-10-06-18:58:23.",
+		"authors": "Techbrew, Mysticdrew",
+		"homepage": "http://journeymap.info",
+		"issue_tracker": "https://github.com/TeamJM/journeymap/issues",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "yungscavebiomes",
+		"name": "YUNG's Cave Biomes",
+		"version": "1.20.1-Forge-2.0.1",
+		"description": "Adds new vanilla+ cave biomes and underground content!",
+		"authors": "YUNGNICKYOUNG, HellionGames, Sully, LudoCrypt, Jasmine, K.jpg, Neko, Frenderman, Refresh Studios",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-cave-biomes",
+		"issue_tracker": "https://github.com/yungnickyoung/YUNGs-Cave-Biomes/issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "nuclearcraft",
+		"name": "Nuclearcraft Neoteric",
+		"version": "1.1.5",
+		"description": "A complex nuclear engineering mod for Minecraft",
+		"authors": "igentuman",
+		"license": "MIT"
+	},
+	{
+		"id": "tumbleweed",
+		"name": "Tumbleweed",
+		"version": "0.5.5",
+		"description": "Tumbleweeds spawn around dead bushes in deserts. They drop random goodies upon destroying.",
+		"authors": "konwboy",
+		"license": "GNU LGPLv3"
+	},
+	{
+		"id": "artifacts",
+		"name": "Artifacts",
+		"version": "9.5.13",
+		"description": "Adds various new powerful uncraftable items to make exploration a bit more interesting",
+		"authors": "ochotonida",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/artifacts",
+		"issue_tracker": "https://github.com/ochotonida/artifacts/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "itemborders",
+		"name": "Item Borders",
+		"version": "1.2.2",
+		"description": "Adds colored borders around items to indicate rarity.",
+		"authors": "Grend",
+		"homepage": "https://anthonyhilyard.com/",
+		"license": "CC BY-NC-ND 4.0"
+	},
+	{
+		"id": "beneath",
+		"name": "Beneath",
+		"version": "1.0.3",
+		"description": "An addon for TFC.",
+		"authors": "EERussianguy",
+		"license": "MIT"
+	},
+	{
+		"id": "ftbbackups2",
+		"name": "FTB Backups 2",
+		"version": "1.0.23",
+		"description": "Backup all the things!",
+		"authors": "CreeperHost",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "mcjtylib",
+		"name": "McJtyLib",
+		"version": "1.20-8.0.6",
+		"description": "Base mod for all McJty mods",
+		"issue_tracker": "http://github.com/McJtyMods/McJtyLib/issues",
+		"license": "MIT License https://github.com/McJtyMods/McJtyLib/blob/1.18/LICENCE"
+	},
+	{
+		"id": "integrateddynamicscompat",
+		"name": "IntegratedDynamics-Compat",
+		"version": "1.25.0",
+		"description": "Integrated Dynamics compatibility with other mods.",
+		"issue_tracker": "https://github.com/CyclopsMC/IntegratedDynamics/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "distanthorizons",
+		"name": "Distant Horizons",
+		"version": "2.2.1-a",
+		"description": "This mod generates and renders simplified terrain beyond the normal view distance at a low performance cost. Allowing you to see much farther without turning your game into a slideshow.",
+		"authors": "[James Seibel, Leonardo Amato, Cola, coolGi, Ran, Leetom]",
+		"homepage": "https://modrinth.com/mod/distanthorizons",
+		"issue_tracker": "https://gitlab.com/jeseibel/distant-horizons/-/issues",
+		"license": "LGPL"
+	},
+	{
+		"id": "ftbchunks",
+		"name": "FTB Chunks",
+		"version": "2001.3.4",
+		"description": "Claim chunks to protect your base from griefers!",
+		"authors": "FTB Team",
+		"issue_tracker": "https://go.ftb.team/support-mod-issues",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "slashblade_addon",
+		"name": "SlashBlade Japanese Addon Pack: Resharpened",
+		"version": "1.1.8",
+		"description": "Ferne&Furia",
+		"authors": "MMF-Group",
+		"license": "MIT License"
+	},
+	{
+		"id": "brandonscore",
+		"name": "Brandon's Core",
+		"version": "3.2.1.302",
+		"authors": "brandon3055",
+		"license": "CoFH \"Don't Be a Jerk\" License"
+	},
+	{
+		"id": "mcw_tfc_aio",
+		"name": "Macaw's All-In-One for TFC",
+		"version": "0.2.30-1.20.1",
+		"description": "Updates Macaw's Mods to include TerraFirmaCraft Blocks",
+		"authors": "ArcWolfGaming",
+		"license": "MIT"
+	},
+	{
+		"id": "reterraforged",
+		"name": "ReTerraForged",
+		"version": "0.0.6",
+		"description": "A continuation of https://github.com/TerraForged/TerraForged",
+		"authors": "dags,Won-Ton,raccoonman",
+		"homepage": "https://github.com/racoonman2/reterraforged/",
+		"license": "MIT"
+	},
+	{
+		"id": "coralstfc",
+		"name": "Corals TFC",
+		"version": "1.0.0",
+		"description": "MISSING DESCRIPTION",
+		"authors": "sirRobson",
+		"license": "Academic Free License v3.0"
+	},
+	{
+		"id": "enchdesc",
+		"name": "EnchantmentDescriptions",
+		"version": "17.1.19",
+		"description": "Adds descriptions of enchantments to their tooltip.",
+		"authors": "Darkhax",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions",
+		"issue_tracker": "https://github.com/Darkhax-Minecraft/Enchantment-Descriptions/issues",
+		"license": "LGPL V2.1"
+	},
+	{
+		"id": "moonlight",
+		"name": "Moonlight Library",
+		"version": "1.20-2.13.48",
+		"description": "A small library with many cool unique features, from dynamic asset generation to dynamic villager schedules and simple multi loader utilities",
+		"authors": "MehVahdJukaar",
+		"issue_tracker": "https://github.com/MehVahdJukaar/Moonlight/issues",
+		"license": "gplv3"
+	},
+	{
+		"id": "regions_unexplored",
+		"name": "Regions Unexplored",
+		"version": "0.5.6",
+		"description": "Regions Unexplored is a mod that aims to add new content to the overworld. Currently adds over 70 new biomes!",
+		"authors": "UHQ_GAMES",
+		"homepage": "https://discord.gg/Ss8UHPqHPj",
+		"license": "All rights reserved"
+	},
+	{
+		"id": "mysterious_mountain_lib",
+		"name": "Mysterious Mountain Lib",
+		"version": "1.5.17-1.20.1",
+		"description": "This is the library for Syameimaru Zheng's most of mods.\nThe most convenient library you will ever use.",
+		"authors": "Syameimaru Zheng",
+		"license": "MIT License"
+	},
+	{
+		"id": "cobblemontrainers",
+		"name": "CobblemonTrainers",
+		"version": "1.1.11+1.5.2",
+		"description": "Adds a trainer battle system to Cobblemon",
+		"authors": "selfdot",
+		"homepage": "https://github.com/davo899/CobblemonTrainers",
+		"issue_tracker": "https://github.com/davo899/CobblemonTrainers/issues",
+		"license": "Apache 2.0 with Commons Clause"
+	},
+	{
+		"id": "mixinsquared",
+		"name": "MixinSquared",
+		"version": "0.1.1",
+		"description": "Mixin library for mixin'ing into other mod's mixins",
+		"authors": "Bawnorton",
+		"homepage": "https://github.com/Bawnorton/MixinSquared",
+		"license": "MIT"
+	},
+	{
+		"id": "kubejs_tfc",
+		"name": "KubeJS TFC",
+		"version": "1.2.3",
+		"description": "KubeJS compatability for TFC",
+		"authors": "NotEnoughMail",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/kubejs-tfc",
+		"issue_tracker": "https://github.com/Notenoughmail/KubeJS-TFC/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "creativecore",
+		"name": "CreativeCore",
+		"version": "2.12.28",
+		"description": "A simple but powerful coremod.",
+		"authors": "CreativeMD",
+		"homepage": "https://modrinth.com/mod/creativecore",
+		"issue_tracker": "https://github.com/CreativeMD/CreativeCore/issues",
+		"license": "LGPL-3.0-only"
+	},
+	{
+		"id": "culllessleaves",
+		"name": "Cull Less Leaves Reforged",
+		"version": "1.20.1-1.0.5",
+		"description": "Cull leaves while looking hot!",
+		"authors": "CCr4ft3r (this port), isXander (original fabric version)",
+		"license": "GNU LGPL 3.0"
+	},
+	{
+		"id": "hardrock_samples",
+		"name": "HardRock Ore Samples",
+		"version": "1.0.0",
+		"description": "MISSING DESCRIPTION",
+		"authors": "sirRobson",
+		"homepage": "https://mcreator.net",
+		"license": "Academic Free License v3.0"
+	},
+	{
+		"id": "taniwha",
+		"name": "Taniwha",
+		"version": "1.20.0-5.4.4",
+		"description": "Library for LASER KNIGHTS mods (Biome Makeover)",
+		"authors": "Lemons",
+		"issue_tracker": "https://github.com/lemonszz/taniwha/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "nethersdelight",
+		"name": "Nether's Delight",
+		"version": "1.20.1-4.0",
+		"description": "A nether expansion for the Farmer's Delight mod!",
+		"authors": "Umpaz, SoyTutta",
+		"homepage": "https://github.com/Umpaz/NethersDelight",
+		"issue_tracker": "https://github.com/Umpaz/NethersDelight/issues",
+		"license": "MIT License"
+	},
+	{
+		"id": "smoothboot",
+		"name": "Smooth Boot (Reloaded)",
+		"version": "0.0.4",
+		"description": "Tweaks for Minecraft CPU scheduling.",
+		"authors": "AbdElAziz",
+		"homepage": "https://modrinth.com/mod/smooth-boot-reloaded",
+		"issue_tracker": "https://github.com/AbdElAziz333/Smooth-Boot-Reloaded/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "iceberg",
+		"name": "Iceberg",
+		"version": "1.1.25",
+		"description": "A library containing events, helpers, and utilities to make modding easier.",
+		"authors": "Grend",
+		"homepage": "https://anthonyhilyard.com/",
+		"license": "CC BY-NC-ND 4.0"
+	},
+	{
+		"id": "capture_xp",
+		"name": "Cobblemon Capture XP",
+		"version": "1.5-forge-1.0.1",
+		"description": "Grants EXP for your team when you capture a wild Pokemon",
+		"license": "MIT"
+	},
+	{
+		"id": "quark",
+		"name": "Quark",
+		"version": "4.0-460",
+		"description": "Small things, improving Minecraft bit by bit.",
+		"authors": "Vazkii, WireSegal, MCVinnyq, Sully",
+		"issue_tracker": "https://github.com/VazkiiMods/Quark",
+		"license": "https://github.com/VazkiiMods/Quark/blob/master/LICENSE.md"
+	},
+	{
+		"id": "mes",
+		"name": "Moog's End Structures",
+		"version": "1.3.4-1.20-forge",
+		"description": "80+ structures made with vanilla blocks and entities bringing life to your world!\nDiscover loot, enemies, & villagers along the way!\n\nJoin our community here: https://discord.gg/S5nffJbuvA",
+		"authors": "FinnDog",
+		"license": "GNU Lesser General Public License v3.0"
+	},
+	{
+		"id": "fastbench",
+		"name": "Fast Workbench",
+		"version": "8.0.4",
+		"description": "Speeding up crafting operations - massively.",
+		"license": "MIT License"
+	},
+	{
+		"id": "cobblepedia",
+		"name": "Cobblepedia",
+		"version": "0.6.8",
+		"description": "An in-game Poképedia wiki book for Cobblemon using Patchouli.",
+		"authors": "VinnyStalck",
+		"homepage": "https://modrinth.com/mod/cobblepedia",
+		"issue_tracker": "https://gitlab.com/VinnyStalck/knowlogy/issues",
+		"license": "GPL-3.0"
+	},
+	{
+		"id": "jecharacters",
+		"name": "Just Enough Characters",
+		"version": "4.5.11",
+		"description": "Pinyin search for JEI and more.",
+		"authors": "Towdium, yzl210, Death-123, vfyjxf_",
+		"homepage": "https://github.com/Towdium/JustEnoughCharacters",
+		"issue_tracker": "https://github.com/Towdium/JustEnoughCharacters/issues",
+		"license": "The MIT License (MIT)"
+	},
+	{
+		"id": "tfc_tumbleweed",
+		"name": "TFC Tumbleweed",
+		"version": "1.2.2",
+		"description": "Adds tumbleweed to deserts",
+		"authors": "Verph",
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/tfc-tumbleweed",
+		"license": "BSD 3"
+	},
+	{
+		"id": "betterarcheology",
+		"name": "Better Archeology",
+		"version": "1.2.1-1.20.1",
+		"description": "Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration!",
+		"authors": "Pandarix, Dunk3ll1cht",
+		"license": "MIT"
+	},
+	{
+		"id": "buildinggadgets2",
+		"name": "Building Gadgets 2",
+		"version": "1.0.7",
+		"description": "We can build it better, stronger, faster.",
+		"authors": "Direwolf20",
+		"homepage": "https://github.com/Direwolf20-MC/BuildingGadgets2",
+		"license": "MIT (https://github.com/Direwolf20-MC/BuildingGadgets2/blob/main/LICENSE)"
+	},
+	{
+		"id": "modonomicon",
+		"name": "Modonomicon",
+		"version": "1.77.5",
+		"description": "Data-driven minecraft in-game documentation with progress visualization.",
+		"authors": "Kli Kli",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/modonomicon",
+		"issue_tracker": "https://github.com/klikli-dev/modonomicon/issues",
+		"license": "MIT AND CC-BY-4.0"
+	},
+	{
+		"id": "coroutil",
+		"name": "CoroUtil",
+		"version": "1.20.1-1.3.7",
+		"description": "It utils",
+		"authors": "Corosus",
+		"license": "All Rights Reserved"
+	},
+	{
+		"id": "emi_enchanting",
+		"name": "EMI Enchanting",
+		"version": "0.1.2+1.20.1+forge",
+		"description": "Plugin for EMI that displays information about enchantments: how to find, what they can enchant, what enchants exclude them.",
+		"authors": "fzzyhmstrs",
+		"homepage": "https://github.com/fzzyhmstrs/EMI_enchanting",
+		"issue_tracker": "https://github.com/fzzyhmstrs/EMI_enchanting/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "ferritecore",
+		"name": "Ferrite Core",
+		"version": "6.0.1",
+		"description": "Reduces memory usage.",
+		"authors": "malte0811",
+		"license": "MIT"
+	},
+	{
+		"id": "firmalife",
+		"name": "Firmalife",
+		"version": "2.1.15",
+		"description": "An addon for TFC.",
+		"authors": "EERussianguy, Indi, Peffern, Lumintorious",
+		"license": "MIT"
+	},
+	{
+		"id": "betterf3",
+		"name": "BetterF3",
+		"version": "7.0.2",
+		"description": "Better F3 for Minecraft Forge\nReplaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.\n\nThe creator would like to thank:\n- cominixo for creating the Fabric version of the mod\n- Nirewen for creating the icon",
+		"authors": "TreyRuffy and cominixo",
+		"homepage": "https://modrinth.com/mod/betterf3",
+		"issue_tracker": "https://github.com/TreyRuffy/BetterF3/issues/",
+		"license": "MIT"
+	},
+	{
+		"id": "tfcvesseltooltip",
+		"name": "TFC Vessel Tooltip",
+		"version": "1.1",
+		"description": "TFC Vessel Tooltip",
+		"authors": "HermitOwO",
+		"license": "MIT"
+	},
+	{
+		"id": "packetfixer",
+		"name": "Packet Fixer",
+		"version": "1.4.3",
+		"description": "A simple mod to solve various problems with packets/NBT's.",
+		"authors": "TonimatasDEV",
+		"issue_tracker": "https://github.com/TonimatasDEV/PacketFixer/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "tfchotornot",
+		"name": "TFC Hot or Not",
+		"version": "1.0.13",
+		"description": "It burns!",
+		"authors": "Verph",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/tfc-hot-or-not",
+		"license": "BSD 3"
+	},
+	{
+		"id": "expandability",
+		"name": "ExpandAbility",
+		"version": "9.0.4",
+		"description": "Library mod that provides increased control over vanilla abilities",
+		"authors": "Florens",
+		"issue_tracker": "https://github.com/florensie/expandability/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "overloadedarmorbar",
+		"name": "Overloaded Armor Bar",
+		"version": "1.20.1-1",
+		"description": "Enhanced armor bar rendering for armor levels above diamond",
+		"authors": "Tfarecnim, LocusWay",
+		"issue_tracker": "https://github.com/Tfarcenim/OverloadedArmorBar/issues",
+		"license": "MIT"
+	},
+	{
+		"id": "betterfoliage",
+		"name": "Better Foliage",
+		"version": "5.0.2",
+		"description": "A slim port of Better Foliage for 1.16 and beyond.\n\nMost changes are configurable via resource pack.",
+		"authors": "EERussianguy, PaintNinja",
+		"homepage": "https://github.com/eerussianguy/Better-Foliage",
+		"issue_tracker": "https://github.com/eerussianguy/Better-Foliage/issues",
+		"license": "MIT License"
+	}
+]

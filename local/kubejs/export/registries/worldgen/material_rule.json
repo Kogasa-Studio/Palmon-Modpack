@@ -1,0 +1,11 @@
+{
+	"minecraft:bandlands": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"reterraforged:strata": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:condition": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"terrablender:merged": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"biomeswevegone:state_provider": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:sequence": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:block": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"biomeswevegone:bands": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"biomeswevegone:between_repeating_noise_range": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

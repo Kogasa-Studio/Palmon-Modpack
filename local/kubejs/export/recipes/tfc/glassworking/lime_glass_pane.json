@@ -1,0 +1,14 @@
+{
+	"type": "tfc:glassworking",
+	"operations": [
+		"iron",
+		"soda_ash",
+		"table_pour"
+	],
+	"batch": {
+		"tag": "tfc:glass_batches_tier_2"
+	},
+	"result": {
+		"item": "tfc:lime_poured_glass"
+	}
+}

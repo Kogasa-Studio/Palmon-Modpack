@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/cobble/basalt"
+	},
+	"result": "tfc:rock/cobble/basalt_stairs",
+	"count": 1
+}

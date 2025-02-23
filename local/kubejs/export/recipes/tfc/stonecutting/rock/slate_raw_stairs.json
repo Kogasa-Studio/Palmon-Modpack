@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/raw/slate"
+	},
+	"result": "tfc:rock/raw/slate_stairs",
+	"count": 1
+}

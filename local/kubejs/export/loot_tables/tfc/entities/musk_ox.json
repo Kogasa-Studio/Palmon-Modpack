@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "tfc:animal_yield",
+								"min": 6.0,
+								"max": {
+									"type": "minecraft:uniform",
+									"min": 13.0,
+									"max": 19.0
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "tfc:food/mutton"
+				}
+			]
+		},
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone"
+				}
+			]
+		},
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tfc:large_sheepskin_hide"
+				}
+			]
+		}
+	]
+}

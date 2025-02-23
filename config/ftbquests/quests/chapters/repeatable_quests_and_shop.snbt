@@ -1,0 +1,298 @@
+{
+	autofocus_id: "101ADB161EA2DD61"
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	default_repeatable_quest: true
+	filename: "repeatable_quests_and_shop"
+	group: "7360FAFDFF512F43"
+	icon: "enchanted:circle_talisman"
+	id: "6C3C1C6F8F585FE4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			id: "101ADB161EA2DD61"
+			rewards: [{
+				id: "182F0D3999995D72"
+				item: "ftbquests:screen_1"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "此章内的大多任务都可重复交付 | Most of the quests from this chapter can be repeated. "
+			tasks: [{
+				id: "687F513A0F414533"
+				type: "checkmark"
+			}]
+			title: "重复任务 | Repeatable Quests"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["63DD760BF006099A"]
+			icon: "minecraft:netherrack"
+			id: "5700DBF8E6793DFB"
+			rewards: [{
+				auto: "invisible"
+				id: "117DAB93F2E2D30C"
+				ignore_reward_blocking: true
+				stage: "the_nether"
+				team_reward: false
+				type: "gamestage"
+			}]
+			subtitle: "再次获得下界通行证，用于进入下界"
+			tasks: [{
+				id: "7EC218734FD9C21C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/wrought_iron"
+				}
+				type: "item"
+			}]
+			title: "下界通行证"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6DD40C570E6A6B3C"]
+			icon: "minecraft:grass_block"
+			id: "07A57FF379E8D9CF"
+			rewards: [{
+				auto: "invisible"
+				id: "7739DAD0AA11FCC3"
+				ignore_reward_blocking: true
+				stage: "overworld_item"
+				type: "gamestage"
+			}]
+			subtitle: "再次获得现世祝福，用于解除一些物品的限制"
+			tasks: [{
+				id: "54004C6B02929476"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/steel"
+				}
+				type: "item"
+			}]
+			title: "现世祝福"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			id: "0B1E307D391B0FA7"
+			rewards: [{
+				id: "2BA719ACA4654B51"
+				item: "thermal:signalum_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "在这里，你可以使用一些材料来抽取不同的道具 \\n | \\nHere you can use some materials to get different items"
+			tasks: [{
+				id: "74281ACD84CE2832"
+				type: "checkmark"
+			}]
+			title: "商店 | Shop"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "confluence:terraspark_boots"
+				tag: { }
+			}
+			id: "09DE04DCF75F0496"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7110BF6FE4F2C815"
+				table_id: 7787811987843285123L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 14L
+				id: "1DE9C09877AC85C4"
+				item: { Count: 14, id: "thermal:enderium_coin" }
+				type: "item"
+			}]
+			title: "泰拉饰品抽奖"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "artifacts:cross_necklace"
+			id: "373DE75DB7AE561A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "575115E7AC63CDAA"
+				table_id: 1651636410828424531L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 18L
+				id: "25FE0D6E66338347"
+				item: { Count: 18, id: "thermal:enderium_coin" }
+				type: "item"
+			}]
+			title: "奇异饰品抽奖"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "674FBFBE257EA0EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "105F57EEC3D74385"
+				table_id: 2481234720497206951L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1596E919656A583E"
+				item: { Count: 8, id: "thermal:enderium_coin" }
+				type: "item"
+			}]
+			title: "标准池抽奖"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "6CBCBBBC53D4EE90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "587A6B58EDE30856"
+				table_id: 2481234720497206951L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 9L
+				id: "5129BEB2CD30047A"
+				item: { Count: 9, id: "thermal:enderium_coin" }
+				type: "item"
+			}]
+			title: "混沌池抽奖"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "7E1AD678E73FCEEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39567B7F26B2431B"
+				table_id: 8696909402506609895L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 36L
+				id: "2DFBE0A95E5CA502"
+				item: { Count: 48, id: "thermal:enderium_coin" }
+				type: "item"
+			}]
+			title: "专注池抽奖"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "78D43025B8DDA7E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1286FAC7670E1BC6"
+				table_id: 8195339452082541807L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "120CA82D7A51FD92"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "限定池抽奖"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "497DA3AFBE949F85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3389762B5187E27B"
+				table_id: 8195339452082541807L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6ABE332512397B58"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "限定池自选"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "6A689BAA0FBC9CA0"
+			tasks: [{
+				count: 96L
+				id: "5BBCA0A8703FE6D6"
+				item: { Count: 96, id: "thermal:enderium_coin" }
+				type: "item"
+			}]
+			title: "专注池自选"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "2729755EF2088E3E"
+			rewards: [{
+				id: "5885F8F168098915"
+				item: "cobgyms:lesser_cache"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "76ACA7CD5E044DDE"
+				item: { Count: 12, id: "thermal:signalum_coin" }
+				type: "item"
+			}]
+			title: "宝可梦抽奖1"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "5377DC80FF91D428"
+			rewards: [{
+				id: "32A7D4F13BAA93A3"
+				item: "cobgyms:adept_cache"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "44297B7AD631D167"
+				item: { Count: 36, id: "thermal:signalum_coin" }
+				type: "item"
+			}]
+			title: "宝可梦抽奖2"
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+	title: "重复任务 | Repeatable Quests"
+}

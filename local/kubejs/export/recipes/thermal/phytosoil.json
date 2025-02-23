@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"C": {
+			"item": "minecraft:charcoal"
+		},
+		"P": {
+			"item": "thermal:phytogro"
+		},
+		"X": {
+			"item": "minecraft:dirt"
+		}
+	},
+	"pattern": [
+		"CPC",
+		"PXP",
+		"CPC"
+	],
+	"result": {
+		"item": "thermal:phytosoil"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "occultism:blocks/otherstone_pedestal",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "occultism:otherstone_pedestal"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

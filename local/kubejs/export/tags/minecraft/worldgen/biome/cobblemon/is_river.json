@@ -1,0 +1,8 @@
+[
+	"#minecraft:is_river",
+	"biomesoplenty:floodplain?",
+	"terralith:warm_river?",
+	"tfc:river",
+	"wythers:guelta?",
+	"wythers:tropical_forest_river?"
+]

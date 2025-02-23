@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "forestry:blocks/arboretum_manual",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "forestry:arboretum_manual"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

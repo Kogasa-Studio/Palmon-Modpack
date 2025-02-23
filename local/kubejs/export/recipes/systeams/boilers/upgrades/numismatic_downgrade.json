@@ -1,0 +1,15 @@
+{
+	"type": "systeams:upgrade_shapeless",
+	"ingredients": [
+		{
+			"item": "systeams:numismatic_boiler"
+		},
+		{
+			"item": "thermal:rf_coil"
+		}
+	],
+	"result": {
+		"item": "thermal:dynamo_numismatic"
+	},
+	"replacement": "systeams:boiler_pipe"
+}

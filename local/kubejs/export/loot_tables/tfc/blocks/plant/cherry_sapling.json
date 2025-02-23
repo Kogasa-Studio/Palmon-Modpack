@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:plant/cherry_sapling",
+									"properties": {
+										"saplings": "1"
+									}
+								}
+							],
+							"count": 1.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:plant/cherry_sapling",
+									"properties": {
+										"saplings": "2"
+									}
+								}
+							],
+							"count": 2.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:plant/cherry_sapling",
+									"properties": {
+										"saplings": "3"
+									}
+								}
+							],
+							"count": 3.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:plant/cherry_sapling",
+									"properties": {
+										"saplings": "4"
+									}
+								}
+							],
+							"count": 4.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "tfc:plant/cherry_sapling"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

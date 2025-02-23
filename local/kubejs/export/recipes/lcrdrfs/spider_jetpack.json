@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" H ",
+		"LCL",
+		"   "
+	],
+	"key": {
+		"C": {
+			"item": "lcrdrfs:jetpack"
+		},
+		"L": {
+			"item": "lcrdrfs:creepssile_bazookoid"
+		},
+		"H": {
+			"item": "minecraft:diamond_helmet"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:spider_jetpack"
+	}
+}

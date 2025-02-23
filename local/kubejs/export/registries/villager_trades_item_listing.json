@@ -1,0 +1,7 @@
+{
+	"corgilib:items_for_emeralds": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:treasure_map_for_emeralds": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:suspicious_stew_for_emerald": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:emerald_for_items": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:items_and_emeralds_to_items": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

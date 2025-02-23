@@ -1,0 +1,23 @@
+{
+	"yungsapi:max_count_list_element": "com.yungnickyoung.minecraft.yungsapi.module.StructurePoolElementTypeModule$$Lambda/0x000002beba00a778",
+	"minecraft:empty_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x000002beb9c6f5a8",
+	"repurposed_structures:mirroring_single_pool_element": "com.telepathicgrunt.repurposedstructures.modinit.RSStructurePieces$$Lambda/0x000002bebdbb6688",
+	"mes:legacy_ocean_bottom_single_pool_element": "com.finndog.mes.modinit.MESStructurePieces$$Lambda/0x000002bebdbb7530",
+	"illagerinvasion:legacy_single_pool_element": "fuzs.illagerinvasion.init.ModRegistry$$Lambda/0x000002bebdbb7100",
+	"repurposed_structures:legacy_ocean_bottom_single_pool_element": "com.telepathicgrunt.repurposedstructures.modinit.RSStructurePieces$$Lambda/0x000002bebdbb68a0",
+	"mes:mirroring_single_pool_element": "com.finndog.mes.modinit.MESStructurePieces$$Lambda/0x000002bebdbb7318",
+	"yungsapi:yung_single_element": "com.yungnickyoung.minecraft.yungsapi.module.StructurePoolElementTypeModule$$Lambda/0x000002beba00ed10",
+	"minecraft:legacy_single_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x000002beb9c6f5a8",
+	"illagerinvasion:single_pool_element": "fuzs.illagerinvasion.init.ModRegistry$$Lambda/0x000002bebdbb6ee8",
+	"minecraft:list_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x000002beb9c6f5a8",
+	"minecraft:feature_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x000002beb9c6f5a8",
+	"yungsapi:max_count_single_element": "com.yungnickyoung.minecraft.yungsapi.module.StructurePoolElementTypeModule$$Lambda/0x000002beb9ffc628",
+	"yungsapi:max_count_legacy_single_element": "com.yungnickyoung.minecraft.yungsapi.module.StructurePoolElementTypeModule$$Lambda/0x000002beb9ffe290",
+	"yungsapi:yung_feature_element": "com.yungnickyoung.minecraft.yungsapi.module.StructurePoolElementTypeModule$$Lambda/0x000002beba0127e8",
+	"cataclysm:cataclysm_element": "com.github.L_Ender.cataclysm.init.ModJigsaw$$Lambda/0x000002bebe707510",
+	"formations:single_pool_element": "com.supermartijn642.formations.FormationsStructures$$Lambda/0x000002bebdbb6ab8",
+	"yungsapi:max_count_feature_element": "com.yungnickyoung.minecraft.yungsapi.module.StructurePoolElementTypeModule$$Lambda/0x000002beba002958",
+	"forestry:apiarist": "forestry.apiculture.features.ApicultureFeatures$$Lambda/0x000002bebdbb6cd0",
+	"structure_gel:gel_single_pool_element": "com.legacy.structure_gel.core.registry.SGRegistry$JigsawDeserializers$$Lambda/0x000002bebdbb6470",
+	"minecraft:single_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x000002beb9c6f5a8"
+}

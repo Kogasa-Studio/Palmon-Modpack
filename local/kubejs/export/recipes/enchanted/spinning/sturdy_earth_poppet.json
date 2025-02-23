@@ -1,0 +1,20 @@
+{
+	"type": "enchanted:wheel",
+	"duration": 300,
+	"ingredients": [
+		{
+			"item": "enchanted:sturdy_poppet"
+		},
+		{
+			"item": "enchanted:mandrake_root"
+		},
+		{
+			"item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+		}
+	],
+	"power": 1000,
+	"result": {
+		"item": "enchanted:sturdy_earth_poppet"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "forestry:blocks/sequoia_fence",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "forestry:sequoia_fence"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

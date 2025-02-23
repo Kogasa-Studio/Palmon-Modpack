@@ -1,0 +1,20 @@
+{
+	"type": "farmersdelight:cooking",
+	"container": {
+		"item": "minecraft:bowl"
+	},
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredients": [
+		{
+			"item": "biomeswevegone:green_mushroom"
+		},
+		{
+			"item": "biomeswevegone:green_mushroom"
+		}
+	],
+	"recipe_book_tab": "meals",
+	"result": {
+		"item": "otbwgdelight:green_mushroom_stew"
+	}
+}

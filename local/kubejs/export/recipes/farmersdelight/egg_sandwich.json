@@ -1,0 +1,35 @@
+{
+	"type": "tfc:damage_inputs_shapeless_crafting",
+	"recipe": {
+		"type": "minecraft:crafting_shapeless",
+		"ingredients": [
+			{
+				"type": "tfc:not_rotten",
+				"ingredient": {
+					"tag": "forge:bread"
+				}
+			},
+			{
+				"type": "tfc:not_rotten",
+				"ingredient": {
+					"tag": "forge:cooked_eggs"
+				}
+			},
+			{
+				"type": "tfc:not_rotten",
+				"ingredient": {
+					"tag": "forge:cooked_eggs"
+				}
+			},
+			{
+				"tag": "tfc:knives"
+			}
+		],
+		"result": {
+			"item": "farmersdelight:egg_sandwich"
+		},
+		"modifiers": [
+			"tfc:copy_food"
+		]
+	}
+}

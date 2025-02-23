@@ -1,0 +1,25 @@
+{
+	"type": "farmersdelight:cooking",
+	"container": {
+		"item": "minecraft:stick"
+	},
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredients": [
+		{
+			"item": "biomeswevegone:firecracker_flower_bush"
+		},
+		{
+			"item": "biomeswevegone:firecracker_flower_bush"
+		},
+		{
+			"item": "minecraft:ice"
+		},
+		{
+			"item": "minecraft:sugar"
+		}
+	],
+	"result": {
+		"item": "otbwgdelight:firecracker_ice_cream"
+	}
+}

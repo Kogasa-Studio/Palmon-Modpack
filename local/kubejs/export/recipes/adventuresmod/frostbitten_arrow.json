@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:enchanted_shards"
+		},
+		"X": {
+			"item": "minecraft:arrow"
+		}
+	},
+	"pattern": [
+		" # ",
+		"#X#",
+		" # "
+	],
+	"result": {
+		"count": 2,
+		"item": "adventuresmod:frostbitten_arrow"
+	},
+	"show_notification": true
+}

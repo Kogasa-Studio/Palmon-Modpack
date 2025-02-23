@@ -1,0 +1,8 @@
+[
+	"#c:deep_ocean?",
+	"#c:ocean?",
+	"#c:shallow_ocean?",
+	"#forge:is_ocean?",
+	"#minecraft:is_deep_ocean",
+	"#minecraft:is_ocean"
+]

@@ -1,0 +1,20 @@
+[
+	"alexscaves:boundroid?",
+	"alexscaves:boundroid_winch?",
+	"alexscaves:ferrouslime?",
+	"alexscaves:magnetron?",
+	"alexscaves:moving_metal_block?",
+	"alexscaves:notot?",
+	"alexscaves:teletor?",
+	"forge:minecarts?",
+	"minecraft:chest_minecart",
+	"minecraft:command_block_minecart",
+	"minecraft:furnace_minecart",
+	"minecraft:hopper_minecart",
+	"minecraft:iron_golem",
+	"minecraft:item",
+	"minecraft:minecart",
+	"minecraft:minecarts?",
+	"minecraft:spawner_minecart",
+	"minecraft:tnt_minecart"
+]

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WGW"
+	],
+	"key": {
+		"G": {
+			"item": "tfc:glue"
+		},
+		"W": {
+			"item": "tfc:wood/stripped_log/mangrove"
+		}
+	},
+	"result": {
+		"item": "tfc:wood/axle/mangrove",
+		"count": 4
+	}
+}

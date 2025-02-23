@@ -1,0 +1,15 @@
+{
+	"type": "tfc:knapping",
+	"knapping_type": "tfc:clay",
+	"outside_slot_required": true,
+	"pattern": [
+		"XXXXX",
+		"XX XX",
+		"X   X",
+		"X   X",
+		"X   X"
+	],
+	"result": {
+		"item": "tfc:ceramic/unfired_bell_mold"
+	}
+}

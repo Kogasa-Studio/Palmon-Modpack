@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 4,
+	"ingredient": {
+		"item": "adventuresmod:cut_shattered_silver"
+	},
+	"result": "adventuresmod:cut_shattered_silver_stairs"
+}

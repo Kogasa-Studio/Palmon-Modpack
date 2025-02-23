@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomeswevegone:blocks/weeping_milkcap",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomeswevegone:weeping_milkcap"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

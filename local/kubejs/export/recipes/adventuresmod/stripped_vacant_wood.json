@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:stripped_vacant_log"
+		}
+	},
+	"pattern": [
+		"##",
+		"##"
+	],
+	"result": {
+		"count": 3,
+		"item": "adventuresmod:stripped_vacant_wood"
+	},
+	"show_notification": true
+}

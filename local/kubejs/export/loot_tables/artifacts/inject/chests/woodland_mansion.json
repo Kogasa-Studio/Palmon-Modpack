@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/chests/woodland_mansion",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "artifacts:chorus_totem"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "artifacts:artifact"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:artifact_rarity_adjusted_chance",
+					"default_probability": 0.4
+				}
+			]
+		}
+	]
+}

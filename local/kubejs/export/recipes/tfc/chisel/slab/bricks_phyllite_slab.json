@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/bricks/phyllite",
+	"result": "tfc:rock/bricks/phyllite_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/bricks/phyllite_slab"
+	}
+}

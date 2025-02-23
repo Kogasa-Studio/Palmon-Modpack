@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "enchanted:blocks/witch_cauldron",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "enchanted:witch_cauldron"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

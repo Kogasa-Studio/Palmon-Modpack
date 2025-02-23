@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/andesite"
+	},
+	"result": "tfc:rock/bricks/andesite_slab",
+	"count": 2
+}

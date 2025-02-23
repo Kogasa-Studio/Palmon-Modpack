@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "umapyoi:blocks/skill_learning_table",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "umapyoi:skill_learning_table"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

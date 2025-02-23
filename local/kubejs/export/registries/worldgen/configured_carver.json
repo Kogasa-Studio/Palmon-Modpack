@@ -1,0 +1,13 @@
+{
+	"tfc:canyon": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"ad_astra:moon_crater": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"adventuresmod:mythica_cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:cave_extra_underground": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:nether_cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"deeperdarker:low_cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"deeperdarker:cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:canyon": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"biomesoplenty:origin_cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"tfc:cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver"
+}

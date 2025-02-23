@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.7,
+	"group": "vilenite_ingot",
+	"ingredient": {
+		"item": "adventuresmod:raw_vilenite"
+	},
+	"result": "adventuresmod:vilenite_ingot"
+}

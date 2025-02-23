@@ -1,0 +1,66 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:plant/white_cedar_krummholz",
+									"properties": {
+										"tip": "true"
+									}
+								},
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "tfc:axes"
+									}
+								}
+							],
+							"name": "tfc:plant/white_cedar_krummholz"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.02
+								}
+							],
+							"name": "tfc:wood/sapling/white_cedar"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 1.0,
+										"max": 3.0
+									},
+									"add": false
+								}
+							],
+							"name": "minecraft:stick"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

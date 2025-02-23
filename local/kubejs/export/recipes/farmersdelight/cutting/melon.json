@@ -1,0 +1,23 @@
+{
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "tfc:melon"
+			}
+		}
+	],
+	"tool": {
+		"tag": "forge:tools/knives"
+	},
+	"result": [
+		{
+			"item": "minecraft:melon_slice",
+			"count": 4,
+			"modifiers": [
+				"tfc:copy_food"
+			]
+		}
+	]
+}

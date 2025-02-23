@@ -1,0 +1,37 @@
+{
+	icon: "kubejs:miniature_galaxy"
+	id: "40416FC595F37E78"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "limit"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "focus"
+				}
+			}
+			weight: 9.0f
+		}
+	]
+	title: "异界遗物-高级专注池"
+}

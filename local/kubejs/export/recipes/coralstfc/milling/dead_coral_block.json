@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
+	],
+	"type": "create:milling",
+	"ingredients": [
+		{
+			"tag": "forge:dead_coral_block"
+		}
+	],
+	"results": [
+		{
+			"item": "coralstfc:coral_powder",
+			"count": 4
+		}
+	],
+	"processingTime": 400
+}

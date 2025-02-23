@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:twisted_bone"
+		},
+		"A": {
+			"item": "adventuresmod:aquatic_debris"
+		},
+		"C": {
+			"item": "minecraft:copper_ingot"
+		}
+	},
+	"pattern": [
+		" AC",
+		" #A",
+		"#  "
+	],
+	"result": {
+		"item": "adventuresmod:conjurer_trident"
+	},
+	"show_notification": true
+}

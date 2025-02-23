@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "minecraft:archaeology/desert_well"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "betterarcheology:artifact_shards"
+				}
+			]
+		}
+	]
+}

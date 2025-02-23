@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"tag": "forge:crops/spinach"
+		},
+		"I": {
+			"item": "thermal:spinach"
+		}
+	},
+	"pattern": [
+		"###",
+		"#I#",
+		"###"
+	],
+	"result": {
+		"item": "thermal:spinach_block"
+	},
+	"show_notification": true
+}

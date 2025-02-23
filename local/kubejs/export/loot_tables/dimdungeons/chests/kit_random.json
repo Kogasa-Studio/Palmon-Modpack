@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"name": "dimdungeons:kit_random",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 1.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdungeons:chests/kit_food"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdungeons:chests/kit_concrete"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdungeons:chests/kit_glass"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdungeons:chests/kit_redstone"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdungeons:chests/kit_wool"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdungeons:chests/kit_pottery"
+				}
+			]
+		}
+	]
+}

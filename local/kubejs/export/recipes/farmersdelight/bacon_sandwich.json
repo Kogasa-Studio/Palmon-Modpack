@@ -1,0 +1,41 @@
+{
+	"type": "tfc:damage_inputs_shapeless_crafting",
+	"recipe": {
+		"type": "minecraft:crafting_shapeless",
+		"ingredients": [
+			{
+				"type": "tfc:not_rotten",
+				"ingredient": {
+					"tag": "forge:bread"
+				}
+			},
+			{
+				"type": "tfc:not_rotten",
+				"ingredient": {
+					"tag": "forge:cooked_bacon"
+				}
+			},
+			{
+				"tag": "tfc:knives"
+			},
+			{
+				"type": "tfc:not_rotten",
+				"ingredient": {
+					"item": "farmersdelight:cabbage_leaf"
+				}
+			},
+			{
+				"type": "tfc:not_rotten",
+				"ingredient": {
+					"tag": "forge:vegetables/tomato"
+				}
+			}
+		],
+		"result": {
+			"item": "farmersdelight:bacon_sandwich"
+		},
+		"modifiers": [
+			"tfc:copy_food"
+		]
+	}
+}

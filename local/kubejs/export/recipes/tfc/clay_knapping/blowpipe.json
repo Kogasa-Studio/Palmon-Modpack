@@ -1,0 +1,15 @@
+{
+	"type": "tfc:knapping",
+	"knapping_type": "tfc:clay",
+	"outside_slot_required": false,
+	"pattern": [
+		" X X ",
+		" X X ",
+		" XXX ",
+		" XXX ",
+		" XXX "
+	],
+	"result": {
+		"item": "tfc:ceramic/unfired_blowpipe"
+	}
+}

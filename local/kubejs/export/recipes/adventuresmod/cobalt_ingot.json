@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "adventuresmod:cobalt_nugget"
+		}
+	},
+	"result": {
+		"item": "adventuresmod:cobalt_ingot"
+	},
+	"show_notification": true
+}

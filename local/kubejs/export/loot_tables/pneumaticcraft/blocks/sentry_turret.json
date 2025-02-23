@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "pneumaticcraft:blocks/sentry_turret",
+	"pools": [
+		{
+			"name": "sentry_turret",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_name",
+							"source": "block_entity"
+						},
+						{
+							"function": "pneumaticcraft:te_serializer"
+						}
+					],
+					"name": "pneumaticcraft:sentry_turret"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

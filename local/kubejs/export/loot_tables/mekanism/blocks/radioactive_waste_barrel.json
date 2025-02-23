@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "mekanism:blocks/radioactive_waste_barrel",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "GasTanks",
+									"target": "mekData.GasTanks",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "mekanism:radioactive_waste_barrel"
+				}
+			]
+		}
+	]
+}

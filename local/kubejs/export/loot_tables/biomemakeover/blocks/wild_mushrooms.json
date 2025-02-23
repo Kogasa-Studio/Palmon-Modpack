@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomemakeover:blocks/wild_mushrooms",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"items": [
+											"minecraft:shears"
+										]
+									}
+								}
+							],
+							"name": "biomemakeover:wild_mushrooms"
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "biomemakeover:blocks/wild_shrooms"
+						}
+					]
+				}
+			]
+		}
+	]
+}

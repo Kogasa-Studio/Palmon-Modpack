@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SWS",
+		"SRS",
+		"SWS"
+	],
+	"key": {
+		"S": {
+			"tag": "forge:rods/gold"
+		},
+		"W": {
+			"tag": "forge:rods/wooden"
+		},
+		"R": {
+			"tag": "forge:dusts/redstone"
+		}
+	},
+	"result": {
+		"item": "minecraft:powered_rail",
+		"count": 16
+	}
+}

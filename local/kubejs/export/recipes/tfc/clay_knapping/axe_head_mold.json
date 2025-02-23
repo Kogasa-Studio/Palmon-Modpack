@@ -1,0 +1,15 @@
+{
+	"type": "tfc:knapping",
+	"knapping_type": "tfc:clay",
+	"outside_slot_required": true,
+	"pattern": [
+		"X XXX",
+		"    X",
+		"     ",
+		"    X",
+		"X XXX"
+	],
+	"result": {
+		"item": "tfc:ceramic/unfired_axe_head_mold"
+	}
+}

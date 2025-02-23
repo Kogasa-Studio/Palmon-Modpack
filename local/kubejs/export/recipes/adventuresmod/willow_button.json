@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "redstone",
+	"group": "wooden_button",
+	"ingredients": [
+		{
+			"item": "adventuresmod:willow_planks"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:willow_button"
+	}
+}

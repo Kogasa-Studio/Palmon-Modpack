@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "redstone",
+	"group": "wooden_button",
+	"ingredients": [
+		{
+			"item": "adventuresmod:vacant_planks"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:vacant_button"
+	}
+}

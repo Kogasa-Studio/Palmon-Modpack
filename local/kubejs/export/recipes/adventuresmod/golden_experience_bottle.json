@@ -1,0 +1,12 @@
+{
+	"type": "adventuresmod:dragon_forging",
+	"base": {
+		"item": "adventuresmod:golden_bottle"
+	},
+	"infusion": {
+		"item": "minecraft:dragon_breath"
+	},
+	"result": {
+		"item": "adventuresmod:golden_experience_bottle"
+	}
+}

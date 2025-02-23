@@ -1,0 +1,16 @@
+[
+	"#minecraft:campfires",
+	"#minecraft:fire",
+	"firmalife:cured_oven_bottom?",
+	"firmalife:cured_rustic_oven_bottom?",
+	"firmalife:cured_stone_oven_bottom?",
+	"firmalife:cured_tile_oven_bottom?",
+	"firmalife:insulated_oven_bottom?",
+	"firmalife:insulated_rustic_oven_bottom?",
+	"firmalife:insulated_stone_oven_bottom?",
+	"firmalife:insulated_tile_oven_bottom?",
+	"minecraft:lava",
+	"minecraft:smoker",
+	"tfc:firepit",
+	"tfc:grill"
+]

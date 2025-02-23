@@ -1,0 +1,213 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16701501,CustomPotionEffects:[{Duration:2400,Id:24},{Amplifier:2,Duration:2400,Id:1},{Amplifier:1,Duration:2400,Id:23},{Amplifier:1,Duration:2400,Id:5},{Duration:2400,Id:9}],display:{Lore:['[\"\",{\"text\":\"Very scrumptious\",\"italic\":false,\"color\":\"#ffffcc\"}]'],Name:'[\"\",{\"text\":\"Piwko \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"Tesco\",\"italic\":false,\"color\":\"red\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:cake"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"unbreaking\",lvl:3}],display:{Name:'[\"\",{\"text\":\"A magical Carrot\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"<\",\"italic\":false}]'}}"
+						}
+					],
+					"name": "minecraft:golden_carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"lure\",lvl:3}],display:{Lore:['[\"\",{\"text\":\"Very delicious\",\"italic\":false,\"color\":\"#996600\"}]'],Name:'[\"\",{\"text\":\"An expired pringle\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+						}
+					],
+					"name": "minecraft:rabbit_foot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16351261,CustomPotionEffects:[{Amplifier:2,Duration:2400,Id:2},{Amplifier:9,Duration:2400,Id:23},{Amplifier:2,Duration:2400,Id:6}],display:{Lore:['[\"\",{\"text\":\"Provides you with 100,000 calories\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"CaseOh \",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"Drink\",\"italic\":false,\"color\":\"gold\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 5.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_beef"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_chicken"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_mutton"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:apple"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pumpkin_pie"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cookie"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 2.0,
+						"max": 6.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_salmon"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_porkchop"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 2.0,
+						"max": 6.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:1481884,CustomPotionEffects:[{Amplifier:2,Duration:3600,Id:11},{Amplifier:2,Duration:3600,Id:10},{Amplifier:2,Duration:3600,Id:18}],Enchantments:[{id:\"unbreaking\",lvl:3}],display:{Lore:['[\"\",{\"text\":\"A very sigma liquid\",\"italic\":false,\"color\":\"#666699\"}]'],Name:'[\"\",{\"text\":\"Sigma Potion\",\"italic\":false,\"color\":\"dark_aqua\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:11546150,CustomPotionEffects:[{Amplifier:1,Duration:1200,Id:19},{Amplifier:1,Duration:1200,Id:17}],Enchantments:[{id:\"unbreaking\",lvl:3}],display:{Lore:['[\"\",{\"text\":\"Quite a dangerous creature\",\"italic\":false,\"color\":\"dark_green\"}]'],Name:'[\"\",{\"text\":\"Gnome \",\"italic\":false,\"color\":\"red\"},{\"text\":\"in a bottle\",\"italic\":false,\"color\":\"green\"}]'}}"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16711424,CustomPotionEffects:[{Duration:1200,Id:16},{Amplifier:1,Duration:1200,Id:2},{Amplifier:2,Duration:1200,Id:18}],Enchantments:[{id:\"unbreaking\",lvl:3}],display:{Name:'[\"\",{\"text\":\"Piss in a Bottle\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		}
+	]
+}

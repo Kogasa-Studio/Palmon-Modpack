@@ -1,0 +1,475 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 3.0,
+				"max": 4.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bundle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:brush"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:clock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:compass"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:flint_and_steel"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 50.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:golden_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 50.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:stone_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 50.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_hoe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:shears"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:leather_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:golden_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:iron_horse_armor"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 0.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:host_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:shaper_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:raiser_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:wayfinder_armor_trim_smithing_template"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:crafting_table"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 6.0,
+								"max": 15.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone_meal"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:name_tag"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 32.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:brown_glazed_terracotta"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 32.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gray_glazed_terracotta"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 32.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:cyan_glazed_terracotta"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:sea_lantern"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:lapis_block"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:10329495,CustomPotionEffects:[{Amplifier:20,Duration:1200,Id:8},{Duration:1200,Id:28}],display:{Lore:['[\"\",{\"text\":\"A very skibidi potion\",\"italic\":false,\"color\":\"#ccffff\"}]'],Name:'[\"\",{\"text\":\"Bambik Potion\",\"italic\":false,\"color\":\"gray\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"blast_protection\",lvl:5},{id:\"infinity\",lvl:1}],Trim:{material:\"iron\",pattern:\"dune\"},display:{Lore:['[\"\",{\"text\":\"Protects you from\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"mind control \",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"and negative ions\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\" \",\"italic\":false}]'],Name:'[\"\",{\"text\":\"Tinfoil Hat\",\"italic\":false,\"bold\":true,\"color\":\"white\"}]'}}"
+						}
+					],
+					"name": "minecraft:chainmail_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:10329495,CustomPotionEffects:[{Duration:2400,Id:2},{Amplifier:2,Duration:2400,Id:17},{Amplifier:4,Duration:2400,Id:21}],Enchantments:[{id:\"unbreaking\",lvl:10}],display:{Lore:['[\"\",{\"text\":\"A potion from\",\"italic\":false,\"color\":\"#cccccc\"}]','[\"\",{\"text\":\"O Block\",\"italic\":false,\"color\":\"#cccccc\"}]'],Name:'[\"\",{\"text\":\"The Hood Potion\",\"italic\":false,\"color\":\"#ff9999\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
+				}
+			]
+		},
+		{
+			"name": "pool4",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:15961002,CustomPotionEffects:[{Duration:400,Id:9},{Duration:3600,Id:27},{Duration:3600,Id:22},{Duration:3600,Id:18}],Enchantments:[{id:\"unbreaking\",lvl:10}],display:{Lore:['[\"\",{\"text\":\"WoW thats a lot\",\"italic\":false,\"color\":\"#ffccff\"}]','[\"\",{\"text\":\"of power sir\",\"italic\":false,\"color\":\"#ffccff\"}]'],Name:'[\"\",{\"text\":\"Lobotomy \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Potion\",\"italic\":false,\"color\":\"light_purple\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
+				}
+			]
+		},
+		{
+			"name": "pool5",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"fortune\",lvl:7},{id:\"mending\",lvl:1},{id:\"sharpness\",lvl:7},{id:\"unbreaking\",lvl:10}],display:{Lore:['[\"\",{\"text\":\"World\\'s Strongest pickaxe\",\"italic\":false,\"color\":\"#ccffff\"}]'],Name:'[\"\",{\"text\":\"Gnome \",\"italic\":false,\"color\":\"green\"},{\"text\":\"Pickaxe\",\"italic\":false,\"color\":\"dark_green\"}]'}}"
+						}
+					],
+					"name": "minecraft:wooden_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"efficiency\",lvl:10},{id:\"unbreaking\",lvl:30}],display:{Lore:['[\"\",{\"text\":\"A pickaxe from\",\"italic\":false,\"color\":\"#ffffcc\"}]','[\"\",{\"text\":\"Yakub himself\",\"italic\":false,\"color\":\"#ffffcc\"}]'],Name:'[\"\",{\"text\":\"Yakubs \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"Pickaxe\",\"italic\":false,\"color\":\"gold\"}]'}}"
+						}
+					],
+					"name": "minecraft:golden_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"knockback\",lvl:5},{id:\"unbreaking\",lvl:5}],display:{Lore:['[\"\",{\"text\":\"The one and only\",\"italic\":false,\"color\":\"#ffffcc\"}]'],Name:'[\"\",{\"text\":\"Gordon Freemans crowbar\",\"italic\":false,\"color\":\"gold\"}]'}}"
+						}
+					],
+					"name": "minecraft:diamond_hoe"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
+				}
+			]
+		},
+		{
+			"name": "pool6",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{EntityTag:{CustomName:'[{\"text\":\"Nuklearna Bomba\",\"color\":\"red\"}]',CustomNameVisible:1b,ExplosionPower:100,id:\"fireball\"},display:{Lore:['[{\"text\":\"Use Respoinsibly\",\"italic\":false,\"color\":\"dark_red\"}]'],Name:'[{\"text\":\"Oppenheimers \",\"italic\":false,\"color\":\"red\"},{\"text\":\"Nuke\",\"color\":\"yellow\"}]'}}"
+						}
+					],
+					"name": "minecraft:mooshroom_spawn_egg"
+				}
+			]
+		}
+	]
+}

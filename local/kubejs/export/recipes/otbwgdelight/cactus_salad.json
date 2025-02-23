@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "biomeswevegone:mini_cactus"
+		},
+		{
+			"item": "biomeswevegone:mini_cactus"
+		},
+		{
+			"item": "minecraft:sugar"
+		}
+	],
+	"result": {
+		"item": "otbwgdelight:cactus_salad"
+	}
+}

@@ -1,0 +1,31 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:reinforced",
+            "level": 2
+        },
+        {
+            "name": "tconstruct:sturdy",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "name": "tconstruct:protection",
+                "level": 1
+            },
+            {
+                "name": "tconstruct:heavy",
+                "level": 1
+            },
+            {
+                "name": "tconstruct:necrotic",
+                "level": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"result": {
+		"item": "cobblemon:ancient_poke_ball",
+		"count": 1
+	},
+	"ingredients": [
+		[
+			{
+				"item": "cobblemon:ancient_poke_ball"
+			},
+			{
+				"item": "cobblemon:ancient_citrine_ball"
+			},
+			{
+				"item": "cobblemon:ancient_verdant_ball"
+			},
+			{
+				"item": "cobblemon:ancient_azure_ball"
+			},
+			{
+				"item": "cobblemon:ancient_roseate_ball"
+			},
+			{
+				"item": "cobblemon:ancient_slate_ball"
+			},
+			{
+				"item": "cobblemon:ancient_slate_ball"
+			}
+		]
+	]
+}

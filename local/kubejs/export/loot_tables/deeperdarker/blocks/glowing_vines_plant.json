@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deeperdarker:blocks/glowing_vines_plant",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deeperdarker:bloom_berries"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "deeperdarker:glowing_vines_plant",
+					"properties": {
+						"berries": "true"
+					}
+				}
+			]
+		}
+	]
+}

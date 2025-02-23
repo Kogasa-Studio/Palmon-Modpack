@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:eternal_powder"
+		},
+		"X": {
+			"item": "minecraft:arrow"
+		}
+	},
+	"pattern": [
+		" # ",
+		"#X#",
+		" # "
+	],
+	"result": {
+		"count": 2,
+		"item": "adventuresmod:void_tipped_arrow"
+	},
+	"show_notification": true
+}

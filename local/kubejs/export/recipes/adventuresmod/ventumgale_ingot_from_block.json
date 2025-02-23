@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "adventuresmod:ventumgale_block"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:ventumgale_ingot",
+		"count": 9
+	},
+	"show_notification": true
+}

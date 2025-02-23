@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:roseslate"
+		}
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"item": "adventuresmod:roseslate_slab"
+	},
+	"show_notification": true
+}

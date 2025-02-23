@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:alabaster/bricks/cyan"
+		}
+	},
+	"result": {
+		"item": "tfc:alabaster/bricks/cyan_wall",
+		"count": 6
+	}
+}

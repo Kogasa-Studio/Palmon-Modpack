@@ -1,0 +1,101 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:copper_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 35,
+					"name": "cobblemon:relic_coin"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "cobblemon:tumblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "cobblemon:sky_tumblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:sun_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "cobblemon:dragon_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:flying_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:repeating_command_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:heartbreak_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:arms_up_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:capture_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:nostalgic_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:blade_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:angler_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:burn_pottery_sherd"
+				}
+			]
+		}
+	]
+}

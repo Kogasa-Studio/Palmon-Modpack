@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cracked_bricks/andesite",
+	"result": "tfc:rock/cracked_bricks/andesite_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/cracked_bricks/andesite_slab"
+	}
+}

@@ -1,0 +1,23 @@
+[
+	"#minecraft:is_jungle",
+	"biomesoplenty:floodplain?",
+	"biomesoplenty:floodplain?",
+	"biomesoplenty:fungal_jungle?",
+	"biomesoplenty:rainforest?",
+	"biomesoplenty:rainforest?",
+	"biomesoplenty:rocky_rainforest?",
+	"terralith:cave/underground_jungle?",
+	"wythers:dripleaf_swamp?",
+	"wythers:eucalyptus_deanei_forest?",
+	"wythers:highland_tropical_rainforest?",
+	"wythers:humid_tropical_grassland?",
+	"wythers:jungle_canyon?",
+	"wythers:subtropical_forest?",
+	"wythers:subtropical_forest_edge?",
+	"wythers:subtropical_grassland?",
+	"wythers:tropical_forest?",
+	"wythers:tropical_forest_canyon?",
+	"wythers:tropical_grassland?",
+	"wythers:tropical_island?",
+	"wythers:tropical_rainforest?"
+]

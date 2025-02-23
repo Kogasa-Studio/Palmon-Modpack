@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/mossy_cobble/schist"
+	},
+	"result": "tfc:rock/mossy_cobble/schist_slab",
+	"count": 2
+}

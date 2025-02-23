@@ -1,0 +1,113 @@
+{
+	"pools": [
+		{
+			"name": "tier#1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "champions:champion_properties",
+							"entity": "this"
+						},
+						{
+							"condition": "minecraft:killed_by_player"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		},
+		{
+			"name": "tier#2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "champions:champion_properties",
+							"tier": {
+								"min": 2
+							},
+							"entity": "this"
+						},
+						{
+							"condition": "minecraft:killed_by_player"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		},
+		{
+			"name": "tier#3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "champions:champion_properties",
+							"tier": {
+								"min": 3
+							},
+							"entity": "this"
+						},
+						{
+							"condition": "minecraft:killed_by_player"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		},
+		{
+			"name": "tier#4",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "champions:champion_properties",
+							"tier": {
+								"min": 4
+							},
+							"entity": "this"
+						},
+						{
+							"condition": "minecraft:killed_by_player"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		}
+	]
+}

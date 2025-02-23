@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "framedblocks:blocks/framed_flat_inv_double_slope_slab_corner",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "framedblocks:framed_flat_inv_double_slope_slab_corner"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

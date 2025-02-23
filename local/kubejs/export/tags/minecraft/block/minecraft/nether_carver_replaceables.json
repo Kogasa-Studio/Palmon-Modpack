@@ -1,0 +1,18 @@
+[
+	"#minecraft:base_stone_nether",
+	"#minecraft:base_stone_overworld",
+	"#minecraft:dirt",
+	"#minecraft:nylium",
+	"#minecraft:wart_blocks",
+	"adventuresmod:ash",
+	"minecraft:soul_sand",
+	"minecraft:soul_soil",
+	"netherexp:ecto_soul_sand",
+	"netherexp:pale_soul_slate",
+	"netherexp:silica_sand",
+	"netherexp:silica_sandstone",
+	"netherexp:sorroweed",
+	"netherexp:soul_magma_block",
+	"netherexp:soul_slate",
+	"netherexp:souled_geyser"
+]

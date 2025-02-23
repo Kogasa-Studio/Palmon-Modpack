@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "forestry:blocks/peat",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dirt"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "forestry:peat"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2.0,
+					"add": false
+				}
+			]
+		}
+	]
+}

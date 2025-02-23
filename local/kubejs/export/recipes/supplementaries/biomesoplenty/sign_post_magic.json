@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"block_type": "wood_type",
+			"from": "minecraft:oak",
+			"to": "biomesoplenty:magic",
+			"ingredient": {
+				"item": "minecraft:oak_sign"
+			},
+			"type": "moonlight:block_type_swap"
+		}
+	],
+	"result": {
+		"item": "supplementaries:biomesoplenty/sign_post_magic",
+		"count": 2
+	}
+}

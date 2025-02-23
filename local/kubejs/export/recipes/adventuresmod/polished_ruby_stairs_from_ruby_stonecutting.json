@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:ruby_block"
+	},
+	"result": "adventuresmod:polished_ruby_stairs"
+}

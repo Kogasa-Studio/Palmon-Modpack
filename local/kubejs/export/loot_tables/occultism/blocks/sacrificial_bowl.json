@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "occultism:blocks/sacrificial_bowl",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "occultism:sacrificial_bowl"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

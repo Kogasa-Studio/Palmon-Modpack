@@ -1,0 +1,13 @@
+{
+	"type": "tfc:glassworking",
+	"operations": [
+		"nickel",
+		"table_pour"
+	],
+	"batch": {
+		"tag": "tfc:glass_batches"
+	},
+	"result": {
+		"item": "tfc:brown_poured_glass"
+	}
+}

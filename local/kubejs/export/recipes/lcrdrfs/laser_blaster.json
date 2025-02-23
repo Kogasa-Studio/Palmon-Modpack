@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"  B",
+		" U ",
+		"PG "
+	],
+	"key": {
+		"B": {
+			"item": "lcrdrfs:laser_barrel"
+		},
+		"U": {
+			"item": "lcrdrfs:laser_lens_unit"
+		},
+		"P": {
+			"item": "lcrdrfs:plasma_power_unit"
+		},
+		"G": {
+			"item": "lcrdrfs:laser_grip"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:laser_blaster"
+	}
+}

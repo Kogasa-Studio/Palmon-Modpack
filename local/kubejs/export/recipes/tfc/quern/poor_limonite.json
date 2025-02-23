@@ -1,0 +1,10 @@
+{
+	"type": "tfc:quern",
+	"ingredient": {
+		"item": "tfc:ore/poor_limonite"
+	},
+	"result": {
+		"item": "tfc:powder/limonite",
+		"count": 3
+	}
+}

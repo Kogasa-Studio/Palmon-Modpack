@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {
+		"item": "adventuresmod:ventumgale_ingot"
+	},
+	"base": {
+		"item": "adventuresmod:mythril_chestplate"
+	},
+	"result": {
+		"item": "adventuresmod:ventumgale_chestplate"
+	},
+	"template": {
+		"item": "adventuresmod:gale_upgrade_smithing_template"
+	}
+}

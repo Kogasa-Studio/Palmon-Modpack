@@ -1,0 +1,18 @@
+{
+	"__comment__": "This file was automatically created by mcresources",
+	"type": "tfc:barrel_sealed",
+	"input_item": {
+		"ingredient": {
+			"tag": "forge:dusts/coral"
+		}
+	},
+	"input_fluid": {
+		"ingredient": "tfc:limewater",
+		"amount": 25
+	},
+	"output_item": {
+		"item": "tfc:mortar",
+		"count": 4
+	},
+	"duration": 4000
+}

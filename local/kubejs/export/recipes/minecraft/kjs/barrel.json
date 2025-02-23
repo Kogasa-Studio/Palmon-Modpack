@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "minecraft:barrel",
+		"count": 1
+	},
+	"pattern": [
+		"ACA",
+		"ABA",
+		"AAA"
+	],
+	"key": {
+		"A": {
+			"tag": "tfc:lumber"
+		},
+		"B": {
+			"tag": "tfc:barrels"
+		},
+		"C": {
+			"tag": "forge:dusts/redstone"
+		}
+	}
+}

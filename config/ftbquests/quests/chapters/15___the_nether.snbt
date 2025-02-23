@@ -1,0 +1,352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "15___the_nether"
+	group: "40031BBCC8FA0009"
+	icon: "minecraft:netherrack"
+	id: "4E742CA998C0F713"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			icon: "cataclysm:flame_eye"
+			id: "1E408351DCF37B42"
+			rewards: [{
+				id: "54654D965F9816AA"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12B1595E3BB33418"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			title: "烈焰竞技场"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			icon: "cataclysm:monstrous_eye"
+			id: "6CAECD2E052EA7B9"
+			tasks: [{
+				id: "2C6C844EC64D4642"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "灵魂锻造厂"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E408351DCF37B42"]
+			id: "39B6BBF0160FECC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0342D0B793A0F675"
+				table_id: 2481234720497206951L
+				type: "random"
+			}]
+			tasks: [{
+				id: "521DE4518370ACAF"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E408351DCF37B42"]
+			id: "57ECDB0563513387"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58C81F4C0113EB73"
+				table_id: 2481234720497206951L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2EC887E36BB459AD"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13726AB74F11AB8B"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6250F210F7AF619A"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F93A33DB352841C"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "腾炎套装"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			id: "0919906F03C6AA87"
+			subtitle: "详细请见群峦手册下界煅炉条目"
+			tasks: [
+				{
+					count: 4L
+					id: "780C5D652DD22EF4"
+					item: { Count: 4, id: "beneath:blackstone_aqueduct" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "4B17EE5734246448"
+					item: { Count: 21, id: "beneath:hellbricks" }
+					type: "item"
+				}
+				{
+					count: 72L
+					id: "2DE80976040DE558"
+					item: { Count: 72, id: "beneath:cursecoal" }
+					type: "item"
+				}
+			]
+			title: "来自地狱的温度"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			id: "5E38FBA9E51944E3"
+			tasks: [{
+				id: "48A0AB0BA68D58B4"
+				item: "malum:blazing_quartz"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			description: ["真正的绯红\"森林\"与诡异\"森林\""]
+			icon: "beneath:gleamflower"
+			id: "256F5F52A3CBFAE2"
+			tasks: [
+				{
+					biome: "minecraft:warped_forest"
+					id: "1B1E8FFA1008D734"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:crimson_forest"
+					id: "7CB88A7792DEC44A"
+					type: "biome"
+				}
+			]
+			title: "群峦之下的下界"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			id: "7C7A7E7FE73FFB1D"
+			tasks: [{
+				id: "0D6E3CE92E682E2A"
+				item: "stalwart_dungeons:transient_block_close"
+				type: "item"
+			}]
+			title: "坚固地牢 | Stalwart Dungeons"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			id: "4B9D04794617E819"
+			tasks: [{
+				id: "37643A54254F2559"
+				structure: "repurposed_structures:stronghold_nether"
+				type: "structure"
+			}]
+			title: "末地要塞？"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			id: "28C2FF9D9D130C95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AA7C3005B500597"
+				table_id: 2481234720497206951L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32318848BC4155B4"
+				item: {
+					Count: 1
+					id: "netherexp:shotgun_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CAECD2E052EA7B9"]
+			id: "3C262260F5916D60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AE7D3C1989AF679"
+				table_id: 2481234720497206951L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24A41245FB42DD48"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "无限耐久的镐子"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E572F1D2080F7C1"]
+			id: "49A6F12B3865F44E"
+			tasks: [{
+				id: "75C2DBA0AFA62EF6"
+				structure: "adventuresmod:nether_citadel"
+				type: "structure"
+			}]
+			title: "冒险家的彼岸"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49A6F12B3865F44E"]
+			id: "3544EDBE8FEE18B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "123203B08539CE0B"
+				table_id: 2481234720497206951L
+				type: "random"
+			}]
+			tasks: [{
+				id: "401AF5256645A5AF"
+				item: "adventuresmod:molten_fragment"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3544EDBE8FEE18B1"]
+			id: "5CD154DFD65175A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BF2FE5B48D79E31"
+				table_id: 2481234720497206951L
+				type: "random"
+			}]
+			tasks: [{
+				count: 8L
+				id: "28657C2A0448233A"
+				item: { Count: 8, id: "adventuresmod:moltarium_ingot" }
+				type: "item"
+			}]
+			title: "熔火合金"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17673A8A63634284"]
+			hide_until_deps_complete: true
+			id: "2E572F1D2080F7C1"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "40AB1E8E3F5007AB"
+				type: "dimension"
+			}]
+			title: "抵达下界"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CAECD2E052EA7B9"]
+			id: "043236B7ADD43997"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F29B7B3B76C8B54"
+				table_id: 2481234720497206951L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2DEACCB4D4D67177"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C7A7E7FE73FFB1D"]
+			id: "21C4BE2D66740B3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66122B00DC2F67C5"
+				table_id: 2481234720497206951L
+				type: "random"
+			}]
+			tasks: [{
+				id: "188B005C8001FA0D"
+				item: "stalwart_dungeons:raw_tungsten"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+	title: "1.5 下界 | The Nether"
+}

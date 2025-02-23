@@ -1,0 +1,121 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "regions_unexplored:blocks/hyacinth_flowers",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:shears"
+								]
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "regions_unexplored:hyacinth_flowers",
+									"properties": {
+										"down": "true"
+									}
+								}
+							],
+							"count": 1.0,
+							"add": true
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "regions_unexplored:hyacinth_flowers",
+									"properties": {
+										"up": "true"
+									}
+								}
+							],
+							"count": 1.0,
+							"add": true
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "regions_unexplored:hyacinth_flowers",
+									"properties": {
+										"north": "true"
+									}
+								}
+							],
+							"count": 1.0,
+							"add": true
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "regions_unexplored:hyacinth_flowers",
+									"properties": {
+										"south": "true"
+									}
+								}
+							],
+							"count": 1.0,
+							"add": true
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "regions_unexplored:hyacinth_flowers",
+									"properties": {
+										"west": "true"
+									}
+								}
+							],
+							"count": 1.0,
+							"add": true
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "regions_unexplored:hyacinth_flowers",
+									"properties": {
+										"east": "true"
+									}
+								}
+							],
+							"count": 1.0,
+							"add": true
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": -1.0,
+							"add": true
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "regions_unexplored:hyacinth_flowers"
+				}
+			]
+		}
+	]
+}

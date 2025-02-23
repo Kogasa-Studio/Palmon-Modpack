@@ -1,0 +1,30 @@
+{
+	icon: "kubejs:true_soul_of_light"
+	id: "78B1A105FC2944E7"
+	loot_crate: {
+		color: 16776960
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "focus"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "kubejs:blade_of_the_huntress" }
+		{ item: "kubejs:sages_stone" }
+		{ item: "kubejs:first_aid_kit" }
+		{ item: "kubejs:compact_pal_factory" }
+		{ item: "kubejs:laevatain" }
+		{ item: "kubejs:gungnir" }
+		{ item: "kubejs:true_pure_darkness" }
+		{ item: "kubejs:true_soul_of_light" }
+		{ item: "kubejs:glase_soda" }
+		{ item: "kubejs:divergence_meter" }
+		{ item: "kubejs:epiphany_pendant" }
+		{ item: "kubejs:white_mask" }
+	]
+	title: "异界遗物-专注池"
+}

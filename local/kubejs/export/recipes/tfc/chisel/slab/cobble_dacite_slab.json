@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cobble/dacite",
+	"result": "tfc:rock/cobble/dacite_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/cobble/dacite_slab"
+	}
+}

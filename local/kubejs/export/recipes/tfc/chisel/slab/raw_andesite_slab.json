@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/raw/andesite",
+	"result": "tfc:rock/raw/andesite_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/raw/andesite_slab"
+	}
+}

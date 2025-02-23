@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"tag": "forge:crops/tomato"
+		},
+		"I": {
+			"item": "thermal:tomato"
+		}
+	},
+	"pattern": [
+		"###",
+		"#I#",
+		"###"
+	],
+	"result": {
+		"item": "thermal:tomato_block"
+	},
+	"show_notification": true
+}

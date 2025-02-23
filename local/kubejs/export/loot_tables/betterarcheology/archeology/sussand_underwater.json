@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "minecraft:archaeology/ocean_ruin_warm",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 6,
+					"name": "minecraft:archaeology/ocean_ruin_warm"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "betterarcheology:artifact_shards"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"result": {
+		"item": "cobblemon:medicinal_leek",
+		"count": 1
+	},
+	"ingredients": [
+		{
+			"item": "enchanted:mandrake_root"
+		},
+		{
+			"item": "enchanted:exhale_of_the_horned_one"
+		},
+		{
+			"item": "minecraft:egg"
+		}
+	]
+}

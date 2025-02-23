@@ -1,0 +1,17 @@
+[
+	"mekanism:boiler_casing",
+	"mekanism:boiler_valve",
+	"mekanism:dynamic_tank",
+	"mekanism:dynamic_valve",
+	"mekanism:induction_casing",
+	"mekanism:induction_port",
+	"mekanism:pressure_disperser",
+	"mekanism:sps_casing",
+	"mekanism:sps_port",
+	"mekanism:structural_glass",
+	"mekanism:supercharged_coil",
+	"mekanism:superheating_element",
+	"mekanism:thermal_evaporation_block",
+	"mekanism:thermal_evaporation_controller",
+	"mekanism:thermal_evaporation_valve"
+]

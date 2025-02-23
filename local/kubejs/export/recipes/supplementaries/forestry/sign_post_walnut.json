@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"group": "sign_post",
+	"pattern": [
+		"   ",
+		"222",
+		" 1 "
+	],
+	"key": {
+		"1": {
+			"block_type": "wood_type",
+			"from": "minecraft:oak",
+			"to": "forestry:walnut",
+			"ingredient": {
+				"item": "minecraft:stick"
+			},
+			"type": "moonlight:block_type_swap"
+		},
+		"2": {
+			"block_type": "wood_type",
+			"from": "minecraft:oak",
+			"to": "forestry:walnut",
+			"ingredient": {
+				"item": "minecraft:oak_planks"
+			},
+			"type": "moonlight:block_type_swap"
+		}
+	},
+	"result": {
+		"item": "supplementaries:forestry/sign_post_walnut",
+		"count": 3
+	},
+	"show_notification": true
+}

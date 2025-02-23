@@ -1,0 +1,101 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "tfc:crop/yellow_bell_pepper",
+							"properties": {
+								"age": "5"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "tfc:crop_yield_uniform",
+								"min": 1.0,
+								"max": {
+									"type": "minecraft:uniform",
+									"min": 4.0,
+									"max": 5.0
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "tfc:food/green_bell_pepper"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		},
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "tfc:crop/yellow_bell_pepper",
+							"properties": {
+								"age": "6"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "tfc:crop_yield_uniform",
+								"min": 1.0,
+								"max": {
+									"type": "minecraft:uniform",
+									"min": 4.0,
+									"max": 5.0
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "tfc:food/yellow_bell_pepper"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		},
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tfc:seeds/yellow_bell_pepper"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

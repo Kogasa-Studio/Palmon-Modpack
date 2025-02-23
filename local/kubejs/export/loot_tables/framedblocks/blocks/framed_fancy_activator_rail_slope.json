@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "framedblocks:blocks/framed_fancy_activator_rail_slope",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "framedblocks:framed_fancy_activator_rail_slope"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

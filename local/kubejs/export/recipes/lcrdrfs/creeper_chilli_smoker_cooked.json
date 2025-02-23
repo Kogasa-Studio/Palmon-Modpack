@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "lcrdrfs:creeper_chilli"
+	},
+	"result": "lcrdrfs:creeper_chilli_powder",
+	"experience": 0.35,
+	"cookingtime": 100
+}

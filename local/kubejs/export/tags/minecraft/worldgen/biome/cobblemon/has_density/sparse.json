@@ -1,0 +1,8 @@
+[
+	"#c:vegetation_sparse?",
+	"#cobblemon:is_arid",
+	"#cobblemon:is_grassland",
+	"#cobblemon:is_tundra",
+	"#forge:is_sparse/overworld?",
+	"#forge:is_sparse?"
+]

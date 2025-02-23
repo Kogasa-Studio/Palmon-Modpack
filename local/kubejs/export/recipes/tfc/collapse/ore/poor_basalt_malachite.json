@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:ore/normal_malachite/basalt",
+	"result": "tfc:ore/poor_malachite/basalt"
+}

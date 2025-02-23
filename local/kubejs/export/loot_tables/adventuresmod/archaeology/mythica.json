@@ -1,0 +1,101 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "adventuresmod:archaeology/mythica",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "adventuresmod:bismuth"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "adventuresmod:raw_shattered_silver"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "adventuresmod:sapphire"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:wheat"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:white_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:light_blue_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:wooden_hoe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "adventuresmod:rusty_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "adventuresmod:shattered_silver_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "adventuresmod:ancient_coin"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "adventuresmod:stone_caster"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:frostbitten_arrow"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:devourer_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:charmed_fragment"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:mystic_hyphae"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:disc_fragment_still"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:leaf_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:slime_pottery_sherd"
+				}
+			]
+		}
+	]
+}

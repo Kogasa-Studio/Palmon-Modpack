@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomesoplenty:blocks/bush",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomesoplenty:bush"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"tag": "biomesoplenty:shears"
+					}
+				}
+			]
+		}
+	]
+}

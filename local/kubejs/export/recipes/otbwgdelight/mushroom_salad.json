@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "biomeswevegone:wood_blewit"
+		},
+		{
+			"item": "biomeswevegone:weeping_milkcap"
+		},
+		{
+			"item": "biomeswevegone:green_mushroom"
+		},
+		{
+			"item": "minecraft:bowl"
+		}
+	],
+	"result": {
+		"item": "otbwgdelight:mushroom_salad"
+	}
+}

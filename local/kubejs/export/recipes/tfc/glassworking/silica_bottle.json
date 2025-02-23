@@ -1,0 +1,14 @@
+{
+	"type": "tfc:glassworking",
+	"operations": [
+		"blow",
+		"pinch",
+		"saw"
+	],
+	"batch": {
+		"item": "tfc:silica_glass_batch"
+	},
+	"result": {
+		"item": "tfc:silica_glass_bottle"
+	}
+}

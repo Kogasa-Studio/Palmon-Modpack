@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "minecraft:pink_dye"
+		},
+		"B": {
+			"item": "minecraft:bricks"
+		}
+	},
+	"pattern": [
+		"###",
+		"#B#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"item": "adventuresmod:pink_bricks"
+	},
+	"show_notification": true
+}

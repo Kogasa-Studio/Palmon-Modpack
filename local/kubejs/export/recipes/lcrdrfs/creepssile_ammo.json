@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"IPI",
+		"ISI"
+	],
+	"key": {
+		"C": {
+			"item": "lcrdrfs:creeper_chilli_crystal_shard"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		},
+		"P": {
+			"item": "lcrdrfs:creeper_chilli_powder"
+		},
+		"S": {
+			"item": "lcrdrfs:creeper_chilli_sauce"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:creepssile_ammo",
+		"count": 4
+	}
+}

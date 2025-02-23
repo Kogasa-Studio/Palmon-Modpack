@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "pneumaticcraft:blocks/huge_tank",
+	"pools": [
+		{
+			"name": "huge_tank",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_name",
+							"source": "block_entity"
+						},
+						{
+							"function": "pneumaticcraft:te_serializer"
+						}
+					],
+					"name": "pneumaticcraft:huge_tank"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

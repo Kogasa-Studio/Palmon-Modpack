@@ -1,0 +1,111 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "legends_untold:mew_ruins",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Old Map"
+							}
+						}
+					],
+					"name": "minecraft:map"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "legends_untold:sky_pillar",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Jade Map"
+							}
+						}
+					],
+					"name": "minecraft:map"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "legends_untold:xerneas_tree",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Life Map"
+							}
+						}
+					],
+					"name": "minecraft:map"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "legends_untold:tera_den",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Tera Map"
+							}
+						}
+					],
+					"name": "minecraft:map"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:command_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:repeating_command_block"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1110000,display:{Lore:['{\"text\":\"Can be used as a nether star in recipes\"}'],Name:'{\"text\":\"Comet Shard\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:nether_star"
+				}
+			]
+		}
+	]
+}

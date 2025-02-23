@@ -1,0 +1,17 @@
+[
+	"thermal:machine_bottler",
+	"thermal:machine_brewer",
+	"thermal:machine_centrifuge",
+	"thermal:machine_chiller",
+	"thermal:machine_crafter",
+	"thermal:machine_crucible",
+	"thermal:machine_crystallizer",
+	"thermal:machine_furnace",
+	"thermal:machine_insolator",
+	"thermal:machine_press",
+	"thermal:machine_pulverizer",
+	"thermal:machine_pyrolyzer",
+	"thermal:machine_refinery",
+	"thermal:machine_sawmill",
+	"thermal:machine_smelter"
+]

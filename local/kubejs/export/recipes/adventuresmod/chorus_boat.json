@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "boat",
+	"key": {
+		"#": {
+			"item": "adventuresmod:chorus_planks"
+		}
+	},
+	"pattern": [
+		"# #",
+		"###"
+	],
+	"result": {
+		"item": "adventuresmod:chorus_boat"
+	},
+	"show_notification": true
+}

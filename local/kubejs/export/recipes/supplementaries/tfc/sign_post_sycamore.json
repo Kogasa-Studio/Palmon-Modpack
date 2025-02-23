@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"block_type": "wood_type",
+			"from": "minecraft:oak",
+			"to": "tfc:sycamore",
+			"ingredient": {
+				"item": "minecraft:oak_sign"
+			},
+			"type": "moonlight:block_type_swap"
+		}
+	],
+	"result": {
+		"item": "supplementaries:tfc/sign_post_sycamore",
+		"count": 2
+	}
+}

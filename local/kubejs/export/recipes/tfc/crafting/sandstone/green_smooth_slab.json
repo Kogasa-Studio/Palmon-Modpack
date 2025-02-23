@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:smooth_sandstone/green"
+		}
+	},
+	"result": {
+		"item": "tfc:smooth_sandstone/green_slab",
+		"count": 6
+	}
+}

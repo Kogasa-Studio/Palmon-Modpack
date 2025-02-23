@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "regions_unexplored:blocks/bleeding_heart",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "regions_unexplored:bleeding_heart"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "adventuresmod:blocks/chorus_planks",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:chorus_planks"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

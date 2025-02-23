@@ -1,0 +1,17 @@
+[
+	"#forge:chests/wooden",
+	"adventuresmod:reinforced_nether_bricks",
+	"beneath:wood/chest/crimson",
+	"beneath:wood/chest/warped",
+	"beneath:wood/trapped_chest/crimson",
+	"beneath:wood/trapped_chest/warped",
+	"minecraft:bedrock",
+	"minecraft:chest",
+	"minecraft:end_portal_frame",
+	"minecraft:reinforced_deepslate",
+	"minecraft:spawner",
+	"structure_gel:dynamic_spawner",
+	"trials:trial_spawner",
+	"trials:trial_vault",
+	"trials:trial_vault_ominous"
+]

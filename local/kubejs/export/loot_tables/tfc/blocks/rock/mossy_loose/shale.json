@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:rock/mossy_loose/shale",
+									"properties": {
+										"count": "2"
+									}
+								}
+							],
+							"count": 2.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:rock/mossy_loose/shale",
+									"properties": {
+										"count": "3"
+									}
+								}
+							],
+							"count": 3.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "tfc:rock/mossy_loose/shale"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

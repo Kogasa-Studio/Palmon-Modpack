@@ -1,0 +1,21 @@
+[
+	"#byg:is_swamp?",
+	"#c:swamp?",
+	"#forge:is_swamp?",
+	"#wythers:is_swamp?",
+	"biomesoplenty:bayou?",
+	"biomesoplenty:bayou?",
+	"biomesoplenty:bog?",
+	"biomesoplenty:bog?",
+	"biomesoplenty:floodplain?",
+	"biomesoplenty:marsh?",
+	"biomesoplenty:marsh?",
+	"biomesoplenty:wetland?",
+	"biomesoplenty:wetland?",
+	"minecraft:mangrove_swamp",
+	"minecraft:swamp",
+	"terralith:ice_marsh?",
+	"terralith:orchid_swamp?",
+	"tfc:salt_marsh",
+	"wythers:billabong?"
+]

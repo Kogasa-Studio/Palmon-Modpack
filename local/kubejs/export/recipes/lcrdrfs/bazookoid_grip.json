@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"LCL",
+		"LCL"
+	],
+	"key": {
+		"L": {
+			"tag": "forge:leather"
+		},
+		"C": {
+			"item": "lcrdrfs:creeper_chilli_crystal_shard"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:bazookoid_grip"
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"type": "tfc:landslide",
+	"ingredient": "tfc:deposit/cassiterite/gneiss",
+	"result": "tfc:deposit/cassiterite/gneiss"
+}

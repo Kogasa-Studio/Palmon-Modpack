@@ -1,0 +1,176 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:revival_herb"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "cobblemon:revival_herb",
+									"properties": {
+										"age": "8"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 2.0,
+										"max": 3.0
+									},
+									"add": false
+								}
+							],
+							"name": "cobblemon:revival_herb"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "cobblemon:revival_herb",
+									"properties": {
+										"age": "7"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 1.0,
+										"max": 2.0
+									},
+									"add": false
+								}
+							],
+							"name": "cobblemon:revival_herb"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "cobblemon:revival_herb",
+							"properties": {
+								"age": "8"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "cobblemon:pep_up_flower"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "cobblemon:revival_herb",
+									"properties": {
+										"mutation": "mental"
+									}
+								}
+							],
+							"name": "cobblemon:mental_herb"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "cobblemon:revival_herb",
+									"properties": {
+										"mutation": "mirror"
+									}
+								}
+							],
+							"name": "cobblemon:mirror_herb"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "cobblemon:revival_herb",
+									"properties": {
+										"mutation": "power"
+									}
+								}
+							],
+							"name": "cobblemon:power_herb"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "cobblemon:revival_herb",
+									"properties": {
+										"mutation": "white"
+									}
+								}
+							],
+							"name": "cobblemon:white_herb"
+						}
+					]
+				}
+			]
+		}
+	],
+	"functions": [
+		{
+			"function": "minecraft:explosion_decay"
+		}
+	]
+}

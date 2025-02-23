@@ -1,0 +1,59 @@
+{
+    "color": "FFD70000",
+    "fallbacks":
+    [
+        "metal"
+    ],
+    "generator":
+    {
+        "supported_stats":
+        [
+            "tconstruct:head",
+            "tconstruct:handle",
+            "tconstruct:binding",
+            "tconstruct:repair_kit",
+            "tconstruct:limb",
+            "tconstruct:grip",
+            "tconstruct:armor_plating"
+        ],
+        "transformer":
+        {
+            "type": "tconstruct:recolor_sprite",
+            "color_mapping":
+            {
+                "type": "tconstruct:grey_to_color",
+                "palette":
+                [
+                    {
+                        "color": "FF000000",
+                        "grey": 0
+                    },
+                    {
+                        "color": "FFB22222",
+                        "grey": 63
+                    },
+                    {
+                        "color": "FFD70000",
+                        "grey": 102
+                    },
+                    {
+                        "color": "FFFF4500",
+                        "grey": 140
+                    },
+                    {
+                        "color": "FFFF6347",
+                        "grey": 178
+                    },
+                    {
+                        "color": "FFFF0000",
+                        "grey": 216
+                    },
+                    {
+                        "color": "FF8B0000",
+                        "grey": 255
+                    }
+                ]
+            }
+        }
+    }
+}

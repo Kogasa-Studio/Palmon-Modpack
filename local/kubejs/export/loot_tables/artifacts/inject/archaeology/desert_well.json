@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/archaeology/desert_well",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:charm_of_sinking"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:universal_attractor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:superstitious_hat"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:umbrella"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "artifacts:items/drinking_hat"
+				}
+			]
+		}
+	]
+}

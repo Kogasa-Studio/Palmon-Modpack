@@ -1,0 +1,11 @@
+{
+	"type": "tfc:heating",
+	"ingredient": {
+		"tag": "forge:rods/wooden"
+	},
+	"result_item": {
+		"item": "tfc:torch",
+		"count": 2
+	},
+	"temperature": 60
+}

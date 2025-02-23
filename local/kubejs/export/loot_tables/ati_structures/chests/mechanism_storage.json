@@ -1,0 +1,309 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 3.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 20.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone_lamp"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:repeater"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone_torch"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:tripwire_hook"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:piston"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone_ore"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:deepslate_redstone_ore"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:lever"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:sticky_piston"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:comparator"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:tnt"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"protection\",lvl:3},{id:\"thorns\",lvl:5},{id:\"unbreaking\",lvl:10}],Trim:{material:\"redstone\",pattern:\"eye\"},display:{Lore:['[\"\",{\"text\":\"Conductive Protection\",\"italic\":false,\"color\":\"dark_red\"}]'],Name:'[\"\",{\"text\":\"Redstone Chestplate\",\"italic\":false,\"color\":\"red\"}]',color:16711680}}"
+						}
+					],
+					"name": "minecraft:leather_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"luck_of_the_sea\",lvl:7},{id:\"unbreaking\",lvl:3}],display:{Lore:['[\"\",{\"text\":\"Treasure huntin my beloved\",\"italic\":false,\"color\":\"yellow\"}]'],Name:'[\"\",{\"text\":\"Here be Treasure\",\"italic\":false,\"color\":\"gold\"}]'}}"
+						}
+					],
+					"name": "minecraft:fishing_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:11546150,CustomPotionEffects:[{Amplifier:4,Duration:1200,Id:23},{Amplifier:1,Duration:2400,Id:1}],Enchantments:[{id:\"unbreaking\",lvl:3}],display:{Lore:['[\"\",{\"text\":\"Water with redstone \",\"italic\":false,\"color\":\"dark_red\"}]','[\"\",{\"text\":\"and quite a lot of\",\"italic\":false,\"color\":\"dark_red\"}]','[\"\",{\"text\":\"electrons in it\",\"italic\":false,\"color\":\"dark_red\"}]'],Name:'[\"\",{\"text\":\"Redstone Potion\",\"italic\":false,\"color\":\"red\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{EntityTag:{Attributes:[{Base:200.0f,Name:\"generic.max_health\"}],CustomName:'[{\"text\":\"Helpful Sigmatron\",\"color\":\"red\"}]',Glowing:1b,HandDropChances:[0.0f,0.0f],HandItems:[{},{Count:1,id:\"totem_of_undying\"}],Health:350,PersistenceRequired:1b,id:\"iron_golem\"},display:{Lore:['[{\"text\":\"A robor that\",\"italic\":false,\"color\":\"dark_red\"}]','[{\"text\":\"shall aid you\",\"italic\":false,\"color\":\"dark_red\"}]','[{\"text\":\"in dire need\",\"italic\":false,\"color\":\"dark_red\"}]'],Name:'[{\"text\":\"Helpful Sigmatron\",\"italic\":false,\"color\":\"red\"}]'}}"
+						}
+					],
+					"name": "minecraft:ghast_spawn_egg"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{Trim:{material:\"redstone\",pattern:\"spire\"},display:{color:11546150}}"
+				},
+				{
+					"function": "minecraft:enchant_with_levels",
+					"levels": {
+						"type": "minecraft:uniform",
+						"min": 0.0,
+						"max": 20.0
+					},
+					"treasure": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"O": {
+			"item": "minecraft:obsidian"
+		},
+		"P": {
+			"item": "minecraft:purpur_block"
+		},
+		"E": {
+			"item": "minecraft:end_stone"
+		},
+		"D": {
+			"item": "minecraft:dragon_breath"
+		}
+	},
+	"pattern": [
+		"ODO",
+		"PPP",
+		"EEE"
+	],
+	"result": {
+		"item": "adventuresmod:dragon_altar"
+	},
+	"show_notification": true
+}

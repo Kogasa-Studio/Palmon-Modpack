@@ -1,0 +1,5 @@
+{
+	"enchanted:large_circle": "net.favouriteless.enchanted.common.circle_magic.CircleMagicShape",
+	"enchanted:medium_circle": "net.favouriteless.enchanted.common.circle_magic.CircleMagicShape",
+	"enchanted:small_circle": "net.favouriteless.enchanted.common.circle_magic.CircleMagicShape"
+}

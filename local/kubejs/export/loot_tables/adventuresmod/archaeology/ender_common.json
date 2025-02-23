@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "adventuresmod:archaeology/ender_common",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:curve_silt_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:watching_silt_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:devoid_minerals"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:jadite_piece"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:ruined_hilt"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:silt_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:obsidian_fragments"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:raw_vilenite"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:luminescent_brew"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:stardust"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lime_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:magenta_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:end_stone_pillar"
+				}
+			]
+		}
+	]
+}

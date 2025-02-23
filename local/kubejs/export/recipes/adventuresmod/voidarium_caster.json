@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"T": {
+			"item": "adventuresmod:topaz"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		},
+		"V": {
+			"item": "adventuresmod:voidarium_ingot"
+		}
+	},
+	"pattern": [
+		" T ",
+		" V ",
+		" S "
+	],
+	"result": {
+		"item": "adventuresmod:voidarium_caster"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "minecraft:stick"
+		},
+		"C": {
+			"item": "adventuresmod:charmed_fragment"
+		},
+		"S": {
+			"item": "adventuresmod:shattered_silver_nugget"
+		}
+	},
+	"pattern": [
+		" S ",
+		" C ",
+		"S#S"
+	],
+	"result": {
+		"item": "adventuresmod:ceremonial_shortsword"
+	},
+	"show_notification": true
+}

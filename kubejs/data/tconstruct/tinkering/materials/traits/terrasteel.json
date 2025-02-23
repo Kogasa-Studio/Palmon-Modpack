@@ -1,0 +1,27 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:necrotic",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:lightweight",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:sharpness",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "name": "tconstruct:revitalizing",
+                "level": 2
+            }
+        ]
+    }
+}

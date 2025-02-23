@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:obsidian_tiles"
+	},
+	"result": "adventuresmod:obsidian_tile_wall"
+}

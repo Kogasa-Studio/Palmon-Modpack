@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:wood/planks/rosewood",
+	"result": "tfc:wood/planks/rosewood_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:wood/planks/rosewood_slab"
+	}
+}

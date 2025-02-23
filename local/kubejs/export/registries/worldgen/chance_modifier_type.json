@@ -1,0 +1,4 @@
+{
+	"reterraforged:biome_edge": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"reterraforged:elevation": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

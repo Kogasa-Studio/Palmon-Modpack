@@ -1,0 +1,12 @@
+{
+	"type": "adventuresmod:dragon_forging",
+	"base": {
+		"item": "minecraft:fire_charge"
+	},
+	"infusion": {
+		"item": "adventuresmod:eternal_powder"
+	},
+	"result": {
+		"item": "adventuresmod:eternal_charge"
+	}
+}

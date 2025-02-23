@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:wood/planks/oak",
+	"result": "tfc:wood/planks/oak_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:wood/planks/oak_slab"
+	}
+}

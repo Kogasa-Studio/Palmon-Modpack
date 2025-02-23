@@ -1,0 +1,221 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "betterarcheology:blocks/supply_loot_from_loot_vase",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:rotten_flesh"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:melon_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:pumpkin_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:beetroot_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:night_vision",
+									"duration": {
+										"type": "minecraft:uniform",
+										"min": 7.0,
+										"max": 10.0
+									}
+								},
+								{
+									"type": "minecraft:jump_boost",
+									"duration": {
+										"type": "minecraft:uniform",
+										"min": 7.0,
+										"max": 10.0
+									}
+								},
+								{
+									"type": "minecraft:weakness",
+									"duration": {
+										"type": "minecraft:uniform",
+										"min": 6.0,
+										"max": 8.0
+									}
+								},
+								{
+									"type": "minecraft:blindness",
+									"duration": {
+										"type": "minecraft:uniform",
+										"min": 5.0,
+										"max": 7.0
+									}
+								},
+								{
+									"type": "minecraft:saturation",
+									"duration": {
+										"type": "minecraft:uniform",
+										"min": 7.0,
+										"max": 10.0
+									}
+								},
+								{
+									"type": "minecraft:haste",
+									"duration": {
+										"type": "minecraft:uniform",
+										"min": 10.0,
+										"max": 15.0
+									}
+								},
+								{
+									"type": "minecraft:levitation",
+									"duration": {
+										"type": "minecraft:uniform",
+										"min": 2.0,
+										"max": 4.0
+									}
+								},
+								{
+									"type": "minecraft:speed",
+									"duration": {
+										"type": "minecraft:uniform",
+										"min": 4.0,
+										"max": 7.0
+									}
+								}
+							]
+						}
+					],
+					"name": "minecraft:suspicious_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:potato"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:wheat"
+				}
+			]
+		}
+	]
+}

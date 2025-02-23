@@ -1,0 +1,20 @@
+{
+	"__comment__": "This file was automatically created by mcresources",
+	"type": "tfc:advanced_shapeless_crafting",
+	"ingredients": [
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "tfc:food/wheat_dough"
+			}
+		}
+	],
+	"result": {
+		"stack": {
+			"item": "farmersdelight:wheat_dough"
+		},
+		"modifiers": [
+			"tfc:copy_oldest_food"
+		]
+	}
+}

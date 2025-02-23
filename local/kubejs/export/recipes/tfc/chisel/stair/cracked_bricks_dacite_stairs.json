@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cracked_bricks/dacite",
+	"result": "tfc:rock/cracked_bricks/dacite_stairs",
+	"mode": "stair"
+}

@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "pneumaticcraft:blocks/assembly_io_unit_import",
+	"pools": [
+		{
+			"name": "assembly_io_unit_import",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_name",
+							"source": "block_entity"
+						},
+						{
+							"function": "pneumaticcraft:te_serializer"
+						}
+					],
+					"name": "pneumaticcraft:assembly_io_unit_import"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

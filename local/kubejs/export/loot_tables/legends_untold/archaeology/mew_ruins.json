@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "minecraft:archaeology/desert_well",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:liechi_berry"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:repeating_command_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:metal_powder"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:tumblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amethyst_shard"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:moon_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:capture_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:suspicious_sherd"
+				}
+			]
+		}
+	]
+}

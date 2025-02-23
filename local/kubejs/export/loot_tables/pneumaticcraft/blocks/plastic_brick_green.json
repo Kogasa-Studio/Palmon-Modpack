@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "pneumaticcraft:blocks/plastic_brick_green",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "pneumaticcraft:plastic_brick_green"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "adventuresmod:blocks/chiseled_sunstone",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:chiseled_sunstone"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

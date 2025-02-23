@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:hollow_stone"
+	},
+	"result": "adventuresmod:chiseled_hollow_stone"
+}

@@ -1,0 +1,17 @@
+[
+	"itemfilters:always_false",
+	"itemfilters:always_true",
+	"itemfilters:and",
+	"itemfilters:block",
+	"itemfilters:custom",
+	"itemfilters:damage",
+	"itemfilters:id_regex",
+	"itemfilters:max_count",
+	"itemfilters:mod",
+	"itemfilters:not",
+	"itemfilters:or",
+	"itemfilters:strong_nbt",
+	"itemfilters:tag",
+	"itemfilters:weak_nbt",
+	"itemfilters:xor"
+]

@@ -1,0 +1,27 @@
+{
+	"type": "tfc:damage_inputs_shapeless_crafting",
+	"recipe": {
+		"type": "minecraft:crafting_shapeless",
+		"ingredients": [
+			{
+				"item": "tfc:wood/planks/palm"
+			},
+			{
+				"item": "tfc:wood/planks/palm"
+			},
+			{
+				"item": "tfc:wood/planks/palm"
+			},
+			{
+				"item": "tfc:wood/planks/palm"
+			},
+			{
+				"tag": "tfc:saws"
+			}
+		],
+		"result": {
+			"item": "tfc:wood/planks/palm_mosaic",
+			"count": 4
+		}
+	}
+}

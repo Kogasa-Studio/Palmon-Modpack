@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "food",
+	"cookingtime": 200,
+	"experience": 0.35,
+	"ingredient": {
+		"item": "adventuresmod:devil_leg"
+	},
+	"result": "adventuresmod:cooked_devil_leg"
+}

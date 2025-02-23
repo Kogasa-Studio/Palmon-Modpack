@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+	"key": {
+		"Y": {
+			"tag": "tfc:high_quality_cloth"
+		},
+		"X": {
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result": {
+		"item": "minecraft:painting"
+	}
+}

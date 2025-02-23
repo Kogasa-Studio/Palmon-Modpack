@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"   ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:wood/lumber/mangrove"
+		}
+	},
+	"result": {
+		"item": "tfc:wood/planks/mangrove_tool_rack"
+	}
+}

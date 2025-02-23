@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/cobble/gabbro"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/cobble/gabbro_stairs",
+		"count": 8
+	}
+}

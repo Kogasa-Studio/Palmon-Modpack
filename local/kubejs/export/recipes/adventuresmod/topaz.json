@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "adventuresmod:topaz_block"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:topaz",
+		"count": 9
+	},
+	"show_notification": true
+}

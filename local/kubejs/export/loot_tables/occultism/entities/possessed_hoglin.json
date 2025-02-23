@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:entity",
+	"random_sequence": "occultism:entities/possessed_hoglin",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:netherite_upgrade_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snout_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:netherite_scrap"
+				}
+			]
+		}
+	]
+}

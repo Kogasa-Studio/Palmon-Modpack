@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" M ",
+		"SCS",
+		"J J"
+	],
+	"key": {
+		"M": {
+			"item": "lcrdrfs:jet_control_unit"
+		},
+		"S": {
+			"item": "lcrdrfs:jet_stabliser"
+		},
+		"C": {
+			"item": "minecraft:diamond_chestplate"
+		},
+		"J": {
+			"item": "lcrdrfs:jet_thruster"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:jetpack"
+	}
+}

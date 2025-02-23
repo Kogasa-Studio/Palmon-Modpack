@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "adventuresmod:vilenite_block"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:vilenite_ingot",
+		"count": 9
+	}
+}

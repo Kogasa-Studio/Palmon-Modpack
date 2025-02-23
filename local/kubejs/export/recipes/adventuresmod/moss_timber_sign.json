@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "wooden_sign",
+	"key": {
+		"#": {
+			"item": "adventuresmod:moss_timber_planks"
+		},
+		"X": {
+			"item": "minecraft:stick"
+		}
+	},
+	"pattern": [
+		"###",
+		"###",
+		" X "
+	],
+	"result": {
+		"count": 3,
+		"item": "adventuresmod:moss_timber_sign"
+	},
+	"show_notification": true
+}

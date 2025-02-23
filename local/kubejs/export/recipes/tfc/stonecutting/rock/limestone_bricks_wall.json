@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/limestone"
+	},
+	"result": "tfc:rock/bricks/limestone_wall",
+	"count": 1
+}

@@ -1,0 +1,22 @@
+{
+	"type": "farmersdelight:cooking",
+	"container": {
+		"item": "minecraft:bowl"
+	},
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredients": [
+		{
+			"item": "biomeswevegone:hydrangea_bush"
+		},
+		{
+			"item": "biomeswevegone:hydrangea_bush"
+		},
+		{
+			"item": "biomeswevegone:hydrangea_bush"
+		}
+	],
+	"result": {
+		"item": "otbwgdelight:baked_hydrangea"
+	}
+}

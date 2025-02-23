@@ -1,0 +1,97 @@
+{
+	"pools": [
+		{
+			"name": "aquaculture:neptunes_bounty_junk_first",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "aquaculture:box/neptunes_bounty_junk"
+				}
+			]
+		},
+		{
+			"name": "aquaculture:neptunes_bounty_loot",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "aquaculture:neptunium_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_axe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_shovel"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_hoe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_fishing_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_fillet_knife"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:neptunium_bow"
+				}
+			]
+		},
+		{
+			"name": "aquaculture:neptunes_bounty_junk_last",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "aquaculture:box/neptunes_bounty_junk"
+				}
+			]
+		}
+	]
+}

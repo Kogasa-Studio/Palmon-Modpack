@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "mossy_stone_tiles",
+	"ingredients": [
+		{
+			"item": "adventuresmod:stone_tiles"
+		},
+		{
+			"item": "minecraft:vine"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:mossy_stone_tiles"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:powder/saltpeter"
+		},
+		{
+			"item": "tfc:powder/saltpeter"
+		},
+		{
+			"item": "tfc:powder/saltpeter"
+		},
+		{
+			"item": "tfc:powder/saltpeter"
+		},
+		{
+			"item": "tfc:powder/sulfur"
+		},
+		{
+			"item": "tfc:powder/sulfur"
+		},
+		{
+			"item": "tfc:powder/charcoal"
+		},
+		{
+			"item": "tfc:powder/charcoal"
+		},
+		{
+			"item": "tfc:powder/graphite"
+		}
+	],
+	"result": {
+		"item": "minecraft:gunpowder",
+		"count": 12
+	}
+}

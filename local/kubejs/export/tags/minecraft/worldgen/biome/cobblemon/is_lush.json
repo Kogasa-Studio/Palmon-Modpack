@@ -1,0 +1,19 @@
+[
+	"#forge:is_lush?",
+	"biomesoplenty:floodplain?",
+	"biomesoplenty:fungal_jungle?",
+	"biomesoplenty:lavender_field?",
+	"biomesoplenty:lavender_forest?",
+	"biomesoplenty:lush_desert?",
+	"biomesoplenty:orchard?",
+	"biomesoplenty:tropics?",
+	"byg:lush_stacks?",
+	"minecraft:lush_caves",
+	"terralith:cave/underground_jungle?",
+	"wythers:dripleaf_swamp?",
+	"wythers:lichenous_caves?",
+	"wythers:lichenous_dripstone_caves?",
+	"wythers:lush_dripstone_caves?",
+	"wythers:lush_fungous_dripstone_caves?",
+	"wythers:lush_shroom_caves?"
+]

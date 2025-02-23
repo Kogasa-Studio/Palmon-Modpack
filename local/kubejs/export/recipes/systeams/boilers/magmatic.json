@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"C": {
+			"item": "systeams:boiler_pipe"
+		},
+		"G": {
+			"tag": "forge:gears/invar"
+		},
+		"I": {
+			"tag": "forge:ingots/copper"
+		},
+		"X": {
+			"tag": "forge:dusts/redstone"
+		},
+		"Y": {
+			"tag": "forge:ingots/invar"
+		}
+	},
+	"pattern": [
+		" C ",
+		"IGI",
+		"YXY"
+	],
+	"result": {
+		"item": "systeams:magmatic_boiler"
+	}
+}

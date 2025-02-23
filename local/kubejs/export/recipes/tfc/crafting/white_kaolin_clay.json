@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XX",
+		"XX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:kaolin_clay"
+		}
+	},
+	"result": {
+		"item": "tfc:white_kaolin_clay"
+	}
+}

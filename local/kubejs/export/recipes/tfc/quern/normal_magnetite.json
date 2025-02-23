@@ -1,0 +1,10 @@
+{
+	"type": "tfc:quern",
+	"ingredient": {
+		"item": "tfc:ore/normal_magnetite"
+	},
+	"result": {
+		"item": "tfc:powder/magnetite",
+		"count": 5
+	}
+}

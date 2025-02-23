@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "adventuresmod:cobalt_ingot"
+		}
+	},
+	"result": {
+		"item": "adventuresmod:cobalt_block"
+	},
+	"show_notification": true
+}

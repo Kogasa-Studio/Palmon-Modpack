@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:ashed_nether_bricks"
+	},
+	"result": "adventuresmod:ashed_nether_brick_stairs"
+}

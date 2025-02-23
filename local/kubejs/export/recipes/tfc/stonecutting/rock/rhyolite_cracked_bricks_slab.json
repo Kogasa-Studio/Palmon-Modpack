@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/cracked_bricks/rhyolite"
+	},
+	"result": "tfc:rock/cracked_bricks/rhyolite_slab",
+	"count": 2
+}

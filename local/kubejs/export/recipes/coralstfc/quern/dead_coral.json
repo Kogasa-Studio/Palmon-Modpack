@@ -1,0 +1,11 @@
+{
+	"__comment__": "This file was automatically created by mcresources",
+	"type": "tfc:quern",
+	"ingredient": {
+		"tag": "forge:dead_coral"
+	},
+	"result": {
+		"item": "coralstfc:coral_powder",
+		"count": 1
+	}
+}

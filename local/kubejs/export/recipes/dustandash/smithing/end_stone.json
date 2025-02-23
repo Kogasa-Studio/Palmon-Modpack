@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": {
+		"item": "minecraft:netherrack"
+	},
+	"addition": {
+		"item": "dustandash:extinguish_dust"
+	},
+	"template": {
+		"item": "dustandash:earth_dust"
+	},
+	"result": {
+		"item": "minecraft:end_stone"
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "default":
+    [
+        {
+            "level": 1,
+            "name": "tconstruct:reinforced"
+        },
+        {
+            "level": 1,
+            "name": "tconstruct:sturdy"
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "level": 1,
+                "name": "tconstruct:stoneshield"
+            },
+            {
+                "level": 1,
+                "name": "tconstruct:heavy"
+            }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "mekanism:blocks/industrial_alarm",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "controlType",
+									"target": "mekData.controlType",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "mekanism:industrial_alarm"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

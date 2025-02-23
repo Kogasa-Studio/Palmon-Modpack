@@ -1,0 +1,95 @@
+{
+    "ui.kubejs.slashblade": "You have not learned the Soul of the Blade. ",
+    "ui.kubejs.banned": "You are not destined! ",
+    "ui.kubejs.banned_item_disappeared": " has disappeared because your Ender Chest is full",
+
+    "ui.kubejs.overowrld_item": "You can not pick up this item, becaus you have lost the Present Blessing. ",
+    "ui.kubejs.no_dulp_curio": "Only one will be activated. ",
+
+    "ui.kubejs.present_soul": "Power of Yours",
+    "ui.kubejs.scranton_reality_anchor": "⌈SCP⌋ Maybe a placebo?",
+
+    "ui.kubejs.true_soul_of_light": "⌈Noctuary⌋ All the nights in the world",
+    "ui.kubejs.true_pure_darkness": "⌈Noctuary⌋ Abyss Lycoris",
+    "ui.kubejs.gungnir": "⌈Touhou⌋ The Spear that Must Hit",
+    "ui.kubejs.laevatain": "⌈Touhou⌋ Four of a Kind",
+    "ui.kubejs.compact_pal_factory": "⌈Palworld⌋ Sweatshop",
+    "ui.kubejs.first_aid_kit": "⌈Arknights⌋ You'd better know how it works",
+    "ui.kubejs.sages_stone": "⌈Potion Craft⌋ Alchemist's Dream",
+    "ui.kubejs.blade_of_the_huntress": "⌈Stellaris⌋ Who's the prey now?",
+    "ui.kubejs.the_necklace_of_krosa": "⌈Far Away⌋ Desert Rose",
+    "ui.kubejs.epiphany_pendant": "⌈Arknights⌋ It's what I believe in",
+    "ui.kubejs.divergence_meter": "⌈Steins;Gate⌋ El Psy Kongroo",
+
+    "ui.kubejs.deity_from_the_outside": "⌈Noctuary⌋ Illuminators, Time, Lives",    
+    "ui.kubejs.true_three_goddess": "⌈Umamusume⌋ Toward Everlasting Glory",
+    "ui.kubejs.old_george_nutritional_puree": "⌈Arknights⌋ Avocado Flavor",
+    "ui.kubejs.miniature_galaxy": "⌈Stellaris⌋ Now I'm the top narrator",
+    "ui.kubejs.glase_soda": "⌈Far Away⌋ Original, lemon, salt, grape, snakeweed?",
+    "ui.kubejs.white_mask": "⌈Elden Ring⌋ Bloodstained, faintly grinning white mask",
+    "ui.kubejs.sun": "⌈One Shot⌋ World Machine",
+    "ui.kubejs.photo_of_niko": "⌈One Shot⌋ \nNot a cat!\nA backup!\n3rd time's the charm?\nThis is kind of fun.\nLookin' Good.\nNiko blinked in this one. \nNice.\nVery photogenic.\nCan't have too much of a good thing!\nThe ultimate photo.",
+    "ui.kubejs.godricks_great_rune": "⌈Elden Ring⌋ The first demigods were The Elden Lord Godfrey and his offspring, the golden lineage",
+
+    "ui.kubejs.compact_pal_factory_2": "Fully self-sufficient Pal Factory after extreme compression",
+    "ui.kubejs.compact_pal_factory_3": "Generate a random Pokeball every once in a while",
+    "ui.kubejs.compact_pal_factory_4": "Your §e⌈Compact Pal Factory⌋§r successfully manufactured: ",
+
+    "ui.kubejs.sages_stone_2": "Converts your armor into Attack Damage, but eats up hp every so often",
+    "ui.kubejs.glase_soda_2": "Provides a small amount of shielding every so often",
+    "ui.kubejs.white_mask_2": "Provides short duration strength effects every so often",
+
+    "ui.kubejs.true_three_goddess_2": "Boosts your attributes based on your move speed",
+    "ui.kubejs.old_george_nutritional_puree_2": "Boosts your Attack Damage based on your max health",
+    "ui.kubejs.miniature_galaxy_2": "Convert your Attack Speed to Critical Damage",
+    "ui.kubejs.the_necklace_of_krosa_2": "Gives you a random effect every once in a while",
+    "ui.kubejs.godricks_great_rune_2": "Every once in a while, consume a gold nugget from your offhand \nto make you take significantly less damage for a period of time",
+    
+    "ui.kubejs.wear_to_update": "Wear this relic to see the updated attributes, \n this type of relics can not repeatly provide boosts for the same attribute",
+
+    "material.tconstruct.blue_steel": "Blue Steel",
+    "material.tconstruct.red_steel": "Red Steel",
+    "material.tconstruct.refined_copper": "Refined Copper",
+    "material.tconstruct.moltarium": "Moltarium",
+    "material.tconstruct.tumblestone": "Tumblestone",
+    "material.tconstruct.ember_crystal": "Ember Crystal",
+    "material.tconstruct.soulstone": "Soulstone",
+    "material.tconstruct.desh": "Desh",
+    "material.tconstruct.sky_tumblestone": "Sky Tumblestone",
+    "material.tconstruct.black_tumblestone": "Black Tumblestone",
+    "material.tconstruct.dawnstone": "Dawnstone",
+
+    "material.tconstruct.hard_carbon": "Hard Carbon",
+    "material.tconstruct.tough_alloy": "Tough Allow",
+    "material.tconstruct.soul_stained_steel": "Soul Stained Steel",
+    "material.tconstruct.max_revive": " Max Revive",
+    "material.tconstruct.refined_steel": "Refined Steel",
+    "material.tconstruct.extreme_alloy": "Extreme Alloy",
+    "material.tconstruct.thermoconducting_alloy": "Thermoconducting Alloy",
+
+    "material.tconstruct.enderium": "Enderium",
+    "material.tconstruct.refined_m_steel": "Refined M Steel",
+    "material.tconstruct.polymer": "Polymer",
+    "material.tconstruct.cursium": "Cursium",
+    "material.tconstruct.witherite": "Witherite",
+    "material.tconstruct.ignitium": "Ignitium",
+    "material.tconstruct.iesnium": "Iesnium",
+    "material.tconstruct.terrasteel": "terrasteel",
+    "material.tconstruct.glowing_obsidian": "Glowing Obsidian",
+    "material.tconstruct.boron_nitride_gem": "Boron Nitride Gem",
+    
+    "material.tconstruct.ostrum": "Ostrum",
+    "material.tconstruct.voidarium": "Voidarium",
+    "material.tconstruct.mythril": "Mythril",
+    "material.tconstruct.gaia": "Gaia",
+    "material.tconstruct.cell_component_64k": "Cell Component 64k",
+    "material.tconstruct.calorite": "Calorite",
+    "material.tconstruct.reinforced_sheet": "Reinforced Sheet",
+
+    "material.tconstruct.beryllium_bronze_alloy": "Beryllium Bronze Alloy",
+
+    "curios.identifier.otherworld_relics": "Otherworld Relics",
+
+    "curios.modifiers.otherworld_relics": "When in tune with the relic: "
+
+}

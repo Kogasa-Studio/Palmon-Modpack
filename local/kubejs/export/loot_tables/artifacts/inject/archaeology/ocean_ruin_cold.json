@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/archaeology/ocean_ruin_cold",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:lucky_scarf"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:fire_gauntlet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:anglers_hat"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:digging_claws"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:antidote_vessel"
+				}
+			]
+		}
+	]
+}

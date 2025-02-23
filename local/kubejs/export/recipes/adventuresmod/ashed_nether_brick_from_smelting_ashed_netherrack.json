@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"cookingtime": 200,
+	"experience": 0.7,
+	"group": "ashed_nether_brick",
+	"ingredient": {
+		"item": "adventuresmod:ashed_netherrack"
+	},
+	"result": "adventuresmod:ashed_nether_brick"
+}

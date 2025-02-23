@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:cut_sandstone/black",
+	"result": "tfc:cut_sandstone/black_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:cut_sandstone/black_slab"
+	}
+}

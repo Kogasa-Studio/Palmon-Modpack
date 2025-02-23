@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"cookingtime": 100,
+	"experience": 0.7,
+	"group": "mythril_fragment",
+	"ingredient": {
+		"item": "adventuresmod:mythril_ore"
+	},
+	"result": "adventuresmod:mythril_fragment"
+}

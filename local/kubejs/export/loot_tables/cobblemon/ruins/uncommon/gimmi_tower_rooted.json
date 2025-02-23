@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/uncommon/gimmi_tower_rooted",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:dusk_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:ability_shield"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:smoke_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "cobblemon:dome_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "cobblemon:helix_sherd"
+				}
+			]
+		}
+	]
+}

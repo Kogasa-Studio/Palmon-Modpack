@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {
+		"item": "adventuresmod:moltarium_ingot"
+	},
+	"base": {
+		"item": "minecraft:netherite_leggings"
+	},
+	"result": {
+		"item": "adventuresmod:molten_leggings"
+	},
+	"template": {
+		"item": "adventuresmod:molten_upgrade_smithing_template"
+	}
+}

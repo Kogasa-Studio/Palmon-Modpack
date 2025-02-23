@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/shale"
+	},
+	"result": "tfc:rock/bricks/shale_stairs",
+	"count": 1
+}

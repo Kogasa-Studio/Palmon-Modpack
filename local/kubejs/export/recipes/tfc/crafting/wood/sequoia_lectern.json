@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		" Y ",
+		" X "
+	],
+	"key": {
+		"X": {
+			"item": "tfc:wood/lumber/sequoia"
+		},
+		"Y": {
+			"item": "tfc:wood/planks/sequoia_bookshelf"
+		}
+	},
+	"result": {
+		"item": "tfc:wood/lectern/sequoia"
+	}
+}

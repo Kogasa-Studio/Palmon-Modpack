@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomeswevegone:blocks/cattail_sprout",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomeswevegone:cattail_sprout"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

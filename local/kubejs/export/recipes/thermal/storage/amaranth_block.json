@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"tag": "forge:crops/amaranth"
+		},
+		"I": {
+			"item": "thermal:amaranth"
+		}
+	},
+	"pattern": [
+		"###",
+		"#I#",
+		"###"
+	],
+	"result": {
+		"item": "thermal:amaranth_block"
+	},
+	"show_notification": true
+}

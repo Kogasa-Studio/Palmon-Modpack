@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/raw/gneiss",
+	"result": "tfc:rock/smooth/gneiss",
+	"mode": "smooth"
+}

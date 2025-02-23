@@ -1,0 +1,15 @@
+{
+	"type": "systeams:upgrade_shapeless",
+	"ingredients": [
+		{
+			"item": "thermal:dynamo_stirling"
+		},
+		{
+			"item": "systeams:boiler_pipe"
+		}
+	],
+	"result": {
+		"item": "systeams:stirling_boiler"
+	},
+	"replacement": "thermal:rf_coil"
+}

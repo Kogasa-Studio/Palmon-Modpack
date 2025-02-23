@@ -1,0 +1,4 @@
+{
+	"reterraforged:any": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"reterraforged:tree": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

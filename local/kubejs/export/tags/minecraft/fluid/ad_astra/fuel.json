@@ -1,0 +1,19 @@
+[
+	"#c:biodiesel?",
+	"#c:diesel?",
+	"#c:fuel?",
+	"#forge:biodiesel?",
+	"#forge:biodiesel?",
+	"#forge:biofuel?",
+	"#forge:diesel?",
+	"#forge:fuel?",
+	"ad_astra:cryo_fuel",
+	"ad_astra:fuel",
+	"car:bio_diesel?",
+	"modern_industrialization:biodiesel?",
+	"modern_industrialization:diesel?",
+	"techreborn:biofuel?",
+	"techreborn:diesel?",
+	"thermal:refined_fuel?",
+	"vehicle:fuelium?"
+]

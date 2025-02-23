@@ -1,0 +1,25 @@
+{
+	"type": "tfcrf:regrowth",
+	"leaves": "tfc:wood/leaves/white_cedar",
+	"sapling": "tfc:wood/sapling/white_cedar",
+	"chance": 3175,
+	"spread_distance": 7,
+	"min_y": 63,
+	"max_y": 128,
+	"min_light": 11,
+	"max_light": 15,
+	"min_temperature": -15.7,
+	"max_temperature": 0.7,
+	"min_rainfall": 100,
+	"max_rainfall": 285,
+	"min_forest_density": 0.2,
+	"max_forest_density": 1.0,
+	"min_forest_type": "edge",
+	"max_forest_type": "old_growth",
+	"months": [
+		"september",
+		"october",
+		"november"
+	],
+	"fuzzy": true
+}

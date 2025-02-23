@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {
+		"item": "adventuresmod:celestial_plating"
+	},
+	"base": {
+		"item": "adventuresmod:voidarium_helmet"
+	},
+	"result": {
+		"item": "adventuresmod:eternal_helmet"
+	},
+	"template": {
+		"item": "adventuresmod:eternal_upgrade_smithing_template"
+	}
+}

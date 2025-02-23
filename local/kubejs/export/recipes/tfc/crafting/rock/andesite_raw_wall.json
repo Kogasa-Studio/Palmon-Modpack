@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/raw/andesite"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/raw/andesite_wall",
+		"count": 6
+	}
+}

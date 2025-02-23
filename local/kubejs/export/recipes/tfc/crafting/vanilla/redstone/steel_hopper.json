@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X X",
+		" Y "
+	],
+	"key": {
+		"X": {
+			"tag": "forge:sheets/steel"
+		},
+		"Y": {
+			"tag": "forge:chests/wooden"
+		}
+	},
+	"result": {
+		"item": "minecraft:hopper",
+		"count": 2
+	}
+}

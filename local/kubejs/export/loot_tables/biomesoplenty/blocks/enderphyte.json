@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomesoplenty:blocks/enderphyte",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomesoplenty:enderphyte"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"tag": "biomesoplenty:shears"
+					}
+				}
+			]
+		}
+	]
+}

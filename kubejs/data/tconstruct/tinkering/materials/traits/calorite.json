@@ -1,0 +1,35 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:insatiable",
+            "level": 2
+        },
+        {
+            "name": "tconstruct:momentum",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:reinforced",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "level": 2,
+                "name": "tconstruct:fire_protection"
+            },
+            {
+                "level": 1,
+                "name": "tconstruct:blast_protection"
+            },
+            {
+                "level": 1,
+                "name": "tconstruct:magic_protection"
+            }
+        ]
+    }
+}

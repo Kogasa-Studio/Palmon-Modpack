@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "wooden_sign",
+	"key": {
+		"#": {
+			"item": "adventuresmod:chorus_planks"
+		},
+		"X": {
+			"item": "minecraft:stick"
+		}
+	},
+	"pattern": [
+		"###",
+		"###",
+		" X "
+	],
+	"result": {
+		"count": 3,
+		"item": "adventuresmod:chorus_sign"
+	},
+	"show_notification": true
+}

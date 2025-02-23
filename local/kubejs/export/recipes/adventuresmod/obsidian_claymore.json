@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:ruined_hilt"
+		},
+		"O": {
+			"item": "adventuresmod:obsidian_fragments"
+		},
+		"S": {
+			"item": "adventuresmod:shadowed_cluster"
+		}
+	},
+	"pattern": [
+		" OS",
+		"OSO",
+		"#O "
+	],
+	"result": {
+		"item": "adventuresmod:obsidian_claymore"
+	},
+	"show_notification": true
+}

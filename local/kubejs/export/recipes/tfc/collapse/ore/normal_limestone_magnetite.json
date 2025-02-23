@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:ore/rich_magnetite/limestone",
+	"result": "tfc:ore/normal_magnetite/limestone"
+}

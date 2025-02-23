@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"X#X",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "lcrdrfs:robo_dino_part"
+		},
+		"#": {
+			"item": "minecraft:egg"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:robo_dino_egg_crafted"
+	}
+}

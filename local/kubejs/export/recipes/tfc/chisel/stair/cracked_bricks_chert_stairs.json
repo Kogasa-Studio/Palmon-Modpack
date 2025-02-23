@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cracked_bricks/chert",
+	"result": "tfc:rock/cracked_bricks/chert_stairs",
+	"mode": "stair"
+}

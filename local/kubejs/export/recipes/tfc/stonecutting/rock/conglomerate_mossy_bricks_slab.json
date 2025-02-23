@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/mossy_bricks/conglomerate"
+	},
+	"result": "tfc:rock/mossy_bricks/conglomerate_slab",
+	"count": 2
+}

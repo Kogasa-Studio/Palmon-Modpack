@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/raw/chalk"
+	},
+	"result": "tfc:rock/raw/chalk_slab",
+	"count": 2
+}

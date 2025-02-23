@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/common/toppled_pillars_ruins",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:copper_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "cobblemon:relic_coin"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:helix_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:dragon_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:fairy_gem"
+				}
+			]
+		}
+	]
+}

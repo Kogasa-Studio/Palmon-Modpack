@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"aa",
+		"ac",
+		" c"
+	],
+	"key": {
+		"a": {
+			"item": "trom:olivine"
+		},
+		"c": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "trom:olivine_axe",
+		"count": 1
+	}
+}

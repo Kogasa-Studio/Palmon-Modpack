@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/raw/schist",
+	"result": "tfc:rock/smooth/schist",
+	"mode": "smooth"
+}

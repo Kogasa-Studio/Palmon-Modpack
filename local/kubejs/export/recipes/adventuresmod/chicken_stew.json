@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:cooked_chicken"
+		},
+		"C": {
+			"item": "minecraft:carrot"
+		},
+		"P": {
+			"item": "minecraft:potato"
+		},
+		"B": {
+			"item": "minecraft:bowl"
+		}
+	},
+	"pattern": [
+		"C#C",
+		"PBP"
+	],
+	"result": {
+		"item": "adventuresmod:chicken_stew"
+	},
+	"show_notification": true
+}

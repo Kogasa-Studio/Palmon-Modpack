@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"result": {
+		"item": "farmersdelight:rich_soil",
+		"count": 1
+	},
+	"ingredients": [
+		{
+			"tag": "tfc:dirt"
+		},
+		{
+			"item": "enchanted:wood_ash"
+		},
+		{
+			"item": "enchanted:wood_ash"
+		},
+		{
+			"item": "minecraft:rotten_flesh"
+		},
+		{
+			"item": "minecraft:rotten_flesh"
+		},
+		{
+			"item": "minecraft:bone_meal"
+		},
+		{
+			"item": "minecraft:bone_meal"
+		},
+		{
+			"item": "minecraft:bone_meal"
+		},
+		{
+			"item": "minecraft:bone_meal"
+		}
+	]
+}

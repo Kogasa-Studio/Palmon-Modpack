@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 2,
+	"ingredient": {
+		"item": "adventuresmod:ruby_bricks"
+	},
+	"result": "adventuresmod:ruby_brick_slab"
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "adventuresmod:blocks/shattered_silver_trapdoor",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:shattered_silver_trapdoor"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"type": "tfc:casting",
+	"mold": {
+		"item": "tfc:ceramic/hoe_head_mold"
+	},
+	"fluid": {
+		"ingredient": "tfc:metal/bronze",
+		"amount": 100
+	},
+	"result": {
+		"item": "tfc:metal/hoe_head/bronze"
+	},
+	"break_chance": 1
+}

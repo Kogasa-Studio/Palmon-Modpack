@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "minecraft:iron_block"
+		},
+		"A": {
+			"item": "adventuresmod:aquatic_debris"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	"pattern": [
+		" # ",
+		" I ",
+		"AAA"
+	],
+	"result": {
+		"item": "adventuresmod:anchor"
+	},
+	"show_notification": true
+}

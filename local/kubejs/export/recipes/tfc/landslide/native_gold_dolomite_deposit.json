@@ -1,0 +1,5 @@
+{
+	"type": "tfc:landslide",
+	"ingredient": "tfc:deposit/native_gold/dolomite",
+	"result": "tfc:deposit/native_gold/dolomite"
+}

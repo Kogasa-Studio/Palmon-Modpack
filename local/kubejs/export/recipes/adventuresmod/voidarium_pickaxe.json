@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"V": {
+			"item": "adventuresmod:voidarium_ingot"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"pattern": [
+		"VVV",
+		" S ",
+		" S "
+	],
+	"result": {
+		"item": "adventuresmod:voidarium_pickaxe"
+	},
+	"show_notification": true
+}

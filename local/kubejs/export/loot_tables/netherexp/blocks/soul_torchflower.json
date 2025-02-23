@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "netherexp:blocks/soul_torchflower",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "netherexp:soul_torchflower"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

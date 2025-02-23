@@ -1,0 +1,19 @@
+{
+    "default":
+    [
+        {
+            "level": 1,
+            "name": "tconstruct:conducting"
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "level": 1,
+                "name": "tconstruct:reinforced"
+            }
+        ]
+    }
+}

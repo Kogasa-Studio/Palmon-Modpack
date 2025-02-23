@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "minecraft:red_dye"
+		},
+		"B": {
+			"item": "minecraft:bricks"
+		}
+	},
+	"pattern": [
+		"###",
+		"#B#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"item": "adventuresmod:red_bricks"
+	},
+	"show_notification": true
+}

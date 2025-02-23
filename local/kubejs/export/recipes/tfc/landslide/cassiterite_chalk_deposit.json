@@ -1,0 +1,5 @@
+{
+	"type": "tfc:landslide",
+	"ingredient": "tfc:deposit/cassiterite/chalk",
+	"result": "tfc:deposit/cassiterite/chalk"
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "lcrdrfs:empty_laser_blaster"
+		},
+		{
+			"item": "lcrdrfs:plasma_power_unit"
+		}
+	],
+	"result": {
+		"item": "lcrdrfs:laser_blaster"
+	}
+}

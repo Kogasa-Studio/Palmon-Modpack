@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "adventuresmod:blocks/cut_purpur_tiles",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "adventuresmod:cut_purpur_tiles"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"slashblade_addon:raven_darkraven": "mods.flammpfeil.slashblade.event.drop.EntityDropEntry",
+	"slashblade:ender_dragon_yamato": "mods.flammpfeil.slashblade.event.drop.EntityDropEntry",
+	"slashblade:wither_sange": "mods.flammpfeil.slashblade.event.drop.EntityDropEntry",
+	"slashblade:hydra_orotiagito": "mods.flammpfeil.slashblade.event.drop.EntityDropEntry",
+	"slashblade:minotaur_yasha": "mods.flammpfeil.slashblade.event.drop.EntityDropEntry",
+	"slashblade:minoshroom_yasha_true": "mods.flammpfeil.slashblade.event.drop.EntityDropEntry",
+	"slashblade:naga_agito": "mods.flammpfeil.slashblade.event.drop.EntityDropEntry"
+}

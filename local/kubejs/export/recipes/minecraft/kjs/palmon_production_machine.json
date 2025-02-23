@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "palmon:production_machine",
+		"count": 1
+	},
+	"pattern": [
+		"ABA",
+		"CDC",
+		"EEE"
+	],
+	"key": {
+		"A": {
+			"tag": "forge:double_sheets/brass"
+		},
+		"B": {
+			"item": "minecraft:crafting_table"
+		},
+		"C": {
+			"item": "minecraft:hopper"
+		},
+		"D": {
+			"tag": "tfc:anvils"
+		},
+		"E": {
+			"tag": "forge:double_sheets/wrought_iron"
+		}
+	}
+}

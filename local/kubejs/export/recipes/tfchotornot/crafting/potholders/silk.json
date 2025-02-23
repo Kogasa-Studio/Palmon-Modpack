@@ -1,0 +1,25 @@
+{
+	"type": "tfc:damage_inputs_shaped_crafting",
+	"recipe": {
+		"type": "minecraft:crafting_shaped",
+		"pattern": [
+			"XZ",
+			"XY"
+		],
+		"key": {
+			"X": {
+				"item": "tfc:silk_cloth"
+			},
+			"Y": {
+				"tag": "forge:string"
+			},
+			"Z": {
+				"tag": "tfc:sewing_needles"
+			}
+		},
+		"result": {
+			"item": "tfchotornot:silk_potholder",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,20 @@
+[
+	"byg:mojave_desert?",
+	"minecraft:desert",
+	"terralith:ancient_sands?",
+	"terralith:cave/desert_caves?",
+	"terralith:desert_canyon?",
+	"terralith:desert_oasis?",
+	"terralith:desert_spires?",
+	"terralith:lush_desert?",
+	"terralith:sandstone_valley?",
+	"terralith:white_mesa?",
+	"wythers:cactus_desert?",
+	"wythers:deep_desert?",
+	"wythers:desert_island?",
+	"wythers:desert_pinnacles?",
+	"wythers:guelta?",
+	"wythers:sand_dunes?",
+	"wythers:sandy_jungle?",
+	"wythers:wooded_desert?"
+]

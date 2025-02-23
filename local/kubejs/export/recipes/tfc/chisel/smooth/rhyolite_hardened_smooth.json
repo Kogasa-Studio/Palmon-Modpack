@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/hardened/rhyolite",
+	"result": "tfc:rock/smooth/rhyolite",
+	"mode": "smooth"
+}

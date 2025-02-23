@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "cobblemon:ancient_poke_ball",
+		"count": 1
+	},
+	"pattern": [
+		"AAA",
+		"BCB",
+		"DDD"
+	],
+	"key": {
+		"A": {
+			"item": "cobblemon:red_apricorn"
+		},
+		"B": {
+			"item": "tfc:metal/sheet/copper"
+		},
+		"C": {
+			"tag": "tfc:trim_materials"
+		},
+		"D": {
+			"item": "palmon:wood"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"type": "patchouli:shapeless_book_recipe",
+	"ingredients": [
+		{
+			"tag": "cobblemon:apricorns"
+		},
+		{
+			"item": "minecraft:book"
+		}
+	],
+	"book": "cobblepedia:cobblepedia",
+	"result": {
+		"item": "patchouli:guide_book"
+	}
+}

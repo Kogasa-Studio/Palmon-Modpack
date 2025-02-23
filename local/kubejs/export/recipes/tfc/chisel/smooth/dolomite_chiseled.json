@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/bricks/dolomite",
+	"result": "tfc:rock/chiseled/dolomite",
+	"mode": "smooth"
+}

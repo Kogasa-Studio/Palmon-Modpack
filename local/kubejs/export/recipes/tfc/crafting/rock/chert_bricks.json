@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XMX",
+		"MXM",
+		"XMX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:brick/chert"
+		},
+		"M": {
+			"tag": "tfc:mortar"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/bricks/chert",
+		"count": 4
+	}
+}

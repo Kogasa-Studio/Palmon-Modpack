@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"block_type": "wood_type",
+			"from": "minecraft:oak",
+			"to": "biomemakeover:swamp_cypress",
+			"ingredient": {
+				"item": "minecraft:oak_sign"
+			},
+			"type": "moonlight:block_type_swap"
+		}
+	],
+	"result": {
+		"item": "supplementaries:biomemakeover/sign_post_swamp_cypress",
+		"count": 2
+	}
+}

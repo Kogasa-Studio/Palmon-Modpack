@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/claystone"
+	},
+	"result": "tfc:rock/bricks/claystone_stairs",
+	"count": 1
+}

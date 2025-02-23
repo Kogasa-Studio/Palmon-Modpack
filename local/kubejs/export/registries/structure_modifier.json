@@ -1,0 +1,4 @@
+{
+	"cataclysm:cataclysm_mob_spawns": "com.github.L_Ender.cataclysm.world.CMMobSpawnStructureModifier",
+	"structure_gel:config_modifier": "com.legacy.structure_gel.core.structure.modifiers.StructureConfigModifier"
+}

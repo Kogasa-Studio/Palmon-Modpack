@@ -1,0 +1,17 @@
+{
+	"type": "tfc:quern",
+	"ingredient": {
+		"type": "tfc:not_rotten",
+		"ingredient": {
+			"item": "tfc:food/rice_grain"
+		}
+	},
+	"result": {
+		"stack": {
+			"item": "tfc:food/rice_flour"
+		},
+		"modifiers": [
+			"tfc:copy_food"
+		]
+	}
+}

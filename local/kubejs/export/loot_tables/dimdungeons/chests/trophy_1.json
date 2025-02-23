@@ -1,0 +1,327 @@
+{
+	"pools": [
+		{
+			"name": "dimdungeons:trophy_list",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 1.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": true,
+							"lore": [
+								{
+									"color": "aqua",
+									"text": "Trophy 1/8"
+								},
+								{
+									"color": "aqua",
+									"text": "A rare mushroom. It will not grow on mycelium."
+								},
+								{
+									"color": "gold",
+									"extra": [
+										{
+											"selector": "@s"
+										}
+									],
+									"text": "Found by: "
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"bold": true,
+								"color": "yellow",
+								"text": "1UP Mushroom"
+							}
+						}
+					],
+					"name": "dimdungeons:item_trophy_1"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": true,
+							"lore": [
+								{
+									"color": "aqua",
+									"text": "Trophy 2/8"
+								},
+								{
+									"color": "aqua",
+									"text": "This blessed sword sleeps, waiting for a specific hero."
+								},
+								{
+									"color": "gold",
+									"extra": [
+										{
+											"selector": "@s"
+										}
+									],
+									"text": "Found by: "
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"bold": true,
+								"color": "yellow",
+								"text": "Master Sword"
+							}
+						}
+					],
+					"name": "dimdungeons:item_trophy_2"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": true,
+							"lore": [
+								{
+									"color": "aqua",
+									"text": "Trophy 3/8"
+								},
+								{
+									"color": "aqua",
+									"text": "A coveted symbol of greed. But aren't diamonds worth more than stone?"
+								},
+								{
+									"color": "gold",
+									"extra": [
+										{
+											"selector": "@s"
+										}
+									],
+									"text": "Found by: "
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"bold": true,
+								"color": "yellow",
+								"text": "Ist Rune"
+							}
+						}
+					],
+					"name": "dimdungeons:item_trophy_3"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": true,
+							"lore": [
+								{
+									"color": "aqua",
+									"text": "Trophy 4/8"
+								},
+								{
+									"color": "aqua",
+									"text": "A most legendary yoyo from another world's moon."
+								},
+								{
+									"color": "gold",
+									"extra": [
+										{
+											"selector": "@s"
+										}
+									],
+									"text": "Found by: "
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"bold": true,
+								"color": "yellow",
+								"text": "The Terrarian"
+							}
+						}
+					],
+					"name": "dimdungeons:item_trophy_4"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": true,
+							"lore": [
+								{
+									"color": "aqua",
+									"text": "Trophy 5/8"
+								},
+								{
+									"color": "aqua",
+									"text": "A powerful mining tool from a far away galaxy."
+								},
+								{
+									"color": "gold",
+									"extra": [
+										{
+											"selector": "@s"
+										}
+									],
+									"text": "Found by: "
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"bold": true,
+								"color": "yellow",
+								"text": "Matter Manipulator"
+							}
+						}
+					],
+					"name": "dimdungeons:item_trophy_5"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": true,
+							"lore": [
+								{
+									"color": "aqua",
+									"text": "Trophy 6/8"
+								},
+								{
+									"color": "aqua",
+									"text": "Give this to a friend in the name of jolly cooperation!"
+								},
+								{
+									"color": "gold",
+									"extra": [
+										{
+											"selector": "@s"
+										}
+									],
+									"text": "Found by: "
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"bold": true,
+								"color": "yellow",
+								"text": "Sunlight Medal"
+							}
+						}
+					],
+					"name": "dimdungeons:item_trophy_6"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": true,
+							"lore": [
+								{
+									"color": "aqua",
+									"text": "Trophy 7/8"
+								},
+								{
+									"color": "aqua",
+									"text": "What purpose does this magenta terracotta pressure plate serve?"
+								},
+								{
+									"color": "gold",
+									"extra": [
+										{
+											"selector": "@s"
+										}
+									],
+									"text": "Found by: "
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"bold": true,
+								"color": "yellow",
+								"text": "Pink Arrow Panel"
+							}
+						}
+					],
+					"name": "dimdungeons:item_trophy_7"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"replace": true,
+							"lore": [
+								{
+									"color": "aqua",
+									"text": "Trophy 8/8"
+								},
+								{
+									"color": "aqua",
+									"text": "An image of a mischievous octopus from another world."
+								},
+								{
+									"color": "gold",
+									"extra": [
+										{
+											"selector": "@s"
+										}
+									],
+									"text": "Found by: "
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"bold": true,
+								"color": "yellow",
+								"text": "Ultros Painting"
+							}
+						}
+					],
+					"name": "dimdungeons:item_trophy_8"
+				}
+			]
+		}
+	]
+}

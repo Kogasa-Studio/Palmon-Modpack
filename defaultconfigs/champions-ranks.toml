@@ -1,0 +1,92 @@
+
+#List of ranks
+[[ranks]]
+  tier = 0
+  numAffixes = 0
+  defaultColor = "#FFFFFF"
+  weight = 9500
+  growthFactor = 0
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 1
+  numAffixes = 1
+  defaultColor = "#FFFF00"
+  weight = 300
+  growthFactor = 1
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 2
+  numAffixes = 2
+  defaultColor = "#FF9900"
+  weight = 250
+  growthFactor = 3
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 3
+  numAffixes = 3
+  defaultColor = "#66FFFF"
+  weight = 150
+  growthFactor = 6
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 4
+  numAffixes = 5
+  defaultColor = "#CC33FF"
+  weight = 100
+  growthFactor = 12
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 5
+  numAffixes = 7
+  defaultColor = "#CC0000"
+  weight = 50
+  growthFactor = 24
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 6
+  numAffixes = 8
+  defaultColor = "#000000"
+  weight = 25
+  growthFactor = 36
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 7
+  numAffixes = 10
+  defaultColor = "#00FF00"
+  weight = 10
+  growthFactor = 52
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 8
+  numAffixes = 10
+  defaultColor = "#111111"
+  weight = 1
+  growthFactor = 72
+  effects = []
+  presetAffixes = []
+
+[[ranks]]
+  tier = 9
+  numAffixes = 0
+  defaultColor = "#111111"
+  weight = 0
+  growthFactor = 1
+  effects = []
+  presetAffixes = []
+

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:comettine_block"
+		},
+		"X": {
+			"item": "adventuresmod:umbralith"
+		}
+	},
+	"pattern": [
+		"X#",
+		"#X"
+	],
+	"result": {
+		"count": 4,
+		"item": "adventuresmod:crystallized_umbralith"
+	},
+	"show_notification": true
+}

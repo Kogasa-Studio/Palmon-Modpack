@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "forge:vegetables"
+		},
+		{
+			"tag": "forge:berries"
+		},
+		{
+			"tag": "forge:crops"
+		}
+	],
+	"result": {
+		"item": "palmon:poke_food",
+		"count": 1
+	}
+}

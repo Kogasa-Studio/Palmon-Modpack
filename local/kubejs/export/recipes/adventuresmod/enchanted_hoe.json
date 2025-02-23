@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:enchanted_shards"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"pattern": [
+		"##",
+		" S",
+		" S"
+	],
+	"result": {
+		"item": "adventuresmod:enchanted_hoe"
+	},
+	"show_notification": true
+}

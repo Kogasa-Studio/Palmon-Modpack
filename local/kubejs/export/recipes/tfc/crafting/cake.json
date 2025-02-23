@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"BEB",
+		"CCC"
+	],
+	"key": {
+		"A": {
+			"type": "tfc:fluid_item",
+			"fluid_ingredient": {
+				"ingredient": {
+					"tag": "tfc:milks"
+				},
+				"amount": 100
+			}
+		},
+		"B": {
+			"item": "minecraft:sugar"
+		},
+		"E": {
+			"item": "minecraft:egg"
+		},
+		"C": {
+			"tag": "tfc:foods/grains"
+		}
+	},
+	"result": {
+		"item": "tfc:cake"
+	}
+}

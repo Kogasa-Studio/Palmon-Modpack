@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "adventuresmod:tomato"
+		},
+		"B": {
+			"item": "minecraft:bowl"
+		}
+	},
+	"pattern": [
+		"###",
+		"###",
+		" B "
+	],
+	"result": {
+		"item": "adventuresmod:tomato_soup"
+	},
+	"show_notification": true
+}

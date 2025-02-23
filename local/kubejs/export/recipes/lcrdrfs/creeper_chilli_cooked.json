@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "lcrdrfs:creeper_chilli"
+	},
+	"result": "lcrdrfs:creeper_chilli_powder",
+	"experience": 0.35,
+	"cookingtime": 200
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:stardust_block"
+	},
+	"result": "adventuresmod:stardust_wall"
+}

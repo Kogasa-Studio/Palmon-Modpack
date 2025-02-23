@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"YYY"
+	],
+	"key": {
+		"X": {
+			"tag": "tfc:high_quality_cloth"
+		},
+		"Y": {
+			"tag": "tfc:lumber"
+		}
+	},
+	"result": {
+		"item": "minecraft:white_bed"
+	}
+}

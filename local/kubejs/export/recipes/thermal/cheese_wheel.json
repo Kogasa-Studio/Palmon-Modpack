@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "minecraft:milk_bucket"
+		},
+		{
+			"tag": "forge:crops/sadiroot"
+		}
+	],
+	"result": {
+		"item": "thermal:cheese_wheel"
+	}
+}

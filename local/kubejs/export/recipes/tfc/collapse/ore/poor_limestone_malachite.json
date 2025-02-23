@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:ore/normal_malachite/limestone",
+	"result": "tfc:ore/poor_malachite/limestone"
+}

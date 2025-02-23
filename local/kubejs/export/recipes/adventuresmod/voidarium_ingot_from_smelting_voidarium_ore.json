@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.7,
+	"group": "voidarium_ingot",
+	"ingredient": {
+		"item": "adventuresmod:voidarium_ore"
+	},
+	"result": "adventuresmod:voidarium_ingot"
+}

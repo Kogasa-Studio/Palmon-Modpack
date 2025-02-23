@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:mud_bricks/silt"
+		}
+	},
+	"result": {
+		"item": "tfc:mud_bricks/silt_slab",
+		"count": 6
+	}
+}

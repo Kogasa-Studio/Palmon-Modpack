@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "framedblocks:blocks/framed_thick_lattice",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "framedblocks:framed_thick_lattice"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

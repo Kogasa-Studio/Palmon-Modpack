@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:wood/planks/palm",
+	"result": "tfc:wood/planks/palm_stairs",
+	"mode": "stair"
+}

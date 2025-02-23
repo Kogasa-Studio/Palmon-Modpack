@@ -1,0 +1,13 @@
+[
+	"minecraft:chiseled_quartz_block",
+	"minecraft:quartz_block",
+	"minecraft:quartz_bricks",
+	"minecraft:quartz_pillar",
+	"minecraft:quartz_slab",
+	"minecraft:quartz_stairs",
+	"minecraft:smooth_quartz",
+	"minecraft:smooth_quartz_slab",
+	"minecraft:smooth_quartz_stairs",
+	"netherexp:chiseled_quartz_pillar",
+	"netherexp:cracked_quartz_bricks"
+]

@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:ore/rich_garnierite/limestone",
+	"result": "tfc:ore/normal_garnierite/limestone"
+}

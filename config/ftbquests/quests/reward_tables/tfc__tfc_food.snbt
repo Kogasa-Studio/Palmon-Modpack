@@ -1,0 +1,162 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:food": {
+				creationDate: -9223372036854775808L
+				traits: [ ]
+			}
+		}
+		id: "tfc:food/blackberry"
+	}
+	id: "0FD7D54FDFAC3D03"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+				}
+				id: "tfc:food/blackberry"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+				}
+				id: "tfc:food/cabbage"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+				}
+				id: "tfc:food/blueberry"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+				}
+				id: "tfc:food/green_bell_pepper"
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+				}
+				id: "firmalife:food/chevre"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+				}
+				id: "firmalife:food/cheddar"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/cod"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/chevon"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/wheat_bread"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: 912000000L
+						traits: [ ]
+					}
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:food/oat_bread"
+			}
+		}
+	]
+	title: "TFC食物 | TFC Food"
+}

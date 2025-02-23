@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:wood/planks/aspen",
+	"result": "tfc:wood/planks/aspen_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:wood/planks/aspen_slab"
+	}
+}

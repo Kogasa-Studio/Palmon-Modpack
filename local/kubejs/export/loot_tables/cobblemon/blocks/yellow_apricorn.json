@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "cobblemon:yellow_apricorn",
+							"properties": {
+								"age": "3"
+							}
+						}
+					],
+					"name": "cobblemon:yellow_apricorn"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "cobblemon:yellow_apricorn",
+							"properties": {
+								"age": "3"
+							}
+						},
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"name": "cobblemon:yellow_apricorn_seed"
+				}
+			]
+		}
+	]
+}

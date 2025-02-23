@@ -1,0 +1,19 @@
+{
+	"minecraft:upwards_branching_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"biomemakeover:swamp_cypress": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"biomemakeover:ancient_oak": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:fancy_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:dark_oak_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:bending_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:straight_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"biomemakeover:blighted_balsa": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:giant_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:forking_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"integrateddynamics:menril": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"biomemakeover:willow": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:cherry_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"adventuresmod:huge_end_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"quark:multi_foliage_straight_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:mega_jungle_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"adventuresmod:indigo_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType"
+}

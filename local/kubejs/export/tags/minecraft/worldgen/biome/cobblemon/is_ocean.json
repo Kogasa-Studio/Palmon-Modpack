@@ -1,0 +1,11 @@
+[
+	"#cobblemon:is_coast",
+	"#cobblemon:is_cold_ocean",
+	"#cobblemon:is_deep_ocean",
+	"#cobblemon:is_frozen_ocean",
+	"#cobblemon:is_lukewarm_ocean",
+	"#cobblemon:is_temperate_ocean",
+	"#cobblemon:is_warm_ocean",
+	"#minecraft:is_ocean",
+	"tfc:ocean"
+]

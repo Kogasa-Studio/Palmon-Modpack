@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/raw/granite",
+	"result": "tfc:rock/raw/granite_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/raw/granite_slab"
+	}
+}

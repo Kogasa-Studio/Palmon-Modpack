@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "adventuresmod:blocks/decorated_silt_pot",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:dynamic",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "minecraft:breaks_decorated_pots"
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:match_tool",
+										"predicate": {
+											"enchantments": [
+												{
+													"enchantment": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
+												}
+											]
+										}
+									}
+								}
+							],
+							"name": "adventuresmod:silt_sherds"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": "block_entity",
+									"ops": [
+										{
+											"source": "silt_sherds",
+											"target": "BlockEntityTag.silt_sherds",
+											"op": "replace"
+										}
+									]
+								}
+							],
+							"name": "adventuresmod:decorated_silt_pot"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,194 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": {
+					"type": "minecraft:uniform",
+					"min": 1.0,
+					"max": 6.0
+				},
+				"max": 5.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:coal_ore"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:charcoal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:deepslate_coal_ore"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:cobbled_deepslate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:deepslate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:stone"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 6.0,
+						"max": 10.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mud"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:smooth_basalt"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blackstone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wither_rose"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:basalt"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flint"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 6.0,
+						"max": 20.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:coal_block"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Trim:{material:\"netherite\",pattern:\"host\"},display:{color:1908001}}"
+						}
+					],
+					"name": "minecraft:leather_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Trim:{material:\"netherite\",pattern:\"host\"},display:{color:1908001}}"
+						}
+					],
+					"name": "minecraft:leather_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Trim:{material:\"netherite\",pattern:\"host\"},display:{color:1908001}}"
+						}
+					],
+					"name": "minecraft:leather_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Trim:{material:\"netherite\",pattern:\"host\"},display:{color:1908001}}"
+						}
+					],
+					"name": "minecraft:leather_boots"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:enchant_with_levels",
+					"levels": {
+						"type": "minecraft:uniform",
+						"min": 20.0,
+						"max": 30.0
+					},
+					"treasure": false
+				}
+			]
+		}
+	]
+}

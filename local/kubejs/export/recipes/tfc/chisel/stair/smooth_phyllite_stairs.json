@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/smooth/phyllite",
+	"result": "tfc:rock/smooth/phyllite_stairs",
+	"mode": "stair"
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "ventumgale_ingot",
+	"ingredients": [
+		{
+			"item": "adventuresmod:windswept_scrap"
+		},
+		{
+			"item": "adventuresmod:windswept_scrap"
+		},
+		{
+			"item": "adventuresmod:mythril_ingot"
+		},
+		{
+			"item": "adventuresmod:frost_torn_cloth"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:ventumgale_ingot"
+	}
+}

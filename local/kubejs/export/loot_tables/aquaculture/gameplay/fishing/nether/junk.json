@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:fishing",
+	"random_sequence": "aquaculture:gameplay/fishing/nether/junk",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": []
+		}
+	]
+}

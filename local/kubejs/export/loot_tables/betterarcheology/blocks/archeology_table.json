@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "betterarcheology:blocks/archeology_table",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "betterarcheology:archeology_table"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

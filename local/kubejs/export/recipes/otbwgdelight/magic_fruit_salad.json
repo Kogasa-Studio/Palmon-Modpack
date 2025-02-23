@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "biomeswevegone:green_apple"
+		},
+		{
+			"item": "biomeswevegone:blueberries"
+		},
+		{
+			"item": "biomeswevegone:baobab_fruit"
+		},
+		{
+			"item": "biomeswevegone:yucca_fruit"
+		},
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "minecraft:bowl"
+		}
+	],
+	"result": {
+		"item": "otbwgdelight:fruitful_salad"
+	}
+}

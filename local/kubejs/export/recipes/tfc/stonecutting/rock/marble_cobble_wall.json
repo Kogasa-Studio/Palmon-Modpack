@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/cobble/marble"
+	},
+	"result": "tfc:rock/cobble/marble_wall",
+	"count": 1
+}

@@ -1,0 +1,22 @@
+[
+	"#minecraft:banners",
+	"#minecraft:pressure_plates",
+	"#minecraft:signs",
+	"#supplementaries:candle_holders",
+	"#supplementaries:sconces",
+	"adventuresmod:dragon_torch",
+	"adventuresmod:dungeon_torch",
+	"adventuresmod:frost_bitten_torch",
+	"adventuresmod:spectral_torch",
+	"ae2:light_detector",
+	"ae2:quartz_fixture",
+	"betterarcheology:rotten_pressure_plate",
+	"minecraft:redstone_torch",
+	"minecraft:soul_torch",
+	"minecraft:torch",
+	"minecraft:tripwire",
+	"regions_unexplored:green_bioshroom_block",
+	"supplementaries:crank",
+	"tfc:dead_torch",
+	"tfc:torch"
+]

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/quartzite"
+	},
+	"result": "tfc:rock/bricks/quartzite_wall",
+	"count": 1
+}

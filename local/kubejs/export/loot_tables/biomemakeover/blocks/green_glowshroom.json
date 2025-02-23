@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomemakeover:blocks/green_glowshroom",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomemakeover:green_glowshroom"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:paper"
+		},
+		"Y": {
+			"tag": "forge:leather"
+		}
+	},
+	"result": {
+		"item": "minecraft:map"
+	}
+}

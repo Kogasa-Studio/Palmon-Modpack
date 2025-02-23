@@ -1,0 +1,100 @@
+{
+	"type": "minecraft:fishing",
+	"random_sequence": "aquaculture:gameplay/fishing/junk",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "aquaculture:driftwood"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "aquaculture:fish_bones"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "aquaculture:tin_can"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "aquaculture:box"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "aquaculture:lockbox"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:treasure_chest"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "aquaculture:goldfish"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aquaculture:message_in_a_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "aquaculture:biome_tag_check",
+							"predicate": {
+								"add": false
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"biome": "minecraft:deep_frozen_ocean"
+								}
+							}
+						}
+					],
+					"weight": 10,
+					"name": "minecraft:seagrass"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "aquaculture:biome_tag_check",
+							"predicate": {
+								"add": false
+							}
+						}
+					],
+					"weight": 9,
+					"name": "minecraft:kelp"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "aquaculture:biome_tag_check",
+							"predicate": {
+								"add": false
+							}
+						}
+					],
+					"weight": 10,
+					"name": "aquaculture:algae"
+				}
+			]
+		}
+	]
+}

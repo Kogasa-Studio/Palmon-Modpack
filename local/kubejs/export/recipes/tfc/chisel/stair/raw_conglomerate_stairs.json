@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/raw/conglomerate",
+	"result": "tfc:rock/raw/conglomerate_stairs",
+	"mode": "stair"
+}

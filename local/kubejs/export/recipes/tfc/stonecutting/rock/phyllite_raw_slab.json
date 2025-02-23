@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/raw/phyllite"
+	},
+	"result": "tfc:rock/raw/phyllite_slab",
+	"count": 2
+}

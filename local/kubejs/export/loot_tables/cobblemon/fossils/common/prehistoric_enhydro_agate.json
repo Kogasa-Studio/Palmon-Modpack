@@ -1,0 +1,68 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:fossils/common/prehistoric_enhydro_agate",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:raw_copper"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:raw_iron"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:raw_gold"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:water_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:power_herb"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:white_herb"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:mental_herb"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:mirror_herb"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "cobblemon:big_root"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "cobblemon:energy_root"
+				}
+			]
+		}
+	]
+}

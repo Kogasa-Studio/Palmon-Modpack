@@ -1,0 +1,17 @@
+[
+	"minecraft:allay",
+	"minecraft:armor_stand",
+	"minecraft:ender_dragon",
+	"minecraft:enderman",
+	"minecraft:endermite",
+	"minecraft:iron_golem",
+	"minecraft:magma_cube",
+	"minecraft:shulker",
+	"minecraft:slime",
+	"minecraft:snow_golem",
+	"minecraft:vex",
+	"minecraft:warden",
+	"netherexp:apparition",
+	"netherexp:ecto_slab",
+	"netherexp:wisp"
+]

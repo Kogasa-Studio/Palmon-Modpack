@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/uncommon/crumbling_arch_ruins",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:twisted_spoon"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:kings_rock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:unremarkable_teacup"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:masterpiece_teacup"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "cobblemon:nostalgic_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "cobblemon:bygone_sherd"
+				}
+			]
+		}
+	]
+}

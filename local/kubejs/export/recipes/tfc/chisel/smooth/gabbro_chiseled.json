@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/bricks/gabbro",
+	"result": "tfc:rock/chiseled/gabbro",
+	"mode": "smooth"
+}

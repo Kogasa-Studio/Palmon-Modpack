@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "tfc:mud_bricks"
+		},
+		{
+			"item": "tfc:daub"
+		}
+	],
+	"result": {
+		"item": "tfc:smooth_mud_bricks"
+	}
+}

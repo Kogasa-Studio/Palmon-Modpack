@@ -1,0 +1,12 @@
+{
+	"type": "adventuresmod:dragon_forging",
+	"base": {
+		"item": "minecraft:golden_apple"
+	},
+	"infusion": {
+		"item": "adventuresmod:eternal_powder"
+	},
+	"result": {
+		"item": "adventuresmod:void_apple"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "minecraft:stick"
+		},
+		"C": {
+			"item": "adventuresmod:charmed_fragment"
+		},
+		"I": {
+			"item": "adventuresmod:shattered_silver_ingot"
+		},
+		"S": {
+			"item": "adventuresmod:shattered_silver_nugget"
+		}
+	},
+	"pattern": [
+		" S ",
+		" I ",
+		"C#C"
+	],
+	"result": {
+		"item": "adventuresmod:silver_shortsword"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:enchanted_bricks"
+	},
+	"result": "adventuresmod:enchanted_brick_stairs"
+}

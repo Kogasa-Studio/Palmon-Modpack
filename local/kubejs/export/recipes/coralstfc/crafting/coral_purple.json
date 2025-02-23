@@ -1,0 +1,26 @@
+{
+	"__comment__": "This file was automatically created by tfch",
+	"type": "tfc:extra_products_shapeless_crafting",
+	"extra_products": [
+		{
+			"item": "minecraft:purple_dye"
+		}
+	],
+	"recipe": {
+		"type": "tfc:damage_inputs_shapeless_crafting",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"ingredients": [
+				{
+					"tag": "forge:coral/purple"
+				},
+				{
+					"tag": "forge:tools/knives"
+				}
+			],
+			"result": {
+				"item": "coralstfc:coral_powder"
+			}
+		}
+	}
+}

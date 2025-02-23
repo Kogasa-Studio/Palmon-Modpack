@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"conditions": [
+		{
+			"type": "thermal:flag",
+			"flag": "rose_gold"
+		}
+	],
+	"key": {
+		"#": {
+			"tag": "forge:nuggets/rose_gold"
+		},
+		"I": {
+			"item": "thermal:rose_gold_nugget"
+		}
+	},
+	"pattern": [
+		"###",
+		"#I#",
+		"###"
+	],
+	"result": {
+		"item": "thermal:rose_gold_ingot"
+	},
+	"show_notification": true
+}

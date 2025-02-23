@@ -1,0 +1,12 @@
+{
+	"type": "adventuresmod:dragon_forging",
+	"base": {
+		"item": "adventuresmod:polished_tourmaline"
+	},
+	"infusion": {
+		"item": "adventuresmod:charmed_fragment"
+	},
+	"result": {
+		"item": "adventuresmod:polished_comettine"
+	}
+}

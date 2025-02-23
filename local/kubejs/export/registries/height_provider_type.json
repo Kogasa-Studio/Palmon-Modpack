@@ -1,0 +1,11 @@
+{
+	"minecraft:very_biased_to_bottom": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x000002beb9b52d50",
+	"mekanism:configurable": "mekanism.common.registration.impl.HeightProviderTypeDeferredRegister$$Lambda/0x000002bebdb2b238",
+	"minecraft:uniform": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x000002beb9b52d50",
+	"minecraft:weighted_list": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x000002beb9b52d50",
+	"minecraft:trapezoid": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x000002beb9b52d50",
+	"minecraft:biased_to_bottom": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x000002beb9b52d50",
+	"reterraforged:legacy_carver": "raccoonman.reterraforged.world.worldgen.heightproviders.RTFHeightProviderTypes$$Lambda/0x000002bebc8cc520",
+	"underground_villages:constant": "com.mrbysco.undergroundvillages.registration.ModHeightProvider$$Lambda/0x000002bebdb2b020",
+	"minecraft:constant": "net.minecraft.world.level.levelgen.heightproviders.HeightProviderType$$Lambda/0x000002beb9b52d50"
+}

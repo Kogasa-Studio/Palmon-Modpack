@@ -1,0 +1,13 @@
+{
+	"type": "tfc:glassworking",
+	"operations": [
+		"silver",
+		"table_pour"
+	],
+	"batch": {
+		"tag": "tfc:glass_batches_tier_2"
+	},
+	"result": {
+		"item": "tfc:yellow_poured_glass"
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/common/deserted_tower_ruins",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:copper_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "cobblemon:relic_coin"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bowl"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:capture_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:flying_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:fire_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:ground_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:water_gem"
+				}
+			]
+		}
+	]
+}

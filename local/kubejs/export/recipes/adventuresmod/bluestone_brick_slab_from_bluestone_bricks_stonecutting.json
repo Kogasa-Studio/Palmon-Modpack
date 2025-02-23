@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 2,
+	"ingredient": {
+		"item": "adventuresmod:bluestone_bricks"
+	},
+	"result": "adventuresmod:bluestone_brick_slab"
+}

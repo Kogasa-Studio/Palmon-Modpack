@@ -1,0 +1,12 @@
+{
+	"type": "adventuresmod:dragon_forging",
+	"base": {
+		"item": "minecraft:slime_ball"
+	},
+	"infusion": {
+		"item": "minecraft:gunpowder"
+	},
+	"result": {
+		"item": "adventuresmod:forsaken_slime"
+	}
+}

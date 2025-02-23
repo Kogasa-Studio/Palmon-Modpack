@@ -1,0 +1,40 @@
+{
+	default_autoclaim_rewards: "disabled"
+	default_consume_items: false
+	default_quest_disable_jei: false
+	default_quest_shape: "rsquare"
+	default_reward_team: true
+	detection_delay: 20
+	disable_gui: false
+	drop_loot_crates: false
+	emergency_items: [
+		{
+			Count: 1
+			ForgeCaps: {
+				"tfc:food": {
+					creationDate: 258000L
+					traits: [ ]
+				}
+				"tfc:item_heat": {
+					heat: 0.0f
+					ticks: 0L
+				}
+			}
+			id: "tfc:food/barley_bread"
+		}
+		{ Count: 1, id: "minecraft:clay_ball" }
+	]
+	emergency_items_cooldown: 300
+	grid_scale: 0.5d
+	icon: "cobblemon:ancient_poke_ball"
+	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 0
+		monster: 0
+		passive: 0
+	}
+	pause_game: false
+	progression_mode: "linear"
+	title: "帕鲁梦 Palmon"
+	version: 13
+}

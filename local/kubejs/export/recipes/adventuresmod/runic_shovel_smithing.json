@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {
+		"item": "adventuresmod:runestone_slate"
+	},
+	"base": {
+		"item": "adventuresmod:mythril_shovel"
+	},
+	"result": {
+		"item": "adventuresmod:runic_shovel"
+	},
+	"template": {
+		"item": "adventuresmod:runic_upgrade_smithing_template"
+	}
+}

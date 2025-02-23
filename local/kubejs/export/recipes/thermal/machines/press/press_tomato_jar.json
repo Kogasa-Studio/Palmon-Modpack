@@ -1,0 +1,19 @@
+{
+	"type": "thermal:press",
+	"ingredients": [
+		{
+			"tag": "forge:crops/tomato",
+			"count": 5
+		},
+		{
+			"item": "thermal:jar"
+		}
+	],
+	"result": [
+		{
+			"item": "thermal:tomato_sauce"
+		}
+	],
+	"energy": 800,
+	"experience": 0.1
+}

@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"ingredient": {
+		"tag": "forge:vegetables/potato"
+	},
+	"result": "minecraft:baked_potato",
+	"experience": 0.35,
+	"cookingtime": 600
+}

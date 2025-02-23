@@ -1,0 +1,25 @@
+{
+	"type": "farmersdelight:cooking",
+	"container": {
+		"item": "minecraft:stick"
+	},
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredients": [
+		{
+			"item": "biomeswevegone:hydrangea_bush"
+		},
+		{
+			"item": "biomeswevegone:hydrangea_bush"
+		},
+		{
+			"item": "minecraft:ice"
+		},
+		{
+			"item": "minecraft:sugar"
+		}
+	],
+	"result": {
+		"item": "otbwgdelight:hydrangea_ice_cream"
+	}
+}

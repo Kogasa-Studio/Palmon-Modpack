@@ -1,0 +1,11 @@
+{
+	"mekanism:bio": "mekanism.common.util.ChemicalUtil$2",
+	"mekanism:carbon": "mekanism.api.chemical.infuse.InfuseType",
+	"mekanism:diamond": "mekanism.api.chemical.infuse.InfuseType",
+	"mekanism:empty": "mekanism.api.chemical.infuse.EmptyInfuseType",
+	"mekanism:fungi": "mekanism.common.util.ChemicalUtil$2",
+	"mekanism:gold": "mekanism.api.chemical.infuse.InfuseType",
+	"mekanism:redstone": "mekanism.api.chemical.infuse.InfuseType",
+	"mekanism:refined_obsidian": "mekanism.api.chemical.infuse.InfuseType",
+	"mekanism:tin": "mekanism.api.chemical.infuse.InfuseType"
+}

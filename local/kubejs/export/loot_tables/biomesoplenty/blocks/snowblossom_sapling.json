@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomesoplenty:blocks/snowblossom_sapling",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomesoplenty:snowblossom_sapling"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

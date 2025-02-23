@@ -1,0 +1,14 @@
+{
+	"type": "tfc:casting",
+	"mold": {
+		"item": "tfc:ceramic/bell_mold"
+	},
+	"fluid": {
+		"ingredient": "tfc:metal/brass",
+		"amount": 100
+	},
+	"result": {
+		"item": "tfc:brass_bell"
+	},
+	"break_chance": 1
+}

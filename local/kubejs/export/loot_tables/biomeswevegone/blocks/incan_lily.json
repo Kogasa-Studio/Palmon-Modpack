@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomeswevegone:blocks/incan_lily",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomeswevegone:incan_lily"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

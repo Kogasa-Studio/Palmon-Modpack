@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XCX",
+		" X ",
+		"III"
+	],
+	"key": {
+		"X": {
+			"item": "lcrdrfs:jetpack_spider_part"
+		},
+		"C": {
+			"item": "lcrdrfs:creeper_chilli_crystal_shard"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:jet_stabliser"
+	}
+}

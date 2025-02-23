@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "betterarcheology:on_catacombs_explorer_map",
+							"zoom": 4,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.catacombs"
+							}
+						}
+					],
+					"name": "minecraft:map"
+				}
+			]
+		}
+	]
+}

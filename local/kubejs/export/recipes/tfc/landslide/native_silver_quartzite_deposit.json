@@ -1,0 +1,5 @@
+{
+	"type": "tfc:landslide",
+	"ingredient": "tfc:deposit/native_silver/quartzite",
+	"result": "tfc:deposit/native_silver/quartzite"
+}

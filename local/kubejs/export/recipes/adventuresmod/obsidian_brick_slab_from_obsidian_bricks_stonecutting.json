@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 2,
+	"ingredient": {
+		"item": "adventuresmod:obsidian_bricks"
+	},
+	"result": "adventuresmod:obsidian_brick_slab"
+}

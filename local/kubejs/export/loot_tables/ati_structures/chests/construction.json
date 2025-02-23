@@ -1,0 +1,367 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 5.0,
+				"max": 8.0
+			},
+			"bonus_rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:brick"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bricks"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:brick_stairs"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mud_bricks"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mud_brick_stairs"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:brown_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:white_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:light_gray_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gray_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:firework_star"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:clay"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 15.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:clay_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:nether_brick"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 6.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:scaffolding"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"fire_aspect\",lvl:3},{id:\"unbreaking\",lvl:3},{id:\"vanishing_curse\",lvl:1}],display:{Lore:['[\"\",{\"text\":\"⌇☍⟟⏚⟟⎅⟟ ⌇⟟⋔☌⏃\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"⌿⍜⋔⋏⟟ ⎅⟟☌⟟⏁\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"⏃⌰ ⎎⍜⍀⏁⋏⟟⏁⟒\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"☊⊑⏃⋔⏚⏃\",\"italic\":false,\"color\":\"dark_green\"}]'],Name:'[\"\",{\"text\":\"Alien Dirt Block Ɑ\",\"italic\":false,\"color\":\"green\"},{\"text\":\"<\",\"italic\":false}]'}}"
+						}
+					],
+					"name": "minecraft:dirt"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"protection\",lvl:3},{id:\"thorns\",lvl:1},{id:\"unbreaking\",lvl:10}],Trim:{material:\"emerald\",pattern:\"coast\"},display:{Lore:['[\"\",{\"text\":\"Costs at least 5 dinar \",\"italic\":false,\"color\":\"#ffffcc\"}]'],Name:'[\"\",{\"text\":\"Gucci\",\"italic\":false,\"color\":\"dark_green\"},{\"text\":\" \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"T-\",\"italic\":false,\"color\":\"gold\"},{\"text\":\"shirt\",\"italic\":false,\"color\":\"red\"}]',color:11546150}}"
+						}
+					],
+					"name": "minecraft:leather_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"aqua_affinity\",lvl:1},{id:\"protection\",lvl:5},{id:\"unbreaking\",lvl:5}],Trim:{material:\"amethyst\",pattern:\"silence\"},display:{Lore:['[\"\",{\"text\":\"Very sturdy\",\"italic\":false,\"color\":\"#660033\"}]'],Name:'[\"\",{\"text\":\"Amethyst \",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Helm\",\"italic\":false,\"color\":\"light_purple\"}]',color:8978616}}"
+						}
+					],
+					"name": "minecraft:leather_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 30.0,
+								"max": 50.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:fishing_rod"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 32.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:terracotta"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 6.0,
+				"max": 13.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:air"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aquaculture:driftwood"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aquaculture:message_in_a_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "aquaculture:biome_tag_check",
+							"predicate": {
+								"add": false
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"biome": "minecraft:deep_frozen_ocean"
+								}
+							}
+						}
+					],
+					"weight": 10,
+					"name": "minecraft:seagrass"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "aquaculture:biome_tag_check",
+							"predicate": {
+								"add": false
+							}
+						}
+					],
+					"weight": 10,
+					"name": "minecraft:kelp"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "aquaculture:biome_tag_check",
+							"predicate": {
+								"add": false
+							}
+						}
+					],
+					"weight": 10,
+					"name": "aquaculture:algae"
+				}
+			]
+		}
+	]
+}

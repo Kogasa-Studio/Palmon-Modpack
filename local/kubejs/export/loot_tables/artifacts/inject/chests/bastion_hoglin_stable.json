@@ -1,0 +1,48 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/chests/bastion_hoglin_stable",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"name": "artifacts:artifact"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "artifacts:bunny_hoppers"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "artifacts:flame_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "artifacts:cowboy_hat"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "artifacts:pickaxe_heater"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:everlasting_beef"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:artifact_rarity_adjusted_chance",
+					"default_probability": 0.25
+				}
+			]
+		}
+	]
+}

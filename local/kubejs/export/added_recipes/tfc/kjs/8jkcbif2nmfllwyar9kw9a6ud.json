@@ -1,0 +1,15 @@
+{
+	"type": "tfc:knapping",
+	"result": {
+		"item": "enchanted:soft_clay_jar",
+		"count": 2
+	},
+	"knapping_type": "tfc:clay",
+	"pattern": [
+		" X ",
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+	"outside_slot_required": false
+}

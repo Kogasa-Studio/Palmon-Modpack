@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "adventuresmod:tomato"
+		},
+		"L": {
+			"item": "adventuresmod:lettuce"
+		},
+		"R": {
+			"item": "minecraft:beetroot"
+		},
+		"C": {
+			"item": "minecraft:cooked_rabbit"
+		},
+		"B": {
+			"item": "minecraft:bowl"
+		}
+	},
+	"pattern": [
+		"#L#",
+		"RCR",
+		" B "
+	],
+	"result": {
+		"item": "adventuresmod:hearty_stew"
+	},
+	"show_notification": true
+}

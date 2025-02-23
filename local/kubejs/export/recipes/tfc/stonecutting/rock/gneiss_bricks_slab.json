@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/gneiss"
+	},
+	"result": "tfc:rock/bricks/gneiss_slab",
+	"count": 2
+}

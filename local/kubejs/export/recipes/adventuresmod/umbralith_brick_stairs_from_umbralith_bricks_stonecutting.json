@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:umbralith_bricks"
+	},
+	"result": "adventuresmod:umbralith_brick_stairs"
+}

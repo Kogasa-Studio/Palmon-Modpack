@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:mud/silty_loam"
+		},
+		{
+			"item": "tfc:straw"
+		}
+	],
+	"result": {
+		"item": "tfc:drying_bricks/silty_loam",
+		"count": 4
+	}
+}

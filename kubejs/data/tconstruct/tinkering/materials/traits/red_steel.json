@@ -1,0 +1,23 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:lustrous",
+            "level": 1
+        },
+        {
+            "level": 1,
+            "name": "tconstruct:insatiable"
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "level": 2,
+                "name": "tconstruct:kinetic"
+            }
+        ]
+    }
+}

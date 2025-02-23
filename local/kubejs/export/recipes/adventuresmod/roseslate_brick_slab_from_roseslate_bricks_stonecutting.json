@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 2,
+	"ingredient": {
+		"item": "adventuresmod:roseslate_bricks"
+	},
+	"result": "adventuresmod:roseslate_brick_slab"
+}

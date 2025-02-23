@@ -1,0 +1,27 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:sturdy",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:reinforced",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "name": "tconstruct:melee_protection",
+                "level": 1
+            },
+            {
+                "name": "tconstruct:fire_protection",
+                "level": 1
+            }
+        ]
+    }
+}

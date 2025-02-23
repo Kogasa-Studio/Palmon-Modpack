@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:alabaster/bricks/white",
+	"result": "tfc:alabaster/bricks/white_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:alabaster/bricks/white_slab"
+	}
+}

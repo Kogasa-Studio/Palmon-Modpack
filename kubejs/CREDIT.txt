@@ -1,0 +1,3 @@
+使用了https://modrinth.com/datapack/allthemons
+
+使用了https://gitee.com/aka114514/better-combat

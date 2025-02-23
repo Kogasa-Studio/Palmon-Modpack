@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:cobalt_ingot"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"pattern": [
+		"##",
+		" S",
+		" S"
+	],
+	"result": {
+		"item": "adventuresmod:cobalt_hoe"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "netherexp:warped_wart",
+									"properties": {
+										"age": "3",
+										"half": "lower"
+									}
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:apply_bonus",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "netherexp:warped_wart",
+									"properties": {
+										"age": "3",
+										"half": "lower"
+									}
+								}
+							],
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 1
+							}
+						}
+					],
+					"name": "netherexp:warped_wart"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:explosion_decay"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"minecraft:trapezoid": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda/0x000002beb9b3d900",
+	"minecraft:uniform": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda/0x000002beb9b3d900",
+	"minecraft:constant": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda/0x000002beb9b3d900",
+	"reterraforged:legacy_canyon_y_scale": "raccoonman.reterraforged.world.worldgen.floatproviders.RTFFloatProviderTypes$$Lambda/0x000002bebc8d6958",
+	"minecraft:clamped_normal": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda/0x000002beb9b3d900"
+}

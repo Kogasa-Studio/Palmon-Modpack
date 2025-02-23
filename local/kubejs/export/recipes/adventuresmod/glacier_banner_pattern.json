@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "minecraft:paper"
+		},
+		{
+			"item": "adventuresmod:frost_torn_cloth"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:glacier_banner_pattern"
+	}
+}

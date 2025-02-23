@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"IXI",
+		"CRC",
+		"XIX"
+	],
+	"key": {
+		"X": {
+			"item": "lcrdrfs:jetpack_spider_part"
+		},
+		"C": {
+			"item": "lcrdrfs:creeper_chilli_crystal_shard"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		},
+		"R": {
+			"tag": "forge:storage_blocks/redstone"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:jet_control_unit"
+	}
+}

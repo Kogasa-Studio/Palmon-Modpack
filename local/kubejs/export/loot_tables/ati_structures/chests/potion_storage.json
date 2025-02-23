@@ -1,0 +1,288 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 3.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:phantom_membrane"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:paper"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone_meal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:rabbit_foot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:fire_charge"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:leather"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glow_ink_sac"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:dragon_breath"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 15.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:experience_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glass_bottle"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.4
+						}
+					],
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:4673362,CustomPotionEffects:[{Amplifier:1,Duration:1200,Id:20},{Duration:1200,Id:18},{Duration:1200,Id:4}],display:{Lore:['[\"\",{\"text\":\"A brew from Baba Yaga\",\"italic\":false,\"color\":\"#660066\"}]','[\"\",{\"text\":\"containing dark properties\",\"italic\":false,\"color\":\"#660066\"}]'],Name:'[\"\",{\"text\":\"Dark Brew\",\"italic\":false,\"color\":\"#ff3366\"}]'}}"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:15925503,CustomPotionEffects:[{Amplifier:5,Duration:2400,Id:32},{Duration:2400,Id:2}],display:{Lore:['[\"\",{\"text\":\"You can now be just as greedy as\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"the big nosed emerald lovers\",\"italic\":false,\"color\":\"dark_purple\"}]'],Name:'[\"\",{\"text\":\"Villager Ectoplasm\",\"italic\":false,\"color\":\"light_purple\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:3949738,CustomPotionEffects:[{Amplifier:1,Duration:1200,Id:21},{Amplifier:1,Duration:1200,Id:6},{Amplifier:1,Duration:1200,Id:10}],display:{Lore:['[\"\",{\"text\":\"Hardened Water\",\"italic\":false,\"color\":\"dark_blue\"}]'],Name:'[\"\",{\"text\":\"Tvrda Voda\",\"italic\":false,\"color\":\"#0099cc\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16738560,CustomPotionEffects:[{Amplifier:1,Duration:3600,Id:12},{Duration:3600,Id:22}],display:{Lore:['[\"\",{\"text\":\"Good for venturing in the nether\",\"italic\":false,\"color\":\"dark_red\"}]'],Name:'[\"\",{\"text\":\"Fiery Blaze Potion\",\"italic\":false,\"color\":\"red\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:9017650,CustomPotionEffects:[{Duration:2400,Id:22},{Amplifier:4,Duration:2400,Id:3}],display:{Lore:['[\"\",{\"text\":\"You can now become a true miner\",\"italic\":false,\"color\":\"#336666\"}]'],Name:'[\"\",{\"text\":\"Krtek Juice\",\"italic\":false,\"color\":\"#669999\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:11546150,CustomPotionEffects:[{Amplifier:1,Duration:1200,Id:25},{Duration:1200,Id:7}],display:{Lore:['[\"\",{\"text\":\"Juicy and yummy\",\"italic\":false,\"color\":\"dark_red\"}]'],Name:'[\"\",{\"text\":\"Pomegranate Juice\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				}
+			]
+		}
+	]
+}

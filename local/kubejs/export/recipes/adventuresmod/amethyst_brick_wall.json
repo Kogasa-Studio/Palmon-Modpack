@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "adventuresmod:amethyst_bricks"
+		}
+	},
+	"pattern": [
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"item": "adventuresmod:amethyst_brick_wall"
+	},
+	"show_notification": true
+}

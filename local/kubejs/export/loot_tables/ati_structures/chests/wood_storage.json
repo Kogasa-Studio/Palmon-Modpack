@@ -1,0 +1,166 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:acacia_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:birch_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jungle_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spruce_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jungle_log"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 16.0,
+						"max": 32.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_leaves"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spruce_leaves"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 10.0,
+						"max": 25.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:6192150,CustomPotionEffects:[{Duration:6000,Id:3},{Duration:6000,Id:26}],display:{Lore:['[\"\",{\"text\":\"Gotta love deforestation\",\"italic\":false,\"color\":\"dark_green\"}]'],Name:'[\"\",{\"text\":\"Wood Chomping Liquid\",\"italic\":false,\"color\":\"green\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"knockback\",lvl:5},{id:\"sharpness\",lvl:5},{id:\"unbreaking\",lvl:2}],display:{Lore:['[\"\",{\"text\":\"A very strong stick\",\"italic\":false,\"color\":\"#336633\"}]'],Name:'[\"\",{\"text\":\"Sigma Stick\",\"italic\":false,\"color\":\"#669933\"}]'}}"
+						}
+					],
+					"name": "minecraft:wooden_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"protection\",lvl:3},{id:\"thorns\",lvl:5}],Trim:{material:\"gold\",pattern:\"wayfinder\"},display:{Lore:['[\"\",{\"text\":\"Gives you the power of trees\",\"italic\":false,\"color\":\"#336600\"}]'],Name:'[\"\",{\"text\":\"Woodland Crown\",\"italic\":false,\"color\":\"#009933\"}]',color:6192150}}"
+						}
+					],
+					"name": "minecraft:leather_helmet"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_helmet"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{Trim:{material:\"emerald\",pattern:\"ward\"},display:{color:8439583}}"
+				},
+				{
+					"function": "minecraft:enchant_with_levels",
+					"levels": {
+						"type": "minecraft:uniform",
+						"min": 0.0,
+						"max": 30.0
+					},
+					"treasure": false
+				}
+			]
+		}
+	]
+}

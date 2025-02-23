@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X X",
+		"X X",
+		"X X"
+	],
+	"key": {
+		"X": {
+			"tag": "tfc:lumber"
+		}
+	},
+	"result": {
+		"item": "minecraft:ladder",
+		"count": 16
+	}
+}

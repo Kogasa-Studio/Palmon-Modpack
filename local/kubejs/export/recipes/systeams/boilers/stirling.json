@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"C": {
+			"item": "systeams:boiler_pipe"
+		},
+		"G": {
+			"tag": "forge:gears/iron"
+		},
+		"I": {
+			"tag": "forge:ingots/copper"
+		},
+		"X": {
+			"tag": "forge:dusts/redstone"
+		},
+		"Y": {
+			"tag": "forge:stone"
+		}
+	},
+	"pattern": [
+		" C ",
+		"IGI",
+		"YXY"
+	],
+	"result": {
+		"item": "systeams:stirling_boiler"
+	}
+}

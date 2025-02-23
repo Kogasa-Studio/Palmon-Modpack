@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "minecraft:sculk_vein"
+		},
+		"B": {
+			"item": "minecraft:bone_block"
+		}
+	},
+	"pattern": [
+		" # ",
+		"#B#",
+		" # "
+	],
+	"result": {
+		"item": "adventuresmod:sculk_vertebrae"
+	},
+	"show_notification": true
+}

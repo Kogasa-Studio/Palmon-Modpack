@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.07
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"direct_entity": {
+									"type": "minecraft:player"
+								}
+							}
+						}
+					],
+					"name": "confluence:sun_stone"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.05
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"direct_entity": {
+									"type": "minecraft:player"
+								}
+							}
+						}
+					],
+					"name": "confluence:lava_charm"
+				}
+			]
+		}
+	]
+}

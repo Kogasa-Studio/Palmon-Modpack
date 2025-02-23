@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"I I",
+		"I I"
+	],
+	"key": {
+		"X": {
+			"item": "lcrdrfs:jetpack_spider_part"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:jet_thruster"
+	}
+}

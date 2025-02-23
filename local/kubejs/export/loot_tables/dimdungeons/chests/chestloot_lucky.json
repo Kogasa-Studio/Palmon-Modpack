@@ -1,0 +1,43 @@
+{
+	"pools": [
+		{
+			"name": "dimdungeons:pool_lucky",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 1.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/abandoned_mineshaft"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/desert_pyramid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/jungle_temple"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/woodland_mansion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/simple_dungeon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/stronghold_crossing"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/stronghold_library"
+				}
+			]
+		}
+	]
+}

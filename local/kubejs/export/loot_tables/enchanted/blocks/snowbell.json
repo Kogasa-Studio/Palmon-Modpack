@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "enchanted:blocks/snowbell",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "enchanted:snowbell_seeds"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "enchanted:icy_needle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snowball"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "enchanted:snowbell",
+					"properties": {
+						"age": "4"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:binomial_with_bonus_count",
+							"parameters": {
+								"extra": 3,
+								"probability": 0.1714286
+							}
+						}
+					],
+					"name": "enchanted:snowbell_seeds"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "enchanted:snowbell",
+					"properties": {
+						"age": "4"
+					}
+				}
+			]
+		}
+	]
+}

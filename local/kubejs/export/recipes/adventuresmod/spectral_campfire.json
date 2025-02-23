@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "adventuresmod:spectral_sulfur"
+		},
+		"L": {
+			"tag": "minecraft:logs"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"pattern": [
+		" S ",
+		"S#S",
+		"LLL"
+	],
+	"result": {
+		"item": "adventuresmod:spectral_campfire"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.1,
+	"ingredient": {
+		"item": "thermal:slime_mushroom_spores"
+	},
+	"result": "minecraft:slime_ball"
+}

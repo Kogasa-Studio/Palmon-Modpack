@@ -1,0 +1,286 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 3.0,
+									"max": 4.0
+								}
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"color": "light_purple",
+								"text": "Masamune"
+							},
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "white",
+									"text": "The name \"Masamune\" has become a symbol of excellence in Japanese swordmaking"
+								}
+							],
+							"entity": "this"
+						}
+					],
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"color": "light_purple",
+								"text": "Blade of the Fallen Kingdom"
+							},
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "white",
+									"text": "It once belonged to a cheerful king who lost his people to an ambush with an overpowering amount of mobs"
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 3.0,
+								"minecraft:smite": {
+									"type": "minecraft:uniform",
+									"min": 4.0,
+									"max": 5.0
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"color": "light_purple",
+								"text": "Miner's Revenge"
+							},
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "white",
+									"text": "Creeper Aw Man"
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:knockback": {
+									"type": "minecraft:uniform",
+									"min": 2.0,
+									"max": 3.0
+								},
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 2.0,
+									"max": 3.0
+								},
+								"minecraft:looting": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 2.0
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"color": "aqua",
+								"text": "Raidblade"
+							},
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "white",
+									"text": "It has been used by skilled Pillagers of the past"
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:looting": {
+									"type": "minecraft:uniform",
+									"min": 2.0,
+									"max": 3.0
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:knockback": 3.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"color": "aqua",
+								"text": "Bruiser's Bane"
+							},
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "white",
+									"text": "It delivers punishing blows"
+								}
+							],
+							"entity": "this"
+						}
+					],
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"color": "aqua",
+								"text": "ᒷリᓵ⍑ᔑリℸ ̣ ᒷ↸ 𝙹∷╎⊣╎リᓭ"
+							},
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "white",
+									"text": "Myths say it was the first weapon to ever be enchanted"
+								}
+							],
+							"entity": "this"
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sweeping": {
+									"type": "minecraft:uniform",
+									"min": 2.0,
+									"max": 3.0
+								}
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 1.0,
+									"max": 2.0
+								}
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:fire_aspect": 2.0,
+								"minecraft:unbreaking": 3.0,
+								"minecraft:mending": 1.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"color": "aqua",
+								"text": "Blazesaber"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "white",
+									"text": "Crafted from burning hot Blazerods"
+								}
+							],
+							"entity": "this"
+						}
+					],
+					"name": "minecraft:golden_sword"
+				}
+			]
+		}
+	]
+}

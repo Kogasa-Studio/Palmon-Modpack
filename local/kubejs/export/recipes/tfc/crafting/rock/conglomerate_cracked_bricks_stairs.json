@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/cracked_bricks/conglomerate"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/cracked_bricks/conglomerate_stairs",
+		"count": 8
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomeswevegone:blocks/japanese_orchid",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "biomeswevegone:japanese_orchid",
+							"properties": {
+								"half": "lower"
+							}
+						}
+					],
+					"name": "biomeswevegone:japanese_orchid"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

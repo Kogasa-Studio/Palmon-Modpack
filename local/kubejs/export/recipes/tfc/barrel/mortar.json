@@ -1,0 +1,17 @@
+{
+	"type": "tfc:barrel_sealed",
+	"input_item": {
+		"ingredient": {
+			"tag": "minecraft:sand"
+		}
+	},
+	"input_fluid": {
+		"ingredient": "tfc:limewater",
+		"amount": 100
+	},
+	"output_item": {
+		"item": "tfc:mortar",
+		"count": 16
+	},
+	"duration": 8000
+}

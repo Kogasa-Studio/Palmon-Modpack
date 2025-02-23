@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:polished_sunstone"
+	},
+	"result": "adventuresmod:polished_sunstone_stairs"
+}

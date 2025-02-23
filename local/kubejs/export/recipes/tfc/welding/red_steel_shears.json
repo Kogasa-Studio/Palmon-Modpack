@@ -1,0 +1,14 @@
+{
+	"type": "tfc:welding",
+	"first_input": {
+		"item": "tfc:metal/knife_blade/red_steel"
+	},
+	"second_input": {
+		"item": "tfc:metal/knife_blade/red_steel"
+	},
+	"tier": 5,
+	"result": {
+		"item": "tfc:metal/shears/red_steel"
+	},
+	"combine_forging_bonus": true
+}

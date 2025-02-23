@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/cobble/rhyolite"
+	},
+	"result": "tfc:rock/cobble/rhyolite_wall",
+	"count": 1
+}

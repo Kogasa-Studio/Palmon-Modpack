@@ -1,0 +1,14 @@
+{
+	"type": "tfc:knapping",
+	"knapping_type": "tfc:fire_clay",
+	"pattern": [
+		"X   X",
+		"X   X",
+		"X   X",
+		"X   X",
+		"XXXXX"
+	],
+	"result": {
+		"item": "tfc:ceramic/unfired_crucible"
+	}
+}

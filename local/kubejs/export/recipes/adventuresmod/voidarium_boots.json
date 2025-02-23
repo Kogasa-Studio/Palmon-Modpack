@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:voidarium_ingot"
+		}
+	},
+	"pattern": [
+		"   ",
+		"# #",
+		"# #"
+	],
+	"result": {
+		"item": "adventuresmod:voidarium_boots"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "framedblocks:blocks/powered_framing_saw",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "framedblocks:powered_framing_saw"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

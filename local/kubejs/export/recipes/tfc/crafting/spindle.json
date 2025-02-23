@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X",
+		"Y"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:ceramic/spindle_head"
+		},
+		"Y": {
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result": {
+		"item": "tfc:spindle"
+	}
+}

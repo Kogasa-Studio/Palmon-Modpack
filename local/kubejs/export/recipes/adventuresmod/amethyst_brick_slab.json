@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:amethyst_bricks"
+		}
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"item": "adventuresmod:amethyst_brick_slab"
+	},
+	"show_notification": true
+}

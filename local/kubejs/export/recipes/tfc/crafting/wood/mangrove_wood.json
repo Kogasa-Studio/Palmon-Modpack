@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XX",
+		"XX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:wood/log/mangrove"
+		}
+	},
+	"result": {
+		"item": "tfc:wood/wood/mangrove",
+		"count": 3
+	}
+}

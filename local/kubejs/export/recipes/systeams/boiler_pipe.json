@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"R": {
+			"item": "thermal:cured_rubber"
+		},
+		"G": {
+			"tag": "thermal:glass/hardened"
+		}
+	},
+	"pattern": [
+		"  R",
+		" G ",
+		"R  "
+	],
+	"result": {
+		"item": "systeams:boiler_pipe"
+	}
+}

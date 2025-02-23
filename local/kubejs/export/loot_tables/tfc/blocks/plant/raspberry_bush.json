@@ -1,0 +1,73 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "tfc:sharp_tools"
+									}
+								},
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:plant/raspberry_bush",
+									"properties": {
+										"stage": "2"
+									}
+								}
+							],
+							"name": "tfc:plant/raspberry_bush"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "tfc:sharp_tools"
+									}
+								},
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"name": "tfc:plant/raspberry_bush"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		},
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

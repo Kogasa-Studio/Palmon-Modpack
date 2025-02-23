@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" XX",
+		" XX",
+		"X  "
+	],
+	"key": {
+		"X": {
+			"item": "tfc:jute_fiber"
+		}
+	},
+	"result": {
+		"item": "minecraft:lead"
+	}
+}

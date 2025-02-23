@@ -1,0 +1,18 @@
+{
+	"minecraft:overworld": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"ad_astra:mercury": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"minecraft:amplified": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"ad_astra:orbit": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"adventuresmod:mythica": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"minecraft:floating_islands": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"minecraft:end": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"minecraft:large_biomes": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"minecraft:nether": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"ad_astra:glacio": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"minecraft:caves": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"ad_astra:venus": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"ad_astra:moon": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"netherexp:large_nether": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"deeperdarker:otherside": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings",
+	"ad_astra:mars": "net.minecraft.world.level.levelgen.NoiseGeneratorSettings"
+}

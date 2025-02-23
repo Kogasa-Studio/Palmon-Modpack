@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deeperdarker:blocks/stripped_echo_wood",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deeperdarker:stripped_echo_wood"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

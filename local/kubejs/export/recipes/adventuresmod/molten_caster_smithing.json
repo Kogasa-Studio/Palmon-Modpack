@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {
+		"item": "adventuresmod:moltarium_ingot"
+	},
+	"base": {
+		"item": "adventuresmod:netherite_caster"
+	},
+	"result": {
+		"item": "adventuresmod:molten_caster"
+	},
+	"template": {
+		"item": "adventuresmod:molten_upgrade_smithing_template"
+	}
+}

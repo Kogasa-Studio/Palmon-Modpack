@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/granite"
+	},
+	"result": "tfc:rock/bricks/granite_slab",
+	"count": 2
+}

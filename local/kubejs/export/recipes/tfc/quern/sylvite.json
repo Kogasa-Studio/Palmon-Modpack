@@ -1,0 +1,10 @@
+{
+	"type": "tfc:quern",
+	"ingredient": {
+		"item": "tfc:ore/sylvite"
+	},
+	"result": {
+		"item": "tfc:powder/sylvite",
+		"count": 4
+	}
+}

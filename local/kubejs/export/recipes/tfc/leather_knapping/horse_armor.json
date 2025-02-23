@@ -1,0 +1,14 @@
+{
+	"type": "tfc:knapping",
+	"knapping_type": "tfc:leather",
+	"pattern": [
+		"    X",
+		" XXXX",
+		"XXX  ",
+		"XX X ",
+		"X   X"
+	],
+	"result": {
+		"item": "minecraft:leather_horse_armor"
+	}
+}

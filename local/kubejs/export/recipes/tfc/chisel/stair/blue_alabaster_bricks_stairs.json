@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:alabaster/bricks/blue",
+	"result": "tfc:alabaster/bricks/blue_stairs",
+	"mode": "stair"
+}

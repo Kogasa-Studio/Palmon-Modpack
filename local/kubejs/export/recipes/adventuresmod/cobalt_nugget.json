@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "adventuresmod:cobalt_ingot"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:cobalt_nugget",
+		"count": 9
+	},
+	"show_notification": true
+}

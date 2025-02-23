@@ -1,0 +1,14 @@
+{
+	"type": "tfc:knapping",
+	"knapping_type": "tfc:leather",
+	"pattern": [
+		"XX   ",
+		"XX   ",
+		"XX   ",
+		"XXXX ",
+		"XXXXX"
+	],
+	"result": {
+		"item": "minecraft:leather_boots"
+	}
+}

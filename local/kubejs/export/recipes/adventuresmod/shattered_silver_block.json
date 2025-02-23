@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "adventuresmod:shattered_silver_ingot"
+		}
+	},
+	"result": {
+		"item": "adventuresmod:shattered_silver_block"
+	},
+	"show_notification": true
+}

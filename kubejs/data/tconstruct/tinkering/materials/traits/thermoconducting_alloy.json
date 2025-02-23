@@ -1,0 +1,27 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:momentum",
+            "level": 2
+        },
+        {
+            "name": "tconstruct:conducting",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "name": "tconstruct:fire_protection",
+                "level": 2
+            },
+            {
+                "name": "tconstruct:knockback_resistance",
+                "level": 1
+            }
+        ]
+    }
+}

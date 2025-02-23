@@ -1,0 +1,10 @@
+{
+	"mes:advanced_random_spread": "com.finndog.mes.modinit.MESStructurePlacementType$$Lambda/0x000002bebdb95bd8",
+	"cataclysm:cataclysm_random_spread": "com.github.L_Ender.cataclysm.init.ModStructurePlacementType$$Lambda/0x000002bebdb959c0",
+	"minecraft:random_spread": "net.minecraft.world.level.levelgen.structure.placement.StructurePlacementType$$Lambda/0x000002beb9bbfa98",
+	"tfc:climate": "net.dries007.tfc.world.TFCStructureHooks$$Lambda/0x000002bebdb957a0",
+	"repurposed_structures:advanced_random_spread": "com.telepathicgrunt.repurposedstructures.modinit.RSStructurePlacementType$$Lambda/0x000002bebdb95588",
+	"structure_gel:grid_placement": "com.legacy.structure_gel.core.registry.SGRegistry$StructurePlacementTypes$$Lambda/0x000002bebdb95370",
+	"yungsapi:enhanced_random_spread": "com.yungnickyoung.minecraft.yungsapi.module.StructurePlacementTypeModule$$Lambda/0x000002beba01bab0",
+	"minecraft:concentric_rings": "net.minecraft.world.level.levelgen.structure.placement.StructurePlacementType$$Lambda/0x000002beb9bbfa98"
+}

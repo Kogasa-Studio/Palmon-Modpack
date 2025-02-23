@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:alabaster/bricks/yellow"
+		}
+	},
+	"result": {
+		"item": "tfc:alabaster/bricks/yellow_stairs",
+		"count": 8
+	}
+}

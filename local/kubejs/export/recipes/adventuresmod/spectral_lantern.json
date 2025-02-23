@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "adventuresmod:spectral_torch"
+		},
+		"X": {
+			"item": "minecraft:iron_nugget"
+		}
+	},
+	"pattern": [
+		"XXX",
+		"X#X",
+		"XXX"
+	],
+	"result": {
+		"item": "adventuresmod:spectral_lantern"
+	},
+	"show_notification": true
+}

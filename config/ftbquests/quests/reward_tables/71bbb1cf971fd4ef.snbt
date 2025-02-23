@@ -1,0 +1,26 @@
+{
+	icon: "kubejs:deity_from_the_outside"
+	id: "71BBB1CF971FD4EF"
+	loot_crate: {
+		color: 13041919
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "limit"
+	}
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "kubejs:deity_from_the_outside" }
+		{ item: "kubejs:true_three_goddess" }
+		{ item: "kubejs:old_george_nutritional_puree" }
+		{ item: "kubejs:miniature_galaxy" }
+		{ item: "kubejs:the_necklace_of_krosa" }
+		{ item: "kubejs:sun" }
+		{ item: "kubejs:photo_of_niko" }
+		{ item: "kubejs:godricks_great_rune" }
+	]
+	title: "异界遗物-限定池"
+}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XMX",
+		"MXM",
+		"XMX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/raw/gabbro"
+		},
+		"M": {
+			"tag": "tfc:mortar"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/hardened/gabbro",
+		"count": 2
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 8,
+	"ingredient": {
+		"item": "adventuresmod:shattered_silver_block"
+	},
+	"result": "adventuresmod:cut_shattered_silver_slab"
+}

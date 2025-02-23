@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "palmon:working_station",
+		"count": 1
+	},
+	"pattern": [
+		"AAA",
+		"BCB",
+		"DDD"
+	],
+	"key": {
+		"A": {
+			"tag": "forge:sheets/gold"
+		},
+		"B": {
+			"item": "palmon:wood"
+		},
+		"C": {
+			"item": "tfcgroomer:copper_grooming_station"
+		},
+		"D": {
+			"item": "tfc:metal/double_sheet/wrought_iron"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "adventuresmod:forsaken_slime_block"
+		}
+	],
+	"result": {
+		"count": 9,
+		"item": "adventuresmod:forsaken_slime"
+	}
+}

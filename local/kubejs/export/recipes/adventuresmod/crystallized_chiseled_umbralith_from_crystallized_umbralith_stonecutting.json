@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:crystallized_umbralith"
+	},
+	"result": "adventuresmod:crystallized_chiseled_umbralith"
+}

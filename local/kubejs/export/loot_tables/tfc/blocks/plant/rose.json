@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:any_of",
+							"terms": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "tfc:sharp_tools"
+									}
+								},
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "forge:shears"
+									}
+								}
+							]
+						},
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "tfc:plant/rose",
+							"properties": {
+								"part": "lower"
+							}
+						}
+					],
+					"name": "tfc:plant/rose"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

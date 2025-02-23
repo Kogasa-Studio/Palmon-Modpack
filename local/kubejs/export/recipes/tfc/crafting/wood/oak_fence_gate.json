@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"YXY",
+		"YXY"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:wood/planks/oak"
+		},
+		"Y": {
+			"item": "tfc:wood/lumber/oak"
+		}
+	},
+	"result": {
+		"item": "tfc:wood/planks/oak_fence_gate",
+		"count": 2
+	}
+}

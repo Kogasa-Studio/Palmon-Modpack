@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deeperdarker:blocks/chiseled_gloomslate",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deeperdarker:chiseled_gloomslate"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

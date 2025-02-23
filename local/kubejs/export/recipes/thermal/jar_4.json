@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"G": {
+			"tag": "forge:glass"
+		},
+		"P": {
+			"tag": "minecraft:planks"
+		}
+	},
+	"pattern": [
+		"PP",
+		"GG",
+		"GG"
+	],
+	"result": {
+		"count": 8,
+		"item": "thermal:jar"
+	},
+	"show_notification": true
+}

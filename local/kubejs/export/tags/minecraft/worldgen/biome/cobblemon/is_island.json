@@ -1,0 +1,21 @@
+[
+	"#cobblemon:is_tropical_island",
+	"biomesoplenty:origin_valley?",
+	"biomesoplenty:tropics?",
+	"byg:lush_stacks?",
+	"minecraft:mushroom_fields",
+	"terralith:alpha_islands?",
+	"terralith:alpha_islands_winter?",
+	"terralith:mirage_isles?",
+	"terralith:warped_mesa?",
+	"wythers:cold_island?",
+	"wythers:desert_island?",
+	"wythers:frigid_island?",
+	"wythers:frozen_island?",
+	"wythers:jungle_island?",
+	"wythers:mediterranean_island?",
+	"wythers:mediterranean_island_thermal_springs?",
+	"wythers:mushroom_island?",
+	"wythers:temperate_island?",
+	"wythers:tropical_island?"
+]

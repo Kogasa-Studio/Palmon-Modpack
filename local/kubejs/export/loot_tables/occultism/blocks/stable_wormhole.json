@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "occultism:blocks/stable_wormhole",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "linkedStorageControllerPosition",
+									"target": "BlockEntityTag.linkedStorageControllerPosition",
+									"op": "replace"
+								},
+								{
+									"source": "sortDirection",
+									"target": "BlockEntityTag.sortDirection",
+									"op": "replace"
+								},
+								{
+									"source": "sortType",
+									"target": "BlockEntityTag.sortType",
+									"op": "replace"
+								},
+								{
+									"source": "matrix",
+									"target": "BlockEntityTag.matrix",
+									"op": "replace"
+								},
+								{
+									"source": "orderStack",
+									"target": "BlockEntityTag.orderStack",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "occultism:stable_wormhole"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

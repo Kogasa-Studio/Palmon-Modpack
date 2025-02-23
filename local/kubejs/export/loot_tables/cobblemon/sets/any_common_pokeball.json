@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "cobblemon:sets/common_any_pokeball",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:poke_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:citrine_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:verdant_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:azure_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:roseate_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:slate_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:great_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:ultra_ball"
+				}
+			]
+		}
+	]
+}

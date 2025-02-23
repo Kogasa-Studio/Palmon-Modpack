@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:celestial_plating"
+		},
+		"J": {
+			"item": "adventuresmod:jadite_piece"
+		},
+		"O": {
+			"item": "adventuresmod:obsidian_fragments"
+		},
+		"S": {
+			"item": "adventuresmod:shadowed_cluster"
+		}
+	},
+	"pattern": [
+		"OSO",
+		"J#J",
+		" O "
+	],
+	"result": {
+		"item": "adventuresmod:celestial_shield"
+	},
+	"show_notification": true
+}

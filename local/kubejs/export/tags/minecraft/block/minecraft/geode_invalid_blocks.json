@@ -1,0 +1,12 @@
+[
+	"minecraft:bedrock",
+	"minecraft:blue_ice",
+	"minecraft:ice",
+	"minecraft:lava",
+	"minecraft:packed_ice",
+	"minecraft:water",
+	"tfc:fluid/river_water",
+	"tfc:fluid/salt_water",
+	"tfc:fluid/spring_water",
+	"tfc:sea_ice"
+]

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:entity",
+	"random_sequence": "biomemakeover:entities/witch_hat",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomemakeover:witch_hat"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.05,
+					"looting_multiplier": 0.05
+				}
+			]
+		}
+	]
+}

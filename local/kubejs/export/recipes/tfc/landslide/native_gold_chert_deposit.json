@@ -1,0 +1,5 @@
+{
+	"type": "tfc:landslide",
+	"ingredient": "tfc:deposit/native_gold/chert",
+	"result": "tfc:deposit/native_gold/chert"
+}

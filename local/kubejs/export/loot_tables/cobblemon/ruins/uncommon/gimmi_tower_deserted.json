@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/uncommon/gimmi_tower_deserted",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:shiny_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:kings_rock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "cobblemon:focus_sash"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "cobblemon:bygone_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "cobblemon:capture_sherd"
+				}
+			]
+		}
+	]
+}

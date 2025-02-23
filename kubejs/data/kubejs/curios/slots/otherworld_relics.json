@@ -1,0 +1,12 @@
+{
+    "replace": true,
+    "size": 2,
+    "order": 1433,
+    "icon": "kubejs:slot/otherworld_relics_slot",
+    "add_cosmetic": true,
+    "drop_rule": "ALWAYS_KEEP",
+    "validators":
+    [
+        "curios:tag"
+    ]
+}

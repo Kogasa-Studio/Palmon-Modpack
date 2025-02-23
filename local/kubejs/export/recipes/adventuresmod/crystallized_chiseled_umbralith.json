@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:crystallized_umbralith"
+		}
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"item": "adventuresmod:crystallized_chiseled_umbralith"
+	},
+	"show_notification": true
+}

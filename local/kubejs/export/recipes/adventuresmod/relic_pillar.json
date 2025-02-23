@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "minecraft:purpur_slab"
+		},
+		"E": {
+			"item": "minecraft:end_stone_bricks"
+		}
+	},
+	"pattern": [
+		"#",
+		"E",
+		"#"
+	],
+	"result": {
+		"count": 4,
+		"item": "adventuresmod:relic_pillar"
+	},
+	"show_notification": true
+}

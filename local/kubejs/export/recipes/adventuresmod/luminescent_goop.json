@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "adventuresmod:farland_stalks"
+		}
+	],
+	"result": {
+		"count": 2,
+		"item": "adventuresmod:luminescent_goop"
+	}
+}

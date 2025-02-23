@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "cobblemon:sets/any_natural_heal_item",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "cobblemon:remedy"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:fine_remedy"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:superb_remedy"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:heal_powder"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:vivichoke_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:revival_herb"
+				}
+			]
+		}
+	]
+}

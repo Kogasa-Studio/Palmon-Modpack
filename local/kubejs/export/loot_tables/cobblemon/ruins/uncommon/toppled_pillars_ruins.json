@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/uncommon/toppled_pillars_ruins",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:twisted_spoon"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:covert_cloak"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:shell_bell"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:unremarkable_teacup"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:masterpiece_teacup"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "cobblemon:helix_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "cobblemon:dome_sherd"
+				}
+			]
+		}
+	]
+}

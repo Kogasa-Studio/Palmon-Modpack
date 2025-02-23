@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cobble/rhyolite",
+	"result": "tfc:rock/cobble/rhyolite_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/cobble/rhyolite_slab"
+	}
+}

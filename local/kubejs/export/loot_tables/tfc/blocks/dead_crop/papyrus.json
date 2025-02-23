@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:dead_crop/papyrus",
+									"properties": {
+										"mature": "true",
+										"part": "bottom"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 1.0,
+										"max": 3.0
+									},
+									"add": false
+								}
+							],
+							"name": "tfc:seeds/papyrus"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:dead_crop/papyrus",
+									"properties": {
+										"mature": "false",
+										"part": "bottom"
+									}
+								}
+							],
+							"name": "tfc:seeds/papyrus"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

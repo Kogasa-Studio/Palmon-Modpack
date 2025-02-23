@@ -1,0 +1,9 @@
+{
+	"minecraft:empty": "net.minecraft.world.entity.schedule.Schedule",
+	"minecraft:simple": "net.minecraft.world.entity.schedule.Schedule",
+	"minecraft:villager_baby": "net.minecraft.world.entity.schedule.Schedule",
+	"minecraft:villager_default": "net.minecraft.world.entity.schedule.Schedule",
+	"tfc:diurnal": "net.minecraft.world.entity.schedule.Schedule",
+	"tfc:nocturnal": "net.minecraft.world.entity.schedule.Schedule",
+	"moonlight:custom_villager_schedule": "net.minecraft.world.entity.schedule.Schedule"
+}

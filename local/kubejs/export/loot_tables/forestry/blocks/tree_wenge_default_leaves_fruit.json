@@ -1,0 +1,76 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "forestry:blocks/tree_wenge_default_leaves_fruit",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"items": [
+													"minecraft:shears"
+												]
+											}
+										},
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch",
+														"levels": {
+															"min": 1
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							],
+							"name": "forestry:tree_wenge_default_leaves"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:survives_explosion"
+								},
+								{
+									"condition": "minecraft:table_bonus",
+									"enchantment": "minecraft:fortune",
+									"chances": [
+										0.05,
+										0.0625,
+										0.083333336,
+										0.1
+									]
+								}
+							],
+							"functions": [
+								{
+									"function": "forestry:set_species_nbt",
+									"type_id": "forestry:tree_species",
+									"species_id": "forestry:tree_wenge"
+								}
+							],
+							"name": "forestry:sapling"
+						}
+					]
+				}
+			]
+		}
+	]
+}

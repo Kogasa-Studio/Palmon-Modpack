@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"C": {
+			"item": "systeams:boiler_pipe"
+		},
+		"G": {
+			"tag": "forge:gears/copper"
+		},
+		"I": {
+			"tag": "forge:ingots/copper"
+		},
+		"X": {
+			"tag": "forge:dusts/redstone"
+		},
+		"Y": {
+			"tag": "forge:ingots/tin"
+		}
+	},
+	"pattern": [
+		" C ",
+		"IGI",
+		"YXY"
+	],
+	"result": {
+		"item": "systeams:gourmand_boiler"
+	}
+}

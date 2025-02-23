@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:soot"
+		},
+		{
+			"item": "minecraft:glass_pane"
+		}
+	],
+	"result": {
+		"item": "tfc:blank_disc"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WGW"
+	],
+	"key": {
+		"G": {
+			"item": "tfc:glue"
+		},
+		"W": {
+			"item": "tfc:wood/stripped_log/white_cedar"
+		}
+	},
+	"result": {
+		"item": "tfc:wood/axle/white_cedar",
+		"count": 4
+	}
+}

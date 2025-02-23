@@ -1,0 +1,35 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:reinforced",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:sturdy",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:overgrowth",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "level": 1,
+                "name": "tconstruct:blast_protection"
+            },
+            {
+                "level": 1,
+                "name": "tconstruct:fire_protection"
+            },
+            {
+                "level": 1,
+                "name": "tconstruct:projectile_protection"
+            }
+        ]
+    }
+}

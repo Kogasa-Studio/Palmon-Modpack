@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:cut_vilenite"
+		},
+		"S": {
+			"item": "adventuresmod:stardust"
+		}
+	},
+	"pattern": [
+		"SSS",
+		"S#S",
+		"SSS"
+	],
+	"result": {
+		"count": 8,
+		"item": "adventuresmod:cut_light_vilenite"
+	},
+	"show_notification": true
+}

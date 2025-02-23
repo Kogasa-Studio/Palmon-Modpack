@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:smooth_sandstone/white"
+		}
+	},
+	"result": {
+		"item": "tfc:smooth_sandstone/white_wall",
+		"count": 6
+	}
+}

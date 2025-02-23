@@ -1,0 +1,36 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "enchanted:wool_of_bat"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.2,
+					"looting_multiplier": 0.2
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"enchanted:arthana"
+								]
+							}
+						}
+					},
+					"entity": "direct_killer"
+				}
+			]
+		}
+	]
+}

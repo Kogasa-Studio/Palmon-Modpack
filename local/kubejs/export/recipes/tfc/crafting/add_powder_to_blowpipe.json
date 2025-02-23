@@ -1,0 +1,20 @@
+{
+	"type": "tfc:advanced_shapeless_crafting",
+	"ingredients": [
+		{
+			"tag": "tfc:glass_blowpipes"
+		},
+		{
+			"tag": "tfc:glassworking_powders"
+		}
+	],
+	"result": {
+		"modifiers": [
+			"tfc:copy_input",
+			"tfc:add_powder"
+		]
+	},
+	"primary_ingredient": {
+		"tag": "tfc:glass_blowpipes"
+	}
+}

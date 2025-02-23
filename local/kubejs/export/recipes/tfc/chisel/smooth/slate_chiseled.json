@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/bricks/slate",
+	"result": "tfc:rock/chiseled/slate",
+	"mode": "smooth"
+}

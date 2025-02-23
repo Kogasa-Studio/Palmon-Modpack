@@ -1,0 +1,7 @@
+{
+	"netherexp:magma_block": "net.jadenxgamer.elysium_api.impl.sound_transformer.SoundTransformer",
+	"netherexp:quartz_block": "net.jadenxgamer.elysium_api.impl.sound_transformer.SoundTransformer",
+	"netherexp:blackstone": "net.jadenxgamer.elysium_api.impl.sound_transformer.SoundTransformer",
+	"netherexp:polished_blackstone": "net.jadenxgamer.elysium_api.impl.sound_transformer.SoundTransformer",
+	"netherexp:glowstone": "net.jadenxgamer.elysium_api.impl.sound_transformer.SoundTransformer"
+}

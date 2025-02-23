@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"b",
+		"c",
+		"c"
+	],
+	"key": {
+		"b": {
+			"item": "minecraft:copper_ingot"
+		},
+		"c": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "trom:copper_shovel",
+		"count": 1
+	}
+}

@@ -1,0 +1,73 @@
+
+#List of entity configurations
+[[entities]]
+	entity = "minecraft:creeper"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:knocking", "champions:wounding", "champions:paralyzing", "champions:molten"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cobblemon:pokemon"
+	minTier = 0
+	maxTier = 0
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "minecraft:wither"
+	minTier = 1
+	maxTier = 7
+	presetAffixes = []
+	affixList = ["champions:shielding"]
+	affixPermission = "BLACKLIST" 
+
+[[entities]]
+	entity = "dummmmmmy:target_dummy"
+	minTier = 0
+	maxTier = 0
+	presetAffixes = []
+	affixList = ["champions:shielding"]
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "cataclysm:the_harbinger"
+	minTier = 3
+	maxTier = 7
+	presetAffixes = []
+	affixList = ["champions:shielding"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:ancient_remnant"
+	minTier = 4
+	maxTier = 7
+	presetAffixes = []
+	affixList = ["champions:shielding"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:maledictus"
+	minTier = 5
+	maxTier = 7
+	presetAffixes = []
+	affixList = ["champions:shielding"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:the_leviathan"
+	minTier = 5
+	maxTier = 7
+	presetAffixes = []
+	affixList = ["champions:shielding"]
+	affixPermission = "BLACKLIST"
+		
+[[entities]]
+	entity = "cataclysm:ignis"
+	minTier = 5
+	maxTier = 7
+	presetAffixes = []
+	affixList = ["champions:shielding"]
+	affixPermission = "BLACKLIST"

@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:stick"
+		},
+		"D": {
+			"item": "adventuresmod:amber"
+		},
+		"X": [
+			{
+				"item": "minecraft:coal"
+			},
+			{
+				"item": "minecraft:charcoal"
+			}
+		]
+	},
+	"pattern": [
+		"X",
+		"D",
+		"#"
+	],
+	"result": {
+		"count": 4,
+		"item": "adventuresmod:dungeon_torch"
+	},
+	"show_notification": true
+}

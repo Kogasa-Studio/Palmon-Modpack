@@ -1,0 +1,8 @@
+[
+	"#c:vegetation_dense?",
+	"#cobblemon:is_jungle",
+	"#forge:is_dense/overworld?",
+	"#forge:is_dense?",
+	"minecraft:dark_forest",
+	"minecraft:mangrove_swamp"
+]

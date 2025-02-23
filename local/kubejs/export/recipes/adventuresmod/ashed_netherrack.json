@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"A": {
+			"item": "adventuresmod:ash"
+		},
+		"N": {
+			"item": "minecraft:netherrack"
+		}
+	},
+	"pattern": [
+		"AN",
+		"NA"
+	],
+	"result": {
+		"count": 4,
+		"item": "adventuresmod:ashed_netherrack"
+	},
+	"show_notification": true
+}

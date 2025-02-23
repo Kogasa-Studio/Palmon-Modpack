@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:smithing_transform",
+	"addition": {
+		"item": "minecraft:netherite_ingot"
+	},
+	"base": {
+		"item": "adventuresmod:diamond_caster"
+	},
+	"result": {
+		"item": "adventuresmod:netherite_caster"
+	},
+	"template": {
+		"item": "minecraft:netherite_upgrade_smithing_template"
+	}
+}

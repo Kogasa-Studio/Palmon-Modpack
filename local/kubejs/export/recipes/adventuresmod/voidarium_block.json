@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "adventuresmod:voidarium_ingot"
+		}
+	},
+	"result": {
+		"item": "adventuresmod:voidarium_block"
+	},
+	"show_notification": true
+}

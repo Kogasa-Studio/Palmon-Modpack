@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GI ",
+		"ISI",
+		" IG"
+	],
+	"key": {
+		"G": {
+			"tag": "forge:glass_panes/colorless"
+		},
+		"S": {
+			"item": "lcrdrfs:jetpack_spider_part"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:bazookoid_chamber"
+	}
+}

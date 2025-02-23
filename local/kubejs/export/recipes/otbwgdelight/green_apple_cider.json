@@ -1,0 +1,20 @@
+{
+	"type": "farmersdelight:cooking",
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredients": [
+		{
+			"item": "biomeswevegone:green_apple"
+		},
+		{
+			"item": "biomeswevegone:green_apple"
+		},
+		{
+			"item": "minecraft:sugar"
+		}
+	],
+	"recipe_book_tab": "drinks",
+	"result": {
+		"item": "otbwgdelight:green_apple_cider"
+	}
+}

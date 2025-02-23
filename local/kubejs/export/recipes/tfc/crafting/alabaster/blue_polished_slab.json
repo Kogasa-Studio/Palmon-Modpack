@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:alabaster/polished/blue"
+		}
+	},
+	"result": {
+		"item": "tfc:alabaster/polished/blue_slab",
+		"count": 6
+	}
+}

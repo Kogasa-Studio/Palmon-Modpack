@@ -1,0 +1,12 @@
+{
+	"type": "adventuresmod:dragon_forging",
+	"base": {
+		"item": "minecraft:obsidian"
+	},
+	"infusion": {
+		"item": "minecraft:redstone"
+	},
+	"result": {
+		"item": "adventuresmod:glowing_obsidian"
+	}
+}

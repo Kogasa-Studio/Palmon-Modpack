@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "moltarium_ingot",
+	"ingredients": [
+		{
+			"item": "adventuresmod:molten_fragment"
+		},
+		{
+			"item": "adventuresmod:molten_fragment"
+		},
+		{
+			"item": "adventuresmod:molten_fragment"
+		},
+		{
+			"item": "adventuresmod:molten_fragment"
+		},
+		{
+			"item": "adventuresmod:magma_tear"
+		},
+		{
+			"item": "minecraft:netherite_scrap"
+		},
+		{
+			"item": "minecraft:netherite_scrap"
+		},
+		{
+			"item": "minecraft:netherite_scrap"
+		},
+		{
+			"item": "minecraft:netherite_scrap"
+		}
+	],
+	"result": {
+		"item": "adventuresmod:moltarium_ingot"
+	}
+}

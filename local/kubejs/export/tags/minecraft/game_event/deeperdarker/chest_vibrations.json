@@ -1,0 +1,9 @@
+[
+	"minecraft:block_activate",
+	"minecraft:block_close",
+	"minecraft:block_destroy",
+	"minecraft:block_open",
+	"minecraft:block_place",
+	"minecraft:container_close",
+	"minecraft:container_open"
+]

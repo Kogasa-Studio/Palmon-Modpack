@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:metal/block/silver"
+		}
+	},
+	"result": {
+		"item": "tfc:metal/block/silver_stairs",
+		"count": 8
+	}
+}

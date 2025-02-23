@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:rock/spike/basalt",
+	"copy_input": true
+}

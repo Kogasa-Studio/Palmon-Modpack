@@ -1,0 +1,10 @@
+{
+	"type": "tfc:quern",
+	"ingredient": {
+		"item": "tfc:stick_bundle"
+	},
+	"result": {
+		"item": "tfcoreprocessing:kindle/sawdust",
+		"count": 2
+	}
+}

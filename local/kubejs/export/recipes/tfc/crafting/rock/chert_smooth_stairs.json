@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/smooth/chert"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/smooth/chert_stairs",
+		"count": 8
+	}
+}

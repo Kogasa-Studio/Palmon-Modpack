@@ -1,0 +1,15 @@
+{
+	"type": "tfc:anvil",
+	"input": {
+		"tag": "forge:ingots/bronze"
+	},
+	"result": {
+		"item": "tfc:metal/hammer_head/bronze"
+	},
+	"tier": 2,
+	"rules": [
+		"punch_last",
+		"shrink_not_last"
+	],
+	"apply_forging_bonus": true
+}

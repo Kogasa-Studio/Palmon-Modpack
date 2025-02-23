@@ -1,0 +1,35 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:necrotic",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:magnetic",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:sharpness",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "name": "tconstruct:magic_protection",
+                "level": 1
+            },
+            {
+                "name": "tconstruct:fire_protection",
+                "level": 1
+            },
+            {
+                "name": "tconstruct:shulking",
+                "level": 1
+            }
+        ]
+    }
+}

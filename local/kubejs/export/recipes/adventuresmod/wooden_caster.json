@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"T": {
+			"item": "adventuresmod:topaz"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		},
+		"W": {
+			"tag": "minecraft:planks"
+		}
+	},
+	"pattern": [
+		" T ",
+		" W ",
+		" S "
+	],
+	"result": {
+		"item": "adventuresmod:wooden_caster"
+	},
+	"show_notification": true
+}

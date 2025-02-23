@@ -1,0 +1,26 @@
+{
+	"random_sequence": "artifacts:entity_equipment/wither_skeleton",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:fire_gauntlet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:antidote_vessel"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:config_value_chance",
+					"config": "entity_equipment"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:bluestone"
+		}
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"item": "adventuresmod:bluestone_slab"
+	},
+	"show_notification": true
+}

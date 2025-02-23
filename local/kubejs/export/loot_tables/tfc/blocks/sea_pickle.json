@@ -1,0 +1,102 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:sea_pickle",
+									"properties": {
+										"pickles": "1"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 1.0,
+									"add": false
+								}
+							],
+							"name": "tfc:sea_pickle"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:sea_pickle",
+									"properties": {
+										"pickles": "2"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 2.0,
+									"add": false
+								}
+							],
+							"name": "tfc:sea_pickle"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:sea_pickle",
+									"properties": {
+										"pickles": "3"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 3.0,
+									"add": false
+								}
+							],
+							"name": "tfc:sea_pickle"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "tfc:sea_pickle",
+									"properties": {
+										"pickles": "4"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 4.0,
+									"add": false
+								}
+							],
+							"name": "tfc:sea_pickle"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

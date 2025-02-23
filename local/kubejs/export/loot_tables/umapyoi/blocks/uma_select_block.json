@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "umapyoi:blocks/uma_select_block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "umapyoi:uma_select_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

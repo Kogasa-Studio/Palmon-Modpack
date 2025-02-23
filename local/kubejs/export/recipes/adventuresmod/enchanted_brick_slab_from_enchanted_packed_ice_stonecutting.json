@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 2,
+	"ingredient": {
+		"item": "adventuresmod:enchanted_packed_ice"
+	},
+	"result": "adventuresmod:enchanted_brick_slab"
+}

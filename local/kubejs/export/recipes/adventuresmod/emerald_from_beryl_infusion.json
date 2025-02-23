@@ -1,0 +1,12 @@
+{
+	"type": "adventuresmod:dragon_forging",
+	"base": {
+		"item": "adventuresmod:beryl_shard"
+	},
+	"infusion": {
+		"item": "minecraft:iron_nugget"
+	},
+	"result": {
+		"item": "minecraft:emerald"
+	}
+}

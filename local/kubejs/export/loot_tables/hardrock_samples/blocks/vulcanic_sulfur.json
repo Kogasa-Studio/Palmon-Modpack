@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "hardrock_samples:blocks/vulcanic_sulfur",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "tfc:ore/sulfur"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "biomemakeover:archaeology/ghost_town_horse_armor",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"name": "minecraft:leather_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:iron_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "minecraft:golden_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_horse_armor"
+				}
+			]
+		}
+	]
+}

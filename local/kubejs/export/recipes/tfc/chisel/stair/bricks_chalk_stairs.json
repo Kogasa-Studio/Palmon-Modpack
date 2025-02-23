@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/bricks/chalk",
+	"result": "tfc:rock/bricks/chalk_stairs",
+	"mode": "stair"
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:amethyst_bricks"
+	},
+	"result": "adventuresmod:amethyst_brick_wall"
+}

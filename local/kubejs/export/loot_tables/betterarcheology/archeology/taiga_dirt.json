@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "minecraft:archaeology/trail_ruins_rare"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "minecraft:archaeology/trail_ruins_common"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "betterarcheology:artifact_shards"
+				}
+			]
+		}
+	]
+}

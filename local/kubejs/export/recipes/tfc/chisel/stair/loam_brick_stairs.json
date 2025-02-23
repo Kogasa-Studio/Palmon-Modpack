@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:mud_bricks/loam",
+	"result": "tfc:mud_bricks/loam_stairs",
+	"mode": "stair"
+}

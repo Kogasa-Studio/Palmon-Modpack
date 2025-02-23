@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deeperdarker:blocks/gloomy_grass",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deeperdarker:gloomy_grass"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"items": [
+							"minecraft:shears"
+						]
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"block_type": "wood_type",
+			"from": "minecraft:oak",
+			"to": "regions_unexplored:baobab",
+			"ingredient": {
+				"item": "minecraft:oak_sign"
+			},
+			"type": "moonlight:block_type_swap"
+		}
+	],
+	"result": {
+		"item": "supplementaries:regions_unexplored/sign_post_baobab",
+		"count": 2
+	}
+}

@@ -1,0 +1,20 @@
+[
+	"#forge:chests/ender",
+	"#forge:chests/trapped",
+	"#forge:chests/wooden",
+	"#pneumaticcraft:chests",
+	"aquaculture:neptunes_bounty",
+	"forestry:bee_chest",
+	"forestry:butterfly_chest",
+	"forestry:tree_chest",
+	"framedblocks:framed_chest",
+	"quark:ancient_chest",
+	"quark:ancient_trapped_chest",
+	"quark:azalea_chest",
+	"quark:azalea_trapped_chest",
+	"quark:blossom_chest",
+	"quark:blossom_trapped_chest",
+	"quark:nether_brick_chest",
+	"quark:prismarine_chest",
+	"quark:purpur_chest"
+]

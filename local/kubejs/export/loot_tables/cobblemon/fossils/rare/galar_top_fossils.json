@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:fossils/rare/galar_fossils",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:fossilized_dino"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:fossilized_bird"
+				}
+			]
+		}
+	]
+}

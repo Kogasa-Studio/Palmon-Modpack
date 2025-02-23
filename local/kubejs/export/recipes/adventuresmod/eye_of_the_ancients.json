@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:ender_eye"
+		},
+		"I": {
+			"item": "minecraft:iron_nugget"
+		},
+		"C": {
+			"item": "minecraft:mossy_cobblestone"
+		}
+	},
+	"pattern": [
+		"CIC",
+		"I#I",
+		"CIC"
+	],
+	"result": {
+		"item": "adventuresmod:eye_of_the_ancients"
+	},
+	"show_notification": true
+}

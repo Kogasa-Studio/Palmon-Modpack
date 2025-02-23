@@ -1,0 +1,85 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "repurposed_structures:archaeology",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blade_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:explorer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mourner_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:plenty_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.1,
+								"max": 0.7
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_axe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rabbit_hide"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rabbit_foot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.1,
+								"max": 0.7
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:stone_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:charcoal"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:lapis_lazuli"
+				}
+			]
+		}
+	]
+}

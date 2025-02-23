@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" B ",
+		"XDX",
+		" X "
+	],
+	"key": {
+		"D": {
+			"tag": "forge:dyes/gray"
+		},
+		"B": {
+			"item": "minecraft:stone_button"
+		},
+		"X": {
+			"tag": "forge:ingots/iron"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:spray_can_gray"
+	}
+}

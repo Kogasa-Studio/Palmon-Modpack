@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"M": {
+			"item": "minecraft:milk_bucket"
+		},
+		"C": {
+			"item": "minecraft:cocoa_beans"
+		},
+		"S": {
+			"item": "minecraft:sugar"
+		},
+		"W": {
+			"item": "minecraft:wheat"
+		},
+		"E": {
+			"item": "minecraft:egg"
+		}
+	},
+	"pattern": [
+		"SCS",
+		"EME",
+		"WWW"
+	],
+	"result": {
+		"item": "adventuresmod:pastry"
+	},
+	"show_notification": true
+}

@@ -1,0 +1,17 @@
+[
+	"#tfc:ores/tin/normal",
+	"#tfc:ores/tin/poor",
+	"#tfc:ores/tin/rich",
+	"forestry:deepslate_tin_ore",
+	"forestry:tin_ore",
+	"mekanism:deepslate_tin_ore",
+	"mekanism:tin_ore",
+	"nuclearcraft:tin_ore",
+	"thermal:deepslate_tin_ore",
+	"thermal:tin_ore",
+	"thermal_and_space:glacio_tin_ore",
+	"thermal_and_space:mars_tin_ore",
+	"thermal_and_space:mercury_tin_ore",
+	"thermal_and_space:moon_tin_ore",
+	"thermal_and_space:venus_tin_ore"
+]

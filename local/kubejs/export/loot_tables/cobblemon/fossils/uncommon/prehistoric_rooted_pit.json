@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:fossils/uncommon/prehistoric_rooted_pit",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "cobblemon:everstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "cobblemon:damp_rock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:peat_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:prism_scale"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:dome_fossil"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:root_fossil"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:plume_fossil"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:fossilized_drake"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "cobblemon:vivichoke_seeds"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:stripped_moss_timber_log"
+		}
+	},
+	"pattern": [
+		"##",
+		"##"
+	],
+	"result": {
+		"count": 3,
+		"item": "adventuresmod:stripped_moss_timber_wood"
+	},
+	"show_notification": true
+}

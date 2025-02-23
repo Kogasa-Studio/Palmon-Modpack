@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"name": "hammer",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cataclysm:infernal_forge"
+				}
+			]
+		},
+		{
+			"name": "horn",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cataclysm:monstrous_horn"
+				}
+			]
+		},
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 16.0,
+								"max": 24.0
+							},
+							"add": false
+						}
+					],
+					"name": "cataclysm:lava_power_cell"
+				}
+			]
+		},
+		{
+			"name": "disc",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cataclysm:music_disc_netherite_monstrosity"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.1,
+					"looting_multiplier": 0.1
+				}
+			]
+		}
+	]
+}

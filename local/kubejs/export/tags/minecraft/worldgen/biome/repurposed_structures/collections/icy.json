@@ -1,0 +1,12 @@
+[
+	"#byg:is_icy?",
+	"#forge:is_icy?",
+	"minecraft:frozen_peaks",
+	"minecraft:ice_spikes",
+	"regions_unexplored:icy_desert?",
+	"regions_unexplored:icy_heights?",
+	"regions_unexplored:spires?",
+	"wythers:glacial_cliffs?",
+	"wythers:ice_cap?",
+	"wythers:snowy_bog?"
+]

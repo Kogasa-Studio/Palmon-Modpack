@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:straw"
+		},
+		{
+			"item": "minecraft:clay_ball"
+		},
+		{
+			"tag": "minecraft:dirt"
+		}
+	],
+	"result": {
+		"item": "tfc:daub",
+		"count": 2
+	}
+}

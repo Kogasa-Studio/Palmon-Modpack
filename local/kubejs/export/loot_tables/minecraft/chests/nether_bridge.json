@@ -1,0 +1,224 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 4.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "tfc:gem/diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "tfc:metal/ingot/wrought_iron"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 15.0
+							},
+							"add": false
+						}
+					],
+					"name": "tfc:metal/ingot/gold"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "tfc:metal/sword/wrought_iron"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "tfc:metal/chestplate/wrought_iron"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:flint_and_steel"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:saddle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "tfc:metal/horse_armor/bismuth_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "tfc:metal/horse_armor/copper"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:obsidian"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "beneath:pure_sorrow"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "beneath:pure_flame"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "beneath:pure_death"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "beneath:pure_destruction"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "beneath:pure_decay"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "beneath:seeds/ghost_pepper"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "beneath:seeds/gleamflower"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "beneath:lost_page"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "beneath:lost_page"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "quark:smithing_template_rune"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "cobgyms:gym_key"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:air"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": {
+				"type": "minecraft:uniform",
+				"min": 0.0,
+				"max": 1.0
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "cobblemon:injection/chests/nether_bridge"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "supplementaries:inject/fortress_blue_bomb"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "supplementaries:inject/fortress_bomb"
+				}
+			]
+		}
+	]
+}

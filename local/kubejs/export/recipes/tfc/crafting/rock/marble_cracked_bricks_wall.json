@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/cracked_bricks/marble"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/cracked_bricks/marble_wall",
+		"count": 6
+	}
+}

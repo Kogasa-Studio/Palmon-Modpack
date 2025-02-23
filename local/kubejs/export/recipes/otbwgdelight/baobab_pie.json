@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "biomeswevegone:baobab_fruit"
+		},
+		{
+			"item": "farmersdelight:pie_crust"
+		}
+	],
+	"result": {
+		"item": "otbwgdelight:baobab_pie"
+	}
+}

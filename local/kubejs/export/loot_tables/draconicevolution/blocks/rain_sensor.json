@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "draconicevolution:blocks/rain_sensor",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "draconicevolution:rain_sensor"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

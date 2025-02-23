@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "adventuresmod:cut_purpur"
+	},
+	"result": "adventuresmod:cut_purpur_tiles"
+}

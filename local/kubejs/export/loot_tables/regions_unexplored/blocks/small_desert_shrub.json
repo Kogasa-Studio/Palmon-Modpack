@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "regions_unexplored:blocks/small_desert_shrub",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "regions_unexplored:small_desert_shrub"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"items": [
+							"minecraft:shears"
+						]
+					}
+				}
+			]
+		}
+	]
+}

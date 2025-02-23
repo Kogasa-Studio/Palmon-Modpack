@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"X": {
+			"item": "adventuresmod:enchanted_shards"
+		}
+	},
+	"pattern": [
+		"XXX",
+		"X X",
+		"X X"
+	],
+	"result": {
+		"item": "adventuresmod:enchanted_leggings"
+	},
+	"show_notification": true
+}

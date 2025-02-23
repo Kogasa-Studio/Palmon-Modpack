@@ -1,0 +1,23 @@
+[
+	"#forge:sheets/bismuth",
+	"#forge:sheets/bismuth_bronze",
+	"#forge:sheets/black_bronze",
+	"#forge:sheets/black_steel",
+	"#forge:sheets/blue_steel",
+	"#forge:sheets/brass",
+	"#forge:sheets/bronze",
+	"#forge:sheets/cast_iron",
+	"#forge:sheets/chromium",
+	"#forge:sheets/copper",
+	"#forge:sheets/gold",
+	"#forge:sheets/nickel",
+	"#forge:sheets/red_steel",
+	"#forge:sheets/rose_gold",
+	"#forge:sheets/silver",
+	"#forge:sheets/stainless_steel",
+	"#forge:sheets/steel",
+	"#forge:sheets/sterling_silver",
+	"#forge:sheets/tin",
+	"#forge:sheets/wrought_iron",
+	"#forge:sheets/zinc"
+]

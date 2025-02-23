@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cobble/dolomite",
+	"result": "tfc:rock/cobble/dolomite_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/cobble/dolomite_slab"
+	}
+}

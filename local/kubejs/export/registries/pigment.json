@@ -1,0 +1,21 @@
+{
+	"mekanism:aqua": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:black": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:blue": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:brown": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:cyan": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:dark_red": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:empty": "mekanism.api.chemical.pigment.EmptyPigment",
+	"mekanism:gray": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:green": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:light_blue": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:light_gray": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:lime": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:magenta": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:orange": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:pink": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:purple": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:red": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:white": "mekanism.api.chemical.pigment.Pigment",
+	"mekanism:yellow": "mekanism.api.chemical.pigment.Pigment"
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tfc:tree_roots"
+		},
+		{
+			"item": "tfc:mud/loam"
+		}
+	],
+	"result": {
+		"item": "tfc:muddy_roots/loam"
+	}
+}

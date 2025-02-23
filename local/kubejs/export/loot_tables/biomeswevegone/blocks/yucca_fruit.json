@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomeswevegone:blocks/yucca_fruit",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "biomeswevegone:yucca_fruit"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "biomeswevegone:yucca_fruit",
+					"properties": {
+						"age": "3"
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"block_type": "wood_type",
+			"from": "minecraft:oak",
+			"to": "deeperdarker:echo",
+			"ingredient": {
+				"item": "minecraft:oak_sign"
+			},
+			"type": "moonlight:block_type_swap"
+		}
+	],
+	"result": {
+		"item": "supplementaries:deeperdarker/sign_post_echo",
+		"count": 2
+	}
+}

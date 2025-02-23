@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:entity",
+	"random_sequence": "pasterdream:entities/wind_knight",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "pasterdream:pulse_windrunner_crystal"
+				}
+			]
+		}
+	]
+}

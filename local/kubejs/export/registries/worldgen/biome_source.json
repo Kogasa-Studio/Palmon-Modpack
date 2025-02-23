@@ -1,0 +1,10 @@
+{
+	"adventuresmod:the_end": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:multi_noise": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:the_end": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:fixed": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"tfc:overworld": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"lionfishapi:modded": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"ad_astra:craters": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:checkerboard": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

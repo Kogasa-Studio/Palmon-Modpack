@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/cobble/claystone"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/cobble/claystone_slab",
+		"count": 6
+	}
+}

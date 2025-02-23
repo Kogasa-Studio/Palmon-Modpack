@@ -1,0 +1,19 @@
+{
+    "default":
+    [
+        {
+            "level": 1,
+            "name": "tconstruct:necrotic"
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "level": 1,
+                "name": "tconstruct:stoneshield"
+            }
+        ]
+    }
+}

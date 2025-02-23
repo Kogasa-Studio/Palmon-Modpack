@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:ore/rich_tetrahedrite/gneiss",
+	"result": "tfc:ore/normal_tetrahedrite/gneiss"
+}

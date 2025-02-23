@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/uncommon/ruined_mossy_oubliette",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:kings_rock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:covert_cloak"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:protector"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "cobblemon:dome_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "cobblemon:helix_sherd"
+				}
+			]
+		}
+	]
+}

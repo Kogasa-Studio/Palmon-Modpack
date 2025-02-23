@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/raw/diorite"
+	},
+	"result": "tfc:rock/raw/diorite_stairs",
+	"count": 1
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:rock/raw/slate"
+		}
+	},
+	"result": {
+		"item": "tfc:rock/raw/slate_stairs",
+		"count": 8
+	}
+}

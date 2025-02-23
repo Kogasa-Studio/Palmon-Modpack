@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/bricks/chalk"
+	},
+	"result": "tfc:rock/bricks/chalk_stairs",
+	"count": 1
+}

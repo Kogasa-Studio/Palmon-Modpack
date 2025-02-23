@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "regions_unexplored:blocks/raw_redstone_block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "regions_unexplored:raw_redstone_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

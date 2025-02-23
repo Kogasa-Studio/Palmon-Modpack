@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:fossils/uncommon/prehistoric_oak_tree",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "cobblemon:everstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "cobblemon:heat_rock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:charcoal_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:peat_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:fairy_feather"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:fossilized_bird"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:skull_fossil"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:old_amber_fossil"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:fossilized_dino"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "cobblemon:vivichoke_seeds"
+				}
+			]
+		}
+	]
+}

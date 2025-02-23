@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"tag": "minecraft:logs"
+		},
+		{
+			"tag": "minecraft:logs"
+		},
+		{
+			"tag": "minecraft:logs"
+		},
+		{
+			"tag": "minecraft:logs"
+		},
+		{
+			"tag": "minecraft:planks"
+		},
+		{
+			"tag": "minecraft:planks"
+		}
+	],
+	"result": {
+		"item": "palmon:wood",
+		"count": 1
+	}
+}

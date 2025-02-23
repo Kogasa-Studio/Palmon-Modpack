@@ -1,0 +1,7 @@
+{
+	"reterraforged:add": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"reterraforged:compound": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"reterraforged:direct": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"reterraforged:direction": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"reterraforged:domain": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

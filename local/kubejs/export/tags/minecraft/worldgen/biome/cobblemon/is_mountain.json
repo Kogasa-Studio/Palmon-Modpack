@@ -1,0 +1,20 @@
+[
+	"#cobblemon:is_hills",
+	"#forge:is_mountain?",
+	"#minecraft:is_mountain",
+	"biomesoplenty:crag?",
+	"biomesoplenty:crag?",
+	"biomesoplenty:highland?",
+	"biomesoplenty:jade_cliffs?",
+	"biomesoplenty:moor?",
+	"biomesoplenty:volcano?",
+	"terralith:stony_spires?",
+	"terralith:volcanic_peaks?",
+	"terralith:windswept_spires?",
+	"terralith:yosemite_cliffs?",
+	"tfc:mountains",
+	"wythers:tibesti_mountains?",
+	"wythers:tropical_volcano?",
+	"wythers:tsingy_forest?",
+	"wythers:volcano?"
+]

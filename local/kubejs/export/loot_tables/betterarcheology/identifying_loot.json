@@ -1,0 +1,98 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"betterarcheology:penetrating_strike": 1.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "dark_gray",
+									"translate": "enchantment.betterarcheology.penetrating_strike.desc"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "item.betterarcheology.identified_artifact"
+							}
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"betterarcheology:soaring_winds": 1.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "dark_gray",
+									"translate": "enchantment.betterarcheology.soaring_winds.desc"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "item.betterarcheology.identified_artifact"
+							}
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"betterarcheology:tunneling": 1.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_lore",
+							"replace": false,
+							"lore": [
+								{
+									"color": "dark_gray",
+									"translate": "enchantment.betterarcheology.tunneling.desc"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "item.betterarcheology.identified_artifact"
+							}
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				}
+			]
+		}
+	]
+}

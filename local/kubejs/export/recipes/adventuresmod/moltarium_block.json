@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "adventuresmod:moltarium_ingot"
+		}
+	},
+	"result": {
+		"item": "adventuresmod:moltarium_block"
+	}
+}

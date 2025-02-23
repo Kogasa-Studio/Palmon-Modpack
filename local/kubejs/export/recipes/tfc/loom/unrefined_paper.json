@@ -1,0 +1,14 @@
+{
+	"type": "tfc:loom",
+	"ingredient": {
+		"ingredient": {
+			"item": "tfc:soaked_papyrus_strip"
+		},
+		"count": 4
+	},
+	"result": {
+		"item": "tfc:unrefined_paper"
+	},
+	"steps_required": 8,
+	"in_progress_texture": "tfc:block/unrefined_paper"
+}

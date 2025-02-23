@@ -1,0 +1,8 @@
+{
+	"corgilib:ease_in_circ": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:ease_out_cubic": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:ease_out_quint": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:ease_out_elastic": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:ease_in_out_circ": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"corgilib:ease_out_bounce": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "biomemakeover:blocks/mycelium_sprouts",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "biomemakeover:mycelium_sprouts"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"items": [
+							"minecraft:shears"
+						]
+					}
+				}
+			]
+		}
+	]
+}

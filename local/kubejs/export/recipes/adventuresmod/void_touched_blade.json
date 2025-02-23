@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"item": "adventuresmod:ruined_hilt"
+		},
+		"D": {
+			"item": "adventuresmod:devoid_minerals"
+		},
+		"S": {
+			"item": "adventuresmod:shadowed_cluster"
+		}
+	},
+	"pattern": [
+		"D",
+		"S",
+		"#"
+	],
+	"result": {
+		"item": "adventuresmod:void_touched_blade"
+	},
+	"show_notification": true
+}

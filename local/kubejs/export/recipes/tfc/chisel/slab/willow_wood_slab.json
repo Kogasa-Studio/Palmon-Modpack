@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:wood/planks/willow",
+	"result": "tfc:wood/planks/willow_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:wood/planks/willow_slab"
+	}
+}

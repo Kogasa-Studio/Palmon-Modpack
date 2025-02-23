@@ -1,0 +1,5 @@
+{
+	"type": "tfc:collapse",
+	"ingredient": "tfc:ore/rich_magnetite/phyllite",
+	"result": "tfc:ore/normal_magnetite/phyllite"
+}

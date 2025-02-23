@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/uncommon/deserted_tower_ruins",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:twisted_spoon"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:shell_bell"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:cracked_pot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:chipped_pot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "cobblemon:capture_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "cobblemon:dome_sherd"
+				}
+			]
+		}
+	]
+}

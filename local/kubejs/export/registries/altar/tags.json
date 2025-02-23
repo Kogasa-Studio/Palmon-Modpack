@@ -1,0 +1,8 @@
+{
+	"enchanted:logs": "net.favouriteless.enchanted.common.altar.PowerProvider",
+	"enchanted:leaves": "net.favouriteless.enchanted.common.altar.PowerProvider",
+	"enchanted:enchanted_logs": "net.favouriteless.enchanted.common.altar.PowerProvider",
+	"enchanted:saplings": "net.favouriteless.enchanted.common.altar.PowerProvider",
+	"enchanted:enchanted_leaves": "net.favouriteless.enchanted.common.altar.PowerProvider",
+	"enchanted:flowers": "net.favouriteless.enchanted.common.altar.PowerProvider"
+}

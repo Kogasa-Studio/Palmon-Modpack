@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/cobble/chert"
+	},
+	"result": "tfc:rock/cobble/chert_stairs",
+	"count": 1
+}

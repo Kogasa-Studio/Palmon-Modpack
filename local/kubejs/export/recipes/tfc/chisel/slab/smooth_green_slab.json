@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:smooth_sandstone/green",
+	"result": "tfc:smooth_sandstone/green_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:smooth_sandstone/green_slab"
+	}
+}

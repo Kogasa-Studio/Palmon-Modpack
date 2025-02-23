@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cracked_bricks/quartzite",
+	"result": "tfc:rock/cracked_bricks/quartzite_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/cracked_bricks/quartzite_slab"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/cobble/slate"
+	},
+	"result": "tfc:rock/cobble/slate_wall",
+	"count": 1
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "mekanism:blocks/block_fluorite",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mekanism:block_fluorite"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

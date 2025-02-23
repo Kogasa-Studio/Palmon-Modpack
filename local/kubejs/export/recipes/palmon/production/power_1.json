@@ -1,0 +1,26 @@
+{
+	"type": "palmon:production",
+	"category": "misc",
+	"focus_stat": "ATTACK",
+	"min_level": 5,
+	"required_type": "electric",
+	"base_hp": 0,
+	"base_atk": 90,
+	"base_def": 0,
+	"base_spa": 0,
+	"base_spd": 50,
+	"base_spe": 0,
+	"area_blocks": [
+		{
+			"tag": "forge:storage_blocks/copper"
+		},
+		{
+			"tag": "forge:storage_blocks/redstone"
+		}
+	],
+	"block_count": 4,
+	"tick": 400,
+	"result_items": [],
+	"result_power": 500,
+	"result_fluid": null
+}

@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:ruins/uncommon/decaying_crypt_ruins",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "cobblemon:kings_rock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "cobblemon:cracked_pot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:chipped_pot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "cobblemon:bygone_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "cobblemon:dome_sherd"
+				}
+			]
+		}
+	]
+}

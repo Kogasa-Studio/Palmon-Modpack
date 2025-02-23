@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "sophisticatedstorage:blocks/storage_link",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "sophisticatedstorage:storage_link"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

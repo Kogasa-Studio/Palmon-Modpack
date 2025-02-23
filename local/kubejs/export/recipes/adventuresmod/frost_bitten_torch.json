@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:stick"
+		},
+		"E": {
+			"item": "adventuresmod:enchanted_shards"
+		},
+		"X": [
+			{
+				"item": "minecraft:coal"
+			},
+			{
+				"item": "minecraft:charcoal"
+			}
+		]
+	},
+	"pattern": [
+		"X",
+		"E",
+		"#"
+	],
+	"result": {
+		"count": 4,
+		"item": "adventuresmod:frost_bitten_torch"
+	},
+	"show_notification": true
+}

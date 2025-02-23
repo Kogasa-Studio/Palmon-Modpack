@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:metal/block/wrought_iron"
+		}
+	},
+	"result": {
+		"item": "tfc:metal/block/wrought_iron_slab",
+		"count": 6
+	}
+}

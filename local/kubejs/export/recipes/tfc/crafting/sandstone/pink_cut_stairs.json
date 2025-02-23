@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X  ",
+		"XX ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "tfc:cut_sandstone/pink"
+		}
+	},
+	"result": {
+		"item": "tfc:cut_sandstone/pink_stairs",
+		"count": 8
+	}
+}

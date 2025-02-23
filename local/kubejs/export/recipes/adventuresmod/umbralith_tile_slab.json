@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": {
+			"item": "adventuresmod:umbralith_tiles"
+		}
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"item": "adventuresmod:umbralith_tile_slab"
+	},
+	"show_notification": true
+}

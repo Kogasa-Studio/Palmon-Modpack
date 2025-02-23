@@ -1,0 +1,201 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 5.0,
+				"max": 8.0
+			},
+			"bonus_rolls": 2.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:dandelion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:pink_petals"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:mangrove_propagule"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:grass_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:bamboo"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:moss_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:sugar_cane"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:flowering_azalea_leaves"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:lily_of_the_valley"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:kelp"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:blue_orchid"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:oak_leaves"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:rose_bush"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spore_blossom"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:coarse_dirt"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:torchflower"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:red_tulip"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:oak_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spruce_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_sapling"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 5.0,
+						"max": 10.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:deepslate_emerald_ore"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald_ore"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"type": "minecraft:uniform",
+						"min": 5.0,
+						"max": 10.0
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16383998,CustomPotionEffects:[{Amplifier:1,Duration:2400,Id:22},{Amplifier:6,Duration:2400,Id:22}],display:{Lore:['[\"\",{\"text\":\"Very delicous\",\"italic\":false}]'],Name:'[\"\",{\"text\":\"Hydrogen Fluoride Gas\",\"italic\":false,\"color\":\"light_purple\"}]'}}"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{EntityTag:{id:\"evoker_fangs\"},display:{Name:'[{\"text\":\"Krtek Spawn Egg\",\"italic\":false}]'}}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 32.0,
+								"max": 64.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:vex_spawn_egg"
+				}
+			]
+		}
+	]
+}

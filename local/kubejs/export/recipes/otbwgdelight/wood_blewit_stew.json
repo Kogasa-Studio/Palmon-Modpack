@@ -1,0 +1,22 @@
+{
+	"type": "farmersdelight:cooking",
+	"container": {
+		"item": "minecraft:bowl"
+	},
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredients": [
+		{
+			"item": "biomeswevegone:wood_blewit"
+		},
+		{
+			"item": "minecraft:carrot"
+		},
+		{
+			"item": "minecraft:potato"
+		}
+	],
+	"result": {
+		"item": "otbwgdelight:wood_blewit_stew"
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"name": "tfc:ore/small_cassiterite"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"name": "tfc:rock/loose/phyllite"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.25
+								}
+							],
+							"name": "tfc:rock/loose/phyllite"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.0533
+								}
+							],
+							"name": "tfc:ore/pyrite"
+						}
+					]
+				}
+			]
+		}
+	]
+}

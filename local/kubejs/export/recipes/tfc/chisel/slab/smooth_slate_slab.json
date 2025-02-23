@@ -1,0 +1,9 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/smooth/slate",
+	"result": "tfc:rock/smooth/slate_slab",
+	"mode": "slab",
+	"extra_drop": {
+		"item": "tfc:rock/smooth/slate_slab"
+	}
+}

@@ -1,0 +1,204 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "loot_pool",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:obsidian"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:flint"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "tfc:metal/ingot/wrought_iron"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:flint_and_steel"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"name": "minecraft:fire_charge"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "beneath:gold_chunk"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:bow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/sword/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/axe/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/shield/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/scythe/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/shovel/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/helmet/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/chestplate/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/boots/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "tfc:metal/greaves/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "tfc:metal/horse_armor/black_bronze"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:clock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "tfc:metal/ingot/gold"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bell"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "tfc:bronze_bell"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "beneath:lost_page"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "beneath:lost_page"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "beneath:lost_page"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "cobgyms:gym_key"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:air"
+				}
+			]
+		}
+	]
+}

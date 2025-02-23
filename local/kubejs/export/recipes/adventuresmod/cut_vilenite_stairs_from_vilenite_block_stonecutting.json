@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 4,
+	"ingredient": {
+		"item": "adventuresmod:vilenite_block"
+	},
+	"result": "adventuresmod:cut_vilenite_stairs"
+}

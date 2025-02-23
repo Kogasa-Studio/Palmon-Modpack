@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:wheat"
+		},
+		"A": {
+			"tag": "forge:milk"
+		},
+		"B": {
+			"tag": "forge:vegetables/tomato"
+		},
+		"C": {
+			"tag": "adventuresmod:pizza_topping_ingredients"
+		}
+	},
+	"pattern": [
+		"#A#",
+		"BCB",
+		"#A#"
+	],
+	"result": {
+		"item": "adventuresmod:pizza"
+	},
+	"show_notification": true
+}

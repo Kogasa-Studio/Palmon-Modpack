@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"C": {
+			"tag": "forge:pumpkins/carved"
+		},
+		"M": {
+			"tag": "forge:foods/meat/cooked"
+		},
+		"O": {
+			"tag": "forge:crops/onion"
+		},
+		"P": {
+			"tag": "forge:crops/bell_pepper"
+		},
+		"R": {
+			"tag": "forge:crops/rice"
+		},
+		"T": {
+			"item": "thermal:tomato_sauce"
+		}
+	},
+	"pattern": [
+		"OTO",
+		"RCR",
+		"PMP"
+	],
+	"result": {
+		"item": "thermal:stuffed_pumpkin"
+	},
+	"show_notification": true
+}

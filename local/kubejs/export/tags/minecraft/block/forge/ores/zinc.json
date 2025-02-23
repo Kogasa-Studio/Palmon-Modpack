@@ -1,0 +1,8 @@
+[
+	"#tfc:ores/zinc/normal",
+	"#tfc:ores/zinc/poor",
+	"#tfc:ores/zinc/rich",
+	"create:deepslate_zinc_ore",
+	"create:zinc_ore",
+	"nuclearcraft:zinc_ore"
+]

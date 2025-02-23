@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "redstone",
+	"group": "wooden_fence_gate",
+	"key": {
+		"#": {
+			"item": "minecraft:stick"
+		},
+		"W": {
+			"item": "adventuresmod:corrupted_planks"
+		}
+	},
+	"pattern": [
+		"#W#",
+		"#W#"
+	],
+	"result": {
+		"item": "adventuresmod:corrupted_fence_gate"
+	},
+	"show_notification": true
+}

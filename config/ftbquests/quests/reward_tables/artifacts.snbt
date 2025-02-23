@@ -1,0 +1,47 @@
+{
+	icon: "artifacts:cross_necklace"
+	id: "16EBCA909D878553"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:scarf_of_invisibility" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:anglers_hat" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:onion_ring" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:pickaxe_heater" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:everlasting_beef" }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:cowboy_hat" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:snowshoes" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:rooted_boots" }
+		{ item: "artifacts:flippers" }
+	]
+	title: "奇异饰品 | Artifacts"
+}

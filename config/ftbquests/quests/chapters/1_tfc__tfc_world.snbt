@@ -1,0 +1,2386 @@
+{
+	autofocus_id: "7D265517B918D923"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1_tfc__tfc_world"
+	group: "40031BBCC8FA0009"
+	icon: "tfc:rock/loose/conglomerate"
+	id: "1B9731C3AC5FB9C7"
+	images: [{
+		height: 2.0d
+		image: "cobblemon:item/advancements/cobblemon_logo"
+		rotation: 0.0d
+		width: 2.0d
+		x: 2.0d
+		y: 16.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7CD7C4295DDBDFF2"
+				"4576F5FDA5AB7BEC"
+				"68C3EB49FF722F8A"
+				"2518C0943DDF09C0"
+			]
+			id: "7D265517B918D923"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "396890B2494A16E7"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
+			subtitle: "用这些材料制作一些基础的工具"
+			tasks: [
+				{
+					count: 8L
+					id: "597584F6A0C0C9FD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:rock_knapping"
+						}
+					}
+					title: "Any #tfc:rock_knapping"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "44CEC4DB64D40774"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+			]
+			title: "木棍与石子"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D265517B918D923"]
+			id: "2F199465625430FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C4198285E2429DE"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					id: "113D67F19F09937F"
+					item: "thermal:signalum_coin"
+					type: "item"
+				}
+			]
+			subtitle: "群峦星的地形比现世地球的更为广袤，\\n这意味着你前往新的生物群系需要花费更多的时间"
+			tasks: [{
+				id: "1AD0A8159FEDE286"
+				type: "checkmark"
+			}]
+			title: "群峦星特征"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D265517B918D923"]
+			id: "7BEC75E55225A8CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FFDD4D55DF45DE8"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
+			subtitle: "在地表上发现的矿物碎块，是前期金属的主要来源"
+			tasks: [{
+				count: 4L
+				id: "3DB9959A5521B464"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:ore_pieces"
+					}
+				}
+				title: "Any #tfc:ore_pieces"
+				type: "item"
+			}]
+			title: "矿物碎块"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D265517B918D923"]
+			id: "416F3157641D6D75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1265438A7BD15AEC"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
+			subtitle: "收集到一定数量的黏土球后，\\n使用黏土球捏制出一些基本的陶器"
+			tasks: [{
+				count: 4L
+				id: "4651AAB1F0AB95D5"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "陶器"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D265517B918D923"]
+			id: "1FBD0A696202485D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C96028846B3BC83"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					id: "697A03B9BB002A9B"
+					item: "thermal:signalum_coin"
+					type: "item"
+				}
+			]
+			subtitle: "由于一种未知的力量，群峦星的物品与材料拥有着一些特殊特性。\\n例如你无法背起超重的物品，大多数的食物也会随着时间慢慢腐烂。"
+			tasks: [{
+				id: "19B694149F423CAD"
+				type: "checkmark"
+			}]
+			title: "群峦星限制"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D265517B918D923"]
+			id: "31AEAB8574524CBC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1EFD62130C0F0581"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					id: "626595943749D10E"
+					item: "thermal:signalum_coin"
+					type: "item"
+				}
+			]
+			subtitle: "保持5种营养的均衡可以使你获得额外的血量，保证食物的多样性也可以进一步的获得增益。"
+			tasks: [{
+				id: "613B97DAB9FDA502"
+				type: "checkmark"
+			}]
+			title: "营养与食物多样性"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D265517B918D923"]
+			icon: "tfc:straw"
+			id: "6BE9879768D45659"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EEA50D0054B5251"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "6B730A245C7E7050"
+					item: "tfc:straw"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "603F2F7EDE11A9CD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:firepit_logs"
+						}
+					}
+					title: "Any #tfc:firepit_logs"
+					type: "item"
+				}
+			]
+			title: "干草与原木"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"416F3157641D6D75"
+				"6BE9879768D45659"
+			]
+			id: "1DEE49A008B04298"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1055AC06C49DBC3E"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "随身水壶"
+			tasks: [{
+				id: "29086ECC4B32A735"
+				item: "tfc:ceramic/jug"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"416F3157641D6D75"
+				"6BE9879768D45659"
+			]
+			id: "67DBB00021CBB136"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DA286C9C1965117"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EA426C26ABA5892"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "小缸可以用来存储物品，也可以用于前期的金属铸造"
+			tasks: [{
+				id: "07BC0C753EA1F002"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:ceramic/vessel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7BEC75E55225A8CA"
+				"67DBB00021CBB136"
+			]
+			id: "73BA44112A812A9A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44102D06BB499465"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E2AED66F5BC5EC4"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "制作任意一种镐"
+			tasks: [{
+				id: "6B7090629E93F152"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:pickaxes"
+					}
+				}
+				title: "Any #tfc:pickaxes"
+				type: "item"
+			}]
+			title: "这不是铁...确实不是铁镐"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["73BA44112A812A9A"]
+			id: "3004D56C67359C5C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DFB1FBA5E5A468F"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0409C732CAC8CB98"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "为了更进一步的加工金属，你需要去寻找一块合适的岩石与一把锤子。\\n详细请查阅群峦传说手册原始砧条目。"
+			tasks: [{
+				id: "66B2D1C1A5F8D5E2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:hammers"
+					}
+				}
+				title: "Any #tfc:hammers"
+				type: "item"
+			}]
+			title: "千锤百炼"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73BA44112A812A9A"]
+			id: "27663E9D369E455C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7051A23FC579B2F7"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "在下矿时，为了你自身的安全，请准备足够的支撑梁"
+			tasks: [{
+				count: 8L
+				id: "71DD42B085CCA54A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:support_beams"
+					}
+				}
+				title: "Any #tfc:support_beams"
+				type: "item"
+			}]
+			title: "支撑梁"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["73BA44112A812A9A"]
+			hide_until_deps_complete: true
+			icon: "tfc:quern"
+			id: "64CB731561F30CA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A859CBA633F7B4D"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "制作一套手推磨"
+			tasks: [
+				{
+					id: "7A91DEAB56AF8EE3"
+					item: "tfc:quern"
+					type: "item"
+				}
+				{
+					id: "3BC1515571F544F8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tfc:handstone"
+						}
+					}
+					title: "Any #tfc:handstone"
+					type: "item"
+				}
+			]
+			title: "手推磨"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["64CB731561F30CA0"]
+			id: "621BC8CBEA4447C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CF2E957F92A304E"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "通过研磨朱砂，获取一些红石粉"
+			tasks: [{
+				id: "711F398EB864E356"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "熟悉的材料"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["621BC8CBEA4447C4"]
+			id: "76130DA23F012D3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "754EB57A700A86CF"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "啊，熟悉的物品容器"
+			tasks: [{
+				id: "0DE3C64D25434C6E"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			title: "木桶"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67DBB00021CBB136"]
+			hide_until_deps_complete: true
+			id: "4D9FBD6621FD4CA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "764032139B6E9782"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "这种粗加工的铁有其他用途"
+			tasks: [{
+				id: "7F7C3E08E55B071D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/cast_iron"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D9FBD6621FD4CA2"]
+			id: "28E335D143DF93B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A37893040B1E724"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "铸铁烤架能更加高效的烹饪食物"
+			tasks: [{
+				id: "3C33E6784F9A3E0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "castirongrill:cast_iron_grill"
+				}
+				type: "item"
+			}]
+			title: "烧烤时间"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28E335D143DF93B4"]
+			id: "4005CB66509E03D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B35E5DB1F79039B"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "古老的巫术"
+			tasks: [{
+				id: "2E69A762A9ABCFF4"
+				item: "enchanted:witch_oven"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73BA44112A812A9A"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:kaolin_clay"
+			}
+			id: "7AE40EE67AD78575"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24E0BF94DA0838AF"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "高岭土的生成条件十分苛刻，但是这是制作耐火黏土的唯一途径"
+			tasks: [
+				{
+					count: 4L
+					id: "4014A5A44F42B285"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:kaolin_clay"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "78CF60CFD7EE096A"
+					item: "tfc:ore/graphite"
+					type: "item"
+				}
+			]
+			title: "耐火黏土的准备"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3004D56C67359C5C"]
+			hide_until_deps_complete: true
+			id: "3DFB6E2E5E3C3545"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B6F955EA7EE2D1D"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17BE3F1250FAE6DA"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "176535DF6CBB08EF"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "不同的材料需求的砧等级不同，详细请见群峦手册砧条目"
+			tasks: [{
+				id: "4950298E8ADC04CD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:anvils"
+					}
+				}
+				title: "Any #tfc:anvils"
+				type: "item"
+			}]
+			title: "真正的砧"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7AE40EE67AD78575"]
+			id: "1983AD680B773C5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7F6CA1169FC2E2"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "更方便的处理金属"
+			tasks: [{
+				id: "74F754106B431D0D"
+				item: "tfc:crucible"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3DFB6E2E5E3C3545"]
+			id: "4B7DD0BE2EA68D42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4553979BAD0CF2F5"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DF840215E4D8123"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "你需要8块这种双层薄板来制作锻铁炉"
+			tasks: [{
+				count: 2L
+				id: "005A89F9B96384A6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:double_sheets/any_bronze"
+					}
+				}
+				title: "Any #forge:double_sheets/any_bronze"
+				type: "item"
+			}]
+			title: "青铜双层薄板"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4B7DD0BE2EA68D42"]
+			id: "03AD0443D82AD6DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "631BF965215FEFBC"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48B2172A893EB99B"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4359E998AC6769E0"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "使用锻铁炉与金属砧，你终于可以精炼出锻铁锭了。\\n详细请见群峦手册锻铁炉条目"
+			tasks: [{
+				id: "797C8D4AC8218D6A"
+				item: "tfc:bloomery"
+				type: "item"
+			}]
+			title: "还不够热"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["03AD0443D82AD6DF"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			id: "182A02FDAB992AFC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "372B5D6FEDFB2FE5"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F064897FD06CCDB"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "敲敲打打"
+			tasks: [{
+				id: "5393E8B2E8D99DA3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/wrought_iron"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"04B605195EEBB71B"
+				"34594FF1DF7DB124"
+				"2B871832EF0B4E24"
+				"5DDB2BA33F814C18"
+			]
+			id: "63D51DD7AE9B4CC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CDA5B0E43ECAA5E"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "如果你发现了一些未被打磨的宝石，你可以使用砂纸打磨他们"
+			tasks: [{
+				id: "4A05B1485368044C"
+				item: {
+					Count: 1
+					id: "tfc:sandpaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "打磨宝石"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5298A692AAAAAE04"]
+			id: "34594FF1DF7DB124"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68D4A368CBE983B4"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AA72934F10A1681"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:powder/flux"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5298A692AAAAAE04"
+				"64CB731561F30CA0"
+			]
+			id: "04B605195EEBB71B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FCB69A7B5A22669"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D67E7DD04EF3864"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:gem_powders"
+					}
+				}
+				title: "Any #tfc:gem_powders"
+				type: "item"
+			}]
+			title: "宝石粉"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["67DBB00021CBB136"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2A8DED02CA1F06FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CF94039040D615B"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DCFD641BE574BFC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:barrels"
+					}
+				}
+				title: "Any #tfc:barrels"
+				type: "item"
+			}]
+			title: "大桶"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["73BA44112A812A9A"]
+			hide_until_deps_complete: true
+			id: "5298A692AAAAAE04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CEE2F568DF34728"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "现在你已经在群峦星生存一段时间了，相信你也非常想和野生的宝可梦们建立羁绊。\\n这条任务线将会指引你制作在群峦星可用的宝可梦相关物品。"
+			tasks: [{
+				id: "64E7E16F48939879"
+				type: "checkmark"
+			}]
+			title: "群峦星的宝可梦"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2A8DED02CA1F06FF"
+				"5298A692AAAAAE04"
+			]
+			id: "2B871832EF0B4E24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BDAB77250755638"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F86486ADAA0A8C0"
+				item: "tfc:glue"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["67DBB00021CBB136"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5DDB2BA33F814C18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58BDA89CF552E6BC"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "获取纸有两种途径：寻找纸莎草或处理动物毛皮。详细请自行查询配方。"
+			tasks: [{
+				id: "0AE6309E990EDC5B"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["63D51DD7AE9B4CC9"]
+			dependency_requirement: "one_started"
+			id: "02ACB8603E15A74E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "475594628EAB13AB"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "打磨群峦星的原产宝石，一些其他的材料也可以使用"
+			tasks: [{
+				id: "14D4C6383BC61EFA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:trim_materials"
+					}
+				}
+				title: "Any #tfc:trim_materials"
+				type: "item"
+			}]
+			title: "宝石！"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2A8DED02CA1F06FF"]
+			id: "184B28D1D662D5A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50608C2C5E8D5D8C"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "使用熟石灰水与群峦星的力量，可以将苹果转换为红球果树芽"
+			tasks: [{
+				id: "52304816CB06F89D"
+				item: "cobblemon:red_apricorn_seed"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"02ACB8603E15A74E"
+				"184B28D1D662D5A8"
+			]
+			id: "759247E1362C377A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C93DE21FC100348"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "打磨宝石与锻造铜板既费时又费力，有没有什么其他的方法呢？\\n"
+			tasks: [{
+				id: "7800A8AC87164BBE"
+				item: "cobblemon:ancient_poke_ball"
+				type: "item"
+			}]
+			title: "你的第一个精灵球"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["182A02FDAB992AFC"]
+			id: "7A23822AE720815B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27449CEF09364017"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69E84F39B572A2E0"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3220A68219755667"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/sheet/wrought_iron"
+				}
+				type: "item"
+			}]
+			title: "可靠的铁板"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7A23822AE720815B"]
+			id: "20E10177F3F79DD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71BA88414E9C01FA"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "如果你能给宝可梦们提供一个\\n安全的工作场所，或许..."
+			tasks: [{
+				id: "7A0AAF0132987592"
+				type: "checkmark"
+			}]
+			title: "帕鲁梦"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["21981A7D2CDE4A47"]
+			id: "269D0D7C9C9C45F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DDE7287820E9524"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33A8098159DB5E89"
+				item: "cobblemon:potion"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6BE9879768D45659"
+				"416F3157641D6D75"
+			]
+			hide_dependent_lines: true
+			id: "7A021B1A6B986E33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C9A7FBB42C77B19"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "制作一口陶锅"
+			tasks: [{
+				id: "53CAC7E1413609EB"
+				item: "tfc:ceramic/pot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4005CB66509E03D2"]
+			id: "610FE8C136F349B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "643DCA1419B8A142"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C520397D519036B"
+				item: "enchanted:exhale_of_the_horned_one"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4005CB66509E03D2"]
+			id: "250A29BE7514A3B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "468A25C8F940E6F2"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42FB671277C085B8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:eggs"
+					}
+				}
+				title: "Any #forge:eggs"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4005CB66509E03D2"]
+			id: "4EF8EC0542466443"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6498494887F323C2"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27334AA2C2BADC27"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1B4B8EF62122A272"
+				"4EF8EC0542466443"
+			]
+			id: "0D778888D02A8D08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "649C08BF73456DD2"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "580B0DF4F3FE886E"
+				item: "enchanted:mandrake_root"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2A8DED02CA1F06FF"]
+			id: "1B4B8EF62122A272"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E0047C446BD1A72"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72533B30ED6C8B60"
+				item: "enchanted:mandrake_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"250A29BE7514A3B6"
+				"610FE8C136F349B3"
+				"0D778888D02A8D08"
+			]
+			id: "21981A7D2CDE4A47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "184031F8F97F52E8"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "由于Enchanted: Witchcraft并未完成，\\n所以部分物品可能不会正常工作。\\n疗草可以在水面上种植。"
+			tasks: [{
+				id: "38313D5FA24D2B50"
+				item: "cobblemon:medicinal_leek"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5DDB2BA33F814C18"
+				"20E10177F3F79DD2"
+			]
+			id: "48553EDCA63BE50E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4763705E7BF28CE9"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "将你拥有的宝可梦释放出来，并用空合同右键他。\\n潜行+右键劳务合同可以收回宝可梦。"
+			tasks: [{
+				id: "59DBFCBB5B628491"
+				item: "palmon:empty_contract"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["20E10177F3F79DD2"]
+			icon: "palmon:working_station"
+			id: "5EE06EF0C69603D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AD54F97816EACD7"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "安全的工作地点，别忘记喂食！"
+			tasks: [
+				{
+					id: "00D7FA953EEE7FE3"
+					item: "palmon:working_station"
+					type: "item"
+				}
+				{
+					id: "00E8463ED2354A42"
+					item: "palmon:poke_food"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"48553EDCA63BE50E"
+				"5EE06EF0C69603D2"
+			]
+			description: [
+				"使用生产机，你需要现在前方放置一个工作站，并将一份拥有宝可梦的劳务合同其中。"
+				"你还需要在工作站中提供充足的宝可梦食物，宝可梦每个工作Tick都将消耗一定量的食物。"
+				""
+				"下图是一个生产石材的配方，左侧的6个属性维度代表着执行该配方需求的最低种族值。"
+				"这个石材配方需要攻击与防御都大于等于50的宝可梦执行。"
+				"上方中部代表着配方所要求的宝可梦属性与最低等级，右侧则是完成配方所需的工作量。"
+				"范围内所需方块代表着以生产机为中心，范围5*5，高度4的空间内必须存在的方块，右侧的数字则是要求的数量。"
+				"注意：列表中的每种方块都必须满足数量要求。"
+				""
+				"下方则是物品，流体与能量产出。"
+				"{image:ftbquest:textures/recipes/_palmon_production_stone_1.png width:160 height:105 align:center}"
+			]
+			id: "2D2B88EE1709D561"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34F2B569E0C1C948"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "你的下半辈子都将留在这了！"
+			tasks: [{
+				id: "2CE91A08033E3923"
+				item: "palmon:production_machine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2D2B88EE1709D561"]
+			description: [
+				"打开生产机，你可以看到左侧显示的四个乘区，"
+				"框架乘区：由放置在生产机上方的增速框架决定"
+				"等级乘区：根据宝可梦当前的等级决定"
+				"个体乘区：根据宝可梦个体值的六围之和决定"
+				"专注乘区：根据配方专注的属性（配方中被青色圈中的属性）提升，同时根据当前宝可梦该项的个体值与种族值决定"
+				""
+				"最终效率则是4个乘区相乘的数值，也是每个工作Tick将会完成的工作量。"
+				"当前工作的进度将会在最下方显示。"
+				""
+				"也就是说，如果你想让一个配方的效率最大化，除了使用更高级的增速框架外，"
+				"你还需要让宝可梦等级尽可能的高，配方要求的属性的个体值与种族值尽可能的高。"
+				""
+				"若最终效率是目标工作量的数倍，单次也会产出数倍的物品。"
+			]
+			id: "65BA41434338CFD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61C0B1B780CF75AF"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "选读"
+			tasks: [{
+				id: "4B5BA16F1B994BD6"
+				type: "checkmark"
+			}]
+			title: "工作量与生产效率"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7A23822AE720815B"]
+			hide_until_deps_complete: true
+			icon: "tfc:blast_furnace"
+			id: "73715615076BFBCE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4814D1F89E8575F5"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39550B60B8DC3C35"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "047035E44BE515DC"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "详细请查阅群峦传说手册建造高炉条目。"
+			tasks: [
+				{
+					id: "78CF67C30546DE22"
+					item: "tfc:bellows"
+					type: "item"
+				}
+				{
+					id: "1C3A3D5220864BB9"
+					item: "tfc:crucible"
+					type: "item"
+				}
+				{
+					id: "0C9AF8D8BF140ECE"
+					item: "tfc:blast_furnace"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4B07D26D8611DCE9"
+					item: { Count: 4, id: "tfc:fire_bricks" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1F9AC108E11A26B7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/sheet/wrought_iron"
+					}
+					type: "item"
+				}
+			]
+			title: "高炉"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["73715615076BFBCE"]
+			id: "09A6D43A95775808"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "744B12564004DFFE"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75647286A6A924CC"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Again!"
+			tasks: [{
+				id: "0159534BA2C1A4FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/steel"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["1983AD680B773C5F"]
+			id: "137996623DC78F68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0521AA598DF8E0D3"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "机○动力？\\n详细请查阅群峦传说手册机械动力条目。"
+			tasks: [{
+				id: "3A0D2C2EF523ED9E"
+				item: "tfc:brass_mechanisms"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["137996623DC78F68"]
+			id: "0233F293A9410814"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19EA052941E23E1F"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "动力源选项1"
+			tasks: [{
+				id: "1B59525A76D5FBB9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:all_windmill_blades"
+					}
+				}
+				title: "Any #tfc:all_windmill_blades"
+				type: "item"
+			}]
+			title: "风车"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["137996623DC78F68"]
+			id: "65A8F393ACD9D205"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C7727F372495C68"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "动力源选项2"
+			tasks: [{
+				id: "7FA2F58091C510EA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:water_wheels"
+					}
+				}
+				title: "Any #tfc:water_wheels"
+				type: "item"
+			}]
+			title: "水车"
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["09A6D43A95775808"]
+			hide_until_deps_complete: true
+			id: "089DBFD401F07BFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FB97BB713F0ED48"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06C62B81762B6AAF"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "12901120FCD0D3D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/black_steel"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["089DBFD401F07BFA"]
+			id: "2DCA6ECA4708CF92"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73FFF8EF2C2F1398"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5871C2DAD3B4D3EB"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Again!"
+			tasks: [{
+				id: "27E07287C342FE6B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/black_steel"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2DCA6ECA4708CF92"]
+			hide_until_deps_complete: true
+			id: "027AE89C9FB02C10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "570B8294E6854B20"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EC76A1ECFBAEBE7"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1A60547236665CE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/red_steel"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2DCA6ECA4708CF92"]
+			hide_until_deps_complete: true
+			id: "5A4B37A6C7A1C953"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "604741F44AEBECE9"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3532402F0BDAF5B7"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "597911EECE1EE48D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/ingot/blue_steel"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["7A23822AE720815B"]
+			id: "4143D08A71441319"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "243A598A88140107"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "如此美妙的背包"
+			tasks: [{
+				id: "3E10B7C8279888C4"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["63DD760BF006099A"]
+			icon: "minecraft:obsidian"
+			id: "17673A8A63634284"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "072866047EAA47DF"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "你心满意足了吗"
+			tasks: [{
+				id: "48619513EA2FC299"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:nether_portal"
+				type: "observation"
+			}]
+			title: "群峦之下"
+			x: -6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["7D265517B918D923"]
+			id: "1437AFE82882448A"
+			rewards: [{
+				id: "6F0D4C03335907C6"
+				item: "thermal:signalum_coin"
+				type: "item"
+			}]
+			subtitle: "因为群峦星的影响，在到达某个阶段前你将会失去现世祝福。\\n这意味着你将无法拾起一些物品。如果你拾起了这些物品，他们将会被送到你的末影箱内。\\n如果末影箱满了，新的物品将会被销毁。"
+			tasks: [{
+				id: "0E0F0FACD3F0C11E"
+				type: "checkmark"
+			}]
+			title: "现世祝福"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["027AE89C9FB02C10"]
+			id: "63DD760BF006099A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B3BDF727B6AE835"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0110C2EFED3F7AEE"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					id: "596222BBEE473DAE"
+					ignore_reward_blocking: true
+					stage: "the_nether"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			subtitle: "生于忧患，死于安乐\\n解锁地狱通行证，详细请查阅群峦传说手册群峦之下章节。\\n | \\nLife springs from sorrow and calamity, and death from ease and pleasure. Unlock the Nether Pass. \\nView chapter Beneath from TFC Guide for more details."
+			tasks: [{
+				id: "4B4B208DA89E837A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/red_steel"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5A4B37A6C7A1C953"]
+			id: "5908756139F268DB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2487BCBEA9098F07"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EF9B80E8ACA27AE"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2E56A5C5FB277B26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/blue_steel"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"2DCA6ECA4708CF92"
+				"20E10177F3F79DD2"
+			]
+			id: "07AB95AEDD7B16CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "750478B5D4C6E7B7"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "你的子子孙孙也将留在这！"
+			tasks: [{
+				id: "569366A08DB01BD2"
+				item: "palmon:processing_station"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["07AB95AEDD7B16CE"]
+			id: "2789B5D15B2F027C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2967D4118ACC282A"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "异界水晶"
+			tasks: [{
+				id: "211A40210E6442C9"
+				item: "palmon:m_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["07AB95AEDD7B16CE"]
+			id: "0EDFD5392F5D8A9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C28909FCF6BDD24"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "加工站与生产机十分类似，不过宝可梦在加工站会消耗物品，\\n流体与能量来制作新的物品。加工站的效率计算也与生产机一致。"
+			tasks: [{
+				id: "4AD5E49275583D12"
+				type: "checkmark"
+			}]
+			title: "加工站信息"
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4143D08A71441319"]
+			id: "4148B9A9B38C79F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E3AEEDADCB8B780"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "更大"
+			tasks: [{
+				id: "75685639F7778C89"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:copper_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"4148B9A9B38C79F0"
+				"089DBFD401F07BFA"
+			]
+			id: "1B5AAD0B37BEF605"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20EB6361B9910850"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "更强"
+			tasks: [{
+				id: "7AD5CC2A58786AE7"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"63DD760BF006099A"
+				"5908756139F268DB"
+			]
+			dependency_requirement: "one_completed"
+			description: ["失去的现世祝福已然回归，你现在可以使用大部分的物品了。"]
+			id: "6DD40C570E6A6B3C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CA8F7B516B5C048"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77169B6C4866421B"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17184C6804BF5F28"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "0FA72FBFA9D3A472"
+					ignore_reward_blocking: true
+					stage: "overworld_item"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "但令如此还如此，谁羡前程未可涯。\\n---《野居偶作》\\n |\\n I would like to do so until eternity, without admiring the world's splendid future. \\n---Mountain-Dwelling Poems"
+			tasks: [{
+				id: "1AD63F903D59CCBE"
+				item: "kubejs:present_soul"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["182A02FDAB992AFC"]
+			id: "7A5CC48ACE840050"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B180ABEF6E64A96"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "锤子！"
+			tasks: [{
+				id: "1A4E5A1663C4F5D4"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2D2B88EE1709D561"]
+			id: "28202F74DE752A8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AFAA5F1E1355B28"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "很遗憾，在最初的阶段，你必须使用宝可梦发电"
+			tasks: [{
+				id: "5166766548F14BCA"
+				type: "checkmark"
+			}]
+			title: "电？"
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["182A02FDAB992AFC"]
+			id: "1424280EE4D011F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45D1B9393EE5BE98"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2246ABFD5F1779B4"
+				item: {
+					Count: 1
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"1424280EE4D011F6"
+				"7A5CC48ACE840050"
+			]
+			icon: "immersiveengineering:wirecoil_copper"
+			id: "1A5D62CDE76A160A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "255611BB50590D10"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "425E5299AAFFF001"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					id: "6D6E60E1DC9B67F8"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+			]
+			title: "电力传输"
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["67DBB00021CBB136"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "3E9C8DDD6EAE0335"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2758EFAD42443D69"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "提前准备"
+			tasks: [{
+				count: 27L
+				id: "4246865DA4EFCA98"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "焦炉"
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"09A6D43A95775808"
+				"1A5D62CDE76A160A"
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "7E306209187D63F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52A66A818E63CCC8"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3491D505ED46C94B"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "你会喜欢他的"
+			tasks: [
+				{
+					id: "2E7A0E24BED74F4B"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "74732837EF2EB6E6"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "732E202EE1554441"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "5C7B7A7A97638A80"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "366214F78CA30690"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			title: "冲压机"
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7E306209187D63F9"]
+			id: "16FA697D159836AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E01CA2B2C299671"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EF4D97E848832DC"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "工业的基础"
+			tasks: [{
+				id: "25A277D8A0884B0B"
+				item: "thermal:steel_gear"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"16FA697D159836AF"
+				"6536BAC14B568B64"
+				"3E9C8DDD6EAE0335"
+			]
+			id: "5E913EC0C4997EF8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45FBAE7F91302503"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "640EF3CB88FCE2AF"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7E738CB5473744C0"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 33.5d
+		}
+		{
+			dependencies: ["2789B5D15B2F027C"]
+			id: "15927B2A8A39A435"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "661ABC41B3569801"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54EB53EFE69527F0"
+				item: "cobblemon:ancient_great_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2789B5D15B2F027C"]
+			id: "785F10998213A9C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66C60AB2A024934A"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58043606502109C7"
+				item: "cobblemon:ancient_ultra_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2789B5D15B2F027C"]
+			id: "6536BAC14B568B64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C85848492D17070"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4519766B38391762"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "743FEDB99BD9BE8D"
+				item: "botanicalmachinery:mana_emerald"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"65A8F393ACD9D205"
+				"0233F293A9410814"
+				"09A6D43A95775808"
+			]
+			dependency_requirement: "one_completed"
+			id: "7735B5050F8F9BC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FFEC96F02AFC305"
+				table_id: 8044557412893536476L
+				type: "random"
+			}]
+			subtitle: "自动（？）打铁"
+			tasks: [{
+				id: "2A6377299CBB3DB9"
+				item: "tfc:trip_hammer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"5AAB756A1373E31A"
+				"5E913EC0C4997EF8"
+				"5A9A5ECBBAD10700"
+			]
+			id: "7F53D52192AC2E51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F1B260F8A27AB84"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F735E505EF1184F"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17CA98871B281027"
+					table_id: 1651636410828424531L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "466DA92343D75D29"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "而浮生若梦，为欢几何？"
+			tasks: [
+				{
+					id: "7B7C00477BDBEC07"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "66836453FC8E01FD"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "§b再度起航"
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["7E306209187D63F9"]
+			icon: "immersiveengineering:squeezer"
+			id: "5AAB756A1373E31A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7365FD0568117ECA"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E13131670ABC9F1"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "在没有石油的情况下，你可以通过浓缩红石酸来获取一些火箭燃料。\\n太贵了！"
+			tasks: [{
+				count: 32L
+				id: "45006A5A5F51995C"
+				item: { Count: 32, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			title: "搅拌机（混合机）与火箭燃料"
+			x: -4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["6536BAC14B568B64"]
+			id: "5A9A5ECBBAD10700"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F98A0290CCE8249"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "600EF74A90119686"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "39EB6EAB38BC34E5"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"0F3456AC80859E64"
+				"473F06A9C8D5E463"
+				"170F5C04D6029E17"
+			]
+			hide_until_deps_complete: true
+			id: "32F11799DAD2AA4A"
+			optional: true
+			rewards: [{
+				id: "45D01A55B300A532"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			subtitle: "或轻如鸿毛"
+			tasks: [{
+				consume_items: true
+				id: "3EC2DDCC6F5C696D"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32F11799DAD2AA4A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:book"
+			id: "1760F1EB31F87E8C"
+			optional: true
+			rewards: [{
+				id: "6D4B929C81406C6E"
+				item: "minecraft:structure_block"
+				type: "item"
+			}]
+			subtitle: "或重如泰山"
+			tasks: [{
+				consume_items: true
+				id: "02FFD64FCF4021C3"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+	]
+	title: "1. 群峦星 | TFC World"
+}

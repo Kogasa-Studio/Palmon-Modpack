@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "cobblemon:sets/any_ancient_held_item",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:kings_rock"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:ability_shield"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:covert_cloak"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:destiny_knot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:expert_belt"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:focus_band"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:focus_sash"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:shell_bell"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:iron_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "cobblemon:protector"
+				}
+			]
+		}
+	]
+}

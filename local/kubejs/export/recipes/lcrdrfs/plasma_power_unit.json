@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XXX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "lcrdrfs:creeper_plasma"
+		}
+	},
+	"result": {
+		"item": "lcrdrfs:plasma_power_unit"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/cracked_bricks/limestone",
+	"result": "tfc:rock/cracked_bricks/limestone_stairs",
+	"mode": "stair"
+}

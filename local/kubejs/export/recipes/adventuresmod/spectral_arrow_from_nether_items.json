@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": {
+			"tag": "adventuresmod:spectral_arrow_ingredients"
+		},
+		"X": {
+			"item": "minecraft:arrow"
+		}
+	},
+	"pattern": [
+		" # ",
+		"#X#",
+		" # "
+	],
+	"result": {
+		"count": 2,
+		"item": "minecraft:spectral_arrow"
+	},
+	"show_notification": true
+}

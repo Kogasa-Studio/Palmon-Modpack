@@ -1,0 +1,10 @@
+{
+	"type": "tfc:quern",
+	"ingredient": {
+		"tag": "tfc:makes_magenta_dye"
+	},
+	"result": {
+		"item": "minecraft:magenta_dye",
+		"count": 2
+	}
+}

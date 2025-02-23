@@ -1,0 +1,35 @@
+{
+    "default":
+    [
+        {
+            "name": "tconstruct:reinforced",
+            "level": 2
+        },
+        {
+            "name": "tconstruct:lightweight",
+            "level": 1
+        },
+        {
+            "name": "tconstruct:experienced",
+            "level": 1
+        }
+    ],
+    "perStat":
+    {
+        "tconstruct:armor":
+        [
+            {
+                "level": 2,
+                "name": "tconstruct:magic_protection"
+            },
+            {
+                "level": 1,
+                "name": "tconstruct:projectile_protection"
+            },
+            {
+                "level": 1,
+                "name": "tconstruct:protection"
+            }
+        ]
+    }
+}

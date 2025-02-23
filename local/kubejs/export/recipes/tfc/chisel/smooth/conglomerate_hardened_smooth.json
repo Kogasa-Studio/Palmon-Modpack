@@ -1,0 +1,6 @@
+{
+	"type": "tfc:chisel",
+	"ingredient": "tfc:rock/hardened/conglomerate",
+	"result": "tfc:rock/smooth/conglomerate",
+	"mode": "smooth"
+}

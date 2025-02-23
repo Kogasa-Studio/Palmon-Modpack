@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "cobblemon:fossils/uncommon/prehistoric_frozen_pond",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "cobblemon:everstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "cobblemon:icy_rock"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "cobblemon:never_melt_ice"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:old_amber_fossil"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:cover_fossil"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:fossilized_dino"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "cobblemon:sail_fossil"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "cobblemon:vivichoke_seeds"
+				}
+			]
+		}
+	]
+}

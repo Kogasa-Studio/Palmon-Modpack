@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"result": {
+		"item": "tfc:wood/planks/douglas_fir",
+		"count": 4
+	},
+	"ingredients": [
+		{
+			"item": "palmon:wood"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"type": "tfc:blast_furnace",
+	"fluid": {
+		"ingredient": "tfc:metal/cast_iron",
+		"amount": 1
+	},
+	"result": {
+		"fluid": "tfc:metal/pig_iron",
+		"amount": 1
+	},
+	"catalyst": {
+		"tag": "tfc:flux"
+	}
+}

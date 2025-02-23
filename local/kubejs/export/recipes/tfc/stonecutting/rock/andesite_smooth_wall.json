@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "tfc:rock/smooth/andesite"
+	},
+	"result": "tfc:rock/smooth/andesite_wall",
+	"count": 1
+}

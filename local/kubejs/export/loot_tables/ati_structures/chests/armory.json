@@ -1,0 +1,726 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:arrow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:flint"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:ender_pearl"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:flint_and_steel"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_horse_armor"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 30.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:netherite_hoe"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 25.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_axe"
+				}
+			]
+		},
+		{
+			"name": "pool4",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_axe"
+				}
+			]
+		},
+		{
+			"name": "pool5",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"aqua_affinity\",lvl:1},{id:\"fire_protection\",lvl:4},{id:\"mending\",lvl:1},{id:\"projectile_protection\",lvl:4},{id:\"protection\",lvl:4},{id:\"unbreaking\",lvl:3},{id:\"vanishing_curse\",lvl:1}],Trim:{material:\"emerald\",pattern:\"spire\"},display:{Name:'[\"\",{\"text\":\"Gnome Hat\",\"italic\":false,\"color\":\"dark_green\"}]'}}"
+						}
+					],
+					"name": "minecraft:turtle_helmet"
+				}
+			]
+		},
+		{
+			"name": "pool6",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"name": "minecraft:totem_of_undying"
+				}
+			]
+		},
+		{
+			"name": "pool7",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 25.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:trident"
+				}
+			]
+		},
+		{
+			"name": "pool8",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.6
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 25.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_sword"
+				}
+			]
+		},
+		{
+			"name": "pool9",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.4
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_chestplate"
+				}
+			]
+		},
+		{
+			"name": "pool10",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.4
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_helmet"
+				}
+			]
+		},
+		{
+			"name": "pool11",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": []
+		},
+		{
+			"name": "pool12",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.4
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_leggings"
+				}
+			]
+		},
+		{
+			"name": "pool13",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.4
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:65280,CustomPotionEffects:[{Amplifier:4,Duration:2400,Id:1},{Duration:2400,Id:28}],display:{Lore:['[\"\",{\"text\":\"Found in the elder mystical\",\"italic\":false,\"color\":\"#ccccff\"}]','[\"\",{\"text\":\"gnome forest\",\"italic\":false,\"color\":\"#ccccff\"}]'],Name:'[\"\",{\"text\":\"Mystical \",\"italic\":false,\"color\":\"white\"},{\"text\":\"Gnome \",\"italic\":false,\"color\":\"red\"},{\"text\":\"Potion\",\"italic\":false,\"color\":\"blue\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:1481884,CustomPotionEffects:[{Amplifier:2,Duration:3600,Id:13},{Amplifier:2,Duration:3600,Id:30},{Amplifier:2,Duration:3600,Id:16}],Enchantments:[{id:\"unbreaking\",lvl:1}],display:{Lore:['[\"\",{\"text\":\"Made from a special \",\"italic\":false,\"color\":\"dark_aqua\"}]','[\"\",{\"text\":\"watery fongus\",\"italic\":false,\"color\":\"dark_aqua\"}]','[\"\",{\"text\":\"found only in the\",\"italic\":false,\"color\":\"dark_aqua\"}]','[\"\",{\"text\":\"magical gnome forest\",\"italic\":false,\"color\":\"dark_aqua\"}]'],Name:'[\"\",{\"text\":\"Fongus Potion\",\"italic\":false,\"color\":\"aqua\"}]'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				}
+			]
+		},
+		{
+			"name": "pool14",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:rabbit_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mushroom_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:suspicious_stew"
+				}
+			]
+		},
+		{
+			"name": "pool15",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"blast_protection\",lvl:10},{id:\"mending\",lvl:1},{id:\"unbreaking\",lvl:10}],Trim:{material:\"amethyst\",pattern:\"silence\"},display:{Lore:['[\"\",{\"text\":\"Made from precious\",\"italic\":false,\"color\":\"blue\"}]','[\"\",{\"text\":\"Bulgarian minerals\",\"italic\":false,\"color\":\"blue\"}]'],Name:'[\"\",{\"text\":\"Bulgarian \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"Helmet\",\"italic\":false,\"color\":\"dark_purple\"}]'}}"
+						}
+					],
+					"name": "minecraft:golden_helmet"
+				}
+			]
+		},
+		{
+			"name": "pool16",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"fire_protection\",lvl:5},{id:\"mending\",lvl:1},{id:\"unbreaking\",lvl:10}],Trim:{material:\"redstone\",pattern:\"silence\"},display:{Lore:['[\"\",{\"text\":\"Made from precious\",\"italic\":false,\"color\":\"#660000\"}]','[\"\",{\"text\":\"Fire Resistant materials\",\"italic\":false,\"color\":\"#660000\"}]','[\"\",{\"text\":\"found in volcanoes\",\"italic\":false,\"color\":\"#660000\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false}]'],Name:'[\"\",{\"text\":\"Fiery \",\"italic\":false,\"color\":\"red\"},{\"text\":\"Leggings\",\"italic\":false,\"color\":\"dark_red\"}]',color:16711680}}"
+						}
+					],
+					"name": "minecraft:leather_leggings"
+				}
+			]
+		},
+		{
+			"name": "pool17",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"mending\",lvl:1},{id:\"protection\",lvl:5},{id:\"thorns\",lvl:5},{id:\"unbreaking\",lvl:5}],Trim:{material:\"copper\",pattern:\"snout\"},display:{Lore:['[\"\",{\"text\":\"Strongest Sandals\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"to ever be created,\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"protects you from\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"potential haram\",\"italic\":false,\"color\":\"yellow\"}]','[\"\",{\"text\":\"activity\",\"italic\":false,\"color\":\"yellow\"}]'],Name:'[\"\",{\"text\":\"Halal Sandals\",\"italic\":false,\"color\":\"gold\"}]'}}"
+						}
+					],
+					"name": "minecraft:leather_boots"
+				}
+			]
+		},
+		{
+			"name": "pool18",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:enchant_with_levels",
+					"levels": {
+						"type": "minecraft:uniform",
+						"min": 10.0,
+						"max": 20.0
+					},
+					"treasure": false
+				}
+			]
+		},
+		{
+			"name": "pool19",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							],
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 2.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 10.0,
+								"max": 30.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		}
+	]
+}
