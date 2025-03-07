@@ -53,6 +53,15 @@
         "contact": {
           "Bilibili": "https://space.bilibili.com/85335217"
         }
+      },
+      {
+        "name": "蓝玫瑰",
+        "role": "模型",
+        "avatar": "avatar/lmg.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "comment": "8月24号，传奇永不落幕"
       }
     ],
     "link": {
@@ -65,7 +74,7 @@
       "extra0": "变身",
       "extra1": "打招呼",
       "extra2": "鼓掌",
-      "extra3": "是的",
+      "extra3": "Get Down",
       "extra4": "乱舞",
       "extra5": "卖萌",
       "extra6": "御笔摇",
@@ -84,10 +93,12 @@
         "main": "animations/main.animation.json",
         "extra": "animations/extra.animation.json",
         "tac": "animations/tac.animation.json",
-        "carryon": "animations/carryon.animation.json"
+        "carryon": "animations/carryon.animation.json",
+        "tlm": "animations/tlm.animation.json"
       },
       "texture": [
-        "textures/skin.png"
+        "textures/skin.png",
+        "textures/skin_white.png"
       ]
     },
     "arrow": {

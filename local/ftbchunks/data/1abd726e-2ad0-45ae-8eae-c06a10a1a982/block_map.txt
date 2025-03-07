@@ -2,6 +2,7 @@
 #D43AC6 cobblemon:apricorn_leaves
 #45D2EC cobblemon:apricorn_log
 #ADF429 supplementaries:ash
+#C9CBB9 minecraft:blackstone
 #2A3906 minecraft:blackstone_slab
 #5024D6 minecraft:blackstone_stairs
 #AA9109 minecraft:chiseled_stone_bricks
@@ -39,7 +40,10 @@
 #4A5E4E minecraft:obsidian
 #C3AC2E tfc:ore/diamond/gabbro
 #1D5DE8 tfc_ie_addon:ore/normal_galena/basalt
+#868011 tfc:ore/normal_hematite/basalt
 #84643D tfc_ie_addon:ore/rich_galena/andesite
+#F2CFA1 tfc:ore/small_bismuthinite
+#1194F5 firmalife:ore/small_chromite
 #8684C0 tfc_ie_addon:ore/small_galena
 #659F6B tfc:ore/small_hematite
 #45CEBF tfc:ore/small_limonite
@@ -103,13 +107,16 @@
 #87BAF4 minecraft:tuff
 #E0F30C minecraft:warped_fence
 #3CEAB8 minecraft:warped_hyphae
+#25C45C minecraft:warped_planks
 #5BE045 minecraft:warped_slab
+#560605 tfc:wood/fallen_leaves/birch
 #BD0FB5 tfc:wood/fallen_leaves/chestnut
 #C375C6 tfc:wood/fallen_leaves/douglas_fir
 #ED5F2A tfc:wood/fallen_leaves/maple
 #6161AE tfc:wood/fallen_leaves/oak
 #6F3539 tfc:wood/fallen_leaves/pine
 #AF4962 tfc:wood/fallen_leaves/sycamore
+#D88D8E tfc:wood/leaves/birch
 #976F8C tfc:wood/leaves/chestnut
 #3A728F tfc:wood/leaves/douglas_fir
 #6FE6B3 tfc:wood/leaves/maple
@@ -119,6 +126,7 @@
 #F8B568 tfc:wood/log/chestnut
 #FB0F33 tfc:wood/log/douglas_fir
 #7BCE57 tfc:wood/log/maple
+#6EA493 tfc:wood/twig/birch
 #B83E67 tfc:wood/twig/chestnut
 #2271D4 tfc:wood/twig/douglas_fir
 #05FDB8 tfc:wood/twig/maple

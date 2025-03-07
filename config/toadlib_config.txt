@@ -1,3 +1,2 @@
-interp_overview:false
 showCfgButton:true
 tooltipLineLength:280

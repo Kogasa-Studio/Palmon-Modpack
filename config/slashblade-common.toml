@@ -28,4 +28,7 @@
 	#Determining the base exhaustion for slashblade's self-repair.
 	#Range: 1.0E-4 ~ 1.7976931348623157E308
 	bewitched_hunger_exhaustion = 0.05
+	#Determining the level cost for refine a slashblade.
+	#Range: > 1
+	refine_level_cost = 1
 
