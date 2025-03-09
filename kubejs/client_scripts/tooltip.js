@@ -124,21 +124,6 @@ ItemEvents.tooltip(event => {
 
     event.add('thermal:lumium_coin', Text.translatable('ui.kubejs.lumium_coin').gold())
 
-    let itemWhiteList = readWhitelist()
-    modBlackList.forEach(function (val, idx, arr) {
-        Ingredient.of('@' + val).getItemIds().forEach(element => {
-            event.addAdvanced(element, (item, advanced, text) => {
-                if (!player.stages.has("overworld_item")) {
-                    if (!itemWhiteList.test(item)) {
-                        text.add([Text.translate("ui.kubejs.overowrld_item").gold()])
-                    }
-                }
-            })
-
-
-        })
-    })
-
     event.addAdvanced(Ingredient.all, (item, advanced, text) => {
         if (event.alt && item.nbt) {
             text.add(Text.of('NBT: ').append(Text.prettyPrintNbt(item.nbt)))
@@ -153,22 +138,4 @@ function formatPercentage(num) {
 
 function formatAddition(num) {
     return (num >= 0 ? "+" : "") + (num).toFixed(2);
-}
-
-function readWhitelist() {
-    let jsonData = JsonIO.readJson("kubejs\\client_scripts\\overworld_item_whitelist.json");
-
-    if (!jsonData) {
-        console.error('文件不存在或JSON解析失败:', filePath);
-        return [];
-    }
-
-    let whitelist = jsonData.getAsJsonArray('values')
-    let ingList = []
-
-    whitelist.forEach(ele => {
-        ingList.push(Ingredient.of(ele))
-    })
-
-    return Ingredient.of(ingList)
 }

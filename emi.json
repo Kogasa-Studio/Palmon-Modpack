@@ -193,14 +193,6 @@
       "recipe": "embers:superheater"
     },
     {
-      "stack": "item:nuclearcraft:upgrade_energy",
-      "recipe": "nuclearcraft:upgrade_energy"
-    },
-    {
-      "stack": "item:nuclearcraft:upgrade_speed",
-      "recipe": "nuclearcraft:upgrade_speed"
-    },
-    {
       "stack": "item:thermal:fluid_cell{BlockEntityTag:{TankInv:[{Amount:0,Capacity:32000,FluidName:\"minecraft:empty\",Tank:0b}]}}",
       "recipe": "thermal:fluid_cell"
     },
@@ -222,22 +214,6 @@
     {
       "stack": "item:malum:runewood_obelisk",
       "recipe": "jei:/malum/spirit_infusion/runewood_obelisk"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "nuclearcraft:tough_alloy_ingot",
-        "amount": 2
-      },
-      "recipe": "jei:/nuclearcraft/alloy_smelter/ingots_ferroboron-ingots_lithium"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "nuclearcraft:ferroboron_ingot",
-        "amount": 2
-      },
-      "recipe": "jei:/nuclearcraft/alloy_smelter/ingots_boron-ingots_steel"
     },
     {
       "stack": "item:malum:soul_stained_steel_ingot",
@@ -271,18 +247,6 @@
     },
     {
       "stack": "item:tconstruct:tough_handle{Material:\"tconstruct:desh\"}"
-    },
-    {
-      "stack": "item:nuclearcraft:boron_nitride_gem",
-      "recipe": "jei:/nuclearcraft/pressurizer/dusts_boron_nitride"
-    },
-    {
-      "stack": "item:nuclearcraft:boron_nitride_dust",
-      "recipe": "jei:/nuclearcraft/crystallizer/boron_nitride_solution"
-    },
-    {
-      "stack": "item:nuclearcraft:crystallizer",
-      "recipe": "nuclearcraft:crystallizer"
     },
     {
       "stack": "item:redstone_arsenal:flux_obsidian_rod",
@@ -327,13 +291,6 @@
       "recipe": "thermal:augments/machine_speed_augment"
     },
     {
-      "stack": "item:nuclearcraft:fission_reactor_solid_fuel_cell"
-    },
-    {
-      "stack": "item:nuclearcraft:empty_heat_sink",
-      "recipe": "nuclearcraft:empty_heat_sink"
-    },
-    {
       "stack": "item:confluence:workshop",
       "recipe": "confluence:workshop"
     },
@@ -345,6 +302,10 @@
     }
   ],
   "lookup_history": [
+    "item:tconstruct:small_blade{Material:\"tconstruct:terrasteel\"}",
+    "item:avaritia:upgrade_smithing_template",
+    "item:avaritia:extreme_anvil",
+    "item:avaritia:crystal_sword{Damage:0}",
     "item:minecraft:pufferfish",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"celestial_enchantments:solid_armor\",lvl:4s}]}",
     "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"celestial_enchantments:destroy_resonance\",lvl:3s}]}",
@@ -354,7 +315,6 @@
     "item:unimplemented_items:bottle_cap_def",
     "item:unimplemented_items:bottle_cap_sd",
     "item:minecraft:glass_bottle",
-    "item:wider_ender_chests:emerald_ender_chest",
     {
       "type": "item",
       "id": "minecraft:netherite_ingot",
@@ -441,16 +401,6 @@
       "uid": "tconstruct:rebalanced"
     },
     "item:minecraft:ender_eye",
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:boron_nitride_solution",
-      "amount": 144
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:boron_nitride_gem",
-      "amount": 8
-    },
     "item:tconstruct:chestplate_plating{Material:\"tconstruct:ostrum\"}",
     "item:tconstruct:chestplate_plating{Material:\"tconstruct:osmium\"}",
     "item:tconstruct:chestplate_plating_cast",
@@ -498,16 +448,6 @@
     "item:ad_astra:steel_tank",
     "item:ad_astra:desh_block",
     "item:ad_astra:rocket_nose_cone",
-    {
-      "type": "item",
-      "id": "nuclearcraft:fuel_uranium_leu_235",
-      "amount": 3
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:uranium_235",
-      "amount": 64
-    },
     "item:sophisticatedstorage:crafting_upgrade",
     {
       "type": "item",
@@ -573,33 +513,12 @@
       "id": "minecraft:wheat",
       "amount": 64
     },
-    "item:nuclearcraft:fuel_reprocessor",
-    "item:nuclearcraft:chassis",
     {
       "type": "item",
       "id": "tfcoreprocessing:kindle/coal_dust",
       "amount": 110
     },
-    "item:nuclearcraft:uranium_238",
-    "item:nuclearcraft:uranium_238_ox",
-    {
-      "type": "item",
-      "id": "nuclearcraft:fuel_uranium_leu_235_ox",
-      "amount": 7
-    },
-    "item:nuclearcraft:depleted_fuel_uranium_leu_235",
-    "item:nuclearcraft:depleted_fuel_uranium_leu_235_ox",
-    "item:nuclearcraft:empty_heat_sink",
     "item:minecraft:iron_bars",
-    "item:nuclearcraft:geiger_counter",
-    "item:nuclearcraft:dosimeter{Damage:0}",
-    "item:nuclearcraft:gelatin",
-    {
-      "type": "item",
-      "id": "nuclearcraft:beryllium_ingot",
-      "amount": 61
-    },
-    "item:nuclearcraft:quartz_heat_sink",
     "item:minecraft:cooked_mutton",
     {
       "type": "item",
@@ -608,81 +527,20 @@
     },
     "item:tfc:food/pork",
     "item:confluence:flesh_knuckles",
-    "item:nuclearcraft:beryllium_dust",
-    "item:nuclearcraft:copper_heat_sink",
-    "item:nuclearcraft:glowstone_heat_sink",
     "item:minecraft:barrel",
     "item:minecraft:bucket",
-    "item:nuclearcraft:lapis_heat_sink",
-    "item:nuclearcraft:fission_reactor_solid_fuel_cell",
-    "item:nuclearcraft:fission_reactor_port",
-    "item:nuclearcraft:tough_alloy_plate",
-    "item:nuclearcraft:plate_advanced",
-    "item:nuclearcraft:extreme_ingot",
-    {
-      "type": "item",
-      "id": "nuclearcraft:boron_arsenide_gem",
-      "amount": 32
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:thermoconducting_ingot",
-      "amount": 2
-    },
-    "item:nuclearcraft:smore",
-    "item:nuclearcraft:servo",
     {
       "type": "item",
       "id": "integratedtunnels:part_interface_energy",
       "amount": 5
     },
     "item:integrateddynamics:variable_transformer_input",
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:boron_arsenide",
-      "amount": 144
-    },
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:arsenic",
-      "amount": 333
-    },
-    "item:nuclearcraft:arsenic_dust",
-    "fluid:nuclearcraft:boron",
-    "item:nuclearcraft:boron_arsenide_dust",
-    "item:nuclearcraft:thermoconducting_plate",
-    "item:nuclearcraft:empty_active_heat_sink",
-    "item:nuclearcraft:active_redstone_heat_sink",
-    "item:nuclearcraft:fission_reactor_casing",
-    "item:nuclearcraft:fission_reactor_controller",
-    "item:nuclearcraft:plate_basic",
-    "item:nuclearcraft:fission_reactor_irradiation_chamber",
     "item:patchouli:guide_book{\"patchouli:book\":\"nuclearcraft:nuclearcraft\"}",
     {
       "type": "item",
       "id": "tfc:pumpkin",
       "amount": 3
     },
-    "item:nuclearcraft:water_heat_sink",
-    "item:nuclearcraft:beryllium_block",
-    "item:nuclearcraft:supercold_ice_block",
-    "item:nuclearcraft:zirconium_dust",
-    "item:nuclearcraft:zirconium_ingot",
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:high_pressure_steam",
-      "amount": 10
-    },
-    "item:nuclearcraft:tough_alloy_ingot",
-    "item:nuclearcraft:basic_electric_circuit",
-    "item:nuclearcraft:energetic_blend_dust",
-    "item:nuclearcraft:hard_carbon_ingot",
-    "item:nuclearcraft:assembler",
-    "item:nuclearcraft:actuator",
-    "item:nuclearcraft:motor",
-    "item:nuclearcraft:decay_hastener",
-    "item:nuclearcraft:tin_silver_ingot",
-    "item:nuclearcraft:boron_block",
     "item:sophisticatedstorage:limited_gold_barrel_2{woodType:\"oak\"}",
     "item:sophisticatedstorage:limited_iron_barrel_2{woodType:\"oak\"}",
     "item:sophisticatedstorage:limited_barrel_2{woodType:\"oak\"}",
@@ -846,7 +704,7 @@
       "type": "jemi",
       "uid": "tconstruct:luck"
     },
-    "item:tconstruct:cleaver{Damage:722,\"embers:heat_tag\":{augments:[{items:[{Count:1b,id:\"embers:ancient_motive_core\"}],level:1,name:\"embers:core\"}],heat:1000.0f,heat_level:2},tic_broken:0b,tic_materials:[\"tconstruct:iesnium\",\"tconstruct:desh\",\"tconstruct:desh\",\"tconstruct:iesnium\"],tic_modifiers:[{level:3,name:\"tconstruct:luck\"},{level:4,name:\"tconstruct:severing\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:diamond\"},{level:3,name:\"tconstruct:pierce\"},{level:5,name:\"tconstruct:sharpness\"},{level:2,name:\"tconstruct:necrotic\"},{level:2,name:\"tconstruct:magnetic\"},{level:2,name:\"tconstruct:ductile\"},{level:2,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:silky_aoe_shears\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tconstruct:gilded\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:resurrected\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.5f,\"tconstruct:durability\":3.5f,\"tconstruct:mining_speed\":0.25f},tic_persistent:{abilities:-3,\"tconstruct:rebalanced\":\"abilities\",\"tinkerslevellingaddon:experience\":1501,\"tinkerslevellingaddon:level\":5,\"tinkerslevellingaddon:slot_history\":\"upgrade;upgrade;upgrade;ability;upgrade;\",upgrades:-9},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:attack_damage\":28.957502f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":18257.4f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":4.9005003f,\"tconstruct:projectile_damage\":2.6499999f,\"tconstruct:velocity\":1.06f},tic_upgrades:[{level:3,name:\"tconstruct:luck\"},{level:2,name:\"tconstruct:severing\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:diamond\"},{level:3,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:gilded\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:resurrected\"},{level:3,name:\"tconstruct:sharpness\"}],tic_volatile_data:{abilities:3,\"tconstruct:rarity\":1,upgrades:10}}",
+    "item:tconstruct:cleaver{Damage:722,\"embers:heat_tag\":{augments:[{items:[{Count:1b,id:\"embers:ancient_motive_core\"}],level:1,name:\"embers:core\"}],heat:1000.0f,heat_level:2},tic_broken:0b,tic_materials:[\"tconstruct:iesnium\",\"tconstruct:desh\",\"tconstruct:desh\",\"tconstruct:iesnium\"],tic_modifiers:[{level:3,name:\"tconstruct:luck\"},{level:4,name:\"tconstruct:severing\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:diamond\"},{level:3,name:\"tconstruct:pierce\"},{level:5,name:\"tconstruct:sharpness\"},{level:2,name:\"tconstruct:necrotic\"},{level:2,name:\"tconstruct:magnetic\"},{level:2,name:\"tconstruct:ductile\"},{level:2,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:silky_aoe_shears\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tconstruct:gilded\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:resurrected\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.5f,\"tconstruct:durability\":3.5f,\"tconstruct:mining_speed\":0.25f},tic_persistent:{abilities:-3,\"tconstruct:rebalanced\":\"abilities\",\"tinkerslevellingaddon:experience\":1501,\"tinkerslevellingaddon:level\":5,\"tinkerslevellingaddon:slot_history\":\"upgrade;upgrade;upgrade;ability;upgrade;\",upgrades:-9},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:attack_damage\":32.175003f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":20286.002f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":4.5375f,\"tconstruct:projectile_damage\":2.75f},tic_upgrades:[{level:3,name:\"tconstruct:luck\"},{level:2,name:\"tconstruct:severing\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:diamond\"},{level:3,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:gilded\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:resurrected\"},{level:3,name:\"tconstruct:sharpness\"}],tic_volatile_data:{abilities:3,\"tconstruct:rarity\":1,upgrades:10}}",
     {
       "type": "item",
       "id": "minecraft:amethyst_shard",
@@ -873,7 +731,7 @@
       "id": "minecraft:amethyst_block",
       "amount": 7
     },
-    "item:tconstruct:broad_axe{Damage:658,tic_broken:0b,tic_materials:[\"tconstruct:boron_nitride_gem\",\"tconstruct:desh\",\"tconstruct:boron_nitride_gem\",\"tconstruct:boron_nitride_gem\"],tic_modifiers:[{level:3,name:\"tconstruct:overslime\"},{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:3,name:\"tconstruct:pierce\"},{level:5,name:\"tconstruct:sharpness\"},{level:3,name:\"tconstruct:lightweight\"},{level:1,name:\"tconstruct:ductile\"},{level:1,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:stripping\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:resurrected\"},{level:1,name:\"tconstruct:recapitated\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.65f,\"tconstruct:durability\":4.25f,\"tconstruct:mining_speed\":0.3f},tic_persistent:{abilities:-1,\"tinkerslevellingaddon:experience\":7743,\"tinkerslevellingaddon:level\":3,\"tinkerslevellingaddon:slot_history\":\"upgrade;upgrade;upgrade;\",upgrades:-7},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:attack_damage\":40.355167f,\"tconstruct:attack_speed\":0.8712001f,\"tconstruct:draw_speed\":1.09f,\"tconstruct:durability\":28959.84f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:knockback_resistance\":0.05f,\"tconstruct:mining_speed\":5.8397627f,\"tconstruct:overslime\":212.5f,\"tconstruct:projectile_damage\":2.5749998f,\"tconstruct:velocity\":1.2349701f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:3,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:resurrected\"},{level:1,name:\"tconstruct:recapitated\"},{level:2,name:\"tconstruct:sharpness\"}],tic_volatile_data:{abilities:1,\"tconstruct:indestructible\":1b,\"tconstruct:rarity\":2,upgrades:8}}",
+    "item:tconstruct:broad_axe{Damage:658,tic_broken:0b,tic_materials:[\"tconstruct:boron_nitride_gem\",\"tconstruct:desh\",\"tconstruct:boron_nitride_gem\",\"tconstruct:boron_nitride_gem\"],tic_modifiers:[{level:3,name:\"tconstruct:overslime\"},{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:3,name:\"tconstruct:pierce\"},{level:5,name:\"tconstruct:sharpness\"},{level:3,name:\"tconstruct:lightweight\"},{level:1,name:\"tconstruct:ductile\"},{level:1,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:stripping\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:resurrected\"},{level:1,name:\"tconstruct:recapitated\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.65f,\"tconstruct:durability\":4.25f,\"tconstruct:mining_speed\":0.3f},tic_persistent:{abilities:-1,\"tinkerslevellingaddon:experience\":7743,\"tinkerslevellingaddon:level\":3,\"tinkerslevellingaddon:slot_history\":\"upgrade;upgrade;upgrade;\",upgrades:-7},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:attack_damage\":42.683353f,\"tconstruct:attack_speed\":0.8712001f,\"tconstruct:draw_speed\":1.09f,\"tconstruct:durability\":30630.602f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:knockback_resistance\":0.05f,\"tconstruct:mining_speed\":5.6151567f,\"tconstruct:overslime\":212.5f,\"tconstruct:projectile_damage\":2.625f,\"tconstruct:velocity\":1.1990001f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:3,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:resurrected\"},{level:1,name:\"tconstruct:recapitated\"},{level:2,name:\"tconstruct:sharpness\"}],tic_volatile_data:{abilities:1,\"tconstruct:indestructible\":1b,\"tconstruct:rarity\":2,upgrades:8}}",
     "item:minecraft:carrot",
     "item:farmersdelight:cabbage_leaf",
     "item:tfc:wooden_bucket{fluid:{Amount:1000,FluidName:\"minecraft:milk\"}}",
@@ -896,11 +754,6 @@
       "type": "item",
       "id": "malum:deepslate_soulstone_ore",
       "amount": 3
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:plate_du",
-      "amount": 6
     },
     "item:malum:block_of_soul_stained_steel",
     {
@@ -962,7 +815,6 @@
     "item:dustandash:integrated_block",
     "item:minecraft:anvil",
     "item:minecraft:iron_block",
-    "item:stalwart_dungeons:iron_hammer{Damage:36}",
     {
       "type": "item",
       "id": "tconstruct:pattern",
@@ -1052,51 +904,13 @@
     },
     "item:thermal:device_nullifier",
     "item:thermal:redstone_servo",
-    {
-      "type": "item",
-      "id": "nuclearcraft:boron_nitride_dust",
-      "amount": 6
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:upgrade_energy",
-      "amount": 6
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:upgrade_speed",
-      "amount": 2
-    },
     "item:minecraft:heavy_weighted_pressure_plate",
-    "item:nuclearcraft:crystallizer",
-    "item:nuclearcraft:chemical_reactor",
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:boric_acid",
-      "amount": 500
-    },
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:diborane",
-      "amount": 250
-    },
     {
       "type": "item",
       "id": "pipez:fluid_pipe",
       "amount": 2
     },
-    "item:nuclearcraft:fluid_infuser",
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:oxygen",
-      "amount": 0
-    },
     "item:integrateddynamics:coal_generator",
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:ammonia",
-      "amount": 750
-    },
     "item:minecraft:light_weighted_pressure_plate",
     {
       "type": "item",
@@ -1113,26 +927,13 @@
       "id": "integrateddynamics:variable",
       "amount": 4
     },
-    "item:nuclearcraft:electrolyzer",
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:nitrogen",
-      "amount": 2500
-    },
     "fluid:ad_astra:hydrogen",
     {
       "type": "tag",
       "registry": "minecraft:fluid",
-      "id": "forge:hydrogen",
+      "id": "c:hydrogen",
       "amount": 750
     },
-    "item:nuclearcraft:pyrolitic_carbon_ingot",
-    "item:nuclearcraft:pyrolitic_carbon_dust",
-    "item:nuclearcraft:nitrogen_collector",
-    "item:nuclearcraft:beryllium_plate",
-    "item:nuclearcraft:rock_crusher",
-    "item:nuclearcraft:pump",
-    "item:nuclearcraft:coil_copper",
     "item:botania:terrasteel_ingot",
     "item:tconstruct:tough_handle{Material:\"tconstruct:desh\"}",
     {
@@ -1159,35 +960,17 @@
     "item:malum:crushed_soulstone",
     "item:malum:raw_soulstone",
     "item:malum:soulstone_ore",
-    "item:nuclearcraft:ferroboron_ingot",
-    {
-      "type": "item",
-      "id": "nuclearcraft:lithium_ingot",
-      "amount": 16
-    },
     {
       "type": "item",
       "id": "tfc:powder/sulfur",
       "amount": 38
     },
-    "#item:forge:dusts/sulfur",
-    {
-      "type": "item",
-      "id": "nuclearcraft:medium",
-      "amount": 2
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:light",
-      "amount": 4
-    },
-    "item:nuclearcraft:graphite_plate",
+    "#item:c:sulfur_dusts",
     {
       "type": "item",
       "id": "tfc:powder/graphite",
       "amount": 16
     },
-    "item:nuclearcraft:bioplastic",
     "item:thermal:obsidian_glass",
     "#item:thermal:glass/hardened",
     {
@@ -1199,11 +982,6 @@
       "type": "item",
       "id": "minecraft:deepslate_coal_ore",
       "amount": 122
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:coal_dust",
-      "amount": 2
     },
     {
       "type": "fluid",
@@ -1225,7 +1003,7 @@
     "item:tconstruct:nether_grout",
     "item:tconstruct:scorched_brick",
     "fluid:tconstruct:scorched_stone",
-    "item:tconstruct:plate_helmet{Damage:187,\"embers:heat_tag\":{augments:[{items:[{Count:1b,id:\"embers:ancient_motive_core\"}],level:1,name:\"embers:core\"},{items:[{Count:1b,id:\"embers:tinker_lens\"}],level:1,name:\"embers:tinker_lens\"}],heat:750.0f,heat_level:1},tic_broken:0b,tic_materials:[\"tconstruct:desh\",\"tconstruct:steel\"],tic_modifiers:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:4,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tconstruct:protection\"},{level:1,name:\"tconstruct:ductile\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:recapitated\"}],tic_persistent:{abilities:-1,\"tconstruct:rebalanced\":\"abilities\",\"tinkerslevellingaddon:experience\":925,\"tinkerslevellingaddon:level\":4,\"tinkerslevellingaddon:slot_history\":\"upgrade;defense;upgrade;ability;\",upgrades:-5},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:armor_toughness\":4.5f,\"tconstruct:attack_damage\":0.624f,\"tconstruct:durability\":1185.6f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:knockback_resistance\":0.075f,\"tconstruct:mining_speed\":3.8999999f,\"tconstruct:projectile_damage\":2.5749998f,\"tconstruct:velocity\":1.133f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:writable\"},{level:3,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tconstruct:recapitated\"}],tic_volatile_data:{abilities:2,defense:4,\"tconstruct:indestructible\":1b,\"tconstruct:rarity\":2,upgrades:5}}",
+    "item:tconstruct:plate_helmet{Damage:187,\"embers:heat_tag\":{augments:[{items:[{Count:1b,id:\"embers:ancient_motive_core\"}],level:1,name:\"embers:core\"},{items:[{Count:1b,id:\"embers:tinker_lens\"}],level:1,name:\"embers:tinker_lens\"}],heat:750.0f,heat_level:1},tic_broken:0b,tic_materials:[\"tconstruct:desh\",\"tconstruct:steel\"],tic_modifiers:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:4,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tconstruct:protection\"},{level:1,name:\"tconstruct:ductile\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:recapitated\"}],tic_persistent:{abilities:-1,\"tconstruct:rebalanced\":\"abilities\",\"tinkerslevellingaddon:experience\":925,\"tinkerslevellingaddon:level\":4,\"tinkerslevellingaddon:slot_history\":\"upgrade;defense;upgrade;ability;\",upgrades:-5},tic_stats:{\"tconstruct:armor\":4.0f,\"tconstruct:armor_toughness\":4.5f,\"tconstruct:attack_damage\":0.66f,\"tconstruct:durability\":1254.0f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:knockback_resistance\":0.075f,\"tconstruct:mining_speed\":3.75f,\"tconstruct:projectile_damage\":2.625f,\"tconstruct:velocity\":1.1f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:writable\"},{level:3,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tconstruct:recapitated\"}],tic_volatile_data:{abilities:2,defense:4,\"tconstruct:indestructible\":1b,\"tconstruct:rarity\":2,upgrades:5}}",
     "item:netherexp:cooked_hogham",
     {
       "type": "item",
@@ -1267,7 +1045,6 @@
       "id": "malum:soulwood_log",
       "amount": 16
     },
-    "item:nuclearcraft:isotope_separator",
     "item:sophisticatedstorage:stack_upgrade_tier_4",
     "item:minecraft:diamond_block",
     "item:sophisticatedstorage:gold_barrel{woodType:\"oak\"}",
@@ -1280,7 +1057,6 @@
       "amount": 30
     },
     "item:integrateddynamics:logic_director",
-    "item:stalwart_dungeons:transient_block_close",
     "item:malum:soulwood",
     "item:malum:stripped_soulwood",
     {
@@ -1359,7 +1135,6 @@
       "id": "occultism:raw_iesnium",
       "amount": 12
     },
-    "item:nuclearcraft:basic_electromagnet",
     "item:botania:spawner_mover",
     "item:minecraft:diamond_boots{Damage:0}",
     {
@@ -1400,7 +1175,7 @@
     "item:occultism:book_of_binding_bound_foliot",
     "item:occultism:book_of_calling_foliot_transport_items",
     "item:minecraft:chest",
-    "#item:forge:chests",
+    "#item:c:chests",
     "item:minecraft:hopper",
     "item:thermal:device_collector",
     "item:thermal:item_filter_augment",
@@ -1573,9 +1348,7 @@
     "item:modularrouters:blank_module",
     "item:minecraft:dropper",
     "item:modularrouters:modular_router",
-    "item:nuclearcraft:magnesium_block",
-    "item:nuclearcraft:basic_voltaic_pile{}",
-    "item:tconstruct:plate_chestplate{Damage:0,\"embers:heat_tag\":{augments:[{items:[{Count:1b,id:\"embers:ancient_motive_core\"}],level:1,name:\"embers:core\"}],heat:750.0f,heat_level:1},tic_broken:0b,tic_materials:[\"tconstruct:desh\",\"tconstruct:steel\"],tic_modifiers:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:protection\"},{level:1,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:ductile\"},{level:1,name:\"tconstruct:rebalanced\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent:{abilities:-1,\"tconstruct:rebalanced\":\"abilities\",\"tinkerslevellingaddon:experience\":828,\"tinkerslevellingaddon:level\":1,\"tinkerslevellingaddon:slot_history\":\"upgrade;\",upgrades:-1},tic_stats:{\"tconstruct:armor\":9.0f,\"tconstruct:armor_toughness\":3.5f,\"tconstruct:attack_damage\":0.20799999f,\"tconstruct:durability\":1196.0f,\"tconstruct:harvest_tier\":\"minecraft:diamond\",\"tconstruct:knockback_resistance\":0.025f,\"tconstruct:mining_speed\":3.12f,\"tconstruct:projectile_damage\":2.5749998f,\"tconstruct:velocity\":1.03f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tinkerslevellingaddon:improvable\"}],tic_volatile_data:{abilities:1,defense:3,\"tconstruct:rarity\":1,upgrades:2}}",
+    "item:tconstruct:plate_chestplate{Damage:0,\"embers:heat_tag\":{augments:[{items:[{Count:1b,id:\"embers:ancient_motive_core\"}],level:1,name:\"embers:core\"}],heat:750.0f,heat_level:1},tic_broken:0b,tic_materials:[\"tconstruct:desh\",\"tconstruct:steel\"],tic_modifiers:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:protection\"},{level:1,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:ductile\"},{level:1,name:\"tconstruct:rebalanced\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent:{abilities:-1,\"tconstruct:rebalanced\":\"abilities\",\"tinkerslevellingaddon:experience\":828,\"tinkerslevellingaddon:level\":1,\"tinkerslevellingaddon:slot_history\":\"upgrade;\",upgrades:-1},tic_stats:{\"tconstruct:armor\":9.0f,\"tconstruct:armor_toughness\":3.5f,\"tconstruct:attack_damage\":0.22000001f,\"tconstruct:durability\":1265.0f,\"tconstruct:harvest_tier\":\"minecraft:diamond\",\"tconstruct:knockback_resistance\":0.025f,\"tconstruct:mining_speed\":3.0f,\"tconstruct:projectile_damage\":2.625f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tinkerslevellingaddon:improvable\"}],tic_volatile_data:{abilities:1,defense:3,\"tconstruct:rarity\":1,upgrades:2}}",
     {
       "type": "item",
       "id": "embers:raw_lead",
@@ -1593,13 +1366,9 @@
       "amount": 2
     },
     "item:minecraft:music_disc_13",
-    "item:nuclearcraft:solar_panel_basic",
     "item:minecraft:daylight_detector",
-    "item:nuclearcraft:solar_panel_du",
     "item:wormhole:basic_target_cell",
     "item:minecraft:compass{\"quark:compass_calculated\":1b,\"quark:compass_in_nether\":0b}",
-    "item:tfchotornot:tongs/wood{Damage:0}",
-    "item:tfchotornot:tongs/bismuth{Damage:0}",
     "item:minecraft:iron_chestplate{Damage:152}",
     "item:rats:rat_igloo_brown",
     "fluid:thermal:ender",
@@ -1618,7 +1387,7 @@
     "item:quark:oak_trapped_chest",
     "#item:quark:revertable_trapped_chests",
     "item:adventuresmod:bismuth",
-    "#item:forge:dusts/graphite",
+    "item:tfc:powder/graphite",
     {
       "type": "item",
       "id": "occultism:otherstone",
@@ -1705,7 +1474,7 @@
     "item:embers:ember_receiver",
     "item:embers:mechanical_core",
     "item:thermal:lead_plate",
-    "#item:forge:plates/lead",
+    "#item:c:lead_plates",
     "item:embers:caminite_bricks",
     "item:embers:stamp_base",
     "item:embers:stamper",
@@ -1763,11 +1532,6 @@
     "item:confluence:sun_stone",
     "item:minecraft:nether_star",
     "item:malum:runic_workbench",
-    {
-      "type": "item",
-      "id": "nuclearcraft:solar_panel_advanced",
-      "amount": 2
-    },
     {
       "type": "item",
       "id": "tconstruct:clear_glass_pane",
@@ -1888,7 +1652,7 @@
     "item:create:sand_paper{Damage:0}",
     "#item:create:sandpaper",
     "item:thermal:tin_nugget",
-    "#item:forge:nuggets/tin",
+    "#item:c:tin_nuggets",
     "item:ae2:wireless_crafting_terminal",
     "item:sophisticatedstorage:gold_to_diamond_tier_upgrade",
     "item:minecraft:chipped_anvil",
@@ -1897,7 +1661,6 @@
       "id": "thermal:diamond_dust",
       "amount": 64
     },
-    "item:nuclearcraft:pressurizer",
     "item:tconstruct:tool_handle{Material:\"tconstruct:terrasteel\"}",
     {
       "type": "item",
@@ -1918,17 +1681,6 @@
       "amount": 16
     },
     "item:ad_astra:solar_panel",
-    {
-      "type": "item",
-      "id": "nuclearcraft:boron_dust",
-      "amount": 4
-    },
-    "item:jaopca:raw_storage_blocks.boron",
-    {
-      "type": "item",
-      "id": "nuclearcraft:boron_chunk",
-      "amount": 18
-    },
     "item:minecraft:slime_ball",
     {
       "type": "item",
@@ -1940,20 +1692,16 @@
       "id": "palmon:stone",
       "amount": 61
     },
-    "item:nuclearcraft:thorium_deepslate_ore",
     "item:naturescompass:naturescompass",
     {
       "type": "item",
       "id": "minecraft:andesite",
       "amount": 6
     },
-    "item:nuclearcraft:boron_ore",
-    "item:nuclearcraft:manufactory",
-    "item:nuclearcraft:lithium_ore",
     "item:unimplemented_items:bottle_cap_atk",
     "item:botania:slime_bottle",
-    "#item:forge:storage_blocks/raw_lead",
-    "#item:forge:ingots/lead",
+    "#item:c:raw_lead_blocks",
+    "#item:c:lead_ingots",
     "item:modularrouters:inspection_filter",
     "item:modularrouters:bulk_item_filter",
     "item:modularrouters:puller_module_1",
@@ -2005,7 +1753,6 @@
     },
     "#item:forge:crops/carrot",
     "item:umapyoi:cupcake",
-    "item:nuclearcraft:pasteurized_milk_bucket",
     {
       "type": "fluid",
       "id": "minecraft:milk",
@@ -2046,12 +1793,12 @@
     },
     "item:immersiveengineering:mold_rod",
     "item:immersiveengineering:stick_iron",
-    "#item:ad_astra:iron_rods",
+    "#item:c:iron_rods",
     "item:ad_astra:space_pants{Damage:0}",
     "item:ad_astra:space_boots{Damage:0}",
     "item:ad_astra:oxygen_gear",
     "item:ad_astra:space_helmet{Damage:0}",
-    "#item:forge:dusts/obsidian",
+    "#item:c:obsidian_dusts",
     "item:thermal:quartz_dust",
     {
       "type": "item",
@@ -2066,24 +1813,23 @@
     {
       "type": "tag",
       "registry": "minecraft:item",
-      "id": "forge:dusts/coal",
+      "id": "c:coal_dusts",
       "amount": 3
     },
-    "#item:forge:ingots/steel",
+    "#item:c:steel_ingots",
     "item:thermal:steel_dust",
-    "item:nuclearcraft:alloy_smelter",
     {
       "type": "item",
       "id": "immersiveengineering:dust_coke",
       "amount": 31
     },
-    "#item:forge:dusts/steel",
+    "#item:c:steel_dusts",
     "item:trom:steel_ingot",
     "item:trom:steel_dust",
     "item:thermal:invar_dust",
     "item:ad_astra:steel_ingot",
     "item:thermal:steel_plate",
-    "#item:forge:plates/steel",
+    "#item:c:steel_plates",
     {
       "type": "item",
       "id": "minecraft:waxed_copper_block",
@@ -2258,26 +2004,16 @@
       "id": "botania:rune_water",
       "amount": 2
     },
-    "#item:forge:dusts/end_stone",
+    "item:occultism:crushed_end_stone",
     "item:occultism:chalk_purple_impure",
     "item:occultism:chalk_purple{Damage:0}",
-    "item:nuclearcraft:platinum_deepslate_ore",
-    "item:nuclearcraft:thorium_ore",
-    "item:nuclearcraft:elite_storage_container",
-    "item:nuclearcraft:irradiator",
     "item:thermal:machine_centrifuge",
-    "item:nuclearcraft:cobalt_ore",
-    "item:nuclearcraft:magnesium_ore",
-    "item:nuclearcraft:magnesium_deepslate_ore",
-    "item:nuclearcraft:boron_deepslate_ore",
-    "item:nuclearcraft:thorium_chunk",
-    "item:nuclearcraft:thorium_ingot",
     "item:farmersdelight:cooking_pot",
     "item:scannable:chest_module",
     "item:scannable:range_module",
     "item:scannable:rare_ores_module",
     "item:thermal:charge_bench",
-    "#item:forge:ingots/electrum",
+    "#item:c:electrum_ingots",
     "item:minecraft:carrot_on_a_stick{Damage:0}",
     "item:integratedtunnels:part_importer_energy",
     "#item:forge:glass/colorless",
@@ -2391,7 +2127,6 @@
     "item:thermal:machine_pulverizer"
   ],
   "craft_history": [
-    "wider_ender_chests:netherite_ender_chest",
     "minecraft:netherite_ingot",
     "minecraft:coal_block",
     "confluence:obsidian_skull",
@@ -2407,7 +2142,6 @@
     "ad_astra:iron_rod",
     "ad_astra:desh_block",
     "ad_astra:rocket_nose_cone",
-    "minecraft:nuclearcraft_fuel_uraniumleu-235_cr",
     "sophisticatedstorage:crafting_upgrade",
     "tfc:crafting/wood/palm_workbench",
     "tfc:crafting/vanilla/crafting_table",
@@ -2427,33 +2161,10 @@
     "integrateddynamics:crafting/energy_battery",
     "minecraft:redstone_block",
     "thermal:phytogro_8",
-    "nuclearcraft:fuel_reprocessor",
-    "nuclearcraft:chassis",
-    "nuclearcraft:glowstone_heat_sink",
-    "nuclearcraft:empty_heat_sink",
     "minecraft:iron_bars",
-    "nuclearcraft:copper_heat_sink",
-    "nuclearcraft:beryllium_block",
-    "nuclearcraft:geiger_counter",
-    "nuclearcraft:dosimeter",
     "sophisticatedstorage:oak_barrel",
-    "nuclearcraft:quartz_heat_sink",
-    "nuclearcraft:fission_reactor_port",
-    "nuclearcraft:plate_advanced",
-    "nuclearcraft:servo",
     "integratedtunnels:crafting/part_importer_energy",
     "integrateddynamics:crafting/variable_transformer_input",
-    "nuclearcraft:fission_reactor_casing",
-    "nuclearcraft:plate_basic2",
-    "nuclearcraft:patchouli_book",
-    "nuclearcraft:upgrade_energy",
-    "nuclearcraft:fission_reactor_solid_fuel_cell",
-    "nuclearcraft:fission_reactor_controller",
-    "nuclearcraft:assembler",
-    "nuclearcraft:actuator",
-    "nuclearcraft:motor",
-    "nuclearcraft:decay_hastener",
-    "nuclearcraft:boron_block",
     "sophisticatedstorage:limited_diamond_barrel_2",
     "sophisticatedstorage:tier_upgrade_limited_gold_barrel_2_woodtype__oak__",
     "sophisticatedstorage:limited_gold_barrel_2",
@@ -2555,27 +2266,13 @@
     "tconstruct:smeltery/seared/drain",
     "thermal:device_nullifier",
     "thermal:redstone_servo",
-    "nuclearcraft:upgrade_speed",
     "minecraft:heavy_weighted_pressure_plate",
-    "nuclearcraft:crystallizer",
-    "nuclearcraft:chemical_reactor",
     "tconstruct:smeltery/seared/fuel_gauge",
     "pipez:fluid_pipe",
-    "nuclearcraft:fluid_infuser",
-    "nuclearcraft:melter",
     "minecraft:light_weighted_pressure_plate",
     "integrateddynamics:crafting/variable",
-    "nuclearcraft:electrolyzer",
-    "nuclearcraft:nitrogen_collector",
-    "nuclearcraft:rock_crusher",
-    "nuclearcraft:pump",
-    "nuclearcraft:coil_copper",
     "tconstruct:world/wood/skyroot/planks",
     "scannable:block_module",
-    "nuclearcraft:plate_du",
-    "nuclearcraft:medium_shielding",
-    "nuclearcraft:plate_basic",
-    "nuclearcraft:light_shielding",
     "thermal:fire_charge/obsidian_glass_2",
     "sophisticatedbackpacks:diamond_backpack",
     "sophisticatedbackpacks:gold_backpack",
@@ -2586,7 +2283,6 @@
     "sophisticatedstorage:gold_barrel",
     "sophisticatedstorage:iron_barrel",
     "minecraft:oak_slab",
-    "nuclearcraft:isotope_separator",
     "minecraft:iron_block",
     "sophisticatedstorage:stack_downgrade_tier_2",
     "sophisticatedstorage:tier_upgrade_gold_barrel_woodtype__oak__",
@@ -2650,11 +2346,9 @@
     "thermal:device_tree_extractor",
     "minecraft:dropper",
     "minecraft:raw_gold_block",
-    "nuclearcraft:solar_panel_basic",
     "tconstruct:common/glass/vanilla/daylight_detector",
     "wormhole:advanced_target_cell",
     "wormhole:basic_target_cell",
-    "tfchotornot:crafting/tongs/wood",
     "regions_unexplored:pine_boat",
     "dimdungeons:recipe_item_guidebook",
     "minecraft:chiseled_stone_bricks",
@@ -2701,7 +2395,6 @@
     "embers:bin",
     "embers:dawnstone_ingot_to_block",
     "embers:ember_ejector",
-    "nuclearcraft:solar_panel_advanced",
     "tconstruct:smeltery/seared/basin",
     "minecraft:daylight_detector",
     "integratedtunnels:crafting/part_exporter_energy",
@@ -2725,18 +2418,14 @@
     "thermal:machine_press",
     "modularrouters:breaker_module",
     "create:crafting/kinetics/attribute_filter",
-    "create:crafting/materials/brass_nugget_from_decompacting",
     "sophisticatedstorage:packing_tape",
     "minecraft:dried_kelp_block",
     "create:crafting/logistics/brass_funnel",
     "create:crafting/materials/sand_paper",
-    "nuclearcraft:tin_nugget",
     "thermal:device_collector",
     "embers:geologic_separator",
     "sophisticatedstorage:gold_to_diamond_tier_upgrade",
-    "nuclearcraft:pressurizer",
     "naturescompass:natures_compass",
-    "nuclearcraft:manufactory",
     "modularrouters:inspection_filter",
     "modularrouters:bulk_item_filter",
     "modularrouters:puller_module_1",
@@ -2754,7 +2443,6 @@
     "ad_astra:space_pants",
     "ad_astra:oxygen_gear",
     "ad_astra:space_helmet",
-    "nuclearcraft:alloy_smelter",
     "botania:mana_ring",
     "botania:mana_tablet_alt",
     "botania:conversions/terrasteel_from_nugget",
@@ -2777,7 +2465,6 @@
     "tfc:crafting/vanilla/bowl",
     "malum:netherrack_from_blazing_quartz",
     "rechiseled:chisel",
-    "jaopca:raw_storage_blocks.to_raw_material.thorium",
     "scannable:chest_module",
     "scannable:blank_module",
     "scannable:rare_ores_module",
@@ -2872,9 +2559,6 @@
     "tconstruct:smeltery/seared/seared_bricks_from_brick",
     "integratedterminals:crafting/part_terminal_storage",
     "integrateddynamics:crafting/part_display_panel",
-    "wider_ender_chests:emerald_ender_chest",
-    "wider_ender_chests:diamond_ender_chest",
-    "wider_ender_chests:gold_ender_chest",
     "tconstruct:tables/cast_chest",
     "dustandash:crafting/gravel",
     "tconstruct:smeltery/seared/chute",
@@ -2888,7 +2572,6 @@
     "jaopca:storage_blocks.to_storage_block.cast_iron",
     "immersiveengineering:crafting/steel_fence",
     "immersiveengineering:crafting/light_engineering",
-    "nuclearcraft:steel_block",
     "ad_astra:launch_pad",
     "minecraft:kjs/botanicalmachinery_mana_emerald",
     "jaopca:storage_blocks.to_storage_block.stainless_steel",
@@ -2930,7 +2613,6 @@
     "immersiveengineering:crafting/blueprint_components",
     "immersiveengineering:crafting/sheetmetal_iron",
     "immersiveengineering:crafting/conveyor_basic",
-    "stalwart_dungeons:iron_hammer_recipe",
     "cobblemon:pc",
     "tfc:crafting/silica_glass_batch",
     "tfc:crafting/metal/block/brass",
@@ -2938,7 +2620,6 @@
     "immersiveengineering:crafting/wirecoil_copper",
     "tfc:crafting/vanilla/ladder",
     "tfc:crafting/wood/willow_planks",
-    "minecraft:kjs/farmersdelight_rich_soil",
     "tfcgroomer:copper_grooming_station",
     "tfc:crafting/wood/kapok_gear_box",
     "tfc:crafting/trip_hammer",
@@ -2969,7 +2650,6 @@
     "tfc:crafting/rock/dacite_bricks_slab",
     "immersiveengineering:crafting/hammer",
     "tfc:crafting/metal/anvil/wrought_iron",
-    "tfchotornot:crafting/tongs/black_bronze",
     "tfc:crafting/wood/chestnut_chest",
     "tfc:crafting/rock/quartzite_loose_rocks_to_cobble",
     "tfc:crafting/bloomery",
@@ -2983,25 +2663,20 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/nuclearcraft/alloy_smelter/ingots_tough_alloy-ingots_hard_carbon",
-      "minecraft:kjs/botanicalmachinery_mana_emerald",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
-      "jei:/nuclearcraft/chemical_reactor/arsenic-boron",
-      "tfcoreprocessing:compress/compress_refined_limonite",
-      "jei:/nuclearcraft/melter/dusts_arsenic",
-      "jei:/nuclearcraft/melter/ingots_boron",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
       "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "jei:/nuclearcraft/ingot_former/boron_arsenide",
-      "jei:/tfc/casting/weak_steel_ingot",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
       "jei:/immersiveengineering/mixer/redstone_acid",
-      "kubejs:reinforced_sheet"
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "minecraft:kjs/botanicalmachinery_mana_emerald",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "tfcoreprocessing:compress/compress_refined_limonite",
+      "jei:/tfc/casting/weak_steel_ingot",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
+      "kubejs:reinforced_sheet",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot"
     ],
     "tags": {},
     "resolutions": {},
