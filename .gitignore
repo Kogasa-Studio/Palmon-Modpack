@@ -12,6 +12,10 @@ screenshots/
 showdown/
 tacz_backup/
 trainers/
+local/ftbchunks/
+config/ItemLocks/
+shaderpacks/
+config/yes_steve_model/
 
 /usercache.json
 /usernamecache.json

@@ -37,6 +37,7 @@
 #91453F minecraft:nether_brick_fence
 #80C8DF tfc:ore/borax/limestone
 #EF5FC4 tfc:ore/lapis_lazuli/limestone
+#C619D9 tfc:ore/lignite/limestone
 #92EB83 tfc_ie_addon:ore/normal_bauxite/limestone
 #357128 tfc:ore/normal_bismuthinite/limestone
 #1D5DE8 tfc_ie_addon:ore/normal_galena/basalt
@@ -73,6 +74,7 @@
 #76E237 minecraft:polished_blackstone_slab
 #1745C7 minecraft:polished_blackstone_stairs
 #E685AE minecraft:polished_deepslate_slab
+#AFAC0D minecraft:poppy
 #CBBD57 tfc:pumpkin
 #C86704 tfc:rock/cobble/basalt
 #F61F9F tfc:rock/cobble/limestone
