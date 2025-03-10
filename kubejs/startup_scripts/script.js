@@ -7,6 +7,7 @@ StartupEvents.registry('item', event => {
 	event.create('reinforced_sheet').displayName('Reinforced Sheet').fireResistant()
 	event.create('beryllium_bronze_alloy').displayName('Reinforced Sheet').fireResistant().rarity('rare').glow(true)
 
+	event.create('baby_proofing').displayName('§m§eBaby Proofing').fireResistant().rarity('rare').glow(true)
 	event.create('vial_of_chaos').displayName('§m§dVial of Chaos').fireResistant().rarity('rare').glow(true)
 
 })

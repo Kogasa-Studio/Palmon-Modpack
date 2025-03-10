@@ -8,6 +8,10 @@
 
 - Event class: RegisterItemStackModifierEventJS (third-party)
 
+```
+Used to register custom stack modifiers which can be used with item stack providers
+```
+
 ### Available fields:
 
 | Name | Type | Static? |
@@ -19,45 +23,27 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| register | ResourceLocation, ModifierApplicator, boolean |  | void | ✘ |
-| simple | ResourceLocation, SimpleApplicator |  | void | ✘ |
-| getCraftingContainer |  |  | Supplier<CraftingContainer> | ✘ |
-| withInput | ResourceLocation, ModifierApplicator |  | void | ✘ |
 | withInventory | ResourceLocation, WithInventoryApplicator |  | void | ✘ |
+| withInput | ResourceLocation, ModifierApplicator |  | void | ✘ |
+| simple | ResourceLocation, SimpleApplicator |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `void register(ResourceLocation id, ModifierApplicator applicator, boolean dependsOnInput)`
+- `void withInventory(ResourceLocation id, WithInventoryApplicator applicator)`
 
   Parameters:
   - id: ResourceLocation- The registry name of the modifier
-  - applicator: ModifierApplicator- The function which will be applied when the modifier is applied to the stack
-  - dependsOnInput: boolean- Sets if the modifier is dependent on the input item, should be true if the input stack or the crafting container/inputs of the applicator is used
+  - applicator: WithInventoryApplicator- The function that will be applied to the stack when the modifier is called
 
 ```
-Deprecated, please use `simple`, `withInput`, or `withInventory` to register a modifier instead. Creates a new item stack modifier with the given id and function
-```
-
-- `void simple(ResourceLocation id, SimpleApplicator applicator)`
-
-  Parameters:
-  - id: ResourceLocation- The registry name of the modifier
-  - applicator: SimpleApplicator- The function that will be applied to the stack when the modifier is called
-
-```
-Creates a new item stack modifier with the given id and function
-```
-
-- `Supplier<CraftingContainer> getCraftingContainer()`
-```
-Deprecated, use `withInventory` to register a modifier with access to the inventory instead. Returns a supplier for the current crafting container. Only available during advanced shaped and shapeless crafting recipes
+Creates a new item stack modifier with the given id and function. Depends on the input item. The inventory may be empty if the recipe type does not support it
 ```
 
 - `void withInput(ResourceLocation id, ModifierApplicator applicator)`
@@ -70,14 +56,14 @@ Deprecated, use `withInventory` to register a modifier with access to the invent
 Creates a new item stack modifier with the given id and function. Depends on the input item
 ```
 
-- `void withInventory(ResourceLocation id, WithInventoryApplicator applicator)`
+- `void simple(ResourceLocation id, SimpleApplicator applicator)`
 
   Parameters:
   - id: ResourceLocation- The registry name of the modifier
-  - applicator: WithInventoryApplicator- The function that will be applied to the stack when the modifier is called
+  - applicator: SimpleApplicator- The function that will be applied to the stack when the modifier is called
 
 ```
-Creates a new item stack modifier with the given id and function. Depends on the input item. The inventory may be empty if the recipe type does not support it
+Creates a new item stack modifier with the given id and function
 ```
 
 - `Object exit(Object var0)`
@@ -116,6 +102,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -123,13 +116,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

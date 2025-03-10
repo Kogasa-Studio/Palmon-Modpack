@@ -34,6 +34,7 @@ ItemEvents.tooltip(event => {
      */
     let player = $Minecraft.getInstance().player
     event.add('confluence:brain_of_confusion', [Text.translate("ui.kubejs.banned").gold()])
+    event.add('kubejs:baby_proofing', [Text.literal("Here is a BABY! ").gold()])
 
     curiosList.forEach(element => {
         event.addAdvanced(element, (item, advanced, text) => {

@@ -1,1 +1,3 @@
 minecraft:overworld
+kubejs:overworld
+minecraft:the_nether

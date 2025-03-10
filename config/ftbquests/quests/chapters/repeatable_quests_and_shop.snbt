@@ -8,7 +8,7 @@
 	group: "7360FAFDFF512F43"
 	icon: "enchanted:circle_talisman"
 	id: "6C3C1C6F8F585FE4"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -64,7 +64,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6DD40C570E6A6B3C"]
 			icon: "minecraft:grass_block"
 			id: "07A57FF379E8D9CF"
 			rewards: [{

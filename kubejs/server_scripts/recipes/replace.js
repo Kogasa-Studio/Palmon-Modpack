@@ -84,13 +84,6 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
-        { output: 'create:andesite_alloy' }
-    ],
-        '#forge:nuggets/iron',
-        'ad_astra:ostrum_nugget'
-    )
-
-    event.replaceInput([
         { output: 'industrialforegoing:machine_frame_pity' }
     ],
         '#minecraft:logs',

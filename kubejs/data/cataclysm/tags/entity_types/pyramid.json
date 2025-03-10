@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "cataclysm:wadjet",
+        "cataclysm:koboleton",
+        "cataclysm:kobolediator",
+        "cataclysm:ancient_remnant",
+        "cataclysm:modern_remnant"
+    ]
+  }

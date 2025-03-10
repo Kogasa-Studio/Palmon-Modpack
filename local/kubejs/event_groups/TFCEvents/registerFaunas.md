@@ -8,6 +8,10 @@
 
 - Event class: RegisterFaunasEventJS (third-party)
 
+```
+Used to register one or more fauna definitions for an entity type
+```
+
 ### Available fields:
 
 | Name | Type | Static? |
@@ -21,7 +25,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | replace | EntityType<? extends Entity>, String, SpawnPlacements$Type, Heightmap$Types |  | void | ✘ |
 | replace | EntityType<? extends Entity>, SpawnPlacements$Type, Heightmap$Types |  | void | ✘ |
-| register | EntityType<? extends Entity>, SpawnPlacements$Type, Heightmap$Types |  | void | ✘ |
 | or | EntityType<? extends Entity>, SpawnPlacements$Type, Heightmap$Types |  | void | ✘ |
 | or | EntityType<? extends Entity>, String, SpawnPlacements$Type, Heightmap$Types |  | void | ✘ |
 | and | EntityType<? extends Entity>, String, SpawnPlacements$Type, Heightmap$Types |  | void | ✘ |
@@ -30,8 +33,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -57,17 +60,6 @@ Registers a new fauna definition for the given entity type, does not set the fau
 
 ```
 Registers a new fauna definition for the given entity type, does not set the fauna values, use the `TFCEvents.data` server event to do so. Completely replaces the spawn conditions for the entity
-```
-
-- `void register(EntityType<? extends Entity> var0, SpawnPlacements$Type var1, Heightmap$Types var2)`
-
-  Parameters:
-  - var0: EntityType<? extends Entity>
-  - var1: SpawnPlacements$Type
-  - var2: Heightmap$Types
-
-```
-Deprecated, use `.replace` for previous behavior
 ```
 
 - `void or(EntityType<? extends Entity> entityType, SpawnPlacements$Type placementType, Heightmap$Types heightmap)`
@@ -152,6 +144,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -159,13 +158,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

@@ -1,7 +1,5 @@
 ServerEvents.recipes(event => {
     event.shapeless('4x tfc:wood/planks/douglas_fir', ['palmon:wood'])
-    event.shapeless('farmersdelight:rich_soil', ['#tfc:dirt', '2x enchanted:wood_ash', '2x minecraft:rotten_flesh', '4x minecraft:bone_meal'])
-    event.shapeless('cobblemon:medicinal_leek', ['enchanted:mandrake_root', 'enchanted:exhale_of_the_horned_one', '#forge:eggs'])
     event.shapeless('palmon:empty_contract', ['minecraft:paper', 'cobblemon:red_apricorn', 'tfc:volcanic_glass_bottle', 'minecraft:black_dye'])
     
     event.shapeless('minecraft:gravel', ['#forge:gravel'])
@@ -50,55 +48,6 @@ ServerEvents.recipes(event => {
             D: 'palmon:wood'
         })
 
-    event.shaped('enchanted:witch_oven', [
-        ' A ',
-        'BBB',
-        'CCC'
-    ],
-        {
-            A: 'castirongrill:cast_iron_grill',
-            B: '#forge:sheets/cast_iron',
-            C: '#forge:rods/cast_iron'
-        })
-
-    event.shaped('palmon:working_station', [
-        'AAA',
-        'BCB',
-        'DDD'
-    ],
-        {
-            A: '#forge:sheets/gold',
-            B: 'palmon:wood',
-            C: 'tfcgroomer:copper_grooming_station',
-            D: 'tfc:metal/double_sheet/wrought_iron'
-        })
-
-    event.shaped('palmon:production_machine', [
-        'ABA',
-        'CDC',
-        'EEE'
-    ],
-        {
-            A: '#forge:double_sheets/brass',
-            B: 'minecraft:crafting_table',
-            C: 'minecraft:hopper',
-            D: '#tfc:anvils',
-            E: '#forge:double_sheets/wrought_iron'
-        })
-
-    event.shaped('palmon:processing_station', [
-        'ABA',
-        'CDC',
-        'EEE'
-    ],
-        {
-            A: '#forge:sheets/wrought_iron',
-            B: 'tfc:bellows',
-            C: 'minecraft:hopper',
-            D: 'tfc:blast_furnace',
-            E: '#forge:double_sheets/black_steel'
-        })
-
     event.shaped('sophisticatedbackpacks:backpack', [
         'ABA',
         'BCB',
@@ -121,53 +70,6 @@ ServerEvents.recipes(event => {
             B: '#forge:rods/red_steel',
             C: 'tfc:wrought_iron_grill',
             D: 'minecraft:glowstone'
-        })
-
-    event.shaped('nethersdelight:blackstone_furnace', [
-        'AAA',
-        'BCB',
-        'ADA'
-    ],
-        {
-            A: 'minecraft:blackstone',
-            B: '#forge:rods/red_steel',
-            C: 'tfc:wrought_iron_grill',
-            D: 'minecraft:glowstone'
-        })
-
-    event.shaped('quark:blackstone_furnace', [
-        'AAA',
-        'BCB',
-        'ADA'
-    ],
-        {
-            A: 'minecraft:blackstone',
-            B: '#forge:rods/red_steel',
-            C: 'tfc:wrought_iron_grill',
-            D: 'minecraft:glowstone'
-        })
-
-    event.shaped('quark:deepslate_furnace', [
-        'AAA',
-        'BCB',
-        'ADA'
-    ],
-        {
-            A: 'minecraft:cobbled_deepslate',
-            B: '#forge:rods/red_steel',
-            C: 'tfc:wrought_iron_grill',
-            D: 'minecraft:glowstone'
-        })
-
-    event.shaped('botanicalmachinery:mana_emerald', [
-        'ABA',
-        'BCB',
-        'ABA'
-    ],
-        {
-            A: 'enchanted:foul_fume',
-            B: 'palmon:m_crystal',
-            C: '#forge:gems/emerald'
         })
 
     event.shaped('minecraft:bucket', [

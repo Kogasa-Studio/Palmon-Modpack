@@ -26,59 +26,40 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
-| getPlayer |  |  | Player | ✘ |
-| setUses | int |  | void | ✘ |
-| getUses |  |  | int | ✘ |
-| getAnimal |  |  | Entity | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getFluidProduct |  |  | FluidStackJS | ✘ |
 | getTool |  |  | ItemStack | ✘ |
+| getPlayer |  |  | Player | ✘ |
+| getAnimal |  |  | Entity | ✘ |
 | getAnimalProperties |  |  | TFCAnimalProperties | ✘ |
 | getItemProduct |  |  | ItemStack | ✘ |
-| isItemProduct |  |  | boolean | ✘ |
+| getFluidProduct |  |  | FluidStackJS | ✘ |
+| setUses | int |  | void | ✘ |
 | setItemProduct | ItemStack |  | void | ✘ |
+| isItemProduct |  |  | boolean | ✘ |
+| getUses |  |  | int | ✘ |
 | setFluidProduct | FluidStackJS |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `void setUses(int var0)`
-
-  Parameters:
-  - var0: int
-
+- `ItemStack getTool()`
 ```
-Sets how much 'wear' the animal will take from the event
-```
-
-- `int getUses()`
-```
-How much 'wear' the animal will take from the event
+Returns the 'too' used to get a product, either a bucket or shears
 ```
 
 - `Entity getAnimal()`
 ```
 Returns the animal the product comes from
-```
-
-- `FluidStackJS getFluidProduct()`
-```
-Returns the fluid product of the event, may be empty if the product is an item
-```
-
-- `ItemStack getTool()`
-```
-Returns the 'too' used to get a product, either a bucket or shears
 ```
 
 - `TFCAnimalProperties getAnimalProperties()`
@@ -91,9 +72,18 @@ Returns TFC animal properties of the animal
 Returns the item product of the event, may be empty if the product is a fluid
 ```
 
-- `boolean isItemProduct()`
+- `FluidStackJS getFluidProduct()`
 ```
-Returns true if the event's product is an item and not a fluid
+Returns the fluid product of the event, may be empty if the product is an item
+```
+
+- `void setUses(int var0)`
+
+  Parameters:
+  - var0: int
+
+```
+Sets how much 'wear' the animal will take from the event
 ```
 
 - `void setItemProduct(ItemStack var0)`
@@ -105,6 +95,16 @@ Returns true if the event's product is an item and not a fluid
 Sets the item product, attempting to use this on an event originally producing a fluid will void the product
 ```
 
+- `boolean isItemProduct()`
+```
+Returns true if the event's product is an item and not a fluid
+```
+
+- `int getUses()`
+```
+How much 'wear' the animal will take from the event
+```
+
 - `void setFluidProduct(FluidStackJS var0)`
 
   Parameters:
@@ -112,6 +112,15 @@ Sets the item product, attempting to use this on an event originally producing a
 
 ```
 Sets the fluid product, attempting to use this on an event originally producing an item will void the product
+```
+
+- `boolean hasGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Checks if the player has the specified game stage
 ```
 
 - `void addGameStage(String var0)`
@@ -130,15 +139,6 @@ Adds the specified game stage to the player
 
 ```
 Removes the specified game stage from the player
-```
-
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`
@@ -177,6 +177,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -184,13 +191,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

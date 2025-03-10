@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values":
+    [
+        "minecraft:blaze",
+        "minecraft:magma_cube",
+        "minecraft:zombified_piglin",
+        "minecraft:zoglin",
+        "dummmmmmy:target_dummy",
+        "#cataclysm:pyramid",
+        "#cataclysm:ancient"
+    ]
+}

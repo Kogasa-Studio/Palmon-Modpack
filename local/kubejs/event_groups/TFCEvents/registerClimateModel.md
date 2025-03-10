@@ -8,6 +8,10 @@
 
 - Event class: RegisterClimateModelEventJS (third-party)
 
+```
+Used to register/create new climate models which can be used during climate model selection
+```
+
 ### Available fields:
 
 | Name | Type | Static? |
@@ -19,24 +23,34 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| registerClimateModel | ResourceLocation, Consumer<KubeJSClimateModel> |  | void | ✘ |
-| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
-| getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
-| getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
-| getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
-| registerAdvancedClimateModel | ResourceLocation, Consumer<AdvancedKubeJSClimateModel> |  | void | ✘ |
-| getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
-| getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
 | newVec2 | float, float |  | Vec2 | ✘ |
+| registerClimateModel | ResourceLocation, Consumer<KubeJSClimateModel> |  | void | ✘ |
+| registerAdvancedClimateModel | ResourceLocation, Consumer<AdvancedKubeJSClimateModel> |  | void | ✘ |
+| getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
+| getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
+| getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
+| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `Vec2 newVec2(float x, float z)`
+
+  Parameters:
+  - x: float- The x component
+  - z: float- The y component
+
+```
+Creates a new Vec2 with the given x and y values, used for creating custom wind vectors in your models
+```
 
 - `void registerClimateModel(ResourceLocation name, Consumer<KubeJSClimateModel> model)`
 
@@ -46,26 +60,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ```
 Creates a new climate model with the given name and properties
-```
-
-- `TemperatureCallback getDefaultCurrentTemperatureCallback()`
-```
-Returns the callback version of TFC's overworld current temperature calculation
-```
-
-- `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
-```
-Returns the callback version of TFC's overworld average temperature calculation
-```
-
-- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
-```
-Returns the callback version of TFC's water fog calculation
-```
-
-- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
-```
-Returns the callback version of TFC's air fog calculation
 ```
 
 - `void registerAdvancedClimateModel(ResourceLocation name, Consumer<AdvancedKubeJSClimateModel> model)`
@@ -78,24 +72,34 @@ Returns the callback version of TFC's air fog calculation
 Creates a new climate model with the given name and properties
 ```
 
-- `WindVectorCallback getDefaultWindVectorCallback()`
-```
-Returns the callback version of TFC's wind vector calculation
-```
-
 - `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
 ```
 Returns the callback version of TFC's average rainfall calculation
 ```
 
-- `Vec2 newVec2(float x, float z)`
-
-  Parameters:
-  - x: float- The x component
-  - z: float- The y component
-
+- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
 ```
-Creates a new Vec2 with the given x and y values, used for creating custom wind vectors in your models
+Returns the callback version of TFC's air fog calculation
+```
+
+- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
+```
+Returns the callback version of TFC's water fog calculation
+```
+
+- `WindVectorCallback getDefaultWindVectorCallback()`
+```
+Returns the callback version of TFC's wind vector calculation
+```
+
+- `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
+```
+Returns the callback version of TFC's overworld average temperature calculation
+```
+
+- `TemperatureCallback getDefaultCurrentTemperatureCallback()`
+```
+Returns the callback version of TFC's overworld current temperature calculation
 ```
 
 - `Object exit(Object var0)`
@@ -134,6 +138,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -141,13 +152,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

@@ -33,14 +33,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | limit | Size |  | void | ✘ |
 | lowerLimit | Size, boolean |  | void | ✘ |
 | lowerLimit | Size |  | void | ✘ |
-| lowerLimit | Size, int, int, boolean |  | void | ✘ |
 | lowerLimit | Size, int, int |  | void | ✘ |
+| lowerLimit | Size, int, int, boolean |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -106,6 +106,17 @@ Limits items in the container to a size
 Limits items in the container to a size equal to or greater than the provided size
 ```
 
+- `void lowerLimit(Size size, int min, int max)`
+
+  Parameters:
+  - size: Size- The minimum size items in the container may be
+  - min: int- The index of the start of the slots to be limited
+  - max: int- The index of the end of the lots to be limited
+
+```
+Limits items in the provided slot range to a size equal to or greater than the provided size
+```
+
 - `void lowerLimit(Size size, int min, int max, boolean allowsEqual)`
 
   Parameters:
@@ -116,17 +127,6 @@ Limits items in the container to a size equal to or greater than the provided si
 
 ```
 Limits items in the provided slot range to a size greater than the provided size
-```
-
-- `void lowerLimit(Size size, int min, int max)`
-
-  Parameters:
-  - size: Size- The minimum size items in the container may be
-  - min: int- The index of the start of the slots to be limited
-  - max: int- The index of the end of the lots to be limited
-
-```
-Limits items in the provided slot range to a size equal to or greater than the provided size
 ```
 
 - `Object exit(Object var0)`
@@ -165,6 +165,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -172,13 +179,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

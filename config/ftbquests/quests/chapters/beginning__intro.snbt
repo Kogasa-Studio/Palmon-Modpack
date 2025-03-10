@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginning__intro"
+	group: ""
+	icon: "cobblemon:potion"
+	id: "6E5C519C0D029448"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"为什么是RE？因为该整合包的初版表现有点不尽人意，所以我在测试了一段时间后决定将它推倒重做。"
+				"总而言之，欢迎来到帕鲁梦。"
+				""
+				"本整合包并非传统意义上的冒险包，生存包，专家包或水槽包，而是一种以上所有类型的混合。"
+				""
+				"由群峦传说开局，通过探索群峦星的世界各地，搜集各种资源并邂逅各式各样的宝可梦。接着不断发展技术（科技\\&魔法），制作出火箭并回到地球。"
+				""
+				"到达地球后，你将会像传统冒险包那样探索世界，建造基地，并在每个阶段发展一定的技术，击败各种强大的敌人，然后抵达下个阶段。"
+				""
+				"如果只是如此，那么本整合包或许和我的上一作尘归尘（ATA）差不多。"
+				""
+				"但是，本整合包引入了两个关键设定，&l&e世界线变动率&l&f与&l&e灵感&l&f"
+				""
+				"每一个世界都会有不同的发展路线。在一个世界中，你或许会在群峦星领悟到如何奴役魔灵，而在另一个世界中，你或许会领悟到如何操控重型机械。"
+				""
+				"不管在哪个世界，发展到一定阶段后，你都将领悟到先前阶段的全部&l&e灵感&l&f，所以不必担心你会因为你的坏运气而损失一些内容。"
+				""
+				"...在到达最终阶段后，还有最终的挑战等着你。"
+			]
+			id: "4C273D948C0B6562"
+			tasks: [{
+				id: "2FCBBFDC3B8FFE0A"
+				type: "checkmark"
+			}]
+			title: "欢迎来到RE：帕鲁梦 | Welcome to RE: Palmon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C273D948C0B6562"]
+			description: [
+				"如果你有这种想法，没问题！"
+				""
+				"我准备了&l&e宝宝模式&l&f！"
+				""
+				"进入&l&e宝宝模式&l&f后，你可以使用&l&e宝宝之证&l&f制作一些&l&e宝宝模式&l&f的专属配方来帮助你快速发展！"
+				""
+				"同时战斗难度也会大幅降低！并且你将永远无法退出&l&e宝宝模式&l&f！"
+				""
+				"&4&l但是代价是什么呢？"
+			]
+			icon: "kubejs:baby_proofing"
+			id: "2A2EA0EFAED27F0D"
+			optional: true
+			subtitle: "我受不了群峦了！我不想发展乱七八糟的魔法与科技了！"
+			tasks: [{
+				id: "33FED3FEFA5C3962"
+				type: "checkmark"
+			}]
+			title: "宝宝模式 | Baby Mode"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A2EA0EFAED27F0D"]
+			hide_until_deps_complete: true
+			icon: "minecraft:barrier"
+			id: "1CCD3B88F6DFB3C1"
+			incompatible: ["57E321E75E073C53"]
+			tasks: [{
+				id: "0E33E205B35726E6"
+				type: "checkmark"
+			}]
+			title: "封印宝宝模式"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A2EA0EFAED27F0D"]
+			hide_until_deps_complete: true
+			icon: "kubejs:baby_proofing"
+			id: "57E321E75E073C53"
+			incompatible: ["1CCD3B88F6DFB3C1"]
+			tasks: [{
+				id: "4873B8566C677D2C"
+				type: "checkmark"
+			}]
+			title: "你真的要进入宝宝模式？"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57E321E75E073C53"]
+			hide_until_deps_complete: true
+			icon: "kubejs:baby_proofing"
+			id: "2780AC4F85B227BF"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3BE75764ED82D520"
+					ignore_reward_blocking: true
+					stage: "baby"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					id: "5C7B6B7464FF25C8"
+					item: "kubejs:baby_proofing"
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p run w @a I'm a Baby!"
+					elevate_perms: true
+					id: "1D525596EC5E11FC"
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "05F082D11FD6221E"
+				type: "checkmark"
+			}]
+			title: "进入宝宝模式"
+			x: 2.0d
+			y: -6.0d
+		}
+	]
+	title: "开始 \\& 介绍 | Beginning \\& Intro."
+}
