@@ -10,6 +10,19 @@ StartupEvents.registry('item', event => {
 	event.create('baby_proofing').displayName('§m§eBaby Proofing').fireResistant().rarity('rare').glow(true)
 	event.create('vial_of_chaos').displayName('§m§dVial of Chaos').fireResistant().rarity('rare').glow(true)
 
+	event.create('alpha_framework').displayName('§aAlpha Framework').fireResistant()
+	event.create('beta_framework').displayName('§bBeta Framework').fireResistant().rarity('rare')
+	event.create('gamma_framework').displayName('§cGamma Framework').fireResistant().rarity('rare')
+	event.create('delta_framework').displayName('§dDelta Framework').fireResistant().rarity('epic')
+	event.create('epsilon_framework').displayName('§eEpsilon Framework').fireResistant().rarity('epic').glow(true)
+
+
+	const voucherTexture = 'kubejs:item/voucher'
+	event.create('voucher_1_0').displayName('Voucher S01T00').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_1_1').displayName('Voucher S01T01').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_1_2').displayName('Voucher S01T02').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_1_3').displayName('Voucher S01T03').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+
 })
 
 StartupEvents.registry('block', event => {

@@ -49,6 +49,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:item_application/brass_casing_from_wood_using_deployer' })
 
     event.remove({ id: 'tfc_ie_addon:anvil/hammer_head' })
+    event.remove({ id: 'tfc_ie_addon:anvil/wirecutter_head' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

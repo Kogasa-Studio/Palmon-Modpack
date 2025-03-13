@@ -4,6 +4,17 @@
 
     "item.kubejs.vial_of_chaos": "§m§d混沌小瓶",
     "item.kubejs.baby_proofing": "§m§e宝宝之证",
+    
+    "item.kubejs.alpha_framework": "§aAlpha 框架",
+    "item.kubejs.beta_framework": "§bBeta 框架",
+    "item.kubejs.gamma_framework": "§cGamma 框架",
+    "item.kubejs.delta_framework": "§dDelta 框架",
+    "item.kubejs.epsilon_framework": "§eEpsilon 框架",
+
+    "item.kubejs.voucher_1_0": "补给卷 S01T00",
+    "item.kubejs.voucher_1_1": "补给卷 S01T01",
+    "item.kubejs.voucher_1_2": "补给卷 S01T02",
+    "item.kubejs.voucher_1_3": "补给卷 S01T03",
 
     "item.kubejs.present_soul": "§e现世之魂",
     "item.kubejs.scranton_reality_anchor": "§d斯克兰顿现实稳定锚",
@@ -62,7 +73,8 @@
 
     "ui.kubejs.slashblade": "你还未领悟§e剑之魂",
     "ui.kubejs.banned": "你没资格啊你没资格，正因为如此你没资格啊你没资格",
-    "ui.kubejs.banned_item_disappeared": " 已经消失，因为你的末影箱满了",
+    "ui.kubejs.relic_coin": "来自古代的硬币，可以用于合成不同的补给卷",
+    "ui.kubejs.voucher": "来自世界泡的间隙中的碎片，可以在不同阶段的任务中具现为不同的物资",
 
     "ui.kubejs.overowrld_item": "因为你失去了现世祝福，该物品将无法被捡起",
     

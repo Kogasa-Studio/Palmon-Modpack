@@ -32,7 +32,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["63DD760BF006099A"]
 			icon: "minecraft:netherrack"
 			id: "5700DBF8E6793DFB"
 			rewards: [{

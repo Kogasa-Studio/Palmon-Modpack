@@ -781,6 +781,17 @@
         "value": 8
       }
     },
+    "slashblade:slashblade_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 512,
+        "value": 512
+      }
+    },
     "irons_spellbooks:holy_magic_resist": {
       "enabled": false,
       "min": {

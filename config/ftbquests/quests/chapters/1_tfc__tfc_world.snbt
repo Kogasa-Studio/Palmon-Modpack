@@ -839,6 +839,7 @@
 			hide_until_deps_complete: true
 			icon: "tfc:blast_furnace"
 			id: "73715615076BFBCE"
+			optional: true
 			shape: "hexagon"
 			subtitle: "详细请查阅群峦传说手册建造高炉条目。"
 			tasks: [
@@ -884,8 +885,13 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["73715615076BFBCE"]
+			dependencies: [
+				"73715615076BFBCE"
+				"1233A3918001F8FF"
+			]
+			dependency_requirement: "one_completed"
 			id: "09A6D43A95775808"
+			optional: true
 			shape: "hexagon"
 			subtitle: "Again!"
 			tasks: [{
@@ -1006,46 +1012,6 @@
 			title: "群峦之下"
 			x: -4.0d
 			y: 16.0d
-		}
-		{
-			dependencies: ["027AE89C9FB02C10"]
-			id: "63DD760BF006099A"
-			tasks: [{
-				id: "4B4B208DA89E837A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:metal/anvil/red_steel"
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 26.0d
-		}
-		{
-			dependencies: ["5A4B37A6C7A1C953"]
-			id: "5908756139F268DB"
-			tasks: [{
-				id: "2E56A5C5FB277B26"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:metal/anvil/blue_steel"
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 26.0d
 		}
 		{
 			dependencies: [
@@ -1263,7 +1229,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["09A6D43A95775808"]
+			dependencies: ["1233A3918001F8FF"]
 			description: [
 				"恭喜你成功发展到现在，接下来将会是第一个正式的分歧点。"
 				""
@@ -1275,15 +1241,27 @@
 				id: "4C5E77C069ED64BD"
 				type: "checkmark"
 			}]
-			title: "世界线分歧点1.5"
+			title: "分歧点 1.1"
 			x: -6.0d
 			y: 22.0d
 		}
 		{
 			dependencies: ["233CD2E34D0CD586"]
-			icon: "occultism:datura_seeds"
+			description: ["腌制种子..."]
+			icon: "occultism:datura"
 			id: "268D387EDD9AE1EF"
 			optional: true
+			rewards: [{
+				id: "1A9A27E16E2FADAF"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "灵感：神秘"
 			tasks: [
 				{
@@ -1313,18 +1291,25 @@
 		}
 		{
 			dependencies: ["233CD2E34D0CD586"]
+			description: ["锤炼钢铁..."]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "47323FA940E1CA9E"
 			optional: true
+			rewards: [{
+				id: "35249D47365DC65A"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
 			subtitle: "灵感：工业"
 			tasks: [{
-				id: "100B62C6FB3D0FAC"
-				item: {
-					Count: 1
-					id: "immersiveengineering:hammer"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "31F2292A7383E1E6"
+				item: "tfc_ie_addon:tool_head/ie_hammer"
 				type: "item"
 			}]
 			x: -6.0d
@@ -1332,8 +1317,14 @@
 		}
 		{
 			dependencies: ["233CD2E34D0CD586"]
+			description: ["向安山岩砖浇筑..."]
 			id: "4C50A8688F409955"
 			optional: true
+			rewards: [{
+				id: "470D076834FFC377"
+				item: "create:wrench"
+				type: "item"
+			}]
 			subtitle: "灵感：动力"
 			tasks: [{
 				id: "25FBDEFD340D663F"
@@ -1351,13 +1342,21 @@
 				"这份补给可能是&l&e灵感&l&f，也可能是物资。"
 				""
 				"和常规的&l&e灵感&l&f一样，一定阶段后会解锁全部可能解锁的随机补给&l&e灵感&l&f。"
+				""
+				"现在，使用遗迹硬币制作你能制作的补给卷吧！"
 			]
 			id: "70F53B1333FE496B"
+			rewards: [{
+				count: 3
+				id: "36400B9B562CBDBD"
+				item: "cobblemon:relic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D42128484D559DE"
 				type: "checkmark"
 			}]
-			title: "世界线分歧点1"
+			title: "分歧点 1.0"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -1366,10 +1365,30 @@
 			icon: "slashblade:proudsoul"
 			id: "78E366B3C0435A3E"
 			invisible: true
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "6D4688657D941C0A"
+					item: "slashblade:proudsoul_tiny"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "12E02CC952BD1715"
+					ignore_reward_blocking: true
+					stage: "slashblade"
+					team_reward: false
+					title: "剑之魂"
+					type: "gamestage"
+				}
+			]
 			subtitle: "灵感：拔刀"
 			tasks: [{
-				id: "1CA179E78271FAA9"
-				type: "checkmark"
+				consume_items: false
+				id: "57C46131EB5C07C1"
+				item: "kubejs:voucher_1_0"
+				type: "item"
 			}]
 			title: "1-0：拔刀剑"
 			x: -4.0d
@@ -1380,6 +1399,7 @@
 			icon: "tconstruct:smeltery_controller"
 			id: "085842994C6EE40B"
 			invisible: true
+			optional: true
 			rewards: [{
 				id: "260388DEFD9F2185"
 				item: {
@@ -1438,8 +1458,10 @@
 			}]
 			subtitle: "物资：冶炼"
 			tasks: [{
-				id: "512BECDEE82C3814"
-				type: "checkmark"
+				consume_items: false
+				id: "43BCCCC684CB917A"
+				item: "kubejs:voucher_1_1"
+				type: "item"
 			}]
 			title: "1-1：冶炼炉"
 			x: -4.0d
@@ -1450,6 +1472,7 @@
 			icon: "cobblemon:poke_ball"
 			id: "2FD44CDCE6E74A77"
 			invisible: true
+			optional: true
 			rewards: [{
 				id: "2D3BE80F7C028B3A"
 				item: {
@@ -1533,8 +1556,10 @@
 			}]
 			subtitle: "物资：宝可梦"
 			tasks: [{
-				id: "7185C32399D600C1"
-				type: "checkmark"
+				consume_items: false
+				id: "181CA7D6918D543E"
+				item: "kubejs:voucher_1_2"
+				type: "item"
 			}]
 			title: "1-2：宝可梦"
 			x: -4.0d
@@ -1545,6 +1570,7 @@
 			icon: "palmon:empty_contract"
 			id: "3BB6E5457511866F"
 			invisible: true
+			optional: true
 			rewards: [{
 				id: "50436A5994BBFA66"
 				item: {
@@ -1593,12 +1619,686 @@
 			}]
 			subtitle: "物资：帕鲁"
 			tasks: [{
-				id: "68DCB8B34BB33874"
-				type: "checkmark"
+				consume_items: false
+				id: "359C85E904F12388"
+				item: "kubejs:voucher_1_3"
+				type: "item"
 			}]
 			title: "1-3：帕鲁"
 			x: -4.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["5A4B37A6C7A1C953"]
+			description: ["...如果你获得了某种&l&e灵感&l&f，或许..."]
+			id: "2107246421F186F9"
+			subtitle: "最后的砧"
+			tasks: [{
+				id: "472234B885AB4CE2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/sheet/blue_steel"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2107246421F186F9"]
+			id: "285D8828F5A0B51F"
+			tasks: [{
+				id: "7F0B0249334B1654"
+				item: "celestial_core:virtual_gold_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["47323FA940E1CA9E"]
+			id: "5D90DBE7DA5D0CA3"
+			subtitle: "木炭与油"
+			tasks: [{
+				count: 27L
+				id: "41EB31D3BD6C2677"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			title: "焦炉"
+			x: -6.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["5D90DBE7DA5D0CA3"]
+			id: "40469B391883879C"
+			subtitle: "这才专业嘛"
+			tasks: [{
+				id: "4BEC89C836D27CED"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"7A23822AE720815B"
+				"73715615076BFBCE"
+			]
+			description: [
+				"如果你想通过熔炼炉的方式获取生铁，那么你需要蜂蜜。"
+				""
+				"但是你逃不掉的。"
+			]
+			id: "3B92C69C40F38337"
+			subtitle: "我不吃猪肉"
+			tasks: [{
+				id: "2FC34F662DCB8340"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/pig_iron"
+					}
+				}
+				title: "Any #forge:ingots/pig_iron"
+				type: "item"
+			}]
+			title: "生铁"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3B92C69C40F38337"
+				"3604C67577B97ADD"
+			]
+			dependency_requirement: "one_completed"
+			id: "1233A3918001F8FF"
+			subtitle: "百炼成钢"
+			tasks: [{
+				id: "2AAFE97E0E79AD0A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "钢锭"
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["027AE89C9FB02C10"]
+			description: ["别担心，我的朋友，之后不会这么麻烦的。"]
+			id: "2687C9F8AB0800A1"
+			subtitle: "哦是的，这是熔炉"
+			tasks: [{
+				id: "7EC5469F9D316B8B"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"285D8828F5A0B51F"
+				"7385DDC2F71C2040"
+				"62D9D66D34423490"
+				"3D463B2F52D4FED8"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Alpha 框架，它就是标准本身。"
+				""
+				"该框架的配方由&l&e世界线变动率&l&f决定。"
+			]
+			id: "32EAD9843E44D905"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "最初的起点"
+			tasks: [{
+				id: "5270E1566102ACBC"
+				item: "kubejs:alpha_framework"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["268D387EDD9AE1EF"]
+			icon: "occultism:spirit_fire"
+			id: "12C36B99C103E029"
+			tasks: [{
+				id: "7820DE2F1FFC528E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			title: "灵火"
+			x: -10.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["12C36B99C103E029"]
+			id: "501030E5D70A6135"
+			tasks: [{
+				id: "755127423BD183E3"
+				item: "occultism:otherworld_log"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["12C36B99C103E029"]
+			id: "52F4D77FF38666D5"
+			tasks: [{
+				id: "415C414287202DC9"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"52F4D77FF38666D5"
+				"501030E5D70A6135"
+			]
+			id: "51FA579CBA7241B2"
+			tasks: [{
+				id: "6E170EE04A24D63D"
+				item: "occultism:chalk_white_impure"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["51FA579CBA7241B2"]
+			id: "3A28C11C2C3DE45C"
+			tasks: [{
+				id: "5495370827960772"
+				type: "checkmark"
+			}]
+			title: "魔精碎矿者"
+			x: -10.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3A28C11C2C3DE45C"]
+			id: "6CD8243DC4BF1B54"
+			tasks: [{
+				id: "43952D310BEED414"
+				item: "occultism:chalk_gold_impure"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["6CD8243DC4BF1B54"]
+			icon: {
+				Count: 1
+				id: "occultism:infused_pickaxe"
+				tag: {
+					Damage: 0
+					spiritName: "Einirvyne"
+				}
+			}
+			id: "5E63CDF58E0166E1"
+			tasks: [
+				{
+					id: "0534328E558207B0"
+					item: {
+						Count: 1
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4345DF83DBB7D866"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "下界矿工"
+			x: -12.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["5E63CDF58E0166E1"]
+			id: "5E4824F0DD564AB2"
+			tasks: [{
+				id: "0A9A3C629484F472"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"5E4824F0DD564AB2"
+				"6CD8243DC4BF1B54"
+			]
+			id: "76FB026FCCD2873B"
+			tasks: [{
+				id: "230900DDAC9A2580"
+				item: "occultism:magic_lamp_empty"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["76FB026FCCD2873B"]
+			id: "5F288344A80B4737"
+			rewards: [{
+				id: "03E0EDF62A3F5FAD"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EAFEF210F7F856F"
+				item: {
+					Count: 1
+					id: "occultism:miner_foliot_unspecialized"
+					tag: {
+						Damage: 0
+						maxMiningTime: 400
+						rollsPerOperation: 1
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -12.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["4C50A8688F409955"]
+			id: "07C3CC60E0F0BFF2"
+			tasks: [{
+				id: "3C0289B4AC237D58"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["07C3CC60E0F0BFF2"]
+			id: "40DB7D694B695DBD"
+			tasks: [{
+				id: "4AF2ACF8127E9989"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["40DB7D694B695DBD"]
+			id: "49CDD8BD9FCA0FE6"
+			tasks: [{
+				id: "7A9529539156FA1F"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["0D8B65E92949D1E1"]
+			id: "6F0B4E669F079304"
+			tasks: [{
+				id: "289E56B6877E935B"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["40DB7D694B695DBD"]
+			id: "0D8B65E92949D1E1"
+			tasks: [{
+				id: "3A6F9DFC2AD26D2D"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"40DB7D694B695DBD"
+				"49CDD8BD9FCA0FE6"
+				"6F0B4E669F079304"
+			]
+			hide_dependent_lines: true
+			id: "7385DDC2F71C2040"
+			tasks: [{
+				id: "659ADA4E559B890D"
+				type: "checkmark"
+			}]
+			title: "收束点 1.1.3"
+			x: -2.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["76FB026FCCD2873B"]
+			hide_dependent_lines: true
+			id: "62D9D66D34423490"
+			tasks: [{
+				id: "30F78EA92C41EE50"
+				type: "checkmark"
+			}]
+			title: "收束点 1.1.1"
+			x: -10.0d
+			y: 38.0d
+		}
+		{
+			dependencies: [
+				"430A044D8A6D8022"
+				"296A77CEB0BB227A"
+			]
+			hide_dependent_lines: true
+			id: "3D463B2F52D4FED8"
+			tasks: [{
+				id: "7278355778C69F4F"
+				type: "checkmark"
+			}]
+			title: "收束点 1.1.2"
+			x: -6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"296A77CEB0BB227A"
+				"77D61F0D4CD3928E"
+				"3D496929D573E451"
+			]
+			dependency_requirement: "one_completed"
+			id: "430A044D8A6D8022"
+			tasks: [{
+				id: "0D583A1830A3F31F"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["190DCEB27ADFA62B"]
+			icon: "immersiveengineering:metal_press"
+			id: "296A77CEB0BB227A"
+			tasks: [
+				{
+					count: 2L
+					id: "69D4EE982514ADBA"
+					item: { Count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "30580FDDC3E3029A"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "20E7469EF1479C35"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "4A75B352446E5076"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3F8C48F587B5C8C6"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			title: "金属冲压机"
+			x: -8.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["40469B391883879C"]
+			id: "77D61F0D4CD3928E"
+			subtitle: "电弧炉电极"
+			tasks: [{
+				id: "3C44279C2E52A943"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["40469B391883879C"]
+			id: "42CE99DC32C8CBF7"
+			subtitle: "合成用零件"
+			tasks: [{
+				id: "006F24ED509D5773"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["40469B391883879C"]
+			id: "190DCEB27ADFA62B"
+			subtitle: "金属冲压模具"
+			tasks: [{
+				id: "6AF970607991EE71"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["30C3E0564893C3DE"]
+			id: "3D496929D573E451"
+			tasks: [{
+				count: 4L
+				id: "17E3A82ECFD3788A"
+				item: { Count: 4, id: "immersiveengineering:ingot_hop_graphite" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["42CE99DC32C8CBF7"]
+			icon: "immersiveengineering:squeezer"
+			id: "30C3E0564893C3DE"
+			tasks: [
+				{
+					count: 2L
+					id: "5DCD1E05ADD7044F"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "77B28D683A54962D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "74D9A92F0E4F7FA2"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "45021679A2C6BA56"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "48F03E9CC90AFE55"
+					item: { Count: 6, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "765C19F243A8B67A"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6BA1186A9406EBB8"
+					item: { Count: 4, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+			]
+			title: "工业挤压机"
+			x: -4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["5E82BE9750149251"]
+			description: [
+				"你可以通过往一般的薄板上浇筑黄金来制作板铸模。"
+				""
+				"关于工具类铸模，你得等到之后才能制作。"
+			]
+			id: "079899DE3A2DA2C6"
+			subtitle: "更薄的金属板"
+			tasks: [{
+				id: "67F0E9B941EE2F98"
+				item: "tconstruct:plate_cast"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"32EAD9843E44D905"
+				"2789B5D15B2F027C"
+			]
+			id: "626CB6BCBF3B96D2"
+			subtitle: "过时了！"
+			tasks: [{
+				id: "4868DBD2A06ECA1E"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["32EAD9843E44D905"]
+			id: "6C826BF49512B4E2"
+			tasks: [{
+				id: "4DA42D0E98F9AC82"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"6C826BF49512B4E2"
+				"626CB6BCBF3B96D2"
+				"3ABEE2886AB0E634"
+			]
+			id: "153BB1808FC6284A"
+			rewards: [{
+				id: "139428619922BB86"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "驰骋星海"
+			tasks: [{
+				id: "774BDB0D61CEFD9B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["32EAD9843E44D905"]
+			description: ["你可以通过发酵杂酚油与红石获取一些火箭燃料，但是..."]
+			icon: "ad_astra:fuel_bucket"
+			id: "3ABEE2886AB0E634"
+			subtitle: "临时的解决方案"
+			tasks: [{
+				id: "2623F97A65B47B86"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "燃油"
+			x: 6.0d
+			y: 32.0d
 		}
 	]
 	title: "1. 群峦星 | TFC Planet"

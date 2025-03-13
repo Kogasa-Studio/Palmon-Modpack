@@ -1,7 +1,8 @@
 {
     "ui.kubejs.slashblade": "You have not learned the Soul of the Blade. ",
     "ui.kubejs.banned": "You are not destined! ",
-    "ui.kubejs.banned_item_disappeared": " has disappeared because your Ender Chest is full",
+    "ui.kubejs.relic_coin": "Ancient coins that can be used to synthesize different Vouchers",
+    "ui.kubejs.voucher": "Fragments from the gaps of the World Bubble, which can be used to trade for different supplies in the task",
 
     "ui.kubejs.overowrld_item": "You can not pick up this item, becaus you have lost the Present Blessing. ",
     "ui.kubejs.no_dulp_curio": "Only one will be activated. ",
