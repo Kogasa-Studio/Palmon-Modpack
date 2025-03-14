@@ -155,6 +155,13 @@
     }
   ],
   "lookup_history": [
+    "item:sophisticatedstorage:stack_upgrade_omega_tier",
+    "item:dustandash:log_pile",
+    {
+      "type": "item",
+      "id": "minecraft:stick",
+      "amount": 16
+    },
     "item:minecraft:diamond_pickaxe{Damage:0}",
     "item:rftoolsbuilder:shape_card_quarry",
     "item:rftoolsbuilder:shape_card_def",
@@ -957,7 +964,7 @@
       "id": "tfc:metal/double_ingot/rose_gold",
       "amount": 3
     },
-    "#item:c:copper_ingots",
+    "#item:c:ingots/copper",
     "#item:c:ingots/gold",
     "#item:c:nickel_ingots",
     "item:tfc:metal/ingot/rose_gold",
@@ -1454,11 +1461,6 @@
       "type": "item",
       "id": "supplementaries:ash",
       "amount": 32
-    },
-    {
-      "type": "item",
-      "id": "dustandash:log_pile",
-      "amount": 14
     },
     {
       "type": "item",
@@ -2203,6 +2205,7 @@
     "item:minecraft:magenta_concrete_powder"
   ],
   "craft_history": [
+    "dustandash:crafting/log_pile",
     "kubejs:melter_s2",
     "malum:block_of_blazing_quartz",
     "minecraft:netherite_ingot",
@@ -2326,7 +2329,6 @@
     "cobblemon:apricorn_bowl",
     "dustandash:crafting/smooth_cobblestone",
     "jei:/dustandash/integrate/raw_ash_steel",
-    "dustandash:crafting/log_pile",
     "dustandash:crafting/milling_machine",
     "tconstruct:tables/pattern",
     "minecraft:stonecutter",
@@ -2571,7 +2573,6 @@
     "embers:beam_cannon",
     "embers:alchemy_pedestal",
     "embers:caminite_blend",
-    "embers:alchemy_tablet",
     "pipez:improved_upgrade",
     "pipez:basic_upgrade",
     "minecraft:iron_nugget",
@@ -2622,7 +2623,6 @@
     "tconstruct:tables/tinkers_chest",
     "cobblefordays:tier_3",
     "tconstruct:smeltery/seared/seared_bricks_from_brick",
-    "integratedterminals:crafting/part_terminal_storage",
     "integrateddynamics:crafting/part_display_panel",
     "tconstruct:tables/cast_chest",
     "dustandash:crafting/gravel",
@@ -2721,21 +2721,21 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "tfcoreprocessing:compress/compress_refined_limonite",
-      "jei:/tfc/casting/weak_steel_ingot",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
       "jei:/tfc/anvil/black_steel_ingot",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
+      "jei:/tfc/casting/weak_steel_ingot",
       "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "tfcoreprocessing:compress/compress_refined_limonite",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
       "jei:/immersiveengineering/mixer/redstone_acid",
       "jaopca:storage_blocks.to_storage_block.stainless_steel"
     ],
     "tags": {
-      "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
+      "#item:c:ingots/copper": "item:tfc:metal/ingot/copper",
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel",
       "#item:c:ingots/gold": "item:tfc:metal/ingot/gold"

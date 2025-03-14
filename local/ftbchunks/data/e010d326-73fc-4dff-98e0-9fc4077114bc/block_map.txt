@@ -55,6 +55,7 @@
 #207534 minecraft:brown_mushroom
 #FEF31E tconstruct:budding_ichor_slime_crystal
 #5C47C2 biomesoplenty:bush
+#208CB0 ae2:cable_bus
 #C6AC20 minecraft:cactus
 #00BE18 minecraft:calcite
 #5A123C minecraft:cartography_table
@@ -99,6 +100,8 @@
 #8C5E34 tconstruct:crafting_station
 #468304 minecraft:crafting_table
 #54DCC2 supplementaries:crank
+#E7F5B7 create:creative_crate
+#DFC019 mekanism:creative_energy_cube
 #08CF47 immersiveengineering:creosote_fluid_block
 #4BF61E create:crimsite
 #61FAC4 minecraft:crimson_fence
@@ -145,6 +148,7 @@
 #E04718 embers:ember_bore_edge
 #548B83 create:encased_fan
 #4F841A avaritia:endless_cake
+#0691F4 ae2:energy_acceptor
 #AAFCBA netherexp:etched_soul_slate_tiles
 #B9B269 minecraft:fire_coral_block
 #D08CFF biomeswevegone:flowering_ironwood_leaves
@@ -198,6 +202,7 @@
 #750D6A minecraft:lectern
 #C57CC1 minecraft:lime_shulker_box
 #746434 create:limestone
+#E81041 sophisticatedstorage:limited_netherite_barrel_1
 #90EB1E betterarcheology:loot_vase_creeper
 #0EC131 lootr:lootr_barrel
 #EA63C2 lootr:lootr_chest
@@ -207,6 +212,7 @@
 #9B5AD6 tconstruct:medium_ichor_slime_crystal_bud
 #C2A4CD biomesoplenty:medium_rose_quartz_bud
 #618FD5 integrateddynamics:menril_leaves
+#202AC3 ae2:molecular_assembler
 #33871A thoriumreactors:molybdenum_ore
 #A4FC4B minecraft:mossy_cobblestone
 #F093B4 minecraft:mossy_cobblestone_slab
@@ -468,6 +474,7 @@
 #FE613F forestry:tree_lime_default_leaves
 #9E7561 forestry:tree_maple_default_leaves
 #87BAF4 minecraft:tuff
+#F4CAAD mekanism:ultimate_logistical_transporter
 #A57DDF thoriumreactors:uranium_ore
 #E0F30C minecraft:warped_fence
 #3CEAB8 minecraft:warped_hyphae

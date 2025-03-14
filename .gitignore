@@ -12,7 +12,7 @@ screenshots/
 showdown/
 tacz_backup/
 trainers/
-local/ftbchunks/
+local/
 config/ItemLocks/
 shaderpacks/
 config/yes_steve_model/
@@ -20,3 +20,7 @@ crash-reports/
 
 /usercache.json
 /usernamecache.json
+/Palmon_T-natives
+/resourcepacks
+/local
+emi.json
