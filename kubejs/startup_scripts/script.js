@@ -6,9 +6,10 @@ StartupEvents.registry('item', event => {
 	// Register new items here
 	event.create('reinforced_sheet').displayName('Reinforced Sheet').fireResistant()
 	event.create('beryllium_bronze_alloy').displayName('Reinforced Sheet').fireResistant().rarity('rare').glow(true)
-
+	
 	event.create('baby_proofing').displayName('§m§eBaby Proofing').fireResistant().rarity('rare').glow(true)
 	event.create('vial_of_chaos').displayName('§m§dVial of Chaos').fireResistant().rarity('rare').glow(true)
+	event.create('cognitio').displayName('§m§dCognitio').fireResistant().rarity('epic').glow(true)
 
 	event.create('alpha_framework').displayName('§aAlpha Framework').fireResistant()
 	event.create('beta_framework').displayName('§bBeta Framework').fireResistant().rarity('rare')
@@ -22,6 +23,11 @@ StartupEvents.registry('item', event => {
 	event.create('voucher_1_1').displayName('Voucher S01T01').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 	event.create('voucher_1_2').displayName('Voucher S01T02').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 	event.create('voucher_1_3').displayName('Voucher S01T03').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+
+	event.create('voucher_2_0').displayName('Voucher S02T00').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_2_1').displayName('Voucher S02T01').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_2_2').displayName('Voucher S02T02').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_2_3').displayName('Voucher S02T03').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 
 })
 

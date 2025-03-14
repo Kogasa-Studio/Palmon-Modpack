@@ -1420,7 +1420,7 @@
 				item: "kubejs:voucher_1_0"
 				type: "item"
 			}]
-			title: "1-0：拔刀剑"
+			title: "1-0 拔刀剑"
 			x: -4.0d
 			y: -2.0d
 		}
@@ -1493,7 +1493,7 @@
 				item: "kubejs:voucher_1_1"
 				type: "item"
 			}]
-			title: "1-1：冶炼炉"
+			title: "1-1 冶炼炉"
 			x: -4.0d
 			y: 0.0d
 		}
@@ -1591,7 +1591,7 @@
 				item: "kubejs:voucher_1_2"
 				type: "item"
 			}]
-			title: "1-2：宝可梦"
+			title: "1-2 宝可梦"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -1654,7 +1654,7 @@
 				item: "kubejs:voucher_1_3"
 				type: "item"
 			}]
-			title: "1-3：帕鲁"
+			title: "1-3 帕鲁"
 			x: -4.0d
 			y: 4.0d
 		}
@@ -2370,6 +2370,7 @@
 		}
 		{
 			dependencies: ["32EAD9843E44D905"]
+			hide_until_deps_complete: true
 			id: "38C0A829266490AC"
 			tasks: [{
 				id: "25E14FE9D868AFAA"
@@ -2400,6 +2401,18 @@
 			}]
 			x: 6.0d
 			y: 32.0d
+		}
+		{
+			dependencies: ["233CD2E34D0CD586"]
+			description: ["本整合包中有许多实用工具类模组，其中相当一部分的工具/机器可以在对应的模组解锁之前使用，所以请仔细看看合成表吧..."]
+			id: "1F54C58DACF36562"
+			tasks: [{
+				id: "2A9B5A9719E45F10"
+				type: "checkmark"
+			}]
+			title: "提示之一"
+			x: -10.0d
+			y: 22.0d
 		}
 	]
 	title: "1. 群峦星 | TFC Planet"

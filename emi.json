@@ -155,9 +155,137 @@
     }
   ],
   "lookup_history": [
-    "item:embers:stamper",
+    "item:minecraft:diamond_pickaxe{Damage:0}",
+    "item:rftoolsbuilder:shape_card_quarry",
+    "item:rftoolsbuilder:shape_card_def",
+    "item:rftoolsbuilder:builder",
+    "#item:forge:ender_pearls",
+    {
+      "type": "fluid",
+      "id": "embers:molten_dawnstone",
+      "amount": 0
+    },
+    "item:embers:dawnstone_ingot",
+    {
+      "type": "item",
+      "id": "embers:caminite_blend",
+      "amount": 32
+    },
+    "item:integratedterminals:part_terminal_storage",
+    "item:deepresonance:resonating_crystal_natural",
+    {
+      "type": "item",
+      "id": "deepresonance:resonating_plate",
+      "amount": 8
+    },
+    {
+      "type": "item",
+      "id": "deepresonance:resonating_ore_stone",
+      "amount": 32
+    },
+    {
+      "type": "fluid",
+      "id": "deepresonance:liquid_crystal",
+      "amount": 200
+    },
+    "#item:deepresonance:resonant_ore",
+    {
+      "type": "item",
+      "id": "deepresonance:smelter",
+      "amount": 32
+    },
+    "item:deepresonance:filter_material",
+    {
+      "type": "item",
+      "id": "deepresonance:generator_controller",
+      "amount": 32
+    },
+    "item:avaritia:endless_cake",
+    "item:avaritia:enhancement_core",
+    "item:avaritia:infinity_totem{Damage:0}",
+    "item:minecraft:beacon",
+    "item:aetherworks:potion_gem{CustomPotionEffects:[{Ambient:1b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:200,Id:14,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:invisibility\"},{Ambient:1b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:200,Id:28,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:slow_falling\"},{Ambient:1b,Amplifier:2b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:200,Id:8,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:jump_boost\"}],gem_color:16313768}",
+    "item:aetherworks:lexicon_receptacle",
+    "item:embers:alchemy_tablet",
+    "item:mekanism_extras:lead_coated_glass",
+    "item:mekanism_extras:naquadah_reactor_controller",
+    "fluid:mekanism_extras:polonium_containing_solution",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism_extras:polonium_containing_steam"
+    },
+    "fluid:mekanism_extras:polonium-208",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism_extras:polonium-208",
+      "amount": 10
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:polonium"
+    },
+    "item:mekanism_extras:polonium-208_bucket",
+    "item:mekanism:clump_osmium",
+    "item:mekanism:shard_osmium",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism_extras:silicon_uranium_fuel",
+      "amount": 200
+    },
+    "fluid:mekanism_extras:fluorinated_silicon_uranium_fuel",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism_extras:fluorinated_silicon_uranium_fuel",
+      "amount": 2
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism_extras:silicon_tetrafluoride",
+      "amount": 100
+    },
+    "item:mekanism_extras:ingot_naquadah",
+    "item:mekanism_extras:qio_drive_singularity",
+    "item:mekanism_extras:reinforced_induction_port",
+    {
+      "type": "item",
+      "id": "mekanism_extras:dust_naquadah",
+      "amount": 2
+    },
+    "item:mekanism_extras:end_naquadah_ore",
+    "#item:forge:ores/naquadah",
+    "item:mekanism_extras:clump_naquadah",
+    "item:mekanism_extras:enriched_spectrum",
+    "item:mekanism_extras:alloy_spectrum",
+    "item:mekanism_extras:infinite_bin",
+    "item:mekanism_extras:enriched_shining",
+    {
+      "type": "jemi",
+      "uid": "infuse type:mekanism_extras:shining",
+      "amount": 160
+    },
+    "item:mekanism_extras:alloy_shining",
+    "item:mekanism_extras:cosmic_bin",
+    "item:mekanism_extras:supreme_bin",
+    "item:mekanism_extras:absolute_bin",
+    "item:mekanism:creative_bin",
+    "item:mekanism:ultimate_bin",
+    "item:mekanism:elite_bin",
+    "item:mekanism:advanced_bin",
+    "item:mekanism:basic_bin",
+    "item:mekanism_extras:dust_radiance",
+    "item:mekanism_extras:enriched_radiance",
+    "item:mekanism_extras:alloy_radiance",
+    "item:mekanism_extras:absolute_control_circuit",
+    "item:mekanism_extras:infinite_control_circuit",
+    "item:mekanism_extras:infinite_induction_cell",
     "item:embers:stamp_base",
     "item:embers:melter",
+    {
+      "type": "item",
+      "id": "embers:mechanical_core",
+      "amount": 2
+    },
+    "item:embers:stamper",
     "item:tfc:metal/ingot/steel",
     "#item:c:steel_ingots",
     {
@@ -169,7 +297,6 @@
     "#item:c:steel_plates",
     "item:ad_astra:steel_plate",
     "item:immersiveengineering:plate_steel",
-    "item:embers:mechanical_core",
     "item:malum:block_of_blazing_quartz",
     "item:malum:blazing_quartz",
     {
@@ -200,7 +327,6 @@
       "id": "embers:ember_bore",
       "amount": 32
     },
-    "item:embers:caminite_blend",
     {
       "type": "item",
       "id": "embers:caminite_brick",
@@ -1645,7 +1771,6 @@
       "amount": 2
     },
     "item:minecraft:diamond_leggings{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}]}",
-    "item:minecraft:diamond_pickaxe{Damage:0}",
     "item:confluence:ice_skates",
     {
       "type": "item",
@@ -1981,11 +2106,6 @@
     "item:embers:dawnstone_block",
     {
       "type": "item",
-      "id": "embers:dawnstone_ingot",
-      "amount": 7
-    },
-    {
-      "type": "item",
       "id": "embers:dawnstone_plate",
       "amount": 2
     },
@@ -1996,11 +2116,6 @@
       "registry": "minecraft:fluid",
       "id": "forge:molten_copper",
       "amount": 2
-    },
-    {
-      "type": "fluid",
-      "id": "embers:molten_dawnstone",
-      "amount": 90
     },
     "item:confluence:moon_stone",
     "item:confluence:sun_stone",
@@ -2061,7 +2176,6 @@
     "item:integrateddynamics:wrench",
     "item:minecraft:piston",
     "item:integrateddynamics:part_display_panel",
-    "item:integratedterminals:part_terminal_storage",
     "item:minecraft:popped_chorus_fruit",
     {
       "type": "item",
@@ -2086,134 +2200,7 @@
     "item:occultism:taboo_book",
     "item:minecraft:purple_concrete_powder",
     "item:minecraft:purple_concrete",
-    "item:minecraft:magenta_concrete_powder",
-    "item:minecraft:magenta_concrete",
-    "item:minecraft:magenta_dye",
-    "item:minecraft:chorus_flower",
-    "item:minecraft:dried_kelp_block",
-    "item:thermal:press_packing_3x3_die",
-    "item:thermal:machine_press",
-    "item:thermal:constantan_ingot",
-    {
-      "type": "tag",
-      "registry": "minecraft:item",
-      "id": "forge:ingots/constantan",
-      "amount": 4
-    },
-    "item:thermal:tin_gear",
-    "item:ftbquests:lootcrate",
-    "item:minecraft:iron_pickaxe{Damage:0}",
-    "item:modularrouters:breaker_module",
-    "item:pipez:advanced_upgrade{Item:{Distribution:2b,Filters:[{ExactMetadata:1b,ID:[I;777150374,-2026681165,-1355746447,445942914],Item:\"thermal:charcoal_block\"}]}}",
-    {
-      "type": "item",
-      "id": "thermal:cinnabar_ore",
-      "amount": 3
-    },
-    "item:create:attribute_filter",
-    "item:create:brass_nugget",
-    "item:sophisticatedstorage:packing_tape{Damage:0}",
-    "item:create:brass_funnel",
-    "item:rats:archeologist_hat",
-    "item:create:andesite_funnel",
-    "item:create:sand_paper{Damage:0}",
-    "#item:create:sandpaper",
-    "item:thermal:tin_nugget",
-    "#item:c:tin_nuggets",
-    "item:ae2:wireless_crafting_terminal",
-    "item:sophisticatedstorage:gold_to_diamond_tier_upgrade",
-    "item:minecraft:chipped_anvil",
-    {
-      "type": "item",
-      "id": "thermal:diamond_dust",
-      "amount": 64
-    },
-    "item:tconstruct:tool_handle{Material:\"tconstruct:terrasteel\"}",
-    {
-      "type": "item",
-      "id": "minecraft:ender_pearl",
-      "amount": 5
-    },
-    "item:minecraft:composter",
-    "item:tfc:composter",
-    {
-      "type": "item",
-      "id": "minecraft:stick",
-      "amount": 32
-    },
-    "item:minecraft:fletching_table",
-    "item:ad_astra:solar_panel",
-    {
-      "type": "item",
-      "id": "minecraft:sticky_piston",
-      "amount": 3
-    },
-    {
-      "type": "item",
-      "id": "palmon:stone",
-      "amount": 61
-    },
-    "item:naturescompass:naturescompass",
-    {
-      "type": "item",
-      "id": "minecraft:andesite",
-      "amount": 6
-    },
-    "item:botania:slime_bottle",
-    "#item:c:raw_lead_blocks",
-    "#item:c:lead_ingots",
-    "item:modularrouters:inspection_filter",
-    "item:modularrouters:bulk_item_filter",
-    "item:modularrouters:puller_module_1",
-    {
-      "type": "jemi",
-      "uid": "tconstruct:gilded"
-    },
-    {
-      "type": "item",
-      "id": "jaopca:dusts.desh",
-      "amount": 64
-    },
-    "item:tfc:metal/block/brass",
-    {
-      "type": "fluid",
-      "id": "embers:molten_brass",
-      "amount": 0
-    },
-    "item:ad_astra:desh_ingot",
-    {
-      "type": "item",
-      "id": "ad_astra:raw_desh_block",
-      "amount": 10
-    },
-    {
-      "type": "item",
-      "id": "ad_astra:raw_desh",
-      "amount": 64
-    },
-    "item:tconstruct:silky_cloth",
-    "item:botania:gaia_pylon",
-    "item:botania:gaia_ingot",
-    "item:botania:life_essence",
-    "item:minecraft:lightning_rod",
-    {
-      "type": "item",
-      "id": "tconstruct:necrotic_bone",
-      "amount": 35
-    },
-    "item:umapyoi:cupcake",
-    {
-      "type": "fluid",
-      "id": "minecraft:milk",
-      "amount": 0
-    },
-    "item:aquamirae:poseidons_breakfast",
-    {
-      "type": "item",
-      "id": "dustandash:order_dust",
-      "amount": 13
-    },
-    "item:tconstruct:rose_gold_ingot"
+    "item:minecraft:magenta_concrete_powder"
   ],
   "craft_history": [
     "kubejs:melter_s2",
@@ -2597,7 +2584,6 @@
     "minecraft:shears",
     "tfc:crafting/firestarter",
     "embers:pressure_refinery",
-    "embers:stamper",
     "embers:crystal_cell",
     "embers:raw_plate_stamp",
     "quark:tweaks/crafting/utility/bent/bread",

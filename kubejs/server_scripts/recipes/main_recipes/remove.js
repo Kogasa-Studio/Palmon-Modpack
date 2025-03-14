@@ -47,6 +47,15 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:item_application/brass_casing_from_log_using_deployer' })
     event.remove({ id: 'create:item_application/brass_casing_from_wood_using_deployer' })
 
+    event.remove({ id: 'mekanism:bin/basic' })
+    event.remove({ id: 'mekanism:bin/advanced' })
+    event.remove({ id: 'mekanism:bin/elite' })
+    event.remove({ id: 'mekanism:bin/ultimate' })
+    event.remove({ id: 'mekanism_extras:bin/absolute' })
+    event.remove({ id: 'mekanism_extras:bin/supreme' })
+    event.remove({ id: 'mekanism_extras:bin/cosmic' })
+    event.remove({ id: 'mekanism_extras:bin/infinite' })
+
     event.remove({ id: 'tfc_ie_addon:anvil/hammer_head' })
     event.remove({ id: 'tfc_ie_addon:anvil/wirecutter_head' })
 
@@ -59,6 +68,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'embers:ember_activator' })
     event.remove({ id: 'embers:melter' })
     event.remove({ id: 'embers:stamper' })
+    event.remove({ id: 'embers:alchemy_tablet' })
+
+    event.remove({ id: 'integratedterminals:crafting/part_terminal_storage' })
+    event.remove({ id: 'rftoolsbuilder:builder' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

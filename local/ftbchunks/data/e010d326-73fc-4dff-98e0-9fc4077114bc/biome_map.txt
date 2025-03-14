@@ -1,6 +1,7 @@
 #0D1 biomeswevegone:amaranth_grassland
 #5A4 adventuresmod:ashed_wastes
 #6F6 minecraft:badlands
+#0F2 tfc:badlands
 #618 minecraft:basalt_deltas
 #5B6 regions_unexplored:blackstone_basin
 #570 minecraft:crimson_forest

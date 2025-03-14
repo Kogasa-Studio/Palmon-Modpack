@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "2___beneath_the_world"
 	group: "103C794559B2F3C7"
+	icon: "minecraft:netherrack"
 	id: "057A6106E774415D"
 	order_index: 1
 	quest_links: [{
@@ -270,6 +271,238 @@
 			}]
 			x: 16.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["518D5BB2DA0A9E0C"]
+			id: "34AB730CB39AD62D"
+			rewards: [{
+				count: 3
+				id: "1148AC792DA22BB0"
+				item: "cobblemon:relic_coin"
+				type: "item"
+			}]
+			subtitle: "再一次..."
+			tasks: [{
+				id: "55CDA2640C10E355"
+				type: "checkmark"
+			}]
+			title: "分歧点 2.0"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34AB730CB39AD62D"]
+			icon: "minecraft:chest"
+			id: "57C7123817EBBE5C"
+			rewards: [{
+				id: "0789BD486BD0DB77"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "integratedterminals:part_terminal_storage"
+								}
+								{
+									Count: 16b
+									Slot: 1b
+									id: "integrateddynamics:cable"
+								}
+								{
+									Count: 8b
+									Slot: 2b
+									id: "integratedtunnels:part_interface_item"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "物资：库存管理"
+			tasks: [{
+				id: "0A438173C2F57F59"
+				type: "checkmark"
+			}]
+			title: "2-2 动态联合"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34AB730CB39AD62D"]
+			id: "0E9A86F7F8F2F1DE"
+			subtitle: "灵感：空间压缩"
+			tasks: [{
+				id: "41F4FBF72A451ADD"
+				type: "checkmark"
+			}]
+			title: "2-0 压缩空间机器"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34AB730CB39AD62D"]
+			icon: "embers:tinker_hammer"
+			id: "2DD4A11F667C59A9"
+			rewards: [{
+				id: "1F094C9BED524FAB"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 48b
+									Slot: 0b
+									id: "minecraft:raw_copper"
+								}
+								{
+									Count: 48b
+									Slot: 1b
+									id: "minecraft:raw_gold"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "embers:tinker_lens"
+								}
+								{
+									Count: 16b
+									Slot: 3b
+									id: "embers:ember_crystal"
+								}
+								{
+									Count: 32b
+									Slot: 4b
+									id: "embers:caminite_blend"
+								}
+								{
+									Count: 2b
+									Slot: 5b
+									id: "embers:ember_dial"
+								}
+								{
+									Count: 4b
+									Slot: 6b
+									id: "embers:mechanical_core"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "embers:ember_activator"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "malum:blazing_quartz"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "物资：余烬工匠"
+			tasks: [{
+				id: "70A61241F6A07758"
+				type: "checkmark"
+			}]
+			title: "2-1 余烬"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34AB730CB39AD62D"]
+			icon: "rftoolsbuilder:shape_card_def"
+			id: "322162A1B029C99D"
+			rewards: [{
+				id: "627E9D0FE9D1EF20"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "rftoolsbuilder:builder"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "rftoolsbuilder:shape_card_quarry"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "rftoolsbuilder:shape_card_quarry_clear"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "rftoolsbuilder:shape_card_quarry_silk"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "rftoolsbuilder:shape_card_quarry_clear_silk"
+								}
+								{
+									Count: 2b
+									Slot: 5b
+									id: "rftoolspower:dimensionalcell"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "rftoolsstorage:storage_scanner"
+								}
+								{
+									Count: 2b
+									Slot: 7b
+									id: "rftoolsstorage:modular_storage"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "rftoolsstorage:storage_module3"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "rftoolsstorage:storage_module3"
+								}
+								{
+									Count: 2b
+									Slot: 10b
+									id: "rftoolspower:coalgenerator"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "物资：RFT存储与建造"
+			tasks: [{
+				id: "483A11A4A76B4446"
+				type: "checkmark"
+			}]
+			title: "2-3 RFTools"
+			x: 6.0d
+			y: 4.0d
 		}
 	]
 	title: "2. 群峦之下 | Beneath the World"
