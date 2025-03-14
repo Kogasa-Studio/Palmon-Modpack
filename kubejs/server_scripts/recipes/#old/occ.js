@@ -17,7 +17,6 @@ ServerEvents.recipes(event => {
 			'tconstruct:hepatizon_ingot',
 			'tconstruct:queens_slime_ingot',
 			'malum:block_of_soul_stained_steel',
-			'redstone_arsenal:flux_obsidian_rod',
 			'occultism:iesnium_pickaxe'
 		],
 		'embers:superheater',

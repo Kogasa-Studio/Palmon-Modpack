@@ -16,6 +16,7 @@ local/ftbchunks/
 config/ItemLocks/
 shaderpacks/
 config/yes_steve_model/
+crash-reports/
 
 /usercache.json
 /usernamecache.json

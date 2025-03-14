@@ -14,7 +14,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ad_astra:steel_engine' })
     event.remove({ id: 'ad_astra:steel_tank' })
     event.remove({ id: 'ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_coals' })
-    event.remove({ id: 'redstone_arsenal:materials/flux_obsidian_rod' })
     event.remove({ id: 'ad_astra:nasa_workbench/tier_2_rocket_from_nasa_workbench' })
     event.remove({ id: 'botania:petal_apothecary/entropinnyum' })
     event.remove({ id: 'computercraft:computer_command' })
@@ -50,6 +49,16 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'tfc_ie_addon:anvil/hammer_head' })
     event.remove({ id: 'tfc_ie_addon:anvil/wirecutter_head' })
+
+    event.remove({ id: 'tconstruct:tables/crafting_station_from_logs' })
+    event.remove({ id: 'tconstruct:tables/crafting_station' })
+    event.remove({ id: 'tconstruct:tables/tinker_station' })
+    event.remove({ id: 'tconstruct:tables/part_builder' })
+
+    event.remove({ id: 'embers:mechanical_core' })
+    event.remove({ id: 'embers:ember_activator' })
+    event.remove({ id: 'embers:melter' })
+    event.remove({ id: 'embers:stamper' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

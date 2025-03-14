@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             "block_count": 12,
-            "tick": 1200,
+            "tick": 1000,
             "result_items": [
                 {
                     "item": "tfc:ore/poor_" + ore_item,
@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             "block_count": 16,
-            "tick": 1400,
+            "tick": 1200,
             "result_items": [
                 {
                     "item": "tfc:ore/normal_" + ore_item,
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
                 }
             ],
             "block_count": 20,
-            "tick": 1600,
+            "tick": 1300,
             "result_items": [
                 {
                     "item": "tfc:ore/rich_" + ore_item,

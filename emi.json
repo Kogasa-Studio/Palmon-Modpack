@@ -122,15 +122,121 @@
     {
       "stack": "item:immersiveengineering:creosote_bucket",
       "recipe": "jei:/thermal/bottler_creosote_bucket"
+    },
+    {
+      "stack": "item:malum:blazing_quartz",
+      "recipe": "malum:blazing_quartz_from_smelting"
+    },
+    {
+      "stack": "item:embers:mechanical_core"
+    },
+    {
+      "stack": "item:malum:block_of_blazing_quartz",
+      "recipe": "malum:block_of_blazing_quartz"
+    },
+    {
+      "stack": "item:embers:caminite_bricks"
+    },
+    {
+      "stack": "item:minecraft:iron_ingot"
+    },
+    {
+      "stack": "item:create:iron_sheet"
+    },
+    {
+      "stack": "item:embers:caminite_plate"
+    },
+    {
+      "stack": "item:minecraft:iron_block"
+    },
+    {
+      "stack": "item:thermal:steel_plate",
+      "recipe": "techreborn:compressor/steel_plate"
     }
   ],
   "lookup_history": [
-    "item:ad_astra:tier_1_rocket{}",
+    "item:embers:stamper",
+    "item:embers:stamp_base",
+    "item:embers:melter",
+    "item:tfc:metal/ingot/steel",
+    "#item:c:steel_ingots",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_steel",
+      "amount": 90
+    },
+    "item:thermal:steel_plate",
+    "#item:c:steel_plates",
+    "item:ad_astra:steel_plate",
+    "item:immersiveengineering:plate_steel",
+    "item:embers:mechanical_core",
+    "item:malum:block_of_blazing_quartz",
+    "item:malum:blazing_quartz",
     {
       "type": "item",
       "id": "kubejs:alpha_framework",
       "amount": 63
     },
+    "fluid:tconstruct:molten_iron",
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "forge:molten_iron",
+      "amount": 810
+    },
+    "item:minecraft:iron_block",
+    "item:minecraft:bucket",
+    "item:minecraft:barrel",
+    "item:embers:ember_receiver",
+    "item:embers:ember_emitter",
+    "item:embers:ember_activator",
+    "item:embers:ember_crystal",
+    "#item:c:iron_plates",
+    "item:minecraft:furnace",
+    "item:create:copper_sheet",
+    "item:embers:ember_shard",
+    {
+      "type": "item",
+      "id": "embers:ember_bore",
+      "amount": 32
+    },
+    "item:embers:caminite_blend",
+    {
+      "type": "item",
+      "id": "embers:caminite_brick",
+      "amount": 16
+    },
+    "item:embers:tinker_hammer",
+    {
+      "type": "item",
+      "id": "tconstruct:tinkers_chest",
+      "amount": 32
+    },
+    "item:tconstruct:part_chest",
+    "item:tconstruct:modifier_worktable",
+    "item:tconstruct:tinker_station",
+    "item:tconstruct:crafting_station",
+    "item:tconstruct:part_builder",
+    "item:minecraft:stone",
+    "item:minecraft:stonecutter",
+    "item:minecraft:crafting_table",
+    "item:rats:rat_crafting_table",
+    {
+      "type": "item",
+      "id": "tconstruct:pattern",
+      "amount": 64
+    },
+    "item:tconstruct:piggy_backpack",
+    "item:malum:blazing_quartz_ore",
+    "item:ad_astra:steel_engine",
+    "item:cobblemon:ancient_poke_ball",
+    "item:palmon:processing_station",
+    "item:umapyoi:uma_select_block",
+    "item:umapyoi:uma_pedestal",
+    "item:umapyoi:disassembly_block",
+    "item:umapyoi:jewel",
+    "item:umapyoi:three_goddess",
+    "item:ad_astra:tier_1_rocket{}",
     "item:ad_astra:nasa_workbench",
     {
       "type": "fluid",
@@ -152,7 +258,6 @@
       "id": "immersiveengineering:redstone_acid",
       "amount": 0
     },
-    "item:ad_astra:steel_engine",
     "item:ad_astra:fan",
     "item:ad_astra:engine_frame",
     "item:ad_astra:rocket_nose_cone",
@@ -176,9 +281,6 @@
     "item:tconstruct:plate_cast",
     "item:tfc:metal/sheet/bronze",
     "#item:forge:plates",
-    "item:thermal:steel_plate",
-    "#item:c:steel_plates",
-    "item:immersiveengineering:plate_steel",
     "item:tfc:metal/sheet/brass",
     "item:tfc:brass_mechanisms",
     "item:tfc_ie_addon:tool_head/wirecutter",
@@ -238,7 +340,7 @@
     "item:create:andesite_casing",
     "item:occultism:dimensional_mineshaft",
     "item:occultism:miner_debug_unspecialized{Damage:0,maxMiningTime:100,rollsPerOperation:10,spiritName:\"Mortirsyrn\"}",
-    "#item:forge:chests/wooden",
+    "#item:c:chests/wooden",
     {
       "type": "item",
       "id": "woodenhopper:wooden_hopper",
@@ -296,7 +398,6 @@
     "item:quark:blackstone_furnace",
     "item:nethersdelight:blackstone_furnace",
     "item:quark:deepslate_furnace",
-    "item:minecraft:furnace",
     "item:minecraft:dried_kelp",
     "item:tfc:food/dried_kelp",
     "item:tfc:plant/winged_kelp",
@@ -377,7 +478,6 @@
     },
     "item:tfc:metal/ingot/weak_steel",
     "item:tfc:metal/ingot/pig_iron",
-    "item:tfc:metal/ingot/steel",
     "item:tfc:metal/ingot/high_carbon_steel",
     "item:tfc:bucket/metal/black_steel",
     {
@@ -407,11 +507,6 @@
     {
       "type": "fluid",
       "id": "tconstruct:molten_manyullyn",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "tconstruct:molten_steel",
       "amount": 0
     },
     {
@@ -531,20 +626,15 @@
     "item:supplementaries:planter",
     "item:farmersdelight:rich_soil",
     "item:occultism:datura",
-    "item:palmon:processing_station",
     "item:palmon:production_machine",
     "item:palmon:working_station",
     "item:tfc:glow_arrow",
     "item:minecraft:smithing_table",
-    "#item:forge:crops/carrot",
-    "item:umapyoi:jewel",
-    "item:umapyoi:three_goddess",
+    "#item:c:crops/carrot",
     "item:umapyoi:silver_uma_pedestal",
-    "item:umapyoi:uma_pedestal",
     "item:tfc:papyrus",
     "item:minecraft:sugar_cane",
     "item:minecraft:paper",
-    "item:cobblemon:ancient_poke_ball",
     "item:tinkers_things:large_repair_kit{Material:\"tconstruct:scorched_stone\"}",
     {
       "type": "fluid",
@@ -625,7 +715,6 @@
     "item:tfc:metal/double_sheet/bismuth",
     "item:tfc_ie_addon:metal/sheet/electrum",
     "item:tfc_ie_addon:metal/double_ingot/electrum",
-    "item:minecraft:barrel",
     "item:tfc:wood/support/oak",
     {
       "type": "item",
@@ -743,7 +832,7 @@
       "amount": 3
     },
     "#item:c:copper_ingots",
-    "#item:c:gold_ingots",
+    "#item:c:ingots/gold",
     "#item:c:nickel_ingots",
     "item:tfc:metal/ingot/rose_gold",
     "#item:forge:ingots/rose_gold",
@@ -847,7 +936,6 @@
     "item:confluence:anklet_of_the_wind",
     "item:confluence:aglet",
     "item:confluence:spectre_boots{}",
-    "item:minecraft:crafting_table",
     "item:confluence:workshop",
     "item:minecraft:bookshelf",
     "item:minecraft:end_crystal",
@@ -975,7 +1063,6 @@
     },
     "item:tfc:food/pork",
     "item:confluence:flesh_knuckles",
-    "item:minecraft:bucket",
     {
       "type": "item",
       "id": "integratedtunnels:part_interface_energy",
@@ -1125,7 +1212,6 @@
       "id": "thermal:lumium_ingot",
       "amount": 16
     },
-    "item:redstone_arsenal:flux_obsidian_rod",
     "item:embers:superheater",
     {
       "type": "item",
@@ -1257,12 +1343,6 @@
     "item:thermal:press_gear_die",
     "item:dustandash:integrated_block",
     "item:minecraft:anvil",
-    "item:minecraft:iron_block",
-    {
-      "type": "item",
-      "id": "tconstruct:pattern",
-      "amount": 29
-    },
     {
       "type": "item",
       "id": "tconstruct:cobalt_reinforcement",
@@ -1291,7 +1371,6 @@
     "#item:minecraft:anvil",
     "item:dustandash:milling_machine",
     "item:minecraft:damaged_anvil",
-    "item:minecraft:stonecutter",
     "item:thermal:gold_gear",
     {
       "type": "item",
@@ -1316,8 +1395,6 @@
     },
     "item:cataclysm:mech_eye",
     "item:cataclysm:void_eye",
-    "item:redstone_arsenal:flux_gem",
-    "item:redstone_arsenal:obsidian_rod",
     "#item:forge:eggs",
     "item:tfc:cake",
     "item:farmersdelight:cake_slice",
@@ -1632,11 +1709,6 @@
     "item:minecraft:netherite_pickaxe{Damage:0}",
     "item:minecraft:cooked_beef",
     "item:occultism:dictionary_of_spirits{\"akashictome:data\":{adventuresmod:{Count:1b,id:\"adventuresmod:adventurers_guide\"},cobblepedia:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"cobblepedia:cobblepedia\"}},dimdungeons:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"dimdungeons:guide_book\"}},ftbquests:{Count:1b,id:\"ftbquests:book\"},immersiveengineering:{Count:1b,id:\"immersiveengineering:manual\"},integratedtunnels:{Count:1b,id:\"integrateddynamics:on_the_dynamics_of_integration\",tag:{\"akashictome:displayName\":{text:\u0027{\"translate\":\"item.integrateddynamics.on_the_dynamics_of_integration\"}\u0027},\"akashictome:is_morphing\":1b,display:{Name:\u0027{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.integrateddynamics.on_the_dynamics_of_integration\"}]}\u0027}}},malum:{Count:1b,id:\"malum:encyclopedia_arcana\",tag:{\"akashictome:displayName\":{text:\u0027{\"translate\":\"item.malum.encyclopedia_arcana\"}\u0027},\"akashictome:is_morphing\":1b,display:{Name:\u0027{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.malum.encyclopedia_arcana\"}]}\u0027}}},solonion:{Count:1b,id:\"solonion:food_book\",tag:{\"akashictome:displayName\":{text:\u0027{\"translate\":\"item.solonion.food_book\"}\u0027},\"akashictome:is_morphing\":1b,display:{Name:\u0027{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.solonion.food_book\"}]}\u0027}}},tconstruct:{Count:1b,id:\"tconstruct:materials_and_you\"},tconstruct_0:{Count:1b,id:\"tconstruct:puny_smelting\",tag:{\"akashictome:definedMod\":\"tconstruct_0\"}},tconstruct_1:{Count:1b,id:\"tconstruct:tinkers_gadgetry\",tag:{\"akashictome:definedMod\":\"tconstruct_1\"}},tconstruct_2:{Count:1b,id:\"tconstruct:mighty_smelting\",tag:{\"akashictome:definedMod\":\"tconstruct_2\"}},tconstruct_3:{Count:1b,id:\"tconstruct:encyclopedia\",tag:{\"akashictome:definedMod\":\"tconstruct_3\",\"akashictome:displayName\":{text:\u0027{\"translate\":\"item.tconstruct.encyclopedia\"}\u0027},\"akashictome:is_morphing\":1b,display:{Name:\u0027{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.tconstruct.encyclopedia\"}]}\u0027},mantle:{book:{current_page:\"upgrades.damage.tconstruct.cooling\"}}}},tconstruct_4:{Count:1b,id:\"tconstruct:fantastic_foundry\",tag:{\"akashictome:definedMod\":\"tconstruct_4\",mantle:{book:{current_page:\"\"}}}},tfc:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"tfc:field_guide\"}},umapyoi:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"umapyoi:trainers_manual\"}}},\"akashictome:displayName\":{text:\u0027{\"translate\":\"book.occultism.dictionary_of_spirits.name\"}\u0027},\"akashictome:is_morphing\":1b,display:{Name:\u0027{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"book.occultism.dictionary_of_spirits.name\"}]}\u0027},\"modonomicon:book_id\":\"occultism:dictionary_of_spirits\"}",
-    {
-      "type": "item",
-      "id": "embers:ember_shard",
-      "amount": 64
-    },
     "item:umapyoi:blank_uma_soul{identifier:\"umapyoi_addon:miku_master\",name:\"umapyoi_addon:miku_master\",ranking:\"easter_egg\"}",
     "item:tfc:food/rice_flour",
     "#item:tfc:foods/flour",
@@ -1679,7 +1751,6 @@
     "item:netmusic:music_cd{NetMusicSongInfo:{artists:[\"无水醋酸铜\",\"薇Steria\",\"Gratesca Studio\"],name:\"梦灯花\",read_only:0b,time:150,url:\"https://music.163.com/song/media/outer/url?id\u003d2108192336.mp3\",vip:0b}}",
     "item:minecraft:gray_dye",
     "item:minecraft:brown_dye",
-    "item:betterarcheology:netherite_brush{Damage:15}",
     "item:minecraft:writable_book",
     "item:minecraft:mangrove_log",
     "item:minecraft:iron_helmet{Damage:0}",
@@ -1883,13 +1954,9 @@
     "item:embers:entropic_enumerator",
     "item:embers:ember_dial",
     "item:embers:beam_splitter",
-    "item:embers:ember_receiver",
-    "item:embers:mechanical_core",
     "item:thermal:lead_plate",
     "#item:c:lead_plates",
     "item:embers:caminite_bricks",
-    "item:embers:stamp_base",
-    "item:embers:stamper",
     "item:embers:wildfire_core",
     "item:embers:inferno_forge",
     {
@@ -1920,11 +1987,6 @@
     {
       "type": "item",
       "id": "embers:dawnstone_plate",
-      "amount": 2
-    },
-    {
-      "type": "item",
-      "id": "embers:ember_emitter",
       "amount": 2
     },
     "item:occultism:ritual_dummy/summon_marid_crusher",
@@ -2151,53 +2213,11 @@
       "id": "dustandash:order_dust",
       "amount": 13
     },
-    "item:tconstruct:rose_gold_ingot",
-    "item:minecraft:blue_orchid",
-    "item:minecraft:cornflower",
-    "item:minecraft:book",
-    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"ad_astra_giselle_addon:space_breathing\",lvl:1s}]}",
-    "item:ad_astra:fuel_refinery",
-    "item:ad_astra:gas_tank{}",
-    "item:ad_astra:oxygen_loader",
-    "item:tfc:metal/rod/copper",
-    "item:ad_astra:space_suit{Damage:0}",
-    {
-      "type": "item",
-      "id": "tfc:metal/rod/cast_iron",
-      "amount": 8
-    },
-    "item:immersiveengineering:mold_rod",
-    "item:ad_astra:space_pants{Damage:0}",
-    "item:ad_astra:space_boots{Damage:0}",
-    "item:ad_astra:oxygen_gear",
-    "item:ad_astra:space_helmet{Damage:0}",
-    "#item:c:obsidian_dusts",
-    "item:thermal:quartz_dust",
-    {
-      "type": "item",
-      "id": "malum:natural_quartz",
-      "amount": 32
-    },
-    {
-      "type": "item",
-      "id": "minecraft:obsidian",
-      "amount": 7
-    },
-    {
-      "type": "tag",
-      "registry": "minecraft:item",
-      "id": "c:coal_dusts",
-      "amount": 3
-    },
-    "#item:c:steel_ingots",
-    "item:thermal:steel_dust",
-    {
-      "type": "item",
-      "id": "immersiveengineering:dust_coke",
-      "amount": 31
-    }
+    "item:tconstruct:rose_gold_ingot"
   ],
   "craft_history": [
+    "kubejs:melter_s2",
+    "malum:block_of_blazing_quartz",
     "minecraft:netherite_ingot",
     "minecraft:coal_block",
     "confluence:obsidian_skull",
@@ -2327,8 +2347,6 @@
     "malum:torch_from_blazing_quartz",
     "cobblemon:leek_and_potato_stew",
     "minecraft:diamond_block",
-    "redstone_arsenal:materials/flux_gem",
-    "redstone_arsenal:materials/obsidian_rod",
     "minecraft:netherite_upgrade_smithing_template",
     "farmersdelight:mixed_salad",
     "integratedtunnels:crafting/part_importer_fluid",
@@ -2452,7 +2470,6 @@
     "embers:ember_dial",
     "embers:beam_splitter",
     "embers:ember_receiver",
-    "embers:mechanical_core",
     "embers:caminite_bricks",
     "embers:inferno_forge",
     "minecraft:black_dye",
@@ -2536,7 +2553,6 @@
     "scannable:chest_module",
     "scannable:blank_module",
     "scannable:rare_ores_module",
-    "thermal:charge_bench",
     "beneath:crafting/cobblerack",
     "minecraft:raw_iron",
     "botania:glimmering_livingwood_log",
@@ -2586,14 +2602,12 @@
     "embers:raw_plate_stamp",
     "quark:tweaks/crafting/utility/bent/bread",
     "embers:dawnstone_anvil",
-    "embers:melter",
     "embers:mixer_centrifuge",
     "embers:raw_ingot_stamp",
     "embers:stamp_base",
     "embers:ember_emitter",
     "embers:raw_caminite_plate",
     "embers:tinker_hammer",
-    "embers:ember_activator",
     "create:crafting/kinetics/goggles",
     "tconstruct:tables/modifier_worktable",
     "waterflasks:crafting/leather_flask_rotated",
@@ -2652,9 +2666,6 @@
     "tfcoreprocessing:compress/charcoal_briquette",
     "pipez:energy_pipe",
     "tfc:crafting/metal/block/copper",
-    "tconstruct:tables/crafting_station",
-    "tconstruct:tables/tinker_station",
-    "tconstruct:tables/part_builder",
     "minecraft:gray_dye",
     "netmusic:music_player",
     "netmusic:cd_burner",
@@ -2724,24 +2735,24 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
       "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
       "tfcoreprocessing:compress/compress_refined_limonite",
       "jei:/tfc/casting/weak_steel_ingot",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/tfc/anvil/black_steel_ingot"
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel"
     ],
     "tags": {
-      "#item:c:gold_ingots": "item:tfc:metal/ingot/gold",
       "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
-      "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
+      "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel",
+      "#item:c:ingots/gold": "item:tfc:metal/ingot/gold"
     },
     "resolutions": {},
     "disabled": []

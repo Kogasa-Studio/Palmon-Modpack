@@ -297,15 +297,12 @@ _version = 3
 				# Increasing the vanilla render distance increases the effectiveness of this setting.
 				overdrawPrevention = "0.0"
 				#
-				# If enabled caves will be culled 
+				# If enabled caves won't be rendered. 
 				# 
-				# NOTE: This feature is under development and 
-				#  it is VERY experimental! Please don't report 
-				#  any issues related to this feature. 
-				# 
-				# Additional Info: Currently this cull all faces 
-				#  with skylight value of 0 in dimensions that 
-				#  does not have a ceiling.
+				#  Note: for some world types this can cause 
+				#  overhangs or walls for floating objects. 
+				#  Tweaking the caveCullingHeight, can resolve some 
+				#  of those issues.
 				enableCaveCulling = true
 				#
 				# At what Y value should cave culling start? 
@@ -336,12 +333,14 @@ _version = 3
 				disableShadowPassFrustumCulling = false
 				#
 				# A comma separated list of block resource locations that won't be rendered by DH. 
-				# Note: air is always included in this list.
+				# Air is always included in this list. 
+				# Requires a restart to change.
 				ignoredRenderBlockCsv = "minecraft:barrier,minecraft:structure_void,minecraft:light,minecraft:tripwire,minecraft:brown_mushroom"
 				#
 				# A comma separated list of block resource locations that shouldn't be rendered 
 				# if they are in a 0 sky light underground area. 
-				# Note: air is always included in this list.
+				# Air is always included in this list. 
+				# Requires a restart to change.
 				ignoredRenderCaveBlockCsv = "minecraft:glow_lichen,minecraft:rail,minecraft:water,minecraft:lava,minecraft:bubble_column"
 
 			[client.advanced.graphics.experimental]
@@ -644,6 +643,20 @@ _version = 3
 		# If either of those happen try setting this to True.
 		assumePreExistingChunksAreFinished = true
 
+		[common.lodBuilding.experimental]
+			#
+			# When active DH will attempt to fill missing LOD data 
+			# with any data that is present in the tree, preventing holes when moving 
+			# when a N-sized generator (or server) is active. 
+			# 
+			# This is only used when N-sized world generation is available 
+			# and/or when on a server where [generateOnlyInHighestDetail] is false. 
+			# 
+			# Experimental:
+			# Enabling this option will increase CPU and harddrive use
+			# and may cause rendering bugs.
+			upsampleLowerDetailLodsToFillHoles = false
+
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
@@ -760,4 +773,11 @@ _version = 3
 	# Maximum speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
 	maxDataTransferSpeed = 500
+
+	[server.experimental]
+		#
+		# When enabled on the client, this allows loading lower detail levels as needed to speed up terrain generation.
+		# This must also be enabled on the server; otherwise, it will have no effect.
+		# For better performance when switching LOD detail levels, enabling [upsampleLowerDetailLodsToFillHoles] is recommended.
+		enableNSizedGeneration = false
 

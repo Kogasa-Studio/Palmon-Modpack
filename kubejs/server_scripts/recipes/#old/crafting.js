@@ -4,14 +4,7 @@ ServerEvents.recipes(event => {
     
     event.shapeless('minecraft:gravel', ['#forge:gravel'])
 
-    event.shapeless('cobblemon:ancient_poke_ball', [Ingredient.of(['cobblemon:ancient_poke_ball', 'cobblemon:ancient_citrine_ball', 'cobblemon:ancient_verdant_ball', 'cobblemon:ancient_azure_ball', 'cobblemon:ancient_roseate_ball', 'cobblemon:ancient_slate_ball', 'cobblemon:ancient_slate_ball'])])
-    event.shapeless('cobblemon:ancient_poke_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/red'])
-    event.shapeless('cobblemon:ancient_citrine_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/yellow'])
-    event.shapeless('cobblemon:ancient_verdant_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/green'])
-    event.shapeless('cobblemon:ancient_azure_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/blue'])
-    event.shapeless('cobblemon:ancient_roseate_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/pink'])
-    event.shapeless('cobblemon:ancient_slate_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/black'])
-    event.shapeless('cobblemon:ancient_ivory_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/white'])
+
 
     event.shapeless('cobblemon:ancient_feather_ball', ['#forge:feathers', 'cobblemon:ancient_azure_ball'])
     event.shapeless('cobblemon:ancient_wing_ball', ['#forge:feathers', 'cobblemon:ancient_great_ball'])
@@ -24,29 +17,6 @@ ServerEvents.recipes(event => {
     event.shapeless('4x thermal:signalum_coin', ['thermal:enderium_coin'])
     
     event.shapeless('palmon:stone', ['2x tfc:rock/smooth/granite', '2x tfc:rock/smooth/diorite', '2x tfc:rock/smooth/andesite', '2x tfc:rock/smooth/dacite'])
-
-    event.shaped('minecraft:barrel', [
-        'ACA',
-        'ABA',
-        'AAA'
-    ],
-        {
-            A: '#tfc:lumber',
-            B: '#tfc:barrels',
-            C: '#forge:dusts/redstone'
-        })
-
-    event.shaped('cobblemon:ancient_poke_ball', [
-        'AAA',
-        'BCB',
-        'DDD'
-    ],
-        {
-            A: 'cobblemon:red_apricorn',
-            B: 'tfc:metal/sheet/copper',
-            C: '#tfc:trim_materials',
-            D: 'palmon:wood'
-        })
 
     event.shaped('sophisticatedbackpacks:backpack', [
         'ABA',
@@ -93,17 +63,6 @@ ServerEvents.recipes(event => {
             D: ['tfc:metal/greaves/red_steel', 'tfc:metal/greaves/blue_steel'],
             E: ['tfc:metal/boots/red_steel', 'tfc:metal/boots/blue_steel'],
             F: 'tfc:hematitic_glass_bottle'
-        })
-
-    event.shaped('redstone_arsenal:flux_obsidian_rod', [
-        ' BA',
-        ' C ',
-        'AB '
-    ],
-        {
-            A: 'redstone_arsenal:flux_gem',
-            B: 'redstone_arsenal:obsidian_rod',
-            C: 'thermal:upgrade_augment_3'
         })
 
     event.shaped('botania:alfheim_portal', [

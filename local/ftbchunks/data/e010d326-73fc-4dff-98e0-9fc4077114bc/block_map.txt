@@ -88,6 +88,7 @@
 #3D8BFC minecraft:cobblestone_stairs
 #E2D601 minecraft:composter
 #6E76AF minecraft:copper_ore
+#724B56 tconstruct:copper_platform
 #CC07F6 minecraft:cornflower
 #2E6C3D minecraft:cracked_deepslate_bricks
 #552826 minecraft:cracked_nether_bricks
@@ -95,6 +96,7 @@
 #7E2A1B biomeswevegone:cracked_sand
 #306005 minecraft:cracked_stone_bricks
 #7CFFD6 beneath:crackrack
+#8C5E34 tconstruct:crafting_station
 #468304 minecraft:crafting_table
 #54DCC2 supplementaries:crank
 #08CF47 immersiveengineering:creosote_fluid_block
@@ -139,6 +141,8 @@
 #B666A8 minecraft:dispenser
 #593405 netherexp:ecto_soul_sand
 #1C3CE1 netherexp:ectoplasm
+#811CAC embers:ember_bore
+#E04718 embers:ember_bore_edge
 #548B83 create:encased_fan
 #AAFCBA netherexp:etched_soul_slate_tiles
 #B9B269 minecraft:fire_coral_block

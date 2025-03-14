@@ -1,0 +1,276 @@
+{
+	autofocus_id: "0E4E60BCE9A66B27"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2___beneath_the_world"
+	group: "103C794559B2F3C7"
+	id: "057A6106E774415D"
+	order_index: 1
+	quest_links: [{
+		id: "07AC57A1084FD560"
+		linked_quest: "32EAD9843E44D905"
+		x: 4.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"6C826BF49512B4E2"
+				"626CB6BCBF3B96D2"
+				"3ABEE2886AB0E634"
+			]
+			id: "153BB1808FC6284A"
+			rewards: [{
+				id: "139428619922BB86"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "驰骋星海"
+			tasks: [{
+				id: "774BDB0D61CEFD9B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"32EAD9843E44D905"
+				"2789B5D15B2F027C"
+			]
+			id: "626CB6BCBF3B96D2"
+			subtitle: "过时了！"
+			tasks: [{
+				id: "4868DBD2A06ECA1E"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["32EAD9843E44D905"]
+			id: "6C826BF49512B4E2"
+			tasks: [{
+				id: "4DA42D0E98F9AC82"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["32EAD9843E44D905"]
+			description: ["你可以通过发酵杂酚油与红石获取一些火箭燃料，但是..."]
+			icon: "ad_astra:fuel_bucket"
+			id: "3ABEE2886AB0E634"
+			subtitle: "临时的解决方案"
+			tasks: [{
+				id: "2623F97A65B47B86"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "燃油"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17673A8A63634284"]
+			icon: "minecraft:netherrack"
+			id: "0E4E60BCE9A66B27"
+			subtitle: "深埋地底"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1B9F2275237BAABA"
+				type: "dimension"
+			}]
+			title: "群峦之下"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E4E60BCE9A66B27"]
+			id: "484C70F78AF3D3A4"
+			rewards: [{
+				id: "7874436F15AF3BB6"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			subtitle: "燃烧的石英"
+			tasks: [{
+				id: "58445933C9CF1EB2"
+				item: "malum:blazing_quartz"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E4E60BCE9A66B27"]
+			id: "280D3D2587041B8F"
+			subtitle: "陶瓷"
+			tasks: [{
+				id: "726D9506F0C88FD5"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"280D3D2587041B8F"
+				"484C70F78AF3D3A4"
+				"32EAD9843E44D905"
+			]
+			id: "518D5BB2DA0A9E0C"
+			rewards: [{
+				id: "2151153F2344A469"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DECE31D4F8A731B"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["518D5BB2DA0A9E0C"]
+			description: ["你可以使用烈焰石英充当燃料"]
+			id: "2D7D8C694022BC00"
+			rewards: [{
+				id: "0A64A72C9483B8C6"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			tasks: [{
+				id: "562EBD593422DD2B"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D7D8C694022BC00"]
+			id: "3AD64CC3E37D7C76"
+			tasks: [{
+				id: "3C6C31A391145EC7"
+				item: "embers:ember_grit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D7D8C694022BC00"]
+			id: "27A3381A4C39BBFD"
+			tasks: [{
+				id: "79E5D073FAFCBF40"
+				item: "embers:ember_shard"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D7D8C694022BC00"]
+			id: "330E8BF842E3020F"
+			tasks: [{
+				id: "42CABA5F3784BA64"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["330E8BF842E3020F"]
+			id: "7C347734FD26C727"
+			subtitle: "发电？"
+			tasks: [{
+				id: "581D62EAF06A6CD8"
+				item: "embers:ember_activator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C347734FD26C727"]
+			id: "5D5D52762F9D3E39"
+			subtitle: "无线电！"
+			tasks: [
+				{
+					id: "38429F2571187641"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+				{
+					id: "3E34A2ED63399B93"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+			]
+			title: "余烬能量传输"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5D52762F9D3E39"]
+			id: "48DD05BDDC1E56E4"
+			tasks: [{
+				id: "08F011864F98F38A"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5D52762F9D3E39"]
+			icon: "embers:stamper"
+			id: "452033F23610E30E"
+			tasks: [
+				{
+					id: "67FDA717320B0588"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "1F1E8E102E287EE4"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"48DD05BDDC1E56E4"
+				"452033F23610E30E"
+			]
+			id: "78FD8C816053AA2C"
+			subtitle: "崭新黎明（没有那个）"
+			tasks: [{
+				id: "15E4982DA186CB51"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+	title: "2. 群峦之下 | Beneath the World"
+}

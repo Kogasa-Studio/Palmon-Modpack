@@ -6,7 +6,29 @@ ServerEvents.recipes(event => {
     event.shapeless('tfc:bellows', ['supplementaries:bellows', '#forge:leather'])
         .id('kubejs:bellows_comp')
 
-    event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10)
+    event.shapeless('cobblemon:ancient_poke_ball', [Ingredient.of(['cobblemon:ancient_poke_ball', 'cobblemon:ancient_citrine_ball', 'cobblemon:ancient_verdant_ball', 'cobblemon:ancient_azure_ball', 'cobblemon:ancient_roseate_ball', 'cobblemon:ancient_slate_ball', 'cobblemon:ancient_slate_ball'])]).id('kubejs:ball_0_s1')
+    event.shapeless('cobblemon:ancient_poke_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/red']).id('kubejs:ball_1_s1')
+    event.shapeless('cobblemon:ancient_citrine_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/yellow']).id('kubejs:ball_2_s1')
+    event.shapeless('cobblemon:ancient_verdant_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/green']).id('kubejs:ball_3_s1')
+    event.shapeless('cobblemon:ancient_azure_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/blue']).id('kubejs:ball_4_s1')
+    event.shapeless('cobblemon:ancient_roseate_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/pink']).id('kubejs:ball_5_s1')
+    event.shapeless('cobblemon:ancient_slate_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/black']).id('kubejs:ball_6_s1')
+    event.shapeless('cobblemon:ancient_ivory_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/white']).id('kubejs:ball_7_s1')
+
+    event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_s1')
+    event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
+
+    event.shaped('3x cobblemon:ancient_poke_ball', [
+        'AAA',
+        'BCB',
+        'DDD'
+    ],
+        {
+            A: 'cobblemon:red_apricorn',
+            B: 'tfc:metal/sheet/copper',
+            C: '#tfc:trim_materials',
+            D: 'palmon:wood'
+        })
 
     event.shaped('9x tconstruct:seared_brick', [
         'ACB',
@@ -95,5 +117,50 @@ ServerEvents.recipes(event => {
             E: 'ad_astra:fan'
         }).id('kubejs:steel_engine_s1')
 
+    event.shaped('tconstruct:crafting_station', [
+        'ACA',
+        'BDB',
+        'B B'
+    ],
+        {
+            A: 'tconstruct:pattern',
+            B: '#tconstruct:planklike',
+            C: 'kubejs:alpha_framework',
+            D: '#forge:crafting_tables'
+        }).id('kubejs:tc_crafting_station_s1')
+
+    event.shaped('tconstruct:part_builder', [
+        'A A',
+        ' B ',
+        'A A'
+    ],
+        {
+            A: 'tconstruct:pattern',
+            B: 'tconstruct:crafting_station'
+        }).id('kubejs:tc_part_builder_s1')
+
+    event.shaped('tconstruct:tinker_station', [
+        'AAA',
+        'CBC',
+        'C C'
+    ],
+        {
+            A: 'tconstruct:pattern',
+            B: 'tconstruct:crafting_station',
+            C: '#tconstruct:planklike'
+        }).id('kubejs:tc_tinker_station_s1')
+
+    event.shaped('minecraft:barrel', [
+        'ABA',
+        'ACA',
+        'ADA'
+    ],
+        {
+            A: '#tconstruct:planklike',
+            B: '#tfc:barrels',
+            C: '#forge:dusts/redstone',
+            D: '#minecraft:wooden_slabs'
+        }).id('kubejs:barrel')
+        
 })
 

@@ -240,7 +240,6 @@
 		{
 			dependencies: ["73BA44112A812A9A"]
 			id: "3004D56C67359C5C"
-			shape: "hexagon"
 			subtitle: "为了更进一步的加工金属，你需要去寻找一块合适的岩石与一把锤子。\\n详细请查阅群峦传说手册原始砧条目。"
 			tasks: [{
 				id: "66B2D1C1A5F8D5E2"
@@ -434,7 +433,6 @@
 				id: "tfc:metal/double_sheet/bronze"
 			}
 			id: "4B7DD0BE2EA68D42"
-			shape: "hexagon"
 			subtitle: "你需要8块这种双层薄板来制作锻铁炉"
 			tasks: [{
 				count: 2L
@@ -456,7 +454,6 @@
 		{
 			dependencies: ["4B7DD0BE2EA68D42"]
 			id: "03AD0443D82AD6DF"
-			shape: "hexagon"
 			subtitle: "使用锻铁炉与金属砧，你终于可以精炼出锻铁锭了。\\n详细请见群峦手册锻铁炉条目"
 			tasks: [{
 				id: "797C8D4AC8218D6A"
@@ -472,7 +469,6 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			id: "182A02FDAB992AFC"
-			shape: "hexagon"
 			subtitle: "敲敲打打"
 			tasks: [{
 				id: "5393E8B2E8D99DA3"
@@ -582,6 +578,26 @@
 			dependencies: ["73BA44112A812A9A"]
 			hide_until_deps_complete: true
 			id: "5298A692AAAAAE04"
+			rewards: [
+				{
+					count: 8
+					id: "26706EE066E74C69"
+					item: "cobblemon:poke_ball"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F262FF497FBC92E"
+					item: "cobblemon:potion"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "367210CF19375DEC"
+					item: "cobblemon:ether"
+					type: "item"
+				}
+			]
 			subtitle: "现在你已经在群峦星生存一段时间了，相信你也非常想和野生的宝可梦们建立羁绊。\\n这条任务线将会指引你制作在群峦星可用的宝可梦相关物品。"
 			tasks: [{
 				id: "64E7E16F48939879"
@@ -734,8 +750,9 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			description: ["神奇的疗草，可用于制作宝可梦相关的药品。"]
 			id: "21981A7D2CDE4A47"
-			subtitle: "由于Enchanted: Witchcraft并未完成，\\n所以部分物品可能不会正常工作。\\n疗草可以在水面上种植。"
+			subtitle: "异界植物"
 			tasks: [{
 				id: "38313D5FA24D2B50"
 				item: "cobblemon:medicinal_leek"
@@ -891,7 +908,6 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "09A6D43A95775808"
-			optional: true
 			shape: "hexagon"
 			subtitle: "Again!"
 			tasks: [{
@@ -1001,6 +1017,7 @@
 			dependencies: ["073B5FEE2E13EE3C"]
 			icon: "minecraft:obsidian"
 			id: "17673A8A63634284"
+			shape: "hexagon"
 			subtitle: "你心满意足了吗"
 			tasks: [{
 				id: "48619513EA2FC299"
@@ -1053,18 +1070,6 @@
 			title: "加工站信息"
 			x: 8.0d
 			y: 22.0d
-		}
-		{
-			dependencies: ["2D2B88EE1709D561"]
-			id: "28202F74DE752A8C"
-			subtitle: "很遗憾，在最初的阶段，你必须使用宝可梦发电"
-			tasks: [{
-				id: "5166766548F14BCA"
-				type: "checkmark"
-			}]
-			title: "电？"
-			x: 6.0d
-			y: 20.0d
 		}
 		{
 			dependencies: ["2789B5D15B2F027C"]
@@ -1181,6 +1186,7 @@
 		}
 		{
 			dependencies: ["427385C650D0060B"]
+			hide_until_deps_complete: true
 			id: "5E82BE9750149251"
 			rewards: [{
 				id: "2463898D7DE3C1D7"
@@ -1218,7 +1224,27 @@
 		}
 		{
 			dependencies: ["182A02FDAB992AFC"]
+			description: ["与来自异界的马娘之魂共鸣，你可以获得大量的属性加成与部分特殊技能。"]
 			id: "55233859B00FED1B"
+			rewards: [
+				{
+					id: "3FE4ADA736301641"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "umapyoi:trainers_manual"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "73A814AC64E635DB"
+					item: "tfc:seeds/carrot"
+					type: "item"
+				}
+			]
 			subtitle: "马儿蹦跳"
 			tasks: [{
 				id: "04B0560230D00EFB"
@@ -1235,6 +1261,7 @@
 				""
 				"你可以通过查看接下来三个任务需求材料的配方，来确定你获得的&l&e灵感&l&f。"
 			]
+			hide_until_deps_complete: true
 			id: "233CD2E34D0CD586"
 			subtitle: "第一次分歧"
 			tasks: [{
@@ -1262,6 +1289,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "灵感：神秘"
 			tasks: [
 				{
@@ -1306,6 +1334,7 @@
 				item: "immersiveengineering:manual"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "灵感：工业"
 			tasks: [{
 				id: "31F2292A7383E1E6"
@@ -1325,6 +1354,7 @@
 				item: "create:wrench"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "灵感：动力"
 			tasks: [{
 				id: "25FBDEFD340D663F"
@@ -1663,6 +1693,7 @@
 		}
 		{
 			dependencies: ["47323FA940E1CA9E"]
+			hide_until_deps_complete: true
 			id: "5D90DBE7DA5D0CA3"
 			subtitle: "木炭与油"
 			tasks: [{
@@ -1721,6 +1752,7 @@
 				"3604C67577B97ADD"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
 			id: "1233A3918001F8FF"
 			subtitle: "百炼成钢"
 			tasks: [{
@@ -1779,6 +1811,7 @@
 		}
 		{
 			dependencies: ["268D387EDD9AE1EF"]
+			hide_until_deps_complete: true
 			icon: "occultism:spirit_fire"
 			id: "12C36B99C103E029"
 			tasks: [{
@@ -1943,6 +1976,7 @@
 		}
 		{
 			dependencies: ["4C50A8688F409955"]
+			hide_until_deps_complete: true
 			id: "07C3CC60E0F0BFF2"
 			tasks: [{
 				id: "3C0289B4AC237D58"
@@ -2004,6 +2038,7 @@
 			]
 			hide_dependent_lines: true
 			id: "7385DDC2F71C2040"
+			shape: "diamond"
 			tasks: [{
 				id: "659ADA4E559B890D"
 				type: "checkmark"
@@ -2016,6 +2051,7 @@
 			dependencies: ["76FB026FCCD2873B"]
 			hide_dependent_lines: true
 			id: "62D9D66D34423490"
+			shape: "diamond"
 			tasks: [{
 				id: "30F78EA92C41EE50"
 				type: "checkmark"
@@ -2031,6 +2067,7 @@
 			]
 			hide_dependent_lines: true
 			id: "3D463B2F52D4FED8"
+			shape: "diamond"
 			tasks: [{
 				id: "7278355778C69F4F"
 				type: "checkmark"
@@ -2233,70 +2270,134 @@
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"32EAD9843E44D905"
-				"2789B5D15B2F027C"
-			]
-			id: "626CB6BCBF3B96D2"
-			subtitle: "过时了！"
-			tasks: [{
-				id: "4868DBD2A06ECA1E"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 28.0d
-		}
-		{
-			dependencies: ["32EAD9843E44D905"]
-			id: "6C826BF49512B4E2"
-			tasks: [{
-				id: "4DA42D0E98F9AC82"
-				item: "ad_astra:steel_engine"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 30.0d
-		}
-		{
-			dependencies: [
-				"6C826BF49512B4E2"
-				"626CB6BCBF3B96D2"
-				"3ABEE2886AB0E634"
-			]
-			id: "153BB1808FC6284A"
-			rewards: [{
-				id: "139428619922BB86"
-				item: "ad_astra:launch_pad"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 2.0d
-			subtitle: "驰骋星海"
-			tasks: [{
-				id: "774BDB0D61CEFD9B"
-				item: {
-					Count: 1
-					id: "ad_astra:tier_1_rocket"
-					tag: { }
+			dependencies: ["55233859B00FED1B"]
+			hide_until_deps_complete: true
+			id: "1FD77B24BB8F6092"
+			rewards: [
+				{
+					count: 4
+					id: "71E662B85B049B97"
+					item: "umapyoi:blank_ticket"
+					type: "item"
 				}
+				{
+					id: "1E36BF08168CB503"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "抽卡！"
+			tasks: [{
+				id: "3E6369CDC3036FB3"
+				item: "umapyoi:silver_uma_pedestal"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 30.0d
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1FD77B24BB8F6092"]
+			id: "494582ADB78D4473"
+			subtitle: "○宰"
+			tasks: [{
+				id: "0045BF95B85FBC9B"
+				item: "umapyoi:disassembly_block"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1FD77B24BB8F6092"]
+			id: "3D8EE4976A187CD9"
+			subtitle: "升级你的卡池"
+			tasks: [{
+				id: "7F693865311A17BD"
+				item: "umapyoi:uma_pedestal"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1FD77B24BB8F6092"]
+			id: "0BB6DF990BDDFFF2"
+			subtitle: "强身健体"
+			tasks: [{
+				id: "7A62F7CF2F281DF9"
+				item: "umapyoi:training_facility"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1FD77B24BB8F6092"]
+			id: "124466F7C864E18A"
+			subtitle: "变聪明了"
+			tasks: [{
+				id: "7DA6598465D835DA"
+				item: "umapyoi:skill_learning_table"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1FD77B24BB8F6092"]
+			id: "236F9B387A93977F"
+			subtitle: "如此便宜？"
+			tasks: [{
+				id: "262B00518527CF66"
+				item: "umapyoi:uma_select_block"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["47323FA940E1CA9E"]
+			description: ["当前阶段可选的发电方式有三种：宝可梦（帕鲁）发电，热传导发电机，或动能发电机。"]
+			id: "761A8A7EA3FBE204"
+			subtitle: "做出选择吧"
+			tasks: [{
+				id: "084D30DF129EF76D"
+				type: "checkmark"
+			}]
+			title: "电？"
+			x: -4.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["32EAD9843E44D905"]
-			description: ["你可以通过发酵杂酚油与红石获取一些火箭燃料，但是..."]
-			icon: "ad_astra:fuel_bucket"
-			id: "3ABEE2886AB0E634"
-			subtitle: "临时的解决方案"
+			id: "38C0A829266490AC"
 			tasks: [{
-				id: "2623F97A65B47B86"
-				item: "minecraft:redstone"
+				id: "25E14FE9D868AFAA"
+				item: "tconstruct:crafting_station"
 				type: "item"
 			}]
-			title: "燃油"
+			x: 4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["38C0A829266490AC"]
+			id: "25E51E628B2B532B"
+			tasks: [{
+				id: "519B094FF0847002"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["38C0A829266490AC"]
+			id: "061FBAB4FE2A93C1"
+			tasks: [{
+				id: "5B920C2C7BE3ACCE"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 32.0d
 		}
