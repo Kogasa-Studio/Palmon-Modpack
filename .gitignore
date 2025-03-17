@@ -17,6 +17,7 @@ config/ItemLocks/
 shaderpacks/
 config/yes_steve_model/
 crash-reports/
+kubejs/probe/
 
 /usercache.json
 /usernamecache.json
