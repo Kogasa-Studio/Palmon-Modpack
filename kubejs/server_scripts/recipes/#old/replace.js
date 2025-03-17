@@ -14,13 +14,6 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
-        { id: 'ae2:network/blocks/inscribers' }
-    ],
-        '#forge:ingots/copper',
-        'botania:gaia_ingot'
-    )
-
-    event.replaceInput([
         { id: 'ae2:network/cells/item_storage_components_cell_256k_part' }
     ],
         'ae2:quartz_glass',

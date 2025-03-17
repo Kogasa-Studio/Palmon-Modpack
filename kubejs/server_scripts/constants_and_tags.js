@@ -29,4 +29,19 @@ ServerEvents.tags('item', event => {
         '#cobblemon:plants'
     )
 
+    event.add('kubejs:apothecary',
+        'botania:apothecary_default',
+        'botania:apothecary_forest',
+        'botania:apothecary_plains',
+        'botania:apothecary_mountain',
+        'botania:apothecary_fungal',
+        'botania:apothecary_swamp',
+        'botania:apothecary_desert',
+        'botania:apothecary_taiga',
+        'botania:apothecary_mesa',
+        'botania:apothecary_mossy',
+        'botania:apothecary_livingrock',
+        'botania:apothecary_deepslate'
+    )
+
 })

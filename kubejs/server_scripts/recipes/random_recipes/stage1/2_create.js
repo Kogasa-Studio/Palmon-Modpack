@@ -1,7 +1,7 @@
 /**
  * @param {Internal.RecipesEventJS} event
  */
-function s1create(event) {
+function s1Create(event) {
     event.custom({
         "type": "tconstruct:casting_table",
         "cast": {

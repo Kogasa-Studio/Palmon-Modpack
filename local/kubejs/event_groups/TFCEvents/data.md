@@ -19,52 +19,136 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| support | BlockIngredient, int, int, int, ResourceLocation |  | void | ✘ |
+| support | BlockIngredient, int, int, int |  | void | ✘ |
+| fauna | Consumer<Climate>, Consumer<BuildFaunaData>, ResourceLocation |  | void | ✘ |
+| fertilizer | Ingredient, Number, Number, Number, ResourceLocation |  | void | ✘ |
+| fertilizer | Ingredient, Number, Number, Number |  | void | ✘ |
+| panning | BlockIngredient, String, List<String> |  | void | ✘ |
+| panning | BlockIngredient, String, List<String>, ResourceLocation |  | void | ✘ |
 | metal | Fluid, float, float, Ingredient, Ingredient, Ingredient, int |  | void | ✘ |
 | metal | Fluid, float, float, Ingredient, Ingredient, Ingredient, int, ResourceLocation |  | void | ✘ |
-| lampFuel | FluidIngredient, BlockIngredient, int |  | void | ✘ |
-| lampFuel | FluidIngredient, BlockIngredient, int, ResourceLocation |  | void | ✘ |
+| drinkable | FluidIngredient, Consumer<BuildDrinkableData> |  | void | ✘ |
+| drinkable | FluidIngredient, Consumer<BuildDrinkableData>, ResourceLocation |  | void | ✘ |
+| foodItem | Ingredient, Consumer<BuildFoodItemData>, ResourceLocation |  | void | ✘ |
+| foodItem | Ingredient, Consumer<BuildFoodItemData> |  | void | ✘ |
+| fuel | Ingredient, float, int, Float |  | void | ✘ |
+| fuel | Ingredient, float, int, Float, ResourceLocation |  | void | ✘ |
+| climateRange | Consumer<BuildClimateRangeData>, ResourceLocation |  | void | ✘ |
+| entityDamageResistance | String, Integer, Integer, Integer |  | void | ✘ |
+| entityDamageResistance | String, Integer, Integer, Integer, ResourceLocation |  | void | ✘ |
+| itemDamageResistance | Ingredient, Integer, Integer, Integer, ResourceLocation |  | void | ✘ |
+| itemDamageResistance | Ingredient, Integer, Integer, Integer |  | void | ✘ |
+| sluicing | Ingredient, String |  | void | ✘ |
+| sluicing | Ingredient, String, ResourceLocation |  | void | ✘ |
 | itemHeat | Ingredient, float, Float, Float, ResourceLocation |  | void | ✘ |
 | itemHeat | Ingredient, float, Float, Float |  | void | ✘ |
 | knappingType | Ingredient, int, int, ResourceLocation, boolean, boolean, boolean, ItemStack, ResourceLocation |  | void | ✘ |
 | itemSize | Ingredient, Size, Weight, ResourceLocation |  | void | ✘ |
 | itemSize | Ingredient, Size, Weight |  | void | ✘ |
-| panning | BlockIngredient, String, List<String>, ResourceLocation |  | void | ✘ |
-| panning | BlockIngredient, String, List<String> |  | void | ✘ |
-| fuel | Ingredient, float, int, Float |  | void | ✘ |
-| fuel | Ingredient, float, int, Float, ResourceLocation |  | void | ✘ |
-| foodItem | Ingredient, Consumer<BuildFoodItemData> |  | void | ✘ |
-| foodItem | Ingredient, Consumer<BuildFoodItemData>, ResourceLocation |  | void | ✘ |
-| drinkable | FluidIngredient, Consumer<BuildDrinkableData>, ResourceLocation |  | void | ✘ |
-| drinkable | FluidIngredient, Consumer<BuildDrinkableData> |  | void | ✘ |
-| fauna | Consumer<Climate>, Consumer<BuildFaunaData>, ResourceLocation |  | void | ✘ |
-| fertilizer | Ingredient, Number, Number, Number |  | void | ✘ |
-| fertilizer | Ingredient, Number, Number, Number, ResourceLocation |  | void | ✘ |
-| climateRange | Consumer<BuildClimateRangeData>, ResourceLocation |  | void | ✘ |
-| sluicing | Ingredient, String |  | void | ✘ |
-| sluicing | Ingredient, String, ResourceLocation |  | void | ✘ |
-| itemDamageResistance | Ingredient, Integer, Integer, Integer |  | void | ✘ |
-| itemDamageResistance | Ingredient, Integer, Integer, Integer, ResourceLocation |  | void | ✘ |
-| entityDamageResistance | String, Integer, Integer, Integer |  | void | ✘ |
-| entityDamageResistance | String, Integer, Integer, Integer, ResourceLocation |  | void | ✘ |
-| support | BlockIngredient, int, int, int |  | void | ✘ |
-| support | BlockIngredient, int, int, int, ResourceLocation |  | void | ✘ |
+| lampFuel | FluidIngredient, BlockIngredient, int, ResourceLocation |  | void | ✘ |
+| lampFuel | FluidIngredient, BlockIngredient, int |  | void | ✘ |
+| beneathNetherFertilizer | Ingredient, Float, Float, Float, Float, Float, ResourceLocation |  | void | ✘ |
+| beneathNetherFertilizer | Ingredient, Float, Float, Float, Float, Float |  | void | ✘ |
 | beneathLostPage | Ingredient, Item, int[], int[], Punishment[], String, ResourceLocation |  | void | ✘ |
 | beneathLostPage | Ingredient, Item, int[], int[], Punishment[], String |  | void | ✘ |
-| beneathNetherFertilizer | Ingredient, Float, Float, Float, Float, Float |  | void | ✘ |
-| beneathNetherFertilizer | Ingredient, Float, Float, Float, Float, Float, ResourceLocation |  | void | ✘ |
+| firmalifeGreenhouseType | BlockIngredient, int |  | void | ✘ |
+| firmalifeGreenhouseType | BlockIngredient, int, ResourceLocation |  | void | ✘ |
 | firmalifePlantable | Ingredient, PlanterType, Integer, Integer, Float, ItemStack, ItemStack, NutrientType, String[], String, ResourceLocation |  | void | ✘ |
 | firmalifePlantable | Ingredient, PlanterType, Integer, Integer, Float, ItemStack, ItemStack, NutrientType, String[], String |  | void | ✘ |
-| firmalifeGreenhouseType | BlockIngredient, int, ResourceLocation |  | void | ✘ |
-| firmalifeGreenhouseType | BlockIngredient, int |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `void support(BlockIngredient blockIngredient, int up, int down, int horizontal, ResourceLocation name)`
+
+  Parameters:
+  - blockIngredient: BlockIngredient- The block ingredient that defines what blocks the definition applies to
+  - up: int- The number of blocks upwards the block supports
+  - down: int- The number og blocks downwards the block supports
+  - horizontal: int- The number of blocks horizontally the block supports
+  - name: ResourceLocation- The name of the support definition
+
+```
+Defines a support definition
+```
+
+- `void support(BlockIngredient blockIngredient, int up, int down, int horizontal)`
+
+  Parameters:
+  - blockIngredient: BlockIngredient- The block ingredient that defines what blocks the definition applies to
+  - up: int- The number of blocks upwards the block supports
+  - down: int- The number og blocks downwards the block supports
+  - horizontal: int- The number of blocks horizontally the block supports
+
+```
+Defines a support definition
+```
+
+- `void fauna(Consumer<Climate> climate, Consumer<BuildFaunaData> fauna, ResourceLocation name)`
+
+  Parameters:
+  - climate: Consumer<Climate>- The fauna's climate requirements
+  - fauna: Consumer<BuildFaunaData>- Additional fauna properties for the given fauna
+  - name: ResourceLocation- The name of the fauna definition
+
+```
+Specifies the fauna data of the given name
+```
+
+- `void fertilizer(Ingredient ingredient, Number nitrogen, Number phosphorous, Number potassium, ResourceLocation name)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient the fertilizer data applies to
+  - nitrogen: Number- The nitrogen value of the fertilizer, may be null to not define a value, defaults to 0
+  - phosphorous: Number- The phosphorous value of the fertilizer, may be null to not define a value, defaults to 0
+  - potassium: Number- The potassium value of the fertilizer, amy be null to not define a value, defaults to 0
+  - name: ResourceLocation- The name of the fertilizer data
+
+```
+Adds a fertilizer definition to the specified ingredient
+```
+
+- `void fertilizer(Ingredient ingredient, Number nitrogen, Number phosphorous, Number potassium)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient the fertilizer data applies to
+  - nitrogen: Number- The nitrogen value of the fertilizer, may be null to not define a value, defaults to 0
+  - phosphorous: Number- The phosphorous value of the fertilizer, may be null to not define a value, defaults to 0
+  - potassium: Number- The potassium value of the fertilizer, amy be null to not define a value, defaults to 0
+
+```
+Adds a fertilizer definition to the specified ingredient
+```
+
+- `void panning(BlockIngredient blockIngredient, String lootTable, List<String> models)`
+
+  Parameters:
+  - blockIngredient: BlockIngredient- The block ingredient the definition applies to
+  - lootTable: String- The location of a loot table to be dropped by the ingredient
+  - models: List<String>- A list of model locations to be iterated through as panning progresses
+
+```
+Adds a panning definition to the block ingredient
+```
+
+- `void panning(BlockIngredient blockIngredient, String lootTable, List<String> models, ResourceLocation name)`
+
+  Parameters:
+  - blockIngredient: BlockIngredient- The block ingredient the definition applies to
+  - lootTable: String- The location of a loot table to be dropped by the ingredient
+  - models: List<String>- A list of model locations to be iterated through as panning progresses
+  - name: ResourceLocation- The name of the panning definition
+
+```
+Adds a panning definition to the block ingredient
+```
 
 - `void metal(Fluid fluid, float meltTemperature, float heatCapacity, Ingredient ingot, Ingredient doubleIngot, Ingredient sheet, int tier)`
 
@@ -97,27 +181,152 @@ Defines a metal
 Defines a metal
 ```
 
-- `void lampFuel(FluidIngredient fluidIngredient, BlockIngredient blockIngredient, int burnRate)`
+- `void drinkable(FluidIngredient fluidIngredient, Consumer<BuildDrinkableData> drinkableData)`
 
   Parameters:
-  - fluidIngredient: FluidIngredient- The fluid ingredient which determines which fluids the the lamp fuel applies to
-  - blockIngredient: BlockIngredient- The block ingredient which determines what (lamp) blocks are valid for this fuel
-  - burnRate: int- How fast the lamp consumes fuel, in ticks per mB
+  - fluidIngredient: FluidIngredient- The fluids this drinkable applies to
+  - drinkableData: Consumer<BuildDrinkableData>- The drinkable properties that are applied to the fluid ingredient
 
 ```
-Defines a lamp fuel
+Defines that a fluid is directly drinkable
 ```
 
-- `void lampFuel(FluidIngredient fluidIngredient, BlockIngredient blockIngredient, int burnRate, ResourceLocation name)`
+- `void drinkable(FluidIngredient fluidIngredient, Consumer<BuildDrinkableData> drinkableData, ResourceLocation name)`
 
   Parameters:
-  - fluidIngredient: FluidIngredient- The fluid ingredient which determines which fluids the the lamp fuel applies to
-  - blockIngredient: BlockIngredient- The block ingredient which determines what (lamp) blocks are valid for this fuel
-  - burnRate: int- How fast the lamp consumes fuel, in ticks per mB
-  - name: ResourceLocation- The name of the lamp fuel
+  - fluidIngredient: FluidIngredient- The fluids this drinkable applies to
+  - drinkableData: Consumer<BuildDrinkableData>- The drinkable properties that are applied to the fluid ingredient
+  - name: ResourceLocation- The name of the drinkable data
 
 ```
-Defines a lamp fuel
+Defines that a fluid is directly drinkable
+```
+
+- `void foodItem(Ingredient ingredient, Consumer<BuildFoodItemData> foodItemData, ResourceLocation name)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient the food definition applies to
+  - foodItemData: Consumer<BuildFoodItemData>- The food item properties that are applied to the ingredient
+  - name: ResourceLocation- The name of the food item data
+
+```
+Adds a food definition to the specified ingredient
+```
+
+- `void foodItem(Ingredient ingredient, Consumer<BuildFoodItemData> foodItemData)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient the food definition applies to
+  - foodItemData: Consumer<BuildFoodItemData>- The food item properties that are applied to the ingredient
+
+```
+Adds a food definition to the specified ingredient
+```
+
+- `void fuel(Ingredient ingredient, float temperature, int duration, Float purity)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient the fuel definition applies to
+  - temperature: float- The temperature °C that the fuel burns at
+  - duration: int- The number of ticks the fuel burns for
+  - purity: Float- The purity of the fuel, may be null to not specify a value
+
+```
+Adds a fuel definition to the specified ingredient
+```
+
+- `void fuel(Ingredient ingredient, float temperature, int duration, Float purity, ResourceLocation name)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient the fuel definition applies to
+  - temperature: float- The temperature °C that the fuel burns at
+  - duration: int- The number of ticks the fuel burns for
+  - purity: Float- The purity of the fuel, may be null to not specify a value
+  - name: ResourceLocation- The name of the fuel definition
+
+```
+Adds a fuel definition to the specified ingredient
+```
+
+- `void climateRange(Consumer<BuildClimateRangeData> climateRange, ResourceLocation name)`
+
+  Parameters:
+  - climateRange: Consumer<BuildClimateRangeData>- Climate range properties for the given climate range
+  - name: ResourceLocation- The name of the climate range
+
+```
+Specifies the climate range data of the given name
+```
+
+- `void entityDamageResistance(String entityTag, Integer piercing, Integer slashing, Integer crushing)`
+
+  Parameters:
+  - entityTag: String- The entity tag to apply the damage resistances to
+  - piercing: Integer- The piercing value of this resistance, may be null to not specify a value
+  - slashing: Integer- The slashing value of this resistance, may be null to not specify a value
+  - crushing: Integer- the crushing value of this resistance, may be null to not specify a value
+
+```
+Adds an entity damage resistance to the specified entity tag
+```
+
+- `void entityDamageResistance(String entityTag, Integer piercing, Integer slashing, Integer crushing, ResourceLocation name)`
+
+  Parameters:
+  - entityTag: String- The entity tag to apply the damage resistances to
+  - piercing: Integer- The piercing value of this resistance, may be null to not specify a value
+  - slashing: Integer- The slashing value of this resistance, may be null to not specify a value
+  - crushing: Integer- the crushing value of this resistance, may be null to not specify a value
+  - name: ResourceLocation- The name of the damage resistance
+
+```
+Adds an entity damage resistance to the specified entity tag
+```
+
+- `void itemDamageResistance(Ingredient ingredient, Integer piercing, Integer slashing, Integer crushing, ResourceLocation name)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient this resistance applies to
+  - piercing: Integer- The piercing value of this resistance, may be null to not specify a value
+  - slashing: Integer- The slashing value of this resistance, may be null to not specify a value
+  - crushing: Integer- the crushing value of this resistance, may be null to not specify a value
+  - name: ResourceLocation- The name of the damage resistance
+
+```
+Adds an item damage resistance to the specified ingredient
+```
+
+- `void itemDamageResistance(Ingredient ingredient, Integer piercing, Integer slashing, Integer crushing)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient this resistance applies to
+  - piercing: Integer- The piercing value of this resistance, may be null to not specify a value
+  - slashing: Integer- The slashing value of this resistance, may be null to not specify a value
+  - crushing: Integer- the crushing value of this resistance, may be null to not specify a value
+
+```
+Adds an item damage resistance to the specified ingredient
+```
+
+- `void sluicing(Ingredient ingredient, String lootTable)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient the sluicing definition applies to
+  - lootTable: String- The location of a loot table to be dropped for this item
+
+```
+Adds a sluicing definition to the ingredient
+```
+
+- `void sluicing(Ingredient ingredient, String lootTable, ResourceLocation name)`
+
+  Parameters:
+  - ingredient: Ingredient- The ingredient the sluicing definition applies to
+  - lootTable: String- The location of a loot table to be dropped for this item
+  - name: ResourceLocation- The name of the sluicing definition
+
+```
+Adds a sluicing definition to the ingredient
 ```
 
 - `void itemHeat(Ingredient ingredient, float heatCapacity, Float forgingTemperature, Float weldingTemperature, ResourceLocation name)`
@@ -185,236 +394,56 @@ Adds an item size definition to the specified ingredient
 Adds an item size definition tot he specified ingredient
 ```
 
-- `void panning(BlockIngredient blockIngredient, String lootTable, List<String> models, ResourceLocation name)`
+- `void lampFuel(FluidIngredient fluidIngredient, BlockIngredient blockIngredient, int burnRate, ResourceLocation name)`
 
   Parameters:
-  - blockIngredient: BlockIngredient- The block ingredient the definition applies to
-  - lootTable: String- The location of a loot table to be dropped by the ingredient
-  - models: List<String>- A list of model locations to be iterated through as panning progresses
-  - name: ResourceLocation- The name of the panning definition
+  - fluidIngredient: FluidIngredient- The fluid ingredient which determines which fluids the the lamp fuel applies to
+  - blockIngredient: BlockIngredient- The block ingredient which determines what (lamp) blocks are valid for this fuel
+  - burnRate: int- How fast the lamp consumes fuel, in ticks per mB
+  - name: ResourceLocation- The name of the lamp fuel
 
 ```
-Adds a panning definition to the block ingredient
+Defines a lamp fuel
 ```
 
-- `void panning(BlockIngredient blockIngredient, String lootTable, List<String> models)`
+- `void lampFuel(FluidIngredient fluidIngredient, BlockIngredient blockIngredient, int burnRate)`
 
   Parameters:
-  - blockIngredient: BlockIngredient- The block ingredient the definition applies to
-  - lootTable: String- The location of a loot table to be dropped by the ingredient
-  - models: List<String>- A list of model locations to be iterated through as panning progresses
+  - fluidIngredient: FluidIngredient- The fluid ingredient which determines which fluids the the lamp fuel applies to
+  - blockIngredient: BlockIngredient- The block ingredient which determines what (lamp) blocks are valid for this fuel
+  - burnRate: int- How fast the lamp consumes fuel, in ticks per mB
 
 ```
-Adds a panning definition to the block ingredient
+Defines a lamp fuel
 ```
 
-- `void fuel(Ingredient ingredient, float temperature, int duration, Float purity)`
+- `void beneathNetherFertilizer(Ingredient ingredient, Float death, Float destruction, Float decay, Float sorrow, Float flame, ResourceLocation name)`
 
   Parameters:
-  - ingredient: Ingredient- The ingredient the fuel definition applies to
-  - temperature: float- The temperature °C that the fuel burns at
-  - duration: int- The number of ticks the fuel burns for
-  - purity: Float- The purity of the fuel, may be null to not specify a value
+  - ingredient: Ingredient- The ingredient for the nether fertilizer
+  - death: Float- The death value of the fertilizer, may be null, defaults to 0
+  - destruction: Float- The destruction value of the fertilizer, may be null, defaults to 0
+  - decay: Float- The decay value of the fertilizer, may be null, defaults to 0
+  - sorrow: Float- The sorrow value of the fertilizer, may be null, defaults to 0
+  - flame: Float- The flame value of the fertilizer, may be null, defaults to 0
+  - name: ResourceLocation- The name of the nether fertilizer
 
 ```
-Adds a fuel definition to the specified ingredient
+Defines a new nether fertilizer
 ```
 
-- `void fuel(Ingredient ingredient, float temperature, int duration, Float purity, ResourceLocation name)`
+- `void beneathNetherFertilizer(Ingredient ingredient, Float death, Float destruction, Float decay, Float sorrow, Float flame)`
 
   Parameters:
-  - ingredient: Ingredient- The ingredient the fuel definition applies to
-  - temperature: float- The temperature °C that the fuel burns at
-  - duration: int- The number of ticks the fuel burns for
-  - purity: Float- The purity of the fuel, may be null to not specify a value
-  - name: ResourceLocation- The name of the fuel definition
+  - ingredient: Ingredient- The ingredient for the nether fertilizer
+  - death: Float- The death value of the fertilizer, may be null, defaults to 0
+  - destruction: Float- The destruction value of the fertilizer, may be null, defaults to 0
+  - decay: Float- The decay value of the fertilizer, may be null, defaults to 0
+  - sorrow: Float- The sorrow value of the fertilizer, may be null, defaults to 0
+  - flame: Float- The flame value of the fertilizer, may be null, defaults to 0
 
 ```
-Adds a fuel definition to the specified ingredient
-```
-
-- `void foodItem(Ingredient ingredient, Consumer<BuildFoodItemData> foodItemData)`
-
-  Parameters:
-  - ingredient: Ingredient- The ingredient the food definition applies to
-  - foodItemData: Consumer<BuildFoodItemData>- The food item properties that are applied to the ingredient
-
-```
-Adds a food definition to the specified ingredient
-```
-
-- `void foodItem(Ingredient ingredient, Consumer<BuildFoodItemData> foodItemData, ResourceLocation name)`
-
-  Parameters:
-  - ingredient: Ingredient- The ingredient the food definition applies to
-  - foodItemData: Consumer<BuildFoodItemData>- The food item properties that are applied to the ingredient
-  - name: ResourceLocation- The name of the food item data
-
-```
-Adds a food definition to the specified ingredient
-```
-
-- `void drinkable(FluidIngredient fluidIngredient, Consumer<BuildDrinkableData> drinkableData, ResourceLocation name)`
-
-  Parameters:
-  - fluidIngredient: FluidIngredient- The fluids this drinkable applies to
-  - drinkableData: Consumer<BuildDrinkableData>- The drinkable properties that are applied to the fluid ingredient
-  - name: ResourceLocation- The name of the drinkable data
-
-```
-Defines that a fluid is directly drinkable
-```
-
-- `void drinkable(FluidIngredient fluidIngredient, Consumer<BuildDrinkableData> drinkableData)`
-
-  Parameters:
-  - fluidIngredient: FluidIngredient- The fluids this drinkable applies to
-  - drinkableData: Consumer<BuildDrinkableData>- The drinkable properties that are applied to the fluid ingredient
-
-```
-Defines that a fluid is directly drinkable
-```
-
-- `void fauna(Consumer<Climate> climate, Consumer<BuildFaunaData> fauna, ResourceLocation name)`
-
-  Parameters:
-  - climate: Consumer<Climate>- The fauna's climate requirements
-  - fauna: Consumer<BuildFaunaData>- Additional fauna properties for the given fauna
-  - name: ResourceLocation- The name of the fauna definition
-
-```
-Specifies the fauna data of the given name
-```
-
-- `void fertilizer(Ingredient ingredient, Number nitrogen, Number phosphorous, Number potassium)`
-
-  Parameters:
-  - ingredient: Ingredient- The ingredient the fertilizer data applies to
-  - nitrogen: Number- The nitrogen value of the fertilizer, may be null to not define a value, defaults to 0
-  - phosphorous: Number- The phosphorous value of the fertilizer, may be null to not define a value, defaults to 0
-  - potassium: Number- The potassium value of the fertilizer, amy be null to not define a value, defaults to 0
-
-```
-Adds a fertilizer definition to the specified ingredient
-```
-
-- `void fertilizer(Ingredient ingredient, Number nitrogen, Number phosphorous, Number potassium, ResourceLocation name)`
-
-  Parameters:
-  - ingredient: Ingredient- The ingredient the fertilizer data applies to
-  - nitrogen: Number- The nitrogen value of the fertilizer, may be null to not define a value, defaults to 0
-  - phosphorous: Number- The phosphorous value of the fertilizer, may be null to not define a value, defaults to 0
-  - potassium: Number- The potassium value of the fertilizer, amy be null to not define a value, defaults to 0
-  - name: ResourceLocation- The name of the fertilizer data
-
-```
-Adds a fertilizer definition to the specified ingredient
-```
-
-- `void climateRange(Consumer<BuildClimateRangeData> climateRange, ResourceLocation name)`
-
-  Parameters:
-  - climateRange: Consumer<BuildClimateRangeData>- Climate range properties for the given climate range
-  - name: ResourceLocation- The name of the climate range
-
-```
-Specifies the climate range data of the given name
-```
-
-- `void sluicing(Ingredient ingredient, String lootTable)`
-
-  Parameters:
-  - ingredient: Ingredient- The ingredient the sluicing definition applies to
-  - lootTable: String- The location of a loot table to be dropped for this item
-
-```
-Adds a sluicing definition to the ingredient
-```
-
-- `void sluicing(Ingredient ingredient, String lootTable, ResourceLocation name)`
-
-  Parameters:
-  - ingredient: Ingredient- The ingredient the sluicing definition applies to
-  - lootTable: String- The location of a loot table to be dropped for this item
-  - name: ResourceLocation- The name of the sluicing definition
-
-```
-Adds a sluicing definition to the ingredient
-```
-
-- `void itemDamageResistance(Ingredient ingredient, Integer piercing, Integer slashing, Integer crushing)`
-
-  Parameters:
-  - ingredient: Ingredient- The ingredient this resistance applies to
-  - piercing: Integer- The piercing value of this resistance, may be null to not specify a value
-  - slashing: Integer- The slashing value of this resistance, may be null to not specify a value
-  - crushing: Integer- the crushing value of this resistance, may be null to not specify a value
-
-```
-Adds an item damage resistance to the specified ingredient
-```
-
-- `void itemDamageResistance(Ingredient ingredient, Integer piercing, Integer slashing, Integer crushing, ResourceLocation name)`
-
-  Parameters:
-  - ingredient: Ingredient- The ingredient this resistance applies to
-  - piercing: Integer- The piercing value of this resistance, may be null to not specify a value
-  - slashing: Integer- The slashing value of this resistance, may be null to not specify a value
-  - crushing: Integer- the crushing value of this resistance, may be null to not specify a value
-  - name: ResourceLocation- The name of the damage resistance
-
-```
-Adds an item damage resistance to the specified ingredient
-```
-
-- `void entityDamageResistance(String entityTag, Integer piercing, Integer slashing, Integer crushing)`
-
-  Parameters:
-  - entityTag: String- The entity tag to apply the damage resistances to
-  - piercing: Integer- The piercing value of this resistance, may be null to not specify a value
-  - slashing: Integer- The slashing value of this resistance, may be null to not specify a value
-  - crushing: Integer- the crushing value of this resistance, may be null to not specify a value
-
-```
-Adds an entity damage resistance to the specified entity tag
-```
-
-- `void entityDamageResistance(String entityTag, Integer piercing, Integer slashing, Integer crushing, ResourceLocation name)`
-
-  Parameters:
-  - entityTag: String- The entity tag to apply the damage resistances to
-  - piercing: Integer- The piercing value of this resistance, may be null to not specify a value
-  - slashing: Integer- The slashing value of this resistance, may be null to not specify a value
-  - crushing: Integer- the crushing value of this resistance, may be null to not specify a value
-  - name: ResourceLocation- The name of the damage resistance
-
-```
-Adds an entity damage resistance to the specified entity tag
-```
-
-- `void support(BlockIngredient blockIngredient, int up, int down, int horizontal)`
-
-  Parameters:
-  - blockIngredient: BlockIngredient- The block ingredient that defines what blocks the definition applies to
-  - up: int- The number of blocks upwards the block supports
-  - down: int- The number og blocks downwards the block supports
-  - horizontal: int- The number of blocks horizontally the block supports
-
-```
-Defines a support definition
-```
-
-- `void support(BlockIngredient blockIngredient, int up, int down, int horizontal, ResourceLocation name)`
-
-  Parameters:
-  - blockIngredient: BlockIngredient- The block ingredient that defines what blocks the definition applies to
-  - up: int- The number of blocks upwards the block supports
-  - down: int- The number og blocks downwards the block supports
-  - horizontal: int- The number of blocks horizontally the block supports
-  - name: ResourceLocation- The name of the support definition
-
-```
-Defines a support definition
+Defines a new nether fertilizer
 ```
 
 - `void beneathLostPage(Ingredient cost, Item reward, int[] costs, int[] rewards, Punishment[] punishments, String langKey, ResourceLocation name)`
@@ -446,33 +475,25 @@ Defines a new lost page
 Defines a new lost page
 ```
 
-- `void beneathNetherFertilizer(Ingredient ingredient, Float death, Float destruction, Float decay, Float sorrow, Float flame)`
+- `void firmalifeGreenhouseType(BlockIngredient ingredient, int tier)`
 
   Parameters:
-  - ingredient: Ingredient- The ingredient for the nether fertilizer
-  - death: Float- The death value of the fertilizer, may be null, defaults to 0
-  - destruction: Float- The destruction value of the fertilizer, may be null, defaults to 0
-  - decay: Float- The decay value of the fertilizer, may be null, defaults to 0
-  - sorrow: Float- The sorrow value of the fertilizer, may be null, defaults to 0
-  - flame: Float- The flame value of the fertilizer, may be null, defaults to 0
+  - ingredient: BlockIngredient- The blocks that make up the greenhouse type
+  - tier: int- The tier of the greenhouse
 
 ```
-Defines a new nether fertilizer
+Defines a new greenhouse type
 ```
 
-- `void beneathNetherFertilizer(Ingredient ingredient, Float death, Float destruction, Float decay, Float sorrow, Float flame, ResourceLocation name)`
+- `void firmalifeGreenhouseType(BlockIngredient ingredient, int tier, ResourceLocation name)`
 
   Parameters:
-  - ingredient: Ingredient- The ingredient for the nether fertilizer
-  - death: Float- The death value of the fertilizer, may be null, defaults to 0
-  - destruction: Float- The destruction value of the fertilizer, may be null, defaults to 0
-  - decay: Float- The decay value of the fertilizer, may be null, defaults to 0
-  - sorrow: Float- The sorrow value of the fertilizer, may be null, defaults to 0
-  - flame: Float- The flame value of the fertilizer, may be null, defaults to 0
-  - name: ResourceLocation- The name of the nether fertilizer
+  - ingredient: BlockIngredient- The blocks that make up the greenhouse type
+  - tier: int- The tier of the greenhouse
+  - name: ResourceLocation- The name of the greenhouse type
 
 ```
-Defines a new nether fertilizer
+Defines a new greenhouse type
 ```
 
 - `void firmalifePlantable(Ingredient ingredient, PlanterType planterType, Integer tier, Integer stages, Float extraSeedChance, ItemStack seed, ItemStack crop, NutrientType nutrient, String[] textures, String special, ResourceLocation name)`
@@ -534,27 +555,6 @@ For planter type `hanging`: Pass the fruit texture
 Defines a new plantable definition
 ```
 
-- `void firmalifeGreenhouseType(BlockIngredient ingredient, int tier, ResourceLocation name)`
-
-  Parameters:
-  - ingredient: BlockIngredient- The blocks that make up the greenhouse type
-  - tier: int- The tier of the greenhouse
-  - name: ResourceLocation- The name of the greenhouse type
-
-```
-Defines a new greenhouse type
-```
-
-- `void firmalifeGreenhouseType(BlockIngredient ingredient, int tier)`
-
-  Parameters:
-  - ingredient: BlockIngredient- The blocks that make up the greenhouse type
-  - tier: int- The tier of the greenhouse
-
-```
-Defines a new greenhouse type
-```
-
 - `Object exit(Object var0)`
 
   Parameters:
@@ -591,13 +591,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -605,6 +598,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

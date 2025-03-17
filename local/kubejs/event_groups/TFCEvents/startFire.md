@@ -25,21 +25,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getBlock |  |  | BlockContainerJS | ✘ |
 | isStrong |  |  | boolean | ✘ |
+| getEntity |  |  | Entity | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
 | getTargetedFace |  |  | Direction | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| addGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -54,14 +54,19 @@ Returns the level of the event
 Returns the item used to start the fire
 ```
 
-- `BlockContainerJS getBlock()`
-```
-Returns the level and position of the event
-```
-
 - `boolean isStrong()`
 ```
 Returns true if fire created is considered 'strong'
+```
+
+- `Entity getEntity()`
+```
+Returns the player that started the fire, may be null
+```
+
+- `BlockContainerJS getBlock()`
+```
+Returns the level and position of the event
 ```
 
 - `Direction getTargetedFace()`
@@ -69,18 +74,13 @@ Returns true if fire created is considered 'strong'
 Returns the targeted face of the event
 ```
 
-- `LivingEntity getEntity()`
-```
-Returns the player that started the fire, may be null
-```
-
-- `boolean hasGameStage(String var0)`
+- `void removeGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Checks if the player has the specified game stage
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`
@@ -92,13 +92,13 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
+- `boolean hasGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Removes the specified game stage from the player
+Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`
@@ -137,13 +137,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -151,6 +144,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

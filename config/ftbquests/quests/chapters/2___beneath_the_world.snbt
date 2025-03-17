@@ -274,6 +274,7 @@
 		}
 		{
 			dependencies: ["518D5BB2DA0A9E0C"]
+			description: ["这一阶段的补给卷需要使用Alpha 框架制作。"]
 			id: "34AB730CB39AD62D"
 			rewards: [{
 				count: 3
@@ -292,6 +293,7 @@
 		}
 		{
 			dependencies: ["34AB730CB39AD62D"]
+			hide_until_deps_complete: true
 			icon: "minecraft:chest"
 			id: "57C7123817EBBE5C"
 			rewards: [{
@@ -327,8 +329,9 @@
 			}]
 			subtitle: "物资：库存管理"
 			tasks: [{
-				id: "0A438173C2F57F59"
-				type: "checkmark"
+				id: "445FA5CCBABE8167"
+				item: "kubejs:voucher_2_2"
+				type: "item"
 			}]
 			title: "2-2 动态联合"
 			x: 6.0d
@@ -336,11 +339,27 @@
 		}
 		{
 			dependencies: ["34AB730CB39AD62D"]
+			hide_until_deps_complete: true
+			icon: "compactmachines:personal_shrinking_device"
 			id: "0E9A86F7F8F2F1DE"
+			rewards: [
+				{
+					id: "1AA4044ADB77CE01"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "060BA985A91EB33C"
+					item: "compactmachines:wall"
+					type: "item"
+				}
+			]
 			subtitle: "灵感：空间压缩"
 			tasks: [{
-				id: "41F4FBF72A451ADD"
-				type: "checkmark"
+				id: "4F16C31C0DE2BF19"
+				item: "kubejs:voucher_2_0"
+				type: "item"
 			}]
 			title: "2-0 压缩空间机器"
 			x: 2.0d
@@ -348,6 +367,7 @@
 		}
 		{
 			dependencies: ["34AB730CB39AD62D"]
+			hide_until_deps_complete: true
 			icon: "embers:tinker_hammer"
 			id: "2DD4A11F667C59A9"
 			rewards: [{
@@ -413,8 +433,9 @@
 			}]
 			subtitle: "物资：余烬工匠"
 			tasks: [{
-				id: "70A61241F6A07758"
-				type: "checkmark"
+				id: "1D50760F48D50996"
+				item: "kubejs:voucher_2_1"
+				type: "item"
 			}]
 			title: "2-1 余烬"
 			x: 2.0d
@@ -422,6 +443,7 @@
 		}
 		{
 			dependencies: ["34AB730CB39AD62D"]
+			hide_until_deps_complete: true
 			icon: "rftoolsbuilder:shape_card_def"
 			id: "322162A1B029C99D"
 			rewards: [{
@@ -497,12 +519,411 @@
 			}]
 			subtitle: "物资：RFT存储与建造"
 			tasks: [{
-				id: "483A11A4A76B4446"
-				type: "checkmark"
+				id: "6C244E9E03261812"
+				item: "kubejs:voucher_2_3"
+				type: "item"
 			}]
 			title: "2-3 RFTools"
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["78FD8C816053AA2C"]
+			description: [
+				"除了普通的&l&e灵感&l&f以外，你还可能解锁&l&e特制灵感&l&f。"
+				""
+				"&l&e特制灵感&l&f通常包含一些基于现有材料与设备的特殊配方，这些配方可以帮助你更加有效率的制作一些物品。"
+			]
+			id: "22DEA013C6AF2127"
+			tasks: [{
+				id: "385F366E499D46EC"
+				type: "checkmark"
+			}]
+			title: "分歧点 2.1"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22DEA013C6AF2127"]
+			icon: "botania:apothecary_default"
+			id: "24A6488BA733B78B"
+			rewards: [{
+				count: 8
+				id: "51E1A98C8423A7A8"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			subtitle: "灵感：植物魔法"
+			tasks: [
+				{
+					id: "5447A5DC218C7C48"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "292FA80B0D8A0CB4"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22DEA013C6AF2127"]
+			id: "550FDE68159296D1"
+			subtitle: "特制灵感：魔法机械构件"
+			tasks: [{
+				id: "4C1DE95A1412BBE7"
+				item: "jaopca:gears.dawnstone"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["22DEA013C6AF2127"]
+			id: "77A47F13DB1D39E4"
+			rewards: [
+				{
+					id: "0DDCA36C4091E271"
+					item: "ae2:certus_quartz_wrench"
+					type: "item"
+				}
+				{
+					id: "3F9FED4697F03B99"
+					item: "ae2:vibration_chamber"
+					type: "item"
+				}
+			]
+			subtitle: "灵感：应用能源"
+			tasks: [{
+				id: "7AC45A3A27E7D171"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24A6488BA733B78B"]
+			id: "3D7CB331B4AB4E91"
+			tasks: [{
+				id: "5290192A7A52B29D"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D7CB331B4AB4E91"]
+			id: "2B82F879C1647867"
+			tasks: [{
+				id: "1B8BD8CB9321D6FD"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D7CB331B4AB4E91"]
+			id: "789CA77D5B0B9552"
+			tasks: [{
+				id: "2A11141948F141DD"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["789CA77D5B0B9552"]
+			id: "5EA308F018DB9F55"
+			tasks: [{
+				id: "7EC3B1926C6BDF82"
+				item: "botania:diluted_pool"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B82F879C1647867"]
+			id: "1C9C022D8FC2E3D7"
+			tasks: [{
+				id: "0129E538FA4CE129"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C9C022D8FC2E3D7"
+				"5EA308F018DB9F55"
+			]
+			id: "080388FF48078707"
+			tasks: [{
+				id: "50E79CDD2806CDD2"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["080388FF48078707"]
+			id: "6C9D48D9254129ED"
+			tasks: [{
+				id: "651D78D69DDDE9DA"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C9D48D9254129ED"]
+			id: "33F808E0FEB46F75"
+			tasks: [{
+				id: "12FAD869DC2A9D97"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33F808E0FEB46F75"]
+			id: "4BF64701CC65C3B6"
+			tasks: [{
+				id: "4FDAA5C9720D27D2"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77A47F13DB1D39E4"]
+			id: "09B637C0E0C833AA"
+			subtitle: "样板压印"
+			tasks: [{
+				id: "16A62428EEF61598"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77A47F13DB1D39E4"]
+			id: "2CA72DD1845B41CA"
+			subtitle: "还未震动"
+			tasks: [{
+				id: "7CA886A7100011A9"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2CA72DD1845B41CA"]
+			id: "21D96159864C8D92"
+			rewards: [{
+				id: "1CF313659B7CA351"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			subtitle: "晶体复制"
+			tasks: [{
+				id: "2C2E2C6A88086DF7"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"09B637C0E0C833AA"
+				"2CA72DD1845B41CA"
+			]
+			id: "2EA8F300ED67B675"
+			tasks: [{
+				id: "145A375FFF9EB803"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CA72DD1845B41CA"]
+			id: "636B8FB97CBE10A5"
+			tasks: [{
+				id: "2AD4EBE7DC166688"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"636B8FB97CBE10A5"
+				"2EA8F300ED67B675"
+			]
+			id: "4363D021FE72ABCE"
+			rewards: [{
+				count: 2
+				id: "19656DDEB1527545"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "464C37CF6F08FB8F"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"09B637C0E0C833AA"
+				"2CA72DD1845B41CA"
+			]
+			id: "14BAD60D0ECC343C"
+			tasks: [{
+				id: "69A4A092EE32561C"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14BAD60D0ECC343C"]
+			id: "0AA60B47E7273EC3"
+			rewards: [{
+				id: "67F2E3EAED4F54BB"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05DC6C127E45948B"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0AA60B47E7273EC3"]
+			id: "6100D4712839BD3B"
+			tasks: [{
+				id: "3BBA44F63D696221"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0AA60B47E7273EC3"
+				"4363D021FE72ABCE"
+			]
+			id: "5FEC0E57D5673A64"
+			tasks: [{
+				id: "33294A8ECBF55C39"
+				type: "checkmark"
+			}]
+			title: "基础网络"
+			x: 28.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FEC0E57D5673A64"]
+			id: "65FE0755248EE470"
+			tasks: [{
+				id: "7DAFC0ABF52AA7D5"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FEC0E57D5673A64"]
+			id: "763FABD615EF64D5"
+			tasks: [{
+				id: "3BA15777B7BBD301"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["763FABD615EF64D5"]
+			id: "4083482749144AD4"
+			tasks: [{
+				id: "22966661ABF985ED"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEC0E57D5673A64"]
+			id: "33B05DB45C5F413A"
+			tasks: [{
+				id: "23ABA3B0FD62D3E8"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["33B05DB45C5F413A"]
+			id: "016B78BF0C1D6FEE"
+			tasks: [{
+				id: "7AED3C5128C962FB"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["65FE0755248EE470"]
+			id: "32C2515EA4D08BE0"
+			tasks: [{
+				id: "64A2DAC3FE8226F6"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32C2515EA4D08BE0"]
+			id: "093206B431ACAFF2"
+			tasks: [{
+				id: "2984AFD5861C9D04"
+				item: "jaopca:processors.fluix"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 6.0d
 		}
 	]
 	title: "2. 群峦之下 | Beneath the World"

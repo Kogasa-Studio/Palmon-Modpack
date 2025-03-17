@@ -2414,6 +2414,18 @@
 			x: -10.0d
 			y: 22.0d
 		}
+		{
+			dependencies: ["7A23822AE720815B"]
+			id: "4DFB6203A2B1FBD0"
+			subtitle: "异次元储存"
+			tasks: [{
+				id: "505CE47E9E4BB2C1"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
 	]
 	title: "1. 群峦星 | TFC Planet"
 }

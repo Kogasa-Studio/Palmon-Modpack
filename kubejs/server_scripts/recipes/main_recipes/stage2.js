@@ -1,4 +1,18 @@
 ServerEvents.recipes(event => {
+
+    event.stonecutting('botania:apothecary_default', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_1_s2')
+    event.stonecutting('botania:apothecary_forest', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_2_s2')
+    event.stonecutting('botania:apothecary_plains', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_3_s2')
+    event.stonecutting('botania:apothecary_mountain', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_4_s2')
+    event.stonecutting('botania:apothecary_fungal', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_5_s2')
+    event.stonecutting('botania:apothecary_swamp', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_6_s2')
+    event.stonecutting('botania:apothecary_desert', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_7_s2')
+    event.stonecutting('botania:apothecary_taiga', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_8_s2')
+    event.stonecutting('botania:apothecary_mesa', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_9_s2')
+    event.stonecutting('botania:apothecary_mossy', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_10_s2')
+    event.stonecutting('botania:apothecary_livingrock', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_11_s2')
+    event.stonecutting('botania:apothecary_deepslate', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_12_s2')
+
     event.shaped('embers:mechanical_core', [
         'ACA',
         ' B ',

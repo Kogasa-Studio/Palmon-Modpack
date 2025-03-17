@@ -53,14 +53,26 @@ ServerEvents.recipes((event) => {
     // stage 1
     // main
     s1Occ(event)
-    s1im(event)
-    s1create(event)
+    s1Im(event)
+    s1Create(event)
 
     // extra
     e1SB(event)
     e1TC(event)
     e1PK(event)
     e1PL(event)
+
+    // stage 2
+    // main
+    s2Bot(event)
+    s2AE(event)
+
+    // extra
+    e2CM(event)
+    e2ER(event)
+    e2ID(event)
+    e2RFT(event)
+
 
 })
 

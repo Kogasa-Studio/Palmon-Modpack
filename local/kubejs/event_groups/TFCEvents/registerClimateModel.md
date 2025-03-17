@@ -23,83 +23,94 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| newVec2 | float, float |  | Vec2 | ✘ |
-| registerClimateModel | ResourceLocation, Consumer<KubeJSClimateModel> |  | void | ✘ |
-| registerAdvancedClimateModel | ResourceLocation, Consumer<AdvancedKubeJSClimateModel> |  | void | ✘ |
-| getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
+| register | ResourceLocation, Consumer<Builder> |  | void | ✘ |
+| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
+| getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
 | getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
 | getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
 | getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
-| getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
-| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
+| registerClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
+| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
+| getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
+| newVec2 | float, float |  | Vec2 | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `Vec2 newVec2(float x, float z)`
-
-  Parameters:
-  - x: float- The x component
-  - z: float- The y component
-
-```
-Creates a new Vec2 with the given x and y values, used for creating custom wind vectors in your models
-```
-
-- `void registerClimateModel(ResourceLocation name, Consumer<KubeJSClimateModel> model)`
+- `void register(ResourceLocation name, Consumer<Builder> model)`
 
   Parameters:
   - name: ResourceLocation- The name of the climate model
-  - model: Consumer<KubeJSClimateModel>- A consumer for a KubeJSClimateModel
+  - model: Consumer<Builder>- A consumer for a model builder
 
 ```
 Creates a new climate model with the given name and properties
-```
-
-- `void registerAdvancedClimateModel(ResourceLocation name, Consumer<AdvancedKubeJSClimateModel> model)`
-
-  Parameters:
-  - name: ResourceLocation- The name of the climate model
-  - model: Consumer<AdvancedKubeJSClimateModel>- A consumer for an AdvancedKubeJSClimateModel, which has access to the onWorldLoad and onChunkLoad methods
-
-```
-Creates a new climate model with the given name and properties
-```
-
-- `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
-```
-Returns the callback version of TFC's average rainfall calculation
-```
-
-- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
-```
-Returns the callback version of TFC's air fog calculation
-```
-
-- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
-```
-Returns the callback version of TFC's water fog calculation
-```
-
-- `WindVectorCallback getDefaultWindVectorCallback()`
-```
-Returns the callback version of TFC's wind vector calculation
-```
-
-- `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
-```
-Returns the callback version of TFC's overworld average temperature calculation
 ```
 
 - `TemperatureCallback getDefaultCurrentTemperatureCallback()`
 ```
-Returns the callback version of TFC's overworld current temperature calculation
+Deprecated
+```
+
+- `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
+```
+Deprecated
+```
+
+- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
+```
+Deprecated
+```
+
+- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
+```
+Deprecated
+```
+
+- `WindVectorCallback getDefaultWindVectorCallback()`
+```
+Deprecated
+```
+
+- `void registerClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
+
+  Parameters:
+  - var0: ResourceLocation
+  - var1: Consumer<Builder>
+
+```
+Deprecated, use `.register`
+```
+
+- `void registerAdvancedClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
+
+  Parameters:
+  - var0: ResourceLocation
+  - var1: Consumer<Builder>
+
+```
+Deprecated, use `.register`
+```
+
+- `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
+```
+Deprecated
+```
+
+- `Vec2 newVec2(float var0, float var1)`
+
+  Parameters:
+  - var0: float
+  - var1: float
+
+```
+Deprecated
 ```
 
 - `Object exit(Object var0)`
@@ -138,13 +149,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -152,6 +156,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

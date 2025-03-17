@@ -1,7 +1,7 @@
 /**
  * @param {Internal.RecipesEventJS} event
  */
-function s1im(event) {
+function s1Im(event) {
   event.custom({
     "type": "tfc:anvil",
     "input": {

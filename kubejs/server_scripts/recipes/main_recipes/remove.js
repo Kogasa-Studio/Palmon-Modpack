@@ -73,6 +73,30 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'integratedterminals:crafting/part_terminal_storage' })
     event.remove({ id: 'rftoolsbuilder:builder' })
 
+    event.remove({ id: 'compactmachines:wall' })
+
+    event.remove({ id: 'botania:fertilizer_dye' })
+    event.remove({ id: 'botania:apothecary_default' })
+    event.remove({ id: 'botania:apothecary_forest' })
+    event.remove({ id: 'botania:apothecary_plains' })
+    event.remove({ id: 'botania:apothecary_mountain' })
+    event.remove({ id: 'botania:apothecary_fungal' })
+    event.remove({ id: 'botania:apothecary_swamp' })
+    event.remove({ id: 'botania:apothecary_desert' })
+    event.remove({ id: 'botania:apothecary_taiga' })
+    event.remove({ id: 'botania:apothecary_mesa' })
+    event.remove({ id: 'botania:apothecary_mossy' })
+    event.remove({ id: 'botania:apothecary_livingrock' })
+    event.remove({ id: 'botania:apothecary_deepslate' })
+
+    event.remove({ id: 'botania:pure_daisy/livingrock' })
+    event.remove({ id: 'botania:pure_daisy/livingwood' })
+    event.remove({ id: 'botania:mana_pool' })
+
+    event.remove({ id: 'ae2:network/blocks/inscribers' })
+    event.remove({ id: 'jaopcaextras:inscriber.circuit.fluix' })
+    event.remove({ id: 'jaopcaextras:inscriber.processor.fluix' })
+
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })

@@ -178,6 +178,7 @@
 #D98B69 tfc:groundcover/rotten_flesh
 #BADA1E tfc:groundcover/salt_lick
 #A51640 tfc:groundcover/stick
+#BE54EF tacz:gun_smith_table
 #87B5C3 create:hand_crank
 #86F40D beneath:haunted_spike
 #7A2E80 biomesoplenty:hellbark_leaves
@@ -203,6 +204,9 @@
 #C57CC1 minecraft:lime_shulker_box
 #746434 create:limestone
 #E81041 sophisticatedstorage:limited_netherite_barrel_1
+#5FCAC2 botania:livingrock
+#30898F botania:livingwood_log
+#568EA9 forestry:log_pile
 #90EB1E betterarcheology:loot_vase_creeper
 #0EC131 lootr:lootr_barrel
 #EA63C2 lootr:lootr_chest
@@ -213,6 +217,7 @@
 #C2A4CD biomesoplenty:medium_rose_quartz_bud
 #618FD5 integrateddynamics:menril_leaves
 #202AC3 ae2:molecular_assembler
+#CB4F47 embers:molten_dawnstone_block
 #33871A thoriumreactors:molybdenum_ore
 #A4FC4B minecraft:mossy_cobblestone
 #F093B4 minecraft:mossy_cobblestone_slab
@@ -224,7 +229,9 @@
 #E8DF5E minecraft:mud_brick_wall
 #F54628 minecraft:mud_bricks
 #4FDFD8 regions_unexplored:mycotoxic_moss
+#4BC148 ae2:mysterious_cube
 #900124 malum:natural_quartz_ore
+#A774B7 cobgyms:nether_ancient_relic
 #892D26 quark:nether_brick_chest
 #91453F minecraft:nether_brick_fence
 #0EFBB2 minecraft:nether_brick_slab
@@ -235,6 +242,7 @@
 #5DD67D minecraft:nether_gold_ore
 #E6973A beneath:nether_pebble
 #6D0978 minecraft:nether_quartz_ore
+#06828A sophisticatedstorage:netherite_barrel
 #454322 minecraft:netherrack
 #CADBB6 thermal:nickel_ore
 #E166B2 thoriumreactors:nickel_ore
@@ -417,6 +425,7 @@
 #C51CB6 tconstruct:scorched_ingot_gauge
 #5D8974 create:scorchia
 #33130F create:scoria
+#1B4219 tconstruct:seared_basin
 #B74BCC tconstruct:seared_bricks
 #3EE7D8 tconstruct:seared_drain
 #377233 tconstruct:seared_fuel_tank

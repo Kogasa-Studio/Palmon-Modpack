@@ -20,31 +20,31 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | generic | String, String, JsonObject, Consumer<PlacedFeatureProperties> |  | void | ✘ |
-| babyBoulder | String, List<BlockToBlockStatesMapEntry>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
+| blockToWeightedBlockState | List<String>, List<String> |  | BlockToWeightedBlockStateMapEntry | ✘ |
+| geode | String, String, String, List<String>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | boulder | String, List<BlockToBlockStatesMapEntry>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | thinSpike | String, String, int, int, int, int, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | pipeVein | String, List<BlockToWeightedBlockStateMapEntry>, int, float, int, int, int, int, int, int, int, int, float, Consumer<Pipe>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | clusterVein | String, List<BlockToWeightedBlockStateMapEntry>, int, float, int, int, int, Consumer<Cluster>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
-| discVein | String, List<BlockToWeightedBlockStateMapEntry>, int, float, int, int, int, int, Consumer<Disc>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
+| babyBoulder | String, List<BlockToBlockStatesMapEntry>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | hotSpring | String, String, String, int, boolean, List<BlockToWeightedBlockStateMapEntry>, FissureDecoration, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | ifThen | String, String, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | soilDisc | String, List<BlockToBlockStateMapEntry>, int, int, int, Float, Consumer<PlacedFeatureProperties> |  | void | ✘ |
-| tallWildCrop | String, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
-| spreadingCrop | String, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
-| spreadingBush | String, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
+| discVein | String, List<BlockToWeightedBlockStateMapEntry>, int, float, int, int, int, int, Consumer<Disc>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | randomPatch | String, Integer, Integer, Integer, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
-| boulderState | String, List<String> |  | BlockToBlockStatesMapEntry | ✘ |
+| spreadingCrop | String, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
+| tallWildCrop | String, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | simpleBlockState | String, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
-| blockToBlockState | String, String |  | BlockToBlockStateMapEntry | ✘ |
+| spreadingBush | String, String, Consumer<PlacedFeatureProperties> |  | void | ✘ |
 | fissureDecoration | List<BlockToWeightedBlockStateMapEntry>, int, int, int |  | FissureDecoration | ✘ |
-| geode | String, String, String, List<String>, Consumer<PlacedFeatureProperties> |  | void | ✘ |
-| blockToWeightedBlockState | List<String>, List<String> |  | BlockToWeightedBlockStateMapEntry | ✘ |
+| blockToBlockState | String, String |  | BlockToBlockStateMapEntry | ✘ |
+| boulderState | String, List<String> |  | BlockToBlockStatesMapEntry | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -61,15 +61,27 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Creates a configured feature of the given type with the given config and the matching placed feature
 ```
 
-- `void babyBoulder(String name, List<BlockToBlockStatesMapEntry> states, Consumer<PlacedFeatureProperties> placement)`
+- `BlockToWeightedBlockStateMapEntry blockToWeightedBlockState(List<String> blocks, List<String> blockStates)`
+
+  Parameters:
+  - blocks: List<String>- A list of strings, the registry names of blocks to be replaced
+  - blockStates: List<String>- A list of string representations of weighted block states
+
+```
+Creates a new block list to weighted block state list map entry for use several configured features
+```
+
+- `void geode(String name, String outer, String middle, List<String> innerValues, Consumer<PlacedFeatureProperties> placement)`
 
   Parameters:
   - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
-  - states: List<BlockToBlockStatesMapEntry>- A list of {Block -> BlockState[]} objects in string form that define the baby boulder's state property
+  - outer: String- Sets the outer block state of the geode
+  - middle: String- Sets the middle block state of the geode
+  - innerValues: List<String>- A list of weight block state in string form, sets the inner state of the geode
   - placement: Consumer<PlacedFeatureProperties>- The placement properties
 
 ```
-Creates a baby boulder configured feature and the matching placed feature
+Creates a geode configured feature and the matching placed feature
 ```
 
 - `void boulder(String name, List<BlockToBlockStatesMapEntry> states, Consumer<PlacedFeatureProperties> placement)`
@@ -138,22 +150,15 @@ Creates a 'tfc:pipe_vein' configured feature and the matching placed feature
 Creates a 'tfc:cluster_vein' configured feature and the matching placed feature
 ```
 
-- `void discVein(String name, List<BlockToWeightedBlockStateMapEntry> replacementMap, int rarity, float density, int minY, int maxY, int size, int height, Consumer<Disc> optionals, Consumer<PlacedFeatureProperties> placement)`
+- `void babyBoulder(String name, List<BlockToBlockStatesMapEntry> states, Consumer<PlacedFeatureProperties> placement)`
 
   Parameters:
   - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
-  - replacementMap: List<BlockToWeightedBlockStateMapEntry>- A list of {Block[] -> WeightedBlockState[]} objects in string form that define the vein's replacement map
-  - rarity: int- Sets the 'rarity' value of the vein
-  - density: float- Sets the 'density' value of the vein
-  - minY: int- Sets the 'min_y' value of the vein
-  - maxY: int- Sets the 'max_y' value of the vein
-  - size: int- Sets the 'size' value of the vein
-  - height: int- Sets the 'height' value of the vein
-  - optionals: Consumer<Disc>- Sets the optional values of the vein through a consumer
+  - states: List<BlockToBlockStatesMapEntry>- A list of {Block -> BlockState[]} objects in string form that define the baby boulder's state property
   - placement: Consumer<PlacedFeatureProperties>- The placement properties
 
 ```
-Creates a 'tfc:cluster_vein' configured feature and the matching placed feature
+Creates a baby boulder configured feature and the matching placed feature
 ```
 
 - `void hotSpring(String name, String wallState, String fluidState, int radius, boolean allowUnderwater, List<BlockToWeightedBlockStateMapEntry> replacesOnFluidContact, FissureDecoration decoration, Consumer<PlacedFeatureProperties> placement)`
@@ -199,37 +204,22 @@ Creates a 'tfc:if_then' configured feature and the matching placed feature
 Creates a 'tfc:soil_disc' configured feature and the matching placed feature
 ```
 
-- `void tallWildCrop(String name, String block, Consumer<PlacedFeatureProperties> placement)`
+- `void discVein(String name, List<BlockToWeightedBlockStateMapEntry> replacementMap, int rarity, float density, int minY, int maxY, int size, int height, Consumer<Disc> optionals, Consumer<PlacedFeatureProperties> placement)`
 
   Parameters:
   - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
-  - block: String- The block to placed, must be an instanceof WildDoubleCropBlock
+  - replacementMap: List<BlockToWeightedBlockStateMapEntry>- A list of {Block[] -> WeightedBlockState[]} objects in string form that define the vein's replacement map
+  - rarity: int- Sets the 'rarity' value of the vein
+  - density: float- Sets the 'density' value of the vein
+  - minY: int- Sets the 'min_y' value of the vein
+  - maxY: int- Sets the 'max_y' value of the vein
+  - size: int- Sets the 'size' value of the vein
+  - height: int- Sets the 'height' value of the vein
+  - optionals: Consumer<Disc>- Sets the optional values of the vein through a consumer
   - placement: Consumer<PlacedFeatureProperties>- The placement properties
 
 ```
-Creates a 'tfc:tall_wild_crop' configured feature and the matching placed feature
-```
-
-- `void spreadingCrop(String name, String block, Consumer<PlacedFeatureProperties> placement)`
-
-  Parameters:
-  - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
-  - block: String- The block to placed, must be an instanceof WildSpreadingCropBlock
-  - placement: Consumer<PlacedFeatureProperties>- The placement properties
-
-```
-Creates a 'tfc:spreading_crop' configured feature and the matching placed feature
-```
-
-- `void spreadingBush(String name, String block, Consumer<PlacedFeatureProperties> placement)`
-
-  Parameters:
-  - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
-  - block: String- The block to placed, must be an instanceof SpreadingBushBlock
-  - placement: Consumer<PlacedFeatureProperties>- The placement properties
-
-```
-Creates a 'tfc:spreading_bush' configured feature and the matching placed feature
+Creates a 'tfc:cluster_vein' configured feature and the matching placed feature
 ```
 
 - `void randomPatch(String name, Integer tries, Integer xzSpread, Integer ySpread, String feature, Consumer<PlacedFeatureProperties> placement)`
@@ -246,14 +236,26 @@ Creates a 'tfc:spreading_bush' configured feature and the matching placed featur
 Creates a 'minecraft:random_patch' configured feature and the matching placed feature
 ```
 
-- `BlockToBlockStatesMapEntry boulderState(String block, List<String> blockStates)`
+- `void spreadingCrop(String name, String block, Consumer<PlacedFeatureProperties> placement)`
 
   Parameters:
-  - block: String- The registry name of a block to be replaced
-  - blockStates: List<String>- A list of string representations of a block state
+  - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
+  - block: String- The block to placed, must be an instanceof WildSpreadingCropBlock
+  - placement: Consumer<PlacedFeatureProperties>- The placement properties
 
 ```
-Creates a new block to block state list map entry for use in boulder configured features
+Creates a 'tfc:spreading_crop' configured feature and the matching placed feature
+```
+
+- `void tallWildCrop(String name, String block, Consumer<PlacedFeatureProperties> placement)`
+
+  Parameters:
+  - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
+  - block: String- The block to placed, must be an instanceof WildDoubleCropBlock
+  - placement: Consumer<PlacedFeatureProperties>- The placement properties
+
+```
+Creates a 'tfc:tall_wild_crop' configured feature and the matching placed feature
 ```
 
 - `void simpleBlockState(String name, String blockState, Consumer<PlacedFeatureProperties> placement)`
@@ -267,14 +269,15 @@ Creates a new block to block state list map entry for use in boulder configured 
 Creates a 'minecraft:simple_block' configured feature and the matching placed feature, uses a SimpleStateProvider
 ```
 
-- `BlockToBlockStateMapEntry blockToBlockState(String block, String state)`
+- `void spreadingBush(String name, String block, Consumer<PlacedFeatureProperties> placement)`
 
   Parameters:
-  - block: String- The registry name of a block to be replaced
-  - state: String- A string representation of a block state
+  - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
+  - block: String- The block to placed, must be an instanceof SpreadingBushBlock
+  - placement: Consumer<PlacedFeatureProperties>- The placement properties
 
 ```
-Creates a new block to block state map entry for use in soil disc configured features
+Creates a 'tfc:spreading_bush' configured feature and the matching placed feature
 ```
 
 - `FissureDecoration fissureDecoration(List<BlockToWeightedBlockStateMapEntry> replacementMap, int rarity, int radius, int count)`
@@ -289,27 +292,24 @@ Creates a new block to block state map entry for use in soil disc configured fea
 Creates a new fissure decoration object
 ```
 
-- `void geode(String name, String outer, String middle, List<String> innerValues, Consumer<PlacedFeatureProperties> placement)`
+- `BlockToBlockStateMapEntry blockToBlockState(String block, String state)`
 
   Parameters:
-  - name: String- The name of the feature, the namespace will default to 'kubejs_tfc' if none is provided
-  - outer: String- Sets the outer block state of the geode
-  - middle: String- Sets the middle block state of the geode
-  - innerValues: List<String>- A list of weight block state in string form, sets the inner state of the geode
-  - placement: Consumer<PlacedFeatureProperties>- The placement properties
+  - block: String- The registry name of a block to be replaced
+  - state: String- A string representation of a block state
 
 ```
-Creates a geode configured feature and the matching placed feature
+Creates a new block to block state map entry for use in soil disc configured features
 ```
 
-- `BlockToWeightedBlockStateMapEntry blockToWeightedBlockState(List<String> blocks, List<String> blockStates)`
+- `BlockToBlockStatesMapEntry boulderState(String block, List<String> blockStates)`
 
   Parameters:
-  - blocks: List<String>- A list of strings, the registry names of blocks to be replaced
-  - blockStates: List<String>- A list of string representations of weighted block states
+  - block: String- The registry name of a block to be replaced
+  - blockStates: List<String>- A list of string representations of a block state
 
 ```
-Creates a new block list to weighted block state list map entry for use several configured features
+Creates a new block to block state list map entry for use in boulder configured features
 ```
 
 - `Object exit(Object var0)`
@@ -348,13 +348,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -362,6 +355,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
