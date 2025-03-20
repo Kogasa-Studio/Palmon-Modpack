@@ -91,32 +91,6 @@ ServerEvents.recipes(event => {
             E: '#forge:sheets/black_steel'
         }).id('kubejs:processing_station_s1')
 
-    event.shaped('ad_astra:nasa_workbench', [
-        'ACA',
-        'BDB',
-        'AEA'
-    ],
-        {
-            A: '#forge:sheets/brass',
-            B: 'kubejs:alpha_framework',
-            C: 'palmon:m_crystal',
-            D: 'tfc:brass_mechanisms',
-            E: '#forge:sheets/any_bronze'
-        }).id('kubejs:nasa_workbench_s1')
-
-    event.shaped('ad_astra:steel_engine', [
-        'ACA',
-        'BDB',
-        'AEA'
-    ],
-        {
-            A: '#forge:plates/steel',
-            B: '#forge:rods/steel',
-            C: 'kubejs:alpha_framework',
-            D: 'ad_astra:engine_frame',
-            E: 'ad_astra:fan'
-        }).id('kubejs:steel_engine_s1')
-
     event.shaped('tconstruct:crafting_station', [
         'ACA',
         'BDB',

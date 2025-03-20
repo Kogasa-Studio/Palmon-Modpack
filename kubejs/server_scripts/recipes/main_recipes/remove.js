@@ -97,6 +97,20 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'jaopcaextras:inscriber.circuit.fluix' })
     event.remove({ id: 'jaopcaextras:inscriber.processor.fluix' })
 
+    event.remove({ id: 'cobblefordays:tier_1' })
+    event.remove({ id: 'cobblefordays:tier_2' })
+    event.remove({ id: 'cobblefordays:tier_3' })
+    event.remove({ id: 'cobblefordays:tier_4' })
+    event.remove({ id: 'cobblefordays:tier_5' })
+
+    event.remove({ output: 'jaopca:gears.unknown' })
+    event.remove({ output: 'jaopca:plates.unknown' })
+    event.remove({ output: 'jaopca:circuits.unknown' })
+    event.remove({ output: 'jaopca:processors.unknown' })
+    event.remove({ output: 'jaopca:rods.unknown' })
+
+    event.remove({ output: 'thermal:machine_frame' })
+
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })

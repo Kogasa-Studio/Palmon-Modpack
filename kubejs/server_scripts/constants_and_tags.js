@@ -44,4 +44,10 @@ ServerEvents.tags('item', event => {
         'botania:apothecary_deepslate'
     )
 
+    event.add('kubejs:stage2_convergence',
+        'jaopca:processors.fluix',
+        'botania:terrasteel_ingot',
+        'jaopca:gears.unknown'
+    )
+
 })

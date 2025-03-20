@@ -2,9 +2,20 @@
     "item.kubejs.reinforced_sheet": "强化板",
     "item.kubejs.beryllium_bronze_alloy": "§e铍青铜合金",
 
-    "item.kubejs.vial_of_chaos": "§m§d混沌小瓶",
     "item.kubejs.baby_proofing": "§m§e宝宝之证",
+    "item.kubejs.vial_of_chaos": "§m§d混沌小瓶",
+    "item.kubejs.cognitio": "§m§d思维",
+
+    "item.kubejs.ancient_netherite": "§a远古下界合金锭",
+    "item.kubejs.present_alloy": "§m§d现世合金锭",
+    "item.kubejs.stable_desh_ingot": "§m§d稳态戴斯锭",
     
+    "item.kubejs.alpha_dust": "§aAlpha 尘",
+    "item.kubejs.beta_dust": "§bBeta 尘",
+    "item.kubejs.gamma_dust": "§cGamma 尘",
+    "item.kubejs.delta_dust": "§dDelta 尘",
+    "item.kubejs.epsilon_dust": "§eEpsilon 尘",
+
     "item.kubejs.alpha_framework": "§aAlpha 框架",
     "item.kubejs.beta_framework": "§bBeta 框架",
     "item.kubejs.gamma_framework": "§cGamma 框架",
@@ -20,6 +31,12 @@
     "item.kubejs.voucher_2_1": "补给卷 S02T01",
     "item.kubejs.voucher_2_2": "补给卷 S02T02",
     "item.kubejs.voucher_2_3": "补给卷 S02T03",
+
+    "item.kubejs.voucher_3_0": "补给卷 S03T00",
+    "item.kubejs.voucher_3_1": "补给卷 S03T01",
+    "item.kubejs.voucher_3_2": "补给卷 S03T02",
+    "item.kubejs.voucher_3_3": "补给卷 S03T03",
+    "item.kubejs.voucher_3_4": "补给卷 S03T04",
 
     "item.kubejs.present_soul": "§e现世之魂",
     "item.kubejs.scranton_reality_anchor": "§d斯克兰顿现实稳定锚",

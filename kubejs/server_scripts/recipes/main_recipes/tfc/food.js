@@ -8,9 +8,6 @@ TFCEvents.data(event => {
     food('#minecraft:fishes', 2, 2, 0, 3,
         0, 0, 0, 1, 0
     )
-    food('adventuresmod:cooked_tuna', 3, 6, 0, 1,
-        0, 0, 0, 1, 0
-    )
 
     // eternal
     food("aquamirae:sweet_lance", 2.0, 5.0, 0, 0,
@@ -55,12 +52,6 @@ TFCEvents.data(event => {
     food("minecraft:golden_carrot", 6.0, 15.0, 0, 0,
         0, 0, 1, 0, 0
     )
-    food("adventuresmod:golden_tangerine", 5.0, 12.0, 0, 0,
-        0, 0.5, 0, 0, 0
-    )
-    food("adventuresmod:void_apple", 4.0, 11.0, 0, 0,
-        0, 0.5, 0, 0, 0
-    )
     food("rats:blue_cheese", 3.0, 7.0, 0, 0,
         0, 0, 0, 0, 2
     )
@@ -72,33 +63,6 @@ TFCEvents.data(event => {
     )
 
     // p1
-    food("adventuresmod:lettuce", 5.0, 6.5, 0, 1,
-        0, 0, 0.8, 0, 0
-    )
-    food("adventuresmod:cooked_devil_leg", 7.0, 8.5, 0, 1,
-        0, 0, 0, 2, 0
-    )
-    food("adventuresmod:cooked_murk_bass", 5.0, 9.0, 0, 1,
-        0, 0, 0, 1, 0
-    )
-    food("adventuresmod:toasted_alcheshroom", 3.0, 7.0, 0, 1,
-        0, 0, 0.7, 0, 0
-    )
-    food("adventuresmod:tangerine", 5.0, 7.0, 0, 1,
-        0, 1, 0, 0, 0
-    )
-    food("adventuresmod:pizza_slice", 12.0, 10.0, 0, 1,
-        1, 0, 1.0, 0, 1.5
-    )
-    food("adventuresmod:chorus_cookie", 5.0, 6.0, 0, 1,
-        0.4, 0.15, 0, 0, 0
-    )
-    food("adventuresmod:ice_cream", 5.0, 6.0, 2, 1,
-        0, 0.5, 0, 0, 0
-    )
-    food("adventuresmod:hearty_stew", 7.0, 8.0, 0, 1,
-        0, 0, 5, 1.5, 0
-    )
     food("nethersdelight:propelpearl", 2.0, 7.0, 0, 1,
         0, 0.5, 0, 0, 0
     )
@@ -161,24 +125,6 @@ TFCEvents.data(event => {
     )
     food("aquaculture:sushi", 4.0, 9.0, 0, 1,
         0, 0, 0.5, 0.5, 0
-    )
-    food("adventuresmod:chicken_stew", 6.0, 8.0, 0, 1,
-        0, 0, 5, 1.5, 0
-    )
-    food("adventuresmod:pastry", 8.0, 6.0, 0, 1,
-        5, 0, 0, 6, 1.8
-    )
-    food("adventuresmod:mythic_berries", 4.0, 5.0, 5, 1,
-        0, 0.8, 0, 0, 0
-    )
-    food("adventuresmod:tomato_soup", 5.0, 8.0, 10, 1,
-        0, 9, 0, 0, 0
-    )
-    food("adventuresmod:tomato", 3.0, 5.0, 5, 1,
-        0, 1.5, 0, 0, 0
-    )
-    food("adventuresmod:devil_leg", 2.0, 4.0, 0, 1,
-        0, 0, 0, 1.5, 0
     )
 
     // p2
@@ -509,12 +455,6 @@ TFCEvents.data(event => {
     )
 
     //p5
-    food("nuclearcraft:evenmoresmore", 18.0, 95.0, 0, 1,
-        260, 0, 0, 0, 9
-    )
-    food("nuclearcraft:graham_cracker", 1.0, 10.0, 0, 1,
-        0.6, 0, 0, 0, 0
-    )
     food("malum:cursed_sap", 6.0, 2.0, 5, 0,
         0, 1, 0, 0, 0
     )
@@ -553,27 +493,6 @@ TFCEvents.data(event => {
     )
     food("tconstruct:jeweled_apple", 4.0, 11.0, 0, 1,
         0, 1, 0, 0, 0
-    )
-    food("nuclearcraft:dark_chocolate", 1.0, 10.0, 0, 1,
-        0.75, 0, 0, 0, 0.25
-    )
-    food("nuclearcraft:smore", 2.0, 15.0, 0, 1,
-        2, 0, 0, 0, 0.5
-    )
-    food("nuclearcraft:dominos", 14.0, 75.0, 0, 1,
-        4, 0, 2, 2, 2
-    )
-    food("nuclearcraft:milk_chocolate", 1.0, 10.0, 0, 1,
-        0.5, 0, 0, 0, 0.5
-    )
-    food("nuclearcraft:marshmallow", 1.0, 10.0, 0, 1,
-        0.5, 0, 0, 0, 0
-    )
-    food("nuclearcraft:foursmore", 10.0, 55.0, 0, 1,
-        13, 0, 0, 0, 4.5
-    )
-    food("nuclearcraft:moresmore", 6.0, 35.0, 0, 1,
-        6, 0, 0, 0, 1.5
     )
 
     food("umapyoi:small_energy_drink", 2.0, 8.0, 10, 0,

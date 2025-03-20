@@ -1,11 +1,397 @@
 {
+	autofocus_id: "36D2E1C2BF0663D7"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3"
 	group: "103C794559B2F3C7"
+	icon: "ad_astra:earth_globe"
 	id: "20762FD2AC299A11"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
-	title: "3."
+	quests: [
+		{
+			icon: "ad_astra:earth_globe"
+			id: "36D2E1C2BF0663D7"
+			shape: "gear"
+			subtitle: "归乡"
+			tasks: [{
+				dimension: "kubejs:overworld"
+				id: "13E3D914352DC5D4"
+				type: "dimension"
+			}]
+			title: "着陆"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36D2E1C2BF0663D7"]
+			description: ["既然已经有了一艘可靠的火箭，为何不将目光放的再远一些？"]
+			id: "6D2837A2695037CE"
+			subtitle: "这是人类的一小步"
+			tasks: [{
+				id: "36C96DFEC25AC8F4"
+				type: "checkmark"
+			}]
+			title: "太空计划"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D2837A2695037CE"]
+			icon: {
+				Count: 1
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A613C862F305D94"
+			subtitle: "舱外活动"
+			tasks: [
+				{
+					id: "0D1EDA17C3F87504"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08B6AD965D28FE1B"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04D117C43C82D4DF"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70741BE25232785E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36D2E1C2BF0663D7"]
+			description: ["在此阶段，你将会解锁随机的两份补给。"]
+			id: "6D2DCDB27DF13C81"
+			rewards: [{
+				count: 5
+				id: "3356DC85D144A97F"
+				item: "cobblemon:relic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A2B996D578E4662"
+				type: "checkmark"
+			}]
+			title: "分歧点 3.0"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36D2E1C2BF0663D7"]
+			id: "6ACE8AAA69BDF127"
+			tasks: [{
+				id: "67F4CD22E0FB578E"
+				type: "checkmark"
+			}]
+			title: "世界线的观测者·α"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36D2E1C2BF0663D7"]
+			id: "50EDE394710966B7"
+			subtitle: "热力膨胀"
+			tasks: [{
+				id: "60AD8C943BA26AE6"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50EDE394710966B7"]
+			id: "3D8C4920A0463674"
+			tasks: [{
+				id: "6D212F9C2AED803C"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50EDE394710966B7"]
+			id: "7EC453F24F5E0E85"
+			subtitle: "你的噩梦开始了"
+			tasks: [{
+				id: "3DF0F68B7A3DBB06"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50EDE394710966B7"]
+			id: "1EE6D9E38516520E"
+			subtitle: "快速压板"
+			tasks: [{
+				id: "2BBA69F0BE363ABA"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36D2E1C2BF0663D7"]
+			id: "6E6C596EACD8BE9F"
+			subtitle: "为什么要被束缚在框架内呢"
+			tasks: [{
+				id: "62F65EB7116D1203"
+				type: "checkmark"
+			}]
+			title: "自由探索"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D2837A2695037CE"]
+			id: "09E9FC71E375C009"
+			subtitle: "为什么不呢"
+			tasks: [{
+				id: "3D33B6FD6ABC2EBB"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A613C862F305D94"
+				"09E9FC71E375C009"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "106E90D345ADA5AE"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "0686ADCBBC5DDBC4"
+				type: "dimension"
+			}]
+			title: "抵达月球"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["106E90D345ADA5AE"]
+			icon: "cataclysm:abyss_eye"
+			id: "7B7AE1E173DB4AFD"
+			subtitle: "I'a I'a.Cthulhu Fhatgn!"
+			tasks: [{
+				id: "1B7C0D8F08CC693C"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "沉没之城"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7EC453F24F5E0E85"]
+			id: "1F05408D8081B8E2"
+			shape: "hexagon"
+			tasks: [{
+				id: "7237D8DFFC8CA6F0"
+				item: "kubejs:present_alloy"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1F05408D8081B8E2"
+				"6D1CD3D97FFF7B32"
+			]
+			id: "0E3A1245F9178C71"
+			shape: "hexagon"
+			subtitle: "灵感：工业"
+			tasks: [{
+				id: "355CC4F3491E00E0"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6ACE8AAA69BDF127"]
+			id: "22C8AA6F4E8E5345"
+			shape: "hexagon"
+			subtitle: "灵感：神秘"
+			tasks: [{
+				id: "4934D4F49B6F2E41"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"22C8AA6F4E8E5345"
+				"7EC453F24F5E0E85"
+			]
+			id: "6D1CD3D97FFF7B32"
+			shape: "hexagon"
+			subtitle: "灵感：动力"
+			tasks: [{
+				id: "78545B23A27C92D2"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["106E90D345ADA5AE"]
+			id: "20C6105B852AF3F1"
+			subtitle: "月球特产"
+			tasks: [{
+				id: "78E0BC5A52AA3C39"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6ACE8AAA69BDF127"]
+			icon: "slashblade:proudsoul"
+			id: "1673E5CF51F87E75"
+			rewards: [{
+				auto: "enabled"
+				id: "0BBBB6E3947265A6"
+				ignore_reward_blocking: true
+				stage: "slashblade"
+				team_reward: false
+				title: "剑之魂"
+				type: "gamestage"
+			}]
+			shape: "hexagon"
+			subtitle: "灵感：拔刀"
+			tasks: [{
+				entity: "embers:ancient_golem"
+				id: "61FB65EF75B6B0A6"
+				type: "kill"
+				value: 42L
+			}]
+			title: "剑之魂"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D2DCDB27DF13C81"]
+			id: "55CB17B2D6FA3D12"
+			subtitle: "灵感：无线输电"
+			tasks: [{
+				id: "671D636A666DD6D8"
+				item: "kubejs:voucher_3_2"
+				type: "item"
+			}]
+			title: "3-2 通量网络"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D2DCDB27DF13C81"]
+			id: "0D454A94B4133CF1"
+			subtitle: "灵感：工厂管理"
+			tasks: [{
+				id: "5F75F22857AA2967"
+				item: "kubejs:voucher_3_1"
+				type: "item"
+			}]
+			title: "3-1 超级工厂管理"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D2DCDB27DF13C81"]
+			id: "74F440E76CB060BD"
+			subtitle: "灵感：行为模拟"
+			tasks: [{
+				id: "08F13AFCA4359A3C"
+				item: "kubejs:voucher_3_0"
+				type: "item"
+			}]
+			title: "3-0 模块化路由器"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D2DCDB27DF13C81"]
+			id: "1693BF993E82EFD5"
+			subtitle: "物资：RFT实用设备"
+			tasks: [{
+				id: "3AF494A08A4E5AF1"
+				item: "kubejs:voucher_3_3"
+				type: "item"
+			}]
+			title: "3-3 RFTools"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D2DCDB27DF13C81"]
+			id: "65A13D05A366FE2C"
+			subtitle: "物资：黄铜机械"
+			tasks: [{
+				id: "432B515928B80770"
+				item: "kubejs:voucher_3_4"
+				type: "item"
+			}]
+			title: "3-4 机械动力"
+			x: 4.0d
+			y: 8.0d
+		}
+	]
+	title: "3.地球 | The Earth"
 }

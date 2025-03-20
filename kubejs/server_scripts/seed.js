@@ -64,6 +64,7 @@ ServerEvents.recipes((event) => {
 
     // stage 2
     // main
+    s2Sp(event)
     s2Bot(event)
     s2AE(event)
 
@@ -72,7 +73,20 @@ ServerEvents.recipes((event) => {
     e2ER(event)
     e2ID(event)
     e2RFT(event)
+    
+    // final
+    s2Frame1(event)
+    s2Frame2(event)
 
+    // stage 3
+    // main
+
+    // extra 
+    e3MR(event)
+    e3SFM(event)
+    e3XN(event)
+    e3RFT(event)
+    e3CR(event)
 
 })
 

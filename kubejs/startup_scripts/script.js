@@ -11,6 +11,16 @@ StartupEvents.registry('item', event => {
 	event.create('vial_of_chaos').displayName('§m§dVial of Chaos').fireResistant().rarity('rare').glow(true)
 	event.create('cognitio').displayName('§m§dCognitio').fireResistant().rarity('epic').glow(true)
 
+	event.create('ancient_netherite').displayName('§mAncient Netherite').fireResistant().rarity('rare')
+	event.create('present_alloy').displayName('§m§dPresent Alloy Ingot').fireResistant().rarity('rare')
+	event.create('stable_desh_ingot').displayName('§m§dStable Desh Ingot').fireResistant().rarity('rare')
+
+	event.create('alpha_dust').displayName('§aAlpha Dust').fireResistant()
+	event.create('beta_dust').displayName('§bBeta Dust').fireResistant().rarity('rare')
+	event.create('gamma_dust').displayName('§cGamma Dust').fireResistant().rarity('rare')
+	event.create('delta_dust').displayName('§dDelta Dust').fireResistant().rarity('epic')
+	event.create('epsilon_dust').displayName('§eEpsilon Dust').fireResistant().rarity('epic').glow(true)
+
 	event.create('alpha_framework').displayName('§aAlpha Framework').fireResistant()
 	event.create('beta_framework').displayName('§bBeta Framework').fireResistant().rarity('rare')
 	event.create('gamma_framework').displayName('§cGamma Framework').fireResistant().rarity('rare')
@@ -28,6 +38,12 @@ StartupEvents.registry('item', event => {
 	event.create('voucher_2_1').displayName('Voucher S02T01').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 	event.create('voucher_2_2').displayName('Voucher S02T02').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 	event.create('voucher_2_3').displayName('Voucher S02T03').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+
+	event.create('voucher_3_0').displayName('Voucher S03T00').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_3_1').displayName('Voucher S03T01').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_3_2').displayName('Voucher S03T02').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_3_3').displayName('Voucher S03T03').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_3_4').displayName('Voucher S03T04').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 
 })
 

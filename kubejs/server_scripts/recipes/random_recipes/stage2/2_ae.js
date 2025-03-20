@@ -42,7 +42,7 @@ function s2AE(event) {
         "type": "ae2:transform",
         "circumstance": {
             "type": "fluid",
-            "tag": 'forge:molten_dawnstone'
+            "tag": 'forge:redstone_acid'
         },
         "ingredients": [
             {

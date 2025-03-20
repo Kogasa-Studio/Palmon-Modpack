@@ -1017,7 +1017,8 @@
 			dependencies: ["073B5FEE2E13EE3C"]
 			icon: "minecraft:obsidian"
 			id: "17673A8A63634284"
-			shape: "hexagon"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "你心满意足了吗"
 			tasks: [{
 				id: "48619513EA2FC299"
@@ -1095,6 +1096,19 @@
 		}
 		{
 			dependencies: ["182A02FDAB992AFC"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/scythe/wrought_iron"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "073B5FEE2E13EE3C"
 			subtitle: "献祭恶魔"
 			tasks: [{
@@ -1728,6 +1742,16 @@
 				""
 				"但是你逃不掉的。"
 			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/pig_iron"
+			}
 			id: "3B92C69C40F38337"
 			subtitle: "我不吃猪肉"
 			tasks: [{
@@ -1753,6 +1777,16 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:metal/ingot/steel"
+			}
 			id: "1233A3918001F8FF"
 			subtitle: "百炼成钢"
 			tasks: [{
