@@ -15,6 +15,7 @@
 #137 biomeswevegone:enchanted_tangle
 #614 minecraft:eroded_badlands
 #420 biomesoplenty:erupting_inferno
+#27D biomeswevegone:fragment_jungle
 #388 regions_unexplored:glistering_meadow
 #3D7 regions_unexplored:grassland
 #6DD regions_unexplored:grassy_beach
@@ -25,6 +26,7 @@
 #4B0 minecraft:jungle
 #77E tfc:lake
 #79A minecraft:lukewarm_ocean
+#498 minecraft:lush_caves
 #3B0 biomesoplenty:lush_desert
 #0B5 regions_unexplored:mycotoxic_undergrowth
 #39E adventuresmod:nether_hollows

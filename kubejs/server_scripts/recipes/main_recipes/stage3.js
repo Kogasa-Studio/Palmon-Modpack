@@ -1,5 +1,17 @@
 ServerEvents.recipes(event => {
 
+    event.shapeless('thoriumreactors:aluminum_nugget', ['#forge:nuggets/aluminum']).id('kubejs:aluminum_nugget_s3')
+
+    event.shaped('dimdungeons:block_gilded_portal', [
+        ' A ',
+        'ABA',
+        ' A '
+    ],
+        {
+            A: 'kubejs:stable_desh_ingot',
+            B: 'minecraft:chiseled_stone_bricks'
+        }).id('kubejs:block_gilded_portal_s3')
+
     event.shaped('immersiveengineering:hammer', [
         ' AC',
         ' BA',

@@ -1,7 +1,7 @@
 global.modBlackList = new Set(['minecraft', 'tconstruct', 'cataclysm', 'tconstruct', 'malum', 'rats'])
 global.entityBlackList = new Set(["cobblemon:pokemon", "dummmmmmy:target_dummy", "aqua_creepers:aqua_creeper"])
 
-global.netherStage = "the_nether"
+global.ratlantis = "ratlantis"
 global.endStage = "the_end"
 
 global.overworldItemStage = "overworld_item"

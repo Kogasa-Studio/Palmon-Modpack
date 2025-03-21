@@ -1,3 +1,4 @@
+#81FB17 ae2:256k_crafting_storage
 #D73C66 forestry:acacia_desert_fence
 #7CBA3C forestry:acacia_desert_fence_gate
 #DDFE01 minecraft:acacia_fence
@@ -27,6 +28,7 @@
 #2D4848 cobblemon:aspear_berry
 #6E69B5 create:asurine
 #8F615C sushigocrafting:avocado_leaves
+#0D47EE minecraft:azalea_leaves
 #0F359D minecraft:azure_bluet
 #161AE7 minecraft:bamboo
 #22C39E regions_unexplored:baobab_leaves
@@ -47,6 +49,7 @@
 #FADEAF forestry:beehive_swamp
 #7F50F6 minecraft:bell
 #D71D97 tfc:bellows
+#173B65 minecraft:big_dripleaf
 #3DE8FE minecraft:birch_leaves
 #73D2B3 minecraft:birch_planks
 #B7985C minecraft:birch_slab
@@ -92,6 +95,7 @@
 #BA9FBF minecraft:bubble_coral_block
 #FEF31E tconstruct:budding_ichor_slime_crystal
 #5C47C2 biomesoplenty:bush
+#D67F03 sfm:cable
 #208CB0 ae2:cable_bus
 #C6AC20 minecraft:cactus
 #00BE18 minecraft:calcite
@@ -112,6 +116,7 @@
 #F4BD98 netherexp:chiseled_soul_slate_tiles
 #AA9109 minecraft:chiseled_stone_bricks
 #72AE57 thoriumreactors:chromite_ore
+#598B16 rats:chunky_cheese_token
 #E97C09 techreborn:cinnabar_ore
 #480724 thermal:cinnabar_ore
 #7FDE54 minecraft:clay
@@ -134,6 +139,7 @@
 #8B8A11 minecraft:cobweb
 #A237EF cobblemon:colbur_berry
 #E2D601 minecraft:composter
+#2BFCCE ae2:controller
 #3BEB0B farmersdelight:cooking_pot
 #6E76AF minecraft:copper_ore
 #724B56 tconstruct:copper_platform
@@ -150,6 +156,7 @@
 #54DCC2 supplementaries:crank
 #DEE14B immersiveengineering:crate
 #E7F5B7 create:creative_crate
+#12BD5B ae2:creative_energy_cell
 #DFC019 mekanism:creative_energy_cube
 #08CF47 immersiveengineering:creosote_fluid_block
 #4BF61E create:crimsite
@@ -179,6 +186,7 @@
 #195ECD minecraft:deepslate_brick_stairs
 #C86497 minecraft:deepslate_bricks
 #23CDC6 thoriumreactors:deepslate_graphite_ore
+#CA8BE4 immersiveengineering:deepslate_ore_silver
 #15D05A thoriumreactors:deepslate_pyrochlor_ore
 #21CD4B thermal:deepslate_silver_ore
 #4DC58C minecraft:deepslate_tile_slab
@@ -202,6 +210,7 @@
 #4FA7D0 minecraft:dirt_path
 #B666A8 minecraft:dispenser
 #3B0AD1 minecraft:dripstone_block
+#E432BC ae2:drive
 #593405 netherexp:ecto_soul_sand
 #1C3CE1 netherexp:ectoplasm
 #811CAC embers:ember_bore
@@ -211,6 +220,7 @@
 #0691F4 ae2:energy_acceptor
 #AAFCBA netherexp:etched_soul_slate_tiles
 #B9B269 minecraft:fire_coral_block
+#E66556 minecraft:flowering_azalea_leaves
 #F423DA biomeswevegone:flowering_indigo_jacaranda_leaves
 #D08CFF biomeswevegone:flowering_ironwood_leaves
 #51103D biomeswevegone:flowering_jacaranda_leaves
@@ -299,6 +309,7 @@
 #CA0751 thermal:machine_smelter
 #DE9468 minecraft:magma_block
 #16E42F tconstruct:magma_fluid
+#FEE273 sfm:manager
 #E2D1E5 thoriumreactors:manganese_ore
 #A869DE minecraft:mangrove_fence
 #4D27CA minecraft:mangrove_planks
@@ -312,9 +323,11 @@
 #CB4F47 embers:molten_dawnstone_block
 #33871A thoriumreactors:molybdenum_ore
 #8A7583 minecraft:moss_block
+#5A981B minecraft:moss_carpet
 #A4FC4B minecraft:mossy_cobblestone
 #F093B4 minecraft:mossy_cobblestone_slab
 #EA8C04 minecraft:mossy_cobblestone_stairs
+#37244E biomeswevegone:mossy_stone
 #F0D99D minecraft:mossy_stone_brick_stairs
 #483B67 minecraft:mossy_stone_bricks
 #52E3AF minecraft:mud
@@ -324,6 +337,7 @@
 #F54628 minecraft:mud_bricks
 #4FDFD8 regions_unexplored:mycotoxic_moss
 #4BC148 ae2:mysterious_cube
+#1CB3AC cobblemon:nanab_berry
 #900124 malum:natural_quartz_ore
 #A774B7 cobgyms:nether_ancient_relic
 #892D26 quark:nether_brick_chest
@@ -352,6 +366,7 @@
 #855CF4 minecraft:oak_trapdoor
 #46FB1F minecraft:oak_wall_sign
 #4A5E4E minecraft:obsidian
+#C76DE2 cobblemon:occa_berry
 #5C837A create:ochrum
 #66575D ad_astra:oil
 #C8BE88 thermal:oil_red_sand
@@ -417,6 +432,7 @@
 #0257ED regions_unexplored:palm_log
 #6D29F3 biomeswevegone:palo_verde_leaves
 #915508 cobblemon:passho_berry
+#05E6F2 ae2:pattern_provider
 #7A520D biomemakeover:paydirt
 #D509D9 biomeswevegone:peat
 #5D1777 cobblemon:pecha_berry
@@ -470,6 +486,7 @@
 #C2036D netherexp:quartz_crystal
 #36C0E2 biomeswevegone:quicksand
 #868785 minecraft:rail
+#A49C86 biomeswevegone:rainbow_eucalyptus_leaves
 #213091 minecraft:raw_copper_block
 #8251FB tfc:raw_sandstone/red
 #1CB7F9 cobblemon:rawst_berry
@@ -543,6 +560,7 @@
 #E32377 tfc:rock/spike/andesite
 #2E5797 tfc:rock/spike/basalt
 #CA2AFE tfc:rock/spike/granite
+#5E4B0B biomeswevegone:rocky_stone
 #D6562E sushigocrafting:roller
 #865EB2 tfc:rooted_dirt/sandy_loam
 #746CB3 biomesoplenty:rose_quartz_block
@@ -652,6 +670,7 @@
 #B50B59 mekanism:tin_ore
 #1E0585 thermal:tin_ore
 #2AD629 thoriumreactors:titanic_iron_ore
+#0A8FA1 forestry:tree_baobab_default_leaves
 #DE4EDF forestry:tree_hill_cherry_default_leaves
 #4937B4 forestry:tree_hill_cherry_default_leaves_fruit
 #FE613F forestry:tree_lime_default_leaves

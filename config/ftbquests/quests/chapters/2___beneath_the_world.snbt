@@ -309,6 +309,7 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:chest"
 			id: "57C7123817EBBE5C"
+			optional: true
 			rewards: [{
 				id: "0789BD486BD0DB77"
 				item: {
@@ -355,6 +356,7 @@
 			hide_until_deps_complete: true
 			icon: "compactmachines:personal_shrinking_device"
 			id: "0E9A86F7F8F2F1DE"
+			optional: true
 			rewards: [
 				{
 					id: "1AA4044ADB77CE01"
@@ -383,6 +385,7 @@
 			hide_until_deps_complete: true
 			icon: "embers:tinker_hammer"
 			id: "2DD4A11F667C59A9"
+			optional: true
 			rewards: [{
 				id: "1F094C9BED524FAB"
 				item: {
@@ -459,6 +462,7 @@
 			hide_until_deps_complete: true
 			icon: "rftoolsbuilder:shape_card_def"
 			id: "322162A1B029C99D"
+			optional: true
 			rewards: [{
 				id: "627E9D0FE9D1EF20"
 				item: {
@@ -561,6 +565,7 @@
 			dependencies: ["22DEA013C6AF2127"]
 			icon: "botania:apothecary_default"
 			id: "24A6488BA733B78B"
+			optional: true
 			rewards: [{
 				count: 8
 				id: "51E1A98C8423A7A8"
@@ -586,7 +591,8 @@
 		{
 			dependencies: ["22DEA013C6AF2127"]
 			id: "550FDE68159296D1"
-			subtitle: "特制灵感：魔法机械构件"
+			optional: true
+			subtitle: "特制灵感：机械构件"
 			tasks: [{
 				id: "4C1DE95A1412BBE7"
 				item: "jaopca:gears.dawnstone"
@@ -598,6 +604,7 @@
 		{
 			dependencies: ["22DEA013C6AF2127"]
 			id: "77A47F13DB1D39E4"
+			optional: true
 			rewards: [
 				{
 					id: "0DDCA36C4091E271"

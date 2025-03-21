@@ -1426,6 +1426,86 @@
 					title: "剑之魂"
 					type: "gamestage"
 				}
+				{
+					id: "78C00BACAB99E518"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								BladeUniqueId: [I;
+									-883833025
+									-1416085362
+									-1207968167
+									-1501815390
+								]
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:judgement_cut"
+								StandbyRenderType: 0b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 4.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 40
+								proudSoul: 0
+								translationKey: ""
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							bladeState: {
+								AttackAmplifier: 0.0f
+								BladeUniqueId: [I;
+									-883833025
+									-1416085362
+									-1207968167
+									-1501815390
+								]
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:judgement_cut"
+								StandbyRenderType: 0b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 4.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 40
+								proudSoul: 0
+								translationKey: ""
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "灵感：拔刀"
 			tasks: [{

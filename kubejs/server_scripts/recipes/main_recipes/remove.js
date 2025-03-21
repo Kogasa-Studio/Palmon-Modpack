@@ -109,7 +109,13 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'jaopca:processors.unknown' })
     event.remove({ output: 'jaopca:rods.unknown' })
 
-    event.remove({ output: 'thermal:machine_frame' })
+    event.remove({ id: 'thermal:machine_frame' })
+    event.remove({ id: 'dimdungeons:recipe_block_gilded_portal' })
+    event.remove({ id: 'modularrouters:modular_router' })
+    event.remove({ id: 'sfm:cable' })
+    event.remove({ id: 'sfm:manager' })
+    event.remove({ id: 'fluxnetworks:fluxcore' })
+    event.remove({ id: 'rftoolsbase:machine_frame' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

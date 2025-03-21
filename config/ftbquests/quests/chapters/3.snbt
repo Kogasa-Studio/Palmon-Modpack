@@ -300,7 +300,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6ACE8AAA69BDF127"]
@@ -329,7 +329,45 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
+			hide_until_deps_complete: true
 			id: "55CB17B2D6FA3D12"
+			optional: true
+			rewards: [{
+				id: "0CA728184A5DCCAD"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 8b
+									Slot: 0b
+									id: "fluxnetworks:flux_core"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "fluxnetworks:flux_controller"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "fluxnetworks:flux_point"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "fluxnetworks:flux_plug"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "灵感：无线输电"
 			tasks: [{
 				id: "671D636A666DD6D8"
@@ -342,7 +380,35 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
+			hide_until_deps_complete: true
 			id: "0D454A94B4133CF1"
+			optional: true
+			rewards: [{
+				id: "43D2832800EF6F83"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 2b
+									Slot: 0b
+									id: "sfm:manager"
+								}
+								{
+									Count: 16b
+									Slot: 1b
+									id: "sfm:cable"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "灵感：工厂管理"
 			tasks: [{
 				id: "5F75F22857AA2967"
@@ -355,7 +421,45 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
+			hide_until_deps_complete: true
 			id: "74F440E76CB060BD"
+			optional: true
+			rewards: [{
+				id: "59A72A2D18523937"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 4b
+									Slot: 0b
+									id: "modularrouters:modular_router"
+								}
+								{
+									Count: 4b
+									Slot: 1b
+									id: "modularrouters:blank_upgrade"
+								}
+								{
+									Count: 4b
+									Slot: 2b
+									id: "modularrouters:blank_module"
+								}
+								{
+									Count: 4b
+									Slot: 3b
+									id: "modularrouters:augment_core"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "灵感：行为模拟"
 			tasks: [{
 				id: "08F13AFCA4359A3C"
@@ -368,8 +472,46 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
+			hide_until_deps_complete: true
 			id: "1693BF993E82EFD5"
-			subtitle: "物资：RFT实用设备"
+			optional: true
+			rewards: [{
+				id: "55CD01C9EB182AE7"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 8b
+									Slot: 0b
+									id: "rftoolsbase:machine_frame"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "rftoolsutility:crafter1"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "rftoolsbase:machine_infuser"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "rftoolspower:cell2"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "灵感：RFT实用设备"
 			tasks: [{
 				id: "3AF494A08A4E5AF1"
 				item: "kubejs:voucher_3_3"
@@ -381,7 +523,91 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
+			hide_until_deps_complete: true
 			id: "65A13D05A366FE2C"
+			optional: true
+			rewards: [{
+				id: "74480DBB02460F4E"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "create:windmill_bearing"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "create:mechanical_bearing"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "create:cart_assembler"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "create:wrench"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "create:extendo_grip"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "create:goggles"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "create:super_glue"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "create:mechanical_arm"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "create:rotation_speed_controller"
+								}
+								{
+									Count: 32b
+									Slot: 9b
+									id: "create:track"
+								}
+								{
+									Count: 4b
+									Slot: 10b
+									id: "create:track_station"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "createaddition:straw"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "物资：黄铜机械"
 			tasks: [{
 				id: "432B515928B80770"
@@ -392,6 +618,345 @@
 			x: 4.0d
 			y: 8.0d
 		}
+		{
+			dependencies: [
+				"20C6105B852AF3F1"
+				"1F05408D8081B8E2"
+			]
+			id: "346F9B9DECB62437"
+			tasks: [{
+				id: "49905A769C345682"
+				item: "kubejs:stable_desh_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["106E90D345ADA5AE"]
+			id: "702A4A7A98273A95"
+			subtitle: "征服地牢"
+			tasks: [{
+				id: "332DF7501BABC0A8"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["346F9B9DECB62437"]
+			icon: "dimdungeons:block_portal_keyhole"
+			id: "2F3FEE387631C527"
+			rewards: [
+				{
+					id: "436A1B58BEBCAEE6"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "012069ED462430C4"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4AE191F2BEFEBF54"
+					item: "dimdungeons:block_portal_keyhole"
+					type: "item"
+				}
+				{
+					id: "6CC8E8D61E67518F"
+					item: "dimdungeons:block_gilded_portal"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "12A8349FA44B9077"
+					item: { Count: 9, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+			]
+			title: "维度地牢传送门"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["346F9B9DECB62437"]
+			description: ["在此阶段，你将会解锁两份&l&e灵感&l&f。"]
+			id: "4AEADEEE818B1FCC"
+			tasks: [{
+				id: "140A53BF9B4CFAC2"
+				type: "checkmark"
+			}]
+			title: "分歧点 3.1"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E6C596EACD8BE9F"]
+			id: "5CB9479134B9111E"
+			subtitle: "鼠鼠我啊"
+			tasks: [{
+				id: "6320138F9F5178F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: -2L
+							traits: [ ]
+						}
+					}
+					id: "rats:cheese"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CB9479134B9111E"]
+			description: ["老鼠升级之后可以帮你完成许多工作，在此只列出部分例子。"]
+			id: "0F8A0D01D402ADDD"
+			subtitle: "鼠奴"
+			tasks: [{
+				id: "163DA1543944A76A"
+				item: "rats:rat_upgrade_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0F8A0D01D402ADDD"]
+			id: "42B8DCE12AF85A8B"
+			tasks: [{
+				id: "10104E651DCDE83B"
+				item: "rats:rat_upgrade_aristocrat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0F8A0D01D402ADDD"]
+			id: "1FF5C1BA69E467A9"
+			tasks: [{
+				id: "75A7EC3AE8407E54"
+				item: "rats:rat_upgrade_breeder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0F8A0D01D402ADDD"]
+			id: "16DD337E2FC23817"
+			tasks: [{
+				id: "583854CEBF5544AF"
+				item: "rats:rat_upgrade_lumberjack"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0F8A0D01D402ADDD"]
+			id: "238572BB02DB6E61"
+			tasks: [{
+				id: "005D9CB220092C3D"
+				item: "rats:rat_upgrade_farmer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0F8A0D01D402ADDD"]
+			id: "18E99EA0560980D3"
+			tasks: [{
+				id: "22F43515C051D36E"
+				item: "rats:rat_upgrade_replanter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0F8A0D01D402ADDD"]
+			id: "61F05903E6789A31"
+			tasks: [{
+				id: "3484B29029EB1350"
+				item: "rats:rat_upgrade_shears"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6E6C596EACD8BE9F"]
+			icon: "cataclysm:mech_eye"
+			id: "39EA4E779C168F97"
+			tasks: [{
+				id: "0B3C4A2A87415E55"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "远古工厂"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39EA4E779C168F97"]
+			id: "573F9AF697176410"
+			tasks: [{
+				id: "02C263359488F35C"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5CB9479134B9111E"]
+			id: "45C1F200915A7F67"
+			tasks: [{
+				id: "67D7CF1D144AEDEC"
+				item: "rats:tiny_coin"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45C1F200915A7F67"]
+			description: [
+				"当你试图开启前往鼠西州的传送门时，一股神秘的力量压制住了你。"
+				""
+				"或许你需要一些其他的东西才能帮助你驱散这股力量..."
+			]
+			id: "0BA24B8C1356ABC7"
+			subtitle: "神秘的力量拒绝了你"
+			tasks: [{
+				id: "4FFF80EE3909D9BA"
+				item: "rats:chunky_cheese_token"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4AEADEEE818B1FCC"]
+			id: "75D3453813C3D864"
+			subtitle: "灵感：林业"
+			tasks: [{
+				id: "3B98D313DDE4BB08"
+				item: "forestry:sturdy_machine"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4AEADEEE818B1FCC"]
+			id: "0B3D033410791E9E"
+			subtitle: "灵感：灵灾"
+			tasks: [{
+				id: "4DC1F957C2A83147"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4AEADEEE818B1FCC"]
+			id: "1E95FFDD292CDA88"
+			rewards: [
+				{
+					id: "008A42EA32CE4DA4"
+					item: "computercraft:computer_advanced"
+					type: "item"
+				}
+				{
+					id: "627E574ACC5A9EE4"
+					item: "computercraft:monitor_advanced"
+					type: "item"
+				}
+				{
+					id: "0194E0BED6E4335D"
+					item: "computercraft:turtle_advanced"
+					type: "item"
+				}
+			]
+			subtitle: "灵感：钍反应堆"
+			tasks: [{
+				id: "6C931E0D1DE0A835"
+				item: {
+					Count: 1
+					id: "thoriumreactors:thorium_crafting_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4AEADEEE818B1FCC"]
+			id: "4E6C50026AF843DD"
+			subtitle: "灵感：黄铜机械"
+			tasks: [{
+				id: "2C14A27A8E25A507"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AEADEEE818B1FCC"]
+			id: "006364B7090D8E82"
+			subtitle: "特制灵感：处理器"
+			tasks: [{
+				id: "3C4ACF6FF34922E9"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4AEADEEE818B1FCC"]
+			id: "48D7D0C73EEA0DC1"
+			subtitle: "灵感：余烬注魔"
+			tasks: [{
+				id: "4A8B7BD21A0ADB04"
+				item: "embers:alchemy_tablet"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6E6C596EACD8BE9F"]
+			id: "7656BA76426F0012"
+			tasks: [{
+				id: "16674340EFDF7D11"
+				item: "integrateddynamics:menril_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
 	]
-	title: "3.地球 | The Earth"
+	title: "3. 地球 | The Earth"
 }
