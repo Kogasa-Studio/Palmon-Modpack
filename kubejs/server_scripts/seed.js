@@ -80,6 +80,12 @@ ServerEvents.recipes((event) => {
 
     // stage 3
     // main
+    s3SP(event)
+    s3NC(event)
+    s3Fo(event)
+    s3Ma(event)
+    s3Cr(event)
+    s3Em(event)
 
     // extra 
     e3MR(event)

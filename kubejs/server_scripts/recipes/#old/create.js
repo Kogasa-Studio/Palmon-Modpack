@@ -1,7 +1,5 @@
 ServerEvents.recipes(event => {
-    event.recipes.create.item_application('create:brass_casing',
-        ['create:andesite_casing', 'tfc:brass_mechanisms']
-    )
+
 
     
     event.recipes.createMechanicalCrafting('kubejs:scranton_reality_anchor', [

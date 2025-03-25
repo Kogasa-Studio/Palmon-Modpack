@@ -1133,6 +1133,17 @@
 			x: -4.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["78FD8C816053AA2C"]
+			id: "0C759FAA5BC08A34"
+			tasks: [{
+				id: "2F08291F2C884E13"
+				item: "embers:dawnstone_anvil"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
 	]
 	title: "2. 群峦之下 | Beneath the World"
 }

@@ -12,8 +12,16 @@ StartupEvents.registry('item', event => {
 	event.create('cognitio').displayName('§m§dCognitio').fireResistant().rarity('epic').glow(true)
 
 	event.create('ancient_netherite').displayName('§mAncient Netherite').fireResistant().rarity('rare')
+
 	event.create('present_alloy').displayName('§m§dPresent Alloy Ingot').fireResistant().rarity('rare')
 	event.create('stable_desh_ingot').displayName('§m§dStable Desh Ingot').fireResistant().rarity('rare')
+
+	event.create('elite_mechanism').displayName('§m§dElite Mechanism').fireResistant().rarity('rare')
+	event.create('elite_mechanism_plus').displayName('§m§dElite Mechanism Plus').fireResistant().rarity('rare')
+	event.create('elite_mechanism_final').displayName('§m§dElite Mechanism Final').fireResistant().rarity('rare')
+
+	event.create('hallowed_soul_steel_ingot').displayName('§m§dHallowed Soul Steel Ingot').fireResistant().rarity('rare')
+	event.create('ember_profile').displayName('§m§dEmber Profile').fireResistant().rarity('rare')
 
 	event.create('alpha_dust').displayName('§aAlpha Dust').fireResistant()
 	event.create('beta_dust').displayName('§bBeta Dust').fireResistant().rarity('rare')

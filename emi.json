@@ -57,12 +57,6 @@
       "stack": "#item:forge:dusts/coal_coke"
     },
     {
-      "stack": "item:thoriumreactors:thorium_crafting_table"
-    },
-    {
-      "stack": "item:thoriumreactors:blasted_iron_nugget"
-    },
-    {
       "stack": "item:minecraft:smooth_stone"
     },
     {
@@ -300,33 +294,13 @@
         "type": "item",
         "id": "kubejs:stable_desh_ingot",
         "amount": 2
-      },
-      "recipe": "jei:/kubejs/stable_desh_ingot_s2"
+      }
     },
     {
       "stack": "item:minecraft:chiseled_stone_bricks"
     },
     {
-      "stack": "item:thoriumreactors:machine_casing",
-      "recipe": "jei:/thoriumreactors/thorium_crafting/machine_casing"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "thoriumreactors:black_industrial_block_floor",
-        "amount": 8
-      },
-      "recipe": "jei:/thoriumreactors/thorium_crafting/black_industrial_floor_block"
-    },
-    {
-      "stack": "item:thoriumreactors:industrial_block_floor"
-    },
-    {
       "stack": "item:minecraft:black_dye"
-    },
-    {
-      "stack": "item:thoriumreactors:generator_block",
-      "recipe": "jei:/thoriumreactors/thorium_crafting/generator"
     },
     {
       "stack": "item:minecraft:iron_nugget"
@@ -335,42 +309,345 @@
       "stack": "item:minecraft:coal"
     },
     {
-      "stack": "item:thoriumreactors:machine_casing"
-    },
-    {
-      "stack": "item:thoriumreactors:aluminum_nugget"
-    },
-    {
       "stack": {
         "type": "item",
         "id": "fluxnetworks:flux_core",
         "amount": 4
-      },
-      "recipe": "fluxnetworks:fluxcore"
+      }
     },
     {
       "stack": "item:fluxnetworks:flux_dust"
     },
     {
-      "stack": "item:forestry:sturdy_machine",
-      "recipe": "forestry:sturdy_machine"
+      "stack": "item:forestry:sturdy_machine"
+    },
+    {
+      "stack": "item:create:rotation_speed_controller",
+      "recipe": "create:crafting/kinetics/rotation_speed_controller"
+    },
+    {
+      "stack": "item:create:mechanical_arm",
+      "recipe": "create:crafting/kinetics/mechanical_arm"
+    },
+    {
+      "stack": "item:create:sturdy_sheet"
+    },
+    {
+      "stack": "item:createaddition:biomass_pellet"
+    },
+    {
+      "stack": "item:createaddition:capacitor"
+    },
+    {
+      "stack": "item:createaddition:biomass"
+    },
+    {
+      "stack": "item:malum:runic_workbench"
+    },
+    {
+      "stack": "item:malum:tainted_rock_tablet"
+    },
+    {
+      "stack": "item:malum:void_tablet"
+    },
+    {
+      "stack": "item:malum:soulwood_tablet"
+    },
+    {
+      "stack": "item:malum:runewood_tablet"
+    },
+    {
+      "stack": "item:malum:soulwood_totem_base"
+    },
+    {
+      "stack": "item:malum:void_tablet"
+    },
+    {
+      "stack": "item:malum:encyclopedia_esoterica",
+      "recipe": "jei:/malum/void_favor/encyclopedia_esoterica"
+    },
+    {
+      "stack": "item:malum:void_depot"
+    },
+    {
+      "stack": "item:malum:encyclopedia_arcana"
+    },
+    {
+      "stack": "item:malum:mnemonic_fragment",
+      "recipe": "jei:/malum/void_favor/mnemonic_fragment"
+    },
+    {
+      "stack": "item:malum:complete_design",
+      "recipe": "jei:/malum/spirit_infusion/complete_design"
+    },
+    {
+      "stack": "item:malum:stellar_mechanism",
+      "recipe": "jei:/malum/spirit_infusion/stellar_mechanism"
+    },
+    {
+      "stack": "item:malum:fused_consciousness"
+    },
+    {
+      "stack": "#item:malum:hidden_items/void"
+    },
+    {
+      "stack": "item:malum:malignant_pewter_ingot"
+    },
+    {
+      "stack": "item:malum:spirit_altar"
+    },
+    {
+      "stack": "item:malum:processed_soulstone"
+    },
+    {
+      "stack": "#item:c:ingots/gold"
+    },
+    {
+      "stack": "item:malum:runewood_planks"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "kubejs:stable_desh_ingot",
+        "amount": 2
+      },
+      "recipe": "jei:/kubejs/stable_desh_ingot_s3"
+    },
+    {
+      "stack": "item:kubejs:present_alloy"
+    },
+    {
+      "stack": "item:embers:ember_crystal"
+    },
+    {
+      "stack": "item:embers:codebreaking_slate",
+      "recipe": "jei:/embers/alchemy/codebreaking_slate"
+    },
+    {
+      "stack": "item:embers:entropic_enumerator",
+      "recipe": "jei:/embers/alchemy/entropic_enumerator"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "embers:isolated_materia",
+        "amount": 4
+      },
+      "recipe": "jei:/embers/alchemy/isolated_materia"
+    },
+    {
+      "stack": "item:embers:archaic_circuit"
+    },
+    {
+      "stack": "item:embers:eldritch_insignia"
+    },
+    {
+      "stack": "item:embers:ember_crystal_cluster",
+      "recipe": "jei:/embers/alchemy/ember_crystal_cluster"
+    },
+    {
+      "stack": "item:embers:wildfire_core",
+      "recipe": "jei:/embers/alchemy/wildfire_core"
+    },
+    {
+      "stack": "item:embers:explosion_charm",
+      "recipe": "jei:/embers/alchemy/explosion_charm"
+    },
+    {
+      "stack": "item:embers:focal_lens",
+      "recipe": "jei:/embers/alchemy/focal_lens"
+    },
+    {
+      "stack": "item:embers:intelligent_apparatus",
+      "recipe": "jei:/embers/alchemy/intelligent_apparatus"
+    },
+    {
+      "stack": "item:forestry:ingot_bronze"
+    },
+    {
+      "stack": "item:forestry:carpenter",
+      "recipe": "forestry:carpenter"
+    },
+    {
+      "stack": "item:forestry:squeezer",
+      "recipe": "forestry:squeezer"
+    },
+    {
+      "stack": "item:forestry:fabricator",
+      "recipe": "forestry:fabricator"
     }
   ],
   "lookup_history": [
-    "item:embers:alchemy_pedestal",
-    "item:embers:alchemy_tablet",
-    "item:create:brass_casing",
-    "item:malum:spirit_altar",
-    "item:malum:runic_workbench",
+    {
+      "type": "item",
+      "id": "forestry:squeezer",
+      "amount": 32
+    },
+    {
+      "type": "item",
+      "id": "forestry:carpenter",
+      "amount": 32
+    },
+    {
+      "type": "fluid",
+      "id": "forestry:bio_ethanol",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "forestry:impregnated_stick",
+      "amount": 2
+    },
+    {
+      "type": "fluid",
+      "id": "forestry:seed_oil",
+      "amount": 1000
+    },
+    "item:forestry:bucket_seed_oil",
     "item:forestry:sturdy_machine",
-    "item:forestry:carpenter",
+    "item:forestry:hardened_machine",
+    "#item:c:bronze_ingots",
+    "item:embers:dawnstone_anvil",
+    "item:kubejs:ember_profile",
+    "item:embers:focal_lens",
+    "item:embers:alchemy_tablet",
+    "item:embers:wildfire_core",
+    "item:embers:ember_crystal_cluster",
+    {
+      "type": "item",
+      "id": "embers:eldritch_insignia",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "embers:archaic_circuit",
+      "amount": 64
+    },
+    "item:embers:dawnstone_aspectus",
+    "item:embers:beam_cannon",
+    "item:kubejs:stable_desh_ingot",
+    "item:create:brass_casing",
+    {
+      "type": "item",
+      "id": "malum:runewood_log",
+      "amount": 2
+    },
+    "item:malum:runewood_tablet",
+    "item:malum:void_tablet",
+    "item:kubejs:beta_framework",
+    "item:kubejs:elite_mechanism",
+    "item:kubejs:elite_mechanism_plus",
+    "item:kubejs:present_alloy",
+    "item:malum:runewood_planks",
+    "item:malum:spirit_altar",
+    "#item:c:ingots/gold",
+    {
+      "type": "fluid",
+      "id": "embers:molten_electrum",
+      "amount": 0
+    },
+    "item:slashblade:slashblade{Enchantments:[{id:\"minecraft:power\",lvl:1s}],bladeState:{AttackAmplifier:0.0f,BladeUniqueId:[I;-1787182738,697911634,-2027335478,357960210],ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade_addon:model/terra/terra.obj\",RepairCounter:0,SpecialAttackType:\"slashblade_addon:blistering_terra_swords\",SpecialEffects:[\"slashblade_addon:mana_burst\",\"slashblade_addon:mana_repair\"],StandbyRenderType:5b,SummonedSwordColor:-13253103,SummonedSwordColorInverse:0b,TargetEntity:-1,TextureName:\"slashblade_addon:model/terra/terra.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:6.0f,currentCombo:\"slashblade_addon:blistering_terra_swords_swords_end\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:1b,isSealed:0b,killCount:1,lastActionTime:391759L,maxDamage:60,proudSoul:8,translationKey:\"item.slashblade_addon.terra_blade\"}}",
+    "item:malum:runic_workbench",
+    "#item:malum:hidden_items/void",
+    "item:malum:malignant_pewter_ingot",
+    "item:malum:stellar_mechanism",
+    "item:malum:fused_consciousness",
+    "item:malum:complete_design",
+    "item:malum:anomalous_design",
+    "item:malum:void_depot",
+    "item:malum:mnemonic_fragment",
+    "item:malum:erosion_scepter{Damage:0}",
+    "item:malum:mnemonic_hex_staff{Damage:0}",
+    "item:malum:encyclopedia_esoterica",
+    "item:malum:soul_stained_steel_ingot",
+    "item:malum:void_conduit",
+    {
+      "type": "item",
+      "id": "malum:void_salts",
+      "amount": 8
+    },
+    {
+      "type": "item",
+      "id": "malum:null_slate",
+      "amount": 8
+    },
+    "item:malum:runewood_totem_base",
+    {
+      "type": "item",
+      "id": "malum:soulwood_totem_base",
+      "amount": 32
+    },
+    {
+      "type": "item",
+      "id": "malum:soulwood_log",
+      "amount": 2
+    },
+    "item:malum:soulwood_tablet",
+    "item:malum:rune_of_the_hells",
+    "item:malum:rune_of_the_aether",
+    "item:kubejs:hallowed_soul_steel_ingot",
+    "item:malum:rune_of_culling",
+    "item:malum:ritual_plinth",
+    "item:malum:hallowed_gold_ingot",
+    "item:malum:rune_of_idle_restoration",
+    {
+      "type": "item",
+      "id": "malum:tainted_rock",
+      "amount": 4
+    },
+    "item:malum:tainted_rock_tablet",
+    "item:malum:soul_stained_steel_plating",
+    "item:malum:spirit_pouch",
+    "item:malum:totemic_staff",
+    "item:malum:chunk_of_brilliance",
+    "#item:malum:runewood_logs",
+    "item:malum:crude_scythe{Damage:0}",
+    {
+      "type": "item",
+      "id": "malum:alchemical_calx",
+      "amount": 8
+    },
+    "item:malum:alchemical_impetus{Damage:0}",
+    "item:kubejs:elite_mechanism_final",
+    "item:createaddition:capacitor",
+    "item:create:sturdy_sheet",
+    "item:createaddition:small_light_connector",
+    "item:createaddition:electrum_amulet",
+    "item:createaddition:electrum_block",
+    "item:createaddition:connector",
+    "item:create:electron_tube",
+    "item:createaddition:biomass",
+    "item:create:blaze_cake",
+    "item:create:mechanical_mixer",
+    "item:create:mechanical_press",
+    "item:create:blaze_burner",
+    "item:create:precision_mechanism",
+    "item:create:deployer",
+    "item:tfc:rock/smooth/dacite",
+    {
+      "type": "item",
+      "id": "palmon:stone",
+      "amount": 12
+    },
+    "item:nuclearcraft:magnesium_ore",
+    "item:nuclearcraft:boron_chunk",
+    "item:nuclearcraft:boron_ore",
+    "item:palmon:production_machine",
+    "item:palmon:processing_station",
+    "item:nuclearcraft:cobalt_deepslate_ore",
+    "item:nuclearcraft:lithium_ore",
+    "item:nuclearcraft:boron_deepslate_ore",
+    "item:nuclearcraft:thorium_deepslate_ore",
+    "item:nuclearcraft:platinum_ingot",
+    "item:nuclearcraft:platinum_deepslate_ore",
+    "item:cobgyms:deepslate_ancient_relic",
+    "item:nuclearcraft:thorium_ore",
+    "item:embers:alchemy_pedestal",
     "item:forestry:bottler",
-    "item:thoriumreactors:thorium_crafting_table{}",
     "item:create:track_station",
     "item:create:track",
     "item:rftoolsbase:machine_frame",
     "item:rftoolspower:cell1",
-    "item:kubejs:beta_framework",
     "item:rftoolsbuilder:mover",
     {
       "type": "item",
@@ -422,39 +699,8 @@
       "id": "modularrouters:blank_module",
       "amount": 4
     },
-    "item:thoriumreactors:niob_nugget",
-    "item:thoriumreactors:manganese_nugget",
-    "item:thoriumreactors:fluorite_nugget",
-    "item:thoriumreactors:cobalt_nugget",
-    "item:thoriumreactors:molybdenum_nugget",
-    "item:thoriumreactors:titanium_nugget",
-    "item:thoriumreactors:blasted_iron_nugget",
-    "item:thoriumreactors:graphite_nugget",
-    "item:thoriumreactors:chromium_nugget",
-    "item:thoriumreactors:generator_block",
-    "item:thoriumreactors:module_storage",
-    {
-      "type": "item",
-      "id": "thoriumreactors:machine_casing",
-      "amount": 31
-    },
     "#item:forge:gems/fluorite",
-    "item:thoriumreactors:fluorite_ingot",
-    "item:thoriumreactors:concentrator_block{}",
-    "item:thoriumreactors:reactor_valve",
-    "item:thoriumreactors:module_empty",
-    "item:thoriumreactors:module_io",
     "item:computercraft:turtle_advanced",
-    {
-      "type": "item",
-      "id": "thoriumreactors:black_industrial_block_floor",
-      "amount": 8
-    },
-    {
-      "type": "item",
-      "id": "kubejs:stable_desh_ingot",
-      "amount": 60
-    },
     "item:rats:chunky_cheese_token",
     "item:rats:token_piece",
     "item:rats:token_fragment",
@@ -476,7 +722,6 @@
     "item:dimdungeons:block_portal_keyhole",
     "item:minecraft:prismarine_crystals",
     "item:celestial_core:ocean_ingot",
-    "item:kubejs:present_alloy",
     "item:quark:vertical_spruce_planks",
     "item:ad_astra:desh_ingot",
     "item:ad_astra:desh_plate",
@@ -534,19 +779,6 @@
     "item:thermal:machine_smelter",
     "item:thermal:machine_pulverizer",
     "item:thermal:dynamo_stirling",
-    "item:thoriumreactors:titanium_ingot",
-    "item:thoriumreactors:titanic_iron_ore",
-    {
-      "type": "fluid",
-      "id": "thoriumreactors:molten_salt",
-      "amount": 100
-    },
-    {
-      "type": "item",
-      "id": "thoriumreactors:thorium",
-      "amount": 9
-    },
-    "item:thoriumreactors:thorium_block",
     "item:minecraft:mangrove_log",
     "item:industrialforegoing:plastic",
     "item:immersiveengineering:screwdriver",
@@ -559,9 +791,8 @@
     "#item:forge:gears/tin",
     "item:compactmachines:wall",
     "item:minecraft:torch",
-    "item:thoriumreactors:yellow_cake",
     "item:mekanism:yellow_cake_uranium",
-    "#item:forge:yellow_cake_uranium",
+    "item:mekanism:yellow_cake_uranium",
     {
       "type": "jemi",
       "uid": "gas:mekanism:uranium_oxide"
@@ -604,11 +835,6 @@
     "item:ad_astra:steel_engine",
     "item:ad_astra:nasa_workbench",
     "item:embers:sealed_wood_keg",
-    {
-      "type": "item",
-      "id": "embers:dawnstone_aspectus",
-      "amount": 64
-    },
     "item:bfr:irradiated_copper_ore",
     {
       "type": "fluid",
@@ -630,7 +856,6 @@
     "item:embers:silver_aspectus",
     "item:embers:copper_aspectus",
     "item:embers:winding_gears",
-    "item:embers:wildfire_core",
     {
       "type": "item",
       "id": "embers:ember_shard",
@@ -753,7 +978,6 @@
     "item:techreborn:redstone_small_dust",
     "item:mekanism:enriched_redstone",
     "item:techreborn:synthetic_redstone_crystal",
-    "item:thoriumreactors:redstone_processor",
     "item:regions_unexplored:raw_redstone_block",
     "item:ae2:certus_quartz_dust",
     "item:ae2:quartz_glass",
@@ -796,7 +1020,6 @@
     "item:tacz:modern_kinetic_gun{GunCurrentAmmoCount:0,GunFireMode:\"SEMI\",GunId:\"suffuse:trapper50cal\",HasBulletInBarrel:1b}",
     "item:botania:livingrock",
     "item:botania:livingwood_log",
-    "item:forestry:log_pile",
     "item:tfc:wood/stripped_wood/palm",
     {
       "type": "item",
@@ -1015,7 +1238,6 @@
     "item:tconstruct:piggy_backpack",
     "item:malum:blazing_quartz_ore",
     "item:cobblemon:ancient_poke_ball",
-    "item:palmon:processing_station",
     "item:umapyoi:uma_select_block",
     "item:umapyoi:uma_pedestal",
     "item:umapyoi:disassembly_block",
@@ -1066,15 +1288,6 @@
     },
     "item:immersiveengineering:graphite_electrode{graphDmg:0}",
     "item:immersiveengineering:blueprint{blueprint:\"components\"}",
-    "item:thoriumreactors:simple_energy_tank",
-    {
-      "type": "item",
-      "id": "thoriumreactors:industrial_block",
-      "amount": 16
-    },
-    "item:thoriumreactors:thorium_chest_block",
-    "item:thoriumreactors:chromium_ingot",
-    "item:thoriumreactors:chromite_ore",
     {
       "type": "fluid",
       "id": "firmalife:metal/stainless_steel",
@@ -1175,12 +1388,6 @@
     "item:immersiveengineering:plantoil_bucket",
     "item:kubejs:beryllium_bronze_alloy",
     "item:immersiveengineering:seed",
-    {
-      "type": "fluid",
-      "id": "forestry:seed_oil",
-      "amount": 0
-    },
-    "item:create:deployer",
     "item:tfc:metal/sheet/blue_steel",
     "item:tfc:metal/unfinished_chestplate/blue_steel",
     {
@@ -1342,7 +1549,6 @@
     },
     "item:dustandash:basic_machine_frame",
     "item:tfc:metal/sheet/red_steel",
-    "item:create:precision_mechanism",
     "item:tfc:metal/double_sheet/blue_steel",
     "item:tfc:metal/double_sheet/red_steel",
     "item:tfc:metal/mace_head/red_steel",
@@ -1369,7 +1575,6 @@
     "item:supplementaries:planter",
     "item:farmersdelight:rich_soil",
     "item:occultism:datura",
-    "item:palmon:production_machine",
     "item:palmon:working_station",
     "item:tfc:glow_arrow",
     "item:minecraft:smithing_table",
@@ -1571,8 +1776,7 @@
       "id": "tfc:metal/double_ingot/rose_gold",
       "amount": 3
     },
-    "#item:c:ingots/copper",
-    "#item:c:ingots/gold",
+    "#item:c:copper_ingots",
     "#item:c:nickel_ingots",
     "item:tfc:metal/ingot/rose_gold",
     "#item:forge:ingots/rose_gold",
@@ -1712,11 +1916,6 @@
     "item:ad_astra:desh_tank",
     "item:ad_astra:desh_block",
     "item:sophisticatedstorage:crafting_upgrade",
-    {
-      "type": "item",
-      "id": "malum:soul_stained_steel_ingot",
-      "amount": 5
-    },
     {
       "type": "item",
       "id": "thermal:compost",
@@ -2141,142 +2340,9 @@
       "amount": 4
     },
     "item:malum:raw_soulstone",
-    "item:malum:soulstone_ore",
-    {
-      "type": "item",
-      "id": "tfc:powder/sulfur",
-      "amount": 38
-    },
-    "#item:c:sulfur_dusts",
-    "item:thermal:obsidian_glass",
-    "#item:thermal:glass/hardened",
-    {
-      "type": "item",
-      "id": "immersiveengineering:ingot_uranium",
-      "amount": 16
-    },
-    {
-      "type": "item",
-      "id": "minecraft:deepslate_coal_ore",
-      "amount": 122
-    },
-    {
-      "type": "fluid",
-      "id": "tconstruct:molten_emerald",
-      "amount": 100
-    },
-    {
-      "type": "item",
-      "id": "minecraft:emerald",
-      "amount": 32
-    },
-    "item:sophisticatedbackpacks:advanced_pump_upgrade{enabled:1b,interactWithHand:1b,interactWithWorld:1b}",
-    "item:sophisticatedbackpacks:tank_upgrade",
-    "item:sophisticatedbackpacks:gold_backpack{columnsTaken:2,contentsUuid:[I;-584305928,1234847984,-1525645841,-1440263537],inventorySlots:81,renderInfo:{tanks:[{info:{},position:\"right\"}],upgradeItems:[{Count:1b,id:\"sophisticatedbackpacks:advanced_pump_upgrade\",tag:{enabled:0b,interactWithHand:1b,interactWithWorld:1b}},{Count:1b,id:\"sophisticatedbackpacks:tank_upgrade\"}]},upgradeSlots:3}",
-    "item:sophisticatedbackpacks:iron_backpack{columnsTaken:2,contentsUuid:[I;-584305928,1234847984,-1525645841,-1440263537],inventorySlots:54,renderInfo:{tanks:[{info:{},position:\"right\"}],upgradeItems:[{Count:1b,id:\"sophisticatedbackpacks:advanced_pump_upgrade\",tag:{enabled:0b,interactWithHand:1b,interactWithWorld:1b}},{Count:1b,id:\"sophisticatedbackpacks:tank_upgrade\"}]},upgradeSlots:2}",
-    "item:sophisticatedbackpacks:upgrade_base",
-    "fluid:tconstruct:seared_stone",
-    "item:tconstruct:plate_helmet{Damage:187,\"embers:heat_tag\":{augments:[{items:[{Count:1b,id:\"embers:ancient_motive_core\"}],level:1,name:\"embers:core\"},{items:[{Count:1b,id:\"embers:tinker_lens\"}],level:1,name:\"embers:tinker_lens\"}],heat:750.0f,heat_level:1},tic_broken:0b,tic_materials:[\"tconstruct:desh\",\"tconstruct:steel\"],tic_modifiers:[{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:diamond\"},{level:3,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tconstruct:ductile\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:recapitated\"}],tic_persistent:{abilities:-1,\"tconstruct:rebalanced\":\"abilities\",\"tinkerslevellingaddon:experience\":925,\"tinkerslevellingaddon:level\":4,\"tinkerslevellingaddon:slot_history\":\"upgrade;defense;upgrade;ability;\",upgrades:-5},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:attack_damage\":0.66f,\"tconstruct:durability\":331.32f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:knockback_resistance\":0.05f,\"tconstruct:mining_speed\":3.75f,\"tconstruct:projectile_damage\":2.625f,\"tconstruct:velocity\":1.1f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:rebalanced\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:writable\"},{level:3,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:netherite\"},{level:1,name:\"tconstruct:recapitated\"}],tic_volatile_data:{abilities:2,defense:4,\"tconstruct:indestructible\":1b,\"tconstruct:rarity\":2,upgrades:5}}",
-    "item:netherexp:cooked_hogham",
-    {
-      "type": "item",
-      "id": "netherexp:hogham",
-      "amount": 117
-    },
-    "item:malum:void_depot",
-    "item:malum:malignant_lead",
-    "item:malum:block_of_malignant_lead",
-    {
-      "type": "item",
-      "id": "malum:malignant_pewter_ingot",
-      "amount": 2
-    },
-    "item:malum:edge_of_deliverance{Damage:0}",
-    "item:malum:rune_of_motion",
-    "item:malum:rune_of_warding",
-    "item:malum:rune_of_haste",
-    "item:malum:runewood_tablet",
-    "item:malum:rune_of_the_arena",
-    "item:malum:soul_stained_steel_scythe{Damage:358,Enchantments:[{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"malum:ascension\",lvl:3s}]}",
-    {
-      "type": "item",
-      "id": "malum:soulwood_totem_base",
-      "amount": 4
-    },
-    {
-      "type": "item",
-      "id": "malum:soulwood_tablet",
-      "amount": 2
-    },
-    {
-      "type": "item",
-      "id": "malum:hex_ash",
-      "amount": 60
-    },
-    {
-      "type": "item",
-      "id": "malum:soulwood_log",
-      "amount": 16
-    },
-    "item:sophisticatedstorage:stack_upgrade_tier_4",
-    "item:minecraft:diamond_block",
-    "item:sophisticatedstorage:gold_barrel{woodType:\"oak\"}",
-    "item:sophisticatedstorage:iron_barrel{woodType:\"oak\"}",
-    "#item:forge:plates/constantan",
-    "item:thermal:lumium_gear",
-    {
-      "type": "item",
-      "id": "minecraft:polished_deepslate",
-      "amount": 30
-    },
-    "item:integrateddynamics:logic_director",
-    "item:malum:soulwood",
-    "item:malum:stripped_soulwood",
-    {
-      "type": "item",
-      "id": "malum:soulwood_growth",
-      "amount": 3
-    },
-    {
-      "type": "item",
-      "id": "malum:blighted_gunk",
-      "amount": 9
-    },
-    "item:malum:mass_of_blighted_gunk",
-    "item:malum:runewood_item_pedestal",
-    {
-      "type": "item",
-      "id": "malum:void_salts",
-      "amount": 8
-    },
-    "item:malum:tainted_rock_tablet",
-    "item:malum:runewood_obelisk",
-    {
-      "type": "item",
-      "id": "malum:hallowed_gold_ingot",
-      "amount": 2
-    },
-    {
-      "type": "item",
-      "id": "malum:null_slate",
-      "amount": 8
-    },
-    "item:malum:void_tablet",
-    "#item:malum:soulwood_logs",
-    {
-      "type": "item",
-      "id": "malum:soulwood_planks",
-      "amount": 4
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:medicinal_leek",
-      "amount": 18
-    }
+    "item:malum:soulstone_ore"
   ],
   "craft_history": [
-    "jei:/thoriumreactors/thorium_crafting/black_industrial_floor_block",
-    "jei:/thoriumreactors/thorium_crafting/simple_energy_tank",
     "embers:ember_shard_to_crystal",
     "dustandash:crafting/log_pile",
     "kubejs:melter_s2",
@@ -2370,7 +2436,6 @@
     "integratedtunnels:crafting/part_interface_energy",
     "thermal:energy_duct_4",
     "fluxnetworks:fluxpoint",
-    "fluxnetworks:fluxcore",
     "thermal:augments/upgrade_augment_3",
     "thermal:augments/upgrade_augment_2",
     "thermal:augments/upgrade_augment_1",
@@ -2496,7 +2561,6 @@
     "minecraft:chiseled_stone_bricks",
     "minecraft:stone_brick_slab",
     "minecraft:stone_bricks",
-    "dimdungeons:recipe_block_gilded_portal",
     "dimdungeons:recipe_block_portal_keyhole",
     "quark:building/crafting/chests/chest_trapped",
     "quark:building/crafting/chests/oak_chest",
@@ -2593,7 +2657,6 @@
     "rftoolsstorage:storage_module1",
     "rftoolsstorage:storage_module0",
     "rftoolsstorage:modular_storage",
-    "rftoolsbase:machine_frame",
     "umapyoi:integration/tfc/small_energy_drink",
     "occultism:crafting/chalk_purple_impure",
     "jei:/dustandash/integrate/extinguish_dust",
@@ -2632,7 +2695,6 @@
     "tfc:crafting/sandpaper",
     "sophisticatedbackpacks:xp_pump_upgrade",
     "minecraft:lever",
-    "malum:spirit_altar",
     "embers:raw_flat_stamp",
     "minecraft:lectern",
     "embers:beam_cannon",
@@ -2782,44 +2844,43 @@
   ],
   "recipe_defaults": {
     "added": [
+      "mekanism_extras:control_circuit/cosmic",
+      "mekanism_extras:control_circuit/infinite",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
+      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
+      "jei:/tfc/casting/weak_steel_ingot",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
       "jei:/tfc/welding/high_carbon_red_steel_ingot",
       "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
-      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
-      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
-      "jei:/immersiveengineering/mixer/redstone_acid",
+      "mekanism_extras:control_circuit/supreme",
+      "jei:/malum/spirit_infusion/stellar_mechanism",
+      "mekanism_extras:control_circuit/absolute",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
       "jaopca:storage_blocks.to_storage_block.stainless_steel",
       "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
       "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "mekanism_extras:control_circuit/supreme",
-      "jei:/mekanism/processing/uranium/yellow_cake_uranium",
-      "mekanism_extras:control_circuit/infinite",
-      "jei:/tfc/casting/weak_steel_ingot",
-      "mekanism_extras:control_circuit/absolute",
-      "jei:/mekanism/processing/uranium/uranium_oxide",
       "tfcoreprocessing:compress/compress_refined_limonite",
-      "mekanism_extras:control_circuit/cosmic"
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
+      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
+      "jei:/mekanism/processing/uranium/uranium_oxide"
     ],
     "tags": {
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
       "#item:c:ingots/gold": "item:tfc:metal/ingot/gold",
-      "#item:c:ingots/copper": "item:tfc:metal/ingot/copper",
-      "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel",
-      "#item:forge:yellow_cake_uranium": "item:mekanism:yellow_cake_uranium"
+      "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
+      "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },
     "resolutions": {},
     "disabled": []

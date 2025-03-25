@@ -880,6 +880,11 @@
 		}
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
+			description: [
+				"注意：由于核电工艺的bug，镁、钴、锂、钍、硼大概率不会自然生成。"
+				""
+				"你可以通过加工站将铜锭，铁锭，金锭异变成这5种矿石，或者使用维度框架获取这5种矿石。"
+			]
 			id: "1E95FFDD292CDA88"
 			rewards: [
 				{
@@ -897,15 +902,16 @@
 					item: "computercraft:turtle_advanced"
 					type: "item"
 				}
-			]
-			subtitle: "灵感：钍反应堆"
-			tasks: [{
-				id: "6C931E0D1DE0A835"
-				item: {
-					Count: 1
-					id: "thoriumreactors:thorium_crafting_table"
-					tag: { }
+				{
+					id: "6DD4CBC6A0EDF91F"
+					item: "nuclearcraft:thorium_ore"
+					type: "item"
 				}
+			]
+			subtitle: "灵感：核工业"
+			tasks: [{
+				id: "0FA7654A2BC9EEEE"
+				item: "nuclearcraft:manufactory"
 				type: "item"
 			}]
 			x: -12.0d
@@ -936,7 +942,20 @@
 		}
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
+			description: ["你或许应该多制作几个祭坛..."]
 			id: "48D7D0C73EEA0DC1"
+			rewards: [
+				{
+					id: "105D582EB55FA34F"
+					item: "embers:codebreaking_slate"
+					type: "item"
+				}
+				{
+					id: "19B61B7F2D74D037"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+			]
 			subtitle: "灵感：余烬注魔"
 			tasks: [{
 				id: "4A8B7BD21A0ADB04"
@@ -956,6 +975,413 @@
 			}]
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["4E6C50026AF843DD"]
+			id: "1414D11ECE4F6423"
+			tasks: [{
+				id: "3BA05F16CA1F24BF"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E6C50026AF843DD"]
+			id: "7F5764E72FC512F7"
+			tasks: [{
+				id: "20CA41D64CF2C426"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4E6C50026AF843DD"]
+			id: "3945384653690F04"
+			tasks: [{
+				id: "54C011EFC7A2B10E"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3945384653690F04"]
+			id: "7356BA71A8BCA0D4"
+			tasks: [{
+				id: "0A6B09FD778282C1"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7356BA71A8BCA0D4"]
+			id: "21A8D275B698E404"
+			tasks: [{
+				id: "6FD0350A32467CE9"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21A8D275B698E404"]
+			id: "345DE5BCC8B26729"
+			shape: "hexagon"
+			tasks: [{
+				id: "75F0A640F09A4017"
+				item: "kubejs:elite_mechanism"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["345DE5BCC8B26729"]
+			id: "0D356F69B44F78CC"
+			tasks: [{
+				id: "1466A6FCD5B1BA30"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["345DE5BCC8B26729"]
+			id: "3F3A5901E8ABEB8F"
+			tasks: [{
+				id: "6D0D9E1E45F93E39"
+				item: "createaddition:biomass_pellet"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3F3A5901E8ABEB8F"
+				"0D356F69B44F78CC"
+			]
+			id: "4890A983A7C71A12"
+			shape: "hexagon"
+			tasks: [{
+				id: "27EE858083C8D4BF"
+				item: "kubejs:elite_mechanism_plus"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4890A983A7C71A12"]
+			id: "7BEA36EC593FD7D6"
+			tasks: [{
+				count: 11L
+				id: "611248E4AAC28129"
+				item: { Count: 11, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7BEA36EC593FD7D6"]
+			id: "4189752AD0C23207"
+			shape: "hexagon"
+			tasks: [{
+				id: "5F80FBE21887257D"
+				item: "kubejs:elite_mechanism_final"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B3D033410791E9E"]
+			id: "2E5276EE03955F7D"
+			tasks: [{
+				id: "78471B1A67A05BAD"
+				item: {
+					Count: 1
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E5276EE03955F7D"]
+			id: "6B1631BDAD1EA252"
+			tasks: [{
+				id: "061D3C608882E27C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "malum:spirit"
+					}
+				}
+				title: "Any #malum:spirit"
+				type: "item"
+			}]
+			title: "精魂"
+			x: -16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B1631BDAD1EA252"]
+			id: "05720161248B066A"
+			tasks: [{
+				id: "60C4F513B72FB273"
+				item: "malum:soul_stained_steel_ingot"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B1631BDAD1EA252"]
+			id: "582EE6AF8D6C0FF0"
+			tasks: [{
+				id: "3C5E7D5572451A50"
+				item: "malum:hallowed_gold_ingot"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"05720161248B066A"
+				"582EE6AF8D6C0FF0"
+			]
+			id: "4FD78D78D65679D9"
+			shape: "hexagon"
+			tasks: [{
+				id: "65624037AABE469F"
+				item: "kubejs:hallowed_soul_steel_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FD78D78D65679D9"]
+			id: "54DD5B0ADFAAA61F"
+			tasks: [{
+				id: "7B39F9B7C06547ED"
+				item: "malum:runic_workbench"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54DD5B0ADFAAA61F"]
+			id: "6FE2DA69BE4F5B9D"
+			tasks: [{
+				id: "3B26DBB05B838200"
+				item: "malum:tainted_rock_tablet"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54DD5B0ADFAAA61F"]
+			id: "0620E123ABE45725"
+			tasks: [{
+				id: "4B660BA5D07F718C"
+				item: "malum:runewood_tablet"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54DD5B0ADFAAA61F"]
+			id: "7F0C6F2A0AAAD292"
+			tasks: [{
+				id: "02595D0E7D61A3BB"
+				item: "malum:soulwood_tablet"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0620E123ABE45725"
+				"6FE2DA69BE4F5B9D"
+				"7F0C6F2A0AAAD292"
+				"2147F92D5ACE9599"
+			]
+			id: "56CF2654CCAA1AE0"
+			shape: "hexagon"
+			tasks: [{
+				id: "6C8D339C304218C1"
+				item: "malum:void_tablet"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B3D033410791E9E"]
+			hide_dependent_lines: true
+			icon: "malum:void_depot"
+			id: "2147F92D5ACE9599"
+			subtitle: "理智在颤抖..."
+			tasks: [{
+				id: "0F99EF07A4764749"
+				observe_type: 0
+				timer: 0L
+				to_observe: "malum:void_conduit"
+				type: "observation"
+			}]
+			title: "哭泣之井"
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2147F92D5ACE9599"]
+			id: "35544805511BBB96"
+			tasks: [{
+				id: "172F52E52F1876E0"
+				item: "malum:complete_design"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35544805511BBB96"]
+			id: "11A403A4EC8BE258"
+			tasks: [{
+				id: "00139232DBBA717C"
+				item: "malum:fused_consciousness"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2147F92D5ACE9599"]
+			id: "61EF6C73AD68401E"
+			tasks: [{
+				id: "4EBAE3AC53667AFE"
+				item: "malum:malignant_pewter_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48D7D0C73EEA0DC1"]
+			id: "2DAC7BC4C3748BAB"
+			tasks: [{
+				id: "74ABE08274649706"
+				item: "embers:beam_cannon"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2DAC7BC4C3748BAB"]
+			id: "4D70A26ABC6E50B1"
+			tasks: [{
+				id: "5E0E98D2B509E6CD"
+				item: "embers:entropic_enumerator"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2DAC7BC4C3748BAB"]
+			id: "22C9A44A4A53FDEF"
+			tasks: [{
+				id: "394CA8477201A834"
+				item: "embers:eldritch_insignia"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2DAC7BC4C3748BAB"]
+			id: "7FFFA95BB498AA39"
+			tasks: [{
+				id: "2530F57DF05C3605"
+				item: "embers:ember_crystal_cluster"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2DAC7BC4C3748BAB"]
+			id: "2C54CAAC857C06F5"
+			tasks: [{
+				id: "4AD9212F4FACD374"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2DAC7BC4C3748BAB"]
+			id: "324499152ED7064B"
+			tasks: [{
+				id: "6FDB2976317DC1D5"
+				item: "embers:focal_lens"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2DAC7BC4C3748BAB"]
+			id: "65AEC2194BFB5AE1"
+			tasks: [{
+				id: "22C18098AA64B4B7"
+				item: "embers:intelligent_apparatus"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2C54CAAC857C06F5"
+				"7FFFA95BB498AA39"
+				"65AEC2194BFB5AE1"
+				"324499152ED7064B"
+				"22C9A44A4A53FDEF"
+			]
+			id: "108A47EFD8C56D50"
+			shape: "hexagon"
+			tasks: [{
+				id: "11AE3EDE53C1A72A"
+				item: "kubejs:ember_profile"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 10.0d
 		}
 	]
 	title: "3. 地球 | The Earth"

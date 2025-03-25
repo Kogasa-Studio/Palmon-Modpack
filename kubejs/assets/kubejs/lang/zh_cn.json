@@ -9,6 +9,11 @@
     "item.kubejs.ancient_netherite": "§a远古下界合金锭",
     "item.kubejs.present_alloy": "§m§d现世合金锭",
     "item.kubejs.stable_desh_ingot": "§m§d稳态戴斯锭",
+    "item.kubejs.elite_mechanism": "§m§d精英构件",
+    "item.kubejs.elite_mechanism_plus": "§m§d精英构件+",
+    "item.kubejs.elite_mechanism_final": "§m§d最终·精英构件",
+    "item.kubejs.hallowed_soul_steel_ingot": "§m§d圣魂精钢锭",
+    "item.kubejs.ember_profile": "§m§d余烬异构",
     
     "item.kubejs.alpha_dust": "§aAlpha 尘",
     "item.kubejs.beta_dust": "§bBeta 尘",

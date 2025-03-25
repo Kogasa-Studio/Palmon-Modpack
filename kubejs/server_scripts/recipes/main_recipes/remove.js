@@ -117,6 +117,12 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'fluxnetworks:fluxcore' })
     event.remove({ id: 'rftoolsbase:machine_frame' })
 
+    event.remove({ id: 'malum:spirit_infusion/runic_workbench' })
+    event.remove({ id: 'malum:spirit_infusion/void_tablet' })
+    event.remove({ id: 'malum:spirit_altar' })
+
+    event.remove({ id: 'forestry:sturdy_machine' })
+
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })
