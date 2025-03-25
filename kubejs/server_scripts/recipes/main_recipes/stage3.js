@@ -1,4 +1,22 @@
 ServerEvents.recipes(event => {
+  event.replaceInput([
+    { id: 'gendustry:genetics_processor' }
+],
+    'minecraft:ender_pearl',
+    'forestry:flexible_casing'
+)
+  event.replaceInput([
+    { id: 'gendustry:industrial_apiary' }
+],
+    'forestry:sturdy_machine',
+    'forestry:hardened_machine'
+)
+  event.replaceInput([
+    { id: 'gendustry:industrial_apiary' }
+],
+    'minecraft:piston',
+    'forestry:apiary'
+)
 
     event.shaped('dimdungeons:block_gilded_portal', [
         ' A ',

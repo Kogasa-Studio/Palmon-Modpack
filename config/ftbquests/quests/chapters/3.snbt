@@ -857,6 +857,7 @@
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
 			id: "75D3453813C3D864"
+			shape: "hexagon"
 			subtitle: "灵感：林业"
 			tasks: [{
 				id: "3B98D313DDE4BB08"
@@ -869,6 +870,7 @@
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
 			id: "0B3D033410791E9E"
+			shape: "hexagon"
 			subtitle: "灵感：灵灾"
 			tasks: [{
 				id: "4DC1F957C2A83147"
@@ -908,6 +910,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "灵感：核工业"
 			tasks: [{
 				id: "0FA7654A2BC9EEEE"
@@ -920,6 +923,7 @@
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
 			id: "4E6C50026AF843DD"
+			shape: "hexagon"
 			subtitle: "灵感：黄铜机械"
 			tasks: [{
 				id: "2C14A27A8E25A507"
@@ -932,6 +936,7 @@
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
 			id: "006364B7090D8E82"
+			shape: "hexagon"
 			subtitle: "特制灵感：处理器"
 			tasks: [{
 				id: "3C4ACF6FF34922E9"
@@ -956,6 +961,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "灵感：余烬注魔"
 			tasks: [{
 				id: "4A8B7BD21A0ADB04"
@@ -1382,6 +1388,236 @@
 			}]
 			x: -26.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["75D3453813C3D864"]
+			id: "30AA3E6FA68BD0E4"
+			tasks: [{
+				id: "251131D1B47F6258"
+				item: "forestry:fabricator"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30AA3E6FA68BD0E4"]
+			id: "2CC80B91226D32D8"
+			tasks: [{
+				id: "0DC88D59C4FA0BAC"
+				item: "forestry:electron_tube_emerald"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CC80B91226D32D8"]
+			id: "1F44A0D9642818A3"
+			tasks: [{
+				id: "11987B0770475DF1"
+				item: "forestry:carpenter"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2CC80B91226D32D8"
+				"1F44A0D9642818A3"
+			]
+			id: "0CD32B183E0EB737"
+			tasks: [{
+				id: "5F554EB17EB6E768"
+				item: "forestry:squeezer"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0CD32B183E0EB737"
+				"1F44A0D9642818A3"
+			]
+			id: "190156120C35C307"
+			tasks: [{
+				id: "2E6354B02E4E953E"
+				item: "forestry:impregnated_casing"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["190156120C35C307"]
+			id: "5B49207DB1745F48"
+			tasks: [{
+				id: "27051D420A5AD98B"
+				item: "forestry:apiary"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["190156120C35C307"]
+			id: "0DE1A81C60B0E94F"
+			tasks: [{
+				id: "19D0AF0ACB58D0BB"
+				item: "forestry:hardened_machine"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DE1A81C60B0E94F"]
+			id: "0DD457F8A8115830"
+			tasks: [{
+				id: "44C3336462048107"
+				item: "forestry:flexible_casing"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DD457F8A8115830"]
+			id: "1987631DF754DD47"
+			subtitle: "植树节"
+			tasks: [{
+				id: "1A0FCD9AD833517E"
+				item: "forestry:arboretum_managed"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DD457F8A8115830"]
+			id: "017B10AF9109757A"
+			tasks: [{
+				id: "49316FC72E6457C7"
+				item: "gendustry:mutatron"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75D3453813C3D864"]
+			id: "653E109D8A0211C5"
+			tasks: [{
+				id: "021F885F99B93F20"
+				item: "gendustry:mutagen_producer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1015271507258F9F"]
+			hide_until_deps_visible: true
+			id: "1BF6E41A58130834"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "5597C058F6B28364"
+				item: "kubejs:gamma_framework"
+				type: "item"
+			}]
+			x: -30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"108A47EFD8C56D50"
+				"56CF2654CCAA1AE0"
+				"4189752AD0C23207"
+				"0DD457F8A8115830"
+			]
+			id: "1015271507258F9F"
+			invisible: true
+			tasks: [{
+				id: "6E3BDDBB2485A98E"
+				type: "checkmark"
+			}]
+			x: -28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1015271507258F9F"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4FC239C7B541E7EB"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "08976EB40D270A01"
+				item: "kubejs:gamma_framework"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0DE1A81C60B0E94F"
+				"5B49207DB1745F48"
+			]
+			id: "5538E5B5CCD6ABC5"
+			tasks: [{
+				id: "0128F3A2DEB9D75D"
+				item: "gendustry:industrial_apiary"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E95FFDD292CDA88"]
+			icon: "tfc:powder/graphite"
+			id: "112E1C2783C3701F"
+			tasks: [{
+				id: "6DFA2BC9B4C4903F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/graphite"
+					}
+				}
+				title: "Any #forge:dusts/graphite"
+				type: "item"
+			}]
+			title: "石墨粉"
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["112E1C2783C3701F"]
+			id: "2D5825E77A80574A"
+			tasks: [{
+				id: "6C60D8CE59BAF5C2"
+				item: "nuclearcraft:plate_basic"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D5825E77A80574A"]
+			id: "04F50F5D5B07BD96"
+			subtitle: "核工业·合金"
+			tasks: [{
+				id: "2499FA2894FA2AA1"
+				item: "nuclearcraft:alloy_smelter"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -6.0d
 		}
 	]
 	title: "3. 地球 | The Earth"

@@ -122,6 +122,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'malum:spirit_altar' })
 
     event.remove({ id: 'forestry:sturdy_machine' })
+    event.remove({ id: 'forestry:carpenter' })
+    event.remove({ id: 'forestry:squeezer' })
+    event.remove({ id: 'forestry:carpenter/hardened_casing' })
+    event.remove({ id: 'forestry:fabricator/electron_tubes/flexible_casing' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

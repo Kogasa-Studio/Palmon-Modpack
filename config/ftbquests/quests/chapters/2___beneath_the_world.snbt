@@ -572,6 +572,7 @@
 				item: "minecraft:bone"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "灵感：植物魔法"
 			tasks: [
 				{
@@ -592,6 +593,7 @@
 			dependencies: ["22DEA013C6AF2127"]
 			id: "550FDE68159296D1"
 			optional: true
+			shape: "hexagon"
 			subtitle: "特制灵感：机械构件"
 			tasks: [{
 				id: "4C1DE95A1412BBE7"
@@ -617,6 +619,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "灵感：应用能源"
 			tasks: [{
 				id: "7AC45A3A27E7D171"

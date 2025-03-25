@@ -319,9 +319,6 @@
       "stack": "item:fluxnetworks:flux_dust"
     },
     {
-      "stack": "item:forestry:sturdy_machine"
-    },
-    {
       "stack": "item:create:rotation_speed_controller",
       "recipe": "create:crafting/kinetics/rotation_speed_controller"
     },
@@ -400,7 +397,7 @@
       "stack": "item:malum:processed_soulstone"
     },
     {
-      "stack": "#item:c:ingots/gold"
+      "stack": "#item:c:gold_ingots"
     },
     {
       "stack": "item:malum:runewood_planks"
@@ -465,29 +462,225 @@
       "stack": "item:forestry:ingot_bronze"
     },
     {
-      "stack": "item:forestry:carpenter",
-      "recipe": "forestry:carpenter"
+      "stack": "item:forestry:carpenter"
     },
     {
-      "stack": "item:forestry:squeezer",
-      "recipe": "forestry:squeezer"
+      "stack": "item:forestry:squeezer"
     },
     {
       "stack": "item:forestry:fabricator",
       "recipe": "forestry:fabricator"
+    },
+    {
+      "stack": "item:forestry:flexible_casing"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "forestry:electron_tube_diamond",
+        "amount": 4
+      },
+      "recipe": "jei:/forestry/fabricator/electron_tubes/diamond"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "forestry:electron_tube_gold",
+        "amount": 4
+      },
+      "recipe": "jei:/forestry/fabricator/electron_tubes/gold"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "forestry:electron_tube_obsidian",
+        "amount": 4
+      },
+      "recipe": "jei:/forestry/fabricator/electron_tubes/obsidian"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "forestry:electron_tube_emerald",
+        "amount": 4
+      },
+      "recipe": "jei:/forestry/fabricator/electron_tubes/emerald"
+    },
+    {
+      "stack": "item:forestry:circuit_board_intricate",
+      "recipe": "jei:/forestry/carpenter/circuits/intricate"
+    },
+    {
+      "stack": "item:forestry:circuit_board_basic",
+      "recipe": "jei:/forestry/carpenter/circuits/basic"
+    },
+    {
+      "stack": "item:forestry:circuit_board_enhanced",
+      "recipe": "jei:/forestry/carpenter/circuits/enhanced"
+    },
+    {
+      "stack": "item:forestry:impregnated_casing",
+      "recipe": "jei:/forestry/carpenter/impregnated_casing"
+    },
+    {
+      "stack": "item:forestry:hardened_machine"
+    },
+    {
+      "stack": "item:forestry:circuit_board_refined",
+      "recipe": "jei:/forestry/carpenter/circuits/refined"
+    },
+    {
+      "stack": "item:dustandash:tin_ingot"
+    },
+    {
+      "stack": "item:forestry:apiary",
+      "recipe": "forestry:apiary"
+    },
+    {
+      "stack": "item:minecraft:diamond"
+    },
+    {
+      "stack": "item:forestry:farm_ender_manual"
+    },
+    {
+      "stack": "item:forestry:arboretum_managed",
+      "recipe": "forestry:arboretum_managed"
+    },
+    {
+      "stack": "item:gendustry:bucket_mutagen"
+    },
+    {
+      "stack": "item:forestry:bee_drone_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_majestic\",inactive:\"forestry:bee_majestic\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:4i\",inactive:\"forestry:4i\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:35id\",inactive:\"forestry:35id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:1.0f\",inactive:\"forestry:1.0f\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:35,max_heath:35,pristine:1b}}}"
+    },
+    {
+      "stack": "item:forestry:bee_princess_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_noble\",inactive:\"forestry:bee_noble\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:30id\",inactive:\"forestry:30id\"},\"forestry:pollination\":{active:\"forestry:15i\",inactive:\"forestry:15i\"},\"forestry:speed\":{active:\"forestry:0.6fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:30,max_heath:30,pristine:1b}}}"
+    },
+    {
+      "stack": "item:gendustry:genetics_processor"
+    },
+    {
+      "stack": "item:minecraft:ender_pearl"
+    },
+    {
+      "stack": "item:forestry:sturdy_machine"
+    },
+    {
+      "stack": "item:forestry:hardened_machine",
+      "recipe": "jei:/kubejs/hardened_machine_s3"
+    },
+    {
+      "stack": "item:minecraft:piston"
+    },
+    {
+      "stack": "item:nuclearcraft:alloy_smelter"
+    },
+    {
+      "stack": "item:tfc:powder/graphite",
+      "recipe": "jei:/nuclearcraft/manufactory/dusts_coal"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "nuclearcraft:plate_basic",
+        "amount": 2
+      },
+      "recipe": "nuclearcraft:plate_basic2"
     }
   ],
   "lookup_history": [
+    "item:nuclearcraft:tough_alloy_ingot",
+    "item:nuclearcraft:rock_crusher",
+    "item:nuclearcraft:alloy_smelter",
+    "item:nuclearcraft:plate_basic",
+    "item:tfc:powder/graphite",
+    "#item:forge:dusts/graphite",
+    "item:nuclearcraft:tough_alloy_dust",
+    "item:nuclearcraft:plate_advanced",
+    "item:nuclearcraft:fission_reactor_casing",
+    "item:nuclearcraft:manufactory",
+    "item:gendustry:industrial_apiary",
+    "item:forestry:hardened_machine",
+    "item:forestry:impregnated_casing",
+    "item:forestry:apiary",
+    "item:gendustry:scrubber_upgrade",
+    "item:gendustry:pollination_upgrade",
+    "item:gendustry:dryer_upgrade",
+    "item:gendustry:humidifier_upgrade",
+    "item:malum:malignant_pewter_ingot",
+    "item:gendustry:power_module",
+    "item:gendustry:mutagen_producer",
+    "item:gendustry:genetics_processor",
+    "item:gendustry:mutatron",
+    "item:gendustry:advanced_mutatron",
+    "item:forestry:bee_queen_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_beatific\",inactive:\"forestry:bee_effect_beatific\"},\"forestry:bee_species\":{active:\"forestry:bee_imperial\",inactive:\"forestry:bee_imperial\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:40i\",inactive:\"forestry:40i\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.6fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:40,max_heath:40,pristine:1b}}}",
+    "item:forestry:royal_jelly",
     {
-      "type": "item",
-      "id": "forestry:squeezer",
-      "amount": 32
+      "type": "fluid",
+      "id": "gendustry:mutagen",
+      "amount": 0
     },
     {
       "type": "item",
-      "id": "forestry:carpenter",
+      "id": "gendustry:sampler",
       "amount": 32
     },
+    {
+      "type": "fluid",
+      "id": "gendustry:protein",
+      "amount": 250
+    },
+    {
+      "type": "item",
+      "id": "gendustry:protein_liquefier",
+      "amount": 32
+    },
+    {
+      "type": "fluid",
+      "id": "gendustry:liquid_dna",
+      "amount": 400
+    },
+    {
+      "type": "item",
+      "id": "gendustry:dna_extractor",
+      "amount": 32
+    },
+    "item:forestry:fabricator",
+    "item:forestry:squeezer",
+    "item:forestry:carpenter",
+    "item:gendustry:receptacle",
+    "#item:forge:gears/bronze",
+    "item:forestry:ambrosia",
+    "item:forestry:iodine_capsule",
+    "item:forestry:letter_empty_stamped",
+    "item:bfr:solidified_waste",
+    "item:forestry:bituminous_peat",
+    "item:forestry:circuit_board_refined",
+    "item:forestry:flexible_casing",
+    "item:forestry:electron_tube_gold",
+    {
+      "type": "item",
+      "id": "forestry:sturdy_machine",
+      "amount": 57
+    },
+    "item:forestry:worktable",
+    "item:forestry:farm_ender_managed",
+    "item:forestry:farm_ender_manual",
+    "item:forestry:electron_tube_ender",
+    "item:forestry:circuit_board_intricate",
+    "item:forestry:circuit_board_enhanced",
+    "item:forestry:circuit_board_basic",
+    "item:forestry:electron_tube_emerald",
+    "item:species:wraptor_egg",
+    "item:species:youth_potion",
+    "#item:c:tin_ingots",
+    {
+      "type": "item",
+      "id": "forestry:electron_tube_diamond",
+      "amount": 4
+    },
+    "item:minecraft:ender_pearl",
+    "item:forestry:propolis_pulsating",
+    "item:forestry:pulsating_mesh",
     {
       "type": "fluid",
       "id": "forestry:bio_ethanol",
@@ -504,8 +697,6 @@
       "amount": 1000
     },
     "item:forestry:bucket_seed_oil",
-    "item:forestry:sturdy_machine",
-    "item:forestry:hardened_machine",
     "#item:c:bronze_ingots",
     "item:embers:dawnstone_anvil",
     "item:kubejs:ember_profile",
@@ -540,7 +731,7 @@
     "item:kubejs:present_alloy",
     "item:malum:runewood_planks",
     "item:malum:spirit_altar",
-    "#item:c:ingots/gold",
+    "#item:c:gold_ingots",
     {
       "type": "fluid",
       "id": "embers:molten_electrum",
@@ -549,7 +740,6 @@
     "item:slashblade:slashblade{Enchantments:[{id:\"minecraft:power\",lvl:1s}],bladeState:{AttackAmplifier:0.0f,BladeUniqueId:[I;-1787182738,697911634,-2027335478,357960210],ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade_addon:model/terra/terra.obj\",RepairCounter:0,SpecialAttackType:\"slashblade_addon:blistering_terra_swords\",SpecialEffects:[\"slashblade_addon:mana_burst\",\"slashblade_addon:mana_repair\"],StandbyRenderType:5b,SummonedSwordColor:-13253103,SummonedSwordColorInverse:0b,TargetEntity:-1,TextureName:\"slashblade_addon:model/terra/terra.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:6.0f,currentCombo:\"slashblade_addon:blistering_terra_swords_swords_end\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:1b,isSealed:0b,killCount:1,lastActionTime:391759L,maxDamage:60,proudSoul:8,translationKey:\"item.slashblade_addon.terra_blade\"}}",
     "item:malum:runic_workbench",
     "#item:malum:hidden_items/void",
-    "item:malum:malignant_pewter_ingot",
     "item:malum:stellar_mechanism",
     "item:malum:fused_consciousness",
     "item:malum:complete_design",
@@ -904,7 +1094,6 @@
     "item:embers:ember_grit",
     "item:embers:flat_stamp",
     "item:minecraft:dark_oak_log",
-    "item:minecraft:ender_pearl",
     "item:ae2:fluix_pearl",
     "item:jaopcaextras:extra_press",
     {
@@ -1300,7 +1489,6 @@
     },
     "item:quark:vertical_jungle_planks",
     "#item:forge:dusts/coal_coke",
-    "item:tfc:powder/graphite",
     "item:occultism:miner_foliot_unspecialized{Damage:0,maxMiningTime:400,rollsPerOperation:1,spiritName:\"Nardorndorne\"}",
     "item:occultism:tallow",
     "item:occultism:candle_white",
@@ -2225,124 +2413,14 @@
       "type": "item",
       "id": "minecraft:oak_log",
       "amount": 16
-    },
-    "#item:forge:gears/diamond",
-    "item:thermal:press_gear_die",
-    "item:dustandash:integrated_block",
-    "item:minecraft:anvil",
-    {
-      "type": "item",
-      "id": "tconstruct:cobalt_reinforcement",
-      "amount": 12
-    },
-    {
-      "type": "item",
-      "id": "tconstruct:seared_reinforcement",
-      "amount": 28
-    },
-    {
-      "type": "item",
-      "id": "tconstruct:gold_reinforcement",
-      "amount": 15
-    },
-    {
-      "type": "item",
-      "id": "tconstruct:obsidian_reinforcement",
-      "amount": 12
-    },
-    {
-      "type": "item",
-      "id": "tconstruct:iron_reinforcement",
-      "amount": 12
-    },
-    "#item:minecraft:anvil",
-    "item:dustandash:milling_machine",
-    "item:minecraft:damaged_anvil",
-    "item:thermal:gold_gear",
-    {
-      "type": "item",
-      "id": "minecraft:baked_potato",
-      "nbt": "{}",
-      "amount": 19
-    },
-    {
-      "type": "item",
-      "id": "minecraft:diamond",
-      "amount": 20
-    },
-    {
-      "type": "item",
-      "id": "occultism:iesnium_ore",
-      "amount": 27
-    },
-    "item:cataclysm:mech_eye",
-    "item:cataclysm:void_eye",
-    "#item:forge:eggs",
-    "item:tfc:cake",
-    "item:farmersdelight:cake_slice",
-    "item:industrialforegoing:enchantment_extractor",
-    {
-      "type": "item",
-      "id": "minecraft:netherite_upgrade_smithing_template",
-      "amount": 8
-    },
-    "item:tconstruct:broad_blade{Material:\"tconstruct:boron_nitride_gem\"}",
-    "item:tconstruct:maille_cast",
-    "#item:forge:vegetables",
-    "item:rats:assorted_vegetables",
-    "item:tconstruct:chestplate_plating{Material:\"tconstruct:boron_nitride_gem\"}",
-    {
-      "type": "item",
-      "id": "minecraft:oak_slab",
-      "amount": 656
-    },
-    "item:thermal:device_nullifier",
-    "item:thermal:redstone_servo",
-    "item:minecraft:heavy_weighted_pressure_plate",
-    "item:integrateddynamics:coal_generator",
-    "item:minecraft:light_weighted_pressure_plate",
-    {
-      "type": "item",
-      "id": "minecraft:nether_quartz_ore",
-      "amount": 137
-    },
-    {
-      "type": "item",
-      "id": "create:powdered_obsidian",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "integrateddynamics:variable",
-      "amount": 4
-    },
-    "fluid:ad_astra:hydrogen",
-    {
-      "type": "tag",
-      "registry": "minecraft:fluid",
-      "id": "c:hydrogen",
-      "amount": 750
-    },
-    "item:tconstruct:tough_handle{Material:\"tconstruct:desh\"}",
-    "item:tconstruct:tool_handle{Material:\"tconstruct:rose_gold\"}",
-    "item:cobblemon:black_tumblestone",
-    "item:tconstruct:maille{Material:\"tconstruct:black_tumblestone\"}",
-    "item:tconstruct:maille{Material:\"tconstruct:soulstone\"}",
-    {
-      "type": "item",
-      "id": "tconstruct:skyroot_planks",
-      "amount": 16
-    },
-    "item:tconstruct:manyullyn_ingot",
-    {
-      "type": "item",
-      "id": "malum:processed_soulstone",
-      "amount": 4
-    },
-    "item:malum:raw_soulstone",
-    "item:malum:soulstone_ore"
+    }
   ],
   "craft_history": [
+    "kubejs:sturdy_machine_s3",
+    "jei:/kubejs/hardened_machine_s3",
+    "jei:/forestry/carpenter/circuits/refined",
+    "jei:/forestry/fabricator/electron_tubes/emerald",
+    "jei:/forestry/fabricator/electron_tubes/gold",
     "embers:ember_shard_to_crystal",
     "dustandash:crafting/log_pile",
     "kubejs:melter_s2",
@@ -2844,41 +2922,41 @@
   ],
   "recipe_defaults": {
     "added": [
-      "mekanism_extras:control_circuit/cosmic",
-      "mekanism_extras:control_circuit/infinite",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
-      "jei:/tfc/casting/weak_steel_ingot",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
       "jei:/tfc/welding/high_carbon_red_steel_ingot",
       "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "mekanism_extras:control_circuit/supreme",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
-      "mekanism_extras:control_circuit/absolute",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
       "tfcoreprocessing:compress/compress_refined_limonite",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "mekanism_extras:control_circuit/supreme",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
       "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
+      "jei:/malum/spirit_infusion/stellar_mechanism",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
+      "mekanism_extras:control_circuit/cosmic",
+      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
+      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
       "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
       "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "mekanism_extras:control_circuit/absolute",
+      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
       "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
+      "jei:/tfc/casting/weak_steel_ingot",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
+      "mekanism_extras:control_circuit/infinite",
       "jei:/mekanism/processing/uranium/uranium_oxide"
     ],
     "tags": {
+      "#item:c:gold_ingots": "item:tfc:metal/ingot/gold",
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
-      "#item:c:ingots/gold": "item:tfc:metal/ingot/gold",
       "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },
