@@ -35,26 +35,26 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | remove | RecipeFilter |  | void | ✘ |
 | stage | RecipeFilter, String |  | void | ✘ |
-| printTypes |  |  | void | ✘ |
-| custom | JsonObject |  | RecipeJS | ✘ |
-| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
-| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
 | countRecipes | RecipeFilter |  | int | ✘ |
-| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
 | runInParallel | Runnable |  | void | ✔ |
 | runInParallel | Callable<T> |  | T | ✔ |
 | getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
 | recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
 | forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
+| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| printExamples | String |  | void | ✘ |
 | setItemErrors | boolean |  | void | ✘ |
 | printAllTypes |  |  | void | ✘ |
-| printExamples | String |  | void | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
+| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
+| custom | JsonObject |  | RecipeJS | ✘ |
+| printTypes |  |  | void | ✘ |
+| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
+| findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
+| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

@@ -22,6 +22,7 @@ StartupEvents.registry('item', event => {
 
 	event.create('hallowed_soul_steel_ingot').displayName('§m§dHallowed Soul Steel Ingot').fireResistant().rarity('rare')
 	event.create('ember_profile').displayName('§m§dEmber Profile').fireResistant().rarity('rare')
+	event.create('spirit_coil').displayName('§m§dSpirit Coil').fireResistant().rarity('rare')
 
 	event.create('alpha_dust').displayName('§aAlpha Dust').fireResistant()
 	event.create('beta_dust').displayName('§bBeta Dust').fireResistant().rarity('rare')

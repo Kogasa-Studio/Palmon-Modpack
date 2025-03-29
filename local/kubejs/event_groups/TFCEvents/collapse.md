@@ -24,10 +24,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
 | getCenterPos |  |  | BlockPos | ✘ |
-| isFake |  |  | boolean | ✘ |
 | getCenterBlock |  |  | BlockContainerJS | ✘ |
-| getSecondaryPositions |  |  | List<BlockPos> | ✘ |
 | getRadiusSquared |  |  | double | ✘ |
+| getSecondaryPositions |  |  | List<BlockPos> | ✘ |
+| isFake |  |  | boolean | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -39,14 +39,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `List<BlockPos> getSecondaryPositions()`
-```
-Returns a list of `BlockPos`es where a block collapses or, if the collapse is fake, particles spawn
-```
-
 - `double getRadiusSquared()`
 ```
 Returns the maximum distance from the center block of collapsing blocks, or 0 if the collapse is fake
+```
+
+- `List<BlockPos> getSecondaryPositions()`
+```
+Returns a list of `BlockPos`es where a block collapses or, if the collapse is fake, particles spawn
 ```
 
 - `Object exit(Object var0)`

@@ -19,10 +19,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| setCustomBeeModel | ResourceLocation, ILifeStage, ResourceLocation |  | void | ✘ |
 | setSaplingModel | ResourceLocation, ResourceLocation, ResourceLocation |  | void | ✘ |
-| setDefaultBeeModel | ILifeStage, ResourceLocation |  | void | ✘ |
+| setCustomBeeModel | ResourceLocation, ILifeStage, ResourceLocation |  | void | ✘ |
 | setLeafSprite | ResourceLocation, ILeafSprite |  | void | ✘ |
+| setDefaultBeeModel | ILifeStage, ResourceLocation |  | void | ✘ |
 | setLeafTint | ResourceLocation, ILeafTint |  | void | ✘ |
 | setButterflySprites | ResourceLocation, ResourceLocation, ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |

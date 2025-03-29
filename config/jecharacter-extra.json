@@ -1,0 +1,24 @@
+{
+  "removals": [],
+  "contains": {
+    "additional": [
+    ]
+  },
+  "equals": {
+    "additional": []
+  },
+  "suffix": {
+    "additional": []
+  },
+  "regExp": {
+    "additional": [
+        "org.cyclops.integratedterminals.capability.ingredient.IngredientComponentTerminalStorageHandlerFluidStack:lambda$getInstanceFilterPredicate$10(Ljava/lang/String;Lnet/minecraft/tags/TagKey;)Z",
+        "org.cyclops.integratedterminals.capability.ingredient.IngredientComponentTerminalStorageHandlerFluidStack:lambda$getInstanceFilterPredicate$13(Ljava/lang/String;Lnet/neoforged/neoforge/fluids/FluidStack;)Z",
+        "org.cyclops.integratedterminals.capability.ingredient.IngredientComponentTerminalStorageHandlerFluidStack:lambda$getInstanceFilterPredicate$8(Ljava/lang/String;Lnet/neoforged/neoforge/fluids/FluidStack;)Z",
+        "org.cyclops.integratedterminals.capability.ingredient.IngredientComponentTerminalStorageHandlerItemStack:lambda$getInstanceFilterPredicate$1(Ljava/lang/String;Lnet/minecraft/world/item/ItemStack;)Z",
+        "org.cyclops.integratedterminals.capability.ingredient.IngredientComponentTerminalStorageHandlerItemStack:lambda$getInstanceFilterPredicate$2(Ljava/lang/String;Lnet/minecraft/network/chat/Component;)Z",
+        "org.cyclops.integratedterminals.capability.ingredient.IngredientComponentTerminalStorageHandlerItemStack:lambda$getInstanceFilterPredicate$4(Ljava/lang/String;Lnet/minecraft/tags/TagKey;)Z",
+        "org.cyclops.integratedterminals.capability.ingredient.IngredientComponentTerminalStorageHandlerItemStack:lambda$getInstanceFilterPredicate$7(Ljava/lang/String;Lnet/minecraft/world/item/ItemStack;)Z"
+    ]
+  }
+}

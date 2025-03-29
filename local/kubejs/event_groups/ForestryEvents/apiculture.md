@@ -19,15 +19,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| registerCustomHive | ResourceLocation, IHiveGen, BlockState, Predicate<Holder<Biome>>, Predicate<HumidityType>, Predicate<TemperatureType>, float, PostGenFunction |  | IHiveBuilder | ✘ |
-| registerSwarmerMaterial | Item, float |  | void | ✘ |
 | modifySpecies | ResourceLocation, Consumer<IBeeSpeciesBuilder> |  | void | ✘ |
 | modifyHive | ResourceLocation, Consumer<IHiveBuilder> |  | void | ✘ |
-| registerSpecies | ResourceLocation, String, String, boolean, TextColor |  | IBeeSpeciesBuilder | ✘ |
-| registerCustomActivityType | ResourceLocation, IsActiveFunction, InactiveErrorFunction, LightPreference, boolean |  | void | ✘ |
-| registerBeeEffect | ResourceLocation, UnaryOperator<IEffectData>, boolean, Function3<IGenome, IEffectData, IBeeHousing, IEffectData>, Function3<IGenome, IEffectData, IBeeHousing, IEffectData>, boolean |  | void | ✘ |
+| registerCustomHive | ResourceLocation, IHiveGen, BlockState, Predicate<Holder<Biome>>, Predicate<HumidityType>, Predicate<TemperatureType>, float, PostGenFunction |  | IHiveBuilder | ✘ |
 | addVillageBee | ResourceLocation, boolean, Map<IChromosome<?>, IAllele> |  | void | ✘ |
+| registerBeeEffect | ResourceLocation, UnaryOperator<IEffectData>, boolean, Function3<IGenome, IEffectData, IBeeHousing, IEffectData>, Function3<IGenome, IEffectData, IBeeHousing, IEffectData>, boolean |  | void | ✘ |
 | registerFlowerType | ResourceLocation, BiPredicate<Level, BlockPos>, PlantRandomFlowerFunction, boolean |  | void | ✘ |
+| registerSpecies | ResourceLocation, String, String, boolean, TextColor |  | IBeeSpeciesBuilder | ✘ |
+| registerSwarmerMaterial | Item, float |  | void | ✘ |
+| registerCustomActivityType | ResourceLocation, IsActiveFunction, InactiveErrorFunction, LightPreference, boolean |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

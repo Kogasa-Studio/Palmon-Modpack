@@ -23,10 +23,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | register | LiteralArgumentBuilder<CommandSourceStack> |  | LiteralCommandNode<CommandSourceStack> | ✘ |
-| getRegistry |  |  | CommandBuildContext | ✘ |
-| getArguments |  |  | ClassWrapper<ArgumentTypeWrappers> | ✘ |
-| getCommands |  |  | ClassWrapper<Commands> | ✘ |
 | getBuiltinSuggestions |  |  | ClassWrapper<SharedSuggestionProvider> | ✘ |
+| getCommands |  |  | ClassWrapper<Commands> | ✘ |
+| getArguments |  |  | ClassWrapper<ArgumentTypeWrappers> | ✘ |
+| getRegistry |  |  | CommandBuildContext | ✘ |
 | isForMultiPlayer |  |  | boolean | ✘ |
 | isForSinglePlayer |  |  | boolean | ✘ |
 | exit | Object |  | Object | ✘ |

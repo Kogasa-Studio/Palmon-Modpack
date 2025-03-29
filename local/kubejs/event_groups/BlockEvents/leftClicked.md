@@ -24,12 +24,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getFacing |  |  | Direction | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -48,28 +48,19 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The item that was used to left click the block.
 ```
 
-- `Entity getEntity()`
-```
-The player that left clicked the block.
-```
-
 - `BlockContainerJS getBlock()`
 ```
 The block that was left clicked.
 ```
 
+- `LivingEntity getEntity()`
+```
+The player that left clicked the block.
+```
+
 - `Direction getFacing()`
 ```
 The face of the block that was left clicked.
-```
-
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`
@@ -79,6 +70,15 @@ Removes the specified game stage from the player
 
 ```
 Adds the specified game stage to the player
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`

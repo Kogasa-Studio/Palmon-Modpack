@@ -23,16 +23,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| categoryDecorator | CustomRecipeCategoryDecorator.DrawDecorator<T>, CustomRecipeCategoryDecorator.TooltipDecorator<T> |  | CustomRecipeCategoryDecorator<T> | ✘ |
 | categoryDecorator | CustomRecipeCategoryDecorator.DrawDecorator<T> |  | CustomRecipeCategoryDecorator<T> | ✘ |
-| clearCustomRecipeTypes |  |  | void | ✔ |
-| removeOverriddenRecipeType | ResourceLocation |  | void | ✔ |
-| clearOverriddenRecipeTypes |  |  | void | ✔ |
-| getCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
-| removeCustomRecipeType | ResourceLocation |  | void | ✔ |
-| getOrCreateCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
-| getOverriddenRecipeType | ResourceLocation |  | RecipeType<?> | ✔ |
+| categoryDecorator | CustomRecipeCategoryDecorator.DrawDecorator<T>, CustomRecipeCategoryDecorator.TooltipDecorator<T> |  | CustomRecipeCategoryDecorator<T> | ✘ |
 | getOrCreateCustomOverriddenRecipeType | ResourceLocation, RecipeType<T> |  | RecipeType<T> | ✔ |
+| clearCustomRecipeTypes |  |  | void | ✔ |
+| getCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
+| clearOverriddenRecipeTypes |  |  | void | ✔ |
+| getOverriddenRecipeType | ResourceLocation |  | RecipeType<?> | ✔ |
+| removeOverriddenRecipeType | ResourceLocation |  | void | ✔ |
+| getOrCreateCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
+| removeCustomRecipeType | ResourceLocation |  | void | ✔ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

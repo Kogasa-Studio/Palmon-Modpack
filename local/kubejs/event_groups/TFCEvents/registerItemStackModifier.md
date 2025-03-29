@@ -24,8 +24,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | simple | ResourceLocation, SimpleApplicator |  | void | ✘ |
-| withInventory | ResourceLocation, WithInventoryApplicator |  | void | ✘ |
 | withInput | ResourceLocation, ModifierApplicator |  | void | ✘ |
+| withInventory | ResourceLocation, WithInventoryApplicator |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -46,16 +46,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Creates a new item stack modifier with the given id and function
 ```
 
-- `void withInventory(ResourceLocation id, WithInventoryApplicator applicator)`
-
-  Parameters:
-  - id: ResourceLocation- The registry name of the modifier
-  - applicator: WithInventoryApplicator- The function that will be applied to the stack when the modifier is called
-
-```
-Creates a new item stack modifier with the given id and function. Depends on the input item. The inventory may be empty if the recipe type does not support it
-```
-
 - `void withInput(ResourceLocation id, ModifierApplicator applicator)`
 
   Parameters:
@@ -64,6 +54,16 @@ Creates a new item stack modifier with the given id and function. Depends on the
 
 ```
 Creates a new item stack modifier with the given id and function. Depends on the input item
+```
+
+- `void withInventory(ResourceLocation id, WithInventoryApplicator applicator)`
+
+  Parameters:
+  - id: ResourceLocation- The registry name of the modifier
+  - applicator: WithInventoryApplicator- The function that will be applied to the stack when the modifier is called
+
+```
+Creates a new item stack modifier with the given id and function. Depends on the input item. The inventory may be empty if the recipe type does not support it
 ```
 
 - `Object exit(Object var0)`

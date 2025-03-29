@@ -24,14 +24,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | register | ResourceLocation, Consumer<Builder> |  | void | ✘ |
-| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
 | getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
-| getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
-| getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
-| getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
+| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
 | registerClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
 | registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
+| getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
 | getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
+| getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
 | newVec2 | float, float |  | Vec2 | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -53,27 +53,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Creates a new climate model with the given name and properties
 ```
 
-- `TemperatureCallback getDefaultCurrentTemperatureCallback()`
-```
-Deprecated
-```
-
 - `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
 ```
 Deprecated
 ```
 
-- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
-```
-Deprecated
-```
-
-- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
-```
-Deprecated
-```
-
-- `WindVectorCallback getDefaultWindVectorCallback()`
+- `TemperatureCallback getDefaultCurrentTemperatureCallback()`
 ```
 Deprecated
 ```
@@ -98,7 +83,22 @@ Deprecated, use `.register`
 Deprecated, use `.register`
 ```
 
+- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
+```
+Deprecated
+```
+
+- `WindVectorCallback getDefaultWindVectorCallback()`
+```
+Deprecated
+```
+
 - `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
+```
+Deprecated
+```
+
+- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
 ```
 Deprecated
 ```

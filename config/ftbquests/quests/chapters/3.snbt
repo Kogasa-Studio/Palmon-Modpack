@@ -1291,8 +1291,8 @@
 				item: "malum:malignant_pewter_ingot"
 				type: "item"
 			}]
-			x: -20.0d
-			y: 0.0d
+			x: -16.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["48D7D0C73EEA0DC1"]
@@ -1459,7 +1459,7 @@
 				type: "item"
 			}]
 			x: -20.0d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["190156120C35C307"]
@@ -1537,6 +1537,8 @@
 				"56CF2654CCAA1AE0"
 				"4189752AD0C23207"
 				"0DD457F8A8115830"
+				"40C8702A22BC4753"
+				"420411972F85DD79"
 			]
 			id: "1015271507258F9F"
 			invisible: true
@@ -1574,7 +1576,7 @@
 				type: "item"
 			}]
 			x: -22.0d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1E95FFDD292CDA88"]
@@ -1618,6 +1620,279 @@
 			}]
 			x: -18.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["112E1C2783C3701F"]
+			id: "4224C0E68AD86B9A"
+			tasks: [{
+				id: "397062D821262DDD"
+				item: "nuclearcraft:light"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["04F50F5D5B07BD96"]
+			id: "3BDED4ABB0ACD352"
+			tasks: [{
+				id: "2C7E9135875B1924"
+				item: "nuclearcraft:ferroboron_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3BDED4ABB0ACD352"]
+			id: "53C99D10A58AE872"
+			tasks: [{
+				id: "29C85BD133B89D6B"
+				item: "nuclearcraft:tough_alloy_ingot"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4224C0E68AD86B9A"
+				"3BDED4ABB0ACD352"
+			]
+			id: "315D82110345C88A"
+			tasks: [{
+				id: "3ADACF6192F0AA3B"
+				item: "nuclearcraft:medium"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["53C99D10A58AE872"]
+			id: "05F6CF04E6993798"
+			tasks: [{
+				id: "77BA8A66DFA4C9A5"
+				item: "nuclearcraft:plate_advanced"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["05F6CF04E6993798"]
+			id: "40313B43337979C4"
+			tasks: [{
+				id: "15D75F957A2CEFFE"
+				item: "nuclearcraft:rock_crusher"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["53C99D10A58AE872"]
+			id: "2200827055EC09BC"
+			tasks: [{
+				id: "508C8688638CBAA1"
+				item: "nuclearcraft:assembler"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2200827055EC09BC"
+				"05F6CF04E6993798"
+				"3B0E2D2F4527734E"
+			]
+			icon: "nuclearcraft:fission_reactor_controller"
+			id: "10674A5108E68128"
+			rewards: [{
+				id: "4F5DC55D475F483D"
+				item: "nuclearcraft:fission_reactor_port"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A5E129A0E22B617"
+					item: "nuclearcraft:fission_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "1E91E5D636CC4934"
+					item: "nuclearcraft:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "176A53F26C57DD1F"
+					item: "nuclearcraft:fission_reactor_solid_fuel_cell"
+					type: "item"
+				}
+				{
+					id: "3AFB0A83FFE3ACFC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "nuclearcraft:moderators"
+						}
+					}
+					title: "Any #nuclearcraft:moderators"
+					type: "item"
+				}
+			]
+			title: "裂变反应堆"
+			x: -22.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53C99D10A58AE872"]
+			id: "3B0E2D2F4527734E"
+			tasks: [{
+				id: "366EB73C22DB3C93"
+				item: "nuclearcraft:isotope_separator"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10674A5108E68128"]
+			id: "34F20E761F63106F"
+			tasks: [{
+				id: "0C21F3C1D9E07E53"
+				item: "nuclearcraft:caesium_137_dust"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53C99D10A58AE872"]
+			hide_dependency_lines: true
+			id: "58BF090163D9C1FE"
+			tasks: [{
+				id: "0FC782B6C5AB0F7E"
+				item: "nuclearcraft:decay_hastener"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"34F20E761F63106F"
+				"58BF090163D9C1FE"
+			]
+			id: "40C8702A22BC4753"
+			shape: "hexagon"
+			tasks: [{
+				id: "0DA8038EDF3D7052"
+				item: "nuclearcraft:barium_dust"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["006364B7090D8E82"]
+			icon: "jaopca:gears.iesnium"
+			id: "18D57E244F38864A"
+			tasks: [
+				{
+					id: "634DB80E6985D94E"
+					item: "jaopca:gears.iesnium"
+					type: "item"
+				}
+				{
+					id: "6D3CA521696DB008"
+					item: "jaopca:gears.desh"
+					type: "item"
+				}
+			]
+			title: "原材料"
+			x: -14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18D57E244F38864A"]
+			id: "7EB2742477FBE228"
+			tasks: [{
+				id: "6A9B65D41178E5B8"
+				item: "kubejs:spirit_coil"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7EB2742477FBE228"]
+			description: [""]
+			id: "07F0B0B3E2151A4E"
+			subtitle: "新起源"
+			tasks: [{
+				id: "7FD930CD7EC726D5"
+				item: "kubejs:beta_framework"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["07F0B0B3E2151A4E"]
+			id: "78FD5718DB38CE95"
+			tasks: [{
+				id: "33D2CA2D8660AFF4"
+				item: "kubejs:beta_dust"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["616316599E6D02CD"]
+			id: "48EE0838CACFA7EB"
+			tasks: [{
+				id: "522D51FA3E537C6F"
+				item: "jaopca:circuits.iesnium"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["48EE0838CACFA7EB"]
+			id: "420411972F85DD79"
+			shape: "hexagon"
+			tasks: [{
+				id: "6858ED9FB30EFFB5"
+				item: "jaopca:processors.iesnium"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["78FD5718DB38CE95"]
+			icon: "thermal:device_tree_extractor"
+			id: "616316599E6D02CD"
+			tasks: [
+				{
+					id: "132E51EFBF367A0E"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+				{
+					id: "23CF5EC7532E8BF1"
+					item: "thermal:machine_refinery"
+					type: "item"
+				}
+			]
+			title: "获取流体材料"
+			x: -22.0d
+			y: -10.0d
 		}
 	]
 	title: "3. 地球 | The Earth"

@@ -25,13 +25,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| isStrong |  |  | boolean | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
+| isStrong |  |  | boolean | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getTargetedFace |  |  | Direction | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -54,33 +54,24 @@ Returns the level of the event
 Returns the item used to start the fire
 ```
 
-- `boolean isStrong()`
-```
-Returns true if fire created is considered 'strong'
-```
-
-- `Entity getEntity()`
-```
-Returns the player that started the fire, may be null
-```
-
 - `BlockContainerJS getBlock()`
 ```
 Returns the level and position of the event
 ```
 
+- `boolean isStrong()`
+```
+Returns true if fire created is considered 'strong'
+```
+
+- `LivingEntity getEntity()`
+```
+Returns the player that started the fire, may be null
+```
+
 - `Direction getTargetedFace()`
 ```
 Returns the targeted face of the event
-```
-
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`
@@ -90,6 +81,15 @@ Removes the specified game stage from the player
 
 ```
 Adds the specified game stage to the player
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`

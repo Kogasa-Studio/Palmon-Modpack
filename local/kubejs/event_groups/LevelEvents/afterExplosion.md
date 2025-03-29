@@ -23,20 +23,20 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getAffectedEntities |  |  | EntityArrayList | ✘ |
-| getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
+| removeAllAffectedBlocks |  |  | void | ✘ |
 | removeAffectedEntity | Entity |  | void | ✘ |
 | removeAllAffectedEntities |  |  | void | ✘ |
 | removeAffectedBlock | BlockContainerJS |  | void | ✘ |
-| removeAllAffectedBlocks |  |  | void | ✘ |
+| getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
+| getAffectedEntities |  |  | EntityArrayList | ✘ |
 | removeKnockback |  |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
+| getPosition |  |  | Vec3 | ✘ |
 | getX |  |  | double | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getY |  |  | double | ✘ |
-| getExploder |  |  | LivingEntity | ✘ |
 | getZ |  |  | double | ✘ |
-| getPosition |  |  | Vec3 | ✘ |
+| getExploder |  |  | LivingEntity | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -48,14 +48,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `EntityArrayList getAffectedEntities()`
+- `void removeAllAffectedBlocks()`
 ```
-Gets a list of all entities affected by the explosion.
-```
-
-- `List<BlockContainerJS> getAffectedBlocks()`
-```
-Gets a list of all blocks affected by the explosion.
+Remove all blocks from the list of affected blocks.
 ```
 
 - `void removeAffectedEntity(Entity var0)`
@@ -81,9 +76,14 @@ Remove all entities from the list of affected entities.
 Remove a block from the list of affected blocks.
 ```
 
-- `void removeAllAffectedBlocks()`
+- `List<BlockContainerJS> getAffectedBlocks()`
 ```
-Remove all blocks from the list of affected blocks.
+Gets a list of all blocks affected by the explosion.
+```
+
+- `EntityArrayList getAffectedEntities()`
+```
+Gets a list of all entities affected by the explosion.
 ```
 
 - `void removeKnockback()`
