@@ -112,6 +112,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'jaopca:circuits.iesnium' })
     event.remove({ output: 'jaopca:processors.iesnium' })
 
+    event.remove({ output: 'nuclearcraft:plate_basic' })
+    event.remove({ id: 'nuclearcraft:manufactory' })
+
     event.remove({ id: 'thermal:machine_frame' })
     event.remove({ id: 'dimdungeons:recipe_block_gilded_portal' })
     event.remove({ id: 'modularrouters:modular_router' })

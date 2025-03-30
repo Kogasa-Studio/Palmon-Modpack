@@ -31,13 +31,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "present_soul_health",
-                20,
+                8,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "present_soul_armor",
-                8,
+                3,
                 "addition"
             )
             .modifyAttribute(

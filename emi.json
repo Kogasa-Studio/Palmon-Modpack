@@ -1,12 +1,77 @@
 {
   "favorites": [
     {
+      "stack": "item:forestry:bucket_seed_oil"
+    },
+    {
       "stack": "item:kubejs:spirit_coil"
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "kubejs:ancient_netherite",
+      "amount": 64
+    },
+    "item:kubejs:gamma_framework",
+    "item:kubejs:spirit_coil",
     "item:jaopca:processors.iesnium",
     "item:jaopca:circuits.iesnium",
+    "item:kubejs:beta_dust",
+    "item:kubejs:beta_framework",
+    "item:nuclearcraft:assembler",
+    "item:nuclearcraft:uranium_238",
+    "item:nuclearcraft:fuel_uranium_leu_235",
+    "item:nuclearcraft:depleted_fuel_uranium_leu_235",
+    "item:nuclearcraft:caesium_137_dust",
+    "item:nuclearcraft:barium_dust",
+    "item:tfc:seeds/cabbage",
+    {
+      "type": "fluid",
+      "id": "forestry:seed_oil",
+      "amount": 0
+    },
+    "item:forestry:carpenter",
+    {
+      "type": "fluid",
+      "id": "thermal:crude_oil",
+      "amount": 100
+    },
+    "item:thermal_and_space:oil_moon_sand",
+    "item:malum:void_tablet",
+    "item:malum:spirit_altar",
+    "item:create:sturdy_sheet",
+    "item:create:brass_sheet",
+    "item:rats:cheese_cannonball",
+    {
+      "type": "fluid",
+      "id": "kubejs:melted_beryllium_bronze_alloy",
+      "amount": 0
+    },
+    "item:kubejs:stable_desh_ingot",
+    "item:rats:ratlantean_flame",
+    "item:tfc:powder/graphite",
+    "item:mekanism:dust_coal",
+    "item:tfc:powder/charcoal",
+    "#item:c:charcoal_dusts",
+    {
+      "type": "item",
+      "id": "nuclearcraft:manufactory",
+      "amount": 32
+    },
+    "item:cataclysm:ignited_berserker_spawn_egg",
+    "item:kubejs:present_soul",
+    "#item:c:lead_ingots",
+    "#item:forge:dusts/graphite",
+    "item:nuclearcraft:plate_basic",
+    "item:kubejs:ember_profile",
+    "item:kubejs:elite_mechanism",
+    "item:kubejs:elite_mechanism_plus",
+    "item:kubejs:elite_mechanism_final",
+    "item:forestry:electron_tube_emerald",
+    "item:forestry:flexible_casing",
+    "item:embers:ember_crystal_cluster",
+    "item:kubejs:alpha_framework",
     {
       "type": "fluid",
       "id": "thermal:tree_oil",
@@ -89,13 +154,9 @@
     "item:dustandash:titanium_aluminum_alloy",
     "item:create:andesite_alloy",
     "item:immersiveengineering:capacitor_hv",
-    "item:kubejs:alpha_framework",
     "item:jaopca:plates.iesnium",
-    "item:kubejs:beta_dust",
     "item:thermal:machine_pulverizer",
     "item:techreborn:calcite_dust",
-    "item:kubejs:beta_framework",
-    "item:kubejs:ember_profile",
     "item:jaopca:gears.unknown",
     "item:jaopca:plates.unknown",
     {
@@ -105,7 +166,6 @@
     },
     "item:kubejs:alpha_dust",
     "#item:kubejs:stage2_convergence",
-    "item:kubejs:spirit_coil",
     {
       "type": "item",
       "id": "immersiveengineering:graphite_electrode",
@@ -120,7 +180,6 @@
     "item:create:andesite_ladder",
     "item:minecraft:repeating_command_block",
     "item:thermal:rf_coil",
-    "item:nuclearcraft:manufactory",
     "item:thermal:laser_diode",
     "item:thermal:machine_insolator",
     "item:botania:livingwood_log",
@@ -153,19 +212,10 @@
     "item:jaopca:gears.desh",
     "item:jaopca:circuits.desh",
     "item:nuclearcraft:decay_hastener",
-    "item:nuclearcraft:barium_dust",
-    "item:nuclearcraft:caesium_137_dust",
-    {
-      "type": "item",
-      "id": "nuclearcraft:uranium_238",
-      "amount": 4
-    },
-    "item:nuclearcraft:fuel_uranium_leu_235",
     "item:nuclearcraft:strontium_90_dust",
     "item:nuclearcraft:chassis",
     "item:nuclearcraft:isotope_separator",
     "item:nuclearcraft:uranium_235",
-    "item:nuclearcraft:assembler",
     "item:nuclearcraft:basic_electric_circuit",
     "item:nuclearcraft:fission_reactor_controller",
     "item:nuclearcraft:fission_reactor_casing",
@@ -207,9 +257,6 @@
       "amount": 60
     },
     "item:nuclearcraft:alloy_smelter",
-    "item:nuclearcraft:plate_basic",
-    "item:tfc:powder/graphite",
-    "#item:forge:dusts/graphite",
     "item:nuclearcraft:tough_alloy_dust",
     "item:gendustry:industrial_apiary",
     "item:forestry:hardened_machine",
@@ -259,7 +306,6 @@
     },
     "item:forestry:fabricator",
     "item:forestry:squeezer",
-    "item:forestry:carpenter",
     "item:gendustry:receptacle",
     "#item:forge:gears/bronze",
     "item:forestry:ambrosia",
@@ -268,7 +314,6 @@
     "item:bfr:solidified_waste",
     "item:forestry:bituminous_peat",
     "item:forestry:circuit_board_refined",
-    "item:forestry:flexible_casing",
     "item:forestry:electron_tube_gold",
     {
       "type": "item",
@@ -282,7 +327,6 @@
     "item:forestry:circuit_board_intricate",
     "item:forestry:circuit_board_enhanced",
     "item:forestry:circuit_board_basic",
-    "item:forestry:electron_tube_emerald",
     "item:species:wraptor_egg",
     "item:species:youth_potion",
     "#item:c:tin_ingots",
@@ -304,18 +348,12 @@
       "id": "forestry:impregnated_stick",
       "amount": 2
     },
-    {
-      "type": "fluid",
-      "id": "forestry:seed_oil",
-      "amount": 1000
-    },
     "item:forestry:bucket_seed_oil",
     "#item:c:bronze_ingots",
     "item:embers:dawnstone_anvil",
     "item:embers:focal_lens",
     "item:embers:alchemy_tablet",
     "item:embers:wildfire_core",
-    "item:embers:ember_crystal_cluster",
     {
       "type": "item",
       "id": "embers:eldritch_insignia",
@@ -328,7 +366,6 @@
     },
     "item:embers:dawnstone_aspectus",
     "item:embers:beam_cannon",
-    "item:kubejs:stable_desh_ingot",
     "item:create:brass_casing",
     {
       "type": "item",
@@ -336,12 +373,8 @@
       "amount": 2
     },
     "item:malum:runewood_tablet",
-    "item:malum:void_tablet",
-    "item:kubejs:elite_mechanism",
-    "item:kubejs:elite_mechanism_plus",
     "item:kubejs:present_alloy",
     "item:malum:runewood_planks",
-    "item:malum:spirit_altar",
     "#item:c:gold_ingots",
     {
       "type": "fluid",
@@ -409,9 +442,7 @@
       "amount": 8
     },
     "item:malum:alchemical_impetus{Damage:0}",
-    "item:kubejs:elite_mechanism_final",
     "item:createaddition:capacitor",
-    "item:create:sturdy_sheet",
     "item:createaddition:small_light_connector",
     "item:createaddition:electrum_amulet",
     "item:createaddition:electrum_block",
@@ -539,11 +570,6 @@
     "item:kubejs:voucher_1_0",
     "item:kubejs:voucher_1_3",
     "item:kubejs:voucher_1_2",
-    {
-      "type": "item",
-      "id": "kubejs:ancient_netherite",
-      "amount": 64
-    },
     "item:cataclysm:meat_shredder",
     "item:aeinfinitybooster:dimension_card",
     "item:aeinfinitybooster:infinity_card",
@@ -1555,7 +1581,7 @@
       "id": "tfc:metal/double_ingot/rose_gold",
       "amount": 3
     },
-    "#item:c:ingots/copper",
+    "#item:c:copper_ingots",
     "#item:c:nickel_ingots",
     "item:tfc:metal/ingot/rose_gold",
     "#item:forge:ingots/rose_gold",
@@ -1780,42 +1806,7 @@
     },
     "item:sophisticatedstorage:limited_gold_barrel_2{woodType:\"oak\"}",
     "item:sophisticatedstorage:limited_iron_barrel_2{woodType:\"oak\"}",
-    "item:sophisticatedstorage:limited_barrel_2{woodType:\"oak\"}",
-    "item:sophisticatedstorage:limited_gold_barrel_1{woodType:\"oak\"}",
-    "item:sophisticatedstorage:limited_iron_barrel_1{woodType:\"oak\"}",
-    "item:sophisticatedstorage:limited_barrel_1{woodType:\"oak\"}",
-    {
-      "type": "item",
-      "id": "minecraft:wheat_seeds",
-      "amount": 32
-    },
-    {
-      "type": "item",
-      "id": "modularrouters:speed_upgrade",
-      "amount": 6
-    },
-    "item:integrateddynamics:squeezer",
-    "item:modularrouters:blank_upgrade",
-    "item:minecraft:oak_planks",
-    {
-      "type": "item",
-      "id": "thermal:raw_lead",
-      "amount": 64
-    },
-    "item:thermal:raw_lead_block",
-    {
-      "type": "item",
-      "id": "thermal:lead_ore",
-      "amount": 32
-    },
-    "item:thermal:machine_speed_augment",
-    "item:integratedtunnels:part_interface_item",
-    "item:rftoolsbase:crafting_card",
-    {
-      "type": "item",
-      "id": "integratedtunnels:part_importer_item",
-      "amount": 2
-    }
+    "item:sophisticatedstorage:limited_barrel_2{woodType:\"oak\"}"
   ],
   "craft_history": [
     "kubejs:sturdy_machine_s3",
@@ -2324,43 +2315,43 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
-      "mekanism_extras:control_circuit/supreme",
-      "mekanism_extras:control_circuit/cosmic",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "create:crafting/kinetics/steam_engine",
-      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
-      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
       "jei:/tfc/casting/weak_red_steel_fire_ingot",
+      "tfcoreprocessing:compress/compress_refined_limonite",
       "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "mekanism_extras:control_circuit/infinite",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
       "jei:/tfc/anvil/red_steel_ingot",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/malum/spirit_infusion/stellar_mechanism",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
+      "create:crafting/kinetics/steam_engine",
+      "jei:/tfc/casting/weak_steel_ingot",
+      "mekanism_extras:control_circuit/absolute",
+      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
+      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
+      "mekanism_extras:control_circuit/supreme",
+      "mekanism_extras:control_circuit/infinite",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
       "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
       "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
-      "tfcoreprocessing:compress/compress_refined_limonite",
-      "jei:/tfc/casting/weak_steel_ingot",
       "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
-      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
+      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
       "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "mekanism_extras:control_circuit/absolute",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
       "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/mekanism/processing/uranium/uranium_oxide"
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
+      "mekanism_extras:control_circuit/cosmic",
+      "jei:/mekanism/processing/uranium/uranium_oxide",
+      "jei:/tfc/anvil/black_steel_ingot"
     ],
     "tags": {
       "#item:c:gold_ingots": "item:tfc:metal/ingot/gold",
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
-      "#item:c:ingots/copper": "item:tfc:metal/ingot/copper",
+      "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },
     "resolutions": {},
