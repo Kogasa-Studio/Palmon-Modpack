@@ -5,16 +5,62 @@
     },
     {
       "stack": "item:kubejs:spirit_coil"
+    },
+    {
+      "stack": "item:kubejs:gamma_framework",
+      "recipe": "kubejs:gamma_framework_s3_0"
+    },
+    {
+      "stack": "item:ad_astra:tier_2_rocket"
+    },
+    {
+      "stack": "item:ad_astra:desh_engine"
+    },
+    {
+      "stack": "item:ad_astra:desh_tank"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "ad_astra:desh_plate",
+        "amount": 9
+      },
+      "recipe": "jei:/ad_astra/compressing/desh_plate_from_compressing_desh_blocks"
+    },
+    {
+      "stack": "item:kubejs:spirit_coil",
+      "recipe": "kubejs:sp_spirit_coil_s3"
     }
   ],
   "lookup_history": [
+    "item:jaopca:gears.iesnium",
+    "item:kubejs:spirit_coil",
+    "item:ad_astra:tier_2_rocket{}",
+    "item:ad_astra:desh_engine",
+    "item:kubejs:stable_desh_ingot",
+    "item:ad_astra:desh_fluid_pipe",
+    "item:ad_astra:desh_plate",
+    "item:ad_astra:desh_tank",
+    "item:create:deployer",
+    "item:umapyoi:hachimi_big",
+    "item:umapyoi:uma_costume{cosmetic:\"umapyoi:starting_futute\"}",
+    {
+      "type": "item",
+      "id": "techreborn:advanced_machine_frame",
+      "amount": 2
+    },
+    "item:species:frozen_meat",
+    "item:cobblemon:relic_coin_pouch",
+    "item:ad_astra:tier_1_rocket",
+    "item:kubejs:reinforced_sheet",
+    "item:quark:stripped_spruce_post",
+    "item:ad_astra:tier_2_rocket{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:\"ad_astra:fuel\"}]}}",
+    "item:kubejs:gamma_framework",
     {
       "type": "item",
       "id": "kubejs:ancient_netherite",
       "amount": 64
     },
-    "item:kubejs:gamma_framework",
-    "item:kubejs:spirit_coil",
     "item:jaopca:processors.iesnium",
     "item:jaopca:circuits.iesnium",
     "item:kubejs:beta_dust",
@@ -48,7 +94,6 @@
       "id": "kubejs:melted_beryllium_bronze_alloy",
       "amount": 0
     },
-    "item:kubejs:stable_desh_ingot",
     "item:rats:ratlantean_flame",
     "item:tfc:powder/graphite",
     "item:mekanism:dust_coal",
@@ -183,7 +228,6 @@
     "item:thermal:laser_diode",
     "item:thermal:machine_insolator",
     "item:botania:livingwood_log",
-    "item:jaopca:gears.iesnium",
     "item:jaopca:gears.caminite_brick",
     {
       "type": "item",
@@ -454,7 +498,6 @@
     "item:create:mechanical_press",
     "item:create:blaze_burner",
     "item:create:precision_mechanism",
-    "item:create:deployer",
     "item:tfc:rock/smooth/dacite",
     {
       "type": "item",
@@ -555,7 +598,6 @@
     "item:celestial_core:ocean_ingot",
     "item:quark:vertical_spruce_planks",
     "item:ad_astra:desh_ingot",
-    "item:ad_astra:desh_plate",
     "item:kubejs:voucher_3_0",
     {
       "type": "item",
@@ -824,7 +866,6 @@
     "item:embers:mechanical_core",
     "item:embers:stamper",
     "item:expatternprovider:ex_inscriber",
-    "item:kubejs:reinforced_sheet",
     "item:botania:alfheim_portal",
     "item:palmon:wood",
     "item:botania:spark",
@@ -1056,7 +1097,6 @@
     "item:umapyoi:disassembly_block",
     "item:umapyoi:jewel",
     "item:umapyoi:three_goddess",
-    "item:ad_astra:tier_1_rocket{}",
     "item:ad_astra:fuel_bucket",
     "fluid:immersiveengineering:creosote",
     {
@@ -1581,7 +1621,7 @@
       "id": "tfc:metal/double_ingot/rose_gold",
       "amount": 3
     },
-    "#item:c:copper_ingots",
+    "#item:c:ingots/copper",
     "#item:c:nickel_ingots",
     "item:tfc:metal/ingot/rose_gold",
     "#item:forge:ingots/rose_gold",
@@ -1699,7 +1739,6 @@
       "id": "tfc:metal/double_sheet/steel",
       "amount": 4
     },
-    "item:ad_astra:tier_2_rocket",
     "item:tfc:metal/sheet/steel",
     {
       "type": "tag",
@@ -1717,8 +1756,6 @@
       "id": "botanicalmachinery:mana_emerald",
       "amount": 2
     },
-    "item:ad_astra:desh_engine",
-    "item:ad_astra:desh_tank",
     "item:ad_astra:desh_block",
     "item:sophisticatedstorage:crafting_upgrade",
     {
@@ -1790,23 +1827,7 @@
       "id": "minecraft:mutton",
       "amount": 34
     },
-    "item:tfc:food/pork",
-    "item:confluence:flesh_knuckles",
-    {
-      "type": "item",
-      "id": "integratedtunnels:part_interface_energy",
-      "amount": 5
-    },
-    "item:integrateddynamics:variable_transformer_input",
-    "item:patchouli:guide_book{\"patchouli:book\":\"nuclearcraft:nuclearcraft\"}",
-    {
-      "type": "item",
-      "id": "tfc:pumpkin",
-      "amount": 3
-    },
-    "item:sophisticatedstorage:limited_gold_barrel_2{woodType:\"oak\"}",
-    "item:sophisticatedstorage:limited_iron_barrel_2{woodType:\"oak\"}",
-    "item:sophisticatedstorage:limited_barrel_2{woodType:\"oak\"}"
+    "item:tfc:food/pork"
   ],
   "craft_history": [
     "kubejs:sturdy_machine_s3",
@@ -2315,43 +2336,43 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
       "tfcoreprocessing:compress/compress_refined_limonite",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "create:crafting/kinetics/steam_engine",
-      "jei:/tfc/casting/weak_steel_ingot",
       "mekanism_extras:control_circuit/absolute",
-      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "mekanism_extras:control_circuit/cosmic",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
+      "create:crafting/kinetics/steam_engine",
+      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
       "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
-      "mekanism_extras:control_circuit/supreme",
-      "mekanism_extras:control_circuit/infinite",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
+      "jei:/malum/spirit_infusion/stellar_mechanism",
       "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
       "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
       "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/tfc/casting/weak_steel_ingot",
       "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
-      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
+      "mekanism_extras:control_circuit/supreme",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "mekanism_extras:control_circuit/infinite",
       "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
-      "mekanism_extras:control_circuit/cosmic",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel",
       "jei:/mekanism/processing/uranium/uranium_oxide",
-      "jei:/tfc/anvil/black_steel_ingot"
+      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining"
     ],
     "tags": {
       "#item:c:gold_ingots": "item:tfc:metal/ingot/gold",
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
-      "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
+      "#item:c:ingots/copper": "item:tfc:metal/ingot/copper",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },
     "resolutions": {},

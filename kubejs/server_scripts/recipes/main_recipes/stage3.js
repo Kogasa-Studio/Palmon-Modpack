@@ -64,4 +64,56 @@ ServerEvents.recipes(event => {
         ['2x #forge:plates/desh', 'kubejs:present_alloy', 'celestial_core:ocean_ingot']
     ).energy(12800)
     .id('kubejs:stable_desh_ingot_s3')
+
+    event.custom({
+        "type": "ad_astra:nasa_workbench",
+        "ingredients": [
+          {
+            "item": "ad_astra:rocket_nose_cone"
+          },
+          {
+            "item": 'kubejs:gamma_framework'
+          },
+          {
+            "item": 'kubejs:gamma_framework'
+          },
+          {
+            "item": 'ad_astra:desh_block'
+          },
+          {
+            "item": 'ad_astra:desh_block'
+          },
+          {
+            "item": 'kubejs:gamma_framework'
+          },
+          {
+            "item": 'kubejs:gamma_framework'
+          },
+          {
+            "item": 'kubejs:gamma_framework'
+          },
+          {
+            "item": 'ad_astra:desh_tank'
+          },
+          {
+            "item": 'ad_astra:desh_tank'
+          },
+          {
+            "item": 'kubejs:gamma_framework'
+          },
+          {
+            "item": 'ad_astra:desh_engine'
+          },
+          {
+            "item": 'kubejs:gamma_framework'
+          },
+          {
+            "item": 'ad_astra:desh_engine'
+          }
+        ],
+        "result": {
+          "count": 1,
+          "id": "ad_astra:tier_2_rocket"
+        }
+      }).id('kubejs:tier_2_rocket_s3')
 })

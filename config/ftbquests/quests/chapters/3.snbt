@@ -38,6 +38,7 @@
 		}
 		{
 			dependencies: ["6D2837A2695037CE"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ad_astra:space_helmet"
@@ -186,6 +187,7 @@
 		}
 		{
 			dependencies: ["6D2837A2695037CE"]
+			hide_until_deps_complete: true
 			id: "09E9FC71E375C009"
 			subtitle: "为什么不呢"
 			tasks: [{
@@ -215,6 +217,7 @@
 		}
 		{
 			dependencies: ["106E90D345ADA5AE"]
+			hide_until_deps_complete: true
 			icon: "cataclysm:abyss_eye"
 			id: "7B7AE1E173DB4AFD"
 			subtitle: "I'a I'a.Cthulhu Fhatgn!"
@@ -292,6 +295,7 @@
 		}
 		{
 			dependencies: ["106E90D345ADA5AE"]
+			hide_until_deps_complete: true
 			id: "20C6105B852AF3F1"
 			subtitle: "月球特产"
 			tasks: [{
@@ -623,7 +627,9 @@
 				"20C6105B852AF3F1"
 				"1F05408D8081B8E2"
 			]
+			hide_until_deps_complete: false
 			id: "346F9B9DECB62437"
+			shape: "hexagon"
 			tasks: [{
 				id: "49905A769C345682"
 				item: "kubejs:stable_desh_ingot"
@@ -634,6 +640,7 @@
 		}
 		{
 			dependencies: ["106E90D345ADA5AE"]
+			hide_until_deps_complete: true
 			id: "702A4A7A98273A95"
 			subtitle: "征服地牢"
 			tasks: [{
@@ -646,6 +653,7 @@
 		}
 		{
 			dependencies: ["346F9B9DECB62437"]
+			hide_until_deps_complete: true
 			icon: "dimdungeons:block_portal_keyhole"
 			id: "2F3FEE387631C527"
 			rewards: [
@@ -693,6 +701,7 @@
 		{
 			dependencies: ["346F9B9DECB62437"]
 			description: ["在此阶段，你将会解锁两份&l&e灵感&l&f。"]
+			hide_until_deps_complete: true
 			id: "4AEADEEE818B1FCC"
 			tasks: [{
 				id: "140A53BF9B4CFAC2"
@@ -704,6 +713,7 @@
 		}
 		{
 			dependencies: ["6E6C596EACD8BE9F"]
+			hide_until_deps_complete: true
 			id: "5CB9479134B9111E"
 			subtitle: "鼠鼠我啊"
 			tasks: [{
@@ -726,6 +736,7 @@
 		{
 			dependencies: ["5CB9479134B9111E"]
 			description: ["老鼠升级之后可以帮你完成许多工作，在此只列出部分例子。"]
+			hide_until_deps_complete: true
 			id: "0F8A0D01D402ADDD"
 			subtitle: "鼠奴"
 			tasks: [{
@@ -804,6 +815,7 @@
 		}
 		{
 			dependencies: ["6E6C596EACD8BE9F"]
+			hide_until_deps_complete: true
 			icon: "cataclysm:mech_eye"
 			id: "39EA4E779C168F97"
 			tasks: [{
@@ -828,6 +840,7 @@
 		}
 		{
 			dependencies: ["5CB9479134B9111E"]
+			hide_until_deps_complete: true
 			id: "45C1F200915A7F67"
 			tasks: [{
 				id: "67D7CF1D144AEDEC"
@@ -939,8 +952,9 @@
 			shape: "hexagon"
 			subtitle: "特制灵感：处理器"
 			tasks: [{
-				id: "3C4ACF6FF34922E9"
-				type: "checkmark"
+				id: "45EC455BC870CA5D"
+				item: "kubejs:spirit_coil"
+				type: "item"
 			}]
 			x: -12.0d
 			y: -10.0d
@@ -973,6 +987,7 @@
 		}
 		{
 			dependencies: ["6E6C596EACD8BE9F"]
+			hide_until_deps_complete: true
 			id: "7656BA76426F0012"
 			tasks: [{
 				id: "16674340EFDF7D11"
@@ -984,6 +999,7 @@
 		}
 		{
 			dependencies: ["4E6C50026AF843DD"]
+			hide_until_deps_complete: true
 			id: "1414D11ECE4F6423"
 			tasks: [{
 				id: "3BA05F16CA1F24BF"
@@ -995,6 +1011,7 @@
 		}
 		{
 			dependencies: ["4E6C50026AF843DD"]
+			hide_until_deps_complete: true
 			id: "7F5764E72FC512F7"
 			tasks: [{
 				id: "20CA41D64CF2C426"
@@ -1006,6 +1023,7 @@
 		}
 		{
 			dependencies: ["4E6C50026AF843DD"]
+			hide_until_deps_complete: true
 			id: "3945384653690F04"
 			tasks: [{
 				id: "54C011EFC7A2B10E"
@@ -1028,6 +1046,7 @@
 		}
 		{
 			dependencies: ["7356BA71A8BCA0D4"]
+			hide_until_deps_complete: true
 			id: "21A8D275B698E404"
 			tasks: [{
 				id: "6FD0350A32467CE9"
@@ -1051,6 +1070,7 @@
 		}
 		{
 			dependencies: ["345DE5BCC8B26729"]
+			hide_until_deps_complete: true
 			id: "0D356F69B44F78CC"
 			tasks: [{
 				id: "1466A6FCD5B1BA30"
@@ -1062,6 +1082,7 @@
 		}
 		{
 			dependencies: ["345DE5BCC8B26729"]
+			hide_until_deps_complete: true
 			id: "3F3A5901E8ABEB8F"
 			tasks: [{
 				id: "6D0D9E1E45F93E39"
@@ -1088,6 +1109,7 @@
 		}
 		{
 			dependencies: ["4890A983A7C71A12"]
+			hide_until_deps_complete: true
 			id: "7BEA36EC593FD7D6"
 			tasks: [{
 				count: 11L
@@ -1112,6 +1134,7 @@
 		}
 		{
 			dependencies: ["0B3D033410791E9E"]
+			hide_until_deps_complete: true
 			id: "2E5276EE03955F7D"
 			tasks: [{
 				id: "78471B1A67A05BAD"
@@ -1129,6 +1152,7 @@
 		}
 		{
 			dependencies: ["2E5276EE03955F7D"]
+			hide_until_deps_complete: true
 			id: "6B1631BDAD1EA252"
 			tasks: [{
 				id: "061D3C608882E27C"
@@ -1196,6 +1220,7 @@
 		}
 		{
 			dependencies: ["54DD5B0ADFAAA61F"]
+			hide_until_deps_complete: true
 			id: "6FE2DA69BE4F5B9D"
 			tasks: [{
 				id: "3B26DBB05B838200"
@@ -1207,6 +1232,7 @@
 		}
 		{
 			dependencies: ["54DD5B0ADFAAA61F"]
+			hide_until_deps_complete: true
 			id: "0620E123ABE45725"
 			tasks: [{
 				id: "4B660BA5D07F718C"
@@ -1218,6 +1244,7 @@
 		}
 		{
 			dependencies: ["54DD5B0ADFAAA61F"]
+			hide_until_deps_complete: true
 			id: "7F0C6F2A0AAAD292"
 			tasks: [{
 				id: "02595D0E7D61A3BB"
@@ -1234,6 +1261,7 @@
 				"7F0C6F2A0AAAD292"
 				"2147F92D5ACE9599"
 			]
+			hide_until_deps_complete: false
 			id: "56CF2654CCAA1AE0"
 			shape: "hexagon"
 			tasks: [{
@@ -1247,8 +1275,10 @@
 		{
 			dependencies: ["0B3D033410791E9E"]
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			icon: "malum:void_depot"
 			id: "2147F92D5ACE9599"
+			shape: "hexagon"
 			subtitle: "理智在颤抖..."
 			tasks: [{
 				id: "0F99EF07A4764749"
@@ -1296,6 +1326,7 @@
 		}
 		{
 			dependencies: ["48D7D0C73EEA0DC1"]
+			hide_until_deps_complete: true
 			id: "2DAC7BC4C3748BAB"
 			tasks: [{
 				id: "74ABE08274649706"
@@ -1391,6 +1422,7 @@
 		}
 		{
 			dependencies: ["75D3453813C3D864"]
+			hide_until_deps_complete: true
 			id: "30AA3E6FA68BD0E4"
 			tasks: [{
 				id: "251131D1B47F6258"
@@ -1402,6 +1434,7 @@
 		}
 		{
 			dependencies: ["30AA3E6FA68BD0E4"]
+			hide_until_deps_complete: true
 			id: "2CC80B91226D32D8"
 			tasks: [{
 				id: "0DC88D59C4FA0BAC"
@@ -1452,6 +1485,7 @@
 		}
 		{
 			dependencies: ["190156120C35C307"]
+			hide_until_deps_complete: true
 			id: "5B49207DB1745F48"
 			tasks: [{
 				id: "27051D420A5AD98B"
@@ -1463,6 +1497,7 @@
 		}
 		{
 			dependencies: ["190156120C35C307"]
+			hide_until_deps_complete: true
 			id: "0DE1A81C60B0E94F"
 			tasks: [{
 				id: "19D0AF0ACB58D0BB"
@@ -1508,6 +1543,7 @@
 		}
 		{
 			dependencies: ["75D3453813C3D864"]
+			hide_until_deps_complete: true
 			id: "653E109D8A0211C5"
 			tasks: [{
 				id: "021F885F99B93F20"
@@ -1562,13 +1598,14 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"0DE1A81C60B0E94F"
 				"5B49207DB1745F48"
 			]
+			hide_until_deps_complete: true
 			id: "5538E5B5CCD6ABC5"
 			tasks: [{
 				id: "0128F3A2DEB9D75D"
@@ -1580,6 +1617,7 @@
 		}
 		{
 			dependencies: ["1E95FFDD292CDA88"]
+			hide_until_deps_complete: true
 			icon: "tfc:powder/graphite"
 			id: "112E1C2783C3701F"
 			tasks: [{
@@ -1670,6 +1708,7 @@
 		}
 		{
 			dependencies: ["53C99D10A58AE872"]
+			hide_until_deps_complete: true
 			id: "05F6CF04E6993798"
 			tasks: [{
 				id: "77BA8A66DFA4C9A5"
@@ -1692,6 +1731,7 @@
 		}
 		{
 			dependencies: ["53C99D10A58AE872"]
+			hide_until_deps_complete: true
 			id: "2200827055EC09BC"
 			tasks: [{
 				id: "508C8688638CBAA1"
@@ -1707,6 +1747,7 @@
 				"05F6CF04E6993798"
 				"3B0E2D2F4527734E"
 			]
+			hide_until_deps_complete: true
 			icon: "nuclearcraft:fission_reactor_controller"
 			id: "10674A5108E68128"
 			rewards: [{
@@ -1749,6 +1790,7 @@
 		}
 		{
 			dependencies: ["53C99D10A58AE872"]
+			hide_until_deps_complete: true
 			id: "3B0E2D2F4527734E"
 			tasks: [{
 				id: "366EB73C22DB3C93"
@@ -1772,6 +1814,7 @@
 		{
 			dependencies: ["53C99D10A58AE872"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "58BF090163D9C1FE"
 			tasks: [{
 				id: "0FC782B6C5AB0F7E"
@@ -1786,6 +1829,7 @@
 				"34F20E761F63106F"
 				"58BF090163D9C1FE"
 			]
+			hide_until_deps_complete: true
 			id: "40C8702A22BC4753"
 			shape: "hexagon"
 			tasks: [{
@@ -1798,6 +1842,7 @@
 		}
 		{
 			dependencies: ["006364B7090D8E82"]
+			hide_until_deps_complete: true
 			icon: "jaopca:gears.iesnium"
 			id: "18D57E244F38864A"
 			tasks: [
@@ -1830,6 +1875,7 @@
 		{
 			dependencies: ["7EB2742477FBE228"]
 			description: [""]
+			hide_until_deps_complete: true
 			id: "07F0B0B3E2151A4E"
 			subtitle: "新起源"
 			tasks: [{
@@ -1853,6 +1899,7 @@
 		}
 		{
 			dependencies: ["616316599E6D02CD"]
+			hide_until_deps_complete: true
 			id: "48EE0838CACFA7EB"
 			tasks: [{
 				id: "522D51FA3E537C6F"
@@ -1893,6 +1940,110 @@
 			title: "获取流体材料"
 			x: -22.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["7656BA76426F0012"]
+			id: "57339873A9D6D773"
+			tasks: [{
+				id: "543B96EDEACDB6B2"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["57339873A9D6D773"]
+			hide_until_deps_complete: true
+			id: "3335051E70C9DE49"
+			tasks: [{
+				id: "4FFF0D54E8C47ED5"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3335051E70C9DE49"]
+			id: "73923B9574D48091"
+			tasks: [{
+				id: "206FAC235DD9C034"
+				item: "integratedtunnels:part_interface_item"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3335051E70C9DE49"]
+			id: "2B0F4C55D3D244E5"
+			tasks: [{
+				id: "4FF7B3B04FF830CB"
+				item: "integratedtunnels:part_interface_fluid"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3335051E70C9DE49"]
+			id: "3200612D1C914C11"
+			tasks: [{
+				id: "58E9507F65702008"
+				item: "integratedtunnels:part_interface_energy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"6BD75CBEF19F5C43"
+				"4401D7A4DA005603"
+				"4FC239C7B541E7EB"
+			]
+			hide_until_deps_complete: true
+			id: "7091A9ADB8F3C993"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "638E19AC1382E9BC"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["346F9B9DECB62437"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4401D7A4DA005603"
+			tasks: [{
+				id: "06458F7C4F80178C"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["346F9B9DECB62437"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6BD75CBEF19F5C43"
+			tasks: [{
+				id: "47323E2B592CB681"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
 		}
 	]
 	title: "3. 地球 | The Earth"

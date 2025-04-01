@@ -6,6 +6,18 @@
 	id: "4014EF63F34807B3"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
-	title: "4"
+	quests: [{
+		icon: "ad_astra:mars_globe"
+		id: "2BA2D49F67F26CA7"
+		shape: "gear"
+		tasks: [{
+			dimension: "ad_astra:mars"
+			id: "27F365E0D3292C32"
+			type: "dimension"
+		}]
+		title: "新家园？"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "4."
 }
