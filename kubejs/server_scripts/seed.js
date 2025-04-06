@@ -104,6 +104,18 @@ ServerEvents.recipes((event) => {
     e3RFT(event)
     e3CR(event)
 
+    // stage 4
+    // main
+
+
+    // extra
+    e4IFS(event)
+    e4IFU(event)
+    e4EFF(event)
+    e4TIB(event)
+    e4PLM(event)
+    
+
 })
 
 function randomNext(range) {

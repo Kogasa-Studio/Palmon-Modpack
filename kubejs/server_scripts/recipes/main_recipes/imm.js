@@ -6,5 +6,6 @@ ServerEvents.recipes(event => {
             '2x #forge:rods/steel',
             '2x #forge:rods/iron'
         ], 'components')
+        .id('kubejs:steel_tank')
 
 })

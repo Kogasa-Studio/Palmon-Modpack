@@ -334,6 +334,7 @@
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
 			hide_until_deps_complete: true
+			icon: "fluxnetworks:flux_core"
 			id: "55CB17B2D6FA3D12"
 			optional: true
 			rewards: [{
@@ -385,6 +386,7 @@
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
 			hide_until_deps_complete: true
+			icon: "sfm:manager"
 			id: "0D454A94B4133CF1"
 			optional: true
 			rewards: [{
@@ -426,6 +428,7 @@
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
 			hide_until_deps_complete: true
+			icon: "modularrouters:modular_router"
 			id: "74F440E76CB060BD"
 			optional: true
 			rewards: [{
@@ -477,6 +480,7 @@
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
 			hide_until_deps_complete: true
+			icon: "rftoolsbase:machine_frame"
 			id: "1693BF993E82EFD5"
 			optional: true
 			rewards: [{
@@ -528,6 +532,7 @@
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
 			hide_until_deps_complete: true
+			icon: "create:mechanical_arm"
 			id: "65A13D05A366FE2C"
 			optional: true
 			rewards: [{
@@ -2045,6 +2050,17 @@
 			x: 2.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["3335051E70C9DE49"]
+			id: "21E74AB3B080243B"
+			tasks: [{
+				id: "1A939872B96C0B4F"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
 	]
-	title: "3. 地球 | The Earth"
+	title: "3. 归乡 | Hometown"
 }

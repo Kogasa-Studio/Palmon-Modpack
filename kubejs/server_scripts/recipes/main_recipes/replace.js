@@ -6,6 +6,27 @@ ServerEvents.recipes(event => {
         'kubejs:stable_desh_ingot'
     )
 
+    event.replaceInput([
+        { id: 'occultism:crafting/chalk_purple_impure' }
+    ],
+        '#forge:dusts/end_stone',
+        'kubejs:essence_computation_frame'
+    )
+
+    event.replaceInput([
+        { id: 'ae2:network/blocks/quantum_ring' }
+    ],
+        'ae2:engineering_processor',
+        'kubejs:essence_computation_frame'
+    )
+
+    event.replaceInput([
+        { id: 'ae2:network/parts/storage_bus' }
+    ],
+        'minecraft:piston',
+        'kubejs:essence_computation_frame'
+    )
+
     // old
     event.replaceInput([
         { id: 'confluence:workshop' }

@@ -133,6 +133,15 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'forestry:carpenter/hardened_casing' })
     event.remove({ id: 'forestry:fabricator/electron_tubes/flexible_casing' })
 
+    event.remove({ id: 'industrialforegoing:enchantment_factory' })
+    event.remove({ id: 'industrialforegoing:enchantment_extractor' })
+    event.remove({ id: 'industrialforegoing:enchantment_applicator' })
+    event.remove({ id: 'industrialforegoing:ore_laser_base' })
+    event.remove({ id: 'industrialforegoing:potion_brewer' })
+    event.remove({ id: 'industrialforegoing:marine_fisher' })
+    event.remove({ id: 'industrialforegoing:material_stonework_factory' })
+    event.remove({ id: 'tiab:time_in_a_bottle' })
+
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })

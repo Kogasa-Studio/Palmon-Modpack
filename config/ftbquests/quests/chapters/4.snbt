@@ -1,23 +1,608 @@
 {
+	autofocus_id: "2BA2D49F67F26CA7"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4"
 	group: "103C794559B2F3C7"
+	icon: "ad_astra:mars_globe"
 	id: "4014EF63F34807B3"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		icon: "ad_astra:mars_globe"
-		id: "2BA2D49F67F26CA7"
-		shape: "gear"
-		tasks: [{
-			dimension: "ad_astra:mars"
-			id: "27F365E0D3292C32"
-			type: "dimension"
-		}]
-		title: "新家园？"
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "4."
+	quests: [
+		{
+			dependencies: ["7091A9ADB8F3C993"]
+			icon: "ad_astra:mars_globe"
+			id: "2BA2D49F67F26CA7"
+			shape: "gear"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "27F365E0D3292C32"
+				type: "dimension"
+			}]
+			title: "新家园？"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BA2D49F67F26CA7"]
+			id: "19748B079BF83EDB"
+			subtitle: "火星特产"
+			tasks: [{
+				id: "49F1534104AC96BA"
+				item: "ad_astra:raw_ostrum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19748B079BF83EDB"]
+			id: "1E2A1641798E125F"
+			tasks: [{
+				id: "7D5A2452FD9A56AB"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E2A1641798E125F"]
+			id: "7FC968D263AEA122"
+			shape: "hexagon"
+			tasks: [{
+				id: "718892EA0C00AB3C"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7FC968D263AEA122"]
+			id: "6E193B6B06A8FA7C"
+			tasks: [{
+				id: "0163BF0DE0B2BDCC"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7FC968D263AEA122"]
+			id: "4BC78FBF5168C6A5"
+			tasks: [{
+				id: "6502F54F658770DF"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E2A1641798E125F"]
+			id: "5FF7C6DD23AB4E74"
+			rewards: [{
+				id: "4E9A6F6E9FCCFA32"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			subtitle: "收束之一"
+			tasks: [{
+				id: "21563A99175957F0"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E193B6B06A8FA7C"]
+			id: "3103710D58171CDA"
+			tasks: [{
+				id: "4773BB9E43360E69"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3103710D58171CDA"]
+			id: "098E70A731DA0721"
+			tasks: [{
+				id: "2CE870720563665C"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["098E70A731DA0721"]
+			id: "788485F3CA377560"
+			tasks: [{
+				id: "66677F6971BCD382"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["780219F416B18981"]
+			icon: "ae2:logic_processor"
+			id: "1629D5D348CBAF9F"
+			tasks: [
+				{
+					id: "03F449697CD67F1C"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "1CBBF61FACE98D00"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "5B10782FDBC55046"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "处理器"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["47BFCE83D644E037"]
+			id: "232F777DDF9C82D2"
+			tasks: [{
+				id: "41A59C9C92BD9055"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["788485F3CA377560"]
+			icon: "botania:pixie_dust"
+			id: "7F9DDBB392F82A01"
+			tasks: [
+				{
+					id: "31EA9FA4E823BC63"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "4B4E8C939AD7AC18"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "1EDEA5D1721E5302"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+			]
+			title: "精灵材料"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1629D5D348CBAF9F"]
+			id: "47BFCE83D644E037"
+			tasks: [{
+				id: "6A85248B741ADD41"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1E2A1641798E125F"]
+			id: "3D4DF2C3EA0892F3"
+			tasks: [{
+				id: "5C8173D72BA8F2D7"
+				type: "checkmark"
+			}]
+			title: "分歧点 4.0"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4BC78FBF5168C6A5"]
+			id: "780219F416B18981"
+			tasks: [{
+				id: "08CCBB916E6E29AE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:silicon"
+					}
+				}
+				title: "Any #forge:silicon"
+				type: "item"
+			}]
+			title: "硅"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7F9DDBB392F82A01"
+				"232F777DDF9C82D2"
+			]
+			id: "3D68BD03828E6C01"
+			shape: "hexagon"
+			tasks: [{
+				id: "030B1FD703487B14"
+				item: "kubejs:essence_computation_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			id: "033B52065B6BC530"
+			subtitle: "魔灵之力"
+			tasks: [{
+				id: "38924DD98038A513"
+				item: {
+					Count: 1
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7F9DDBB392F82A01"]
+			id: "34407AC6D2A2E064"
+			tasks: [{
+				id: "186F81D732C5BB65"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["34407AC6D2A2E064"]
+			id: "4022752FECFC650A"
+			tasks: [{
+				id: "01982E7A9ADDB0C5"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4022752FECFC650A"]
+			id: "2DE58451E5A6C936"
+			tasks: [{
+				id: "6434EDAEDA261CA1"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2DE58451E5A6C936"]
+			id: "4EC2FFB4FE546AF4"
+			tasks: [{
+				id: "513A938FBA574564"
+				item: {
+					Count: 1
+					id: "botania:dice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1629D5D348CBAF9F"]
+			id: "62E604FC45E42EBD"
+			tasks: [{
+				id: "1C06CF528A2F580E"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			id: "6322253715B62E52"
+			tasks: [{
+				id: "7069E02CBB8B9F39"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			hide_dependency_lines: true
+			icon: "industrialforegoingsouls:soul_laser_base"
+			id: "474FE81A901D1B83"
+			rewards: [{
+				id: "7766F6AC344140A6"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "industrialforegoingsouls:soul_laser_base"
+								}
+								{
+									Count: 16b
+									Slot: 1b
+									id: "industrialforegoingsouls:soul_network_pipe"
+								}
+								{
+									Count: 2b
+									Slot: 2b
+									id: "industrialforegoingsouls:soul_surge"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "灵感：灵魂共振"
+			tasks: [{
+				id: "3B20AA07D2F53A11"
+				item: "kubejs:voucher_4_0"
+				type: "item"
+			}]
+			title: "4-0 工业先锋：灵魂加速"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			description: ["思索片刻后，你理解了一些高级设备的工作原理与制作方法。"]
+			hide_dependency_lines: true
+			icon: "industrialforegoing:machine_frame_advanced"
+			id: "42B58780F3A296B5"
+			rewards: [{
+				id: "4D623FBFC4A7D863"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 3b
+									Slot: 0b
+									id: "industrialforegoing:machine_frame_pity"
+								}
+								{
+									Count: 2b
+									Slot: 1b
+									id: "industrialforegoing:machine_frame_simple"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "industrialforegoing:machine_frame_advanced"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "industrialforegoing:supreme_black_hole_unit"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "industrialforegoing:supreme_black_hole_tank"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "灵感：高级设备"
+			tasks: [{
+				id: "06BAE2AD8CB8E7FE"
+				item: "kubejs:voucher_4_1"
+				type: "item"
+			}]
+			title: "4-1 工业先锋：高级设备"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tiab:time_in_a_bottle"
+				tag: { }
+			}
+			id: "071ABCD9A2899234"
+			rewards: [{
+				id: "7BEC941E5DA027FA"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			subtitle: "灵感：天堂制造"
+			tasks: [{
+				id: "5136FE1E7E2A6775"
+				item: "kubejs:voucher_4_2"
+				type: "item"
+			}]
+			title: "4-2 时间之瓶"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			hide_dependency_lines: true
+			id: "2595BC9FBB0DCFAE"
+			tasks: [{
+				id: "40E2624AA39C8D29"
+				item: "kubejs:voucher_4_3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			hide_dependency_lines: true
+			id: "754E584EBB786A61"
+			tasks: [{
+				id: "085CA65806792311"
+				item: "kubejs:voucher_4_4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			hide_dependency_lines: true
+			icon: "ae2:controller"
+			id: "28242B0319EA2546"
+			rewards: [{
+				id: "4A1BD034855FBD38"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 8b
+									Slot: 0b
+									id: "ae2:controller"
+								}
+								{
+									Count: 32b
+									Slot: 1b
+									id: "ae2:fluix_smart_dense_cable"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "ae2:fluix_smart_cable"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "ae2:fluix_glass_cable"
+								}
+								{
+									Count: 4b
+									Slot: 4b
+									id: "ae2:pattern_provider"
+								}
+								{
+									Count: 8b
+									Slot: 5b
+									id: "ae2:molecular_assembler"
+								}
+								{
+									Count: 32b
+									Slot: 6b
+									id: "ae2:basic_card"
+								}
+								{
+									Count: 16b
+									Slot: 7b
+									id: "ae2:advanced_card"
+								}
+								{
+									Count: 4b
+									Slot: 8b
+									id: "ae2:storage_bus"
+								}
+								{
+									Count: 2b
+									Slot: 9b
+									id: "ae2:4k_crafting_storage"
+								}
+								{
+									Count: 2b
+									Slot: 10b
+									id: "ae2:crafting_accelerator"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "ae2:crafting_monitor"
+								}
+								{
+									Count: 1b
+									Slot: 12b
+									id: "ae2:pattern_access_terminal"
+								}
+								{
+									Count: 1b
+									Slot: 13b
+									id: "ae2:pattern_encoding_terminal"
+								}
+								{
+									Count: 16b
+									Slot: 14b
+									id: "ae2:blank_pattern"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "物资：ME自动化套件"
+			tasks: [{
+				id: "0A4DE7B90A7144E8"
+				item: "kubejs:voucher_4_5"
+				type: "item"
+			}]
+			title: "4-5 自动化"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			id: "5C182F768906554A"
+			tasks: [{
+				id: "25AD3AD2371DFAA3"
+				type: "checkmark"
+			}]
+			title: "分歧点 4.1"
+			x: 0.0d
+			y: -14.0d
+		}
+	]
+	title: "4. 火星 | The Mars"
 }

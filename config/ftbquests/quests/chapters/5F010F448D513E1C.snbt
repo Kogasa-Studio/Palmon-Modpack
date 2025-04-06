@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5F010F448D513E1C"
+	group: ""
+	icon: "kubejs:true_soul_of_light"
+	id: "5F010F448D513E1C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"恭喜你，已经完成了本整合包的一条基本路线。"
+			""
+			"接下来，如果你拥有&4资格&f，你可以在第六章完成终局挑战。"
+			""
+			"现在你所在的章节的用途是强化下一条&e世界线&f，用更通俗的话来说，就是局外加成。"
+			""
+			"每当你在一条独特的&e世界线中&f抵达当前阶段，你将有资格选择下一次的开局补给，这是在&e世界线变动率&f之外的！"
+			""
+			"你还可以通过消耗特定材料，解锁一些额外的加成。"
+		]
+		id: "0714A09D27EF360F"
+		tasks: [{
+			id: "6805E8E72A33A1CC"
+			type: "checkmark"
+		}]
+		title: "中场休息"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "时间之外的往事"
+}

@@ -15,6 +15,8 @@
     "item.kubejs.hallowed_soul_steel_ingot": "§m§d圣魂精钢锭",
     "item.kubejs.ember_profile": "§m§d余烬异构",
     "item.kubejs.spirit_coil": "§m§d魔灵纠缠线圈",
+
+    "item.kubejs.essence_computation_frame": "§m§e源质计算框架",
     
     "item.kubejs.alpha_dust": "§aAlpha 尘",
     "item.kubejs.beta_dust": "§bBeta 尘",
@@ -43,6 +45,13 @@
     "item.kubejs.voucher_3_2": "补给卷 S03T02",
     "item.kubejs.voucher_3_3": "补给卷 S03T03",
     "item.kubejs.voucher_3_4": "补给卷 S03T04",
+
+    "item.kubejs.voucher_4_0": "补给卷 S04T00",
+    "item.kubejs.voucher_4_1": "补给卷 S04T01",
+    "item.kubejs.voucher_4_2": "补给卷 S04T02",
+    "item.kubejs.voucher_4_3": "补给卷 S04T03",
+    "item.kubejs.voucher_4_4": "补给卷 S04T04",
+    "item.kubejs.voucher_4_5": "补给卷 S04T05",
 
     "item.kubejs.present_soul": "§e现世之魂",
     "item.kubejs.scranton_reality_anchor": "§d斯克兰顿现实稳定锚",

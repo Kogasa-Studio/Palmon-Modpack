@@ -24,6 +24,8 @@ StartupEvents.registry('item', event => {
 	event.create('ember_profile').displayName('§m§dEmber Profile').fireResistant().rarity('rare')
 	event.create('spirit_coil').displayName('§m§dSpirit Coil').fireResistant().rarity('rare')
 
+	event.create('essence_computation_frame').displayName('§m§eEssence Computation Frame').fireResistant().rarity('rare')
+
 	event.create('alpha_dust').displayName('§aAlpha Dust').fireResistant()
 	event.create('beta_dust').displayName('§bBeta Dust').fireResistant().rarity('rare')
 	event.create('gamma_dust').displayName('§cGamma Dust').fireResistant().rarity('rare')
@@ -35,7 +37,6 @@ StartupEvents.registry('item', event => {
 	event.create('gamma_framework').displayName('§cGamma Framework').fireResistant().rarity('rare')
 	event.create('delta_framework').displayName('§dDelta Framework').fireResistant().rarity('epic')
 	event.create('epsilon_framework').displayName('§eEpsilon Framework').fireResistant().rarity('epic').glow(true)
-
 
 	const voucherTexture = 'kubejs:item/voucher'
 	event.create('voucher_1_0').displayName('Voucher S01T00').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
@@ -53,6 +54,13 @@ StartupEvents.registry('item', event => {
 	event.create('voucher_3_2').displayName('Voucher S03T02').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 	event.create('voucher_3_3').displayName('Voucher S03T03').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 	event.create('voucher_3_4').displayName('Voucher S03T04').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+
+	event.create('voucher_4_0').displayName('Voucher S04T00').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_4_1').displayName('Voucher S04T01').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_4_2').displayName('Voucher S04T02').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_4_3').displayName('Voucher S04T03').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_4_4').displayName('Voucher S04T04').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
+	event.create('voucher_4_5').displayName('Voucher S04T05').maxStackSize(1).texture(voucherTexture).tag('kubejs:voucher').fireResistant().glow(true)
 
 })
 

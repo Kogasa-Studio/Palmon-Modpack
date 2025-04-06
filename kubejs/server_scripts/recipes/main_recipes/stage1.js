@@ -14,11 +14,21 @@ ServerEvents.recipes(event => {
     event.shapeless('cobblemon:ancient_roseate_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/pink']).id('kubejs:ball_5_s1')
     event.shapeless('cobblemon:ancient_slate_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/black']).id('kubejs:ball_6_s1')
     event.shapeless('cobblemon:ancient_ivory_ball', ['cobblemon:ancient_poke_ball', '#forge:dyes/white']).id('kubejs:ball_7_s1')
-    
+
     event.shapeless('tfc:kaolin_clay', ['tfc_ie_addon:powder/bauxite', '#forge:clay']).id('kubejs:kaolin_clay_s1')
 
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
+
+    event.shaped('ad_astra:steel_tank', [
+        ' A ',
+        'BAB',
+        ' B '
+    ],
+        {
+            A: '#forge:sheets/wrought_iron',
+            B: '#forge:sheets/steel'
+        }).id('kubejs:steel_tank_s1')
 
     event.shaped('3x cobblemon:ancient_poke_ball', [
         'AAA',
@@ -30,7 +40,7 @@ ServerEvents.recipes(event => {
             B: 'tfc:metal/sheet/copper',
             C: '#tfc:trim_materials',
             D: 'palmon:wood'
-        })
+        }).id('kubejs:ancient_poke_ball_s1')
 
     event.shaped('9x tconstruct:seared_brick', [
         'ACB',
@@ -137,6 +147,16 @@ ServerEvents.recipes(event => {
             C: '#forge:dusts/redstone',
             D: '#minecraft:wooden_slabs'
         }).id('kubejs:barrel')
-        
+
+    event.recipes.occultism.ritual(
+        'occultism:infused_pickaxe',
+        [
+            'occultism:spirit_attuned_pickaxe_head',
+            'tfc:metal/pickaxe/steel'
+        ],
+        'occultism:book_of_binding_bound_djinni',
+        'occultism:craft_foliot'
+    ).id("kubejs:infused_pickaxe_s1")
+
 })
 

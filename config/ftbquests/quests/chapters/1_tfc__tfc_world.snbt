@@ -2066,11 +2066,26 @@
 		{
 			dependencies: ["76FB026FCCD2873B"]
 			id: "5F288344A80B4737"
-			rewards: [{
-				id: "03E0EDF62A3F5FAD"
-				item: "occultism:dimensional_mineshaft"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "03E0EDF62A3F5FAD"
+					item: "occultism:dimensional_mineshaft"
+					type: "item"
+				}
+				{
+					id: "024250FE4E641C04"
+					item: {
+						Count: 1
+						id: "occultism:miner_djinni_ores"
+						tag: {
+							Damage: 0
+							maxMiningTime: 300
+							rollsPerOperation: 1
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0EAFEF210F7F856F"
 				item: {
