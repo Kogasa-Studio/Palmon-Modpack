@@ -464,13 +464,22 @@
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
+			description: ["这份碎片给予了你一份特别的启示，只需要将源质计算框架作为催化剂，就能以一种几乎无法理解的方式制作三种框架......"]
 			hide_dependency_lines: true
+			icon: "kubejs:alpha_framework"
 			id: "2595BC9FBB0DCFAE"
+			rewards: [{
+				id: "583D858D9A6ED6DB"
+				item: "kubejs:essence_computation_frame"
+				type: "item"
+			}]
+			subtitle: "灵感：生产效率配方"
 			tasks: [{
 				id: "40E2624AA39C8D29"
 				item: "kubejs:voucher_4_3"
 				type: "item"
 			}]
+			title: "4-3 框架解构"
 			x: -2.0d
 			y: 4.0d
 		}
@@ -478,11 +487,13 @@
 			dependencies: ["3D68BD03828E6C01"]
 			hide_dependency_lines: true
 			id: "754E584EBB786A61"
+			subtitle: "灵感：专业化训练"
 			tasks: [{
 				id: "085CA65806792311"
 				item: "kubejs:voucher_4_4"
 				type: "item"
 			}]
+			title: "4-4 宝可梦/帕鲁专业化"
 			x: 0.0d
 			y: 4.0d
 		}

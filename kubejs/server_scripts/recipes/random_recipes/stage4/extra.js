@@ -117,13 +117,6 @@ function e4IFU(event) {
 /**
  * @param {Internal.RecipesEventJS} event
  */
-function e4EFF(event) {
-
-}
-
-/**
- * @param {Internal.RecipesEventJS} event
- */
 function e4TIB(event) {
     event.shaped('tiab:time_in_a_bottle', [
         'GFG',
@@ -138,6 +131,28 @@ function e4TIB(event) {
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:time_in_a_bottle_s4')
 }
+
+/**
+ * @param {Internal.RecipesEventJS} event
+ */
+function e4EFF(event) {
+    event.recipes.thermal.smelter(['2x kubejs:alpha_framework', 'kubejs:essence_computation_frame'],
+        ['kubejs:essence_computation_frame', '2x #forge:gears/dawnstone', '#forge:gears/steel']
+    ).energy(12800)
+        .id('kubejs:eff_alpha_framework_s4')
+
+    event.recipes.thermal.smelter(['kubejs:beta_framework', 'kubejs:essence_computation_frame'],
+        ['kubejs:essence_computation_frame', 'kubejs:alpha_framework', '#kubejs:stage2_convergence']
+    ).energy(25600)
+        .id('kubejs:eff_beta_framework_s4')
+
+    event.recipes.thermal.smelter(['kubejs:gamma_framework', 'kubejs:essence_computation_frame'],
+        ['kubejs:essence_computation_frame', 'kubejs:beta_framework', '8x kubejs:stable_desh_ingot']
+    ).energy(51200)
+        .id('kubejs:eff_gamma_framework_s4')
+
+}
+
 
 /**
  * @param {Internal.RecipesEventJS} event
