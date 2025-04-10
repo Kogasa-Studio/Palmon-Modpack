@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    babyShapeless('tfc:kaolin_clay', ['#forge:sand', '#forge:clay'])
+    babyShapeless('2x tfc:kaolin_clay', ['#forge:sand', '#forge:clay'])
     babyShapeless('tfc:powder/kaolinite', ['tfc:kaolin_clay'])
 
     babyShapeless('32x tfc:wood/support/oak', ['#forge:rods/wooden'])

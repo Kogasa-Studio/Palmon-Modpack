@@ -25,6 +25,9 @@ StartupEvents.registry('item', event => {
 	event.create('spirit_coil').displayName('§m§dSpirit Coil').fireResistant().rarity('rare')
 
 	event.create('essence_computation_frame').displayName('§m§eEssence Computation Frame').fireResistant().rarity('rare')
+	event.create('basic_machine_frame').displayName('[Basic Machine Frame]').fireResistant()
+	event.create('advanced_machine_frame').displayName('[Advanced Machine Frame]').fireResistant().rarity('rare')
+	event.create('industrial_machine_frame').displayName('[Industrial Machine Frame]').fireResistant().rarity('epic')
 
 	event.create('alpha_dust').displayName('§aAlpha Dust').fireResistant()
 	event.create('beta_dust').displayName('§bBeta Dust').fireResistant().rarity('rare')

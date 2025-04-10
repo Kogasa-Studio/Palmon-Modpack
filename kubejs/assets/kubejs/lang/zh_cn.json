@@ -17,6 +17,9 @@
     "item.kubejs.spirit_coil": "§m§d魔灵纠缠线圈",
 
     "item.kubejs.essence_computation_frame": "§m§e源质计算框架",
+    "item.kubejs.basic_machine_frame": "[基础机器框架]",
+    "item.kubejs.advanced_machine_frame": "[高级机器框架]",
+    "item.kubejs.industrial_machine_frame": "[工业机器框架]",
     
     "item.kubejs.alpha_dust": "§aAlpha 尘",
     "item.kubejs.beta_dust": "§bBeta 尘",

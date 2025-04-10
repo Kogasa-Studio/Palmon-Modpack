@@ -284,8 +284,8 @@
 				item: "mythicbotany:alfsteel_pylon"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -12.0d
+			x: -6.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["4022752FECFC650A"]
@@ -295,8 +295,8 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -12.0d
+			x: -4.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2DE58451E5A6C936"]
@@ -310,8 +310,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: -12.0d
+			x: -4.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["1629D5D348CBAF9F"]
@@ -332,8 +332,8 @@
 				item: "ae2:quantum_ring"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -12.0d
+			x: 2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
@@ -464,7 +464,11 @@
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
-			description: ["这份碎片给予了你一份特别的启示，只需要将源质计算框架作为催化剂，就能以一种几乎无法理解的方式制作三种框架......"]
+			description: [
+				"这份碎片给予了你一份特别的启示，只需要将源质计算框架作为催化剂，就能以一种几乎无法理解的方式制作三种框架......"
+				""
+				"以及热爆花......"
+			]
 			hide_dependency_lines: true
 			icon: "kubejs:alpha_framework"
 			id: "2595BC9FBB0DCFAE"
@@ -485,8 +489,51 @@
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
+			description: ["这份碎片给予了你一份特别的启示，通过训练宝可梦使用源质计算框架，你就可以让他们以一种全新的方式制作一些物品......"]
 			hide_dependency_lines: true
+			icon: "cobblemon:master_ball"
 			id: "754E584EBB786A61"
+			rewards: [{
+				id: "4792AA363CCDF2F9"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 2b
+									Slot: 0b
+									id: "palmon:boost_frame_3"
+								}
+								{
+									Count: 2b
+									Slot: 1b
+									id: "palmon:boost_frame_2"
+								}
+								{
+									Count: 2b
+									Slot: 2b
+									id: "palmon:boost_frame_1"
+								}
+								{
+									Count: 2b
+									Slot: 3b
+									id: "palmon:working_station"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "palmon:poke_food"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "灵感：专业化训练"
 			tasks: [{
 				id: "085CA65806792311"
@@ -604,7 +651,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3D68BD03828E6C01"]
 			id: "5C182F768906554A"
 			tasks: [{
 				id: "25AD3AD2371DFAA3"
@@ -612,7 +658,85 @@
 			}]
 			title: "分歧点 4.1"
 			x: 0.0d
-			y: -14.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["5C182F768906554A"]
+			id: "7C8F21F274C74D59"
+			subtitle: "灵感：新生魔艺"
+			tasks: [{
+				id: "59C43652F7058131"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5C182F768906554A"]
+			id: "39A3EB250644FA7A"
+			subtitle: "灵感：龙之研究"
+			tasks: [{
+				id: "114B2E43105BEAA9"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5C182F768906554A"]
+			id: "368B50D9FA24ABBA"
+			subtitle: "灵感：工业屠宰"
+			tasks: [{
+				id: "54E690F88D1BFEB8"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5C182F768906554A"]
+			id: "76551EEFA4598D87"
+			subtitle: "灵感：深空探索"
+			tasks: [{
+				id: "14636CC107FCBBF0"
+				item: "kubejs:reinforced_sheet"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5C182F768906554A"]
+			id: "3A49D2C7EE90C2F2"
+			subtitle: "灵感：真正的工业"
+			tasks: [{
+				id: "719AFD6BF684BC4A"
+				item: "kubejs:basic_machine_frame"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5C182F768906554A"]
+			id: "4473E1C35100C688"
+			subtitle: "灵感：魔王"
+			tasks: [{
+				id: "1BE00141584172DF"
+				item: {
+					Count: 1
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -20.0d
 		}
 	]
 	title: "4. 火星 | The Mars"

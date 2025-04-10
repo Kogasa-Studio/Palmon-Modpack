@@ -2,6 +2,27 @@ ServerEvents.recipes(event => {
     event.replaceInput([
         { type: "minecraft:crafting_shaped" }, { type: "minecraft:crafting_shapeless" }
     ],
+        'techreborn:basic_machine_frame',
+        'kubejs:basic_machine_frame'
+    )
+
+    event.replaceInput([
+        { type: "minecraft:crafting_shaped" }, { type: "minecraft:crafting_shapeless" }
+    ],
+        'techreborn:advanced_machine_frame',
+        'kubejs:advanced_machine_frame'
+    )
+
+    event.replaceInput([
+        { type: "minecraft:crafting_shaped" }, { type: "minecraft:crafting_shapeless" }
+    ],
+        'techreborn:industrial_machine_frame',
+        'kubejs:industrial_machine_frame'
+    )
+
+    event.replaceInput([
+        { type: "minecraft:crafting_shaped" }, { type: "minecraft:crafting_shapeless" }
+    ],
         'ad_astra:desh_plate',
         'kubejs:stable_desh_ingot'
     )

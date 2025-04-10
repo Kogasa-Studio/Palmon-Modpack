@@ -151,6 +151,41 @@ function e4EFF(event) {
     ).energy(51200)
         .id('kubejs:eff_gamma_framework_s4')
 
+    event.custom({
+        "type": "botania:petal_apothecary",
+        "ingredients": [
+          {
+            "tag": "botania:petals/red"
+          },
+          {
+            "tag": "botania:petals/red"
+          },
+          {
+            "tag": "botania:petals/gray"
+          },
+          {
+            "tag": "botania:petals/gray"
+          },
+          {
+            "tag": "botania:petals/white"
+          },
+          {
+            "tag": "botania:petals/white"
+          },
+          {
+            "item": "botania:rune_wrath"
+          },
+          {
+            "item": "botania:rune_fire"
+          }
+        ],
+        "output": {
+          "item": "botania:entropinnyum"
+        },
+        "reagent": {
+          "item": 'kubejs:essence_computation_frame'
+        }
+      }).id('kubejs:entropinnyum_s4')
 }
 
 
@@ -158,7 +193,54 @@ function e4EFF(event) {
  * @param {Internal.RecipesEventJS} event
  */
 function e4PLM(event) {
+    s4PLMRec([{ "tag": 'forge:ingots/lumium', "count": 1 }, { "tag": 'forge:ingots/signalum', "count": 1 }, { "tag": 'forge:ingots/enderium', "count": 1 }], 'kubejs:present_alloy', 2, 1000, 'ATTACK', 40, 40)
+    s4PLMRec([{ "item": 'kubejs:present_alloy', "count": 1 }, { "item": 'ad_astra:desh_ingot', "count": 1 }], 'kubejs:stable_desh_ingot', 2, 1000, 'DEFENCE', 45, 50)
+    s4PLMRec([{ "item": 'ae2:cell_component_1k', "count": 2 }, { "item": 'jaopca:processors.elementium', "count": 1 }, { "item": 'kubejs:gamma_framework', "count": 1 }], 'kubejs:essence_computation_frame', 2, 600, 'SPECIAL_ATTACK', 35, 25)
+    s4PLMRec([{ "tag": 'cobblemon:tier_4_poke_balls', "count": 16 }, { "item": 'ae2:cell_component_64k', "count": 1 }, { "item": 'kubejs:present_alloy', "count": 8 }, { "item": 'palmon:refined_m_steel_ingot', "count": 2 }], 'cobblemon:master_ball', 1, 6000, 'SPECIAL_DEFENCE', 75, 75)
+    s4PLMRec([{ "item": 'kubejs:present_alloy', "count": 16 }, { "item": 'palmon:refined_m_steel_ingot', "count": 12 }, { "item": 'botania:flask', "count": 4 }], 'unimplemented_items:bottle_cap', 1, 3000, 'SPEED', 55, 60)
 
+    function s4PLMRec(inputs, output, count, tick, stat, stats, level) {
+        inputs.push({ "item": 'kubejs:essence_computation_frame', "count": 1 })
+        event.custom({
+            "type": "palmon:processing",
+            "category": "misc",
+            "focus_stat": stat,
+            "min_level": level,
+            "required_type": null,
+            "base_hp": stats,
+            "base_atk": stats,
+            "base_def": stats,
+            "base_spa": stats,
+            "base_spd": stats,
+            "base_spe": stats,
+            "area_blocks": [
+                {
+                    "item": 'ae2:controller'
+                },
+                {
+                    "item": "botania:glimmering_stripped_dreamwood"
+                }
+            ],
+            "block_count": 4,
+            "input_items": inputs,
+            "input_power": 40960,
+            "input_fluid": {
+                "fluid": "minecraft:water",
+                "amount": 2000
+            },
+            "tick": tick,
+            "result_items": [
+                {
+                    "item": output,
+                    "count": count
+                },
+                {
+                    "item": 'kubejs:essence_computation_frame',
+                    "count": 1
+                }
+            ]
+        }).id('kubejs:s4_plm_' + output.split(':')[1])
+    }
 }
 
 /**
@@ -167,3 +249,5 @@ function e4PLM(event) {
 function e4AE(event) {
 
 }
+
+
