@@ -738,6 +738,18 @@
 			x: -10.0d
 			y: -20.0d
 		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			id: "792EBBF529719097"
+			subtitle: "先锋"
+			tasks: [{
+				id: "33C9D404BB33E2ED"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.0d
+		}
 	]
 	title: "4. 火星 | The Mars"
 }

@@ -424,7 +424,8 @@ StartupEvents.registry('item', event => {
         .tag("curios:otherworld_relics")
 
     const ssAtkDamage = "sages_attack_damage"
-    const ssAtkDamageUUID = new $UUID(hashCode(ssAtkDamage), hashCode(ssAtkDamage))
+    const ssHash = hashCode(ssAtkDamage)
+    const ssAtkDamageUUID = new $UUID(ssHash, ssHash)
     event.create('sages_stone')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .canEquip((item, context) => {
@@ -464,10 +465,15 @@ StartupEvents.registry('item', event => {
 
                         item.getOrCreateTag().putDouble("player_armor", armor)
 
-                        if (player.getAttribute("minecraft:generic.attack_damage").hasModifier(atkDamage)) {
+                        try {
                             player.getAttribute("minecraft:generic.attack_damage").removeModifier(ssAtkDamageUUID)
+
                         }
-                        player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
+                        finally {
+                            player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
+
+                        }
+                        
 
                     }
                     if (player.age % 400 == 0) {

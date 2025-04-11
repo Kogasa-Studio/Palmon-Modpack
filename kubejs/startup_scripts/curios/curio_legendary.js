@@ -140,8 +140,10 @@ StartupEvents.registry('item', event => {
 
     const ttgAttackDamage = "goddess_attack_damage"
     const ttgAttackSpeed = "goddess_attack_speed"
-    const ttgAttackDamageUUID = new $UUID(hashCode(ttgAttackDamage), hashCode(ttgAttackDamage))
-    const ttgAttackSpeedUUID = new $UUID(hashCode(ttgAttackSpeed), hashCode(ttgAttackSpeed))
+    const ttgAttackDamageHash = hashCode(ttgAttackDamage)
+    const ttgAttackSpeedHash = hashCode(ttgAttackSpeed)
+    const ttgAttackDamageUUID = new $UUID(ttgAttackDamageHash, ttgAttackDamageHash)
+    const ttgAttackSpeedUUID = new $UUID(ttgAttackSpeedHash, ttgAttackSpeedHash)
     event.create('true_three_goddess')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .canEquip((item, context) => {
@@ -190,17 +192,15 @@ StartupEvents.registry('item', event => {
 
                         item.getOrCreateTag().putDouble("player_speed", speed)
 
-                        if (player.getAttribute("minecraft:generic.attack_damage").hasModifier(atkDamage)) {
+                        try {
                             player.getAttribute("minecraft:generic.attack_damage").removeModifier(ttgAttackDamageUUID)
-                        }
-
-
-                        if (player.getAttribute("minecraft:generic.attack_speed").hasModifier(atkSpeed)) {
                             player.getAttribute("minecraft:generic.attack_speed").removeModifier(ttgAttackSpeedUUID)
-                        }
 
-                        player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
-                        player.getAttribute("minecraft:generic.attack_speed").addPermanentModifier(atkSpeed)
+                        } finally {
+                            player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
+                            player.getAttribute("minecraft:generic.attack_speed").addPermanentModifier(atkSpeed)
+
+                        }
 
                     }
                 }
@@ -233,7 +233,8 @@ StartupEvents.registry('item', event => {
         .tag("curios:otherworld_relics")
 
     const gnpAttackDamage = "puree_attack_damage"
-    const gnpAttackDamageUUID = new $UUID(hashCode(gnpAttackDamage), hashCode(gnpAttackDamage))
+    const gnpAttackDamageHash = hashCode(gnpAttackDamage)
+    const gnpAttackDamageUUID = new $UUID(gnpAttackDamageHash, gnpAttackDamageHash)
     event.create('old_george_nutritional_puree')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .canEquip((item, context) => {
@@ -274,10 +275,13 @@ StartupEvents.registry('item', event => {
 
                         item.getOrCreateTag().putDouble("player_health", health)
 
-                        if (player.getAttribute("minecraft:generic.attack_damage").hasModifier(atkDamage)) {
+                        try {
                             player.getAttribute("minecraft:generic.attack_damage").removeModifier(gnpAttackDamageUUID)
+
+                        } finally {
+                            player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
+
                         }
-                        player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
 
                     }
                 }
@@ -329,7 +333,8 @@ StartupEvents.registry('item', event => {
 
 
     const mgAtkDamage = "galaxy_critical_damage"
-    const mgAtkDamageUUID = new $UUID(hashCode(mgAtkDamage), hashCode(mgAtkDamage))
+    const mgAtkDamageHash = hashCode(mgAtkDamage)
+    const mgAtkDamageUUID = new $UUID(mgAtkDamageHash, mgAtkDamageHash)
     event.create('miniature_galaxy')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .canEquip((item, context) => {
@@ -370,10 +375,14 @@ StartupEvents.registry('item', event => {
 
                         item.getOrCreateTag().putDouble("player_attack_speed", attackSpeed)
 
-                        if (player.getAttribute("obscure_api:critical_damage").hasModifier(atkModifer)) {
+                        try {
                             player.getAttribute("obscure_api:critical_damage").removeModifier(mgAtkDamageUUID)
+
                         }
-                        player.getAttribute("obscure_api:critical_damage").addPermanentModifier(atkModifer)
+                        finally {
+                            player.getAttribute("obscure_api:critical_damage").addPermanentModifier(atkModifer)
+
+                        }
 
                     }
                 }
