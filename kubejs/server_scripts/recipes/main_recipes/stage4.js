@@ -1,4 +1,20 @@
 ServerEvents.recipes(event => {
+    event.shapeless('ars_nouveau:novice_spell_book', ['minecraft:book', 'kubejs:charged_source_gem', 'botania:manastar']).id('kubejs:novice_spell_book_s4')
+    event.shapeless('ars_nouveau:apprentice_spell_book', ['ars_nouveau:novice_spell_book', '2x minecraft:diamond', '2x minecraft:blaze_rod', 'kubejs:unify_essence', 'minecraft:crying_obsidian', 'minecraft:quartz_block', 'botania:mana_quartz']).id('kubejs:apprentice_spell_book_s4')
+    event.shapeless('ars_nouveau:ritual_brazier', ['ars_nouveau:arcane_pedestal', '4x #forge:ingots/gold', 'kubejs:unify_essence', '#forge:storage_blocks/source_gem']).id('kubejs:ritual_brazier_s4')
+
+    event.shaped('industrialforegoing:machine_frame_pity', [
+        'ACA',
+        'BDB',
+        'ACA'
+    ],
+        {
+            A: '#forge:gears/dawnstone',
+            B: 'kubejs:stable_desh_ingot',
+            C: '#forge:gears/steel',
+            D: 'kubejs:essence_computation_frame'
+        }).id('kubejs:machine_frame_pity_s4')
+
     event.shaped('ae2:inscriber', [
         'ABA',
         ' CA',
@@ -35,5 +51,19 @@ ServerEvents.recipes(event => {
         ['ae2:cell_component_4k', 'kubejs:gamma_framework', 'jaopca:processors.elementium']
     ).energy(38400)
         .id('kubejs:essence_computation_frame_s4')
+
+    event.recipes.ars_nouveau.imbuement(
+        '#forge:gems/source_gem',
+        'kubejs:charged_source_gem',
+        2000,
+        []
+    ).id('kubejs:charged_source_gem_s4')
+
+    event.recipes.ars_nouveau.enchanting_apparatus(
+        ['ars_nouveau:abjuration_essence', 'ars_nouveau:conjuration_essence', 'ars_nouveau:air_essence', 'ars_nouveau:earth_essence', 'ars_nouveau:fire_essence', 'ars_nouveau:manipulation_essence', 'ars_nouveau:water_essence', 'botania:pixie_dust'],
+        ['kubejs:charged_source_gem'],
+        'kubejs:unify_essence',
+        8000
+    ).id('kubejs:unify_essence_s4')
 
 })

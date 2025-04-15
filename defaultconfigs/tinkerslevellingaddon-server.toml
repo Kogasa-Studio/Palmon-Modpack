@@ -27,16 +27,16 @@
 	staffStatGainingMethod = "NONE"
 	#Maximum tool level that could be achieved. If set to 0 there is no upper limit.
 	#Range: > 0
-	maxLevel = 15
+	maxLevel = 10
 	#Base amount of experience required to reach next level.
 	#Range: > 1
-	baseExperience = 500
+	baseExperience = 400
 	#How much the amount of experience required to reach next level will be multiplied per level.
 	#Range: 1.0 ~ 10.0
-	requiredXpMultiplier = 2.0
+	requiredXpMultiplier = 1.75
 	#Additional multiplier for broad tools for experience required to level up.
 	#Range: 1.0 ~ 10.0
-	broadToolRequiredXpMultiplier = 3.0
+	broadToolRequiredXpMultiplier = 1.75
 
 	#Modifier slots settings
 	[general.slots]

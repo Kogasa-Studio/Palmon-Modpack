@@ -22,9 +22,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getTask |  |  | CustomTask | ✘ |
 | setMaxProgress | long |  | void | ✘ |
-| setCheck | Check |  | void | ✘ |
 | setCheckTimer | int |  | void | ✘ |
 | setEnableButton | boolean |  | void | ✘ |
+| setCheck | Check |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

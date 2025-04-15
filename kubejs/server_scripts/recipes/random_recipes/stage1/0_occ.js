@@ -35,7 +35,8 @@ function s1Occ(event) {
             'occultism:otherworld_ashes'
         ],
         'occultism:magic_lamp_empty',
-        'occultism:craft_foliot'
+        'occultism:craft_foliot',
+        80
     ).id("kubejs:occ_alpha_framework_1")
 
 }

@@ -97,6 +97,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'jaopcaextras:inscriber.circuit.fluix' })
     event.remove({ id: 'jaopcaextras:inscriber.processor.fluix' })
 
+    event.remove({ id: 'industrialforegoing:machine_frame_pity' })
+
     event.remove({ id: 'cobblefordays:tier_1' })
     event.remove({ id: 'cobblefordays:tier_2' })
     event.remove({ id: 'cobblefordays:tier_3' })
@@ -114,6 +116,14 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: 'nuclearcraft:plate_basic' })
     event.remove({ id: 'nuclearcraft:manufactory' })
+    event.remove({ id: 'ars_nouveau:imbuement_chamber' })
+    event.remove({ id: 'ars_nouveau:novice_spell_book' })
+    event.remove({ id: 'ars_nouveau:apprentice_spell_book_upgrade' })
+    event.remove({ id: 'ars_nouveau:ritual_brazier' })
+
+    event.remove({ id: 'draconicevolution:components/draconium_core' })
+    event.remove({ id: 'draconicevolution:components/wyvern_energy_core' })
+    event.remove({ id: 'draconicevolution:compress/draconium_block' })
 
     event.remove({ id: 'thermal:machine_frame' })
     event.remove({ id: 'dimdungeons:recipe_block_gilded_portal' })
@@ -146,6 +156,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })
     event.remove({ output: 'thermal:lumium_coin' })
+
+    event.remove({ output: 'ars_nouveau:ritual_flight' })
 
     event.remove({ input: 'immersiveengineering:hammer', not: {id: 'immersiveengineering:crafting/survey_tools'}})
 

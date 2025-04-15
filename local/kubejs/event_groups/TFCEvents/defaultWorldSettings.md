@@ -26,40 +26,40 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getOceanFloorLayers |  |  | List<String> | ✘ |
+| setRainfallConstant | float |  | void | ✘ |
+| setTemperatureConstant | float |  | void | ✘ |
+| setTemperatureScale | int |  | void | ✘ |
+| removeOceanFloorLayer | String |  | void | ✘ |
+| removeVolcanicLayer | String |  | void | ✘ |
 | removeLayer | String |  | void | ✘ |
+| getRock | String |  | RockSettings | ✘ |
 | flatBedrock | boolean |  | void | ✘ |
 | flatBedrock |  |  | void | ✘ |
 | addRock | RockSettings, String, boolean |  | void | ✘ |
-| setSpawnCenterX | int |  | void | ✘ |
 | addRockFromId | ResourceLocation, String, boolean |  | void | ✘ |
+| getRockNames |  |  | Set<String> | ✘ |
+| removeFromBottom | String |  | void | ✘ |
+| defineLayer | String, Map<String, String> |  | void | ✘ |
+| setSpawnCenterX | int |  | void | ✘ |
+| setRainfallScale | int |  | void | ✘ |
+| setSpawnCenterZ | int |  | void | ✘ |
+| setSpawnDistance | int |  | void | ✘ |
+| setContinentalness | float |  | void | ✘ |
+| setGrassDensity | float |  | void | ✘ |
 | removeRock | String |  | void | ✘ |
 | addToBottom | String |  | void | ✘ |
-| removeFromBottom | String |  | void | ✘ |
-| setContinentalness | float |  | void | ✘ |
-| setSpawnDistance | int |  | void | ✘ |
-| setRainfallScale | int |  | void | ✘ |
-| setGrassDensity | float |  | void | ✘ |
-| setSpawnCenterZ | int |  | void | ✘ |
-| getRockNames |  |  | Set<String> | ✘ |
-| removeLandLayer | String |  | void | ✘ |
-| getLayerIds |  |  | List<String> | ✘ |
-| removeUpliftLayer | String |  | void | ✘ |
-| cleanSlate |  |  | void | ✘ |
-| addVolcanicLayer | String |  | void | ✘ |
-| defineLayer | String, Map<String, String> |  | void | ✘ |
-| getVolcanicLayers |  |  | List<String> | ✘ |
 | addOceanFloorLayer | String |  | void | ✘ |
+| getLayerIds |  |  | List<String> | ✘ |
+| removeLandLayer | String |  | void | ✘ |
+| removeUpliftLayer | String |  | void | ✘ |
+| addLandLayer | String |  | void | ✘ |
+| addVolcanicLayer | String |  | void | ✘ |
 | getLandLayers |  |  | List<String> | ✘ |
 | addUpliftLayer | String |  | void | ✘ |
-| addLandLayer | String |  | void | ✘ |
+| cleanSlate |  |  | void | ✘ |
 | getUpliftLayers |  |  | List<String> | ✘ |
-| removeOceanFloorLayer | String |  | void | ✘ |
-| getOceanFloorLayers |  |  | List<String> | ✘ |
-| removeVolcanicLayer | String |  | void | ✘ |
-| setTemperatureConstant | float |  | void | ✘ |
-| setTemperatureScale | int |  | void | ✘ |
-| setRainfallConstant | float |  | void | ✘ |
-| getRock | String |  | RockSettings | ✘ |
+| getVolcanicLayers |  |  | List<String> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -70,6 +70,56 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
+- `List<String> getOceanFloorLayers()`
+```
+Gets the layers that are currently in the 'ocean_floor' layer type
+```
+
+- `void setRainfallConstant(float var0)`
+
+  Parameters:
+  - var0: float
+
+```
+Sets the relative constant temperature of the world, defaults to 0
+```
+
+- `void setTemperatureConstant(float var0)`
+
+  Parameters:
+  - var0: float
+
+```
+Sets the relative constant temperature of the world, defaults to 0
+```
+
+- `void setTemperatureScale(int var0)`
+
+  Parameters:
+  - var0: int
+
+```
+Sets the temperature scale of the world, the distance from pole to pole, defaults to 20000
+```
+
+- `void removeOceanFloorLayer(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the given layer from the 'ocean_floor' layer type
+```
+
+- `void removeVolcanicLayer(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the given layer from the 'volcanic' layer type
+```
+
 - `void removeLayer(String var0)`
 
   Parameters:
@@ -77,6 +127,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ```
 Removes the given layer from the generator
+```
+
+- `RockSettings getRock(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Gets the `RockSettings` with the given name
 ```
 
 - `void flatBedrock(boolean var0)`
@@ -104,15 +163,6 @@ Sets flat bedrock to true
 Adds the given rock to the generator's pool of available rocks
 ```
 
-- `void setSpawnCenterX(int var0)`
-
-  Parameters:
-  - var0: int
-
-```
-Sets the spawn center on the x-coordinate
-```
-
 - `void addRockFromId(ResourceLocation id, String name, boolean bottom)`
 
   Parameters:
@@ -122,6 +172,84 @@ Sets the spawn center on the x-coordinate
 
 ```
 Adds the given rock to the generator's pool of available rocks
+```
+
+- `Set<String> getRockNames()`
+```
+Gets the names of all rocks currently in the generator's pool of rocks
+```
+
+- `void removeFromBottom(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the given rock from the bottom layer
+```
+
+- `void defineLayer(String id, Map<String, String> rockMap)`
+
+  Parameters:
+  - id: String- The name of the layer to add
+  - rockMap: Map<String, String>- A map of rock names to layer names, associates a rock with the layer that will generate underneath it
+
+```
+Defines a new rock layer
+```
+
+- `void setSpawnCenterX(int var0)`
+
+  Parameters:
+  - var0: int
+
+```
+Sets the spawn center on the x-coordinate
+```
+
+- `void setRainfallScale(int var0)`
+
+  Parameters:
+  - var0: int
+
+```
+Sets the rainfall scale of the world, the distance between peaks in intensity, defaults to 20000
+```
+
+- `void setSpawnCenterZ(int var0)`
+
+  Parameters:
+  - var0: int
+
+```
+Sets the spawn center on the z-coordinate
+```
+
+- `void setSpawnDistance(int var0)`
+
+  Parameters:
+  - var0: int
+
+```
+Sets the distance from the spawn center that players may spawn
+```
+
+- `void setContinentalness(float var0)`
+
+  Parameters:
+  - var0: float
+
+```
+Sets the proportion of the world that is land instead of water, defaults to 0.5
+```
+
+- `void setGrassDensity(float var0)`
+
+  Parameters:
+  - var0: float
+
+```
+Sets the grass density of the world, defaults to 0.5
 ```
 
 - `void removeRock(String var0)`
@@ -142,63 +270,18 @@ Removes the given rock from the generator
 Adds the given rock to the bottom layer
 ```
 
-- `void removeFromBottom(String var0)`
+- `void addOceanFloorLayer(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Removes the given rock from the bottom layer
+Adds the given layer to the 'ocean_floor' layer type
 ```
 
-- `void setContinentalness(float var0)`
-
-  Parameters:
-  - var0: float
-
+- `List<String> getLayerIds()`
 ```
-Sets the proportion of the world that is land instead of water, defaults to 0.5
-```
-
-- `void setSpawnDistance(int var0)`
-
-  Parameters:
-  - var0: int
-
-```
-Sets the distance from the spawn center that players may spawn
-```
-
-- `void setRainfallScale(int var0)`
-
-  Parameters:
-  - var0: int
-
-```
-Sets the rainfall scale of the world, the distance between peaks in intensity, defaults to 20000
-```
-
-- `void setGrassDensity(float var0)`
-
-  Parameters:
-  - var0: float
-
-```
-Sets the grass density of the world, defaults to 0.5
-```
-
-- `void setSpawnCenterZ(int var0)`
-
-  Parameters:
-  - var0: int
-
-```
-Sets the spawn center on the z-coordinate
-```
-
-- `Set<String> getRockNames()`
-```
-Gets the names of all rocks currently in the generator's pool of rocks
+Gets the names of all layers currently in the generator's pool of layers
 ```
 
 - `void removeLandLayer(String var0)`
@@ -210,11 +293,6 @@ Gets the names of all rocks currently in the generator's pool of rocks
 Removes the given layer from the 'land' layer type
 ```
 
-- `List<String> getLayerIds()`
-```
-Gets the names of all layers currently in the generator's pool of layers
-```
-
 - `void removeUpliftLayer(String var0)`
 
   Parameters:
@@ -224,9 +302,13 @@ Gets the names of all layers currently in the generator's pool of layers
 Removes the given layer from the 'uplift' layer type
 ```
 
-- `void cleanSlate()`
+- `void addLandLayer(String var0)`
+
+  Parameters:
+  - var0: String
+
 ```
-Removes all rocks and rock layers from the generator
+Adds the given layer to the 'land' layer type
 ```
 
 - `void addVolcanicLayer(String var0)`
@@ -236,30 +318,6 @@ Removes all rocks and rock layers from the generator
 
 ```
 Adds the given layer to the 'volcanic' layer type
-```
-
-- `void defineLayer(String id, Map<String, String> rockMap)`
-
-  Parameters:
-  - id: String- The name of the layer to add
-  - rockMap: Map<String, String>- A map of rock names to layer names, associates a rock with the layer that will generate underneath it
-
-```
-Defines a new rock layer
-```
-
-- `List<String> getVolcanicLayers()`
-```
-Gets the layers that are currently in the 'volcanic' layer type
-```
-
-- `void addOceanFloorLayer(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the given layer to the 'ocean_floor' layer type
 ```
 
 - `List<String> getLandLayers()`
@@ -276,13 +334,9 @@ Gets the layers that are currently in the 'land' layer type
 Adds the given layer to the 'uplift' layer type
 ```
 
-- `void addLandLayer(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `void cleanSlate()`
 ```
-Adds the given layer to the 'land' layer type
+Removes all rocks and rock layers from the generator
 ```
 
 - `List<String> getUpliftLayers()`
@@ -290,63 +344,9 @@ Adds the given layer to the 'land' layer type
 Gets the layers that are currently in the 'uplift' layer type
 ```
 
-- `void removeOceanFloorLayer(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `List<String> getVolcanicLayers()`
 ```
-Removes the given layer from the 'ocean_floor' layer type
-```
-
-- `List<String> getOceanFloorLayers()`
-```
-Gets the layers that are currently in the 'ocean_floor' layer type
-```
-
-- `void removeVolcanicLayer(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the given layer from the 'volcanic' layer type
-```
-
-- `void setTemperatureConstant(float var0)`
-
-  Parameters:
-  - var0: float
-
-```
-Sets the relative constant temperature of the world, defaults to 0
-```
-
-- `void setTemperatureScale(int var0)`
-
-  Parameters:
-  - var0: int
-
-```
-Sets the temperature scale of the world, the distance from pole to pole, defaults to 20000
-```
-
-- `void setRainfallConstant(float var0)`
-
-  Parameters:
-  - var0: float
-
-```
-Sets the relative constant temperature of the world, defaults to 0
-```
-
-- `RockSettings getRock(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Gets the `RockSettings` with the given name
+Gets the layers that are currently in the 'volcanic' layer type
 ```
 
 - `Object exit(Object var0)`

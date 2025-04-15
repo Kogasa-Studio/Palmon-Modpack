@@ -23,20 +23,20 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| removeAllAffectedBlocks |  |  | void | ✘ |
-| removeAffectedEntity | Entity |  | void | ✘ |
-| removeAllAffectedEntities |  |  | void | ✘ |
-| removeAffectedBlock | BlockContainerJS |  | void | ✘ |
-| getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
 | getAffectedEntities |  |  | EntityArrayList | ✘ |
+| getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
+| removeAffectedEntity | Entity |  | void | ✘ |
+| removeAffectedBlock | BlockContainerJS |  | void | ✘ |
+| removeAllAffectedBlocks |  |  | void | ✘ |
+| removeAllAffectedEntities |  |  | void | ✘ |
 | removeKnockback |  |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
-| getPosition |  |  | Vec3 | ✘ |
 | getX |  |  | double | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getY |  |  | double | ✘ |
 | getZ |  |  | double | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
+| getPosition |  |  | Vec3 | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -48,9 +48,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `void removeAllAffectedBlocks()`
+- `EntityArrayList getAffectedEntities()`
 ```
-Remove all blocks from the list of affected blocks.
+Gets a list of all entities affected by the explosion.
+```
+
+- `List<BlockContainerJS> getAffectedBlocks()`
+```
+Gets a list of all blocks affected by the explosion.
 ```
 
 - `void removeAffectedEntity(Entity var0)`
@@ -62,11 +67,6 @@ Remove all blocks from the list of affected blocks.
 Remove an entity from the list of affected entities.
 ```
 
-- `void removeAllAffectedEntities()`
-```
-Remove all entities from the list of affected entities.
-```
-
 - `void removeAffectedBlock(BlockContainerJS var0)`
 
   Parameters:
@@ -76,14 +76,14 @@ Remove all entities from the list of affected entities.
 Remove a block from the list of affected blocks.
 ```
 
-- `List<BlockContainerJS> getAffectedBlocks()`
+- `void removeAllAffectedBlocks()`
 ```
-Gets a list of all blocks affected by the explosion.
+Remove all blocks from the list of affected blocks.
 ```
 
-- `EntityArrayList getAffectedEntities()`
+- `void removeAllAffectedEntities()`
 ```
-Gets a list of all entities affected by the explosion.
+Remove all entities from the list of affected entities.
 ```
 
 - `void removeKnockback()`

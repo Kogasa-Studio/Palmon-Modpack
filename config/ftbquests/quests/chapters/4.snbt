@@ -326,17 +326,6 @@
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
-			id: "6322253715B62E52"
-			tasks: [{
-				id: "7069E02CBB8B9F39"
-				item: "ae2:quantum_ring"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["3D68BD03828E6C01"]
 			hide_dependency_lines: true
 			icon: "industrialforegoingsouls:soul_laser_base"
 			id: "474FE81A901D1B83"
@@ -651,6 +640,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["0D937378D5C6FCB2"]
+			description: ["......帮助越大，代价越高。"]
 			id: "5C182F768906554A"
 			tasks: [{
 				id: "25AD3AD2371DFAA3"
@@ -658,7 +649,7 @@
 			}]
 			title: "分歧点 4.1"
 			x: 0.0d
-			y: -18.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["5C182F768906554A"]
@@ -670,19 +661,19 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -20.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["5C182F768906554A"]
 			id: "39A3EB250644FA7A"
 			subtitle: "灵感：龙之研究"
 			tasks: [{
-				id: "114B2E43105BEAA9"
-				item: "draconicevolution:draconium_ingot"
+				id: "2ADD892C42F13E18"
+				item: "kubejs:intelligent_draconium_ingot"
 				type: "item"
 			}]
 			x: 2.0d
-			y: -20.0d
+			y: -26.0d
 		}
 		{
 			dependencies: ["5C182F768906554A"]
@@ -693,8 +684,8 @@
 				item: "industrialforegoing:mob_slaughter_factory"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -20.0d
+			x: 2.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["5C182F768906554A"]
@@ -705,8 +696,8 @@
 				item: "kubejs:reinforced_sheet"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -20.0d
+			x: 2.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["5C182F768906554A"]
@@ -717,8 +708,8 @@
 				item: "kubejs:basic_machine_frame"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -20.0d
+			x: -2.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["5C182F768906554A"]
@@ -735,8 +726,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -20.0d
+			x: -2.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
@@ -749,6 +740,392 @@
 			}]
 			x: 0.0d
 			y: -14.0d
+		}
+		{
+			dependencies: ["792EBBF529719097"]
+			icon: "industrialforegoing:dryrubber"
+			id: "39CFA81F8B1EB3D6"
+			tasks: [
+				{
+					id: "4997A4E8751782DA"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+				{
+					id: "403934C50BD3A4E4"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+			]
+			title: "胶乳与塑料"
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["39CFA81F8B1EB3D6"]
+			id: "0F7856B347537A96"
+			tasks: [{
+				id: "6CBACF5FF2F6ECDE"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0F7856B347537A96"]
+			id: "0D937378D5C6FCB2"
+			tasks: [{
+				id: "53D323D21C906A95"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["4473E1C35100C688"]
+			description: ["前往古代城，寻找古代人留下的龙息。"]
+			id: "0CE4E5DC7464D60A"
+			subtitle: "远古之城中......"
+			tasks: [{
+				id: "09FC0B0E67CA60D6"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["4473E1C35100C688"]
+			description: ["从异界召唤末地石与紫颂果......"]
+			id: "2F24825CDE72CA6B"
+			subtitle: "仪式召唤"
+			tasks: [{
+				id: "4561B23E623FD6D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: 2094000L
+							traits: [ ]
+						}
+					}
+					id: "minecraft:chorus_fruit"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"2F24825CDE72CA6B"
+				"0CE4E5DC7464D60A"
+			]
+			id: "1A6BE3E860BEF229"
+			tasks: [{
+				id: "5F118C4A350AEB76"
+				item: "occultism:storage_stabilizer_tier4"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"2F24825CDE72CA6B"
+				"0CE4E5DC7464D60A"
+			]
+			id: "69D9824855251C89"
+			subtitle: "奴役魔王"
+			tasks: [{
+				id: "11ADA9803023B67B"
+				item: {
+					Count: 1
+					id: "occultism:miner_marid_master"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["1A6BE3E860BEF229"]
+			id: "412E62E4E10E60B0"
+			shape: "hexagon"
+			tasks: [{
+				id: "32FE8E28A45E2430"
+				item: "kubejs:marid_binded_gem"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3A49D2C7EE90C2F2"]
+			id: "6D721ADCFCB692ED"
+			tasks: [{
+				id: "482CED2A26A73338"
+				item: "techreborn:grinder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["3A49D2C7EE90C2F2"]
+			id: "1EBD7E0BCFC26C5B"
+			tasks: [{
+				id: "56622363AF50E566"
+				item: "techreborn:extractor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["3A49D2C7EE90C2F2"]
+			id: "0D8BA7BFA5CE2797"
+			tasks: [{
+				id: "40C6C7FA99BD5111"
+				item: "techreborn:compressor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["1EBD7E0BCFC26C5B"]
+			id: "2DD3D9B6CF348F6B"
+			tasks: [{
+				id: "5E3B03051D3587BC"
+				item: "techreborn:wire_mill"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["0D8BA7BFA5CE2797"]
+			id: "56143A0668B653AD"
+			tasks: [{
+				id: "469B29C04A389B23"
+				item: "techreborn:rolling_machine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["56143A0668B653AD"]
+			id: "025BE83480CA7EDB"
+			shape: "hexagon"
+			tasks: [{
+				id: "6B3E3547EF252189"
+				item: "kubejs:superconducting_coil_type_1"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["7C8F21F274C74D59"]
+			id: "708E3370ABA2B6FA"
+			tasks: [{
+				id: "424AB34FBAE651D8"
+				item: "kubejs:charged_source_gem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["708E3370ABA2B6FA"]
+			description: ["制作任意一种魔源通道。"]
+			icon: "ars_nouveau:mycelial_sourcelink"
+			id: "6E5CA7225180E00C"
+			tasks: [{
+				id: "160E6A54F56FFDB9"
+				type: "checkmark"
+			}]
+			title: "魔原通道"
+			x: -6.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["6E5CA7225180E00C"]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "23446E38AB5AD7AE"
+			tasks: [
+				{
+					id: "69C4547448A5FD98"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "5007ED4ED39B1E10"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["23446E38AB5AD7AE"]
+			id: "272D39AEDF7559AD"
+			shape: "hexagon"
+			tasks: [{
+				id: "24A8E8EF1BFFC86E"
+				item: "kubejs:unify_essence"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["708E3370ABA2B6FA"]
+			id: "3FE094A962C3DA29"
+			tasks: [{
+				id: "1AB436FD9B61E7E5"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -28.0d
+		}
+		{
+			dependencies: [
+				"3FE094A962C3DA29"
+				"272D39AEDF7559AD"
+			]
+			id: "2CB032EBD22B6EA9"
+			tasks: [{
+				id: "35792E20884CB840"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["272D39AEDF7559AD"]
+			id: "41382FEE68AEB0E9"
+			tasks: [{
+				id: "73491ADFC5EE4089"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["39A3EB250644FA7A"]
+			id: "2102D65B4DDC81C4"
+			tasks: [{
+				id: "069618911BB44B83"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["2102D65B4DDC81C4"]
+			id: "68938842F1E5A045"
+			tasks: [{
+				id: "2C13C1B8ED43E823"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["2102D65B4DDC81C4"]
+			id: "75C5E528436A81C0"
+			tasks: [{
+				id: "222256D50A7BB0F1"
+				item: "draconicevolution:wyvern_energy_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["68938842F1E5A045"]
+			id: "5495267EFA498055"
+			tasks: [{
+				id: "2A61C8FD155179B3"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["2102D65B4DDC81C4"]
+			id: "576EB1D52164B5BB"
+			shape: "hexagon"
+			tasks: [{
+				id: "797B91F7A303A927"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -26.0d
+		}
+		{
+			dependencies: [
+				"5495267EFA498055"
+				"576EB1D52164B5BB"
+			]
+			id: "0293C93123EF9F68"
+			tasks: [{
+				id: "7485BBA8C115FD16"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["75C5E528436A81C0"]
+			description: ["现在你可以制作各种飞龙工具已经飞龙胸甲了，他们可以极大幅度的提高你的战斗力。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: { }
+							provider_id: [I;
+								88576146
+								523651213
+								-1300546528
+								-1804366805
+							]
+						}
+					}
+				}
+				id: "draconicevolution:wyvern_chestpiece"
+			}
+			id: "30D756219B0C2F93"
+			tasks: [{
+				id: "792AD839E468EF7A"
+				type: "checkmark"
+			}]
+			title: "飞龙工具"
+			x: 6.0d
+			y: -24.0d
 		}
 	]
 	title: "4. 火星 | The Mars"

@@ -26,14 +26,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | register | RecipeType<T>, List<T> |  | void | ✘ |
 | custom | ResourceLocation |  | CustomRecipeListBuilder | ✘ |
-| getOrCreateCustomOverriddenRecipeType | ResourceLocation, RecipeType<T> |  | RecipeType<T> | ✔ |
-| clearCustomRecipeTypes |  |  | void | ✔ |
-| getCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
-| clearOverriddenRecipeTypes |  |  | void | ✔ |
 | getOverriddenRecipeType | ResourceLocation |  | RecipeType<?> | ✔ |
-| removeOverriddenRecipeType | ResourceLocation |  | void | ✔ |
-| getOrCreateCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
+| clearCustomRecipeTypes |  |  | void | ✔ |
+| clearOverriddenRecipeTypes |  |  | void | ✔ |
 | removeCustomRecipeType | ResourceLocation |  | void | ✔ |
+| removeOverriddenRecipeType | ResourceLocation |  | void | ✔ |
+| getCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
+| getOrCreateCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
+| getOrCreateCustomOverriddenRecipeType | ResourceLocation, RecipeType<T> |  | RecipeType<T> | ✔ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

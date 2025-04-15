@@ -20,13 +20,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | of | Entity, int, int, int, int, int, int |  | EntityEnterChunkEventJS | ✔ |
+| getEntity |  |  | Entity | ✘ |
 | getPrevX |  |  | int | ✘ |
-| getPrevY |  |  | int | ✘ |
 | getPrevZ |  |  | int | ✘ |
+| getPrevY |  |  | int | ✘ |
+| getChunkX |  |  | int | ✘ |
 | getChunkY |  |  | int | ✘ |
 | getChunkZ |  |  | int | ✘ |
-| getChunkX |  |  | int | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |

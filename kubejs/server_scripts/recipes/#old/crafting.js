@@ -18,18 +18,6 @@ ServerEvents.recipes(event => {
     
     event.shapeless('palmon:stone', ['2x tfc:rock/smooth/granite', '2x tfc:rock/smooth/diorite', '2x tfc:rock/smooth/andesite', '2x tfc:rock/smooth/dacite'])
 
-    event.shaped('sophisticatedbackpacks:backpack', [
-        'ABA',
-        'BCB',
-        'ADA'
-    ],
-        {
-            A: '#forge:sheets/wrought_iron',
-            B: '#forge:leather',
-            C: '#forge:barrels/wooden',
-            D: 'minecraft:saddle'
-        })
-
     event.shaped('minecraft:furnace', [
         'AAA',
         'BCB',
@@ -119,31 +107,5 @@ ServerEvents.recipes(event => {
             A: '#forge:storage_blocks/iron',
             B: '#forge:ingots/cast_iron'
         })
-
-    event.custom({
-        "type": "sophisticatedbackpacks:backpack_upgrade",
-        "conditions": [
-            {
-                "type": "sophisticatedcore:item_enabled",
-                "itemRegistryName": "sophisticatedbackpacks:iron_backpack"
-            }
-        ],
-        "key": {
-            "B": {
-                "item": "sophisticatedbackpacks:copper_backpack"
-            },
-            "I": {
-                "item": "tfc:metal/ingot/black_steel"
-            }
-        },
-        "pattern": [
-            " I ",
-            "IBI",
-            " I "
-        ],
-        "result": {
-            "item": "sophisticatedbackpacks:iron_backpack"
-        }
-    })
 
 })

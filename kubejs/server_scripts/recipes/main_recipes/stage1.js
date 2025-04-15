@@ -148,6 +148,18 @@ ServerEvents.recipes(event => {
             D: '#minecraft:wooden_slabs'
         }).id('kubejs:barrel')
 
+    event.shaped('sophisticatedbackpacks:backpack', [
+        'ABA',
+        'BCB',
+        'ADA'
+    ],
+        {
+            A: 'tfc:metal/bars/wrought_iron',
+            B: '#forge:leather',
+            C: '#forge:barrels/wooden',
+            D: 'minecraft:saddle'
+        }).id('kubejs:backpack_s1')
+
     event.recipes.occultism.ritual(
         'occultism:infused_pickaxe',
         [
@@ -157,6 +169,32 @@ ServerEvents.recipes(event => {
         'occultism:book_of_binding_bound_djinni',
         'occultism:craft_foliot'
     ).id("kubejs:infused_pickaxe_s1")
+
+    event.custom({
+        "type": "sophisticatedbackpacks:backpack_upgrade",
+        "conditions": [
+            {
+                "type": "sophisticatedcore:item_enabled",
+                "itemRegistryName": "sophisticatedbackpacks:iron_backpack"
+            }
+        ],
+        "key": {
+            "B": {
+                "item": "sophisticatedbackpacks:copper_backpack"
+            },
+            "I": {
+                "item": "tfc:metal/ingot/black_steel"
+            }
+        },
+        "pattern": [
+            " I ",
+            "IBI",
+            " I "
+        ],
+        "result": {
+            "item": "sophisticatedbackpacks:iron_backpack"
+        }
+    }).id('kubejs:iron_backpack_s1')
 
 })
 

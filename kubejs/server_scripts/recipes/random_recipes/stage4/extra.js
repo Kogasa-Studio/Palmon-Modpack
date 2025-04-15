@@ -2,6 +2,9 @@
  * @param {Internal.RecipesEventJS} event
  */
 function e4IFS(event) {
+    event.shapeless('kubejs:voucher_4_0', ['cobblemon:relic_coin', 'kubejs:essence_computation_frame'])
+        .id('kubejs:voucher_4_0')
+
     event.shaped('industrialforegoingsouls:soul_laser_base', [
         'ADA',
         'BEB',
@@ -12,7 +15,7 @@ function e4IFS(event) {
             B: 'minecraft:iron_bars',
             C: '#forge:gears/diamond',
             D: 'minecraft:sculk_shrieker',
-            E: '#industrialforegoing:machine_frame/advanced',
+            E: '#industrialforegoing:machine_frame/simple',
             F: 'kubejs:essence_computation_frame'
         }).id('kubejs:soul_laser_base_s4')
 
@@ -22,6 +25,9 @@ function e4IFS(event) {
  * @param {Internal.RecipesEventJS} event
  */
 function e4IFU(event) {
+    event.shapeless('kubejs:voucher_4_1', ['cobblemon:relic_coin', 'kubejs:essence_computation_frame'])
+        .id('kubejs:voucher_4_1')
+
     event.shaped('industrialforegoing:enchantment_factory', [
         'PBP',
         'DMD',
@@ -30,7 +36,7 @@ function e4IFU(event) {
         P: '#forge:plastic',
         B: 'minecraft:book',
         D: 'minecraft:diamond',
-        M: '#industrialforegoing:machine_frame/advanced',
+        M: '#industrialforegoing:machine_frame/simple',
         O: 'minecraft:obsidian',
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:enchantment_factory_s4')
@@ -43,7 +49,7 @@ function e4IFU(event) {
         P: '#forge:plastic',
         S: 'minecraft:nether_bricks',
         B: 'minecraft:book',
-        M: '#industrialforegoing:machine_frame/advanced',
+        M: '#industrialforegoing:machine_frame/simple',
         D: 'minecraft:diamond',
         G: 'kubejs:essence_computation_frame'
     }).id('kubejs:enchantment_extractor_s4')
@@ -55,7 +61,7 @@ function e4IFU(event) {
     ], {
         P: '#forge:plastic',
         B: 'minecraft:anvil',
-        M: '#industrialforegoing:machine_frame/advanced',
+        M: '#industrialforegoing:machine_frame/simple',
         G: '#forge:gears/gold',
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:enchantment_applicator_s4')
@@ -68,7 +74,7 @@ function e4IFU(event) {
         p: '#forge:plastic',
         f: 'minecraft:diamond_pickaxe',
         b: '#forge:ores/iron',
-        m: '#industrialforegoing:machine_frame/advanced',
+        m: '#industrialforegoing:machine_frame/simple',
         g: '#forge:gears/diamond',
         r: 'kubejs:essence_computation_frame'
     }).id('kubejs:ore_laser_base_s4')
@@ -82,7 +88,7 @@ function e4IFU(event) {
         S: 'minecraft:brewing_stand',
         B: '#forge:gears/gold',
         F: 'kubejs:essence_computation_frame',
-        M: '#industrialforegoing:machine_frame/advanced',
+        M: '#industrialforegoing:machine_frame/simple',
         G: 'minecraft:repeater'
     }).id('kubejs:potion_brewer_s4')
 
@@ -107,7 +113,7 @@ function e4IFU(event) {
         p: '#forge:plastic',
         c: 'kubejs:essence_computation_frame',
         g: 'minecraft:diamond_pickaxe',
-        m: '#industrialforegoing:machine_frame/advanced',
+        m: '#industrialforegoing:machine_frame/simple',
         f: 'minecraft:furnace',
         a: '#forge:gears/gold',
         b: 'industrialforegoing:pink_slime'
@@ -118,6 +124,9 @@ function e4IFU(event) {
  * @param {Internal.RecipesEventJS} event
  */
 function e4TIB(event) {
+    event.shapeless('kubejs:voucher_4_2', ['cobblemon:relic_coin', 'kubejs:essence_computation_frame'])
+        .id('kubejs:voucher_4_2')
+
     event.shaped('tiab:time_in_a_bottle', [
         'GFG',
         'DCD',
@@ -136,6 +145,9 @@ function e4TIB(event) {
  * @param {Internal.RecipesEventJS} event
  */
 function e4EFF(event) {
+    event.shapeless('kubejs:voucher_4_3', ['cobblemon:relic_coin', 'kubejs:essence_computation_frame'])
+        .id('kubejs:voucher_4_3')
+
     event.recipes.thermal.smelter(['2x kubejs:alpha_framework', 'kubejs:essence_computation_frame'],
         ['kubejs:essence_computation_frame', '2x #forge:gears/dawnstone', '#forge:gears/steel']
     ).energy(12800)
@@ -154,38 +166,38 @@ function e4EFF(event) {
     event.custom({
         "type": "botania:petal_apothecary",
         "ingredients": [
-          {
-            "tag": "botania:petals/red"
-          },
-          {
-            "tag": "botania:petals/red"
-          },
-          {
-            "tag": "botania:petals/gray"
-          },
-          {
-            "tag": "botania:petals/gray"
-          },
-          {
-            "tag": "botania:petals/white"
-          },
-          {
-            "tag": "botania:petals/white"
-          },
-          {
-            "item": "botania:rune_wrath"
-          },
-          {
-            "item": "botania:rune_fire"
-          }
+            {
+                "tag": "botania:petals/red"
+            },
+            {
+                "tag": "botania:petals/red"
+            },
+            {
+                "tag": "botania:petals/gray"
+            },
+            {
+                "tag": "botania:petals/gray"
+            },
+            {
+                "tag": "botania:petals/white"
+            },
+            {
+                "tag": "botania:petals/white"
+            },
+            {
+                "item": "botania:rune_wrath"
+            },
+            {
+                "item": "botania:rune_fire"
+            }
         ],
         "output": {
-          "item": "botania:entropinnyum"
+            "item": "botania:entropinnyum"
         },
         "reagent": {
-          "item": 'kubejs:essence_computation_frame'
+            "item": 'kubejs:essence_computation_frame'
         }
-      }).id('kubejs:entropinnyum_s4')
+    }).id('kubejs:entropinnyum_s4')
 }
 
 
@@ -193,6 +205,9 @@ function e4EFF(event) {
  * @param {Internal.RecipesEventJS} event
  */
 function e4PLM(event) {
+    event.shapeless('kubejs:voucher_4_4', ['cobblemon:relic_coin', 'kubejs:essence_computation_frame'])
+        .id('kubejs:voucher_4_4')
+
     s4PLMRec([{ "tag": 'forge:ingots/lumium', "count": 1 }, { "tag": 'forge:ingots/signalum', "count": 1 }, { "tag": 'forge:ingots/enderium', "count": 1 }], 'kubejs:present_alloy', 2, 1000, 'ATTACK', 40, 40)
     s4PLMRec([{ "item": 'kubejs:present_alloy', "count": 1 }, { "item": 'ad_astra:desh_ingot', "count": 1 }], 'kubejs:stable_desh_ingot', 2, 1000, 'DEFENCE', 45, 50)
     s4PLMRec([{ "item": 'ae2:cell_component_1k', "count": 2 }, { "item": 'jaopca:processors.elementium', "count": 1 }, { "item": 'kubejs:gamma_framework', "count": 1 }], 'kubejs:essence_computation_frame', 2, 600, 'SPECIAL_ATTACK', 35, 25)
@@ -247,6 +262,8 @@ function e4PLM(event) {
  * @param {Internal.RecipesEventJS} event
  */
 function e4AE(event) {
+    event.shapeless('kubejs:voucher_4_5', ['cobblemon:relic_coin', 'kubejs:essence_computation_frame'])
+        .id('kubejs:voucher_4_5')
 
 }
 

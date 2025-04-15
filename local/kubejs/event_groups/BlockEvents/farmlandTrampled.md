@@ -25,8 +25,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getDistance |  |  | float | ✘ |
 | getEntity |  |  | Entity | ✘ |
+| getDistance |  |  | float | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -49,14 +49,14 @@ The level that the farmland and the entity are in.
 The farmland block.
 ```
 
-- `float getDistance()`
-```
-The distance of the entity from the block.
-```
-
 - `Entity getEntity()`
 ```
 The entity that is attempting to trample the farmland.
+```
+
+- `float getDistance()`
+```
+The distance of the entity from the block.
 ```
 
 - `Object exit(Object var0)`

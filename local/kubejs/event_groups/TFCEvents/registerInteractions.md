@@ -24,10 +24,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | registerCustomPlacements |  |  | void | ✔ |
-| addBlockItemPlacement | Supplier<Item>, Supplier<Block> |  | void | ✔ |
 | interaction | Ingredient, OnItemUseAction |  | void | ✘ |
 | interaction | Ingredient, boolean, OnItemUseAction |  | void | ✘ |
 | interaction | Ingredient, boolean, boolean, OnItemUseAction |  | void | ✘ |
+| addBlockItemPlacement | Supplier<Item>, Supplier<Block> |  | void | ✔ |
 | blockItemPlacement | Item, Block |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

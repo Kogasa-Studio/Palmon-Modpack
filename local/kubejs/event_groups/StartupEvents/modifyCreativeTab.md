@@ -22,16 +22,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | remove | Ingredient |  | void | ✘ |
-| add | ItemStack[] |  | void | ✘ |
 | add | ItemStack[], CreativeModeTab$TabVisibility |  | void | ✘ |
+| add | ItemStack[] |  | void | ✘ |
+| setDisplayName | Component |  | void | ✘ |
 | setIcon | ItemStack |  | void | ✘ |
-| removeSearch | Ingredient |  | void | ✘ |
-| removeDisplay | Ingredient |  | void | ✘ |
 | addAfter | ItemStack, ItemStack[] |  | void | ✘ |
 | addAfter | ItemStack, ItemStack[], CreativeModeTab$TabVisibility |  | void | ✘ |
 | addBefore | ItemStack, ItemStack[], CreativeModeTab$TabVisibility |  | void | ✘ |
 | addBefore | ItemStack, ItemStack[] |  | void | ✘ |
-| setDisplayName | Component |  | void | ✘ |
+| removeSearch | Ingredient |  | void | ✘ |
+| removeDisplay | Ingredient |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

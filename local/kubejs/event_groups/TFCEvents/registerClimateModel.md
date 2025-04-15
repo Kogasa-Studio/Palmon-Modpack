@@ -24,14 +24,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | register | ResourceLocation, Consumer<Builder> |  | void | ✘ |
-| getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
-| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
 | registerClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
-| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
 | getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
 | getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
 | getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
+| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
 | getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
+| getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
 | newVec2 | float, float |  | Vec2 | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -53,27 +53,7 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Creates a new climate model with the given name and properties
 ```
 
-- `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
-```
-Deprecated
-```
-
-- `TemperatureCallback getDefaultCurrentTemperatureCallback()`
-```
-Deprecated
-```
-
 - `void registerClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
-
-  Parameters:
-  - var0: ResourceLocation
-  - var1: Consumer<Builder>
-
-```
-Deprecated, use `.register`
-```
-
-- `void registerAdvancedClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
 
   Parameters:
   - var0: ResourceLocation
@@ -98,7 +78,27 @@ Deprecated
 Deprecated
 ```
 
+- `void registerAdvancedClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
+
+  Parameters:
+  - var0: ResourceLocation
+  - var1: Consumer<Builder>
+
+```
+Deprecated, use `.register`
+```
+
 - `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
+```
+Deprecated
+```
+
+- `TemperatureCallback getDefaultCurrentTemperatureCallback()`
+```
+Deprecated
+```
+
+- `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
 ```
 Deprecated
 ```

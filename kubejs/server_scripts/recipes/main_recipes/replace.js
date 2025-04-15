@@ -2,6 +2,20 @@ ServerEvents.recipes(event => {
     event.replaceInput([
         { type: "minecraft:crafting_shaped" }, { type: "minecraft:crafting_shapeless" }
     ],
+        'draconicevolution:draconium_ingot',
+        'kubejs:intelligent_draconium_ingot'
+    )
+
+    event.replaceInput([
+        { type: "minecraft:crafting_shaped" }, { type: "minecraft:crafting_shapeless" }
+    ],
+        'ars_nouveau:source_gem',
+        'kubejs:charged_source_gem'
+    )
+
+    event.replaceInput([
+        { type: "minecraft:crafting_shaped" }, { type: "minecraft:crafting_shapeless" }
+    ],
         'techreborn:basic_machine_frame',
         'kubejs:basic_machine_frame'
     )
@@ -25,6 +39,13 @@ ServerEvents.recipes(event => {
     ],
         'ad_astra:desh_plate',
         'kubejs:stable_desh_ingot'
+    )
+
+    event.replaceInput([
+        { id: 'draconicevolution:machines/basic_crafting_injector' }
+    ],
+        'draconicevolution:draconium_core',
+        'draconicevolution:wyvern_energy_core'
     )
 
     event.replaceInput([
@@ -103,13 +124,6 @@ ServerEvents.recipes(event => {
     ],
         'minecraft:iron_ingot',
         'ad_astra:desh_ingot'
-    )
-
-    event.replaceInput([
-        { output: 'industrialforegoing:machine_frame_pity' }
-    ],
-        '#minecraft:logs',
-        'create:brass_casing'
     )
 
     event.replaceInput([

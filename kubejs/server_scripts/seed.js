@@ -106,7 +106,10 @@ ServerEvents.recipes((event) => {
 
     // stage 4
     // main
-
+    s4Occ(event)
+    s4TR(event)
+    s4ARS(event)
+    s4DE(event)
 
     // extra
     e4IFS(event)

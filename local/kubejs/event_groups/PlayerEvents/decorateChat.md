@@ -27,15 +27,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getMessage |  |  | String | ✘ |
-| getComponent |  |  | Component | ✘ |
 | setMessage | Component |  | void | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
+| getEntity |  |  | Player | ✘ |
+| getComponent |  |  | Component | ✘ |
 | getUsername |  |  | String | ✘ |
 | setComponent | Component |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -53,11 +53,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Gets the message that the player sent.
 ```
 
-- `Component getComponent()`
-```
-Gets the message that the player sent.
-```
-
 - `void setMessage(Component var0)`
 
   Parameters:
@@ -67,9 +62,14 @@ Gets the message that the player sent.
 Sets the message that the player sent.
 ```
 
-- `LivingEntity getEntity()`
+- `Player getEntity()`
 ```
 Gets the player that sent the message.
+```
+
+- `Component getComponent()`
+```
+Gets the message that the player sent.
 ```
 
 - `String getUsername()`
@@ -95,15 +95,6 @@ Sets the message that the player sent.
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -111,6 +102,15 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `Object exit(Object var0)`

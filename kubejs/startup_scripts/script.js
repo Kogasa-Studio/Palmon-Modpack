@@ -29,6 +29,16 @@ StartupEvents.registry('item', event => {
 	event.create('advanced_machine_frame').displayName('[Advanced Machine Frame]').fireResistant().rarity('rare')
 	event.create('industrial_machine_frame').displayName('[Industrial Machine Frame]').fireResistant().rarity('epic')
 
+	event.create('marid_binded_gem').displayName('Marid Binded Gem').fireResistant().rarity('epic')
+	event.create('superconducting_coil_type_1').displayName('Superconducting Coil Type I').fireResistant()
+	event.create('superconducting_coil_type_2').displayName('Superconducting Coil Type II').fireResistant().rarity('rare')
+	event.create('superconducting_coil_type_3').displayName('Superconducting Coil Type III').fireResistant().rarity('epic')
+
+	event.create('charged_source_gem').displayName('Charged Source Gem').fireResistant()
+	event.create('unify_essence').displayName('Unify Essence').fireResistant().rarity('rare')
+
+	event.create('intelligent_draconium_ingot').displayName('Intelligent Draconium Ingot').fireResistant().rarity('epic')
+
 	event.create('alpha_dust').displayName('§aAlpha Dust').fireResistant()
 	event.create('beta_dust').displayName('§bBeta Dust').fireResistant().rarity('rare')
 	event.create('gamma_dust').displayName('§cGamma Dust').fireResistant().rarity('rare')
