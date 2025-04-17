@@ -146,8 +146,8 @@
 				item: "thermal:machine_pulverizer"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["50EDE394710966B7"]
@@ -240,7 +240,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -750,7 +750,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
@@ -761,7 +761,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
@@ -772,7 +772,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
@@ -783,7 +783,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
@@ -794,7 +794,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
@@ -805,7 +805,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
@@ -816,7 +816,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6E6C596EACD8BE9F"]
@@ -853,7 +853,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["45C1F200915A7F67"]
@@ -870,7 +870,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
@@ -1581,12 +1581,14 @@
 				"40C8702A22BC4753"
 				"420411972F85DD79"
 			]
+			dependency_requirement: "one_completed"
 			id: "1015271507258F9F"
 			invisible: true
 			tasks: [{
 				id: "6E3BDDBB2485A98E"
 				type: "checkmark"
 			}]
+			title: "收束点 3.1"
 			x: -28.0d
 			y: 0.0d
 		}
@@ -2060,6 +2062,63 @@
 			}]
 			x: -2.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["6D2837A2695037CE"]
+			description: ["这是一片深海，仅此而已。"]
+			icon: "minecraft:heart_of_the_sea"
+			id: "461789D34954EE6C"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "oceanworld:deepsea"
+				id: "0972C6C2E0012589"
+				type: "dimension"
+			}]
+			title: "深海星"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36D2E1C2BF0663D7"]
+			description: ["十分推荐在抵达地球后，立即制作一套虫洞传送门，它可以让你在不同的维度和地点间快速旅行。"]
+			id: "0732F352E05418DE"
+			rewards: [
+				{
+					id: "76332E5ACDE8D1DC"
+					item: {
+						Count: 1
+						id: "wormhole:advanced_target_device"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7B078BA6384589D5"
+					item: "wormhole:basic_target_cell"
+					type: "item"
+				}
+			]
+			subtitle: "空间折越"
+			tasks: [
+				{
+					id: "44FB382E7202D0FF"
+					item: {
+						Count: 1
+						id: "wormhole:portal_stabilizer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "03798B63A0A3EBCB"
+					item: { Count: 5, id: "wormhole:portal_frame" }
+					type: "item"
+				}
+			]
+			title: "虫洞"
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "3. 归乡 | Hometown"

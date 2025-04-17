@@ -74,6 +74,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'rftoolsbuilder:builder' })
 
     event.remove({ id: 'compactmachines:wall' })
+    event.remove({ id: 'oceanworld:sea_key' })
 
     event.remove({ id: 'botania:fertilizer_dye' })
     event.remove({ id: 'botania:apothecary_default' })
@@ -98,6 +99,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'jaopcaextras:inscriber.processor.fluix' })
 
     event.remove({ id: 'industrialforegoing:machine_frame_pity' })
+    event.remove({ id: 'ad_astra:cryo_freezer' })
+    event.remove({ id: 'jaopcaextras:inscriber.circuit.calorite' })
 
     event.remove({ id: 'cobblefordays:tier_1' })
     event.remove({ id: 'cobblefordays:tier_2' })
@@ -124,6 +127,12 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'draconicevolution:components/draconium_core' })
     event.remove({ id: 'draconicevolution:components/wyvern_energy_core' })
     event.remove({ id: 'draconicevolution:compress/draconium_block' })
+    event.remove({ id: 'botania:elven_trade/elementium' })
+    event.remove({ id: 'industrialforegoing:mob_slaughter_factory' })
+    event.remove({ id: 'industrialforegoing:fluid_laser_base' })
+    event.remove({ id: 'industrialforegoing:dissolution_chamber/supreme_machine_frame' })
+    event.remove({ id: 'occultism:crafting/chalk_red_impure' })
+    event.remove({ id: 'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench' })
 
     event.remove({ id: 'thermal:machine_frame' })
     event.remove({ id: 'dimdungeons:recipe_block_gilded_portal' })
@@ -142,6 +151,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'forestry:squeezer' })
     event.remove({ id: 'forestry:carpenter/hardened_casing' })
     event.remove({ id: 'forestry:fabricator/electron_tubes/flexible_casing' })
+    event.remove({ id: 'jaopcaextras:inscriber.processor.calorite' })
 
     event.remove({ id: 'industrialforegoing:enchantment_factory' })
     event.remove({ id: 'industrialforegoing:enchantment_extractor' })

@@ -1127,6 +1127,286 @@
 			x: 6.0d
 			y: -24.0d
 		}
+		{
+			dependencies: ["368B50D9FA24ABBA"]
+			id: "77CAB443DAA16D91"
+			subtitle: "高端设备的基础"
+			tasks: [{
+				id: "5C2728610F2830AC"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["368B50D9FA24ABBA"]
+			id: "30E1AE4064E031BF"
+			subtitle: "美味"
+			tasks: [{
+				id: "26FA22F6BF0187AD"
+				item: "industrialforegoing:meat_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["77CAB443DAA16D91"]
+			id: "35C5165D1399518A"
+			tasks: [{
+				id: "62F675DFB04B5AF7"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["35C5165D1399518A"]
+			id: "11ADECF54001AF5D"
+			tasks: [{
+				id: "2197C77BA07E1DD5"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["35C5165D1399518A"]
+			id: "2CAA2800E4CFE0C9"
+			tasks: [{
+				id: "23F0CE186460A64C"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -22.0d
+		}
+		{
+			dependencies: [
+				"35C5165D1399518A"
+				"30E1AE4064E031BF"
+			]
+			id: "2D5455040F27822D"
+			tasks: [{
+				id: "6422890D7AEAA607"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["2D5455040F27822D"]
+			id: "096CB7CA58F6C184"
+			tasks: [{
+				id: "49486F9955BE4606"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["096CB7CA58F6C184"]
+			description: [
+				"将发酵矿石肉汤（紫金），发酵矿石肉汤（戴斯）以及干橡胶混合搅拌......"
+				""
+				"注意：部分运输方式可能会导致发酵矿石肉汤变质（损坏）"
+			]
+			id: "25CC1D51EDB864EA"
+			tasks: [{
+				id: "4B39653BBE27EB9F"
+				item: "kubejs:melted_voidarium_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["25CC1D51EDB864EA"]
+			id: "5BA8467626995AAA"
+			tasks: [{
+				id: "6AD11054FD7AFBE2"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["25CC1D51EDB864EA"]
+			id: "2F00F7AD9AABDC22"
+			shape: "hexagon"
+			tasks: [{
+				id: "35DF3986E27613F6"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["76551EEFA4598D87"]
+			description: ["注意，3阶星球的表面十分炎热，你需要下界合金航天服或者抗火效果才能生存。"]
+			id: "7ED98C0E69819A65"
+			tasks: [{
+				id: "3179F36B13FC0702"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["7ED98C0E69819A65"]
+			icon: "ad_astra:mercury_globe"
+			id: "38E0E60050DF0A80"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "7BAC62499F1FC517"
+				type: "dimension"
+			}]
+			title: "登录水星"
+			x: 6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7ED98C0E69819A65"]
+			icon: "ad_astra:venus_globe"
+			id: "0CD1902E35CB6BF0"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "14AA224725BACAEF"
+				type: "dimension"
+			}]
+			title: "登陆金星"
+			x: 6.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0CD1902E35CB6BF0"]
+			id: "1D3DA410BBD846A2"
+			tasks: [{
+				id: "1E51B949C6473439"
+				item: "ad_astra:raw_calorite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["38E0E60050DF0A80"]
+			icon: "cataclysm:flame_eye"
+			id: "121A564BB0FDC457"
+			tasks: [{
+				id: "4E79D766BA22597C"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			title: "烈焰竞技场"
+			x: 8.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["121A564BB0FDC457"]
+			id: "416E18C9D2CF0876"
+			tasks: [{
+				id: "3F52A8252EB7D1A0"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"1D3DA410BBD846A2"
+				"10F01BAFBFBACE40"
+			]
+			id: "49AB5A8A0BC9D05C"
+			tasks: [{
+				id: "3B3A42D368DB6867"
+				item: "jaopca:circuits.calorite"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["76551EEFA4598D87"]
+			id: "4331E30566C78B4D"
+			tasks: [{
+				id: "0CF9814747035650"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4331E30566C78B4D"]
+			id: "10F01BAFBFBACE40"
+			subtitle: "更廉价的燃料"
+			tasks: [{
+				id: "7016065F1CE21AF2"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["49AB5A8A0BC9D05C"]
+			id: "25983A0DE23BE666"
+			shape: "hexagon"
+			tasks: [{
+				id: "29192ED12193480E"
+				item: "jaopca:processors.calorite"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"412E62E4E10E60B0"
+				"2F00F7AD9AABDC22"
+				"576EB1D52164B5BB"
+				"25983A0DE23BE666"
+				"272D39AEDF7559AD"
+				"025BE83480CA7EDB"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "5DAD718093971689"
+			tasks: [{
+				id: "0177E6FE940096D5"
+				type: "checkmark"
+			}]
+			title: "收束点 4.1"
+			x: 0.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["5DAD718093971689"]
+			id: "5DA47C9FB0351EA7"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4A76D5546063C0AA"
+				item: "kubejs:delta_framework"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -28.0d
+		}
 	]
 	title: "4. 火星 | The Mars"
 }

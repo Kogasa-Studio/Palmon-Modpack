@@ -47,6 +47,17 @@ ServerEvents.recipes(event => {
             C: '#forge:plates/ostrum'
         }).id('kubejs:cm_wall_s4')
 
+    event.shaped('botania:alfheim_portal', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ],
+        {
+            A: '#botania:livingwood_logs',
+            B: '#forge:plates/ostrum',
+            C: 'ad_astra:ostrum_engine'
+        }).id('kubejs:alfheim_portal_s4')
+
     event.recipes.thermal.smelter('2x kubejs:essence_computation_frame',
         ['ae2:cell_component_4k', 'kubejs:gamma_framework', 'jaopca:processors.elementium']
     ).energy(38400)
@@ -65,5 +76,9 @@ ServerEvents.recipes(event => {
         'kubejs:unify_essence',
         8000
     ).id('kubejs:unify_essence_s4')
+
+    event.recipes.botania.elven_trade('botania:elementium_ingot',
+        ['#forge:ingots/manasteel', '#forge:ingots/manasteel', '#forge:ingots/ostrum'])
+        .id('kubejs:elementium_s4')
 
 })

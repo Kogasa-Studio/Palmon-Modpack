@@ -5,7 +5,7 @@
 	#Whether to print animation roulette play message
 	PrintAnimationRouletteMsg = false
 	#Prevents rendering of self player's model
-	DisableSelfModel = true
+	DisableSelfModel = false
 	#Prevents rendering of other player's model
 	DisableOtherModel = false
 	#Prevents rendering of self player's hand
@@ -20,7 +20,7 @@
 	UseCompatibilityRenderer = false
 	#The amount of volume when the animation is played.
 	#Range: 0.0 ~ 100.0
-	SoundVolume = 80.0
+	SoundVolume = 50.0
 
 [extra_player_render]
 	#Whether to display player

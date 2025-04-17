@@ -42,4 +42,13 @@
 	trapezohedron_max_refine = 2147483647
 	#Example: 'minecraft:sharpness', That will prevent the enchantment from dropping the corresponding proudsoul tiny.
 	non-droppable_enchantments = []
+	#Determines whether to enable slashblade's self-repair.
+	#If enable, bewitched slashblade will try repair itself, cost hunger & exp.
+	self_repair = true
+	#Determines whether slashblade's self-repair cost experiences.
+	#If enable, self repair will cost player's experiences.
+	self_repair_cost_exp = true
+	#Determining the base exp cost for slashblade's self-repair.
+	#Range: > 1
+	bewitched_exp_cost = 1
 

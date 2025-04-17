@@ -110,6 +110,8 @@ ServerEvents.recipes((event) => {
     s4TR(event)
     s4ARS(event)
     s4DE(event)
+    s4IFM(event)
+    s4AA(event)
 
     // extra
     e4IFS(event)

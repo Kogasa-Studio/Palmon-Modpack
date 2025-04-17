@@ -6,6 +6,34 @@
 	group: "103C794559B2F3C7"
 	icon: "minecraft:netherrack"
 	id: "057A6106E774415D"
+	images: [
+		{
+			height: 2.0d
+			image: "forestry:textures/forestry/atlas/gui/habitats/nether.png"
+			rotation: -15.0d
+			width: 2.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependency: "78FD8C816053AA2C"
+			height: 1.0d
+			image: "gendustry:item/nether_upgrade"
+			rotation: 30.0d
+			width: 1.0d
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependency: "29B03FFFF33A4EF9"
+			height: 2.0d
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.5d
+			y: 2.5d
+		}
+	]
 	order_index: 1
 	quest_links: [
 		{

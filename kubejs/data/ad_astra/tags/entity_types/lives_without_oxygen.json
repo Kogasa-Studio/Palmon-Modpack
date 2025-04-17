@@ -4,6 +4,7 @@
     [
         "dummmmmmy:target_dummy",
         "#cataclysm:pyramid",
-        "#cataclysm:ancient"
+        "#cataclysm:ancient",
+        "#cataclysm:arena"
     ]
 }

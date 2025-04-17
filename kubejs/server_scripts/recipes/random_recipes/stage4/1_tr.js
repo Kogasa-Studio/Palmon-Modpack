@@ -6,12 +6,13 @@ function s4TR(event) {
     event.shaped('kubejs:basic_machine_frame', [
         'ABA',
         'ACA',
-        'AAA'
+        'ADA'
     ],
         {
             A: 'techreborn:insulated_copper_cable',
             B: 'kubejs:essence_computation_frame',
-            C: 'techreborn:basic_machine_frame'
+            C: 'techreborn:basic_machine_frame',
+            D: 'industrialforegoing:machine_frame_simple'
         }).id('kubejs:basic_machine_frame_s4')
 
     event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_1',

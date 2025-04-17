@@ -1,9 +1,9 @@
 {
     "block.ad_astra.ostrum_block": "紫金块",
-
-    "planet.kubejs.overworld": "现世地球",
-    "planet.ad_astra.present_earth_orbit": "现世地球轨道",
-
+    "planet.kubejs.overworld": "地球",
+    "planet.ad_astra.present_earth_orbit": "地球轨道",
     "planet.minecraft.overworld": "§a群峦星",
-    "planet.ad_astra.earth_orbit": "§a群峦星轨道"
+    "planet.ad_astra.earth_orbit": "§a群峦星轨道",
+    "planet.oceanworld.deepsea": "§1深海",
+    "planet.oceanworld.deepsea_orbit": "§1深海轨道"
 }

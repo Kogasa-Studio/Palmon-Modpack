@@ -6,14 +6,35 @@
 	group: "103C794559B2F3C7"
 	icon: "minecraft:clay_ball"
 	id: "1B9731C3AC5FB9C7"
-	images: [{
-		height: 2.0d
-		image: "cobblemon:item/advancements/cobblemon_logo"
-		rotation: 0.0d
-		width: 2.0d
-		x: 2.0d
-		y: 16.0d
-	}]
+	images: [
+		{
+			dependency: "7A23822AE720815B"
+			height: 2.0d
+			image: "cobblemon:item/advancements/cobblemon_logo"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependency: "5A4B37A6C7A1C953"
+			height: 2.0d
+			image: "minecraft:item/lava_bucket"
+			rotation: 15.0d
+			width: 2.0d
+			x: 6.5d
+			y: 29.0d
+		}
+		{
+			dependency: "73BA44112A812A9A"
+			height: 2.0d
+			image: "tfc:item/metal/pickaxe/blue_steel"
+			rotation: 120.0d
+			width: 2.0d
+			x: -3.5d
+			y: 7.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

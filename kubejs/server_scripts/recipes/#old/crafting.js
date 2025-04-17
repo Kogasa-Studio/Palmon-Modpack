@@ -53,17 +53,6 @@ ServerEvents.recipes(event => {
             F: 'tfc:hematitic_glass_bottle'
         })
 
-    event.shaped('botania:alfheim_portal', [
-        'ABA',
-        'BCB',
-        'ABA'
-    ],
-        {
-            A: '#botania:livingwood_logs',
-            B: '#forge:plates/ostrum',
-            C: 'kubejs:reinforced_sheet'
-        })
-
     event.shaped('palmon:boost_frame_5', [
         'ABA',
         'ACA',
