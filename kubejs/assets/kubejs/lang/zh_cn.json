@@ -126,6 +126,8 @@
     "ui.kubejs.relic_coin": "来自古代的硬币，可以用于合成不同的补给卷",
     "ui.kubejs.voucher": "来自世界泡的间隙中的碎片，可以在不同阶段的任务中具现为不同的物资",
 
+    "ui.kubejs.banned_dim": "你需要到达第五章，才能踏足此地",
+
     "ui.kubejs.overowrld_item": "因为你失去了现世祝福，该物品将无法被捡起",
     
     "ui.kubejs.lumium_coin": "使用该物品，可以将你的异界遗物栏位数量设置为3",

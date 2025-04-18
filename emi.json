@@ -1,260 +1,55 @@
 {
-  "favorites": [
-    {
-      "stack": "item:forestry:bucket_seed_oil"
-    },
-    {
-      "stack": "item:kubejs:spirit_coil"
-    },
-    {
-      "stack": "item:kubejs:gamma_framework",
-      "recipe": "kubejs:gamma_framework_s3_0"
-    },
-    {
-      "stack": "item:ad_astra:tier_2_rocket"
-    },
-    {
-      "stack": "item:ad_astra:desh_engine"
-    },
-    {
-      "stack": "item:ad_astra:desh_tank"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "ad_astra:desh_plate",
-        "amount": 9
-      },
-      "recipe": "jei:/ad_astra/compressing/desh_plate_from_compressing_desh_blocks"
-    },
-    {
-      "stack": "item:kubejs:spirit_coil",
-      "recipe": "kubejs:sp_spirit_coil_s3"
-    },
-    {
-      "stack": "item:ad_astra:steel_tank"
-    },
-    {
-      "stack": "item:botania:terra_plate",
-      "recipe": "botania:terra_plate"
-    },
-    {
-      "stack": "item:minecraft:lapis_block"
-    },
-    {
-      "stack": "item:botania:manasteel_block"
-    },
-    {
-      "stack": "item:botania:gaia_pylon",
-      "recipe": "mythicbotany:gaia_pylon"
-    },
-    {
-      "stack": "item:mythicbotany:alfsteel_pylon",
-      "recipe": "mythicbotany:alfsteel_pylon"
-    },
-    {
-      "stack": "item:mythicbotany:mana_infuser"
-    },
-    {
-      "stack": "item:occultism:chalk_purple_impure",
-      "recipe": "occultism:crafting/chalk_purple_impure"
-    },
-    {
-      "stack": "item:occultism:crushed_end_stone"
-    },
-    {
-      "stack": "item:occultism:spirit_attuned_pickaxe_head"
-    },
-    {
-      "stack": "item:occultism:book_of_binding_bound_djinni",
-      "recipe": "occultism:occultism.bound_book_of_bindingitem.occultism.book_of_binding_djinni"
-    },
-    {
-      "stack": "item:kubejs:beta_framework",
-      "recipe": "kubejs:beta_framework_1_s2"
-    },
-    {
-      "stack": "item:kubejs:alpha_framework",
-      "recipe": "kubejs:sp_alpha_s2"
-    },
-    {
-      "stack": "item:kubejs:gamma_framework"
-    },
-    {
-      "stack": "item:botania:rune_wrath"
-    },
-    {
-      "stack": "item:botania:rune_fire"
-    },
-    {
-      "stack": "item:ticex:koshirae_core"
-    },
-    {
-      "stack": "item:ad_astra:photovoltaic_etrium_cell",
-      "recipe": "ad_astra:photovoltaic_etrium_cell"
-    },
-    {
-      "stack": "item:occultism:storage_stabilizer_tier4",
-      "recipe": "ars_ocultas:craft_stabilizer_tier4"
-    },
-    {
-      "stack": "item:occultism:miner_marid_master{Damage:0,maxMiningTime:100,rollsPerOperation:1,spiritName:\"Hyrmylarc\"}",
-      "recipe": "occultism:ritual/craft_miner_marid_master"
-    },
-    {
-      "stack": "item:occultism:iesnium_block"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "minecraft:end_rod",
-        "amount": 4
-      },
-      "recipe": "minecraft:end_rod"
-    },
-    {
-      "stack": "item:minecraft:iron_ingot"
-    },
-    {
-      "stack": "item:ars_nouveau:archwood_planks"
-    },
-    {
-      "stack": "item:ars_nouveau:source_gem",
-      "recipe": "jei:/ars_nouveau/imbuement_lapis"
-    },
-    {
-      "stack": "item:ars_nouveau:agronomic_sourcelink",
-      "recipe": "ars_nouveau:agronomic_sourcelink"
-    },
-    {
-      "stack": "item:ars_nouveau:volcanic_sourcelink",
-      "recipe": "ars_nouveau:volcanic_sourcelink"
-    },
-    {
-      "stack": "item:ars_elemental:advanced_prism",
-      "recipe": "ars_elemental:advanced_prism"
-    },
-    {
-      "stack": "item:ars_nouveau:arcane_core",
-      "recipe": "ars_nouveau:arcane_core"
-    },
-    {
-      "stack": "item:ars_elemental:water_focus",
-      "recipe": "jei:/ars_elemental/water_focus"
-    },
-    {
-      "stack": "item:ars_elemental:fire_focus",
-      "recipe": "jei:/ars_elemental/fire_focus"
-    },
-    {
-      "stack": "item:ars_nouveau:jar_of_light",
-      "recipe": "jei:/ars_nouveau/jar_of_light"
-    },
-    {
-      "stack": "item:ars_elemental:necrotic_focus",
-      "recipe": "jei:/ars_elemental/necrotic_focus"
-    },
-    {
-      "stack": "item:ars_elemental:air_focus",
-      "recipe": "jei:/ars_elemental/air_focus"
-    },
-    {
-      "stack": "item:ars_elemental:earth_focus",
-      "recipe": "jei:/ars_elemental/earth_focus"
-    },
-    {
-      "stack": "item:kubejs:unify_essence",
-      "recipe": "jei:/kubejs/unify_essence_s4"
-    },
-    {
-      "stack": "item:ars_nouveau:apprentice_spell_book"
-    },
-    {
-      "stack": "item:draconicevolution:wyvern_energy_core"
-    },
-    {
-      "stack": "item:botania:mana_fluxfield",
-      "recipe": "botania:mana_fluxfield"
-    },
-    {
-      "stack": "item:minecraft:beacon",
-      "recipe": "minecraft:beacon"
-    },
-    {
-      "stack": "item:draconicevolution:draconium_core"
-    },
-    {
-      "stack": {
-        "type": "fluid",
-        "id": "industrialforegoing:meat",
-        "amount": 1000
-      }
-    },
-    {
-      "stack": {
-        "type": "fluid",
-        "id": "industrialforegoing:pink_slime",
-        "amount": 1000
-      }
-    },
-    {
-      "stack": "item:industrialforegoing:meat_bucket"
-    },
-    {
-      "stack": "item:industrialforegoing:pink_slime_bucket"
-    },
-    {
-      "stack": {
-        "type": "fluid",
-        "id": "industrialforegoing:raw_ore_meat",
-        "nbt": "{Tag:\"forge:raw_materials/desh\"}",
-        "amount": 100
-      }
-    },
-    {
-      "stack": "item:industrialforegoing:fermentation_station",
-      "recipe": "industrialforegoing:fermentation_station"
-    },
-    {
-      "stack": "item:minecraft:glistering_melon_slice"
-    },
-    {
-      "stack": "item:industrialforegoing:laser_drill",
-      "recipe": "industrialforegoing:laser_drill"
-    },
-    {
-      "stack": "item:industrialforegoing:plastic"
-    },
-    {
-      "stack": "item:minecraft:piston"
-    },
-    {
-      "stack": "item:kubejs:reinforced_sheet"
-    },
-    {
-      "stack": "item:ad_astra:ostrum_plate",
-      "recipe": "jei:/jaopca/immersiveengineering.material_to_plate.ostrum"
-    },
-    {
-      "stack": "item:ad_astra:tier_3_rocket"
-    },
-    {
-      "stack": "item:jaopca:circuits.calorite"
-    },
-    {
-      "stack": "item:ad_astra:cryo_freezer"
-    },
-    {
-      "stack": "item:ad_astra:ostrum_plate"
-    },
-    {
-      "stack": "item:minecraft:blue_ice"
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "item:kubejs:scranton_reality_anchor",
+    "item:kubejs:delta_framework",
+    "item:kubejs:gamma_framework",
+    {
+      "type": "item",
+      "id": "mythicbotany:alfsteel_ingot",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "draconicevolution:draconium_ingot",
+      "amount": 9
+    },
+    {
+      "type": "item",
+      "id": "draconicevolution:draconium_block",
+      "amount": 32
+    },
+    "item:cataclysm:ancient_metal_ingot",
+    "item:minecraft:prismarine_shard",
+    "item:minecraft:prismarine_crystals",
+    "item:celestial_core:ocean_ingot",
+    {
+      "type": "item",
+      "id": "kubejs:stable_desh_ingot",
+      "amount": 64
+    },
+    "item:ad_astra:desh_ingot",
+    "item:kubejs:present_alloy",
+    "item:create:mechanical_crafter",
+    {
+      "type": "item",
+      "id": "techreborn:electronic_circuit",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "kubejs:superconducting_coil_type_1",
+      "amount": 64
+    },
+    "item:kubejs:beta_framework",
+    "item:kubejs:alpha_framework",
+    "item:draconicevolution:wyvern_core",
+    "item:draconicevolution:wyvern_energy_core",
+    "item:minecraft:jungle_stairs",
+    "item:minecraft:dark_oak_stairs",
+    "item:jaopca:processors.calorite",
     "item:kubejs:beta_dust",
     "item:kubejs:alpha_dust",
-    "item:jaopca:processors.calorite",
     "item:ae2:cell_component_1k",
     "item:jaopca:circuits.calorite",
     "item:jaopca:circuits.elementium",
@@ -331,7 +126,6 @@
     "item:kubejs:intelligent_draconium_ingot",
     "item:occultism:chalk_white_impure",
     "item:jaopca:plates.terrasteel",
-    "item:mythicbotany:alfsteel_ingot",
     "item:mythicbotany:alfsteel_nugget",
     "item:mythicbotany:alfsteel_pylon",
     "item:botania:gaia_pylon",
@@ -379,7 +173,6 @@
     "item:industrialforegoing:dissolution_chamber",
     "item:industrialforegoing:laser_drill",
     "item:industrialforegoing:ore_laser_base",
-    "item:ad_astra:desh_ingot",
     "item:tconstruct:scorched_ingot_gauge{tank:{Amount:4320,FluidName:\"tcintegrations:molten_desh\"}}",
     {
       "type": "item",
@@ -411,9 +204,7 @@
       "id": "industrialforegoing:pink_slime",
       "amount": 1000
     },
-    "item:draconicevolution:draconium_block",
     "item:draconicevolution:draconium_core",
-    "item:draconicevolution:draconium_ingot",
     "item:draconicevolution:wyvern_crafting_injector",
     "item:draconicevolution:wyvern_chestpiece",
     "item:draconicevolution:basic_relay_crystal",
@@ -425,9 +216,7 @@
     },
     "item:ticex:draconium_crystal",
     "item:tconstruct:repair_kit{Material:\"ticex:draconium\"}",
-    "item:draconicevolution:wyvern_core",
     "item:draconicevolution:basic_crafting_injector",
-    "item:draconicevolution:wyvern_energy_core",
     "item:mifa:processing_addon_3",
     "item:mifa:processing_addon_4",
     "item:industrialforegoing:speed_addon_2",
@@ -459,11 +248,6 @@
     "item:jaopca:circuits.manasteel",
     "item:botania:manasteel_ingot",
     "item:jaopca:processors.manasteel",
-    {
-      "type": "item",
-      "id": "kubejs:stable_desh_ingot",
-      "amount": 2
-    },
     "item:thermal:diamond_gear",
     "item:forestry:electron_tube_diamond",
     "item:techreborn:diamond_grinding_head",
@@ -503,8 +287,7 @@
       "id": "techreborn:cupronickel_heating_coil",
       "amount": 7
     },
-    "item:kubejs:superconducting_coil_type_1",
-    "#item:c:ingots/gold",
+    "#item:c:gold_ingots",
     "item:ars_nouveau:ritual_flight",
     "#item:c:diamonds",
     "item:botania:manastar",
@@ -538,7 +321,6 @@
     "item:ars_nouveau:purple_archwood_log",
     "item:techreborn:advanced_circuit",
     "item:techreborn:industrial_circuit",
-    "item:techreborn:electronic_circuit",
     "item:techreborn:assembly_machine",
     "item:techreborn:rolling_machine",
     "item:techreborn:chrome_ingot",
@@ -671,13 +453,11 @@
     "item:botania:apothecary_taiga",
     "item:supplementaries:bomb_spiky",
     "item:palmon:processing_station",
-    "item:kubejs:present_alloy",
     "item:unimplemented_items:bottle_cap",
     "item:palmon:refined_m_steel_ingot",
     "item:palmon:refined_steel_ingot",
     "item:cobblemon:beast_ball",
     "item:ae2:cell_component_4k",
-    "item:celestial_core:ocean_ingot",
     "item:unimplemented_items:bottle_cap_atk",
     "item:kubejs:hallowed_soul_steel_ingot",
     "item:ftbquests:loot_crate_opener",
@@ -688,10 +468,7 @@
     "item:palmon:boost_frame_2",
     "item:palmon:boost_frame_1",
     "item:tfc:kaolin_clay",
-    "item:kubejs:alpha_framework",
     "item:thermal:steel_gear",
-    "item:kubejs:beta_framework",
-    "item:kubejs:gamma_framework",
     "#item:kubejs:stage2_convergence",
     "item:embers:dawnstone_plate",
     "item:tfc:metal/pickaxe/steel{Damage:0}",
@@ -1285,7 +1062,6 @@
     "item:rats:rat_upgrade_speed",
     "item:dimdungeons:block_gilded_portal",
     "item:dimdungeons:block_portal_keyhole",
-    "item:minecraft:prismarine_crystals",
     "item:quark:vertical_spruce_planks",
     "item:kubejs:voucher_3_0",
     {
@@ -1822,22 +1598,7 @@
     "item:minecraft:blackstone",
     "item:tfc:soot",
     "item:tfc:rock/cobble/andesite",
-    "item:tfc:brick/andesite",
-    "item:occultism:burnt_otherstone",
-    "item:occultism:storage_remote_inert",
-    "item:tfc:wood/sapling/hickory",
-    "item:tfc:metal/ingot/red_steel",
-    "item:tfc:bellows",
-    {
-      "type": "fluid",
-      "id": "tfc:metal/weak_red_steel",
-      "amount": 100
-    },
-    {
-      "type": "fluid",
-      "id": "tfc:metal/bismuth_bronze",
-      "amount": 1000
-    }
+    "item:tfc:brick/andesite"
   ],
   "craft_history": [
     "jei:/kubejs/melted_voidarium_s4",
@@ -2347,43 +2108,43 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "jei:/tfc/casting/weak_steel_ingot",
-      "tfcoreprocessing:compress/compress_refined_limonite",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
       "mekanism_extras:control_circuit/absolute",
-      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
-      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
-      "mekanism_extras:control_circuit/cosmic",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "mekanism_extras:control_circuit/supreme",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
-      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
-      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
       "mekanism_extras:control_circuit/infinite",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
+      "jei:/tfc/casting/weak_steel_ingot",
       "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
+      "mekanism_extras:control_circuit/cosmic",
       "create:crafting/kinetics/steam_engine",
+      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
+      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
+      "tfcoreprocessing:compress/compress_refined_limonite",
+      "mekanism_extras:control_circuit/supreme",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
       "jei:/mekanism/processing/uranium/uranium_oxide",
-      "jei:/tfc/anvil/black_steel_ingot"
+      "jei:/malum/spirit_infusion/stellar_mechanism",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot"
     ],
     "tags": {
+      "#item:c:gold_ingots": "item:tfc:metal/ingot/gold",
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
-      "#item:c:ingots/gold": "item:tfc:metal/ingot/gold",
-      "#item:c:ingots/copper": "item:tfc:metal/ingot/copper",
+      "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },
     "resolutions": {},

@@ -81,4 +81,17 @@ ServerEvents.recipes(event => {
         ['#forge:ingots/manasteel', '#forge:ingots/manasteel', '#forge:ingots/ostrum'])
         .id('kubejs:elementium_s4')
 
+    event.recipes.createMechanicalCrafting('kubejs:scranton_reality_anchor', [
+        ' AAAAA ',
+        'A BCB A',
+        'DBCECBD',
+        'A BCB A',
+        ' AAAAA '
+    ], {
+        A: '#ad_astra:calorite_plates',
+        B: '#forge:storage_blocks/draconium',
+        C: 'kubejs:essence_computation_frame',
+        D: 'mythicbotany:alfsteel_ingot',
+        E: 'kubejs:delta_framework'
+    }).id('kubejs:scranton_reality_anchor_s4')
 })

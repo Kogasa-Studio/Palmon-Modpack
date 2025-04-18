@@ -1,15 +1,3 @@
-const $AttributeModifier = Java.loadClass("net.minecraft.world.entity.ai.attributes.AttributeModifier")
-
-function hashCode(string) {
-    var hash = 0;
-    for (var i = 0; i < string.length; i++) {
-        var code = string.charCodeAt(i);
-        hash = ((hash << 5) - hash) + code;
-        hash = hash & hash; // Convert to 32bit integer
-    }
-    return hash;
-}
-
 StartupEvents.registry('item', event => {
     event.create('scranton_reality_anchor').attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
         .canEquip((item, context) => {
@@ -28,6 +16,12 @@ StartupEvents.registry('item', event => {
 
         })
         .modifyAttribute(
+            "minecraft:generic.max_health",
+            "anchor_max_health",
+            8,
+            "addition"
+        )
+        .modifyAttribute(
             "minecraft:generic.armor_toughness",
             "anchor_armor_toughness",
             6,
@@ -42,20 +36,8 @@ StartupEvents.registry('item', event => {
         .modifyAttribute(
             "minecraft:generic.movement_speed",
             "anchor_movement_speed",
-            0.15,
-            "multiply_total"
-        )
-        .modifyAttribute(
-            "obscure_api:critical_hit",
-            "anchor_critical_hit",
-            0.1,
-            "addition"
-        )
-        .modifyAttribute(
-            "confluence:ranged_damage",
-            "anchor_ranged_damage",
             0.25,
-            "multiply_total"
+            "addition"
         )
     )
         .displayName('§dScranton Reality Anchor')

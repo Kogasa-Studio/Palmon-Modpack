@@ -2012,7 +2012,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "7091A9ADB8F3C993"
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			tasks: [{
 				id: "638E19AC1382E9BC"

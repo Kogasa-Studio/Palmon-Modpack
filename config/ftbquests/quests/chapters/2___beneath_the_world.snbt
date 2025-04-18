@@ -63,7 +63,7 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "none"
 			size: 2.0d
 			subtitle: "驰骋星海"
 			tasks: [{

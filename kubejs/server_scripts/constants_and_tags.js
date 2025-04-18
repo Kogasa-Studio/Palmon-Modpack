@@ -1,3 +1,5 @@
+// priority: 200
+
 global.modBlackList = new Set(['minecraft', 'tconstruct', 'cataclysm', 'tconstruct', 'malum', 'rats'])
 global.entityBlackList = new Set(["cobblemon:pokemon", "dummmmmmy:target_dummy", "aqua_creepers:aqua_creeper"])
 

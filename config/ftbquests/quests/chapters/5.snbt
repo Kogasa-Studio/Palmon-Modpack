@@ -3,9 +3,36 @@
 	default_quest_shape: ""
 	filename: "5"
 	group: "103C794559B2F3C7"
+	icon: "minecraft:dragon_egg"
 	id: "77EC2CEE98DA0E2A"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
-	title: "5."
+	quests: [
+		{
+			dependencies: ["46A1B445EE65A69E"]
+			id: "6242C5B5107F1C26"
+			shape: "gear"
+			tasks: [{
+				id: "3D8930364B654DE4"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6242C5B5107F1C26"]
+			id: "7CFDC05FE7ACCB5E"
+			subtitle: "代表着终点"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "01E312175E472854"
+				type: "dimension"
+			}]
+			title: "抵达末地"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "5. 永恒不再 | The End of Eternity"
 }

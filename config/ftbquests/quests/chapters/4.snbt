@@ -37,6 +37,7 @@
 		}
 		{
 			dependencies: ["19748B079BF83EDB"]
+			hide_until_deps_complete: true
 			id: "1E2A1641798E125F"
 			tasks: [{
 				id: "7D5A2452FD9A56AB"
@@ -60,6 +61,7 @@
 		}
 		{
 			dependencies: ["7FC968D263AEA122"]
+			hide_until_deps_complete: true
 			id: "6E193B6B06A8FA7C"
 			tasks: [{
 				id: "0163BF0DE0B2BDCC"
@@ -71,6 +73,7 @@
 		}
 		{
 			dependencies: ["7FC968D263AEA122"]
+			hide_until_deps_complete: true
 			id: "4BC78FBF5168C6A5"
 			tasks: [{
 				id: "6502F54F658770DF"
@@ -267,6 +270,7 @@
 		}
 		{
 			dependencies: ["7F9DDBB392F82A01"]
+			hide_until_deps_complete: true
 			id: "34407AC6D2A2E064"
 			tasks: [{
 				id: "186F81D732C5BB65"
@@ -731,6 +735,7 @@
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
+			hide_until_deps_complete: true
 			id: "792EBBF529719097"
 			subtitle: "先锋"
 			tasks: [{
@@ -763,6 +768,7 @@
 		}
 		{
 			dependencies: ["39CFA81F8B1EB3D6"]
+			hide_until_deps_complete: true
 			id: "0F7856B347537A96"
 			tasks: [{
 				id: "6CBACF5FF2F6ECDE"
@@ -786,6 +792,7 @@
 		{
 			dependencies: ["4473E1C35100C688"]
 			description: ["前往古代城，寻找古代人留下的龙息。"]
+			hide_until_deps_complete: true
 			id: "0CE4E5DC7464D60A"
 			subtitle: "远古之城中......"
 			tasks: [{
@@ -799,6 +806,7 @@
 		{
 			dependencies: ["4473E1C35100C688"]
 			description: ["从异界召唤末地石与紫颂果......"]
+			hide_until_deps_complete: true
 			id: "2F24825CDE72CA6B"
 			subtitle: "仪式召唤"
 			tasks: [{
@@ -868,6 +876,7 @@
 		}
 		{
 			dependencies: ["3A49D2C7EE90C2F2"]
+			hide_until_deps_complete: true
 			id: "6D721ADCFCB692ED"
 			tasks: [{
 				id: "482CED2A26A73338"
@@ -879,6 +888,7 @@
 		}
 		{
 			dependencies: ["3A49D2C7EE90C2F2"]
+			hide_until_deps_complete: true
 			id: "1EBD7E0BCFC26C5B"
 			tasks: [{
 				id: "56622363AF50E566"
@@ -890,6 +900,7 @@
 		}
 		{
 			dependencies: ["3A49D2C7EE90C2F2"]
+			hide_until_deps_complete: true
 			id: "0D8BA7BFA5CE2797"
 			tasks: [{
 				id: "40C6C7FA99BD5111"
@@ -935,6 +946,7 @@
 		}
 		{
 			dependencies: ["7C8F21F274C74D59"]
+			hide_until_deps_complete: true
 			id: "708E3370ABA2B6FA"
 			tasks: [{
 				id: "424AB34FBAE651D8"
@@ -1026,6 +1038,7 @@
 		}
 		{
 			dependencies: ["39A3EB250644FA7A"]
+			hide_until_deps_complete: true
 			id: "2102D65B4DDC81C4"
 			tasks: [{
 				id: "069618911BB44B83"
@@ -1129,6 +1142,7 @@
 		}
 		{
 			dependencies: ["368B50D9FA24ABBA"]
+			hide_until_deps_complete: true
 			id: "77CAB443DAA16D91"
 			subtitle: "高端设备的基础"
 			tasks: [{
@@ -1141,6 +1155,7 @@
 		}
 		{
 			dependencies: ["368B50D9FA24ABBA"]
+			hide_until_deps_complete: true
 			id: "30E1AE4064E031BF"
 			subtitle: "美味"
 			tasks: [{
@@ -1251,6 +1266,7 @@
 		{
 			dependencies: ["76551EEFA4598D87"]
 			description: ["注意，3阶星球的表面十分炎热，你需要下界合金航天服或者抗火效果才能生存。"]
+			hide_until_deps_complete: true
 			id: "7ED98C0E69819A65"
 			tasks: [{
 				id: "3179F36B13FC0702"
@@ -1341,6 +1357,7 @@
 		}
 		{
 			dependencies: ["76551EEFA4598D87"]
+			hide_until_deps_complete: true
 			id: "4331E30566C78B4D"
 			tasks: [{
 				id: "0CF9814747035650"
@@ -1385,6 +1402,7 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "5DAD718093971689"
 			tasks: [{
 				id: "0177E6FE940096D5"
@@ -1396,6 +1414,7 @@
 		}
 		{
 			dependencies: ["5DAD718093971689"]
+			hide_until_deps_complete: true
 			id: "5DA47C9FB0351EA7"
 			shape: "diamond"
 			size: 2.0d
@@ -1406,6 +1425,47 @@
 			}]
 			x: 0.0d
 			y: -28.0d
+		}
+		{
+			dependencies: ["2BA2D49F67F26CA7"]
+			icon: "cataclysm:desert_eye"
+			id: "177D126EC3FF303A"
+			tasks: [{
+				id: "5997405528C81A36"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			title: "诅咒金字塔"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BA2D49F67F26CA7"]
+			id: "2D7B8DB201A208F5"
+			tasks: [{
+				entity: "ad_astra:martian_raptor"
+				id: "6D571C1D69F02016"
+				type: "kill"
+				value: 100L
+			}]
+			title: "恐龙猎人"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DA47C9FB0351EA7"]
+			description: ["这件锚的制作方法来自于异界，他带给了你许多新的启示......"]
+			id: "46A1B445EE65A69E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "稳定现实"
+			tasks: [{
+				id: "61FF7B5E969E0F8A"
+				item: "kubejs:scranton_reality_anchor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -30.0d
 		}
 	]
 	title: "4. 火星 | The Mars"

@@ -1,11 +1,13 @@
 const $JsonObject = Java.loadClass("com.google.gson.JsonObject")
 const $long = Java.loadClass("java.lang.Long")
 
+// 种子， 随机数列表，列表当前位置
 global.seed = ""
 global.levelRandomMap = []
 global.randonIndex = 0
 
 const s3MaterialList = ['jaopca:processors.iesnium', 'nuclearcraft:barium_dust', 'forestry:flexible_casing', 'malum:void_tablet', 'kubejs:elite_mechanism_final', 'kubejs:ember_profile']
+const s4MaterialList = ['kubejs:marid_binded_gem', 'kubejs:superconducting_coil_type_1', 'kubejs:unify_essence', 'draconicevolution:wyvern_core', 'industrialforegoing:machine_frame_supreme', 'jaopca:processors.calorite']
 
 ServerEvents.loaded(event => {
     const { server } = event
@@ -52,35 +54,32 @@ ServerEvents.recipes((event) => {
 
     // console.log(global.levelRandomMap)
 
-    // stage 1
+    // stage 1 1+1
     // main
     s1Occ(event)
     s1Im(event)
     s1Create(event)
-
     // extra
     e1SB(event)
     e1TC(event)
     e1PK(event)
     e1PL(event)
 
-    // stage 2
+    // stage 2 1+1
     // main
     s2Sp(event)
     s2Bot(event)
     s2AE(event)
-
     // extra
     e2CM(event)
     e2ER(event)
     e2ID(event)
     e2RFT(event)
-    
     // final
     s2Frame1(event)
     s2Frame2(event)
 
-    // stage 3
+    // stage 3 2+2
     // main
     s3SP(event)
     s3NC(event)
@@ -88,23 +87,16 @@ ServerEvents.recipes((event) => {
     s3Ma(event)
     s3Cr(event)
     s3Em(event)
-
-    // convergence
-    s3ConvergenceRecipe(event, 0, 1)
-    // s3ConvergenceRecipe(event, 1, 1)
-    // s3ConvergenceRecipe(event, 2, 1)
-    // s3ConvergenceRecipe(event, 3, 1)
-    // s3ConvergenceRecipe(event, 4, 1)
-    // s3ConvergenceRecipe(event, 5, 1)
-
     // extra 
     e3MR(event)
     e3SFM(event)
     e3XN(event)
     e3RFT(event)
     e3CR(event)
+    // convergence
+    s3ConvergenceRecipe(event, 0, 1)
 
-    // stage 4
+    // stage 4 3+2
     // main
     s4Occ(event)
     s4TR(event)
@@ -112,15 +104,20 @@ ServerEvents.recipes((event) => {
     s4DE(event)
     s4IFM(event)
     s4AA(event)
-
     // extra
     e4IFS(event)
     e4IFU(event)
     e4EFF(event)
     e4TIB(event)
     e4PLM(event)
-    
+    // convergence
+    s4ConvergenceRecipe(event, 0, 1, 2)
 
+    // stage 5 3+2
+    // main
+
+    //extra
+    
 })
 
 function randomNext(range) {
@@ -145,6 +142,36 @@ function randomSample(n, range) {
     }
 
     return result
+}
+
+/**
+ * @param {Internal.RecipesEventJS} event
+ * @param {int} index1
+ * @param {int} index2
+ * @param {int} index3
+ */
+function s4ConvergenceRecipe(event, index1, index2, index3) {
+    
+    event.recipes.create.mechanical_crafting('kubejs:delta_framework', [
+        '  A  ',
+        ' BXB ',
+        'AD DA',
+        ' EFE ',
+        'AY ZA',
+        'AADAA'
+      ], {
+        A: '#forge:plates/elementium',
+        B: '#forge:gears/ostrum',
+        D: '#forge:rods/elementium',
+        E: 'ae2:cell_component_1k',
+        F: 'kubejs:gamma_framework',
+
+        X: s4MaterialList[index1],
+        Y: s4MaterialList[index2],
+        Z: s4MaterialList[index3]
+      }).id('kubejs:delta_framework_s4')
+
+
 }
 
 /**
