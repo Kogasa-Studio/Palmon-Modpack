@@ -21,13 +21,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getSize |  |  | Vec3i | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
-| getClickedBlock |  |  | BlockContainerJS | ✘ |
-| getClickedPos |  |  | BlockPos | ✘ |
 | getMultiblock |  |  | ResourceLocation | ✘ |
-| addGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| getClickedPos |  |  | BlockPos | ✘ |
+| getClickedBlock |  |  | BlockContainerJS | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -40,15 +40,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
-```
-
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -56,6 +47,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

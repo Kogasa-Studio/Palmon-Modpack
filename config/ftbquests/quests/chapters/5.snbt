@@ -22,6 +22,7 @@
 		}
 		{
 			dependencies: ["6242C5B5107F1C26"]
+			icon: "minecraft:end_stone"
 			id: "7CFDC05FE7ACCB5E"
 			subtitle: "代表着终点"
 			tasks: [{
@@ -31,7 +32,248 @@
 			}]
 			title: "抵达末地"
 			x: 0.0d
-			y: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CFDC05FE7ACCB5E"]
+			id: "58A700B22FCA353D"
+			tasks: [{
+				id: "6C6A3565E426F733"
+				item: "botania:ender_air_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CFDC05FE7ACCB5E"]
+			id: "68694C58414525D4"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "289889F02822D830"
+				type: "advancement"
+			}]
+			title: "屠龙者"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CFDC05FE7ACCB5E"]
+			icon: "cataclysm:void_infused_end_stone_bricks"
+			id: "0D04C151CA099222"
+			tasks: [{
+				id: "3CEED2393131A80B"
+				type: "checkmark"
+			}]
+			title: "末地外岛"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D04C151CA099222"]
+			icon: "cataclysm:void_eye"
+			id: "122502AE9782F1C5"
+			tasks: [{
+				id: "1BB9B8B7BF0967A0"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			title: "废弃堡垒"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D04C151CA099222"]
+			id: "0C8E25099A56674B"
+			tasks: [{
+				id: "01AB465ED905EEE6"
+				item: "techreborn:sodalite_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D04C151CA099222"]
+			id: "71D557B729CB38B3"
+			tasks: [{
+				id: "2B40BE2BEC59347D"
+				item: "integrateddynamics:crystalized_chorus_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D04C151CA099222"]
+			id: "3952CA04DD042D4B"
+			tasks: [{
+				id: "28F68AB78F667A17"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3952CA04DD042D4B"
+				"0C8E25099A56674B"
+				"71D557B729CB38B3"
+			]
+			id: "6B46BCE6AEDB7159"
+			shape: "hexagon"
+			tasks: [{
+				id: "49045CF515B67F65"
+				item: "kubejs:end_steel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7433CEDE4D39BDFC"]
+			description: [
+				"......你理解了如何使用终末钢制作飞行设备。"
+				""
+				"天翼族之冠，飞翔之板，飞行模块"
+			]
+			icon: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					variant: 0
+				}
+			}
+			id: "3D83DC735CD2F878"
+			rewards: [{
+				id: "5CBE609F47F46D10"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [{
+								Count: 2b
+								Slot: 0b
+								id: "kubejs:end_steel"
+							}]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "灵感：飞行"
+			tasks: [{
+				id: "227732DBA81C4394"
+				item: "kubejs:voucher_5_1"
+				type: "item"
+			}]
+			title: "5-1 飞行"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7433CEDE4D39BDFC"]
+			description: ["你理解了一类被视为禁忌的机器的原理，但是为什么他们是禁忌......"]
+			icon: "botanicalmachinery:industrial_agglomeration_factory"
+			id: "2C3DEE8F626DE274"
+			rewards: [{
+				id: "5F60AD26EE689DF5"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "botanicalmachinery:mechanical_daisy"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "botanicalmachinery:mechanical_mana_pool"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "灵感：植物机械"
+			tasks: [{
+				id: "2C46C9D2AE05980B"
+				item: "kubejs:voucher_5_2"
+				type: "item"
+			}]
+			title: "5-2 植物魔法：机械化"
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7433CEDE4D39BDFC"]
+			description: ["这是空间折叠？"]
+			icon: "integrateddynamics:logic_director"
+			id: "73D5970B69C7931E"
+			rewards: [{
+				id: "27807F2F00240A09"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [{
+								Count: 4b
+								Slot: 0b
+								id: "integrateddynamics:logic_director"
+							}]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "灵感：折叠空间"
+			tasks: [{
+				id: "3DE86C4E4A3B89D0"
+				item: "kubejs:voucher_5_0"
+				type: "item"
+			}]
+			title: "5-0 动态联合：无线"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6B46BCE6AEDB7159"]
+			icon: "kubejs:anchor_shard"
+			id: "46E035BDE38016C4"
+			tasks: [{
+				id: "7761D91773979184"
+				type: "checkmark"
+			}]
+			title: "分歧点 5.1"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B46BCE6AEDB7159"]
+			icon: "kubejs:anchor_shard"
+			id: "7433CEDE4D39BDFC"
+			tasks: [{
+				id: "3C90ACDAE1D2B1B4"
+				type: "checkmark"
+			}]
+			title: "分歧点 5.0"
+			x: -2.0d
+			y: 8.0d
 		}
 	]
 	title: "5. 永恒不再 | The End of Eternity"

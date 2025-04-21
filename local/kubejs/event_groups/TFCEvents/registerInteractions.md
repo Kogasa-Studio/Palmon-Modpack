@@ -27,8 +27,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | interaction | Ingredient, OnItemUseAction |  | void | ✘ |
 | interaction | Ingredient, boolean, OnItemUseAction |  | void | ✘ |
 | interaction | Ingredient, boolean, boolean, OnItemUseAction |  | void | ✘ |
-| addBlockItemPlacement | Supplier<Item>, Supplier<Block> |  | void | ✔ |
 | blockItemPlacement | Item, Block |  | void | ✘ |
+| addBlockItemPlacement | Supplier<Item>, Supplier<Block> |  | void | ✔ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

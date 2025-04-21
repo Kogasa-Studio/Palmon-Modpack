@@ -25,14 +25,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | register | ResourceLocation, Consumer<Builder> |  | void | ✘ |
 | registerClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
+| newVec2 | float, float |  | Vec2 | ✘ |
 | getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
 | getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
 | getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
-| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
-| getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
-| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
 | getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
-| newVec2 | float, float |  | Vec2 | ✘ |
+| getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -63,17 +63,22 @@ Creates a new climate model with the given name and properties
 Deprecated, use `.register`
 ```
 
+- `Vec2 newVec2(float var0, float var1)`
+
+  Parameters:
+  - var0: float
+  - var1: float
+
+```
+Deprecated
+```
+
 - `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
 ```
 Deprecated
 ```
 
-- `WindVectorCallback getDefaultWindVectorCallback()`
-```
-Deprecated
-```
-
-- `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
+- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
 ```
 Deprecated
 ```
@@ -88,12 +93,12 @@ Deprecated
 Deprecated, use `.register`
 ```
 
-- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
+- `WindVectorCallback getDefaultWindVectorCallback()`
 ```
 Deprecated
 ```
 
-- `TemperatureCallback getDefaultCurrentTemperatureCallback()`
+- `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
 ```
 Deprecated
 ```
@@ -103,12 +108,7 @@ Deprecated
 Deprecated
 ```
 
-- `Vec2 newVec2(float var0, float var1)`
-
-  Parameters:
-  - var0: float
-  - var1: float
-
+- `TemperatureCallback getDefaultCurrentTemperatureCallback()`
 ```
 Deprecated
 ```

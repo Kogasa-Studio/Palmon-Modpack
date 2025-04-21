@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | reset |  |  | void | ✘ |
 | isSpecial | Recipe<?> |  | boolean | ✘ |
-| ignoreSpecialFlag | ResourceLocation |  | void | ✘ |
 | ignoreSpecialMod | String |  | void | ✘ |
+| ignoreSpecialFlag | ResourceLocation |  | void | ✘ |
 | addSpecialMod | String |  | void | ✘ |
 | addSpecialFlag | ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |

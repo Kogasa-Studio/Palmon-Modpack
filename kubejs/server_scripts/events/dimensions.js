@@ -8,14 +8,13 @@ NativeEvents.onEvent($EntityTravelToDimensionEvent, /** @param {Internal.EntityT
     let key = event.dimension.getPath()
 
     if (player.player) {
-        player.tell(key)
         switch (key) {
             case 'the_end':
                 if (!player.stages.has(global.endStage)) {
                     event.setCanceled(true)
-                    player.tell(Text.translatable('ui.kubejs.banned').lightPurple())
-                    player.tell(Text.translatable('ui.kubejs.ui.kubejs.banned_dim').lightPurple())
-                    
+                    player.tell(Text.translatable('ui.kubejs.banned').darkPurple())
+                    player.tell(Text.translatable('ui.kubejs.banned_dim').lightPurple())
+                    player.teleportTo(player.getX(), 320, player.getZ())
                 }
                 break
 

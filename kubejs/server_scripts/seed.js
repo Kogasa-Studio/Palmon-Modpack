@@ -9,6 +9,8 @@ global.randonIndex = 0
 const s3MaterialList = ['jaopca:processors.iesnium', 'nuclearcraft:barium_dust', 'forestry:flexible_casing', 'malum:void_tablet', 'kubejs:elite_mechanism_final', 'kubejs:ember_profile']
 const s4MaterialList = ['kubejs:marid_binded_gem', 'kubejs:superconducting_coil_type_1', 'kubejs:unify_essence', 'draconicevolution:wyvern_core', 'industrialforegoing:machine_frame_supreme', 'jaopca:processors.calorite']
 
+global.removeBMRecipes = true
+
 ServerEvents.loaded(event => {
     const { server } = event
     let currentSeed = NBT.l(server.worldData.worldGenOptions().seed())
@@ -117,7 +119,16 @@ ServerEvents.recipes((event) => {
     // main
 
     //extra
-    
+    e5IDW(event)
+    e5FL(event)
+    e5BM(event)
+
+    if (global.removeBMRecipes) {
+        // Botanical Machinery, by e5BM
+        event.remove({ mod: 'botanicalmachinery' })
+
+    }
+
 })
 
 function randomNext(range) {

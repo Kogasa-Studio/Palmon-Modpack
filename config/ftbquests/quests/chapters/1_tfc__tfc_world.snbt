@@ -1,5 +1,5 @@
 {
-	autofocus_id: "7D265517B918D923"
+	autofocus_id: "67DBB00021CBB136"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1_tfc__tfc_world"
@@ -82,6 +82,7 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "2F199465625430FA"
 			subtitle: "群峦星的地形比现世地球的更为广袤，\\n这意味着你前往新的生物群系需要花费更多的时间"
 			tasks: [{
@@ -94,6 +95,16 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "tfc:ore/small_native_copper"
+			}
 			id: "7BEC75E55225A8CA"
 			subtitle: "在地表上发现的矿物碎块，是前期金属的主要来源"
 			tasks: [{
@@ -129,6 +140,7 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "1FBD0A696202485D"
 			subtitle: "由于一种未知的力量，群峦星的物品与材料拥有着一些特殊特性。\\n例如你无法背起超重的物品，大多数的食物也会随着时间慢慢腐烂。"
 			tasks: [{
@@ -141,6 +153,7 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "31AEAB8574524CBC"
 			subtitle: "保持5种营养的均衡可以使你获得额外的血量，保证食物的多样性也可以进一步的获得增益。"
 			tasks: [{
@@ -598,6 +611,7 @@
 		{
 			dependencies: ["73BA44112A812A9A"]
 			hide_until_deps_complete: true
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "5298A692AAAAAE04"
 			rewards: [
 				{
@@ -730,6 +744,7 @@
 		}
 		{
 			dependencies: ["7A23822AE720815B"]
+			icon: "palmon:poke_food"
 			id: "20E10177F3F79DD2"
 			subtitle: "如果你能给宝可梦们提供一个\\n安全的工作场所，或许..."
 			tasks: [{
@@ -862,6 +877,7 @@
 				""
 				"若最终效率是目标工作量的数倍，单次也会产出数倍的物品。"
 			]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "65BA41434338CFD1"
 			subtitle: "选读"
 			tasks: [{
@@ -1083,8 +1099,9 @@
 		}
 		{
 			dependencies: ["07AB95AEDD7B16CE"]
+			description: ["加工站与生产机十分类似，不过宝可梦在加工站会消耗物品，流体与能量来制作新的物品。加工站的效率计算也与生产机一致。"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "0EDFD5392F5D8A9B"
-			subtitle: "加工站与生产机十分类似，不过宝可梦在加工站会消耗物品，\\n流体与能量来制作新的物品。加工站的效率计算也与生产机一致。"
 			tasks: [{
 				id: "4AD5E49275583D12"
 				type: "checkmark"
@@ -1297,6 +1314,7 @@
 				"你可以通过查看接下来三个任务需求材料的配方，来确定你获得的&l&e灵感&l&f。"
 			]
 			hide_until_deps_complete: true
+			icon: "kubejs:anchor_shard"
 			id: "233CD2E34D0CD586"
 			subtitle: "第一次分歧"
 			tasks: [{
@@ -1410,6 +1428,7 @@
 				""
 				"现在，使用遗迹硬币制作你能制作的补给卷吧！"
 			]
+			icon: "kubejs:anchor_shard"
 			id: "70F53B1333FE496B"
 			rewards: [{
 				count: 3
@@ -1998,6 +2017,7 @@
 		}
 		{
 			dependencies: ["51FA579CBA7241B2"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "3A28C11C2C3DE45C"
 			tasks: [{
 				id: "5495370827960772"
@@ -2187,6 +2207,7 @@
 				"6F0B4E669F079304"
 			]
 			hide_dependent_lines: true
+			icon: "kubejs:anchor_shard"
 			id: "7385DDC2F71C2040"
 			shape: "diamond"
 			tasks: [{
@@ -2200,6 +2221,7 @@
 		{
 			dependencies: ["76FB026FCCD2873B"]
 			hide_dependent_lines: true
+			icon: "kubejs:anchor_shard"
 			id: "62D9D66D34423490"
 			shape: "diamond"
 			tasks: [{
@@ -2216,6 +2238,7 @@
 				"296A77CEB0BB227A"
 			]
 			hide_dependent_lines: true
+			icon: "kubejs:anchor_shard"
 			id: "3D463B2F52D4FED8"
 			shape: "diamond"
 			tasks: [{
@@ -2508,6 +2531,7 @@
 		{
 			dependencies: ["47323FA940E1CA9E"]
 			description: ["当前阶段可选的发电方式有三种：宝可梦（帕鲁）发电，热传导发电机，或动能发电机。"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "761A8A7EA3FBE204"
 			subtitle: "做出选择吧"
 			tasks: [{
@@ -2555,6 +2579,7 @@
 		{
 			dependencies: ["233CD2E34D0CD586"]
 			description: ["本整合包中有许多实用工具类模组，其中相当一部分的工具/机器可以在对应的模组解锁之前使用，所以请仔细看看合成表吧..."]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "1F54C58DACF36562"
 			tasks: [{
 				id: "2A9B5A9719E45F10"

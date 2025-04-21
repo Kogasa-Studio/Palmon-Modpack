@@ -1,5 +1,5 @@
 {
-	autofocus_id: "0E4E60BCE9A66B27"
+	autofocus_id: "518D5BB2DA0A9E0C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2___beneath_the_world"
@@ -316,6 +316,7 @@
 		{
 			dependencies: ["518D5BB2DA0A9E0C"]
 			description: ["这一阶段的补给卷需要使用Alpha 框架制作。"]
+			icon: "kubejs:anchor_shard"
 			id: "34AB730CB39AD62D"
 			rewards: [{
 				count: 3
@@ -580,6 +581,7 @@
 				"&l&e特制灵感&l&f通常包含一些基于现有材料与设备的特殊配方，这些配方可以帮助你更加有效率的制作一些物品。"
 			]
 			hide_until_deps_complete: true
+			icon: "kubejs:anchor_shard"
 			id: "22DEA013C6AF2127"
 			tasks: [{
 				id: "385F366E499D46EC"
@@ -895,6 +897,7 @@
 				"4363D021FE72ABCE"
 			]
 			hide_until_deps_complete: true
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "5FEC0E57D5673A64"
 			tasks: [{
 				id: "33294A8ECBF55C39"
@@ -1108,6 +1111,7 @@
 				"5E37B21684973F79"
 			]
 			dependency_requirement: "one_completed"
+			icon: "kubejs:anchor_shard"
 			id: "29B03FFFF33A4EF9"
 			tasks: [{
 				id: "6E6E6A8EB22D5C65"

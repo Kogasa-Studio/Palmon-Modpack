@@ -36,7 +36,7 @@ StartupEvents.registry('item', event => {
         .modifyAttribute(
             "minecraft:generic.movement_speed",
             "anchor_movement_speed",
-            0.25,
+            0.025,
             "addition"
         )
     )

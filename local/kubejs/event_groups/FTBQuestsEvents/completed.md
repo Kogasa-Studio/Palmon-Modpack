@@ -22,10 +22,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getObject |  |  | QuestObject | ✘ |
-| getData |  |  | FTBQuestsKubeJSTeamDataWrapper | ✘ |
-| getPlayer |  |  | ServerPlayer | ✘ |
 | getOnlineMembers |  |  | EntityArrayList | ✘ |
 | getNotifiedPlayers |  |  | EntityArrayList | ✘ |
+| getData |  |  | FTBQuestsKubeJSTeamDataWrapper | ✘ |
+| getPlayer |  |  | ServerPlayer | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

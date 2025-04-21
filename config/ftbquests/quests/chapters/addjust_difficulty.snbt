@@ -379,8 +379,24 @@
 			dependencies: ["015905562F38D087"]
 			icon: {
 				Count: 1
-				id: "redstone_arsenal:flux_sword"
-				tag: { }
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: { }
+							provider_id: [I;
+								-223638724
+								-1867035520
+								-1129799415
+								-1369523452
+							]
+						}
+					}
+				}
+				id: "draconicevolution:chaotic_sword"
 			}
 			id: "1F0DCE478A97940B"
 			incompatible: [

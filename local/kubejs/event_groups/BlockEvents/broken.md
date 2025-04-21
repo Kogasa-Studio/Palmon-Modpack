@@ -23,14 +23,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getEntity |  |  | Entity | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
-| getXp |  |  | int | ✘ |
 | setXp | int |  | void | ✘ |
-| addGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| getXp |  |  | int | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -43,19 +43,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `BlockContainerJS getBlock()`
-```
-The block that was broken.
-```
-
-- `LivingEntity getEntity()`
+- `Entity getEntity()`
 ```
 The player that broke the block.
 ```
 
-- `int getXp()`
+- `BlockContainerJS getBlock()`
 ```
-The experience dropped by the block. Always `0` on Fabric.
+The block that was broken.
 ```
 
 - `void setXp(int var0)`
@@ -67,13 +62,9 @@ The experience dropped by the block. Always `0` on Fabric.
 Sets the experience dropped by the block. Only works on Forge.
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `int getXp()`
 ```
-Adds the specified game stage to the player
+The experience dropped by the block. Always `0` on Fabric.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -83,6 +74,15 @@ Adds the specified game stage to the player
 
 ```
 Checks if the player has the specified game stage
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `void removeGameStage(String var0)`

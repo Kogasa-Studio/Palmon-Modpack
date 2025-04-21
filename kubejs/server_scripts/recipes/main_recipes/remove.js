@@ -162,6 +162,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'industrialforegoing:material_stonework_factory' })
     event.remove({ id: 'tiab:time_in_a_bottle' })
 
+    event.remove({ id: 'integrateddynamics:crafting/logic_director' })
+    event.remove({ id: 'rftoolsutility:flight_module' })
+
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })
@@ -175,5 +178,10 @@ ServerEvents.recipes(event => {
 
     event.remove({type: 'minecraft:crafting_shaped',  output: '#forge:gears'})
     event.remove({type: 'minecraft:crafting_shapeless',  input: 'embers:tinker_hammer'})
+
+})
+
+MoreJSEvents.villagerTrades(event => {
+    event.removeModdedTrades(["ars_nouveau:shady_wizard"], 3)
 
 })

@@ -26,6 +26,7 @@
 		{
 			dependencies: ["36D2E1C2BF0663D7"]
 			description: ["既然已经有了一艘可靠的火箭，为何不将目光放的再远一些？"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "6D2837A2695037CE"
 			subtitle: "这是人类的一小步"
 			tasks: [{
@@ -100,6 +101,7 @@
 		{
 			dependencies: ["36D2E1C2BF0663D7"]
 			description: ["在此阶段，你将会解锁随机的两份补给。"]
+			icon: "kubejs:anchor_shard"
 			id: "6D2DCDB27DF13C81"
 			rewards: [{
 				count: 5
@@ -117,6 +119,7 @@
 		}
 		{
 			dependencies: ["36D2E1C2BF0663D7"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "6ACE8AAA69BDF127"
 			tasks: [{
 				id: "67F4CD22E0FB578E"
@@ -175,6 +178,7 @@
 		}
 		{
 			dependencies: ["36D2E1C2BF0663D7"]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "6E6C596EACD8BE9F"
 			subtitle: "为什么要被束缚在框架内呢"
 			tasks: [{
@@ -707,6 +711,7 @@
 			dependencies: ["346F9B9DECB62437"]
 			description: ["在此阶段，你将会解锁两份&l&e灵感&l&f。"]
 			hide_until_deps_complete: true
+			icon: "kubejs:anchor_shard"
 			id: "4AEADEEE818B1FCC"
 			tasks: [{
 				id: "140A53BF9B4CFAC2"
@@ -1582,6 +1587,7 @@
 				"420411972F85DD79"
 			]
 			dependency_requirement: "one_completed"
+			icon: "kubejs:anchor_shard"
 			id: "1015271507258F9F"
 			invisible: true
 			tasks: [{

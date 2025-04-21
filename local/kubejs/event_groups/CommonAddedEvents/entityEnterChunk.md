@@ -21,12 +21,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | of | Entity, int, int, int, int, int, int |  | EntityEnterChunkEventJS | ✔ |
 | getEntity |  |  | Entity | ✘ |
-| getPrevX |  |  | int | ✘ |
-| getPrevZ |  |  | int | ✘ |
-| getPrevY |  |  | int | ✘ |
 | getChunkX |  |  | int | ✘ |
 | getChunkY |  |  | int | ✘ |
 | getChunkZ |  |  | int | ✘ |
+| getPrevX |  |  | int | ✘ |
+| getPrevY |  |  | int | ✘ |
+| getPrevZ |  |  | int | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |

@@ -26,8 +26,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getMethodName |  |  | String | ✘ |
 | setResult | Object |  | void | ✘ |
 | getResult |  |  | Object | ✘ |
-| hasResult |  |  | boolean | ✘ |
 | getArg | int |  | Object | ✘ |
+| hasResult |  |  | boolean | ✘ |
 | getArgs |  |  | Object[] | ✘ |
 | getResultOptional |  |  | Optional<Object> | ✘ |
 | requiresResult |  |  | boolean | ✘ |

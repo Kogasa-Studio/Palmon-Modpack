@@ -25,13 +25,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | categoryDecorator | CustomRecipeCategoryDecorator.DrawDecorator<T>, CustomRecipeCategoryDecorator.TooltipDecorator<T> |  | CustomRecipeCategoryDecorator<T> | ✘ |
 | categoryDecorator | CustomRecipeCategoryDecorator.DrawDecorator<T> |  | CustomRecipeCategoryDecorator<T> | ✘ |
-| getOverriddenRecipeType | ResourceLocation |  | RecipeType<?> | ✔ |
 | clearCustomRecipeTypes |  |  | void | ✔ |
-| clearOverriddenRecipeTypes |  |  | void | ✔ |
+| getCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
 | removeCustomRecipeType | ResourceLocation |  | void | ✔ |
 | removeOverriddenRecipeType | ResourceLocation |  | void | ✔ |
-| getCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
+| clearOverriddenRecipeTypes |  |  | void | ✔ |
 | getOrCreateCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
+| getOverriddenRecipeType | ResourceLocation |  | RecipeType<?> | ✔ |
 | getOrCreateCustomOverriddenRecipeType | ResourceLocation, RecipeType<T> |  | RecipeType<T> | ✔ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

@@ -31,10 +31,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | limit | Size, int, int |  | void | ✘ |
 | limit | Size, boolean |  | void | ✘ |
 | limit | Size |  | void | ✘ |
-| lowerLimit | Size, int, int, boolean |  | void | ✘ |
 | lowerLimit | Size, int, int |  | void | ✘ |
-| lowerLimit | Size |  | void | ✘ |
+| lowerLimit | Size, int, int, boolean |  | void | ✘ |
 | lowerLimit | Size, boolean |  | void | ✘ |
+| lowerLimit | Size |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -87,6 +87,17 @@ Limits the entire container to the given size
 Limits the entire container to the given size, disallowing items with a size greater than the given size
 ```
 
+- `void lowerLimit(Size size, int min, int max)`
+
+  Parameters:
+  - size: Size- The minimum size items in the container may be
+  - min: int- The index of the start of the slots to be limited
+  - max: int- The index of the end of the lots to be limited
+
+```
+Limits items in the provided slot range to a size equal to or greater than the provided size
+```
+
 - `void lowerLimit(Size size, int min, int max, boolean allowsEqual)`
 
   Parameters:
@@ -99,15 +110,14 @@ Limits the entire container to the given size, disallowing items with a size gre
 Limits items in the provided slot range to a size greater than the provided size
 ```
 
-- `void lowerLimit(Size size, int min, int max)`
+- `void lowerLimit(Size size, boolean allowsEqual)`
 
   Parameters:
   - size: Size- The minimum size items in the container may be
-  - min: int- The index of the start of the slots to be limited
-  - max: int- The index of the end of the lots to be limited
+  - allowsEqual: boolean- If items with a size equal to the provided `size` should be allowed
 
 ```
-Limits items in the provided slot range to a size equal to or greater than the provided size
+Limits items in the container to a size
 ```
 
 - `void lowerLimit(Size var0)`
@@ -117,16 +127,6 @@ Limits items in the provided slot range to a size equal to or greater than the p
 
 ```
 Limits items in the container to a size equal to or greater than the provided size
-```
-
-- `void lowerLimit(Size size, boolean allowsEqual)`
-
-  Parameters:
-  - size: Size- The minimum size items in the container may be
-  - allowsEqual: boolean- If items with a size equal to the provided `size` should be allowed
-
-```
-Limits items in the container to a size
 ```
 
 - `Object exit(Object var0)`

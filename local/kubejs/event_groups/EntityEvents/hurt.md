@@ -24,8 +24,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getSource |  |  | DamageSource | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
 | getDamage |  |  | float | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -44,14 +44,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The damage source.
 ```
 
-- `LivingEntity getEntity()`
-```
-The entity that was hurt.
-```
-
 - `float getDamage()`
 ```
 The amount of damage.
+```
+
+- `LivingEntity getEntity()`
+```
+The entity that was hurt.
 ```
 
 - `Object exit(Object var0)`

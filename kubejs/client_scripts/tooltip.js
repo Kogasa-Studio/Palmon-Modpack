@@ -15,6 +15,7 @@ let curiosList = [
     'kubejs:epiphany_pendant',
     'kubejs:divergence_meter',
 
+    'kubejs:scranton_reality_anchor',
     'kubejs:deity_from_the_outside',
     'kubejs:true_three_goddess',
     'kubejs:old_george_nutritional_puree',

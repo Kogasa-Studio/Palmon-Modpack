@@ -33,5 +33,5 @@ contractAttributeSpDefenceMultiplierConfluence = 0.75
 #
 #The multiplier of the SPEED with mod Confluence loaded.
 #Range: 0.0 ~ 1000.0
-contractAttributeSpeedMultiplierConfluence = 0.1
+contractAttributeSpeedMultiplierConfluence = 0.2
 

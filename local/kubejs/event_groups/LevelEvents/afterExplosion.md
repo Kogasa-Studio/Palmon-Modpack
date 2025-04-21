@@ -23,19 +23,19 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getAffectedEntities |  |  | EntityArrayList | ✘ |
 | getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
+| removeAllAffectedEntities |  |  | void | ✘ |
 | removeAffectedEntity | Entity |  | void | ✘ |
 | removeAffectedBlock | BlockContainerJS |  | void | ✘ |
 | removeAllAffectedBlocks |  |  | void | ✘ |
-| removeAllAffectedEntities |  |  | void | ✘ |
+| getAffectedEntities |  |  | EntityArrayList | ✘ |
 | removeKnockback |  |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
-| getX |  |  | double | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getY |  |  | double | ✘ |
-| getZ |  |  | double | ✘ |
+| getX |  |  | double | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
+| getZ |  |  | double | ✘ |
 | getPosition |  |  | Vec3 | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -48,14 +48,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `EntityArrayList getAffectedEntities()`
-```
-Gets a list of all entities affected by the explosion.
-```
-
 - `List<BlockContainerJS> getAffectedBlocks()`
 ```
 Gets a list of all blocks affected by the explosion.
+```
+
+- `void removeAllAffectedEntities()`
+```
+Remove all entities from the list of affected entities.
 ```
 
 - `void removeAffectedEntity(Entity var0)`
@@ -81,9 +81,9 @@ Remove a block from the list of affected blocks.
 Remove all blocks from the list of affected blocks.
 ```
 
-- `void removeAllAffectedEntities()`
+- `EntityArrayList getAffectedEntities()`
 ```
-Remove all entities from the list of affected entities.
+Gets a list of all entities affected by the explosion.
 ```
 
 - `void removeKnockback()`

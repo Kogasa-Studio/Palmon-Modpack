@@ -1,5 +1,5 @@
 {
-	autofocus_id: "2BA2D49F67F26CA7"
+	autofocus_id: "19748B079BF83EDB"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4"
@@ -206,7 +206,9 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["1E2A1641798E125F"]
+			dependencies: ["3D68BD03828E6C01"]
+			hide_dependency_lines: true
+			icon: "kubejs:anchor_shard"
 			id: "3D4DF2C3EA0892F3"
 			tasks: [{
 				id: "5C8173D72BA8F2D7"
@@ -329,10 +331,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["3D68BD03828E6C01"]
-			hide_dependency_lines: true
+			dependencies: ["3D4DF2C3EA0892F3"]
 			icon: "industrialforegoingsouls:soul_laser_base"
 			id: "474FE81A901D1B83"
+			optional: true
 			rewards: [{
 				id: "7766F6AC344140A6"
 				item: {
@@ -371,15 +373,15 @@
 				type: "item"
 			}]
 			title: "4-0 工业先锋：灵魂加速"
-			x: -2.0d
-			y: 2.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["3D68BD03828E6C01"]
+			dependencies: ["3D4DF2C3EA0892F3"]
 			description: ["思索片刻后，你理解了一些高级设备的工作原理与制作方法。"]
-			hide_dependency_lines: true
 			icon: "industrialforegoing:machine_frame_advanced"
 			id: "42B58780F3A296B5"
+			optional: true
 			rewards: [{
 				id: "4D623FBFC4A7D863"
 				item: {
@@ -428,18 +430,18 @@
 				type: "item"
 			}]
 			title: "4-1 工业先锋：高级设备"
-			x: 0.0d
-			y: 2.0d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["3D68BD03828E6C01"]
-			hide_dependency_lines: true
+			dependencies: ["3D4DF2C3EA0892F3"]
 			icon: {
 				Count: 1
 				id: "tiab:time_in_a_bottle"
 				tag: { }
 			}
 			id: "071ABCD9A2899234"
+			optional: true
 			rewards: [{
 				id: "7BEC941E5DA027FA"
 				item: "minecraft:clock"
@@ -452,19 +454,19 @@
 				type: "item"
 			}]
 			title: "4-2 时间之瓶"
-			x: 2.0d
-			y: 2.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["3D68BD03828E6C01"]
+			dependencies: ["3D4DF2C3EA0892F3"]
 			description: [
 				"这份碎片给予了你一份特别的启示，只需要将源质计算框架作为催化剂，就能以一种几乎无法理解的方式制作三种框架......"
 				""
 				"以及热爆花......"
 			]
-			hide_dependency_lines: true
 			icon: "kubejs:alpha_framework"
 			id: "2595BC9FBB0DCFAE"
+			optional: true
 			rewards: [{
 				id: "583D858D9A6ED6DB"
 				item: "kubejs:essence_computation_frame"
@@ -477,15 +479,15 @@
 				type: "item"
 			}]
 			title: "4-3 框架解构"
-			x: -2.0d
-			y: 4.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["3D68BD03828E6C01"]
+			dependencies: ["3D4DF2C3EA0892F3"]
 			description: ["这份碎片给予了你一份特别的启示，通过训练宝可梦使用源质计算框架，你就可以让他们以一种全新的方式制作一些物品......"]
-			hide_dependency_lines: true
 			icon: "cobblemon:master_ball"
 			id: "754E584EBB786A61"
+			optional: true
 			rewards: [{
 				id: "4792AA363CCDF2F9"
 				item: {
@@ -534,14 +536,14 @@
 				type: "item"
 			}]
 			title: "4-4 宝可梦/帕鲁专业化"
-			x: 0.0d
-			y: 4.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["3D68BD03828E6C01"]
-			hide_dependency_lines: true
+			dependencies: ["3D4DF2C3EA0892F3"]
 			icon: "ae2:controller"
 			id: "28242B0319EA2546"
+			optional: true
 			rewards: [{
 				id: "4A1BD034855FBD38"
 				item: {
@@ -640,8 +642,8 @@
 				type: "item"
 			}]
 			title: "4-5 自动化"
-			x: 2.0d
-			y: 4.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D937378D5C6FCB2"]
@@ -658,6 +660,7 @@
 		{
 			dependencies: ["5C182F768906554A"]
 			id: "7C8F21F274C74D59"
+			shape: "hexagon"
 			subtitle: "灵感：新生魔艺"
 			tasks: [{
 				id: "59C43652F7058131"
@@ -670,6 +673,7 @@
 		{
 			dependencies: ["5C182F768906554A"]
 			id: "39A3EB250644FA7A"
+			shape: "hexagon"
 			subtitle: "灵感：龙之研究"
 			tasks: [{
 				id: "2ADD892C42F13E18"
@@ -682,6 +686,7 @@
 		{
 			dependencies: ["5C182F768906554A"]
 			id: "368B50D9FA24ABBA"
+			shape: "hexagon"
 			subtitle: "灵感：工业屠宰"
 			tasks: [{
 				id: "54E690F88D1BFEB8"
@@ -694,6 +699,7 @@
 		{
 			dependencies: ["5C182F768906554A"]
 			id: "76551EEFA4598D87"
+			shape: "hexagon"
 			subtitle: "灵感：深空探索"
 			tasks: [{
 				id: "14636CC107FCBBF0"
@@ -706,6 +712,7 @@
 		{
 			dependencies: ["5C182F768906554A"]
 			id: "3A49D2C7EE90C2F2"
+			shape: "hexagon"
 			subtitle: "灵感：真正的工业"
 			tasks: [{
 				id: "719AFD6BF684BC4A"
@@ -718,6 +725,7 @@
 		{
 			dependencies: ["5C182F768906554A"]
 			id: "4473E1C35100C688"
+			shape: "hexagon"
 			subtitle: "灵感：魔王"
 			tasks: [{
 				id: "1BE00141584172DF"
@@ -1456,6 +1464,14 @@
 			dependencies: ["5DA47C9FB0351EA7"]
 			description: ["这件锚的制作方法来自于异界，他带给了你许多新的启示......"]
 			id: "46A1B445EE65A69E"
+			rewards: [{
+				auto: "invisible"
+				id: "253C1E02EC870A08"
+				ignore_reward_blocking: true
+				stage: "the_end"
+				team_reward: false
+				type: "gamestage"
+			}]
 			shape: "none"
 			size: 2.0d
 			subtitle: "稳定现实"

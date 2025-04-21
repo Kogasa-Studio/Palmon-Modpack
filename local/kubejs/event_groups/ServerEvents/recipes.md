@@ -35,26 +35,26 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | remove | RecipeFilter |  | void | ✘ |
 | stage | RecipeFilter, String |  | void | ✘ |
-| custom | JsonObject |  | RecipeJS | ✘ |
-| printTypes |  |  | void | ✘ |
 | getRecipes |  |  | Map<String, Object> | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
 | addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
 | replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
 | replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
 | findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
 | takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
+| countRecipes | RecipeFilter |  | int | ✘ |
+| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
 | runInParallel | Runnable |  | void | ✔ |
 | runInParallel | Callable<T> |  | T | ✔ |
-| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
 | customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
 | recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
 | printAllTypes |  |  | void | ✘ |
 | setItemErrors | boolean |  | void | ✘ |
 | printExamples | String |  | void | ✘ |
+| printTypes |  |  | void | ✘ |
+| custom | JsonObject |  | RecipeJS | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
