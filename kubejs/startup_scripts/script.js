@@ -40,6 +40,7 @@ StartupEvents.registry('item', event => {
 	event.create('intelligent_draconium_ingot').displayName('Intelligent Draconium Ingot').fireResistant().rarity('epic')
 
 	event.create('end_steel').displayName('§5End Steel').fireResistant().rarity('epic')
+	event.create('collapse_prediction').displayName('§5Collapse Prediction').fireResistant().rarity('epic')
 
 	event.create('alpha_dust').displayName('§aAlpha Dust').fireResistant()
 	event.create('beta_dust').displayName('§bBeta Dust').fireResistant().rarity('rare')

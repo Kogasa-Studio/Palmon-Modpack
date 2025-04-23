@@ -164,6 +164,10 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'integrateddynamics:crafting/logic_director' })
     event.remove({ id: 'rftoolsutility:flight_module' })
+    event.remove({ id: 'botanicalmachinery:mana_emerald_block_decompress' })
+    event.remove({ id: 'botanicalmachinery:mana_infusion/mana_emerald_block' })
+    
+    event.remove({ id: 'hostilenetworks:prediction_matrix' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

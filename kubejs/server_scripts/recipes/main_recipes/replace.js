@@ -42,6 +42,20 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
+        { id: 'hostilenetworks:deep_learner'}
+    ],
+        '#forge:obsidian',
+        'kubejs:end_steel'
+    )
+
+    event.replaceInput([
+        { id: 'hostilenetworks:framework'}
+    ],
+        'minecraft:clay_ball',
+        'kubejs:end_steel'
+    )
+
+    event.replaceInput([
         { id: 'draconicevolution:machines/basic_crafting_injector' }
     ],
         'draconicevolution:draconium_core',

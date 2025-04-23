@@ -216,7 +216,7 @@
 			}]
 			title: "分歧点 4.0"
 			x: 2.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4BC78FBF5168C6A5"]

@@ -252,7 +252,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6B46BCE6AEDB7159"]
 			icon: "kubejs:anchor_shard"
 			id: "46E035BDE38016C4"
 			tasks: [{
@@ -260,8 +259,8 @@
 				type: "checkmark"
 			}]
 			title: "分歧点 5.1"
-			x: 0.0d
-			y: 10.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6B46BCE6AEDB7159"]
@@ -274,6 +273,115 @@
 			title: "分歧点 5.0"
 			x: -2.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["6B46BCE6AEDB7159"]
+			id: "483C08732D23AB5B"
+			tasks: [{
+				id: "402F6229994B91FD"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B46BCE6AEDB7159"]
+			id: "4E59F9682AAA35A2"
+			tasks: [{
+				id: "0405C92E7C3C4BCB"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B46BCE6AEDB7159"]
+			id: "328C71FE57A42FA2"
+			subtitle: "空间中的预测"
+			tasks: [{
+				id: "351FEBBD21DACD1E"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"328C71FE57A42FA2"
+				"483C08732D23AB5B"
+				"4E59F9682AAA35A2"
+			]
+			id: "15331B0B0CEB395A"
+			tasks: [{
+				id: "0594B3E6012C5D09"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["15331B0B0CEB395A"]
+			id: "0989BC2AF1ED2F26"
+			tasks: [{
+				id: "63CE9844F5FE6147"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["15331B0B0CEB395A"]
+			id: "55EABF6C1867A62D"
+			tasks: [{
+				id: "6B3DA9634872D17A"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["15331B0B0CEB395A"]
+			id: "79587F497F62635C"
+			tasks: [{
+				id: "3DE2D6232BCCF08C"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["15331B0B0CEB395A"]
+			id: "693CF7CD9BCC421F"
+			tasks: [{
+				id: "5D524128EEA19446"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"693CF7CD9BCC421F"
+				"55EABF6C1867A62D"
+				"79587F497F62635C"
+			]
+			id: "44B9914AFDCCA987"
+			subtitle: "化繁为简"
+			tasks: [{
+				id: "54EF51E9A3CACC5C"
+				item: "kubejs:collapse_prediction"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
 		}
 	]
 	title: "5. 永恒不再 | The End of Eternity"
