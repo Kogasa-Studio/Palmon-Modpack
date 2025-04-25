@@ -1,5 +1,25 @@
 ServerEvents.recipes(event => {
-    event.shapeless('2x hostilenetworks:prediction_matrix', ['kubejs:collapse_prediction']).id('kubejs:prediction_matrix_s5')
+    event.shapeless('2x hostilenetworks:prediction_matrix', ['kubejs:collapse_prediction']).id('kubejs:prediction_matrix_rec_s5')
+
+    event.shaped('mythicbotany:central_rune_holder', [
+        'ABA',
+        'BCB'
+    ],
+        {
+            A: 'kubejs:collapse_prediction',
+            B: 'kubejs:end_steel',
+            C: 'mythicbotany:rune_holder'
+        }).id('kubejs:central_rune_holder_s5')
+
+    event.shaped('mythicbotany:rune_holder', [
+        'ABA',
+        'BCB'
+    ],
+        {
+            A: 'kubejs:collapse_prediction',
+            B: 'kubejs:end_steel',
+            C: 'jaopca:storage_blocks.mana'
+        }).id('kubejs:rune_holder_s5')
 
     event.recipes.thermal.smelter('2x kubejs:end_steel',
         ['3x techreborn:sodalite_dust', '5x #forge:ingots/draconium', '2x integrateddynamics:crystalized_chorus_block']

@@ -168,6 +168,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'botanicalmachinery:mana_infusion/mana_emerald_block' })
     
     event.remove({ id: 'hostilenetworks:prediction_matrix' })
+    event.remove({ id: 'mythicbotany:rune_holder' })
+    event.remove({ id: 'mythicbotany:central_rune_holder' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

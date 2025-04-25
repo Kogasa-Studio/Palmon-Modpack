@@ -252,6 +252,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["44B9914AFDCCA987"]
 			icon: "kubejs:anchor_shard"
 			id: "46E035BDE38016C4"
 			tasks: [{
@@ -259,8 +260,8 @@
 				type: "checkmark"
 			}]
 			title: "分歧点 5.1"
-			x: 5.0d
-			y: 6.0d
+			x: 0.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["6B46BCE6AEDB7159"]
@@ -382,6 +383,121 @@
 			}]
 			x: 0.0d
 			y: 16.0d
+		}
+		{
+			dependencies: ["44B9914AFDCCA987"]
+			icon: "mythicbotany:central_rune_holder"
+			id: "204AE37D9BF3A002"
+			tasks: [
+				{
+					id: "63D5D65005CE721B"
+					item: "mythicbotany:rune_holder"
+					type: "item"
+				}
+				{
+					id: "4F0EEF6801448476"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+			]
+			title: "符文仪式"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["204AE37D9BF3A002"]
+			id: "6C3FB00EDD463FA3"
+			tasks: [{
+				id: "342F49103CB4C00D"
+				item: "mythicbotany:kvasir_blood"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6C3FB00EDD463FA3"]
+			id: "6334EE9A9E9222B9"
+			tasks: [{
+				id: "3E6A87571AD2CB98"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6334EE9A9E9222B9"]
+			icon: "mythicbotany:elementium_ore"
+			id: "7F0A3F7061F33259"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				id: "460351EBC3F31F4B"
+				type: "dimension"
+			}]
+			title: "亚尔夫海姆"
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46E035BDE38016C4"]
+			id: "72ADD310965741AA"
+			tasks: [{
+				id: "24B3A160ACB04BF0"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46E035BDE38016C4"]
+			id: "2E91FE9B7E360E40"
+			tasks: [{
+				id: "0A74E3FA3CE7FFC1"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46E035BDE38016C4"]
+			id: "4B8E4123930135A1"
+			tasks: [{
+				id: "048FE1245EFC5A23"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46E035BDE38016C4"]
+			id: "0617CC228CA68EA9"
+			tasks: [{
+				id: "152DFB0F8EA16E79"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46E035BDE38016C4"]
+			id: "11F21F539E01619E"
+			tasks: [{
+				id: "528D94C00CC97D0C"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["46E035BDE38016C4"]
+			id: "060D01209461727F"
+			tasks: [{
+				id: "1B170C09F3AA2BED"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 20.0d
 		}
 	]
 	title: "5. 永恒不再 | The End of Eternity"
