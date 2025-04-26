@@ -4,7 +4,16 @@
     "ui.kubejs.relic_coin": "Ancient coins that can be used to synthesize different Vouchers",
     "ui.kubejs.voucher": "Fragments from the gaps of the World Bubble, which can be used to trade for different supplies in the task",
 
+    "ui.kubejs.banned_dim": "You need to reach chapter 5 to set foot here",
+    "ui.kubejs.banned_seed": "You have no connection to the item in this Worldline",
+    
     "ui.kubejs.overowrld_item": "You can not pick up this item, becaus you have lost the Present Blessing. ",
+        
+    "ui.kubejs.lumium_coin": "Use this item to set the number of your Otherworld Relics slots to 2",
+
+    "ui.kubejs.heart_of_the_deep": "Used in combination with Reinforced Echo Shard...",
+    "ui.kubejs.reinforced_echo_shard": "With the Heart of the Deep in the mainhand and the item in the offhand, a rift will be torn through time and space when used while sneaking ......",
+
     "ui.kubejs.no_dulp_curio": "Only one will be activated. ",
 
     "ui.kubejs.present_soul": "Power of Yours",

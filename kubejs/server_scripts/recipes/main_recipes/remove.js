@@ -171,6 +171,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mythicbotany:rune_holder' })
     event.remove({ id: 'mythicbotany:central_rune_holder' })
 
+    event.remove({ id: 'deeperdarker:reinforced_echo_shard' })
+
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })

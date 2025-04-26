@@ -6,7 +6,7 @@ StartupEvents.registry('item', event => {
 	// Register new items here
 	event.create('reinforced_sheet').displayName('Reinforced Sheet').fireResistant()
 	event.create('beryllium_bronze_alloy').displayName('Reinforced Sheet').fireResistant().rarity('rare').glow(true)
-	
+
 	event.create('baby_proofing').displayName('§m§eBaby Proofing').fireResistant().rarity('rare').glow(true)
 	event.create('vial_of_chaos').displayName('§m§dVial of Chaos').fireResistant().rarity('rare').glow(true)
 	event.create('cognitio').displayName('§m§dCognitio').fireResistant().rarity('epic').glow(true)
@@ -41,6 +41,16 @@ StartupEvents.registry('item', event => {
 
 	event.create('end_steel').displayName('§5End Steel').fireResistant().rarity('epic')
 	event.create('collapse_prediction').displayName('§5Collapse Prediction').fireResistant().rarity('epic')
+
+	let anchorgleam = event.create('anchorgleam')
+	anchorgleam.displayName('§aAnchorgleam Energy Drink').fireResistant().rarity('epic')
+		.food(food => {
+			food.hunger(1)
+			food.saturation(0.1)
+			food.effect("minecraft:haste", 160, 0, 1)
+			food.alwaysEdible()
+			food.fastToEat()
+		})
 
 	event.create('alpha_dust').displayName('§aAlpha Dust').fireResistant()
 	event.create('beta_dust').displayName('§bBeta Dust').fireResistant().rarity('rare')

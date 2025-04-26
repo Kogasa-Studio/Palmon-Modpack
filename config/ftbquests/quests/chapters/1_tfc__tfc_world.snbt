@@ -40,11 +40,18 @@
 	quests: [
 		{
 			id: "7D265517B918D923"
-			rewards: [{
-				id: "29596AF8ECD3350E"
-				item: "akashictome:tome"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "29596AF8ECD3350E"
+					item: "akashictome:tome"
+					type: "item"
+				}
+				{
+					id: "546E1059E2CAFD69"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+			]
 			subtitle: "用这些材料制作一些基础的工具"
 			tasks: [
 				{

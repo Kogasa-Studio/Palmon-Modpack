@@ -117,6 +117,7 @@ ServerEvents.recipes((event) => {
 
     // stage 5 3+2
     // main
+    s5DD(event)
 
     //extra
     e5IDW(event)

@@ -33,6 +33,8 @@
 
     "item.kubejs.end_steel": "§5终末钢",
     "item.kubejs.collapse_prediction": "§5坍缩产物",
+
+    "item.kubejs.anchorgleam": "§a锚光·能量饮料",
     
     "item.kubejs.alpha_dust": "§aAlpha 尘",
     "item.kubejs.beta_dust": "§bBeta 尘",
@@ -136,10 +138,14 @@
     "ui.kubejs.voucher": "来自世界泡的间隙中的碎片，可以在不同阶段的任务中具现为不同的物资",
 
     "ui.kubejs.banned_dim": "你需要到达第五章，才能踏足此地",
+    "ui.kubejs.banned_seed": "在此世界线中，你与该物品无缘",
 
     "ui.kubejs.overowrld_item": "因为你失去了现世祝福，该物品将无法被捡起",
     
-    "ui.kubejs.lumium_coin": "使用该物品，可以将你的异界遗物栏位数量设置为3",
+    "ui.kubejs.lumium_coin": "使用该物品，可以将你的异界遗物栏位数量设置为2",
+
+    "ui.kubejs.heart_of_the_deep": "与强化回响碎片结合使用...",
+    "ui.kubejs.reinforced_echo_shard": "主手持深渊之心，副手持该物品，潜行时使用后，将会在时空中撕开一道裂缝......",
 
     "ui.kubejs.no_dulp_curio": "仅第一个佩戴的该饰品生效",
 

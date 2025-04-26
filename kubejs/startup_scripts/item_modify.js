@@ -1,4 +1,7 @@
 ItemEvents.modification(event => {
+  // food
+
+  // weapons
   event.modify('adventuresmod:cobalt_sword', item => {
     item.attackDamage = 19
     item.attackSpeed = -2.2

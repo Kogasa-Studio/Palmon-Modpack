@@ -385,7 +385,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["44B9914AFDCCA987"]
+			dependencies: ["46E035BDE38016C4"]
 			icon: "mythicbotany:central_rune_holder"
 			id: "204AE37D9BF3A002"
 			tasks: [
@@ -401,8 +401,8 @@
 				}
 			]
 			title: "符文仪式"
-			x: 2.0d
-			y: 16.0d
+			x: -2.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["204AE37D9BF3A002"]
@@ -412,8 +412,8 @@
 				item: "mythicbotany:kvasir_blood"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 16.0d
+			x: -2.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["6C3FB00EDD463FA3"]
@@ -423,8 +423,8 @@
 				item: "mythicbotany:kvasir_mead"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 16.0d
+			x: -2.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["6334EE9A9E9222B9"]
@@ -436,18 +436,8 @@
 				type: "dimension"
 			}]
 			title: "亚尔夫海姆"
-			x: 8.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["46E035BDE38016C4"]
-			id: "72ADD310965741AA"
-			tasks: [{
-				id: "24B3A160ACB04BF0"
-				type: "checkmark"
-			}]
 			x: -2.0d
-			y: 20.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
@@ -491,10 +481,21 @@
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
+			description: ["因为世界的约束力，古代城那通往幽冥的传送门无法被开启，但是现在你领悟到了一种新的前往幽冥的方式......"]
 			id: "060D01209461727F"
+			rewards: [{
+				auto: "invisible"
+				id: "562D15BD52588A7E"
+				ignore_reward_blocking: true
+				stage: "deeperanddarker"
+				team_reward: false
+				type: "gamestage"
+			}]
+			subtitle: "灵感：古代与黑暗"
 			tasks: [{
-				id: "1B170C09F3AA2BED"
-				type: "checkmark"
+				id: "50ABD135B9FE37E6"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
 			}]
 			x: -10.0d
 			y: 20.0d

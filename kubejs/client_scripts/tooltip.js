@@ -129,6 +129,24 @@ ItemEvents.tooltip(event => {
 
     event.add('thermal:lumium_coin', Text.translatable('ui.kubejs.lumium_coin').gold())
 
+    event.addAdvanced('deeperdarker:heart_of_the_deep', (item, advanced, text) => {
+        if (player.stages.has('deeperanddarker')) {
+            text.add(1, Text.translate("ui.kubejs.heart_of_the_deep").gold())
+        } else {
+            text.add(1, Text.translate("ui.kubejs.banned_seed").gold())
+        }
+
+    })
+
+    event.addAdvanced('deeperdarker:reinforced_echo_shard', (item, advanced, text) => {
+        if (player.stages.has('deeperanddarker')) {
+            text.add(1, Text.translate("ui.kubejs.reinforced_echo_shard").gold())
+        } else {
+            text.add(1, Text.translate("ui.kubejs.banned_seed").gold())
+        }
+
+    })
+
     event.addAdvanced(Ingredient.all, (item, advanced, text) => {
         if (event.alt && item.nbt) {
             text.add(Text.of('NBT: ').append(Text.prettyPrintNbt(item.nbt)))

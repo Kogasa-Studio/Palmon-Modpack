@@ -1,4 +1,8 @@
 TFCEvents.data(event => {
+    food('kubejs:anchorgleam', 1, 1, 20, 0, 
+        0, 0.5, 0.5, 0, 0
+    )
+
     food('cobblemon:medicinal_leek', 1, 2, 2, 0.25,
         0, 0.6, 0.6, 0, 0
     )
