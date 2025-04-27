@@ -388,6 +388,7 @@
 			dependencies: ["46E035BDE38016C4"]
 			icon: "mythicbotany:central_rune_holder"
 			id: "204AE37D9BF3A002"
+			subtitle: "灵感：神话植物学"
 			tasks: [
 				{
 					id: "63D5D65005CE721B"
@@ -401,7 +402,7 @@
 				}
 			]
 			title: "符文仪式"
-			x: -2.0d
+			x: 0.0d
 			y: 20.0d
 		}
 		{
@@ -412,7 +413,7 @@
 				item: "mythicbotany:kvasir_blood"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 22.0d
 		}
 		{
@@ -423,7 +424,7 @@
 				item: "mythicbotany:kvasir_mead"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 24.0d
 		}
 		{
@@ -436,47 +437,43 @@
 				type: "dimension"
 			}]
 			title: "亚尔夫海姆"
-			x: -2.0d
+			x: 0.0d
 			y: 26.0d
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
 			id: "2E91FE9B7E360E40"
+			subtitle: "灵感：天华之作"
 			tasks: [{
-				id: "0A74E3FA3CE7FFC1"
-				type: "checkmark"
+				id: "64E02D44883C080A"
+				item: "aetherworks:forge_metal_former"
+				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 20.0d
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
 			id: "4B8E4123930135A1"
+			subtitle: "灵感：尘土炼金"
 			tasks: [{
-				id: "048FE1245EFC5A23"
-				type: "checkmark"
+				id: "435D3F6ED5B70DFB"
+				item: "dustandash:ionizer"
+				type: "item"
 			}]
-			x: 6.0d
-			y: 20.0d
-		}
-		{
-			dependencies: ["46E035BDE38016C4"]
-			id: "0617CC228CA68EA9"
-			tasks: [{
-				id: "152DFB0F8EA16E79"
-				type: "checkmark"
-			}]
-			x: 10.0d
+			x: 8.0d
 			y: 20.0d
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
 			id: "11F21F539E01619E"
+			subtitle: "灵感：托卡马克"
 			tasks: [{
-				id: "528D94C00CC97D0C"
-				type: "checkmark"
+				id: "0DED2B44C3A4BE2A"
+				item: "nuclearcraft:fusion_reactor_casing"
+				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: 20.0d
 		}
 		{
@@ -497,8 +494,19 @@
 				item: "deeperdarker:reinforced_echo_shard"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -8.0d
 			y: 20.0d
+		}
+		{
+			dependencies: ["11F21F539E01619E"]
+			id: "57B1FC6308BAB929"
+			tasks: [{
+				id: "4DA3F60112D4D8E5"
+				item: "nuclearcraft:fusion_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 22.0d
 		}
 	]
 	title: "5. 永恒不再 | The End of Eternity"

@@ -118,6 +118,10 @@ ServerEvents.recipes((event) => {
     // stage 5 3+2
     // main
     s5DD(event)
+    s5NCF(event)
+    s5ELF(event)
+    s5EAW(event)
+    s5DNA(event)
 
     //extra
     e5IDW(event)

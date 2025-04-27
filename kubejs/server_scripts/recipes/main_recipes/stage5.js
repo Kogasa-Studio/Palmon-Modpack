@@ -1,25 +1,166 @@
 ServerEvents.recipes(event => {
     event.shapeless('2x hostilenetworks:prediction_matrix', ['kubejs:collapse_prediction']).id('kubejs:prediction_matrix_rec_s5')
 
-    event.shaped('mythicbotany:central_rune_holder', [
-        'ABA',
-        'BCB'
+    event.shaped('nuclearcraft:plate_basic', [
+        'BA',
+        'AB'
     ],
         {
-            A: 'kubejs:collapse_prediction',
-            B: 'kubejs:end_steel',
-            C: 'mythicbotany:rune_holder'
-        }).id('kubejs:central_rune_holder_s5')
+            A: 'kubejs:end_steel',
+            B: '#forge:dusts/graphite'
+        }).id('kubejs:nc_plate_basic_s5')
 
-    event.shaped('mythicbotany:rune_holder', [
-        'ABA',
-        'BCB'
+    event.shaped('nuclearcraft:manufactory', [
+        'ACA',
+        'BDB',
+        'AEA'
     ],
         {
-            A: 'kubejs:collapse_prediction',
+            A: '#forge:ingots/lead',
             B: 'kubejs:end_steel',
-            C: 'jaopca:storage_blocks.mana'
-        }).id('kubejs:rune_holder_s5')
+            C: '#forge:dusts/redstone',
+            D: 'minecraft:piston',
+            E: 'nuclearcraft:coil_copper'
+        }).id('kubejs:nc_manufactory_s5')
+
+    event.shaped('forestry:sturdy_machine', [
+        'ABA',
+        'A A',
+        'ABA'
+    ],
+        {
+            A: '#forge:ingots/bronze',
+            B: 'kubejs:end_steel'
+        }).id('kubejs:sturdy_machine_s5')
+
+    event.shaped('forestry:carpenter', [
+        'ABA',
+        'ACA',
+        'ABA'
+    ],
+        {
+            A: 'kubejs:end_steel',
+            B: 'forestry:electron_tube_emerald',
+            C: 'forestry:sturdy_machine'
+        }).id('kubejs:carpenter_s5')
+
+    event.shaped('forestry:squeezer', [
+        'ABA',
+        'DCD',
+        'ABA'
+    ],
+        {
+            A: '#forge:ingots/tin',
+            B: 'forestry:electron_tube_emerald',
+            C: 'forestry:sturdy_machine',
+            D: 'kubejs:end_steel'
+        }).id('kubejs:squeezer_s5')
+
+    event.custom({
+        "type": "forestry:carpenter",
+        "box": {
+            "item": 'forestry:impregnated_casing'
+        },
+        "liquid": {
+            "Amount": 5000,
+            "FluidName": "minecraft:water"
+        },
+        "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+                "X": {
+                    "tag": "forge:gems/diamond"
+                },
+                "Y": {
+                    "item": "forestry:sturdy_machine"
+                },
+                "Z": {
+                    "item": 'kubejs:end_steel'
+                }
+            },
+            "pattern": [
+                "XZX",
+                " Y ",
+                "XZX"
+            ],
+            "result": {
+                "item": "forestry:hardened_machine"
+            },
+            "show_notification": true
+        },
+        "time": 150
+    }).id('kubejs:hardened_machine_s5')
+
+    event.custom({
+        "type": "forestry:fabricator",
+        "molten": {
+            "Amount": 500,
+            "FluidName": "forestry:glass"
+        },
+        "plan": [],
+        "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+                "#": {
+                    "item": 'kubejs:end_steel'
+                },
+                "B": {
+                    "item": 'forestry:circuit_board_intricate'
+                },
+                "E": {
+                    "item": 'forestry:electron_tube_emerald'
+                },
+                "A": {
+                    "item": 'forestry:hardened_machine'
+                }
+            },
+            "pattern": [
+                "#E#",
+                "BAB",
+                "#E#"
+            ],
+            "result": {
+                "item": "forestry:flexible_casing"
+            },
+            "show_notification": true
+        }
+    }).id('kubejs:flexible_casing_s5')
+
+    event.shaped('malum:spirit_altar', [
+        'DAD',
+        'BCB',
+        'CCC'
+    ],
+        {
+            A: 'malum:processed_soulstone',
+            B: 'kubejs:stable_desh_ingot',
+            C: '#malum:runewood_planks',
+            D: 'kubejs:end_steel'
+        }).id('kubejs:spirit_altar_s5')
+
+
+    event.shaped('embers:alchemy_tablet', [
+        'AAA',
+        'BCB',
+        'BDB'
+    ],
+        {
+            A: '#forge:plates/dawnstone',
+            B: 'kubejs:end_steel',
+            C: 'embers:ember_crystal',
+            D: 'embers:mechanical_core'
+        }).id('kubejs:alchemy_tablet_s5')
+
+    event.recipes.create.item_application('create:brass_casing',
+        ['create:andesite_casing', 'kubejs:end_steel']
+    ).id('kubejs:cr_brass_casing_s5')
+
+    event.recipes.thermal.smelter('2x kubejs:hallowed_soul_steel_ingot',
+        ['2x kubejs:end_steel', '#forge:ingots/soul_stained_steel', 'malum:hallowed_gold_ingot']
+    ).energy(204800)
+        .id('kubejs:hallowed_soul_steel_ingot_s5')
 
     event.recipes.thermal.smelter('2x kubejs:end_steel',
         ['3x techreborn:sodalite_dust', '5x #forge:ingots/draconium', '2x integrateddynamics:crystalized_chorus_block']
@@ -85,7 +226,7 @@ ServerEvents.recipes(event => {
         "input_fluid": {
             "fluid": "thermal:refined_fuel",
             "amount": 500
-          },
+        },
         "tick": 1000,
         "result_items": [
             {
@@ -98,7 +239,7 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:prediction_matrix_s5')
-    
+
     event.recipes.create.compacting(['2x kubejs:collapse_prediction'],
         [
             '3x hostilenetworks:overworld_prediction',

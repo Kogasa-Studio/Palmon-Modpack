@@ -168,10 +168,17 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'botanicalmachinery:mana_infusion/mana_emerald_block' })
     
     event.remove({ id: 'hostilenetworks:prediction_matrix' })
-    event.remove({ id: 'mythicbotany:rune_holder' })
-    event.remove({ id: 'mythicbotany:central_rune_holder' })
 
     event.remove({ id: 'deeperdarker:reinforced_echo_shard' })
+
+    event.remove({ id: 'nuclearcraft:fusion_reactor_casing' })
+
+    event.remove({ id: 'mythicbotany:rune_holder' })
+
+    event.remove({ id: 'mythicbotany:central_rune_holder' })
+    event.remove({ id: 'aetherworks:metal_former_block' })
+    
+    event.remove({ id: 'dustandash:crafting/ionizer' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

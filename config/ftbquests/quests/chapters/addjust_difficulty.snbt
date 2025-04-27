@@ -34,6 +34,7 @@
 				"In the beginning of Chapter 3, the suggested difficulty is 4-6, in near the end of Chapter 3, the suggested difficulty is 5-6,"
 				"Of course, the final decision is up to you. "
 			]
+			hide_dependent_lines: true
 			id: "015905562F38D087"
 			shape: "rsquare"
 			subtitle: "见描述 | See spec."
@@ -449,6 +450,7 @@
 			]
 			dependency_requirement: "one_completed"
 			disable_toast: true
+			hide_dependency_lines: true
 			icon: "ae2:nether_quartz_wrench"
 			id: "184BF72A7D450661"
 			rewards: [
