@@ -28,7 +28,7 @@ EntityEvents.spawned(event => {
 
     if (entity && entity.isLiving()) {
         var name = entity.type
-        if (entity.isMonster() && !global.entityBlackList.has(name) && !entity.persistentData.contains('diffLevel')) {
+        if (entity.isMonster() && !global.entityBlackList.has(name) && entity.persistentData && !entity.persistentData.contains('diffLevel')) {
             var player = entity.getLevel().getNearestPlayer(entity, 240)
             if (player) {
                 var diffNum = 0

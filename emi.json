@@ -76,9 +76,32 @@
     {
       "stack": "item:dustandash:titanium_aluminum_alloy",
       "recipe": "jei:/dustandash/ionizer/titanium_aluminum_alloy"
+    },
+    {
+      "stack": "item:createaddition:seed_oil_bucket"
     }
   ],
   "lookup_history": [
+    "item:kubejs:light_of_inlixaland",
+    "item:kubejs:otherside_mixture",
+    "item:deeperdarker:resonarium_plate",
+    "item:deeperdarker:reinforced_echo_shard",
+    "item:createaddition:seed_oil_bucket",
+    {
+      "type": "fluid",
+      "id": "immersiveengineering:plantoil",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "createaddition:seed_oil",
+      "amount": 0
+    },
+    "item:kubejs:alpha_framework",
+    "item:create:andesite_casing",
+    "item:palmon:boost_frame_2",
+    "item:palmon:boost_frame_1",
+    "item:deeperdarker:bloom_berries",
     "item:deeperdarker:blooming_moss_block",
     "item:deeperdarker:soundproof_glass",
     {
@@ -90,7 +113,6 @@
     "item:deeperdarker:glowing_roots",
     "item:thermal:enderium_ingot",
     "item:deeperdarker:gloomy_cactus",
-    "item:deeperdarker:resonarium_plate",
     "item:deeperdarker:resonarium",
     "item:deeperdarker:soul_crystal",
     "item:deeperdarker:soul_dust",
@@ -122,12 +144,6 @@
     "item:deeperdarker:sculk_grime",
     "item:deeperdarker:grime_ball",
     "item:deeperdarker:blooming_stem",
-    "item:deeperdarker:bloom_berries",
-    {
-      "type": "item",
-      "id": "deeperdarker:reinforced_echo_shard",
-      "amount": 64
-    },
     "item:createaddition:biomass",
     "item:createaddition:biomass_pellet",
     "item:forestry:flexible_casing",
@@ -478,7 +494,6 @@
       "amount": 64
     },
     "item:kubejs:beta_framework",
-    "item:kubejs:alpha_framework",
     "item:draconicevolution:wyvern_core",
     "item:draconicevolution:wyvern_energy_core",
     "item:minecraft:jungle_stairs",
@@ -679,7 +694,7 @@
       "id": "techreborn:cupronickel_heating_coil",
       "amount": 7
     },
-    "#item:c:ingots/gold",
+    "#item:c:gold_ingots",
     "#item:c:diamonds",
     "item:botania:manastar",
     "item:aetherworks:potion_gem{CustomPotionEffects:[{Ambient:1b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:200,Id:168,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"ars_nouveau:spell_damage\"}],gem_color:2017480}",
@@ -777,7 +792,6 @@
       "amount": 4
     },
     "item:jaopca:gears.dawnstone",
-    "item:create:andesite_casing",
     "item:slashblade:proudsoul_sphere{SpecialAttackType:\"slashblade_addon:blistering_terra_swords\"}",
     "item:tconstruct:tinker_station",
     "item:tconstruct:tough_handle",
@@ -820,8 +834,6 @@
     "item:palmon:boost_frame_3",
     "item:palmon:boost_frame_4",
     "item:palmon:boost_frame_5",
-    "item:palmon:boost_frame_2",
-    "item:palmon:boost_frame_1",
     "item:tfc:kaolin_clay",
     "item:thermal:steel_gear",
     "#item:kubejs:stage2_convergence",
@@ -1636,11 +1648,7 @@
     "item:botania:apothecary_deepslate",
     "item:botania:apothecary_livingrock",
     "item:botania:apothecary_mossy",
-    "item:botania:apothecary_mesa",
-    "item:botania:apothecary_desert",
-    "item:botania:apothecary_swamp",
-    "item:botania:apothecary_fungal",
-    "item:botania:apothecary_mountain"
+    "item:botania:apothecary_mesa"
   ],
   "craft_history": [
     "jei:/forestry/carpenter/circuits/refined",
@@ -2140,42 +2148,42 @@
   ],
   "recipe_defaults": {
     "added": [
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "mekanism_extras:control_circuit/absolute",
+      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
       "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
       "create:crafting/kinetics/steam_engine",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
-      "mekanism_extras:control_circuit/cosmic",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "mekanism_extras:control_circuit/absolute",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "mekanism_extras:control_circuit/supreme",
+      "mekanism_extras:control_circuit/infinite",
       "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
       "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/malum/spirit_infusion/stellar_mechanism",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
       "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
+      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
       "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
+      "mekanism_extras:control_circuit/supreme",
+      "mekanism_extras:control_circuit/cosmic",
+      "tfcoreprocessing:compress/compress_refined_limonite",
       "jei:/tfc/casting/weak_steel_ingot",
       "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "mekanism_extras:control_circuit/infinite",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "tfcoreprocessing:compress/compress_refined_limonite",
-      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
       "jei:/mekanism/processing/uranium/uranium_oxide",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite"
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining"
     ],
     "tags": {
+      "#item:c:gold_ingots": "item:tfc:metal/ingot/gold",
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
-      "#item:c:ingots/gold": "item:tfc:metal/ingot/gold",
       "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },

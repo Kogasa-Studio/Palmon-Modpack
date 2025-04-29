@@ -46,10 +46,7 @@ function s5DD(event) {
         "area_blocks": [
             {
                 "item": 'deeperdarker:gloomy_geyser'
-            },
-            {
-                "item": 'integratedterminals:menril_glass'
-            },
+            }
         ],
         "block_count": 4,
         "input_items": [
@@ -81,7 +78,6 @@ function s5DD(event) {
         ]
     }).id('kubejs:otherside_mixture_s5')
 
-
     event.custom({
         "type": "palmon:processing",
         "category": "misc",
@@ -97,10 +93,7 @@ function s5DD(event) {
         "area_blocks": [
             {
                 "item": 'deeperdarker:gloomy_geyser'
-            },
-            {
-                "item": 'integratedterminals:menril_glass'
-            },
+            }
         ],
         "block_count": 4,
         "input_items": [

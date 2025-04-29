@@ -66,6 +66,7 @@ ServerEvents.recipes((event) => {
     e1TC(event)
     e1PK(event)
     e1PL(event)
+    console.log("s1 recipes loaded")
 
     // stage 2 1+1
     // main
@@ -80,6 +81,7 @@ ServerEvents.recipes((event) => {
     // final
     s2Frame1(event)
     s2Frame2(event)
+    console.log("s2 recipes loaded")
 
     // stage 3 2+2
     // main
@@ -97,6 +99,7 @@ ServerEvents.recipes((event) => {
     e3CR(event)
     // convergence
     s3ConvergenceRecipe(event, 0, 1)
+    console.log("s3 recipes loaded")
 
     // stage 4 3+2
     // main
@@ -114,6 +117,7 @@ ServerEvents.recipes((event) => {
     e4PLM(event)
     // convergence
     s4ConvergenceRecipe(event, 0, 1, 2)
+    console.log("s4 recipes loaded")
 
     // stage 5 3+2
     // main
@@ -127,6 +131,8 @@ ServerEvents.recipes((event) => {
     e5IDW(event)
     e5FL(event)
     e5BM(event)
+
+    console.log("s5 recipes loaded")
 
     if (global.removeBMRecipes) {
         // Botanical Machinery, by e5BM

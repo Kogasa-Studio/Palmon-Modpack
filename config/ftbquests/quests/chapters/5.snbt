@@ -726,6 +726,17 @@
 			x: -4.0d
 			y: 24.0d
 		}
+		{
+			dependencies: ["5BE86D89DCA6EBCA"]
+			id: "79B60394F8868246"
+			tasks: [{
+				id: "190F64BEF9AFDF70"
+				item: "kubejs:light_of_inlixaland"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 28.0d
+		}
 	]
 	title: "5. 永恒不再 | End of Eternity"
 }
