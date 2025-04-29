@@ -57,7 +57,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7FC968D263AEA122"]
@@ -69,7 +69,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7FC968D263AEA122"]
@@ -81,10 +81,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["1E2A1641798E125F"]
+			dependencies: ["35AC997D13DA88C0"]
 			id: "5FF7C6DD23AB4E74"
 			rewards: [{
 				id: "4E9A6F6E9FCCFA32"
@@ -98,7 +98,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6E193B6B06A8FA7C"]
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3103710D58171CDA"]
@@ -120,7 +120,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["098E70A731DA0721"]
@@ -131,7 +131,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["780219F416B18981"]
@@ -156,7 +156,7 @@
 			]
 			title: "处理器"
 			x: 4.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["47BFCE83D644E037"]
@@ -167,7 +167,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -12.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["788485F3CA377560"]
@@ -192,7 +192,7 @@
 			]
 			title: "精灵材料"
 			x: -4.0d
-			y: -12.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1629D5D348CBAF9F"]
@@ -203,7 +203,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
@@ -235,7 +235,7 @@
 			}]
 			title: "硅"
 			x: 4.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -250,7 +250,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -12.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
@@ -268,7 +268,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7F9DDBB392F82A01"]
@@ -279,8 +279,8 @@
 				item: "mythicbotany:mana_infuser"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -12.0d
+			x: -4.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["34407AC6D2A2E064"]
@@ -291,7 +291,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -14.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["4022752FECFC650A"]
@@ -301,7 +301,7 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: -14.0d
 		}
 		{
@@ -316,8 +316,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -16.0d
+			x: -8.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1629D5D348CBAF9F"]
@@ -328,7 +328,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["3D4DF2C3EA0892F3"]
@@ -752,30 +752,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -14.0d
-		}
-		{
-			dependencies: ["792EBBF529719097"]
-			icon: "industrialforegoing:dryrubber"
-			id: "39CFA81F8B1EB3D6"
-			tasks: [
-				{
-					id: "4997A4E8751782DA"
-					item: "industrialforegoing:fluid_extractor"
-					type: "item"
-				}
-				{
-					id: "403934C50BD3A4E4"
-					item: "industrialforegoing:latex_processing_unit"
-					type: "item"
-				}
-			]
-			title: "胶乳与塑料"
-			x: 0.0d
 			y: -16.0d
 		}
 		{
-			dependencies: ["39CFA81F8B1EB3D6"]
+			dependencies: ["792EBBF529719097"]
 			hide_until_deps_complete: true
 			id: "0F7856B347537A96"
 			tasks: [{
@@ -1482,6 +1462,18 @@
 			}]
 			x: 0.0d
 			y: -30.0d
+		}
+		{
+			dependencies: ["1E2A1641798E125F"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "35AC997D13DA88C0"
+			tasks: [{
+				id: "3DDD45E7C62B2F2A"
+				type: "checkmark"
+			}]
+			title: "世界线的观测者·β"
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 	title: "4. 火星 | The Mars"

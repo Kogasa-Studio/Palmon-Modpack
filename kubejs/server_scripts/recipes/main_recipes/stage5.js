@@ -153,6 +153,55 @@ ServerEvents.recipes(event => {
             D: 'embers:mechanical_core'
         }).id('kubejs:alchemy_tablet_s5')
 
+
+    event.shaped('modularrouters:modular_router', [
+        'CAC',
+        'ABA',
+        'CAC'
+    ],
+        {
+            A: 'kubejs:end_steel',
+            B: 'kubejs:delta_framework',
+            C: '#forge:plates/dawnstone'
+        }).id('kubejs:modular_router_s5')
+
+    event.shaped('2x sfm:cable', [
+        'DAC',
+        'ABA',
+        'CAD'
+    ],
+        {
+            A: 'integrateddynamics:cable',
+            B: 'integratedterminals:menril_glass',
+            C: 'kubejs:end_steel',
+            D: '#forge:plates/steel'
+        }).id('kubejs:sfm_cable_s5')
+
+    event.shaped('sfm:manager', [
+        'CAC',
+        'ABA',
+        'DAE'
+    ],
+        {
+            A: 'sfm:cable',
+            B: 'kubejs:delta_framework',
+            C: '#forge:chests',
+            D: 'integrateddynamics:variablestore',
+            E: 'integrateddynamics:logic_programmer'
+        }).id('kubejs:sfm_manager_s5')
+
+    event.shaped('rftoolsbase:machine_frame', [
+        'ACA',
+        'BDB',
+        'ACA'
+    ],
+        {
+            A: 'kubejs:end_steel',
+            B: '#forge:plates/dawnstone',
+            C: '#forge:dyes/blue',
+            D: 'kubejs:delta_framework'
+        }).id('kubejs:rft_machine_frame_s5')
+
     event.recipes.create.item_application('create:brass_casing',
         ['create:andesite_casing', 'kubejs:end_steel']
     ).id('kubejs:cr_brass_casing_s5')
@@ -166,6 +215,14 @@ ServerEvents.recipes(event => {
         ['3x techreborn:sodalite_dust', '5x #forge:ingots/draconium', '2x integrateddynamics:crystalized_chorus_block']
     ).energy(204800)
         .id('kubejs:end_steel_s5')
+
+    event.recipes.create.mixing('12x fluxnetworks:flux_core', [
+        '16x fluxnetworks:flux_dust',
+        '8x #forge:obsidian',
+        '4x minecraft:ender_eye',
+        '4x kubejs:end_steel',
+        'kubejs:gamma_framework'
+    ]).superheated().id('kubejs:flux_core_s5')
 
     event.custom({
         "type": "palmon:processing",
@@ -242,6 +299,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.create.compacting(['2x kubejs:collapse_prediction'],
         [
+            '4x createaddition:biomass_pellet',
             '3x hostilenetworks:overworld_prediction',
             '2x hostilenetworks:nether_prediction',
             'hostilenetworks:end_prediction'

@@ -478,7 +478,11 @@
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
-			description: ["因为世界的约束力，古代城那通往幽冥的传送门无法被开启，但是现在你领悟到了一种新的前往幽冥的方式......"]
+			description: [
+				"因为世界的约束力，古代城那通往幽冥的传送门无法被开启，但是现在你领悟到了一种新的前往幽冥的方式......"
+				""
+				"注意：不能保证抵达地的安全性"
+			]
 			id: "060D01209461727F"
 			rewards: [{
 				auto: "invisible"
@@ -508,6 +512,220 @@
 			x: -4.0d
 			y: 22.0d
 		}
+		{
+			dependencies: ["6B46BCE6AEDB7159"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "48878B5E13B0390A"
+			tasks: [{
+				id: "67EFFDEC206053AD"
+				type: "checkmark"
+			}]
+			title: "世界线的观测者·γ"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "775CEEDCBDEE34A4"
+			tasks: [{
+				id: "0202304A54A555F0"
+				item: "nuclearcraft:manufactory"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "2D40BBBC4A6EC404"
+			tasks: [{
+				id: "311838B13B6B56A8"
+				item: "forestry:sturdy_machine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "53829E88946C5F08"
+			tasks: [{
+				id: "7B3DD36AFE33528E"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "456DE02DF9B1F46E"
+			tasks: [{
+				id: "4F9B0956DC57E628"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "50875B4D89A7223A"
+			tasks: [{
+				id: "640A20A2D0FCBF76"
+				item: "embers:alchemy_tablet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "2EB098DC8CA29283"
+			tasks: [{
+				id: "7E7B98E6604E0154"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "739DAABCB5EFDBB9"
+			tasks: [{
+				id: "6DBE76D04C7BD32B"
+				item: "sfm:manager"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "6D66683164E517C6"
+			tasks: [{
+				id: "75CD15A997D56EF9"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["48878B5E13B0390A"]
+			id: "3B4C7B9FF044D883"
+			tasks: [{
+				id: "7448F25A0440FBFC"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["060D01209461727F"]
+			icon: "deeperdarker:sculk_stone"
+			id: "49AE0898F1666F6D"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "2B0AB2F26CE5C71F"
+				type: "dimension"
+			}]
+			title: "抵达幽冥"
+			x: -8.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["49AE0898F1666F6D"]
+			id: "0291D1E8CC918369"
+			tasks: [{
+				id: "2EB1342F1F2404D5"
+				item: "deeperdarker:gloomslate"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["49AE0898F1666F6D"]
+			id: "221316FB6EF3071E"
+			tasks: [{
+				id: "50A77B67CD344336"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: 4968000L
+							traits: [ ]
+						}
+					}
+					id: "deeperdarker:bloom_berries"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["49AE0898F1666F6D"]
+			id: "59C3E4FCDF2AD094"
+			tasks: [{
+				id: "5CD7B96998975A46"
+				item: "deeperdarker:sculk_tendrils"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["49AE0898F1666F6D"]
+			id: "3103688CC26AD669"
+			tasks: [{
+				id: "427BCBD25415E766"
+				item: "deeperdarker:resonarium_plate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["49AE0898F1666F6D"]
+			id: "36500742659322E9"
+			tasks: [{
+				id: "5A083950470E80E2"
+				item: "deeperdarker:sculk_grime"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"59C3E4FCDF2AD094"
+				"0291D1E8CC918369"
+				"221316FB6EF3071E"
+			]
+			id: "5BE86D89DCA6EBCA"
+			tasks: [{
+				id: "64757667FAF141FD"
+				item: "kubejs:otherside_mixture"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["57B1FC6308BAB929"]
+			id: "4A9E562D1C7EBF2A"
+			tasks: [{
+				id: "2641F1F1F1ADB10E"
+				item: "nuclearcraft:helium_3_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 24.0d
+		}
 	]
-	title: "5. 永恒不再 | The End of Eternity"
+	title: "5. 永恒不再 | End of Eternity"
 }

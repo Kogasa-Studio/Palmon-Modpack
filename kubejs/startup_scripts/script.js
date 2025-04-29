@@ -42,6 +42,9 @@ StartupEvents.registry('item', event => {
 	event.create('end_steel').displayName('§5End Steel').fireResistant().rarity('epic')
 	event.create('collapse_prediction').displayName('§5Collapse Prediction').fireResistant().rarity('epic')
 
+	event.create('otherside_mixture').displayName('§5Otherside Mixture').fireResistant().rarity('epic')
+	event.create('light_of_inlixaland').displayName('§eLight of Inlixaland').fireResistant().rarity('epic')
+
 	let anchorgleam = event.create('anchorgleam')
 	anchorgleam.displayName('§aAnchorgleam Energy Drink').fireResistant().rarity('epic')
 		.food(food => {
