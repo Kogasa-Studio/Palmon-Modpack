@@ -35,9 +35,12 @@
     "item.kubejs.collapse_prediction": "§5坍缩产物",
 
     "item.kubejs.otherside_mixture": "§5幽冥混合物",
-    "item.kubejs.light_of_inlixaland": "§e无夜园之光",
+    "item.kubejs.light_of_inlixaland": "§e无夜之光",
 
-    "item.kubejs.anchorgleam": "§a锚光·能量饮料",
+    "item.kubejs.helium_3_crystal": "§5氦-3晶体",
+    "item.kubejs.helium_3_crystal_infinity": "§5氦-3晶体-∞",
+
+    "item.kubejs.anchorgleam": "§a锚光™",
     
     "item.kubejs.alpha_dust": "§aAlpha 尘",
     "item.kubejs.beta_dust": "§bBeta 尘",
@@ -105,34 +108,30 @@
     "item.kubejs.photo_of_niko": "§d⌈Niko的照片⌋",
     "item.kubejs.godricks_great_rune": "§d⌈葛瑞克的大卢恩⌋",
 
+    "fluid.kubejs.hybrid_fuel": "混合燃料",
+
     "fluid.kubejs.melted_refined_copper": "熔融精炼铜",
     "fluid.kubejs.melted_refined_steel": "熔融精炼钢",
     "fluid.kubejs.melted_refined_m_steel": "熔融精炼M钢",
-    "fluid.kubejs.melted_soul_stained_steel": "熔融魂染钢",
-    "fluid.kubejs.melted_glowing_obsidian": "熔融发光黑曜石",
-    "fluid.kubejs.melted_moltarium": "熔融熔岩合金",
-    "fluid.kubejs.melted_terrasteel": "熔融泰拉钢",
+
     "fluid.kubejs.melted_gaia": "熔融盖亚",
     "fluid.kubejs.melted_ignitium": "熔融腾炎",
     "fluid.kubejs.melted_witherite": "熔融凋零合金",
     "fluid.kubejs.melted_cursium": "熔融咒魂",
-    "fluid.kubejs.melted_voidarium": "熔融虚空",
-    "fluid.kubejs.melted_mythril": "熔融秘银",
+
     "fluid.kubejs.melted_beryllium_bronze_alloy": "§e熔融铍青铜合金",
         
+    "item.kubejs.hybrid_fuel_bucket": "桶装混合燃料",
+    
     "item.kubejs.melted_refined_copper_bucket": "桶装熔融精炼铜",
     "item.kubejs.melted_refined_steel_bucket": "桶装熔融精炼钢",
     "item.kubejs.melted_refined_m_steel_bucket": "桶装熔融精炼M钢",
-    "item.kubejs.melted_soul_stained_steel_bucket": "桶装熔融魂染钢",
-    "item.kubejs.melted_glowing_obsidian_bucket": "桶装熔融发光黑曜石",
-    "item.kubejs.melted_moltarium_bucket": "桶装熔融熔岩合金",
-    "item.kubejs.melted_terrasteel_bucket": "桶装熔融泰拉钢",
+
     "item.kubejs.melted_gaia_bucket": "桶装熔融盖亚",
     "item.kubejs.melted_ignitium_bucket": "桶装熔融腾炎",
     "item.kubejs.melted_witherite_bucket": "桶装熔融凋零合金",
     "item.kubejs.melted_cursium_bucket": "桶装熔融咒魂",
-    "item.kubejs.melted_voidarium_bucket": "桶装熔融虚空",
-    "item.kubejs.melted_mythril_bucket": "桶装熔融秘银",
+    
     "item.kubejs.melted_beryllium_bronze_alloy_bucket": "§e桶装熔融铍青铜合金",
 
     "ui.kubejs.slashblade": "你还未领悟§e剑之魂",
@@ -177,6 +176,8 @@
     "ui.kubejs.photo_of_niko": "⌈One Shot⌋ \nNot a cat!\nA backup!\n3rd time's the charm?\nThis is kind of fun.\nLookin' Good.\nNiko blinked in this one. \nNice.\nVery photogenic.\nCan't have too much of a good thing!\nThe ultimate photo.",
     "ui.kubejs.godricks_great_rune": "⌈Elden Ring⌋ “艾尔登之王”葛孚雷与其后代子孙—— \n黄金一族是最先出现的半神",
     
+    "ui.kubejs.marker": "Palmon - by Tonywww",
+    
     "ui.kubejs.compact_pal_factory_2": "经过极限压缩后，能完全自给自足的帕鲁工厂",
     "ui.kubejs.compact_pal_factory_3": "每隔一段时间，在背包内生成一个随机的精灵球",
     "ui.kubejs.compact_pal_factory_4": "你的§e⌈压缩型帕鲁工厂⌋§r成功制造了： ",
@@ -191,46 +192,9 @@
     "ui.kubejs.the_necklace_of_krosa_2": "每隔一段时间，给你提供一个随机的增益",
     "ui.kubejs.godricks_great_rune_2": "每隔一段时间，消耗你副手的金粒，一段时间内使你受到的伤害大幅降低",
 
+    "ui.kubejs.helium_3_crystal_infinity": "反应速度缓慢，但是拥有极长反应时间的核燃料",
+
     "ui.kubejs.wear_to_update": "佩戴该遗物以显示更新后的属性加成， \n该类型的遗物无法重复加成同个属性",
-
-    "material.tconstruct.blue_steel": "蓝钢",
-    "material.tconstruct.red_steel": "红钢",
-    "material.tconstruct.refined_copper": "精炼铜",
-    "material.tconstruct.moltarium": "熔岩金属",
-    "material.tconstruct.tumblestone": "玉石",
-    "material.tconstruct.ember_crystal": "余烬晶体",
-    "material.tconstruct.soulstone": "灵魂石",
-
-    "material.tconstruct.desh": "戴斯",
-    "material.tconstruct.sky_tumblestone": "天蓝玉石",
-    "material.tconstruct.black_tumblestone": "黑玉石",
-    "material.tconstruct.dawnstone": "黎明石",
-    "material.tconstruct.hard_carbon": "硬碳",
-    "material.tconstruct.tough_alloy": "高强合金",
-    "material.tconstruct.soul_stained_steel": "魂染钢",
-    "material.tconstruct.max_revive": " 活力块",
-    "material.tconstruct.refined_steel": "精炼钢",
-    "material.tconstruct.extreme_alloy": "极限合金",
-    "material.tconstruct.thermoconducting_alloy": "导热合金",
-
-    "material.tconstruct.enderium": "末影",
-    "material.tconstruct.refined_m_steel": "精炼M钢",
-    "material.tconstruct.polymer": "聚合物",
-    "material.tconstruct.cursium": "咒魂",
-    "material.tconstruct.witherite": "凋零合金",
-    "material.tconstruct.ignitium": "腾炎",
-    "material.tconstruct.iesnium": "艾瑟金属",
-    "material.tconstruct.terrasteel": "泰拉钢",
-    "material.tconstruct.glowing_obsidian": "发光黑曜石",
-    "material.tconstruct.boron_nitride_gem": "六方氮化硼",
-
-    "material.tconstruct.ostrum": "紫金",
-    "material.tconstruct.voidarium": "虚空金属",
-    "material.tconstruct.mythril": "秘银",
-    "material.tconstruct.gaia": "盖亚魂",
-    "material.tconstruct.cell_component_64k": "64k ME存储组件",
-    "material.tconstruct.calorite": "耐热金属",
-    "material.tconstruct.reinforced_sheet": "强化板",
 
     "material.tconstruct.beryllium_bronze_alloy": "铍青铜合金",
 

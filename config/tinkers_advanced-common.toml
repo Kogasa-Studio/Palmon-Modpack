@@ -2,17 +2,58 @@
 #Matter Manipulator behaviour
 [matter_manipulator]
 	#Base mining speed multiplier of Matter Manipulator, 1.0 by default.
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 1000.0
 	matter_manipulator_base_multiplier = 1.0
 	#Base mining speed multiplier of Matter Manipulator when is conducting AOE mining, 0.5 by default.
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 1000.0
 	matter_manipulator_aoe_base_multiplier = 0.5
 	#Mining fluid bonus multiplier of Matter Manipulator , 0.5 by default , meaning that each 200 °C adds 1 mining speed.
-	#Range: 0.0 ~ 100.0
+	#Range: 0.0 ~ 1000.0
 	matter_manipulator_fluid_bonus_multiplier = 0.5
+	#Allows Matter Manipulator to gain enchantment boost from fluids in mining mode (e.g. Gain silk touch from molten emerald). true by default.
+	matter_manipulator_fluid_enchanting = true
+	#Base mining range for Matter Manipulator, 16.0 by default.
+	#Range: 0.0 ~ 64.0
+	matter_manipulator_base_range = 16.0
+	#Capacity factor for Matter Manipulator, 10.0 by default.
+	#Range: 0.0 ~ 1000.0
+	ionized_cannon_base_capacity_factor = 10.0
+	#Base fluid efficiency for Matter Manipulator, 1.0 by default.
+	#Range: 0.0 ~ 1000.0
+	ionized_cannon_base_fluid_efficiency = 0.0
 
 #Mekanism Interaction
 [mekanism_interaction]
-	#Enables fusion reactor exploding when throwing iron ingots into it. True by default.
+	#Enables fusion reactor exploding when throwing iron ingots into it. true by default.
 	allow_neutronite_crafting = true
+
+#Modifiers behaviour
+[modifier_behaviour]
+	#Max upgrade slot bonus for Shaping modifier, 3 by default.
+	#Range: 1 ~ 1000
+	shaping_max_slot = 3
+	#How many durability loss is needed for Shaping modifier to gain 1 slot, 500 by default.
+	#Range: 1 ~ 1000000
+	shaping_damages_each_slot = 500
+
+#Ionized Cannon behaviour
+[ionized_cannon]
+	#The multiplier of fluid consumption of Ionized Cannon, 1.0 by default.
+	#Range: 0.0 ~ 1000.0
+	ionized_cannon_fluid_factor = 1.0
+	#Damage multiplier for Ionized Cannon when using correct fluids, 4.0 by default.
+	#Range: 1.0 ~ 1000.0
+	ionized_cannon_damage_bonus = 4.0
+	#Base fluid efficiency for Ionized Cannon, 0.0 by default.
+	#Range: 0.0 ~ 1000.0
+	ionized_cannon_base_fluid_efficiency = 0.0
+	#Base explosion scale efficiency for Ionized Cannon, 1.0 by default.
+	#Range: 0.0 ~ 8.0
+	ionized_cannon_base_scale = 1.0
+	#Base attack range for Ionized Cannon, 12.0 by default.
+	#Range: 0.0 ~ 64.0
+	ionized_cannon_base_range = 12.0
+	#Base duration for Ionized Cannon to charge, 40 ticks by default.
+	#Range: > 0
+	ionized_cannon_base_duration = 40
 

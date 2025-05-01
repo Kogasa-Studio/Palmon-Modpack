@@ -26,6 +26,10 @@ let curiosList = [
     'kubejs:godricks_great_rune'
 
 ]
+let itemList = [
+    'kubejs:helium_3_crystal_infinity',
+
+]
 
 let modBlackList = new Set(['minecraft', 'tconstruct', 'cataclysm', 'tconstruct', 'malum', 'rats'])
 
@@ -45,6 +49,15 @@ ItemEvents.tooltip(event => {
             text.add(1, Text.translate("ui.kubejs." + element.split(':')[1]).aqua())
             text.add(2, Text.translate("ui.kubejs.no_dulp_curio").gold())
             text.add(3, Text.empty())
+
+        })
+
+    })
+
+    itemList.forEach(element => {
+        event.addAdvanced(element, (item, advanced, text) => {
+            text.add(1, Text.translate("ui.kubejs." + element.split(':')[1]).aqua())
+            text.add(2, Text.empty())
 
         })
 

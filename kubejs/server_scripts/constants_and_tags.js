@@ -53,3 +53,22 @@ ServerEvents.tags('item', event => {
     )
 
 })
+
+ServerEvents.tags('fluid', event => {
+    event.add('kubejs:hybrid_fuel',
+        'kubejs:hybrid_fuel'
+    )
+
+    event.add('forge:deuterium',
+        'techreborn:deuterium'
+    )
+    
+    event.add('forge:tritium',
+        'techreborn:tritium'
+    )
+
+    event.add('forge:helium',
+        'techreborn:helium'
+    )
+
+})

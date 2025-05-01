@@ -1,3 +1,3 @@
 JEIEvents.hideItems(event => {
-    event.hide('#curios:otherworld_relics')
-  })
+  event.hide('#curios:otherworld_relics')
+})

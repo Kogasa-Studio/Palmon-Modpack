@@ -307,4 +307,17 @@ ServerEvents.recipes(event => {
     ).superheated()
         .id('kubejs:collapse_prediction_s5')
 
+    tcAlloy([{ "amount": 1000, "tag": 'forge:deuterium' }, { "amount": 1000, "tag": 'forge:tritium' }, { "amount": 720, "tag": 'forge:helium' }, { "amount": 720, "tag": 'forge:lithium/7_za' }],
+        { "amount": 100, "tag": "kubejs:hybrid_fuel" }, 100, 'kubejs:hybrid_fuel')
+
+
+    function tcAlloy(inputs, result, temp, id) {
+        event.custom({
+            "type": "tconstruct:alloy",
+            "inputs": inputs,
+            "result": result,
+            "temperature": temp
+        }).id(id)
+    }
+
 })

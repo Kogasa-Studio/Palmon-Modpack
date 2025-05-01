@@ -45,8 +45,11 @@ StartupEvents.registry('item', event => {
 	event.create('otherside_mixture').displayName('§5Otherside Mixture').fireResistant().rarity('epic')
 	event.create('light_of_inlixaland').displayName('§eLight of Inlixaland').fireResistant().rarity('epic')
 
+	event.create('helium_3_crystal').displayName('§5Helium-3 Crystal').fireResistant().rarity('epic')
+	event.create('helium_3_crystal_infinity').displayName('§lHelium-3 Crystal ∞').fireResistant().rarity('epic')
+
 	let anchorgleam = event.create('anchorgleam')
-	anchorgleam.displayName('§aAnchorgleam Energy Drink').fireResistant().rarity('epic')
+	anchorgleam.displayName('§aAnchorgleam™').fireResistant().rarity('epic')
 		.food(food => {
 			food.hunger(1)
 			food.saturation(0.1)
@@ -104,6 +107,12 @@ StartupEvents.registry('block', event => {
 })
 
 StartupEvents.registry('fluid', event => {
+	event.create('hybrid_fuel')
+		.displayName('§eHybrid Fuel')
+		.bucketColor(0xD8D8BF)
+		.thickTexture(0xD8D8BF)
+		.temperature(300)
+
 	event.create('melted_refined_copper')
 		.displayName('Melted Refined Copper')
 		.bucketColor(0xDA8A67)
@@ -120,30 +129,6 @@ StartupEvents.registry('fluid', event => {
 		.displayName('Melted Refined M Steel')
 		.bucketColor(0x708090)
 		.thickTexture(0x708090)
-		.temperature(1400)
-
-	event.create('melted_soul_stained_steel')
-		.displayName('Melted Soul Stained Steel')
-		.bucketColor(0x6A0DAD)
-		.thickTexture(0x6A0DAD)
-		.temperature(1400)
-
-	event.create('melted_glowing_obsidian')
-		.displayName('Melted Glowing Obsidian')
-		.bucketColor(0x8B0000)
-		.thickTexture(0x8B0000)
-		.temperature(1400)
-
-	event.create('melted_moltarium')
-		.displayName('Melted Moltarium')
-		.bucketColor(0xCF1020)
-		.thickTexture(0xCF1020)
-		.temperature(1400)
-
-	event.create('melted_terrasteel')
-		.displayName('Melted Terrasteel')
-		.bucketColor(0x90EE90)
-		.thickTexture(0x90EE90)
 		.temperature(1400)
 
 	event.create('melted_gaia')
@@ -170,22 +155,10 @@ StartupEvents.registry('fluid', event => {
 		.thickTexture(0x00A3A3)
 		.temperature(1400)
 
-	event.create('melted_voidarium')
-		.displayName('Melted Voidarium')
-		.bucketColor(0x800080)
-		.thickTexture(0x800080)
-		.temperature(1400)
-		.temperature(1400)
-
-	event.create('melted_mythril')
-		.displayName('Melted Mythril')
-		.bucketColor(0xC0C0C0)
-		.thickTexture(0xC0C0C0)
-		.temperature(1400)
-
 	event.create('melted_beryllium_bronze_alloy')
 		.displayName('§eMelted Beryllium Bronze Alloy')
 		.bucketColor(0xD8BFD8)
 		.thickTexture(0xD8BFD8)
 		.temperature(1500)
+
 })
