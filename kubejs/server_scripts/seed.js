@@ -160,7 +160,7 @@ function randomSample(n, range) {
         let randomIndex = randomNext(availableNumbers.length)
         result.push(availableNumbers[randomIndex])
         availableNumbers.splice(randomIndex, 1)
-        
+
     }
 
     return result
@@ -172,8 +172,83 @@ function randomSample(n, range) {
  * @param {int} index2
  * @param {int} index3
  */
+function s5ConvergenceRecipe(event, index1, index2, index3) {
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "HP",
+        "min_level": 90,
+        "required_type": null,
+        "base_hp": 0,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 0,
+        "base_spd": 0,
+        "base_spe": 0,
+        "area_blocks": [
+            {
+                "item": 'supplementaries:sugar_cube'
+            },
+            {
+                "item": 'cobblemon:healing_machine'
+            },
+            {
+                "item": 'cobblemon:monitor'
+            },
+            {
+                "item": 'cobblemon:relic_coin_sack'
+            },
+        ],
+        "block_count": 4,
+        "input_items": [
+            {
+                "item": 'minecraft:sugar',
+                "count": 48
+            },
+            {
+                "item": 'supplementaries:candy',
+                "count": 32
+            },
+            {
+                "item": 'forestry:tree_maple_decorative_leaves',
+                "count": 16
+            },
+            {
+                "item": 'nuclearcraft:unsweetened_chocolate',
+                "count": 8
+            },
+            {
+                "item": 'kubejs:collapse_prediction',
+                "count": 2
+            },
+            {
+                "item": 'palmon:m_crystal',
+                "count": 2
+            }
+        ],
+        "input_power": 204800,
+        "input_fluid": {
+            "fluid": "minecraft:water",
+            "amount": 8000
+        },
+        "tick": 1600,
+        "result_items": [
+            {
+                "item": 'cobblemon:rare_candy',
+                "count": 1
+            }
+        ]
+    }).id('kubejs:epsilon_framework_s5')
+}
+
+/**
+ * @param {Internal.RecipesEventJS} event
+ * @param {int} index1
+ * @param {int} index2
+ * @param {int} index3
+ */
 function s4ConvergenceRecipe(event, index1, index2, index3) {
-    
+
     event.recipes.create.mechanical_crafting('kubejs:delta_framework', [
         '  A  ',
         ' BXB ',
@@ -181,7 +256,7 @@ function s4ConvergenceRecipe(event, index1, index2, index3) {
         ' EFE ',
         'AY ZA',
         'AADAA'
-      ], {
+    ], {
         A: '#forge:plates/elementium',
         B: '#forge:gears/ostrum',
         D: '#forge:rods/elementium',
@@ -191,7 +266,7 @@ function s4ConvergenceRecipe(event, index1, index2, index3) {
         X: s4MaterialList[index1],
         Y: s4MaterialList[index2],
         Z: s4MaterialList[index3]
-      }).id('kubejs:delta_framework_s4')
+    }).id('kubejs:delta_framework_s4')
 
 
 }
@@ -203,7 +278,7 @@ function s4ConvergenceRecipe(event, index1, index2, index3) {
  */
 function s3ConvergenceRecipe(event, index1, index2) {
     switch (index1) {
-    // switch (true) {
+        // switch (true) {
         case 0:
             // sp
             event.shaped('kubejs:gamma_framework', [
@@ -225,38 +300,38 @@ function s3ConvergenceRecipe(event, index1, index2) {
             event.custom({
                 "type": "nuclearcraft:assembler",
                 "input": [
-                  {
-                    "count": 1,
-                    "item": 'kubejs:beta_framework'
-                  },
-                  {
-                    "count": 4,
-                    "item": 'nuclearcraft:barium_dust'
-                  },
-                  {
-                    "count": 1,
-                    "item": s3MaterialList[index2]
-                  },
-                  {
-                    "count": 3,
-                    "item": 'kubejs:stable_desh_ingot'
-                  },
-                  {
-                    "count": 3,
-                    "item": 'kubejs:present_alloy'
-                  }
+                    {
+                        "count": 1,
+                        "item": 'kubejs:beta_framework'
+                    },
+                    {
+                        "count": 4,
+                        "item": 'nuclearcraft:barium_dust'
+                    },
+                    {
+                        "count": 1,
+                        "item": s3MaterialList[index2]
+                    },
+                    {
+                        "count": 3,
+                        "item": 'kubejs:stable_desh_ingot'
+                    },
+                    {
+                        "count": 3,
+                        "item": 'kubejs:present_alloy'
+                    }
                 ],
                 "output": [
-                  {
-                    "count": 1,
-                    "item": 'kubejs:gamma_framework'
-                  }
+                    {
+                        "count": 1,
+                        "item": 'kubejs:gamma_framework'
+                    }
                 ],
                 "powerModifier": 5.0,
                 "radiation": 0.0,
                 "timeModifier": 5.0
-              }).id('kubejs:gamma_framework_s3_1')
-            
+            }).id('kubejs:gamma_framework_s3_1')
+
             break
         case 2:
             // forestry
@@ -301,7 +376,7 @@ function s3ConvergenceRecipe(event, index1, index2) {
                 },
                 "time": 150
             }).id('kubejs:gamma_framework_s3_2')
-                
+
             break
         case 3:
             // malum
@@ -348,18 +423,18 @@ function s3ConvergenceRecipe(event, index1, index2) {
                 'FBDBF',
                 ' AEA ',
                 '  F  '
-              ], {
+            ], {
                 A: 'kubejs:stable_desh_ingot',
                 B: '#forge:plates/obsidian',
                 C: s3MaterialList[index2],
                 D: 'kubejs:elite_mechanism_final',
                 E: 'kubejs:beta_framework',
                 F: '#forge:plates/brass',
-              }).id('kubejs:gamma_framework_s3_4')
+            }).id('kubejs:gamma_framework_s3_4')
             break
         case 5:
-              // ember
-              event.shaped('kubejs:gamma_framework', [
+            // ember
+            event.shaped('kubejs:gamma_framework', [
                 'ACA',
                 'BDB',
                 'AEA'

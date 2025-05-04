@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7CFDC05FE7ACCB5E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "5"
@@ -406,7 +407,10 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["204AE37D9BF3A002"]
+			dependencies: [
+				"5BB05D777DB5E7FC"
+				"60C956E6C21CA69F"
+			]
 			id: "6C3FB00EDD463FA3"
 			tasks: [{
 				id: "342F49103CB4C00D"
@@ -414,10 +418,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 22.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["6C3FB00EDD463FA3"]
+			description: ["今后还需要更多......"]
 			id: "6334EE9A9E9222B9"
 			tasks: [{
 				id: "3E6A87571AD2CB98"
@@ -425,7 +430,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 24.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["6334EE9A9E9222B9"]
@@ -437,12 +442,17 @@
 				type: "dimension"
 			}]
 			title: "亚尔夫海姆"
-			x: 0.0d
-			y: 26.0d
+			x: -2.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
 			id: "2E91FE9B7E360E40"
+			rewards: [{
+				id: "4DF7AAF90DD2C4C4"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
 			subtitle: "灵感：天华之作"
 			tasks: [{
 				id: "64E02D44883C080A"
@@ -707,6 +717,7 @@
 				"221316FB6EF3071E"
 			]
 			id: "5BE86D89DCA6EBCA"
+			shape: "hexagon"
 			tasks: [{
 				id: "64757667FAF141FD"
 				item: "kubejs:otherside_mixture"
@@ -729,6 +740,7 @@
 		{
 			dependencies: ["5BE86D89DCA6EBCA"]
 			id: "79B60394F8868246"
+			shape: "hexagon"
 			tasks: [{
 				id: "190F64BEF9AFDF70"
 				item: "kubejs:light_of_inlixaland"
@@ -740,6 +752,7 @@
 		{
 			dependencies: ["4A9E562D1C7EBF2A"]
 			id: "323EFC6D00D6EFEE"
+			shape: "hexagon"
 			tasks: [{
 				id: "599F00707135E12E"
 				item: "kubejs:helium_3_crystal"
@@ -751,6 +764,7 @@
 		{
 			dependencies: ["323EFC6D00D6EFEE"]
 			id: "6E80EB69F13CD978"
+			shape: "hexagon"
 			tasks: [{
 				id: "495DC84DF43075F6"
 				item: "kubejs:helium_3_crystal_infinity"
@@ -758,6 +772,416 @@
 			}]
 			x: -4.0d
 			y: 28.0d
+		}
+		{
+			dependencies: ["204AE37D9BF3A002"]
+			icon: "mythicbotany:midgard_rune"
+			id: "5BB05D777DB5E7FC"
+			tasks: [
+				{
+					count: 4L
+					id: "20569A82C9F0FE0A"
+					item: { Count: 4, id: "botania:rune_fire" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0673210EABBEC4F3"
+					item: { Count: 4, id: "botania:rune_summer" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "13DE2B1C4A4324C1"
+					item: { Count: 2, id: "mythicbotany:helheim_rune" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "72C314E7B451769B"
+					item: { Count: 2, id: "mythicbotany:midgard_rune" }
+					type: "item"
+				}
+			]
+			title: "符文"
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["204AE37D9BF3A002"]
+			id: "60C956E6C21CA69F"
+			tasks: [{
+				id: "5CE7B339890FB7D0"
+				item: "mythicbotany:gjallar_horn_full"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7F0A3F7061F33259"]
+			id: "683AE08080A629A9"
+			shape: "hexagon"
+			subtitle: "粉碎..."
+			tasks: [{
+				id: "192FE934DA1BCD4B"
+				item: "kubejs:iridescent"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["683AE08080A629A9"]
+			id: "0D3635D03716A976"
+			shape: "hexagon"
+			subtitle: "...彩虹！"
+			tasks: [{
+				id: "1FF95C2336F1B288"
+				item: "kubejs:alfheim_iridescent"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["44B9914AFDCCA987"]
+			id: "4B4FEF577A2FDDF7"
+			subtitle: "这是奖励吗？"
+			tasks: [{
+				id: "7CED761663BDFDD2"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2E91FE9B7E360E40"]
+			id: "1576D14D77DC19F7"
+			tasks: [{
+				id: "0C8D36AB387EECF9"
+				item: "aetherworks:aether_amalgam"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["1576D14D77DC19F7"]
+			icon: "aetherworks:prism"
+			id: "086E12C0C4708393"
+			tasks: [
+				{
+					id: "36B3C58B27E867F5"
+					item: "aetherworks:prism"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A7403B8B137927B"
+					item: { Count: 4, id: "aetherworks:moonlight_amplifier" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5E03A923B6DA3A82"
+					item: { Count: 8, id: "embers:archaic_edge" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "2A949901D363FC3E"
+					item: { Count: 12, id: "embers:archaic_bricks" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "30099794D81C911F"
+					item: "aetherworks:prism_support"
+					type: "item"
+				}
+				{
+					id: "5597C58C9BFC4DDD"
+					item: {
+						Count: 1
+						id: "embers:fluid_vessel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "月光收集器"
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["086E12C0C4708393"]
+			id: "1540FA6CE25F9C3C"
+			tasks: [{
+				id: "47C6F4F756DAD3A1"
+				item: "aetherworks:aether_prism_controller_matrix"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["1576D14D77DC19F7"]
+			id: "1760D9021E580581"
+			tasks: [{
+				id: "0733479A5F3CFA23"
+				item: "aetherworks:aether_forge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["1760D9021E580581"]
+			id: "6745C9744B99DC77"
+			tasks: [{
+				id: "554F691DEBA58EF5"
+				item: "aetherworks:ingot_aether"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1760D9021E580581"]
+			id: "43612C8E8386C03A"
+			tasks: [{
+				id: "74C0D92BB939CC3A"
+				item: "aetherworks:gem_aether"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["43612C8E8386C03A"]
+			id: "3C9B2F3F57D1C3CA"
+			shape: "hexagon"
+			tasks: [{
+				id: "7A23DB8275D2413A"
+				item: "aetherworks:aether_pearl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3C9B2F3F57D1C3CA"]
+			icon: {
+				Count: 1
+				id: "aetherworks:lexicon"
+				tag: { }
+			}
+			id: "7171CE5F42E6822D"
+			subtitle: "无限存储"
+			tasks: [
+				{
+					id: "3A3AE26AE680CBE3"
+					item: {
+						Count: 1
+						id: "aetherworks:lexicon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3DB120A72BBD4D74"
+					item: "aetherworks:lexicon_receptacle"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6745C9744B99DC77"]
+			id: "27DE7B129AFDD55A"
+			shape: "hexagon"
+			tasks: [{
+				id: "4B403E0B829C7423"
+				item: "jaopca:processors.aetherium"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["7F0A3F7061F33259"]
+			id: "3ECDD93516A20E62"
+			tasks: [{
+				id: "4B0D1FC9AD1705F9"
+				item: "mythicbotany:cursed_andwari_ring"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["4B8E4123930135A1"]
+			id: "76A2A8DD94751279"
+			tasks: [{
+				id: "311333EA53396942"
+				item: "dustandash:milling_machine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["2A1FE9B3C9BE5074"]
+			id: "2F8A5D571EA44597"
+			tasks: [{
+				id: "538983F6CA876FD3"
+				item: "dustandash:dust_source"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4B8E4123930135A1"]
+			id: "2A1FE9B3C9BE5074"
+			tasks: [{
+				id: "27D58625A992DBDC"
+				item: "dustandash:sharpen_flint"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["2F8A5D571EA44597"]
+			id: "6C6DBA74FB4636A6"
+			tasks: [{
+				id: "4CE2F8744062A944"
+				item: "dustandash:integrated_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6C6DBA74FB4636A6"]
+			id: "20D2AE8ABE78F7CF"
+			tasks: [{
+				id: "175176A61208B72C"
+				item: "dustandash:integrated_frame_1"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"76A2A8DD94751279"
+				"20D2AE8ABE78F7CF"
+			]
+			id: "311EB27C36572AA1"
+			tasks: [{
+				id: "67034A024D25506E"
+				item: "dustandash:integrated_frame_2"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["311EB27C36572AA1"]
+			description: ["是的，你有很多获取方式"]
+			icon: "dustandash:titanium_ingot"
+			id: "62CEC2632FB4E692"
+			tasks: [{
+				id: "334778A4166B6F9F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/titanium"
+					}
+				}
+				title: "Any #forge:ingots/titanium"
+				type: "item"
+			}]
+			title: "钛锭"
+			x: 8.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["62CEC2632FB4E692"]
+			id: "79257E6910F38FFE"
+			shape: "hexagon"
+			tasks: [{
+				id: "3312FBC95ECB9CD7"
+				item: "dustandash:titanium_tungsten_alloy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["62CEC2632FB4E692"]
+			id: "677AEC39F59F8FBD"
+			shape: "hexagon"
+			tasks: [{
+				id: "392AC1367EFF1CED"
+				item: "dustandash:titanium_aluminum_alloy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"79257E6910F38FFE"
+				"677AEC39F59F8FBD"
+			]
+			id: "32CEF6D8F38923DD"
+			shape: "hexagon"
+			tasks: [{
+				id: "4ACC5F31AD5C2DDC"
+				item: "kubejs:basepoint_alloy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["25C877330E513CD0"]
+			id: "7FBCDFE4BCD60A00"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "023E28EF7F3A0546"
+				item: "kubejs:epsilon_framework"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 34.0d
+		}
+		{
+			dependencies: [
+				"79B60394F8868246"
+				"32CEF6D8F38923DD"
+				"0D3635D03716A976"
+				"6E80EB69F13CD978"
+				"3C9B2F3F57D1C3CA"
+			]
+			hide_dependency_lines: true
+			icon: "kubejs:anchor_shard"
+			id: "25C877330E513CD0"
+			tasks: [{
+				id: "3FC53F881C71F99C"
+				type: "checkmark"
+			}]
+			title: "收束点 5.1"
+			x: 0.0d
+			y: 32.0d
 		}
 	]
 	title: "5. 永恒不再 | End of Eternity"

@@ -132,8 +132,6 @@
 		#Maximum damage that can be dealt to Cloud Golem
 		#Range: 0.0 ~ 1000.0
 		"Cloud Golem Damage Cap" = 18.0
-		#Cloud Golem turns on second phase as soon as he sees his target, he's also not losing consciousness after laser attack
-		"Cloud Golem Challenge Mode" = false
 
 	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
 		#Multiplies damage dealt by Falling Cloud

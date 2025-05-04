@@ -1,5 +1,9 @@
 ServerEvents.recipes(event => {
     event.shapeless('2x hostilenetworks:prediction_matrix', ['kubejs:collapse_prediction']).id('kubejs:prediction_matrix_rec_s5')
+    event.shapeless('dustandash:redstone_vacuum_tube', ['immersiveengineering:electron_tube']).id('kubejs:redstone_vacuum_tube_s5')
+    event.shapeless('immersiveengineering:electron_tube', ['dustandash:redstone_vacuum_tube']).id('kubejs:electron_tube_s5')
+    event.shapeless('dustandash:ash_steel_cylinder', ['ad_astra:steel_tank']).id('kubejs:ash_steel_cylinder_s5')
+    event.shapeless('ad_astra:steel_tank', ['dustandash:ash_steel_cylinder']).id('kubejs:steel_tank_s5')
 
     event.shaped('nuclearcraft:plate_basic', [
         'BA',
@@ -216,6 +220,11 @@ ServerEvents.recipes(event => {
     ).energy(204800)
         .id('kubejs:end_steel_s5')
 
+    event.recipes.thermal.press('2x dustandash:glass_container',
+        ['#forge:glass', 'thermal:press_unpacking_die']
+    ).energy(10240)
+        .id('kubejs:glass_container_press_s5')
+
     event.recipes.create.mixing('12x fluxnetworks:flux_core', [
         '16x fluxnetworks:flux_dust',
         '8x #forge:obsidian',
@@ -223,6 +232,61 @@ ServerEvents.recipes(event => {
         '4x kubejs:end_steel',
         'kubejs:gamma_framework'
     ]).superheated().id('kubejs:flux_core_s5')
+
+    event.custom({
+        "type": "dustandash:integrate",
+        "level": 2,
+        "ingredients": [
+          {
+            "item": 'dustandash:titanium_aluminum_alloy'
+          },
+          {
+            "item": 'dustandash:titanium_tungsten_alloy'
+          },
+          {
+            "item": 'kubejs:collapse_prediction'
+          },
+          {
+            "item": 'kubejs:collapse_prediction'
+          },
+          {
+            "item": 'kubejs:collapse_prediction'
+          },
+          {
+            "item": 'kubejs:collapse_prediction'
+          },
+          {
+            "item": 'kubejs:collapse_prediction'
+          },
+          {
+            "item": 'kubejs:collapse_prediction'
+          }
+        ],
+        "output" : {
+          "item": "kubejs:basepoint_alloy",
+          "count": 1
+        }
+      
+      }).id('kubejs:basepoint_alloy_s5')
+
+    event.custom({
+        "type": "thermal:bottler",
+        "energy":10240,
+        "ingredients": [
+          {
+            "item": 'dustandash:glass_container'
+          },
+          {
+            "fluid_tag": "forge:hydrogen",
+            "amount": 800
+          }
+        ],
+        "result": [
+          {
+            "item": 'dustandash:hydrogen'
+          }
+        ]
+      }).id('kubejs:hydrogen_bottler_s5')
 
     event.custom({
         "type": "palmon:processing",
@@ -297,6 +361,73 @@ ServerEvents.recipes(event => {
         ]
     }).id('kubejs:prediction_matrix_s5')
 
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "HP",
+        "min_level": 90,
+        "required_type": null,
+        "base_hp": 0,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 0,
+        "base_spd": 0,
+        "base_spe": 0,
+        "area_blocks": [
+            {
+                "item": 'supplementaries:sugar_cube'
+            },
+            {
+                "item": 'cobblemon:healing_machine'
+            },
+            {
+                "item": 'cobblemon:monitor'
+            },
+            {
+                "item": 'cobblemon:relic_coin_sack'
+            },
+        ],
+        "block_count": 4,
+        "input_items": [
+            {
+                "item": 'minecraft:sugar',
+                "count": 48
+            },
+            {
+                "item": 'supplementaries:candy',
+                "count": 32
+            },
+            {
+                "item": 'forestry:tree_maple_decorative_leaves',
+                "count": 16
+            },
+            {
+                "item": 'nuclearcraft:unsweetened_chocolate',
+                "count": 8
+            },
+            {
+                "item": 'kubejs:collapse_prediction',
+                "count": 2
+            },
+            {
+                "item": 'palmon:m_crystal',
+                "count": 2
+            }
+        ],
+        "input_power": 204800,
+        "input_fluid": {
+            "fluid": "minecraft:water",
+            "amount": 8000
+        },
+        "tick": 1600,
+        "result_items": [
+            {
+                "item": 'cobblemon:rare_candy',
+                "count": 1
+            }
+        ]
+    }).id('kubejs:rare_candy_s5')
+
     event.recipes.create.compacting(['2x kubejs:collapse_prediction'],
         [
             '4x createaddition:biomass_pellet',
@@ -306,6 +437,53 @@ ServerEvents.recipes(event => {
         ]
     ).superheated()
         .id('kubejs:collapse_prediction_s5')
+
+
+    event.custom({
+        "type": "embers:boring",
+        "dimensions": [
+            "mythicbotany:alfheim"
+        ],
+        "max_height": -57,
+        "output": {
+            "item": "kubejs:iridescent"
+        },
+        "required_block": {
+            "amount": 3,
+            "block_tag": "embers:world_bottom"
+        },
+        "weight": 60
+    }).id("kubejs:iridescent_s5")
+
+    event.custom({
+        "type": "palmon:production",
+        "category": "misc",
+        "focus_stat": "SPECIAL_ATTACK",
+        "min_level": 60,
+        "required_type": null,
+        "base_hp": 0,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 120,
+        "base_spd": 0,
+        "base_spe": 0,
+        "area_blocks": [
+            {
+                "item": 'deeperdarker:crystallized_amber'
+            }
+        ],
+        "block_count": 12,
+        "tick": 1600,
+        "result_items": [
+            {
+                "item": 'deeperdarker:crystallized_amber',
+                "count": 2
+            }
+        ],
+        "result_power": 0,
+        "result_fluid": null
+    }
+    ).id('kubejs:crystallized_amber_s5')
 
     tcAlloy([{ "amount": 1000, "tag": 'forge:deuterium' }, { "amount": 1000, "tag": 'forge:tritium' }, { "amount": 720, "tag": 'forge:helium' }, { "amount": 720, "tag": 'forge:lithium/7_za' }],
         { "amount": 100, "tag": "kubejs:hybrid_fuel" }, 100, 'kubejs:hybrid_fuel')

@@ -648,6 +648,7 @@
 		{
 			dependencies: ["0D937378D5C6FCB2"]
 			description: ["......帮助越大，代价越高。"]
+			icon: "kubejs:anchor_shard"
 			id: "5C182F768906554A"
 			tasks: [{
 				id: "25AD3AD2371DFAA3"
@@ -1391,6 +1392,7 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "kubejs:anchor_shard"
 			id: "5DAD718093971689"
 			tasks: [{
 				id: "0177E6FE940096D5"

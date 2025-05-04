@@ -99,4 +99,13 @@
 	#The Cool Down of IndestructibleCD in Tick. Range[0, 10000] Default: 300
 	#Range: 0 ~ 10000
 	indestructibleCD = 300
+	#
+	#Enable attack cd check of Lord Of Blood.
+	lordOfBloodCDCheck = true
+	#
+	#Enable attack cd check of 疾風迅雷.
+	whiteLightningCDCheck = true
+	#
+	#Enable attack cd check of Rotten Blade.
+	rottenBladeCDCheck = true
 

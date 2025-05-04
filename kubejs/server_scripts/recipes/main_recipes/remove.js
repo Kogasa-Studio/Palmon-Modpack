@@ -174,11 +174,16 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'nuclearcraft:fusion_reactor_casing' })
 
     event.remove({ id: 'mythicbotany:rune_holder' })
-
     event.remove({ id: 'mythicbotany:central_rune_holder' })
+    event.remove({ id: 'mythicbotany:kvasir_mead' })
+
     event.remove({ id: 'aetherworks:metal_former_block' })
+    event.remove({ id: 'aetherworks:alchemy/aether_amalgam' })
     
     event.remove({ id: 'dustandash:crafting/ionizer' })
+    event.remove({ id: 'nuclearcraft:rock_crusher/ancient_debris' })
+    event.remove({ id: 'expatternprovider:water_cell' })
+    event.remove({ id: 'expatternprovider:cobblestone_cell' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

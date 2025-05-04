@@ -2,6 +2,9 @@
  * @param {Internal.RecipesEventJS} event
  */
 function s5DNA(event) {
+    
+    event.smithing('dustandash:centrifuge', 'dustandash:iron_structural_components', 'nuclearcraft:centrifuge', 'dustandash:ash_steel_ingot').id('kubejs:centrifuge_s5')
+
     event.shaped('dustandash:ionizer', [
         ' BA',
         'ACA',

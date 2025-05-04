@@ -42,6 +42,20 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
+        { id: 'expatternprovider:circuit_cutter'}
+    ],
+        'ae2:quartz_glass',
+        'ae2:inscriber'
+    )
+
+    event.replaceInput([
+        { id: 'aetherworks:aether_forge_block'}
+    ],
+        'embers:caminite_bricks',
+        'aetherworks:aether_amalgam'
+    )
+
+    event.replaceInput([
         { id: 'hostilenetworks:deep_learner'}
     ],
         '#forge:obsidian',
@@ -83,61 +97,11 @@ ServerEvents.recipes(event => {
         'kubejs:essence_computation_frame'
     )
 
-    // old
-    event.replaceInput([
-        { id: 'confluence:workshop' }
-    ],
-        'minecraft:red_wool',
-        'ad_astra:ostrum_ingot'
-    )
-
     event.replaceInput([
         { id: 'create:crafting/kinetics/deployer' }
     ],
         'create:andesite_casing',
         'create:brass_casing'
-    )
-
-    event.replaceInput([
-        { id: 'botania:flighttiara_0' }
-    ],
-        'minecraft:feather',
-        'adventuresmod:mythril_ingot'
-    )
-
-    event.replaceInput([
-        { id: 'tacz:gun_smith_table' }
-    ],
-        'minecraft:iron_ingot',
-        'ad_astra:desh_ingot'
-    )
-
-    event.replaceInput([
-        { id: 'emxarms:sky_workbench' }
-    ],
-        'minecraft:iron_ingot',
-        'ad_astra:desh_ingot'
-    )
-
-    event.replaceInput([
-        { id: 'emxarms:emx_workbench' }
-    ],
-        'minecraft:iron_ingot',
-        'ad_astra:desh_ingot'
-    )
-
-    event.replaceInput([
-        { id: 'trisdyna:tris_workbench' }
-    ],
-        'minecraft:iron_ingot',
-        'ad_astra:desh_ingot'
-    )
-
-    event.replaceInput([
-        { id: 'deep_rock_galactic:supply' }
-    ],
-        'minecraft:iron_ingot',
-        'ad_astra:desh_ingot'
     )
 
     event.replaceInput([

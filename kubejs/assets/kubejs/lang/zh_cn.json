@@ -38,7 +38,12 @@
     "item.kubejs.light_of_inlixaland": "§e无夜之光",
 
     "item.kubejs.helium_3_crystal": "§5氦-3晶体",
-    "item.kubejs.helium_3_crystal_infinity": "§5氦-3晶体-∞",
+    "item.kubejs.helium_3_crystal_infinity": "§l氦-3晶体-∞",
+
+    "item.kubejs.iridescent": "§l虹光",
+    "item.kubejs.alfheim_iridescent": "§l亚尔夫海姆之虹光",
+
+    "item.kubejs.basepoint_alloy": "§l基点合金",
 
     "item.kubejs.anchorgleam": "§a锚光™",
     

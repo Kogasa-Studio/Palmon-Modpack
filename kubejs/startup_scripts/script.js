@@ -39,14 +39,19 @@ StartupEvents.registry('item', event => {
 
 	event.create('intelligent_draconium_ingot').displayName('Intelligent Draconium Ingot').fireResistant().rarity('epic')
 
-	event.create('end_steel').displayName('§5End Steel').fireResistant().rarity('epic')
-	event.create('collapse_prediction').displayName('§5Collapse Prediction').fireResistant().rarity('epic')
+	event.create('end_steel').displayName('§5End Steel').fireResistant().rarity('rare')
+	event.create('collapse_prediction').displayName('§5Collapse Prediction').fireResistant().rarity('rare')
 
-	event.create('otherside_mixture').displayName('§5Otherside Mixture').fireResistant().rarity('epic')
+	event.create('otherside_mixture').displayName('§5Otherside Mixture').fireResistant().rarity('rare')
 	event.create('light_of_inlixaland').displayName('§eLight of Inlixaland').fireResistant().rarity('epic')
 
-	event.create('helium_3_crystal').displayName('§5Helium-3 Crystal').fireResistant().rarity('epic')
+	event.create('helium_3_crystal').displayName('§5Helium-3 Crystal').fireResistant().rarity('rare')
 	event.create('helium_3_crystal_infinity').displayName('§lHelium-3 Crystal ∞').fireResistant().rarity('epic')
+
+	event.create('iridescent').displayName('§lIridescent').fireResistant().rarity('rare')
+	event.create('alfheim_iridescent').displayName('§lAlfheim Iridescent').fireResistant().rarity('epic')
+
+	event.create('basepoint_alloy').displayName('§lBasepoint Alloy').fireResistant().rarity('epic')
 
 	let anchorgleam = event.create('anchorgleam')
 	anchorgleam.displayName('§aAnchorgleam™').fireResistant().rarity('epic')
