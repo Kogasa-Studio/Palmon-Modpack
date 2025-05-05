@@ -8,6 +8,8 @@ global.randonIndex = 0
 
 const s3MaterialList = ['jaopca:processors.iesnium', 'nuclearcraft:barium_dust', 'forestry:flexible_casing', 'malum:void_tablet', 'kubejs:elite_mechanism_final', 'kubejs:ember_profile']
 const s4MaterialList = ['kubejs:marid_binded_gem', 'kubejs:superconducting_coil_type_1', 'kubejs:unify_essence', 'draconicevolution:wyvern_core', 'industrialforegoing:machine_frame_supreme', 'jaopca:processors.calorite']
+const s5MaterialList1 = ['kubejs:otherside_mixture', 'kubejs:helium_3_crystal', 'kubejs:iridescent', 'jaopca:processors.aetherium', 'dustandash:titanium_tungsten_alloy']
+const s5MaterialList2 = ['kubejs:light_of_inlixaland', 'kubejs:helium_3_crystal_infinity', 'kubejs:alfheim_iridescent', 'aetherworks:aether_pearl', 'kubejs:basepoint_alloy']
 
 global.removeBMRecipes = true
 
@@ -126,11 +128,12 @@ ServerEvents.recipes((event) => {
     s5ELF(event)
     s5EAW(event)
     s5DNA(event)
-
     //extra
     e5IDW(event)
     e5FL(event)
     e5BM(event)
+    // convergence
+    s5ConvergenceRecipe(event, 0, 1, 2)
 
     console.log("s5 recipes loaded")
 
@@ -176,15 +179,15 @@ function s5ConvergenceRecipe(event, index1, index2, index3) {
     event.custom({
         "type": "palmon:processing",
         "category": "misc",
-        "focus_stat": "HP",
-        "min_level": 90,
-        "required_type": null,
-        "base_hp": 0,
-        "base_atk": 0,
-        "base_def": 0,
-        "base_spa": 0,
-        "base_spd": 0,
-        "base_spe": 0,
+        "focus_stat": "SPECIAL_ATTACK",
+        "min_level": 95,
+        "required_type": "water",
+        "base_hp": 80,
+        "base_atk": 80,
+        "base_def": 70,
+        "base_spa": 130,
+        "base_spd": 120,
+        "base_spe": 70,
         "area_blocks": [
             {
                 "item": 'supplementaries:sugar_cube'
@@ -202,39 +205,47 @@ function s5ConvergenceRecipe(event, index1, index2, index3) {
         "block_count": 4,
         "input_items": [
             {
-                "item": 'minecraft:sugar',
-                "count": 48
+                "item": 'kubejs:delta_framework',
+                "count": 1
             },
             {
-                "item": 'supplementaries:candy',
-                "count": 32
+                "item": s5MaterialList1[index1],
+                "count": 3
             },
             {
-                "item": 'forestry:tree_maple_decorative_leaves',
-                "count": 16
+                "item": s5MaterialList2[index2],
+                "count": 2
             },
             {
-                "item": 'nuclearcraft:unsweetened_chocolate',
-                "count": 8
+                "item": s5MaterialList2[index3],
+                "count": 1
             },
             {
                 "item": 'kubejs:collapse_prediction',
-                "count": 2
+                "count": 4
             },
             {
-                "item": 'palmon:m_crystal',
-                "count": 2
+                "item": 'kubejs:collapse_prediction',
+                "count": 3
+            },
+            {
+                "item": 'forestry:flexible_casing',
+                "count": 1
+            },
+            {
+                "item": 'malum:void_tablet',
+                "count": 1
             }
         ],
-        "input_power": 204800,
+        "input_power": 81920000,
         "input_fluid": {
-            "fluid": "minecraft:water",
-            "amount": 8000
+            "fluid": "nuclearcraft:aqua_regia_acid",
+            "amount": 2000
         },
-        "tick": 1600,
+        "tick": 2400,
         "result_items": [
             {
-                "item": 'cobblemon:rare_candy',
+                "item": 'kubejs:epsilon_framework',
                 "count": 1
             }
         ]
@@ -255,13 +266,14 @@ function s4ConvergenceRecipe(event, index1, index2, index3) {
         'AD DA',
         ' EFE ',
         'AY ZA',
-        'AADAA'
+        'AAGAA'
     ], {
         A: '#forge:plates/elementium',
         B: '#forge:gears/ostrum',
         D: '#forge:rods/elementium',
         E: 'ae2:cell_component_1k',
         F: 'kubejs:gamma_framework',
+        G: 'kubejs:essence_computation_frame',
 
         X: s4MaterialList[index1],
         Y: s4MaterialList[index2],

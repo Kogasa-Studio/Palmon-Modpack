@@ -461,7 +461,7 @@ StartupEvents.registry('item', event => {
                             player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
 
                         }
-                        
+
 
                     }
                     if (player.age % 400 == 0) {
@@ -719,5 +719,45 @@ StartupEvents.registry('item', event => {
         .rarity('rare')
         .tag("curios:otherworld_relics")
 
+    event.create('inspiration_mushroom')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .canEquip((item, context) => {
+                return true
+            })
+            .canUnequip((item, context) => {
+                return true
+            })
+            .onEquip((item1, context, item2) => {
+                // context.entity().tell("On Equip")
+            })
+            .onUnequip((item1, context, item2) => {
+
+            })
+            .curioTick((item, context) => {
+                /**
+                 * @type {Internal.ServerPlayer}
+                 */
+                let player = context.entity()
+
+                if (player && !player.level.isClientSide()) {
+                    if (player.age % 2400 == 0) {
+                        player.tell("灵感菇力孤立")
+
+                    }
+                }
+            })
+            .modifyAttribute(
+                "minecraft:generic.luck",
+                "inspiration_mushroom_luck",
+                2.04,
+                "multiply_total"
+            )
+        )
+        .displayName('§e⌈Inspiration Mushroom⌋')
+        .unstackable()
+        .fireResistant()
+        .glow(true)
+        .rarity('rare')
+        .tag("curios:otherworld_relics")
 })
 

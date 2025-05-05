@@ -845,7 +845,7 @@ familiarityDecayLimit = 0.3
 		enableVanillaEggThrowing = true
 		#
 		# If true, drinking milk will clear potion effects and restore no nutrition, as in vanilla.
-		enableVanillaDrinkingMilkClearsPotionEffects = false
+		enableVanillaDrinkingMilkClearsPotionEffects = true
 
 	[mechanics.animals]
 

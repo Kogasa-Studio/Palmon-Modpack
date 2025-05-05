@@ -1172,6 +1172,7 @@
 				"6E80EB69F13CD978"
 				"3C9B2F3F57D1C3CA"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			icon: "kubejs:anchor_shard"
 			id: "25C877330E513CD0"

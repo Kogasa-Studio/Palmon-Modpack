@@ -166,4 +166,11 @@ StartupEvents.registry('fluid', event => {
 		.thickTexture(0xD8BFD8)
 		.temperature(1500)
 
+	event.create('melted_voidarium')
+		.displayName('Melted Voidarium')
+		.bucketColor(0x800080)
+		.thickTexture(0x800080)
+		.temperature(1400)
+		.temperature(1400)
+
 })

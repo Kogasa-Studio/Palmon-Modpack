@@ -14,6 +14,7 @@ let curiosList = [
     'kubejs:white_mask',
     'kubejs:epiphany_pendant',
     'kubejs:divergence_meter',
+    'kubejs:inspiration_mushroom',
 
     'kubejs:scranton_reality_anchor',
     'kubejs:deity_from_the_outside',

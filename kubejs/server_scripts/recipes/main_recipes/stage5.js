@@ -5,6 +5,69 @@ ServerEvents.recipes(event => {
     event.shapeless('dustandash:ash_steel_cylinder', ['ad_astra:steel_tank']).id('kubejs:ash_steel_cylinder_s5')
     event.shapeless('ad_astra:steel_tank', ['dustandash:ash_steel_cylinder']).id('kubejs:steel_tank_s5')
 
+    event.shapeless('occultism:chalk_red_impure', ['occultism:chalk_white_impure', 'occultism:afrit_essence', '#forge:dusts/blaze', 'kubejs:epsilon_dust']).id('kubejs:chalk_red_impure_s5')
+
+    event.shaped('kubejs:basic_machine_frame', [
+        'ABA',
+        'ACA',
+        'ADA'
+    ],
+        {
+            A: 'techreborn:insulated_copper_cable',
+            B: 'kubejs:essence_computation_frame',
+            C: 'techreborn:basic_machine_frame',
+            D: 'kubejs:epsilon_dust'
+        }).id('kubejs:basic_machine_frame_s5')
+
+    event.shaped('ars_nouveau:imbuement_chamber', [
+        'ACA',
+        'BDB',
+        'BEB'
+    ],
+        {
+            A: '#forge:ingots/manasteel',
+            B: 'ars_nouveau:archwood_planks',
+            C: 'ae2:logic_processor',
+            D: 'kubejs:essence_computation_frame',
+            E: 'kubejs:epsilon_dust',
+        }).id('kubejs:imbuement_chamber_s5')
+
+    event.recipes.thermal.smelter('12x kubejs:intelligent_draconium_ingot',
+        ['kubejs:epsilon_dust', '16x jaopca:processors.draconium']
+    ).energy(102400)
+        .id('kubejs:intelligent_draconium_ingot_s5')
+
+    event.shaped('industrialforegoing:mob_slaughter_factory', [
+        'ADA',
+        'BEB',
+        'CFC'
+    ],
+        {
+            A: 'industrialforegoing:plastic',
+            B: 'minecraft:netherite_sword',
+            C: 'minecraft:netherite_axe',
+            D: 'kubejs:epsilon_dust',
+            E: '#industrialforegoing:machine_frame/simple',
+            F: '#forge:dusts/redstone'
+        }).id('kubejs:mob_slaughter_factory_s5')
+
+    event.shaped('ad_astra:cryo_freezer', [
+        'ADA',
+        'BCB',
+        'ADA'
+    ],
+        {
+            A: '#forge:plates/ostrum',
+            B: 'minecraft:blue_ice',
+            C: 'kubejs:epsilon_dust',
+            D: 'kubejs:reinforced_sheet'
+        }).id('kubejs:cryo_freezer_s5')
+
+    event.recipes.thermal.smelter('kubejs:reinforced_sheet',
+        ['kubejs:epsilon_dust', '#forge:plates/terrasteel', '#forge:plates/elementium']
+    ).energy(204800)
+        .id('kubejs:reinforced_sheet_s5')
+
     event.shaped('nuclearcraft:plate_basic', [
         'BA',
         'AB'
@@ -237,56 +300,56 @@ ServerEvents.recipes(event => {
         "type": "dustandash:integrate",
         "level": 2,
         "ingredients": [
-          {
-            "item": 'dustandash:titanium_aluminum_alloy'
-          },
-          {
-            "item": 'dustandash:titanium_tungsten_alloy'
-          },
-          {
-            "item": 'kubejs:collapse_prediction'
-          },
-          {
-            "item": 'kubejs:collapse_prediction'
-          },
-          {
-            "item": 'kubejs:collapse_prediction'
-          },
-          {
-            "item": 'kubejs:collapse_prediction'
-          },
-          {
-            "item": 'kubejs:collapse_prediction'
-          },
-          {
-            "item": 'kubejs:collapse_prediction'
-          }
+            {
+                "item": 'dustandash:titanium_aluminum_alloy'
+            },
+            {
+                "item": 'dustandash:titanium_tungsten_alloy'
+            },
+            {
+                "item": 'kubejs:collapse_prediction'
+            },
+            {
+                "item": 'kubejs:collapse_prediction'
+            },
+            {
+                "item": 'kubejs:collapse_prediction'
+            },
+            {
+                "item": 'kubejs:collapse_prediction'
+            },
+            {
+                "item": 'kubejs:collapse_prediction'
+            },
+            {
+                "item": 'kubejs:collapse_prediction'
+            }
         ],
-        "output" : {
-          "item": "kubejs:basepoint_alloy",
-          "count": 1
+        "output": {
+            "item": "kubejs:basepoint_alloy",
+            "count": 1
         }
-      
-      }).id('kubejs:basepoint_alloy_s5')
+
+    }).id('kubejs:basepoint_alloy_s5')
 
     event.custom({
         "type": "thermal:bottler",
-        "energy":10240,
+        "energy": 10240,
         "ingredients": [
-          {
-            "item": 'dustandash:glass_container'
-          },
-          {
-            "fluid_tag": "forge:hydrogen",
-            "amount": 800
-          }
+            {
+                "item": 'dustandash:glass_container'
+            },
+            {
+                "fluid_tag": "forge:hydrogen",
+                "amount": 800
+            }
         ],
         "result": [
-          {
-            "item": 'dustandash:hydrogen'
-          }
+            {
+                "item": 'dustandash:hydrogen'
+            }
         ]
-      }).id('kubejs:hydrogen_bottler_s5')
+    }).id('kubejs:hydrogen_bottler_s5')
 
     event.custom({
         "type": "palmon:processing",

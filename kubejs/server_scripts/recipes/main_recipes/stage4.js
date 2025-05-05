@@ -94,4 +94,268 @@ ServerEvents.recipes(event => {
         D: 'mythicbotany:alfsteel_ingot',
         E: 'kubejs:delta_framework'
     }).id('kubejs:scranton_reality_anchor_s4')
+
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "tag": 'industrialforegoing:machine_frame/simple'
+            },
+            {
+                "tag": 'forge:gears/diamond'
+            },
+            {
+                "tag": 'forge:processors/manasteel'
+            },
+            {
+                "tag": 'forge:processors/manasteel'
+            }
+        ],
+        "inputFluid": "{Amount:450,FluidName:\"tconstruct:molten_electrum\"}",
+        "output": {
+            "count": 1,
+            "item": 'draconicevolution:draconium_core'
+        },
+        "processingTime": 600
+    }).id('kubejs:draconium_core_1_s4')
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "tag": 'industrialforegoing:machine_frame/simple'
+            },
+            {
+                "tag": 'forge:gears/diamond'
+            },
+            {
+                "tag": 'forge:processors/manasteel'
+            },
+            {
+                "tag": 'forge:processors/manasteel'
+            }
+        ],
+        "inputFluid": "{Amount:450,FluidName:\"embers:molten_electrum\"}",
+        "output": {
+            "count": 1,
+            "item": 'draconicevolution:draconium_core'
+        },
+        "processingTime": 600
+    }).id('kubejs:draconium_core_2_s4')
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'kubejs:intelligent_draconium_ingot'
+            },
+            {
+                "item": 'botania:mana_fluxfield'
+            },
+            {
+                "item": 'botania:mana_fluxfield'
+            },
+            {
+                "item": 'draconicevolution:draconium_core'
+            },
+        ],
+        "inputFluid": "{Amount:1800,FluidName:\"thermal:redstone\"}",
+        "output": {
+            "count": 1,
+            "item": 'draconicevolution:wyvern_energy_core'
+        },
+        "processingTime": 1200
+    }).id('kubejs:wyvern_energy_core_s4')
+
+    event.recipes.create.mixing([Fluid.of('kubejs:melted_voidarium', 100)],
+        [
+            Fluid.of('industrialforegoing:fermented_ore_meat', 100, { Tag: 'forge:raw_materials/ostrum' }),
+            Fluid.of('industrialforegoing:fermented_ore_meat', 100, { Tag: 'forge:raw_materials/desh' }),
+            'industrialforegoing:dryrubber'
+        ]
+    ).superheated()
+        .processingTime(400)
+        .id('kubejs:melted_voidarium_s4')
+
+    var t = 'industrialforegoing:machine_frame_advanced'
+    event.recipes.createSequencedAssembly([
+        'industrialforegoing:machine_frame_supreme',
+    ], t, [
+        event.recipes.createCutting(t, t),
+        event.recipes.createFilling(t, [t, Fluid.of('industrialforegoing:ether_gas', 125)]),
+        event.recipes.createDeploying(t, [t, 'kubejs:essence_computation_frame']),
+        event.recipes.createDeploying(t, [t, 'industrialforegoing:pink_slime_ingot']),
+        event.recipes.createPressing(t, t),
+        event.recipes.createFilling(t, [t, Fluid.of('kubejs:melted_voidarium', 100)]),
+        event.recipes.createPressing(t, t)
+    ]).transitionalItem(t)
+        .loops(2)
+        .id('kubejs:machine_frame_supreme_s4')
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            {
+                "item": 'industrialforegoing:plastic'
+            },
+            {
+                "tag": 'industrialforegoing:machine_frame/advanced'
+            },
+            {
+                "item": 'industrialforegoing:plastic'
+            },
+            {
+                "item": 'kubejs:essence_computation_frame'
+            },
+            {
+                "item": 'kubejs:essence_computation_frame'
+            },
+            {
+                "item": 'minecraft:bucket'
+            },
+            {
+                "item": 'minecraft:netherite_pickaxe'
+            },
+            {
+                "item": 'minecraft:bucket'
+            }
+        ],
+        "inputFluid": "{Amount:1200,FluidName:\"kubejs:melted_voidarium\"}",
+        "output": {
+            "count": 1,
+            "item": 'industrialforegoing:fluid_laser_base'
+        },
+        "processingTime": 800
+    }).id('kubejs:fluid_laser_base_s4')
+
+
+    event.custom({
+        "type": "ae2:inscriber",
+        "ingredients": {
+            "bottom": {
+                "item": 'kubejs:reinforced_sheet'
+            },
+            "middle": {
+                "item": 'ae2:cell_component_1k'
+            },
+            "top": {
+                "tag": 'forge:circuits/calorite'
+            }
+        },
+        "mode": "press",
+        "result": {
+            "item": 'jaopca:processors.calorite'
+        }
+    }).id('kubejs:processors_calorite_s4')
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            {
+                "item": 'ad_astra:calorite_plate'
+            },
+            {
+                "item": 'ad_astra:calorite_plate'
+            },
+            {
+                "item": 'ad_astra:calorite_plate'
+            },
+            {
+                "item": 'kubejs:essence_computation_frame'
+            },
+            {
+                "tag": 'forge:circuits/elementium'
+            }
+        ],
+        "inputFluid": "{Amount:500,FluidName:\"ad_astra:cryo_fuel\"}",
+        "output": {
+            "count": 3,
+            "item": 'jaopca:circuits.calorite'
+        },
+        "processingTime": 600
+    }).id('kubejs:circuits_calorite_s4')
+
+    event.custom({
+        "type": "ad_astra:nasa_workbench",
+        "ingredients": [
+            {
+                "item": "ad_astra:rocket_nose_cone"
+            },
+            {
+                "item": 'kubejs:reinforced_sheet'
+            },
+            {
+                "item": 'kubejs:reinforced_sheet'
+            },
+            {
+                "item": 'kubejs:reinforced_sheet'
+            },
+            {
+                "item": 'kubejs:reinforced_sheet'
+            },
+            {
+                "tag": "ad_astra:ostrum_blocks"
+            },
+            {
+                "tag": "ad_astra:ostrum_blocks"
+            },
+            {
+                "item": 'kubejs:reinforced_sheet'
+            },
+            {
+                "item": "ad_astra:ostrum_tank"
+            },
+            {
+                "item": "ad_astra:ostrum_tank"
+            },
+            {
+                "item": 'kubejs:reinforced_sheet'
+            },
+            {
+                "item": "ad_astra:rocket_fin"
+            },
+            {
+                "item": "ad_astra:ostrum_engine"
+            },
+            {
+                "item": "ad_astra:rocket_fin"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "id": "ad_astra:tier_3_rocket"
+        }
+    }).id('kubejs:rocket_t3_s4')
+
 })

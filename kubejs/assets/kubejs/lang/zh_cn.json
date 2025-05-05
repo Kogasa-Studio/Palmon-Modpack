@@ -103,6 +103,7 @@
     "item.kubejs.white_mask": "§e⌈白面具⌋",
     "item.kubejs.epiphany_pendant": "§e⌈显圣吊坠⌋",
     "item.kubejs.divergence_meter": "§e⌈世界线变动率探测仪⌋",
+    "item.kubejs.inspiration_mushroom": "§e⌈灵感菇⌋",
 
     "item.kubejs.deity_from_the_outside": "§d⌈来自园外的神明⌋",
     "item.kubejs.true_three_goddess": "§d⌈三女神像⌋",
@@ -113,6 +114,7 @@
     "item.kubejs.photo_of_niko": "§d⌈Niko的照片⌋",
     "item.kubejs.godricks_great_rune": "§d⌈葛瑞克的大卢恩⌋",
 
+    "fluid.kubejs.melted_voidarium": "熔融虚空",
     "fluid.kubejs.hybrid_fuel": "混合燃料",
 
     "fluid.kubejs.melted_refined_copper": "熔融精炼铜",
@@ -125,7 +127,8 @@
     "fluid.kubejs.melted_cursium": "熔融咒魂",
 
     "fluid.kubejs.melted_beryllium_bronze_alloy": "§e熔融铍青铜合金",
-        
+
+    "item.kubejs.melted_voidarium_bucket": "桶装熔融虚空",
     "item.kubejs.hybrid_fuel_bucket": "桶装混合燃料",
     
     "item.kubejs.melted_refined_copper_bucket": "桶装熔融精炼铜",
@@ -171,6 +174,7 @@
     "ui.kubejs.white_mask": "⌈Elden Ring⌋ 因为血迹显得骯脏，带着微笑的白面具",
     "ui.kubejs.epiphany_pendant": "⌈Arknights⌋ 这就是我的信仰",
     "ui.kubejs.divergence_meter": "⌈Steins;Gate⌋ El Psy Kongroo",
+    "ui.kubejs.inspiration_mushroom": "灵感菇力菇力菇力菇力菇力",
 
     "ui.kubejs.deity_from_the_outside": "⌈Noctuary⌋ 光使，岁月，生活",
     "ui.kubejs.true_three_goddess": "⌈Umamusume⌋ 向着永久延续的荣光",
