@@ -165,7 +165,7 @@
 
 	[[generic.presence]]
 		type = "PLAYING"
-		description = "Playing Minecraft"
+		description = "Playing Minecraft, modpack Palmon"
 		state = ""
 		largeImageKey = ["mclogonew"]
 		largeImageText = "Minecraft {{game.version}}, modpack Palmon"

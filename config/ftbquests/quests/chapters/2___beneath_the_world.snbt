@@ -8,12 +8,12 @@
 	id: "057A6106E774415D"
 	images: [
 		{
-			height: 2.0d
+			height: 4.0d
 			image: "forestry:textures/forestry/atlas/gui/habitats/nether.png"
-			rotation: -15.0d
-			width: 2.0d
-			x: -2.0d
-			y: -2.0d
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependency: "78FD8C816053AA2C"
@@ -754,6 +754,7 @@
 		{
 			dependencies: ["33F808E0FEB46F75"]
 			id: "4BF64701CC65C3B6"
+			shape: "hexagon"
 			tasks: [{
 				id: "4FDAA5C9720D27D2"
 				item: "botania:terrasteel_ingot"
@@ -976,6 +977,7 @@
 		{
 			dependencies: ["32C2515EA4D08BE0"]
 			id: "093206B431ACAFF2"
+			shape: "hexagon"
 			tasks: [{
 				id: "2984AFD5861C9D04"
 				item: "jaopca:processors.fluix"
@@ -1084,6 +1086,7 @@
 		{
 			dependencies: ["4316E905CDF171D9"]
 			id: "5E37B21684973F79"
+			shape: "hexagon"
 			subtitle: "终于轮"
 			tasks: [{
 				id: "61344A915E298944"

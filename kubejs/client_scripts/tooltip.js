@@ -147,7 +147,7 @@ ItemEvents.tooltip(event => {
         if (player.stages.has('deeperanddarker')) {
             text.add(1, Text.translate("ui.kubejs.heart_of_the_deep").gold())
         } else {
-            text.add(1, Text.translate("ui.kubejs.banned_seed").gold())
+            text.add(1, Text.translate("ui.kubejs.heart_of_the_deep_2").gold())
         }
 
     })

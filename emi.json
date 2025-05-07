@@ -145,16 +145,37 @@
     {
       "stack": "item:forestry:flexible_casing",
       "recipe": "jei:/kubejs/flexible_casing_s5"
+    },
+    {
+      "stack": "item:kubejs:epsilon_framework"
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "thermal:signalum_coin",
+      "amount": 4
+    },
+    "item:thermal:enderium_coin",
+    "item:thermal:copper_coin",
+    "item:kubejs:alpha_framework",
+    "item:kubejs:epsilon_dust",
+    "item:nuclearcraft:crystal_binder_dust",
+    "item:nuclearcraft:plate_elite",
+    "item:industrialforegoing:material_stonework_factory",
+    {
+      "type": "fluid",
+      "id": "industrialforegoing:pink_slime",
+      "amount": 300
+    },
+    "item:industrialforegoing:pink_slime",
+    "item:rats:rat_upgrade_remedy",
     {
       "type": "fluid",
       "id": "kubejs:melted_gaia",
       "amount": 0
     },
     "item:kubejs:basic_machine_frame",
-    "item:kubejs:epsilon_dust",
     "item:minecraft:stripped_birch_log",
     "item:create:crushing_wheel",
     "item:kubejs:epsilon_framework",
@@ -222,7 +243,6 @@
     "item:jaopca:processors.iesnium",
     "item:kubejs:end_steel",
     "item:kubejs:alfheim_iridescent",
-    "item:kubejs:alpha_framework",
     "item:kubejs:beta_framework",
     "item:kubejs:gamma_framework",
     "item:forestry:carpenter",
@@ -1107,11 +1127,6 @@
     "item:industrialforegoing:machine_settings_copier",
     "item:minecraft:warped_stairs",
     "item:quark:vertical_blossom_planks",
-    {
-      "type": "fluid",
-      "id": "industrialforegoing:pink_slime",
-      "amount": 1000
-    },
     "item:draconicevolution:draconium_core",
     "item:draconicevolution:wyvern_crafting_injector",
     "item:draconicevolution:wyvern_chestpiece",
@@ -1347,7 +1362,6 @@
       "amount": 4
     },
     "item:ae2:speed_card",
-    "item:industrialforegoing:material_stonework_factory",
     "item:industrialforegoing:marine_fisher",
     "item:industrialforegoing:potion_brewer",
     "item:industrialforegoing:enchantment_applicator",
@@ -1821,14 +1835,7 @@
       "id": "modularrouters:blank_module",
       "amount": 4
     },
-    "#item:forge:gems/fluorite",
-    "item:computercraft:turtle_advanced",
-    "item:rats:chunky_cheese_token",
-    "item:rats:token_piece",
-    "item:rats:token_fragment",
-    "item:rats:tiny_coin",
-    "item:rats:rat_upgrade_fisherman",
-    "item:rats:rat_upgrade_replanter"
+    "#item:forge:gems/fluorite"
   ],
   "craft_history": [
     "jei:/forestry/carpenter/circuits/refined",
@@ -2328,43 +2335,43 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "mekanism_extras:control_circuit/cosmic",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
+      "mekanism_extras:control_circuit/infinite",
       "tfcoreprocessing:compress/compress_refined_limonite",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel",
       "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
       "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
       "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "mekanism_extras:control_circuit/infinite",
-      "mekanism_extras:control_circuit/absolute",
-      "mekanism_extras:control_circuit/supreme",
-      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
       "jei:/tfc/casting/weak_steel_ingot",
-      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
-      "create:crafting/kinetics/steam_engine",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
       "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
+      "mekanism_extras:control_circuit/supreme",
+      "create:crafting/kinetics/steam_engine",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
+      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
+      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
+      "jei:/malum/spirit_infusion/stellar_mechanism",
       "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
       "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/mekanism/processing/uranium/uranium_oxide"
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
+      "jei:/mekanism/processing/uranium/uranium_oxide",
+      "mekanism_extras:control_circuit/cosmic",
+      "mekanism_extras:control_circuit/absolute",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot"
     ],
     "tags": {
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
       "#item:c:ingots/gold": "item:tfc:metal/ingot/gold",
-      "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
+      "#item:c:ingots/copper": "item:tfc:metal/ingot/copper",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },
     "resolutions": {},

@@ -1520,6 +1520,7 @@
 		{
 			dependencies: ["0DE1A81C60B0E94F"]
 			id: "0DD457F8A8115830"
+			shape: "hexagon"
 			tasks: [{
 				id: "44C3336462048107"
 				item: "forestry:flexible_casing"

@@ -1948,9 +1948,7 @@
 		{
 			dependencies: [
 				"285D8828F5A0B51F"
-				"7385DDC2F71C2040"
 				"62D9D66D34423490"
-				"3D463B2F52D4FED8"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -2209,52 +2207,22 @@
 		}
 		{
 			dependencies: [
-				"40DB7D694B695DBD"
+				"76FB026FCCD2873B"
+				"430A044D8A6D8022"
 				"49CDD8BD9FCA0FE6"
 				"6F0B4E669F079304"
 			]
-			hide_dependent_lines: true
-			icon: "kubejs:anchor_shard"
-			id: "7385DDC2F71C2040"
-			shape: "diamond"
-			tasks: [{
-				id: "659ADA4E559B890D"
-				type: "checkmark"
-			}]
-			title: "收束点 1.1.3"
-			x: -2.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["76FB026FCCD2873B"]
-			hide_dependent_lines: true
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			icon: "kubejs:anchor_shard"
 			id: "62D9D66D34423490"
-			shape: "diamond"
 			tasks: [{
 				id: "30F78EA92C41EE50"
 				type: "checkmark"
 			}]
-			title: "收束点 1.1.1"
-			x: -10.0d
-			y: 38.0d
-		}
-		{
-			dependencies: [
-				"430A044D8A6D8022"
-				"296A77CEB0BB227A"
-			]
-			hide_dependent_lines: true
-			icon: "kubejs:anchor_shard"
-			id: "3D463B2F52D4FED8"
-			shape: "diamond"
-			tasks: [{
-				id: "7278355778C69F4F"
-				type: "checkmark"
-			}]
-			title: "收束点 1.1.2"
-			x: -6.0d
-			y: 36.0d
+			title: "收束点 1.1"
+			x: 2.0d
+			y: 30.0d
 		}
 		{
 			dependencies: [

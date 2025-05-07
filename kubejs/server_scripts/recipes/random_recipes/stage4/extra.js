@@ -116,7 +116,7 @@ function e4IFU(event) {
         m: '#industrialforegoing:machine_frame/simple',
         f: 'minecraft:furnace',
         a: '#forge:gears/gold',
-        b: 'industrialforegoing:pink_slime'
+        b: '#forge:slimeballs'
     }).id('kubejs:material_stonework_factory_s4')
 }
 
