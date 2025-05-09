@@ -71,4 +71,8 @@ ServerEvents.tags('fluid', event => {
         'techreborn:helium'
     )
 
+    event.remove('minecraft:water',
+        'cobgyms:safe_lava'
+    )
+
 })

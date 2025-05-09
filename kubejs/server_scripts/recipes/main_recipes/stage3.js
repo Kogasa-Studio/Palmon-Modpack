@@ -178,4 +178,56 @@ ServerEvents.recipes(event => {
       "id": "ad_astra:tier_2_rocket"
     }
   }).id('kubejs:tier_2_rocket_s3')
+
+  event.custom({
+    "type": "palmon:processing",
+    "category": "misc",
+    "focus_stat": "ATTACK",
+    "min_level": 30,
+    "required_type": 'grass',
+    "base_hp": 30,
+    "base_atk": 30,
+    "base_def": 30,
+    "base_spa": 30,
+    "base_spd": 30,
+    "base_spe": 30,
+    "area_blocks": [],
+    "block_count": 0,
+    "input_items": [
+      {
+        "tag": 'forge:vegetables',
+        "count": 2
+      },
+      {
+        "tag": 'forge:fruits',
+        "count": 2
+      },
+      {
+        "tag": 'forge:salt',
+        "count": 1
+      },
+      {
+        "tag": 'forge:sugar',
+        "count": 1
+      },
+      {
+        "item": 'minecraft:glass_bottle',
+        "count": 1
+      }
+    ],
+    "input_power": 4000,
+    "input_fluid": {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    "tick": 1600,
+    "result_items": [
+      {
+        "item": 'kubejs:anchorgleam',
+        "count": 1
+      }
+    ]
+  }
+  ).id('kubejs:anchorgleam_s3')
+
 })

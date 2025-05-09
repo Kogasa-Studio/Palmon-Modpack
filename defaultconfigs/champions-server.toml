@@ -14,31 +14,31 @@
 [growth]
 	#The percent increase in health multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	healthGrowth = 0.4
+	healthGrowth = 0.1
 	#The healthGrowth operation. Effect how health growth calculate (More info you can find here: https://minecraft.fandom.com/wiki/Attribute#Modifiers)
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	maxHealthModifierOperation = "MULTIPLY_TOTAL"
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 0.4
+	attackGrowth = 0.1
 	#The attackGrowth operation. Effect how attack growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
-	attackModifierOperation = "ADDITION"
+	attackModifierOperation = "MULTIPLY_TOTAL"
 	#The increase in armor multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	armorGrowth = 1.0
+	armorGrowth = 0.075
 	#The armorGrowth operation. Effect how armor growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
-	armorModifierOperation = "ADDITION"
+	armorModifierOperation = "MULTIPLY_TOTAL"
 	#The increase in armor toughness multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	toughnessGrowth = 0.2
+	toughnessGrowth = 0.0
 	#The toughnessGrowth operation. Effect how toughness growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	armorToughnessModifierOperation = "ADDITION"
 	#The increase in knockback resistance multiplied by the growth factor
 	#Range: 0.0 ~ 1.0
-	knockbackResistanceGrowth = 0.05
+	knockbackResistanceGrowth = 0.1
 	#The knockbackResistanceGrowth operation. Effect how knockbackResistance growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	knockbackResistanceModifierOperation = "ADDITION"
@@ -75,16 +75,16 @@
 	[affixes.desecrating]
 		#How long (in seconds) between cloud placements
 		#Range: > 1
-		desecratingCloudInterval = 3
+		desecratingCloudInterval = 5
 		#How long (in seconds) it takes for the effect cloud to activate after being placed
 		#Range: > 0
 		desecratingCloudActivationTime = 1
 		#The radius of the cloud effect
 		#Range: 1.0 ~ 1.7976931348623157E308
-		desecratingCloudRadius = 4.0
+		desecratingCloudRadius = 3.0
 		#The duration (in seconds) of the cloud effect
 		#Range: > 1
-		desecratingCloudDuration = 10
+		desecratingCloudDuration = 3
 
 	[affixes.enkindling]
 		#How often the champion will shoot projectiles (in seconds)
@@ -94,7 +94,7 @@
 	[affixes.hasty]
 		#The base movement speed bonus
 		#Range: 0.0 ~ 1.7976931348623157E308
-		hastyMovementBonus = 0.25
+		hastyMovementBonus = 0.15
 
 	[affixes.infested]
 		#The amount of parasites to spawn per interval
@@ -122,15 +122,15 @@
 	[affixes.knocking]
 		#The multiplier to apply to the knockback strength
 		#Range: 0.0 ~ 1.7976931348623157E308
-		knockingMultiplier = 5.0
+		knockingMultiplier = 7.5
 
 	[affixes.lively]
 		#The amount of health per second regeneration
 		#Range: 0.0 ~ 1.7976931348623157E308
-		livelyHealAmount = 1.0
+		livelyHealAmount = 5.0
 		#Multiplier to health regeneration when not aggressive
 		#Range: 1.0 ~ 1.7976931348623157E308
-		livelyPassiveMultiplier = 5.0
+		livelyPassiveMultiplier = 15.0
 		#Set cooldown (in seconds) for regeneration after getting attacked
 		#Range: > 1
 		livelyCooldown = 3
@@ -153,22 +153,22 @@
 		reflectiveMinPercent = 0.1
 		#The maximum percent of damage to reflect back
 		#Range: 0.0 ~ 1.0
-		reflectiveMaxPercent = 0.35
+		reflectiveMaxPercent = 0.25
 		#The maximum amount of damage to reflect back
 		#Range: > 0
-		reflectiveMax = 100
+		reflectiveMax = 200
 		#Set to true to enable deadly reflected strikes
 		reflectiveLethal = true
 
 	[affixes.magnetic]
 		#Strength of the magnetic pulling effect
 		#Range: 0.0 ~ 100.0
-		magneticStrength = 0.05
+		magneticStrength = 0.1
 
 	[affixes.wounding]
 		#The percent chance that an attack will wound targets
 		#Range: 0.0 ~ 1.0
-		woundingChance = 0.4
+		woundingChance = 0.5
 
 [integrations]
 	#Scaling Health
