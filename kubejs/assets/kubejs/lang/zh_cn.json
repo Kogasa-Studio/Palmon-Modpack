@@ -222,6 +222,22 @@
     "obscure_api.parry": "招架",
     "obscure_api.penetration": "护甲穿透",
     "obscure_api.regeneration": "每20秒再生",
-    "obscure_api.resilience": "暴击防护"
+    "obscure_api.resilience": "暴击防护",
+
+    "kubejs.eot.list_prefix": "EOT列表：",
+    "kubejs.eot.activated": "已激活",
+    "kubejs.eot.not_activated": "未激活",
+    "kubejs.eot.cost": "§b消耗§9锚之碎片§b数量：",
+
+    "kubejs.eot.not_found": "未找到该加成",
+    "kubejs.eot.not_enough_shard": "主手未持足够的§9锚之碎片",
+    "kubejs.eot.already_activated": "已激活过该加成",
+    "kubejs.eot.success": "成功",
+
+    "kubejs.eot.init_name": "初始锚定",
+    "kubejs.eot.init_desc": "初始锚定 介绍",
+
+    "kubejs.eot.miner_1_name": "职业矿工",
+    "kubejs.eot.miner_1_desc": "职业矿工 介绍"
 
 }

@@ -35,4 +35,5 @@ ServerEvents.commandRegistry(event => {
             })
         )
     )
+    
 })
