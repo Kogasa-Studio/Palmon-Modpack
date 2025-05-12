@@ -4,7 +4,7 @@ logs/
 .cache/
 .mixin.out/
 .vscode/
-backups/
+simplebackups/
 CustomSkinLoader/
 journeymap/
 saves/

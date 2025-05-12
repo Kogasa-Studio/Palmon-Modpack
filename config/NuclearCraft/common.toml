@@ -37,3 +37,13 @@
 	#Barrel capacity in Buckets: advanced_barrel, basic_barrel, elite_barrel, du_barrel
 	barrel_capacity = [512000, 128000, 8192000, 2048000]
 
+[Misc]
+	#Debug logging. Enable in case of issues to collect more data
+	debug_logging = false
+	#Enable periodical re-validation of multiblocks.
+	#Multiblocks are tracking block changes and re-validate structure if needed.
+	#But it is possible when some events won't be tracked properly.
+	#This is why each multiblock periodically re-check it's structure.
+	#Disable if you have performance issues with multiblocks.
+	scheduled_validation = true
+

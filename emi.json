@@ -156,9 +156,58 @@
         "amount": 3
       },
       "recipe": "tconstruct:common/glass/vanilla/glass_bottle"
+    },
+    {
+      "stack": {
+        "type": "fluid",
+        "id": "tfc:metal/bismuth",
+        "amount": 6
+      },
+      "recipe": "jei:/tfcoreprocessing/heating/powder/bismuthinite"
+    },
+    {
+      "stack": "item:tfc:bucket/metal/bismuth"
     }
   ],
   "lookup_history": [
+    "item:kubejs:present_soul",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_gold",
+      "amount": 7
+    },
+    "item:tfc:powder/native_gold",
+    "item:tfc:powder/tetrahedrite",
+    {
+      "type": "item",
+      "id": "tfc:powder/magnetite",
+      "amount": 64
+    },
+    "item:tfc:powder/hematite",
+    "item:tfc:powder/native_copper",
+    "item:tfc:powder/garnierite",
+    {
+      "type": "fluid",
+      "id": "tfc:metal/bismuth",
+      "amount": 6
+    },
+    "item:tfc:powder/bismuthinite",
+    "item:tfc:powder/cassiterite",
+    "item:tfc:powder/sphalerite",
+    "item:tfc:powder/native_silver",
+    "item:tfc:powder/limonite",
+    {
+      "type": "fluid",
+      "id": "tfc:metal/copper",
+      "amount": 6
+    },
+    "item:tfc:powder/malachite",
+    "item:sophisticatedbackpacks:auto_blasting_upgrade",
+    "item:sophisticatedbackpacks:blasting_upgrade",
+    "item:occultism:miner_marid_master{Damage:0,maxMiningTime:100,rollsPerOperation:1,spiritName:\"Mrokmurmorn\"}",
+    "item:avaritia:blaze_pickaxe{Damage:0}",
+    "item:avaritia:crystal_pickaxe{Damage:0}",
+    "item:tfc:metal/pickaxe/red_steel{Damage:0}",
     "item:sushigocrafting:crab_cheese_california",
     "item:sushigocrafting:crab_california",
     "item:sushigocrafting:cooked_rice",
@@ -305,20 +354,20 @@
       "type": "list",
       "amount": 250,
       "ingredients": [
-        "fluid:createaddition:seed_oil",
         "fluid:sakura:beer",
-        "fluid:sakura:sake",
+        "fluid:createaddition:seed_oil",
         "fluid:sakura:red_wine",
-        "fluid:sakura:brandy",
-        "fluid:sakura:food_oil",
-        "fluid:sakura:white_wine",
-        "fluid:sakura:champagne",
-        "fluid:cobgyms:safe_lava",
-        "fluid:sakura:doburoku",
         "fluid:createaddition:bioethanol",
+        "fluid:sakura:sake",
+        "fluid:cobgyms:safe_lava",
+        "fluid:sakura:white_wine",
+        "fluid:sakura:brandy",
+        "fluid:sakura:champagne",
+        "fluid:sakura:food_oil",
+        "fluid:sakura:doburoku",
         "#fluid:firmalife:mixable",
-        "#fluid:sakura:brewers_alcohol",
-        "#fluid:tfc:water"
+        "#fluid:tfc:water",
+        "#fluid:sakura:brewers_alcohol"
       ]
     },
     "fluid:cobgyms:safe_lava",
@@ -468,7 +517,6 @@
     },
     "item:kubejs:basepoint_alloy",
     "item:kubejs:collapse_prediction",
-    "item:tfc:powder/native_gold",
     {
       "type": "fluid",
       "id": "tfc:metal/gold",
@@ -1378,7 +1426,7 @@
       "id": "techreborn:cupronickel_heating_coil",
       "amount": 7
     },
-    "#item:c:gold_ingots",
+    "#item:c:ingots/gold",
     "#item:c:diamonds",
     "item:botania:manastar",
     "item:ars_nouveau:abjuration_essence",
@@ -1442,7 +1490,6 @@
     "item:tfc:metal/sheet/wrought_iron",
     "item:sophisticatedbackpacks:backpack",
     "item:sophisticatedbackpacks:copper_backpack",
-    "item:occultism:miner_marid_master{Damage:0,maxMiningTime:100,rollsPerOperation:1,spiritName:\"Hyrmylarc\"}",
     "item:occultism:storage_stabilizer_tier4",
     "item:jaopca:processors.terrasteel",
     "item:jaopca:circuits.terrasteel",
@@ -1610,7 +1657,6 @@
     "item:tfc:powder/charcoal",
     "#item:c:charcoal_dusts",
     "item:cataclysm:ignited_berserker_spawn_egg",
-    "item:kubejs:present_soul",
     "#item:c:lead_ingots",
     "#item:forge:dusts/graphite",
     "item:nuclearcraft:plate_basic",
@@ -1743,38 +1789,7 @@
     "item:nuclearcraft:heavy",
     "item:nuclearcraft:medium",
     "item:nuclearcraft:bioplastic",
-    "item:nuclearcraft:graphite_ingot",
-    "item:nuclearcraft:graphite_plate",
-    "item:nuclearcraft:light",
-    "item:nuclearcraft:ferroboron_ingot",
-    "item:nuclearcraft:tough_alloy_ingot",
-    "item:minecraft:piston",
-    "item:slashblade:slashblade{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}],bladeState:{AttackAmplifier:0.0f,BladeUniqueId:[I;35996695,-2075768817,-1557885692,888022316],ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"blades_derby:model/uma_hishi.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:drive_vertical\",SpecialEffects:[\"blades_derby:uma_special\"],StandbyRenderType:4b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:-1,TextureName:\"blades_derby:model/uma_hishi.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:7.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:1b,isSealed:0b,killCount:0,lastActionTime:213808L,maxDamage:50,proudSoul:0,translationKey:\"item.blades_derby.uma_hishi\"}}",
-    "item:slashblade:slashblade{Enchantments:[{id:\"minecraft:smite\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}],bladeState:{AttackAmplifier:0.0f,BladeUniqueId:[I;1717737684,458508847,-1518437531,-1990650996],ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"blades_derby:model/uma_odachi_haru.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:drive_vertical\",SpecialEffects:[\"blades_derby:uma_special\"],StandbyRenderType:2b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:-1,TextureName:\"blades_derby:model/uma_odachi_haru.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:9.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:1b,isSealed:0b,killCount:0,lastActionTime:214030L,maxDamage:45,proudSoul:0,translationKey:\"item.blades_derby.uma_odachi_haru\"}}",
-    "item:tfc_ie_addon:powder/bauxite",
-    "item:tfc_ie_addon:ore/normal_bauxite",
-    "item:tfc_ie_addon:ore/poor_bauxite",
-    "item:tfc_ie_addon:ore/small_bauxite",
-    {
-      "type": "fluid",
-      "id": "minecraft:milk",
-      "amount": 250
-    },
-    {
-      "type": "item",
-      "id": "tconstruct:cheese_ingot",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "rats:cheese",
-      "amount": 60
-    },
-    "item:nuclearcraft:alloy_smelter",
-    "item:nuclearcraft:tough_alloy_dust",
-    "item:gendustry:industrial_apiary",
-    "item:forestry:apiary",
-    "item:gendustry:scrubber_upgrade"
+    "item:nuclearcraft:graphite_ingot"
   ],
   "craft_history": [
     "jei:/forestry/carpenter/circuits/refined",
@@ -2274,43 +2289,43 @@
   ],
   "recipe_defaults": {
     "added": [
-      "mekanism_extras:control_circuit/infinite",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "mekanism_extras:control_circuit/supreme",
+      "jei:/tfc/anvil/red_steel_ingot",
       "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
-      "tfcoreprocessing:compress/compress_refined_limonite",
+      "mekanism_extras:control_circuit/infinite",
       "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
+      "mekanism_extras:control_circuit/supreme",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
       "jaopca:storage_blocks.to_storage_block.stainless_steel",
       "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "create:crafting/kinetics/steam_engine",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "mekanism_extras:control_circuit/cosmic",
       "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
-      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
-      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
       "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
       "jei:/tfc/casting/weak_steel_ingot",
+      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
       "mekanism_extras:control_circuit/absolute",
+      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "create:crafting/kinetics/steam_engine",
+      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
+      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
+      "tfcoreprocessing:compress/compress_refined_limonite",
+      "mekanism_extras:control_circuit/cosmic",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/mekanism/processing/uranium/uranium_oxide",
       "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
-      "jei:/mekanism/processing/uranium/uranium_oxide"
+      "jei:/malum/spirit_infusion/stellar_mechanism"
     ],
     "tags": {
-      "#item:c:gold_ingots": "item:tfc:metal/ingot/gold",
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
-      "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
+      "#item:c:ingots/gold": "item:tfc:metal/ingot/gold",
+      "#item:c:ingots/copper": "item:tfc:metal/ingot/copper",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },
     "resolutions": {},

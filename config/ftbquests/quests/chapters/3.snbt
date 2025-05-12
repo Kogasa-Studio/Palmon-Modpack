@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["153BB1808FC6284A"]
 			icon: "ad_astra:earth_globe"
 			id: "36D2E1C2BF0663D7"
 			shape: "gear"

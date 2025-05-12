@@ -20,6 +20,17 @@ ServerEvents.recipes(event => {
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
 
+    event.shaped('kubejs:present_soul', [
+        'ABA',
+        'BFB',
+        'ABA'
+    ],
+        {
+            A: 'tfc:soot',
+            B: ['#forge:ingots/red_steel', '#forge:ingots/blue_steel'],
+            F: 'tfc:hematitic_glass_bottle'
+        }).id('kubejs:present_soul_s1')
+
     event.shaped('ad_astra:steel_tank', [
         ' A ',
         'BAB',

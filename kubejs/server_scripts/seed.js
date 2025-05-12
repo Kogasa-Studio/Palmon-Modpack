@@ -1,5 +1,8 @@
-const $JsonObject = Java.loadClass("com.google.gson.JsonObject")
+// priority: 50
+
 const $long = Java.loadClass("java.lang.Long")
+
+global.jsonData = null
 
 // 种子， 随机数列表，列表当前位置
 global.seed = ""
@@ -13,6 +16,67 @@ const s5MaterialList2 = ['kubejs:light_of_inlixaland', 'kubejs:helium_3_crystal_
 
 global.removeBMRecipes = true
 
+// 读取数据
+global.jsonData = loadPackData()
+
+global.seed = global.jsonData.get("last_seed").toString()
+global.seed = global.seed.replace('\"', "")
+console.log("[ROUGELIKE RECIPES] Loading Scripts, catched Seed: " + global.seed)
+console.log("[EOT] All Learned Buffs: ")
+
+let learnedArr = global.jsonData.getAsJsonArray("learned_buffs")
+
+for (let i of learnedArr) {
+    let id = i.getAsString()
+    console.log(id)
+    let buff = global.all_buffs[id]
+    buff.unlocked = true
+}
+
+let seedMap = global.jsonData.getAsJsonObject("all_seed_data")
+
+if (!seedMap.has(global.seed)) {
+    // 新 seed
+    console.log("[EOT] New Seed")
+    let newArr = new $JsonArray()
+    for (let i in global.all_buffs) {
+        if (global.all_buffs[i].unlocked) {
+            newArr["add(java.lang.String)"](i)
+            console.log(i)
+            global.current_buffs.add(i)
+        }
+    }
+    seedMap.add(global.seed, newArr)
+
+} else {
+    // 旧 seed
+    console.log("[EOT] Old Seed, Current Buffs: ")
+    let existArr = seedMap.getAsJsonArray(global.seed)
+    for (let i of existArr) {
+        let id = String(i.getAsString())
+        console.log(id)
+        global.current_buffs.add(id)
+    }
+}
+
+savePackData(global.jsonData)
+
+// console.log(global.all_buffs)
+// for (let i of global.current_buffs.entries()){
+//     console.log(i)
+//     console.log(typeof i)
+// }
+
+// Seed 和随机Map
+const random = Utils.random
+random.setSeed($long.parseLong(global.seed.replace('L', ""), 10))
+
+for (let i = 0; i < 128; i++) {
+    global.levelRandomMap.push(random.nextDouble())
+}
+
+// console.log(global.levelRandomMap)
+
 ServerEvents.loaded(event => {
     const { server } = event
     let currentSeed = NBT.l(server.worldData.worldGenOptions().seed())
@@ -23,9 +87,9 @@ ServerEvents.loaded(event => {
 
         global.seed = currentSeed
 
-        let object = new $JsonObject()
-        object.addProperty("seed", currentSeed)
-        JsonIO.write("kubejs\\packdata\\level_catche.json", object)
+        let jsonData = loadPackData()
+        jsonData.addProperty("last_seed", currentSeed)
+        savePackData(jsonData)
 
         server.scheduleInTicks(10, () => server.runCommandSilent("reload"))
 
@@ -37,27 +101,6 @@ ServerEvents.loaded(event => {
 })
 
 ServerEvents.recipes((event) => {
-    /**
-     * @type {Internal.HashMap}
-     */
-    let jsonData = JsonIO.readJson("kubejs\\packdata\\level_catche.json")
-    if (!jsonData) {
-        console.error('[ROUGELIKE RECIPES] Error on reading json')
-    }
-
-    global.seed = jsonData.get("seed").toString()
-    global.seed = global.seed.replace('\"', "")
-    console.log("[ROUGELIKE RECIPES] Loading Scripts, catched Seed: " + global.seed)
-
-    const random = Utils.random
-    random.setSeed($long.parseLong(global.seed.replace('L', ""), 10))
-
-    for (let i = 0; i < 128; i++) {
-        global.levelRandomMap.push(random.nextDouble())
-    }
-
-    // console.log(global.levelRandomMap)
-
     // stage 1 1+1
     // main
     s1Occ(event)

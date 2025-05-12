@@ -39,20 +39,6 @@ ServerEvents.recipes(event => {
             B: 'minecraft:barrel'
         })
 
-    event.shaped('kubejs:present_soul', [
-        'ABA',
-        'CFD',
-        'AEA'
-    ],
-        {
-            A: 'tfc:soot',
-            B: ['tfc:metal/helmet/red_steel', 'tfc:metal/helmet/blue_steel'],
-            C: ['tfc:metal/chestplate/red_steel', 'tfc:metal/chestplate/blue_steel'],
-            D: ['tfc:metal/greaves/red_steel', 'tfc:metal/greaves/blue_steel'],
-            E: ['tfc:metal/boots/red_steel', 'tfc:metal/boots/blue_steel'],
-            F: 'tfc:hematitic_glass_bottle'
-        })
-
     event.shaped('palmon:boost_frame_5', [
         'ABA',
         'ACA',

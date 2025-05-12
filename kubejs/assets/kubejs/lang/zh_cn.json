@@ -160,7 +160,7 @@
 
     "ui.kubejs.no_dulp_curio": "仅第一个佩戴的该饰品生效",
 
-    "ui.kubejs.present_soul": "你所拥有的力量",
+    "ui.kubejs.present_soul": "微弱的稳定性",
     "ui.kubejs.scranton_reality_anchor": "或许是安慰剂？",
 
     "ui.kubejs.true_soul_of_light": "⌈Noctuary⌋ 世界上所有的夜晚",
@@ -225,19 +225,46 @@
     "obscure_api.resilience": "暴击防护",
 
     "kubejs.eot.list_prefix": "EOT列表：",
+    "kubejs.eot.unlocked": "已解锁",
+    "kubejs.eot.locked": "未解锁",
     "kubejs.eot.activated": "已激活",
-    "kubejs.eot.not_activated": "未激活",
     "kubejs.eot.cost": "§b消耗§9锚之碎片§b数量：",
+    "kubejs.eot.prerequisites": "前置：\n",
 
     "kubejs.eot.not_found": "未找到该加成",
     "kubejs.eot.not_enough_shard": "主手未持足够的§9锚之碎片",
     "kubejs.eot.already_activated": "已激活过该加成",
     "kubejs.eot.success": "成功",
+    "kubejs.eot.requirements_not_met": "§c需要先激活：",
 
-    "kubejs.eot.init_name": "初始锚定",
-    "kubejs.eot.init_desc": "初始锚定 介绍",
+    "kubejs.eot.init_name": "[初始锚定]",
+    "kubejs.eot.init_desc": "·初始携带 §9锚之碎片§f",
+    
+    "kubejs.eot.true_ending_name": "[真正结局]",
+    "kubejs.eot.true_ending_desc": "·初始携带 §e现世之魂§f\n·允许开启章节7",
+    
+    "kubejs.eot.master_ending_name": "[专家结局]",
+    "kubejs.eot.master_ending_desc": "·初始携带 §d斯克兰顿现实稳定锚§f\n·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行终极试炼",
 
-    "kubejs.eot.miner_1_name": "职业矿工",
-    "kubejs.eot.miner_1_desc": "职业矿工 介绍"
+    "kubejs.eot.miner_1_name": "[专业矿工]",
+    "kubejs.eot.miner_1_desc": "·初始携带 红钢镐\n·初始携带 夜视仪",
+    
+    "kubejs.eot.miner_2_name": "[老练矿工]",
+    "kubejs.eot.miner_2_desc": "·初始携带 铁制背包\n·初始携带 高炉升级\n·允许用高炉将群峦矿粉加工成粒",
+    
+    "kubejs.eot.miner_3_name": "[掘矿传说]",
+    "kubejs.eot.miner_3_desc": "·初始携带 炽岩之熔山镐\n·初始携带 急迫符文",
+        
+    "kubejs.eot.miner_4_name": "[矿脉领主]",
+    "kubejs.eot.miner_4_desc": "·初始携带 不毁的 矿脉领主魔王\n·初始携带 维度矿井",
+        
+    "kubejs.eot.fighter_1_name": "[天生战士]",
+    "kubejs.eot.fighter_1_desc": "·战士",
+        
+    "kubejs.eot.industrial_1_name": "[原始工业]",
+    "kubejs.eot.industrial_1_desc": "·工业",
+        
+    "kubejs.eot.special_1_name": "[诡秘畸变]",
+    "kubejs.eot.special_1_desc": "·畸变"
 
 }

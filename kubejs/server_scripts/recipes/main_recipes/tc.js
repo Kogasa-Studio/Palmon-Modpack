@@ -10,13 +10,23 @@ ServerEvents.recipes(event => {
     tcMelting({ "item": 'tfc:powder/cassiterite' },
         { "amount": 7, "tag": "forge:molten_tin" }, 500, 10, 'kubejs:tc_melting_cassiterite')
     tcMelting({ "item": 'tfc:powder/bismuthinite' },
-        { "amount": 7, "tag": "forge:molten_bismuth" }, 500, 10, 'kubejs:tc_melting_bismuthinite')
+        { "amount": 7, "tag": 'tfc:bismuth' }, 500, 10, 'kubejs:tc_melting_bismuthinite')
     tcMelting({ "item": 'tfc:powder/garnierite' },
         { "amount": 7, "tag": "forge:molten_nickel" }, 500, 10, 'kubejs:tc_melting_garnierite')
+
     tcMelting({ "item": 'tfc:powder/native_copper' },
         { "amount": 7, "tag": "forge:molten_copper" }, 500, 10, 'kubejs:tc_melting_native_copper')
+    tcMelting({ "item": 'tfc:powder/malachite' },
+        { "amount": 7, "tag": "forge:molten_copper" }, 500, 10, 'kubejs:tc_melting_malachite')
+    tcMelting({ "item": 'tfc:powder/tetrahedrite' },
+        { "amount": 7, "tag": "forge:molten_copper" }, 500, 10, 'kubejs:tc_melting_tetrahedrite')
+
     tcMelting({ "item": 'tfc:powder/magnetite' },
-        { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_iron')
+        { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_magnetite')
+    tcMelting({ "item": 'tfc:powder/limonite' },
+        { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_limonite')
+    tcMelting({ "item": 'tfc:powder/hematite' },
+        { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_hematite')
 
     tcAlloy([{ "amount": 30, "tag": "forge:molten_copper" }, { "amount": 60, "tag": "forge:molten_silver" }],
         { "amount": 90, "tag": "tfc:sterling_silver" }, 800, 'kubejs:tc_alloy_sterling_silver')
@@ -41,7 +51,7 @@ ServerEvents.recipes(event => {
     tcAlloy([{ "amount": 90, "tag": "tfc:weak_blue_steel" }, { "amount": 90, "tag": "tfc:black_steel" }],
         { "amount": 90, "tag": "tfc:blue_steel" }, 800, 'kubejs:tc_alloy_blue_steel')
 
-// fk u tfc, you units are not unified. 2025/03/12
+    // nice tfc, you units are not unified. 2025/03/12
     tcTFCCastIngot('sterling_silver')
     tcTFCCastIngot('black_bronze')
     tcTFCCastIngot('bismuth_bronze')
@@ -53,8 +63,8 @@ ServerEvents.recipes(event => {
     tcTFCCastIngot('red_steel')
     tcTFCCastIngot('blue_steel')
 
-    tcCastingTable({ "item": 'tfc:metal/sheet/blue_steel'}, true, 200, { "amount": 180, "tag": "tfc:red_steel" }, 'celestial_core:virtual_gold_ingot', 'kubejs:virtual_gold_ingot')
-    tcCastingTable({"tag": 'forge:sheets'}, true, 200, { "amount": 90, "tag": "forge:molten_gold" }, 'tconstruct:plate_cast', 'kubejs:plate_cast_tfc')
+    tcCastingTable({ "item": 'tfc:metal/sheet/blue_steel' }, true, 200, { "amount": 180, "tag": "tfc:red_steel" }, 'celestial_core:virtual_gold_ingot', 'kubejs:virtual_gold_ingot')
+    tcCastingTable({ "tag": 'forge:sheets' }, true, 200, { "amount": 90, "tag": "forge:molten_gold" }, 'tconstruct:plate_cast', 'kubejs:plate_cast_tfc')
 
     // tcMaterial({"tag": "forge:ingots/blue_steel"}, "tconstruct:blue_steel", {"tag": "forge:nuggets/steel"}, 'tfc:metal/blue_steel', 100, 50, true, 1000);
     // tcMaterial({"tag": "forge:ingots/red_steel"}, "tconstruct:red_steel", {"tag": "forge:nuggets/steel"}, 'tfc:metal/red_steel', 100, 50, true, 1000);
@@ -212,5 +222,5 @@ ServerEvents.recipes(event => {
             'kubejs:tc_casting_' + material + '_sand'
         )
     }
-    
+
 })
