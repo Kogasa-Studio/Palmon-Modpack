@@ -43,6 +43,7 @@ const ratlantis = function (event) {
     }
 }
 
+<<<<<<< Updated upstream
 // ItemEvents.rightClicked('minecraft:coal', event => {
 //     console.log("LOG: Start of Foods")
 //     let lst = []
@@ -65,6 +66,15 @@ const ratlantis = function (event) {
 //         if (itm.edible && itm.getIdLocation().getNamespace() != 'tfc' && itm.getIdLocation().getNamespace() != 'firmalife' && itm.getIdLocation().getNamespace() != 'farmersdelight') {
 //             lst.push(element)
 //         }
+=======
+ItemEvents.rightClicked('minecraft:diamond', event => {
+    let lst = []
+    Ingredient.of('*').getItemIds().forEach(element => {
+        let itm = Item.of(element)
+        if (itm.edible && itm.getIdLocation().getNamespace() != 'tfc' && itm.getIdLocation().getNamespace() != 'firmalife' && itm.getIdLocation().getNamespace() != 'farmersdelight') {
+            lst.push(element)
+        }
+>>>>>>> Stashed changes
 
 //     }) 
 //     let map = {}
