@@ -8,6 +8,7 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["7FBCDFE4BCD60A00"]
 		description: [
 			"恭喜你，已经完成了本整合包的一条基本路线。"
 			""
@@ -28,5 +29,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "时间之外的往事"
+	title: "时间之外的往事 | E.O.T."
 }

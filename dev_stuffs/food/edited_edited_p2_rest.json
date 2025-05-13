@@ -1,0 +1,600 @@
+{
+  "sushigocrafting:avocado_maki": {
+    "foodProperties": [
+      1.5,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      0.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:avocado_slices": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      2.0,
+      1.0,
+      0.0,
+      0.0,
+      0.7,
+      0.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:cheese": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "sushigocrafting:chicken_temaki": {
+    "foodProperties": [
+      3.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.8,
+      0.0
+    ]
+  },
+  "sushigocrafting:cooked_rice": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:crab_california": {
+    "foodProperties": [
+      3.0,
+      9.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:crab_cheese_california": {
+    "foodProperties": [
+      3.5,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.3,
+      1.0
+    ]
+  },
+  "sushigocrafting:crab_cucumber_california": {
+    "foodProperties": [
+      4.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.7,
+      1.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:crab_maki": {
+    "foodProperties": [
+      1.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:cucumber_maki": {
+    "foodProperties": [
+      1.5,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:cucumber_slices": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:imitation_crab": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:onigiri": {
+    "foodProperties": [
+      0.5,
+      9.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:salmon_california": {
+    "foodProperties": [
+      3.5,
+      9.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:salmon_cheese_california": {
+    "foodProperties": [
+      4.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.3,
+      1.0
+    ]
+  },
+  "sushigocrafting:salmon_cucumber_california": {
+    "foodProperties": [
+      5.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.7,
+      1.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:salmon_fillet": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:salmon_gunkan": {
+    "foodProperties": [
+      2.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:salmon_maki": {
+    "foodProperties": [
+      2.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:salmon_nigiri": {
+    "foodProperties": [
+      2.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:salmon_temaki": {
+    "foodProperties": [
+      3.5,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:sesame_seed": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:shrimp": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:shrimp_nigiri": {
+    "foodProperties": [
+      1.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:shrimp_temaki": {
+    "foodProperties": [
+      3.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:soy_sauce": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:tobiko": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:tobiko_crab_california": {
+    "foodProperties": [
+      3.5,
+      12.0,
+      -0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      2.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:tobiko_crab_cheese_california": {
+    "foodProperties": [
+      4.0,
+      15.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      2.3,
+      1.0
+    ]
+  },
+  "sushigocrafting:tobiko_crab_cucumber_california": {
+    "foodProperties": [
+      5.0,
+      15.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.7,
+      2.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:tobiko_salmon_california": {
+    "foodProperties": [
+      4.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      2.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:tobiko_salmon_cheese_california": {
+    "foodProperties": [
+      5.0,
+      15.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      2.3,
+      1.0
+    ]
+  },
+  "sushigocrafting:tobiko_salmon_cucumber_california": {
+    "foodProperties": [
+      5.5,
+      15.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.7,
+      2.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:tobiko_tuna_california": {
+    "foodProperties": [
+      4.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      2.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:tobiko_tuna_cheese_california": {
+    "foodProperties": [
+      5.0,
+      15.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      2.3,
+      1.0
+    ]
+  },
+  "sushigocrafting:tobiko_tuna_cucumber_california": {
+    "foodProperties": [
+      5.5,
+      15.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.7,
+      2.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:tuna_california": {
+    "foodProperties": [
+      3.5,
+      9.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.7,
+      2.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:tuna_cheese_california": {
+    "foodProperties": [
+      4.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.3,
+      1.0
+    ]
+  },
+  "sushigocrafting:tuna_cucumber_california": {
+    "foodProperties": [
+      5.0,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.7,
+      1.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:tuna_fillet": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:tuna_gunkan": {
+    "foodProperties": [
+      2.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:tuna_maki": {
+    "foodProperties": [
+      2.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:tuna_nigiri": {
+    "foodProperties": [
+      2.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:tuna_temaki": {
+    "foodProperties": [
+      3.5,
+      12.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      1.7,
+      1.3,
+      0.0
+    ]
+  },
+  "sushigocrafting:wakame_gunkan": {
+    "foodProperties": [
+      0.5,
+      10.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      2.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sushigocrafting:wasabi_paste": {
+    "foodProperties": [
+      1.0,
+      3.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

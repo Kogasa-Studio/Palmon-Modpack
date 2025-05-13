@@ -35,6 +35,9 @@ registerBuff("miner_4", 2, ["miner_3", "master_ending"], true, {}, {})
 // 战斗
 registerBuff("fighter_1", 1, ["init"], true, {}, {})
 
+// 体质
+registerBuff("speed_1", 1, ["init"], true, {}, {})
+
 // 工业
 registerBuff("industrial_1", 1, ["init"], true, {}, {})
 
@@ -52,8 +55,9 @@ global.renderBuffs = function (player) {
     let line = Text.of('========================\n========================')
         .append('\n')
         .append(Text.translatable('kubejs.eot.list_prefix')
+            .color(Color.AQUA)
             .hover(Text.translatable('kubejs.eot.description'))
-            .color(Color.AQUA))
+        )
         .append('\n');
 
     // 主体

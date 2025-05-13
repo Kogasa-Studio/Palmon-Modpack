@@ -13,7 +13,14 @@
 			"init",
 			"true_ending",
 			"master_ending"
+		],
+		"-1281242053803778860L": [
+			"miner_1",
+			"special_1",
+			"init",
+			"true_ending",
+			"master_ending"
 		]
 	},
-	"last_seed": "-2122027882789817549L"
+	"last_seed": "8155165817742480364L"
 }

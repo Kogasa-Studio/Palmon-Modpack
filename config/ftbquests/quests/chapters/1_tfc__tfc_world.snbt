@@ -39,6 +39,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4C273D948C0B6562"]
+			hide_until_deps_complete: true
 			id: "7D265517B918D923"
 			rewards: [
 				{

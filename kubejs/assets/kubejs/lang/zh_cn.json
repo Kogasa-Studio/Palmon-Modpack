@@ -230,6 +230,7 @@
     "kubejs.eot.activated": "已激活",
     "kubejs.eot.cost": "§b消耗§9锚之碎片§b数量：",
     "kubejs.eot.prerequisites": "前置：\n",
+    "kubejs.eot.description": "EOT解锁状态 \n§7[未解锁] 还未被解锁的EOT \n§e[可解锁] 前置完成，可以被解锁的EOT \n§a[已解锁] 已经被解锁的EOT，但是当前世界线未生效 \n§d[已激活] 已经被解锁的并且在当前世界线生效的EOT",
 
     "kubejs.eot.not_found": "未找到该加成",
     "kubejs.eot.not_enough_shard": "主手未持足够的§9锚之碎片",
@@ -246,6 +247,7 @@
     "kubejs.eot.master_ending_name": "[专家结局]",
     "kubejs.eot.master_ending_desc": "·初始携带 §d斯克兰顿现实稳定锚§f\n·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行终极试炼",
 
+
     "kubejs.eot.miner_1_name": "[专业矿工]",
     "kubejs.eot.miner_1_desc": "·初始携带 红钢镐\n·初始携带 夜视仪",
     
@@ -258,12 +260,19 @@
     "kubejs.eot.miner_4_name": "[矿脉领主]",
     "kubejs.eot.miner_4_desc": "·初始携带 不毁的 矿脉领主魔王\n·初始携带 维度矿井",
         
+
     "kubejs.eot.fighter_1_name": "[天生战士]",
     "kubejs.eot.fighter_1_desc": "·战士",
         
+
+    "kubejs.eot.speed_1_name": "[健步如飞]",
+    "kubejs.eot.speed_1_desc": "·速度",
+        
+
     "kubejs.eot.industrial_1_name": "[原始工业]",
     "kubejs.eot.industrial_1_desc": "·工业",
         
+    
     "kubejs.eot.special_1_name": "[诡秘畸变]",
     "kubejs.eot.special_1_desc": "·畸变"
 
