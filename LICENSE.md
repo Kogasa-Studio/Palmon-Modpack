@@ -38,7 +38,7 @@ Contact: Please submit your request for authorization by creating an Issue in th
 
 ## You CAN
 
-- Author other projects that depend on any part of the Project, provided you obtain a license before distribution  
+- Author other projects that depend on any part of the Project, provided you obtain a license before distribution. 
 - Submit Pull Requests to this repository.  
 - Fork and modify the code as long as modifications are not distributed publicly.  
 
