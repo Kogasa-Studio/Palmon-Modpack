@@ -224,13 +224,15 @@
     "obscure_api.regeneration": "每20秒再生",
     "obscure_api.resilience": "暴击防护",
 
-    "kubejs.eot.list_prefix": "EOT列表：",
+    "kubejs.eot.list_prefix": "[EOT]列表：",
     "kubejs.eot.unlocked": "已解锁",
     "kubejs.eot.locked": "未解锁",
     "kubejs.eot.activated": "已激活",
     "kubejs.eot.cost": "§b消耗§9锚之碎片§b数量：",
     "kubejs.eot.prerequisites": "前置：\n",
-    "kubejs.eot.description": "EOT解锁状态 \n§7[未解锁] 还未被解锁的EOT \n§e[可解锁] 前置完成，可以被解锁的EOT \n§a[已解锁] 已经被解锁的EOT，但是当前世界线未生效 \n§d[已激活] 已经被解锁的并且在当前世界线生效的EOT",
+    "kubejs.eot.description": "[EOT] \n§7[未解锁] 还未被解锁的[EOT] \n§e[可解锁] 前置完成，可以被解锁的[EOT] \n§a[已解锁] 已经被解锁的[EOT]，但是当前世界线未生效 \n§d[已激活] 已经被解锁的并且在当前世界线生效的[EOT] \n§f将鼠标悬停在[EOT]上可以查看详细信息 \n点击[EOT]可以获取激活该[EOT]的指令",
+
+    "kubejs.eot.first_login_info": "基于平行时空观测者的纠缠态协同，下列[EOT]已完成量子态注入：",
 
     "kubejs.eot.not_found": "未找到该加成",
     "kubejs.eot.not_enough_shard": "主手未持足够的§9锚之碎片",
@@ -245,32 +247,80 @@
     "kubejs.eot.true_ending_desc": "·初始携带 §e现世之魂§f\n·允许开启章节7",
     
     "kubejs.eot.master_ending_name": "[专家结局]",
-    "kubejs.eot.master_ending_desc": "·初始携带 §d斯克兰顿现实稳定锚§f\n·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行终极试炼",
+    "kubejs.eot.master_ending_desc": "·初始携带 §d斯克兰顿现实稳定锚§f\n·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行专家试炼",
+    
+    "kubejs.eot.no_end_name": "[无终安息]",
+    "kubejs.eot.no_end_desc": "·这是...最后了......\n  ¤  部分配方将变的无比困难\n  ¤  敌对生物将宛如恶魔降世\n  ¤  允许进行终极试炼",
 
 
     "kubejs.eot.miner_1_name": "[专业矿工]",
-    "kubejs.eot.miner_1_desc": "·初始携带 红钢镐\n·初始携带 夜视仪",
+    "kubejs.eot.miner_1_desc": "·初始携带 红钢镐\n·初始携带 夜视镜\n·属性 方块范围 + 1",
     
     "kubejs.eot.miner_2_name": "[老练矿工]",
-    "kubejs.eot.miner_2_desc": "·初始携带 铁制背包\n·初始携带 高炉升级\n·允许用高炉将群峦矿粉加工成粒",
+    "kubejs.eot.miner_2_desc": "·初始携带 铁制背包\n·初始携带 自动高炉升级\n·允许用高炉将群峦矿粉加工成锭",
     
     "kubejs.eot.miner_3_name": "[掘矿传说]",
-    "kubejs.eot.miner_3_desc": "·初始携带 炽岩之熔山镐\n·初始携带 急迫符文",
+    "kubejs.eot.miner_3_desc": "·初始携带 不毁的 炽岩之熔山镐\n·初始携带 急迫符文\n·属性 方块范围 + 2",
         
     "kubejs.eot.miner_4_name": "[矿脉领主]",
-    "kubejs.eot.miner_4_desc": "·初始携带 不毁的 矿脉领主魔王\n·初始携带 维度矿井",
+    "kubejs.eot.miner_4_desc": "·初始携带 维度矿井，内置 不毁的 矿脉领主魔王\n·属性 方块范围 + 3",
         
 
-    "kubejs.eot.fighter_1_name": "[天生战士]",
-    "kubejs.eot.fighter_1_desc": "·战士",
+    "kubejs.eot.fighter_1_name": "[力量战士]",
+    "kubejs.eot.fighter_1_desc": "·属性 攻击伤害 + 3",
+
+    "kubejs.eot.fighter_2_name": "[迅捷战士]",
+    "kubejs.eot.fighter_2_desc": "·属性 攻击速度 + 7.5%",
+
+    "kubejs.eot.fighter_3_name": "[精锐战士]",
+    "kubejs.eot.fighter_3_desc": "·属性 攻击伤害 + 3\n·属性 攻击速度 + 7.5%",
+
+    "kubejs.eot.assassin_1_name": "[学徒刺客]",
+    "kubejs.eot.assassin_1_desc": "·属性 暴击率 + 0.05",
+
+    "kubejs.eot.assassin_2_name": "[精锐刺客]",
+    "kubejs.eot.assassin_2_desc": "·属性 暴击率 + 0.05",
+    
+    "kubejs.eot.fighter_4_name": "[战斗宗师]",
+    "kubejs.eot.fighter_4_desc": "·属性 攻击伤害 + 4\n·属性 攻击速度 + 10%\n·属性 暴击率 + 0.05",
+    
+    "kubejs.eot.fighter_5_name": "[无名王者]",
+    "kubejs.eot.fighter_5_desc": "·属性 攻击伤害 + 5\n·属性 攻击速度 + 10%\n·属性 暴击率 + 0.05",
+
+    "kubejs.eot.tank_1_name": "[学徒坦克]",
+    "kubejs.eot.tank_1_desc": "·属性 生命值 + 5%",
+
+    "kubejs.eot.tank_2_name": "[精锐坦克]",
+    "kubejs.eot.tank_2_desc": "·属性 生命值 + 5%",
+
+    "kubejs.eot.sheild_1_name": "[学徒盾位]",
+    "kubejs.eot.sheild_1_desc": "·属性 护甲值 + 3",
+
+    "kubejs.eot.sheild_2_name": "[精锐盾位]",
+    "kubejs.eot.sheild_2_desc": "·属性 护甲值 + 4",
         
+    "kubejs.eot.tank_3_name": "[全能坦克]",
+    "kubejs.eot.tank_3_desc": "·属性 生命值 + 10%\n·属性 护甲值 + 5\n·属性 治疗量 + 15%",
+        
+    "kubejs.eot.tank_4_name": "[圆桌之盾]",
+    "kubejs.eot.tank_4_desc": "·属性 生命值 + 10%\n·属性 护甲值 + 6\n·属性 盔甲韧性 + 6",
+
 
     "kubejs.eot.speed_1_name": "[健步如飞]",
-    "kubejs.eot.speed_1_desc": "·速度",
-        
+    "kubejs.eot.speed_1_desc": "·初始携带 幽灵靴\n·初始携带 跑鞋\n·属性 速度 * 10%",
+    
+    "kubejs.eot.speed_2_name": "[风驰电掣]",
+    "kubejs.eot.speed_2_desc": "·初始携带 泰拉闪耀靴\n·属性 速度 * 15%",
+    
+    "kubejs.eot.flight_1_name": "[上天入地]",
+    "kubejs.eot.flight_1_desc": "·初始携带 Takeoff!\n·属性 速度 * 10%\n·属性 Max Mana * 20%",
 
-    "kubejs.eot.industrial_1_name": "[原始工业]",
-    "kubejs.eot.industrial_1_desc": "·工业",
+
+    "kubejs.eot.thermal_1_name": "[通量链接]",
+    "kubejs.eot.thermal_1_desc": "·初始携带 斯特林能源炉\n·初始携带 红石熔炼炉\n·初始携带 磨粉机\n·初始携带 新月锤\n·初始携带 深渊通量链接放大器 * 2",
+        
+    "kubejs.eot.thermal_2_name": "[深渊链接]",
+    "kubejs.eot.thermal_2_desc": "·初始携带 深渊整合组件 * 2\n·允许以更容易获得的原料制作深渊整合组件",
         
     
     "kubejs.eot.special_1_name": "[诡秘畸变]",

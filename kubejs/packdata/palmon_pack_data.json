@@ -1,26 +1,16 @@
 {
+	"last_seed": "-3632013058800928433L",
 	"learned_buffs": [
 		"init",
-		"true_ending",
-		"master_ending",
-		"special_1",
-		"miner_1"
+		"thermal_1",
+		"thermal_2"
 	],
 	"all_seed_data": {
-		"-2122027882789817549L": [],
-		"8155165817742480364L": [
-			"special_1",
-			"init",
-			"true_ending",
-			"master_ending"
-		],
-		"-1281242053803778860L": [
-			"miner_1",
-			"special_1",
-			"init",
-			"true_ending",
-			"master_ending"
+		"0": [],
+		"-3632013058800928433L": [
+			"thermal_1",
+			"thermal_2",
+			"init"
 		]
-	},
-	"last_seed": "8155165817742480364L"
+	}
 }

@@ -174,9 +174,169 @@
     },
     {
       "stack": "item:sushigocrafting:shrimp_temaki"
+    },
+    {
+      "stack": "item:celestial_core:virtual_gold_ingot",
+      "recipe": "celestial_core:storage/virtual_gold_ingot"
+    },
+    {
+      "stack": "item:confluence:spectre_boots{}",
+      "recipe": "jei:/confluence/spectre_boots_from_dunerider_boots"
+    },
+    {
+      "stack": "item:tfc:metal/ingot/bismuth"
+    },
+    {
+      "stack": "item:minecraft:iron_nugget"
     }
   ],
   "lookup_history": [
+    "item:occultism:spawn_egg/familiar_fairy",
+    {
+      "type": "item",
+      "id": "thermal_extra:abyssal_upgrade_augment",
+      "amount": 2
+    },
+    "item:thermal_extra:abyssal_dust",
+    {
+      "type": "item",
+      "id": "thermal_extra:abyssal_ingot",
+      "amount": 4
+    },
+    "item:thermal_extra:abyssal_gear",
+    "item:thermal_extra:upgrade_augment",
+    "item:thermal_extra:dragonsteel_machine_output_augment",
+    "item:aquamirae:abyssal_brigantine{Damage:0}",
+    "item:aquamirae:ship_graveyard_echo",
+    "item:aquamirae:poseidons_breakfast",
+    "item:tfc:plant/arundo",
+    "item:avaritia:blaze_pickaxe{Damage:0,Unbreakable:1b}",
+    "item:rftoolsbase:machine_frame",
+    "item:rftoolsutility:environmental_controller",
+    "item:rftoolsutility:flight_module",
+    "item:ars_nouveau:ritual_flight",
+    {
+      "type": "item",
+      "id": "tfc:powder/garnierite",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/bismuthinite",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/cassiterite",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/native_silver",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/sphalerite",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/hematite",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/native_gold",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/limonite",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/magnetite",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/tetrahedrite",
+      "amount": 63
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/malachite",
+      "amount": 63
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/native_copper",
+      "amount": 63
+    },
+    {
+      "type": "item",
+      "id": "minecraft:iron_nugget",
+      "amount": 9
+    },
+    "item:create:crushed_raw_iron",
+    "item:minecraft:iron_ingot",
+    {
+      "type": "fluid",
+      "id": "tfc:metal/bismuth",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "tfc:metal/bismuth_bronze",
+      "amount": 100
+    },
+    {
+      "type": "item",
+      "id": "tfc:metal/ingot/bismuth_bronze",
+      "amount": 16
+    },
+    "#item:c:copper_nuggets",
+    "item:minecraft:copper_ingot",
+    "item:minecraft:blast_furnace",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_iron",
+      "amount": 7
+    },
+    {
+      "type": "fluid",
+      "id": "tfc:metal/gold",
+      "amount": 6
+    },
+    {
+      "type": "fluid",
+      "id": "tfc:metal/copper",
+      "amount": 6
+    },
+    "item:tfc_ie_addon:metal/double_ingot/constantan",
+    "item:firmalife:ore/rich_chromite",
+    {
+      "type": "fluid",
+      "id": "firmalife:metal/chromium",
+      "amount": 100
+    },
+    "item:firmalife:metal/ingot/chromium",
+    {
+      "type": "fluid",
+      "id": "firmalife:metal/stainless_steel",
+      "amount": 100
+    },
+    "item:firmalife:metal/ingot/stainless_steel",
+    "item:tfc:powder/sylvite",
+    "item:tfc:powder/saltpeter",
+    "item:tfc:powder/kaolinite",
+    "item:tfc:powder/graphite",
+    "item:botania:travel_belt",
+    "item:confluence:rocket_boots",
+    "item:celestial_core:virtual_gold_ingot",
+    "item:kubejs:present_soul",
     {
       "type": "item",
       "id": "kubejs:anchorgleam",
@@ -227,42 +387,14 @@
     "item:sushigocrafting:avocado_slices",
     "item:kubejs:voucher_1_1",
     "item:kubejs:voucher_1_0",
-    "item:kubejs:present_soul",
     {
       "type": "fluid",
       "id": "tconstruct:molten_gold",
       "amount": 7
     },
-    "item:tfc:powder/native_gold",
-    "item:tfc:powder/tetrahedrite",
-    {
-      "type": "item",
-      "id": "tfc:powder/magnetite",
-      "amount": 64
-    },
-    "item:tfc:powder/hematite",
-    "item:tfc:powder/native_copper",
-    "item:tfc:powder/garnierite",
-    {
-      "type": "fluid",
-      "id": "tfc:metal/bismuth",
-      "amount": 6
-    },
-    "item:tfc:powder/bismuthinite",
-    "item:tfc:powder/cassiterite",
-    "item:tfc:powder/sphalerite",
-    "item:tfc:powder/native_silver",
-    "item:tfc:powder/limonite",
-    {
-      "type": "fluid",
-      "id": "tfc:metal/copper",
-      "amount": 6
-    },
-    "item:tfc:powder/malachite",
     "item:sophisticatedbackpacks:auto_blasting_upgrade",
     "item:sophisticatedbackpacks:blasting_upgrade",
     "item:occultism:miner_marid_master{Damage:0,maxMiningTime:100,rollsPerOperation:1,spiritName:\"Mrokmurmorn\"}",
-    "item:avaritia:blaze_pickaxe{Damage:0}",
     "item:avaritia:crystal_pickaxe{Damage:0}",
     "item:tfc:metal/pickaxe/red_steel{Damage:0}",
     "#item:forge:fruits",
@@ -403,20 +535,20 @@
       "type": "list",
       "amount": 250,
       "ingredients": [
-        "fluid:sakura:red_wine",
-        "fluid:sakura:food_oil",
-        "fluid:sakura:brandy",
-        "fluid:sakura:champagne",
-        "fluid:sakura:doburoku",
-        "fluid:createaddition:bioethanol",
-        "fluid:sakura:sake",
-        "fluid:cobgyms:safe_lava",
-        "fluid:createaddition:seed_oil",
-        "fluid:sakura:beer",
         "fluid:sakura:white_wine",
+        "fluid:sakura:beer",
+        "fluid:sakura:brandy",
+        "fluid:sakura:food_oil",
+        "fluid:sakura:champagne",
+        "fluid:sakura:sake",
+        "fluid:createaddition:seed_oil",
+        "fluid:createaddition:bioethanol",
+        "fluid:cobgyms:safe_lava",
+        "fluid:sakura:red_wine",
+        "fluid:sakura:doburoku",
         "#fluid:firmalife:mixable",
-        "#fluid:tfc:water",
-        "#fluid:sakura:brewers_alcohol"
+        "#fluid:sakura:brewers_alcohol",
+        "#fluid:tfc:water"
       ]
     },
     "fluid:cobgyms:safe_lava",
@@ -566,11 +698,6 @@
     },
     "item:kubejs:basepoint_alloy",
     "item:kubejs:collapse_prediction",
-    {
-      "type": "fluid",
-      "id": "tfc:metal/gold",
-      "amount": 1000
-    },
     {
       "type": "fluid",
       "id": "tfc:metal/rose_gold",
@@ -1189,9 +1316,7 @@
     "item:botanicalmachinery:mana_battery_creative",
     "item:kubejs:voucher_5_0",
     "item:kubejs:voucher_5_1",
-    "item:ars_nouveau:ritual_flight",
     "item:botania:flight_tiara{variant:0}",
-    "item:rftoolsutility:flight_module",
     "item:botania:ender_air_bottle",
     "item:ars_nouveau:ritual_cloudshaping",
     "item:ars_elemental:ritual_detection",
@@ -1219,12 +1344,6 @@
       "amount": 4
     },
     "item:thermal_extra:dragonsteel_gear",
-    "item:thermal_extra:upgrade_augment",
-    {
-      "type": "item",
-      "id": "thermal_extra:abyssal_upgrade_augment",
-      "amount": 64
-    },
     "item:thermal:upgrade_augment_3",
     "item:integrateddynamics:crystalized_chorus_chunk",
     "item:draconicevolution:end_draconium_ore",
@@ -1701,85 +1820,12 @@
       "amount": 0
     },
     "item:rats:ratlantean_flame",
-    "item:tfc:powder/graphite",
     "item:mekanism:dust_coal",
     "item:tfc:powder/charcoal",
     "#item:c:charcoal_dusts",
     "item:cataclysm:ignited_berserker_spawn_egg",
     "#item:c:lead_ingots",
-    "#item:forge:dusts/graphite",
-    "item:nuclearcraft:plate_basic",
-    "item:kubejs:ember_profile",
-    "item:kubejs:elite_mechanism",
-    "item:kubejs:elite_mechanism_plus",
-    "item:kubejs:elite_mechanism_final",
-    "item:forestry:electron_tube_emerald",
-    {
-      "type": "fluid",
-      "id": "thermal:tree_oil",
-      "amount": 50
-    },
-    {
-      "type": "fluid",
-      "id": "thermal:sap",
-      "amount": 1000
-    },
-    "item:thermal:syrup_bottle",
-    {
-      "type": "fluid",
-      "id": "embers:molten_aluminum",
-      "amount": 1000
-    },
-    "item:embers:molten_aluminum_bucket",
-    {
-      "type": "fluid",
-      "id": "tconstruct:molten_aluminum",
-      "amount": 1000
-    },
-    "item:tconstruct:molten_aluminum_bucket",
-    "item:thermal:tree_oil_bucket",
-    "item:thermal:syrup_bucket",
-    {
-      "type": "fluid",
-      "id": "nuclearcraft:aluminum",
-      "amount": 1000
-    },
-    "item:nuclearcraft:aluminum_bucket",
-    {
-      "type": "fluid",
-      "id": "tconstruct:earth_slime",
-      "amount": 1000
-    },
-    "item:tconstruct:earth_slime_bucket",
-    "item:thermal:rosin",
-    {
-      "type": "fluid",
-      "id": "tconstruct:molten_uranium",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "embers:molten_uranium",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "tfc_ie_addon:metal/aluminum",
-      "amount": 0
-    },
-    "item:immersiveengineering:ingot_aluminum",
-    "item:create:andesite_alloy",
-    "item:immersiveengineering:capacitor_hv",
-    "item:jaopca:plates.iesnium",
-    "item:thermal:machine_pulverizer",
-    "item:techreborn:calcite_dust",
-    "item:jaopca:gears.unknown",
-    "item:jaopca:plates.unknown",
-    {
-      "type": "item",
-      "id": "jaopca:rods.unknown",
-      "amount": 2
-    }
+    "#item:forge:dusts/graphite"
   ],
   "craft_history": [
     "jei:/forestry/carpenter/circuits/refined",
@@ -2279,38 +2325,39 @@
   ],
   "recipe_defaults": {
     "added": [
-      "mekanism_extras:control_circuit/cosmic",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
       "mekanism_extras:control_circuit/supreme",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
-      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "create:crafting/kinetics/steam_engine",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
       "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
       "mekanism_extras:control_circuit/absolute",
-      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
-      "tfcoreprocessing:compress/compress_refined_limonite",
-      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
       "jei:/tfc/casting/weak_steel_ingot",
-      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "mekanism_extras:control_circuit/infinite",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/mekanism/processing/uranium/uranium_oxide",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
       "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
-      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone"
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
+      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
+      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
+      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
+      "create:crafting/kinetics/steam_engine",
+      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "mekanism_extras:control_circuit/infinite",
+      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
+      "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "mekanism_extras:control_circuit/cosmic",
+      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
+      "jei:/tfc/anvil/black_steel_ingot",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "tfcoreprocessing:compress/compress_refined_limonite",
+      "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "thermal_extra:abyssal_dust",
+      "jei:/mekanism/processing/uranium/uranium_oxide",
+      "jei:/malum/spirit_infusion/stellar_mechanism"
     ],
     "tags": {
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",

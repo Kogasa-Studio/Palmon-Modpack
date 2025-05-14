@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
     ],
         {
             A: 'tfc:soot',
-            B: ['#forge:ingots/red_steel', '#forge:ingots/blue_steel'],
+            B: 'celestial_core:virtual_gold_ingot',
             F: 'tfc:hematitic_glass_bottle'
         }).id('kubejs:present_soul_s1')
 

@@ -19,15 +19,15 @@ function hashCode(string) {
 }
 
 function loadPackData() {
-    let json = JsonIO.readJson(PACK_DATA_PATH);
+    let json = JsonIO.readJson(PACK_DATA_PATH)
     if (!json) {
-        json = new $JsonObject();
+        json = new $JsonObject()
     }
-    if (!json.has("learned_buffs")) json.add("learned_buffs", new $JsonArray());
-    if (!json.has("all_seed_data")) json.add("all_seed_data", new $JsonObject());
-    return json;
+    if (!json.has("learned_buffs")) json.add("learned_buffs", new $JsonArray())
+    if (!json.has("all_seed_data")) json.add("all_seed_data", new $JsonObject())
+    return json
 }
 
 function savePackData(json) {
-    JsonIO.write(PACK_DATA_PATH, json);
+    JsonIO.write(PACK_DATA_PATH, json)
 }
