@@ -1,13 +1,25 @@
 {
-	"last_seed": "-3632013058800928433L",
+	"last_seed": "8432630033839861281L",
 	"learned_buffs": [
 		"init",
 		"thermal_1",
-		"thermal_2"
+		"thermal_2",
+		"tank_1",
+		"sheild_1",
+		"tank_sp",
+		"mek_1"
 	],
 	"all_seed_data": {
 		"0": [],
 		"-3632013058800928433L": [
+			"thermal_1",
+			"thermal_2",
+			"init"
+		],
+		"8432630033839861281L": [
+			"tank_1",
+			"sheild_1",
+			"tank_sp",
 			"thermal_1",
 			"thermal_2",
 			"init"

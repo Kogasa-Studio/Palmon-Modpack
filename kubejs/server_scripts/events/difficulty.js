@@ -1,66 +1,121 @@
-const healthMultiplier = [1.0, 1.7, 2.4, 3.8, 5.6, 8.0, 10.0, 20.0]
-const healthAdder = [10, 20, 40, 80, 120, 160, 240, 480]
+/**
+ * hp, armor, attack
+ */
+const dimAdder = {
+    'minecraft:overworld': [10, 2, 0],
 
-const attackMultiplier = [1.0, 1.2, 1.4, 1.6, 2.0, 2.4, 3.6, 7.2]
-const attackAdder = [2, 4, 6, 10, 14, 20, 26, 48]
+    'minecraft:the_nether': [20, 14, 0],
 
-const armorMultiplier = [1.0, 1.05, 1.1, 1.175, 1.25, 1.35, 1.5, 2.0]
-const armorAdder = [0, 2, 4, 7, 10, 14, 20, 30]
+    'kubejs:overworld': [40, 20, 0],
+    'dimdungeons:dungeon_dimension': [60, 35, 0],
+    'ad_astra:moon': [50, 30, 0],
 
-const dimMultiplier = {
-    'minecraft:the_nether': 1.0,
-    'kubejs:overworld': 1.1,
-    'dimdungeons:dungeon_dimension': 1.4,
-    'minecraft:the_end': 1.5,
-    'deeperdarker:otherside': 1.6,
-    'rats:ratlantis': 2.0
+    'ad_astra:mars': [80, 60, 0],
+    'ad_astra:venus': [100, 80, 0],
+    'ad_astra:mercury': [110, 90, 0],
+
+    'minecraft:the_end': [140, 100, 10],
+    'deeperdarker:otherside': [180, 120, 10],
+
+    'rats:ratlantis': [240, 150, 10]
+}
+
+const dimMuti = {
+    'minecraft:overworld': [1, 0.5, 1],
+
+    'minecraft:the_nether': [2.5, 0.7, 1],
+
+    'kubejs:overworld': [6, 1, 1],
+    'dimdungeons:dungeon_dimension': [8, 1.4, 1],
+    'ad_astra:moon': [7, 1.35, 1],
+
+    'ad_astra:mars': [9, 1.6, 1],
+    'ad_astra:venus': [11, 2, 1],
+    'ad_astra:mercury': [12, 2.1, 1],
+
+    'minecraft:the_end': [14, 2.5, 1],
+    'deeperdarker:otherside': [17, 3, 1],
+
+    'rats:ratlantis': [21, 3.5, 1]
 }
 
 const health = "minecraft:generic.max_health"
 const attack = "minecraft:generic.attack_damage"
 const armor = "minecraft:generic.armor"
 
+global.entityBlackList = new Set(["cobblemon:pokemon", "dummmmmmy:target_dummy", "aqua_creepers:aqua_creeper"])
+
 EntityEvents.spawned(event => {
     /**
      * @type {Internal.LivingEntity}
      */
-    var entity = event.entity
+    let entity = event.entity
 
     if (entity && entity.isLiving()) {
-        var name = entity.type
-        if (entity.isMonster() && !global.entityBlackList.has(name) && entity.persistentData && !entity.persistentData.contains('diffLevel')) {
-            var player = entity.getLevel().getNearestPlayer(entity, 240)
-            if (player) {
-                var diffNum = 0
-                player.stages.getAll().forEach(element => {
-                    if (element.startsWith(global.diffLevelStage)) {
-                        diffNum = Math.max(diffNum, parseInt(element.split('_')[2]))
-                    }
-                })
+        let name = entity.type
+        if (entity.isMonster() && !global.entityBlackList.has(name) && entity.persistentData && !entity.persistentData.contains('ova_difficulty')) {
+            // let player = entity.getLevel().getNearestPlayer(entity, 240)
+            // if (player) {
+            //     let diffNum = 0
+            //     player.stages.getAll().forEach(element => {
+            //         if (element.startsWith(global.diffLevelStage)) {
+            //             diffNum = Math.max(diffNum, parseInt(element.split('_')[2]))
+            //         }
+            //     })
 
-                entity.persistentData.putInt('diffLevel', diffNum)
-                let muti = 1
-                if (dimMultiplier[entity.level.getDimension()]) {
-                    muti = dimMultiplier[entity.level.getDimension()]
-                }
+            //     entity.persistentData.putInt('diffLevel', diffNum)
+            //     let muti = 1
+            //     if (dimMultiplier[entity.level.getDimension()]) {
+            //         muti = dimMultiplier[entity.level.getDimension()]
+            //     }
 
-                if (entity.attributes.hasAttribute(health)) {
-                    entity.setAttributeBaseValue(health, ((entity.getAttribute(health).getBaseValue() + healthAdder[diffNum]) * healthMultiplier[diffNum]) * muti)
-                    entity.setHealth(entity.getMaxHealth())
+            //     if (entity.attributes.hasAttribute(health)) {
+            //         entity.setAttributeBaseValue(health, ((entity.getAttribute(health).getBaseValue() + healthAdder[diffNum]) * healthMultiplier[diffNum]) * muti)
+            //         entity.setHealth(entity.getMaxHealth())
 
-                }
+            //     }
 
-                if (entity.attributes.hasAttribute(attack)) {
-                    entity.setAttributeBaseValue(attack, ((entity.getAttribute(attack).getBaseValue() + attackAdder[diffNum]) * attackMultiplier[diffNum]) * muti)
+            //     if (entity.attributes.hasAttribute(attack)) {
+            //         entity.setAttributeBaseValue(attack, ((entity.getAttribute(attack).getBaseValue() + attackAdder[diffNum]) * attackMultiplier[diffNum]) * muti)
 
-                }
+            //     }
 
-                if (entity.attributes.hasAttribute(armor)) {
-                    entity.setAttributeBaseValue(armor, ((entity.getAttribute(armor).getBaseValue() + armorAdder[diffNum]) * armorAdder[diffNum]) * muti)
+            //     if (entity.attributes.hasAttribute(armor)) {
+            //         entity.setAttributeBaseValue(armor, ((entity.getAttribute(armor).getBaseValue() + armorAdder[diffNum]) * armorAdder[diffNum]) * muti)
 
-                }
+            //     }
+
+            // }    
+
+            let dim = event.level.dimension.getNamespace() + ':' + entity.getLevel().getDimension().getPath()
+
+            entity.persistentData.putString('ova_difficulty', dim)
+
+            if (entity.attributes.hasAttribute(health)) {
+                let hpVal = entity.getAttribute(health).getBaseValue() + dimAdder[dim][0]
+                hpVal *= dimMuti[dim][0]
+
+                entity.setAttributeBaseValue(health, hpVal)
+                entity.setHealth(entity.getMaxHealth())
 
             }
+
+            if (entity.attributes.hasAttribute(armor)) {
+                let armVal = entity.getAttribute(armor).getBaseValue() + dimAdder[dim][1]
+                armVal *= dimMuti[dim][1]
+
+                entity.setAttributeBaseValue(armor, armVal)
+
+            }
+
+            if (entity.attributes.hasAttribute(attack)) {
+                let atkVal = entity.getAttribute(attack).getBaseValue() + dimAdder[dim][2]
+                atkVal *= dimMuti[dim][2]
+
+                entity.setAttributeBaseValue(attack, atkVal)
+
+            }
+
         }
 
     }

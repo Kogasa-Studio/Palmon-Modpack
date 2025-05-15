@@ -328,14 +328,14 @@ registerBuff("miner_2", 2, ["miner_1"], false, function (event) {
 
 })
 
-registerBuff("miner_3", 5, ["miner_2", "true_ending"], false, function (event) {
+registerBuff("miner_3", 3, ["miner_2", "true_ending"], false, function (event) {
     event.player.give(Item.of('avaritia:blaze_pickaxe', '{Unbreakable:1b}'))
     event.player.give(Item.of('malum:rune_of_haste'))
 }, function (event) {
     global.blockReachAmmount += 2.0
 })
 
-registerBuff("miner_4", 2, ["miner_3", "master_ending"], true, function (event) {
+registerBuff("miner_4", 3, ["miner_3", "master_ending"], true, function (event) {
     event.player.give(Item.of('occultism:dimensional_mineshaft', '{BlockEntityTag:{ForgeCaps:{},id:"occultism:dimensional_mineshaft",inputHandler:{Items:[{Count:1b,Slot:0,id:"occultism:miner_marid_master",tag:{Unbreakable:1b}}],Size:1}}}'))
 }, function (event) {
     global.blockReachAmmount += 3.0
@@ -391,6 +391,10 @@ registerBuff("sheild_2", 2, ["sheild_1"], false, function (event) { }, function 
     global.armorAmmount += 4.0
 })
 
+registerBuff("tank_sp", 1, ["tank_1", "sheild_1"], false, function (event) { 
+    event.player.give(Item.of('dustandash:rock_solid'))
+}, function (event) { })
+
 registerBuff("tank_3", 3, ["tank_2", "sheild_2"], false, function (event) { }, function (event) { 
     global.max_healthAmmount += 0.1
     global.armorAmmount += 5.0
@@ -432,7 +436,7 @@ registerBuff("thermal_1", 2, ["init"], false, function (event) {
     event.player.give(Item.of('thermal:satchel', '{ItemInv:{ItemInv:[{Count:1b,Slot:0b,id:"thermal:dynamo_stirling"},{Count:1b,Slot:1b,id:"thermal:machine_furnace"},{Count:1b,Slot:2b,id:"thermal:machine_pulverizer"},{Count:1b,Slot:3b,id:"thermal:wrench",tag:{}},{Count:2b,Slot:4b,id:"thermal_extra:abyssal_machine_speed_augment"}]}}'))
 }, function (event) { })
 
-registerBuff("thermal_2", 2, ["thermal_1"], true, function (event) { 
+registerBuff("thermal_2", 2, ["thermal_1"], false, function (event) { 
     event.player.give(Item.of('2x thermal_extra:abyssal_upgrade_augment'))
 }, function (event) { 
     event.shaped('thermal_extra:abyssal_upgrade_augment', [
@@ -445,6 +449,10 @@ registerBuff("thermal_2", 2, ["thermal_1"], true, function (event) {
             B: 'thermal:upgrade_augment_3'
         }).id('kubejs:eot_thermal_2_abyssal_upgrade_augment')
 })
+
+registerBuff("mek_1", 3, ["init"], true, function (event) { 
+    event.player.giveItem.of('mekanism_extras:absolute_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"1024000000"}]}}')
+}, function (event) { })
 
 // 特殊 *
 registerBuff("special_1", 1, ["init"], true, function (event) { }, function (event) { })

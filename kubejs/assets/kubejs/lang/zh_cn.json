@@ -185,9 +185,7 @@
     "ui.kubejs.sun": "⌈One Shot⌋ 世界机器",
     "ui.kubejs.photo_of_niko": "⌈One Shot⌋ \nNot a cat!\nA backup!\n3rd time's the charm?\nThis is kind of fun.\nLookin' Good.\nNiko blinked in this one. \nNice.\nVery photogenic.\nCan't have too much of a good thing!\nThe ultimate photo.",
     "ui.kubejs.godricks_great_rune": "⌈Elden Ring⌋ “艾尔登之王”葛孚雷与其后代子孙—— \n黄金一族是最先出现的半神",
-    
-    "ui.kubejs.marker": "Palmon - by Tonywww",
-    
+ 
     "ui.kubejs.compact_pal_factory_2": "经过极限压缩后，能完全自给自足的帕鲁工厂",
     "ui.kubejs.compact_pal_factory_3": "每隔一段时间，在背包内生成一个随机的精灵球",
     "ui.kubejs.compact_pal_factory_4": "你的§e⌈压缩型帕鲁工厂⌋§r成功制造了： ",
@@ -223,6 +221,9 @@
     "obscure_api.penetration": "护甲穿透",
     "obscure_api.regeneration": "每20秒再生",
     "obscure_api.resilience": "暴击防护",
+   
+    "ui.kubejs.marker": "Palmon - by Tonywww",
+    "kubejs.modpack_name": "帕鲁梦",
 
     "kubejs.eot.list_prefix": "[EOT]列表：",
     "kubejs.eot.unlocked": "已解锁",
@@ -304,7 +305,9 @@
         
     "kubejs.eot.tank_4_name": "[圆桌之盾]",
     "kubejs.eot.tank_4_desc": "·属性 生命值 + 10%\n·属性 护甲值 + 6\n·属性 盔甲韧性 + 6",
-
+        
+    "kubejs.eot.tank_sp_name": "[铜头铁臂]",
+    "kubejs.eot.tank_sp_desc": "·初始携带 铜头铁臂",
 
     "kubejs.eot.speed_1_name": "[健步如飞]",
     "kubejs.eot.speed_1_desc": "·初始携带 幽灵靴\n·初始携带 跑鞋\n·属性 速度 * 10%",
@@ -321,6 +324,9 @@
         
     "kubejs.eot.thermal_2_name": "[深渊链接]",
     "kubejs.eot.thermal_2_desc": "·初始携带 深渊整合组件 * 2\n·允许以更容易获得的原料制作深渊整合组件",
+        
+    "kubejs.eot.mek_1_name": "[绝对能量]",
+    "kubejs.eot.mek_1_desc": "·初始携带 绝对能量立方",
         
     
     "kubejs.eot.special_1_name": "[诡秘畸变]",
