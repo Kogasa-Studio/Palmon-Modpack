@@ -75,6 +75,10 @@ StartupEvents.registry('item', event => {
 	event.create('delta_framework').displayName('§dDelta Framework').fireResistant().rarity('epic')
 	event.create('epsilon_framework').displayName('§eEpsilon Framework').fireResistant().rarity('epic').glow(true)
 
+	event.create('delivery_coordinate_gamma').displayName('§cDelivery Coordinate Gamma').fireResistant().rarity('epic').glow(true)
+	event.create('delivery_coordinate_epsilon').displayName('§eDelivery Coordinate Epsilon').fireResistant().rarity('epic').glow(true)
+	event.create('delivery_coordinate_ultimate').displayName('§fDelivery Coordinate Ultimate').fireResistant().rarity('epic').glow(true)
+
 	event.create('anchor_shard').displayName('§9Anchor Shard').fireResistant().rarity('epic').glow(true)
 
 	const voucherTexture = 'kubejs:item/voucher'

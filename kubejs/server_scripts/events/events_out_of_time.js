@@ -1,6 +1,9 @@
 // priority: 60
 const $ClickEvent = Java.loadClass('net.minecraft.network.chat.ClickEvent');
-const $ClickEventAction = Java.loadClass('net.minecraft.network.chat.ClickEvent$Action');
+const $ClickEventAction = Java.loadClass('net.minecraft.network.chat.ClickEvent$Action')
+
+const $ShapedRecipe = Java.loadClass('net.minecraft.world.item.crafting.ShapedRecipe')
+const itemStackFromJson = $ShapedRecipe.itemStackFromJson
 
 global.current_buffs = new Set()
 global.all_buffs = {}
@@ -342,66 +345,66 @@ registerBuff("miner_4", 3, ["miner_3", "master_ending"], true, function (event) 
 })
 
 // 战斗
-registerBuff("fighter_1", 1, ["init"], false, function (event) { }, function (event) { 
+registerBuff("fighter_1", 1, ["init"], false, function (event) { }, function (event) {
     global.attack_damageAmmount += 3.0
 })
 
-registerBuff("fighter_2", 1, ["init"], false, function (event) { }, function (event) { 
+registerBuff("fighter_2", 1, ["init"], false, function (event) { }, function (event) {
     global.attack_speedAmmount += 0.075
 })
 
-registerBuff("fighter_3", 2, ["fighter_1", "fighter_2"], false, function (event) { }, function (event) { 
+registerBuff("fighter_3", 2, ["fighter_1", "fighter_2"], false, function (event) { }, function (event) {
     global.attack_damageAmmount += 3.0
     global.attack_speedAmmount += 0.075
 })
 
-registerBuff("assassin_1", 1, ["init"], false, function (event) { }, function (event) { 
+registerBuff("assassin_1", 1, ["init"], false, function (event) { }, function (event) {
     global.critical_hitAmmount += 0.05
 })
 
-registerBuff("assassin_2", 2, ["assassin_1"], false, function (event) { }, function (event) { 
+registerBuff("assassin_2", 2, ["assassin_1"], false, function (event) { }, function (event) {
     global.critical_hitAmmount += 0.05
 })
 
-registerBuff("fighter_4", 3, ["fighter_3", "assassin_2"], false, function (event) { }, function (event) { 
+registerBuff("fighter_4", 3, ["fighter_3", "assassin_2", "true_ending"], false, function (event) { }, function (event) {
     global.attack_damageAmmount += 4.0
     global.attack_speedAmmount += 0.1
     global.critical_hitAmmount += 0.05
 })
 
-registerBuff("fighter_5", 3, ["fighter_4"], true, function (event) { }, function (event) { 
+registerBuff("fighter_5", 3, ["fighter_4"], true, function (event) { }, function (event) {
     global.attack_damageAmmount += 5.0
     global.attack_speedAmmount += 0.1
     global.critical_hitAmmount += 0.05
 })
 
-registerBuff("tank_1", 1, ["init"], false, function (event) { }, function (event) { 
+registerBuff("tank_1", 1, ["init"], false, function (event) { }, function (event) {
     global.max_healthAmmount += 0.05
 })
 
-registerBuff("tank_2", 2, ["tank_1"], false, function (event) { }, function (event) { 
+registerBuff("tank_2", 2, ["tank_1"], false, function (event) { }, function (event) {
     global.max_healthAmmount += 0.05
 })
 
-registerBuff("sheild_1", 1, ["init"], false, function (event) { }, function (event) { 
+registerBuff("sheild_1", 1, ["init"], false, function (event) { }, function (event) {
     global.armorAmmount += 3.0
 })
 
-registerBuff("sheild_2", 2, ["sheild_1"], false, function (event) { }, function (event) { 
+registerBuff("sheild_2", 2, ["sheild_1"], false, function (event) { }, function (event) {
     global.armorAmmount += 4.0
 })
 
-registerBuff("tank_sp", 1, ["tank_1", "sheild_1"], false, function (event) { 
+registerBuff("tank_sp", 1, ["tank_1", "sheild_1"], false, function (event) {
     event.player.give(Item.of('dustandash:rock_solid'))
 }, function (event) { })
 
-registerBuff("tank_3", 3, ["tank_2", "sheild_2"], false, function (event) { }, function (event) { 
+registerBuff("tank_3", 3, ["tank_2", "sheild_2", "true_ending"], false, function (event) { }, function (event) {
     global.max_healthAmmount += 0.1
     global.armorAmmount += 5.0
     global.healing_powerAmmount += 0.15
 })
 
-registerBuff("tank_4", 3, ["tank_3"], true, function (event) { }, function (event) { 
+registerBuff("tank_4", 3, ["tank_3"], true, function (event) { }, function (event) {
     global.max_healthAmmount += 0.1
     global.armorAmmount += 6.0
     global.armor_toughnessAmmount += 6.0
@@ -410,16 +413,16 @@ registerBuff("tank_4", 3, ["tank_3"], true, function (event) { }, function (even
 
 // 机动性
 registerBuff("speed_1", 1, ["init"], false, function (event) {
-    event.player.give(Item.of('confluence:spectre_boots'))
+    event.player.give(Item.of('confluence:anklet_of_the_wind'))
     event.player.give(Item.of('artifacts:running_shoes'))
 }, function (event) {
     global.movementSpeedAmmount += 0.1
 })
 
-registerBuff("speed_2", 3, ["speed_1"], false, function (event) {
+registerBuff("speed_2", 3, ["speed_1", "true_ending"], false, function (event) {
     event.player.give(Item.of('confluence:terraspark_boots'))
 }, function (event) {
-    global.movementSpeedAmmount += 0.15
+    global.movementSpeedAmmount += 0.1
 })
 
 registerBuff("flight_1", 3, ["speed_1"], true, function (event) {
@@ -430,15 +433,41 @@ registerBuff("flight_1", 3, ["speed_1"], true, function (event) {
 })
 
 // 宝可梦 *
+registerBuff("poke_1", 1, ["init"], false, function (event) {
+    event.player.give(Item.of('2x cobblemon:master_ball'))
+    event.player.give(Item.of('cobblemon:kings_rock'))
+}, function (event) { })
+
+registerBuff("poke_2", 1, ["true_ending"], false, function (event) {
+    event.server.runCommand(`pokegiveother ${event.player.name.string} porygonz level=20 hp_iv=31 special_attack_iv=31 speed_iv=31`)
+}, function (event) { })
+
+registerBuff("poke_3", 2, ["true_ending"], true, function (event) {
+    event.server.runCommand(`pokegiveother ${event.player.name.string} gimmighoul level=20 hp_iv=31 defence_iv=31 special_defence_iv=31 special_attack_iv=31 speed_iv=31`)
+}, function (event) {
+    event.custom({
+        "type": "tconstruct:casting_table",
+        "cast": {
+            "item": 'cobblemon:gilded_chest'
+        },
+        "cast_consumed": false,
+        "cooling_time": 60,
+        "fluid": {
+            "amount": 90,
+            "tag": 'forge:molten_gold'
+        },
+        "result": 'cobblemon:relic_coin'
+    }).id('kubejs:eot_poke_3_relic_coin')
+})
 
 // 工业 *
-registerBuff("thermal_1", 2, ["init"], false, function (event) { 
+registerBuff("thermal_1", 2, ["init"], false, function (event) {
     event.player.give(Item.of('thermal:satchel', '{ItemInv:{ItemInv:[{Count:1b,Slot:0b,id:"thermal:dynamo_stirling"},{Count:1b,Slot:1b,id:"thermal:machine_furnace"},{Count:1b,Slot:2b,id:"thermal:machine_pulverizer"},{Count:1b,Slot:3b,id:"thermal:wrench",tag:{}},{Count:2b,Slot:4b,id:"thermal_extra:abyssal_machine_speed_augment"}]}}'))
 }, function (event) { })
 
-registerBuff("thermal_2", 2, ["thermal_1"], false, function (event) { 
+registerBuff("thermal_2", 2, ["thermal_1", "true_ending"], false, function (event) {
     event.player.give(Item.of('2x thermal_extra:abyssal_upgrade_augment'))
-}, function (event) { 
+}, function (event) {
     event.shaped('thermal_extra:abyssal_upgrade_augment', [
         'AAA',
         'ABA',
@@ -450,19 +479,80 @@ registerBuff("thermal_2", 2, ["thermal_1"], false, function (event) {
         }).id('kubejs:eot_thermal_2_abyssal_upgrade_augment')
 })
 
-registerBuff("mek_1", 3, ["init"], true, function (event) { 
-    event.player.giveItem.of('mekanism_extras:absolute_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"1024000000"}]}}')
+registerBuff("mek_1", 3, ["true_ending"], false, function (event) {
+    event.player.give(Item.of('mekanism_extras:absolute_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"1024000000"}]}}'))
 }, function (event) { })
 
+registerBuff("fuel_1", 1, ["init"], false, function (event) {
+    event.player.give(Item.of('8x thermal:charcoal_block'))
+}, function (event) {
+    event.custom({
+        "type": "tconstruct:casting_basin",
+        "cast": {
+            "tag": 'tfc:log_pile_logs'
+        },
+        "cast_consumed": true,
+        "cooling_time": 400,
+        "fluid": {
+            "amount": 3000,
+            "tag": 'forge:creosote'
+        },
+        "result": 'thermal:charcoal_block'
+    }).id('kubejs:eot_fuel_1_charcoal_block')
+})
+
+registerBuff("fuel_2", 1, ["fuel_1", "true_ending"], true, function (event) {
+    event.player.give(Item.of('tfc:metal/axe/red_steel', "{Unbreakable:1b,display:{Name:'{\"text\":\"Jonny?\"}'}}").enchant('minecraft:efficiency', 5))
+}, function (event) {
+    global.movementSpeedAmmount += 0.1
+})
+
 // 特殊 *
-registerBuff("special_1", 1, ["init"], true, function (event) { }, function (event) { })
+registerBuff("special_1", 2, ["init"], false, function (event) {
+    event.player.give(Item.of('draconicevolution:advanced_dislocator', '{fuel:128}'))
+}, function (event) { })
+registerBuff("special_2", 6, ["true_ending"], true, function (event) {
+    if (global.jsonData.has("delivery_coordinate_gamma")) {
+        let stack = itemStackFromJson(global.jsonData.getAsJsonObject('delivery_coordinate_gamma'))
+        event.player.give(stack)
+    }
+    if (global.jsonData.has("delivery_coordinate_epsilon")) {
+        let stack = itemStackFromJson(global.jsonData.getAsJsonObject('delivery_coordinate_epsilon'))
+        event.player.give(stack)
+    }
+    if (global.jsonData.has("delivery_coordinate_ultimate")) {
+        let stack = itemStackFromJson(global.jsonData.getAsJsonObject('delivery_coordinate_ultimate'))
+        event.player.give(stack)
+    }
+}, function (event) {
+    event.shaped('kubejs:delivery_coordinate_gamma', [
+        'ABA',
+        'B B',
+        'ABA'
+    ],
+        {
+            A: 'kubejs:gamma_framework',
+            B: 'minecraft:ender_chest'
+        }).id('kubejs:eot_special_2_delivery_coordinate_gamma')
+        
+    event.shaped('kubejs:delivery_coordinate_epsilon', [
+        'ABA',
+        'B B',
+        'ABA'
+    ],
+        {
+            A: 'kubejs:epsilon_framework',
+            B: 'minecraft:ender_chest'
+        }).id('kubejs:eot_special_2_delivery_coordinate_epsilon')
+
+})
 
 // 锚
 registerBuff("init", 0, [], false, function (event) {
-    event.player.give(Item.of('kubejs:anchor_shard'))
+    giveAnchorShard(event.player, 1)
 }, function (event) { })
 
-registerBuff("true_ending", 0, ["init"], false, function (event) {
+registerBuff("true_ending", 1, ["init"], false, function (event) {
     event.player.give(Item.of('kubejs:present_soul'))
 }, function (event) { })
 

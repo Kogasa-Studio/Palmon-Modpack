@@ -59,6 +59,10 @@
     "item.kubejs.delta_framework": "§dDelta 框架",
     "item.kubejs.epsilon_framework": "§eEpsilon 框架",
 
+    "item.kubejs.delivery_coordinate_gamma": "§c投递坐标 Gamma",
+    "item.kubejs.delivery_coordinate_epsilon": "§e投递坐标 Epsilon",
+    "item.kubejs.delivery_coordinate_ultimate": "§f投递坐标 Ultimate",
+
     "item.kubejs.anchor_shard": "§9锚之碎片",
 
     "item.kubejs.voucher_1_0": "补给卷 S01T00",
@@ -241,6 +245,11 @@
     "kubejs.eot.success": "成功",
     "kubejs.eot.requirements_not_met": "§c需要先激活：",
 
+    "kubejs.eot.special_2_not_allow": "副手物品不符合要求",
+    "kubejs.eot.delivery_coordinate_desc1": "副手持有希望投递的物品，主手持有投递坐标并使用",
+    "kubejs.eot.delivery_coordinate_desc2": "若副手物品符合要求，则在进入下一条世界线后，立即获得该物品",
+    "kubejs.eot.delivery_coordinate_desc3": "每种投递坐标互相独立",
+
     "kubejs.eot.init_name": "[初始锚定]",
     "kubejs.eot.init_desc": "·初始携带 §9锚之碎片§f",
     
@@ -310,13 +319,23 @@
     "kubejs.eot.tank_sp_desc": "·初始携带 铜头铁臂",
 
     "kubejs.eot.speed_1_name": "[健步如飞]",
-    "kubejs.eot.speed_1_desc": "·初始携带 幽灵靴\n·初始携带 跑鞋\n·属性 速度 * 10%",
+    "kubejs.eot.speed_1_desc": "·初始携带 疾风脚镯\n·初始携带 跑鞋\n·属性 速度 * 10%",
     
     "kubejs.eot.speed_2_name": "[风驰电掣]",
-    "kubejs.eot.speed_2_desc": "·初始携带 泰拉闪耀靴\n·属性 速度 * 15%",
+    "kubejs.eot.speed_2_desc": "·初始携带 泰拉闪耀靴\n·属性 速度 * 10%",
     
     "kubejs.eot.flight_1_name": "[上天入地]",
     "kubejs.eot.flight_1_desc": "·初始携带 Takeoff!\n·属性 速度 * 10%\n·属性 Max Mana * 20%",
+
+
+    "kubejs.eot.poke_1_name": "[西尔佛公司特派]",
+    "kubejs.eot.poke_1_desc": "·初始携带 大师球 * 2\n·初始携带 王者之证",
+
+    "kubejs.eot.poke_2_name": "[异次元协助]",
+    "kubejs.eot.poke_2_desc": "·初始携带 宝可梦 多边兽乙型， 初始三项IV为最高",
+
+    "kubejs.eot.poke_3_name": "[视财如命]",
+    "kubejs.eot.poke_3_desc": "·初始携带 宝可梦 索财灵， 初始四项IV为最高\n·允许通过特殊的铸造工艺制作遗迹硬币",
 
 
     "kubejs.eot.thermal_1_name": "[通量链接]",
@@ -325,11 +344,20 @@
     "kubejs.eot.thermal_2_name": "[深渊链接]",
     "kubejs.eot.thermal_2_desc": "·初始携带 深渊整合组件 * 2\n·允许以更容易获得的原料制作深渊整合组件",
         
+    "kubejs.eot.fuel_1_name": "[木炭老板]",
+    "kubejs.eot.fuel_1_desc": "·初始携带 木炭块 * 8\n·允许通过特殊的铸造工艺将原木加工成木炭块",
+        
+    "kubejs.eot.fuel_2_name": "[光头强]",
+    "kubejs.eot.fuel_2_desc": "·初始携带 不毁的 效率V 红钢斧\n·属性 速度 * 10%",
+        
     "kubejs.eot.mek_1_name": "[绝对能量]",
     "kubejs.eot.mek_1_desc": "·初始携带 绝对能量立方",
         
     
-    "kubejs.eot.special_1_name": "[诡秘畸变]",
-    "kubejs.eot.special_1_desc": "·畸变"
+    "kubejs.eot.special_1_name": "[空间折越]",
+    "kubejs.eot.special_1_desc": "·初始 携带高级传送符咒，内置128燃料",
+    
+    "kubejs.eot.special_2_name": "[跨世界物流]",
+    "kubejs.eot.special_2_desc": "·允许制作投递坐标，可以将大部分物品投递到下一个世界"
 
 }

@@ -148,27 +148,25 @@ ServerEvents.recipes(event => {
         }).id('kubejs:tc_tinker_station_s1')
 
     event.shaped('minecraft:barrel', [
-        'ABA',
+        'ADA',
         'ACA',
         'ADA'
     ],
         {
             A: '#tconstruct:planklike',
             B: '#tfc:barrels',
-            C: '#forge:dusts/redstone',
             D: '#minecraft:wooden_slabs'
         }).id('kubejs:barrel')
 
     event.shaped('sophisticatedbackpacks:backpack', [
         'ABA',
         'BCB',
-        'ADA'
+        'BBB'
     ],
         {
             A: 'tfc:metal/bars/wrought_iron',
             B: '#forge:leather',
-            C: '#forge:barrels/wooden',
-            D: 'minecraft:saddle'
+            C: '#forge:barrels/wooden'
         }).id('kubejs:backpack_s1')
 
     event.recipes.occultism.ritual(

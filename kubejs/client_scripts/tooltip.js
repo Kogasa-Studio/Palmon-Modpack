@@ -31,8 +31,7 @@ let itemList = [
     'kubejs:helium_3_crystal_infinity',
 
 ]
-
-let modBlackList = new Set(['minecraft', 'tconstruct', 'cataclysm', 'tconstruct', 'malum', 'rats'])
+let deliveryCoordinate = ['kubejs:delivery_coordinate_gamma', 'kubejs:delivery_coordinate_epsilon', 'kubejs:delivery_coordinate_ultimate']
 
 ItemEvents.tooltip(event => {
     /**
@@ -44,6 +43,15 @@ ItemEvents.tooltip(event => {
     event.add('cobblemon:relic_coin', [Text.translate("ui.kubejs.relic_coin").gold()])
 
     event.add('#kubejs:voucher', [Text.translate("ui.kubejs.voucher").gold()])
+
+    deliveryCoordinate.forEach(element => {
+        event.addAdvanced(element, (item, advanced, text) => {
+            text.add(1, Text.translate("kubejs.eot.delivery_coordinate_desc1").gold())
+            text.add(2, Text.translate("kubejs.eot.delivery_coordinate_desc2").gold())
+            text.add(3, Text.translate("kubejs.eot.delivery_coordinate_desc3").gold())
+
+        })
+    })
 
     curiosList.forEach(element => {
         event.addAdvanced(element, (item, advanced, text) => {

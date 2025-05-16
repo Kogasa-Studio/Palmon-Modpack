@@ -91,9 +91,12 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			description: [
+				"群峦星的地形比地球的更为广袤，"
+				"这意味着你前往新的生物群系需要花费更多的时间。"
+			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "2F199465625430FA"
-			subtitle: "群峦星的地形比现世地球的更为广袤，\\n这意味着你前往新的生物群系需要花费更多的时间"
 			tasks: [{
 				id: "1AD0A8159FEDE286"
 				type: "checkmark"
@@ -149,9 +152,15 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			description: [
+				"由于一种未知的力量，群峦星的大多数物品与材料拥有着一些特殊特性。"
+				""
+				"例如："
+				"你无法背起超重的物品。"
+				"大多数的食物也会随着时间慢慢腐烂。"
+			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "1FBD0A696202485D"
-			subtitle: "由于一种未知的力量，群峦星的物品与材料拥有着一些特殊特性。\\n例如你无法背起超重的物品，大多数的食物也会随着时间慢慢腐烂。"
 			tasks: [{
 				id: "19B694149F423CAD"
 				type: "checkmark"
@@ -162,9 +171,14 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			description: [
+				"你的最大生命值受到营养值的影响，保证营养均衡可以获得额外的生命上限（200%）。"
+				"相反，如果你一直食用一些不怎么有营养的东西，那么你的生命上限也会降低（40%）。"
+				""
+				"同时，不断的尝试新的食物也能提高你的生命上限。"
+			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "31AEAB8574524CBC"
-			subtitle: "保持5种营养的均衡可以使你获得额外的血量，保证食物的多样性也可以进一步的获得增益。"
 			tasks: [{
 				id: "613B97DAB9FDA502"
 				type: "checkmark"
