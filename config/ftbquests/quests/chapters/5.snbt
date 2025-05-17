@@ -387,6 +387,7 @@
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
+			description: ["合成..."]
 			icon: "mythicbotany:central_rune_holder"
 			id: "204AE37D9BF3A002"
 			subtitle: "灵感：神话植物学"
@@ -434,6 +435,7 @@
 		}
 		{
 			dependencies: ["6334EE9A9E9222B9"]
+			description: ["注意，只有在群峦星开启的精灵门才能带你前往亚尔夫海姆"]
 			icon: "mythicbotany:elementium_ore"
 			id: "7F0A3F7061F33259"
 			tasks: [{
@@ -447,6 +449,7 @@
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
+			description: ["合成..."]
 			id: "2E91FE9B7E360E40"
 			rewards: [{
 				id: "4DF7AAF90DD2C4C4"
@@ -464,6 +467,7 @@
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
+			description: ["合成..."]
 			id: "4B8E4123930135A1"
 			subtitle: "灵感：尘土炼金"
 			tasks: [{
@@ -476,6 +480,7 @@
 		}
 		{
 			dependencies: ["46E035BDE38016C4"]
+			description: ["合成..."]
 			id: "11F21F539E01619E"
 			subtitle: "灵感：托卡马克"
 			tasks: [{
@@ -489,6 +494,8 @@
 		{
 			dependencies: ["46E035BDE38016C4"]
 			description: [
+				"合成..."
+				""
 				"因为世界的约束力，古代城那通往幽冥的传送门无法被开启，但是现在你领悟到了一种新的前往幽冥的方式......"
 				""
 				"注意：不能保证抵达地的安全性"

@@ -9,7 +9,8 @@
     },
     "botania:lexicon": {
       "viewedEntries": [
-        "botania:mythic_botany/mimir"
+        "botania:mythic_botany/mimir",
+        "botania:alfheim/kvasir"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -119,6 +120,14 @@
     "thermal:guidebook": {
       "viewedEntries": [
         "thermal:technology/65_items"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "touhou_little_maid:memorizable_gensokyo": {
+      "viewedEntries": [
+        "touhou_little_maid:overview/multiblocks_altar",
+        "touhou_little_maid:overview/gohei_and_danmaku"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -2603,6 +2603,93 @@
 			x: 2.0d
 			y: 28.0d
 		}
+		{
+			dependencies: ["5DDB2BA33F814C18"]
+			id: "40D071ACACFE96C4"
+			rewards: [{
+				id: "11A49F6463F1BC02"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5661BAE1EB59DEFF"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:hakurei_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["40D071ACACFE96C4"]
+			description: ["如果你能收集足够的羊毛..."]
+			icon: "minecraft:red_wool"
+			id: "069FF73133012F6F"
+			rewards: [{
+				count: 2
+				id: "29858FC2C2B90376"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 26L
+					id: "0C34A9CEFFF40894"
+					item: { Count: 26, id: "minecraft:red_wool" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "4F04726720FE6879"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+			]
+			title: "祭坛"
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["069FF73133012F6F"]
+			description: [
+				"别担心，这不是必须的。"
+				""
+				"如果你能收集齐全部的材料的话..."
+			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:entity_placeholder"
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_box"
+				}
+			}
+			id: "593D28BE7CA3C0A5"
+			tasks: [{
+				id: "6681F711350EA0F9"
+				type: "checkmark"
+			}]
+			title: "召唤女仆"
+			x: 8.0d
+			y: 16.0d
+		}
 	]
 	title: "1. 群峦星 | TFC Planet"
 }

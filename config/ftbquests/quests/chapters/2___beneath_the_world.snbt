@@ -593,6 +593,7 @@
 		}
 		{
 			dependencies: ["22DEA013C6AF2127"]
+			description: ["合成..."]
 			icon: "botania:apothecary_default"
 			id: "24A6488BA733B78B"
 			optional: true
@@ -621,6 +622,7 @@
 		}
 		{
 			dependencies: ["22DEA013C6AF2127"]
+			description: ["压印..."]
 			id: "550FDE68159296D1"
 			optional: true
 			shape: "hexagon"
@@ -635,6 +637,7 @@
 		}
 		{
 			dependencies: ["22DEA013C6AF2127"]
+			description: ["铸造..."]
 			id: "77A47F13DB1D39E4"
 			optional: true
 			rewards: [

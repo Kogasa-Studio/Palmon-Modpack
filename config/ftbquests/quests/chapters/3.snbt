@@ -221,7 +221,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["106E90D345ADA5AE"]
+			dependencies: ["461789D34954EE6C"]
 			hide_until_deps_complete: true
 			icon: "cataclysm:abyss_eye"
 			id: "7B7AE1E173DB4AFD"
@@ -233,7 +233,7 @@
 			}]
 			title: "沉没之城"
 			x: -6.0d
-			y: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7EC453F24F5E0E85"]
@@ -880,6 +880,7 @@
 		}
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
+			description: ["合成..."]
 			id: "75D3453813C3D864"
 			shape: "hexagon"
 			subtitle: "灵感：林业"
@@ -893,6 +894,7 @@
 		}
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
+			description: ["合成..."]
 			id: "0B3D033410791E9E"
 			shape: "hexagon"
 			subtitle: "灵感：灵灾"
@@ -907,6 +909,8 @@
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
 			description: [
+				"合成..."
+				""
 				"注意：由于核电工艺的bug，镁、钴、锂、钍、硼大概率不会自然生成。"
 				""
 				"你可以通过加工站将铜锭，铁锭，金锭异变成这5种矿石，或者使用维度框架获取这5种矿石。"
@@ -946,6 +950,7 @@
 		}
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
+			description: ["组装..."]
 			id: "4E6C50026AF843DD"
 			shape: "hexagon"
 			subtitle: "灵感：黄铜机械"
@@ -959,6 +964,7 @@
 		}
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
+			description: ["合成..."]
 			id: "006364B7090D8E82"
 			shape: "hexagon"
 			subtitle: "特制灵感：处理器"
@@ -972,7 +978,11 @@
 		}
 		{
 			dependencies: ["4AEADEEE818B1FCC"]
-			description: ["你或许应该多制作几个祭坛..."]
+			description: [
+				"合成..."
+				""
+				"你或许应该多制作几个祭坛..."
+			]
 			id: "48D7D0C73EEA0DC1"
 			rewards: [
 				{

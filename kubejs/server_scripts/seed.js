@@ -103,82 +103,142 @@ ServerEvents.loaded(event => {
 ServerEvents.recipes((event) => {
     // stage 1 1+1
     // main
-    s1Occ(event)
-    s1Im(event)
-    s1Create(event)
+    let s1m = generateUniqueIntegers(3, 1)
+    let sf1m = [
+        () => s1Occ(event),
+        () => s1Im(event),
+        () => s1Create(event)
+    ]
+    sf1m[s1m[0]]()
+
     // extra
-    e1SB(event)
-    e1TC(event)
-    e1PK(event)
-    e1PL(event)
-    console.log("s1 recipes loaded")
+    let s1e = generateUniqueIntegers(4, 1)
+    let sf1e = [
+        () => e1SB(event),
+        () => e1TC(event),
+        () => e1PK(event),
+        () => e1PL(event)
+    ]
+    sf1e[s1e[0]]()
+    console.log(`s1 recipes loaded: ${s1m[0]} ${s1e[0]}`)
 
     // stage 2 1+1
     // main
-    s2Sp(event)
-    s2Bot(event)
-    s2AE(event)
+    let s2m = generateUniqueIntegers(3, 1)
+    let sf2m = [
+        () => s2Sp(event),
+        () => s2Bot(event),
+        () => s2AE(event)
+    ]
+    sf2m[s2m[0]]()
+
     // extra
-    e2CM(event)
-    e2ER(event)
-    e2ID(event)
-    e2RFT(event)
+    let s2e = generateUniqueIntegers(4, 1)
+    let sf2e = [
+        () => e2CM(event),
+        () => e2ER(event),
+        () => e2ID(event),
+        () => e2RFT(event)
+    ]
+    sf2e[s2e[0]]()
+
     // final
-    s2Frame1(event)
-    s2Frame2(event)
-    console.log("s2 recipes loaded")
+    let s2f = generateUniqueIntegers(2, 1)
+    let sf2f = [
+        () => s2Frame1(event),
+        () => s2Frame2(event)
+    ]
+    sf2f[s2f[0]]()
+    console.log(`s2 recipes loaded:  ${s2m[0]} ${s2e[0]} ${s2f[0]}`)
 
     // stage 3 2+2
     // main
-    s3SP(event)
-    s3NC(event)
-    s3Fo(event)
-    s3Ma(event)
-    s3Cr(event)
-    s3Em(event)
+    let s3m = generateUniqueIntegers(6, 2)
+    let sf3m = [
+        () => s3SP(event),
+        () => s3NC(event),
+        () => s3Fo(event),
+        () => s3Ma(event),
+        () => s3Cr(event),
+        () => s3Em(event)
+    ]
+    sf3m[s3m[0]]()
+    sf3m[s3m[1]]()
+
     // extra 
-    e3MR(event)
-    e3SFM(event)
-    e3XN(event)
-    e3RFT(event)
-    e3CR(event)
+    let s3e = generateUniqueIntegers(5, 2)
+    let sf3e = [
+        () => e3MR(event),
+        () => e3SFM(event),
+        () => e3XN(event),
+        () => e3RFT(event),
+        () => e3CR(event)
+    ]
+    sf3e[s3e[0]]()
+    sf3e[s3e[1]]()
+
     // convergence
-    s3ConvergenceRecipe(event, 0, 1)
-    console.log("s3 recipes loaded")
+    s3ConvergenceRecipe(event, s3m[0], s3m[1])
+    console.log(`s3 recipes loaded: ${s3m[0]} ${s3m[1]} ${s3e[0]} ${s3e[1]}`)
 
     // stage 4 3+2
     // main
-    s4Occ(event)
-    s4TR(event)
-    s4ARS(event)
-    s4DE(event)
-    s4IFM(event)
-    s4AA(event)
+    let s4m = generateUniqueIntegers(6, 3)
+    let sf4m = [
+        () => s4Occ(event),
+        () => s4TR(event),
+        () => s4ARS(event),
+        () => s4DE(event),
+        () => s4IFM(event),
+        () => s4AA(event)
+    ]
+    sf4m[s4m[0]]()
+    sf4m[s4m[1]]()
+    sf4m[s4m[2]]()
+
     // extra
-    e4IFS(event)
-    e4IFU(event)
-    e4EFF(event)
-    e4TIB(event)
-    e4PLM(event)
+    let s4e = generateUniqueIntegers(5, 2)
+    let sf4e = [
+        () => e4IFS(event),
+        () => e4IFU(event),
+        () => e4EFF(event),
+        () => e4TIB(event),
+        () => e4PLM(event)
+    ]
+    sf4e[s4e[0]]()
+    sf4e[s4e[1]]()
+
     // convergence
-    s4ConvergenceRecipe(event, 0, 1, 2)
-    console.log("s4 recipes loaded")
+    s4ConvergenceRecipe(event, s4m[0], s4m[1], s4m[2])
+    console.log(`s4 recipes loaded: ${s4m[0]} ${s4m[1]} ${s4m[2]} ${s4e[0]} ${s4e[1]}`)
 
     // stage 5 3+2
     // main
-    s5DD(event)
-    s5NCF(event)
-    s5ELF(event)
-    s5EAW(event)
-    s5DNA(event)
-    //extra
-    e5IDW(event)
-    e5FL(event)
-    e5BM(event)
-    // convergence
-    s5ConvergenceRecipe(event, 0, 1, 2)
+    let s5m = generateUniqueIntegers(5, 3)
+    let sf5m = [
+        () => s5DD(event),
+        () => s5NCF(event),
+        () => s5ELF(event),
+        () => s5EAW(event),
+        () => s5DNA(event)
+    ]
+    sf5m[s5m[0]]()
+    sf5m[s5m[1]]()
+    sf5m[s5m[2]]()
 
-    console.log("s5 recipes loaded")
+    //extra
+    let s5e = generateUniqueIntegers(3, 2)
+    let sf5e = [
+        () => e5IDW(event),
+        () => e5FL(event),
+        () => e5BM(event)
+    ]
+    sf5e[s5e[0]]()
+    sf5e[s5e[1]]()
+    // convergence
+    s5ConvergenceRecipe(event, s5m[0], s5m[1], s5m[2])
+
+    console.log(`s5 recipes loaded: ${s5m[0]} ${s5m[1]} ${s5m[2]} ${s5e[0]} ${s5e[1]}`)
 
     if (global.removeBMRecipes) {
         // Botanical Machinery, by e5BM
@@ -187,6 +247,24 @@ ServerEvents.recipes((event) => {
     }
 
 })
+
+function generateUniqueIntegers(size, n) {
+    if (n > size) throw new Error("n 不能大于 s");
+    let result = []
+    let map = new Map()
+
+    for (let i = 0; i < n; i++) {
+        let r = randomNext(size - i)
+        let selected = map.has(r) ? map.get(r) : r;
+        let last = size - i - 1;
+        let mappedLast = map.has(last) ? map.get(last) : last;
+
+        map.set(r, mappedLast)
+        result.push(selected)
+    }
+
+    return result
+}
 
 function randomNext(range) {
     if (global.randonIndex >= global.levelRandomMap.length) {

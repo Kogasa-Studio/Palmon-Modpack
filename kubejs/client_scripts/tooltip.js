@@ -43,6 +43,7 @@ ItemEvents.tooltip(event => {
     event.add('cobblemon:relic_coin', [Text.translate("ui.kubejs.relic_coin").gold()])
 
     event.add('#kubejs:voucher', [Text.translate("ui.kubejs.voucher").gold()])
+    event.add('cataclysm:abyss_eye', [Text.translate("ui.kubejs.abyss_eye").darkPurple()])
 
     deliveryCoordinate.forEach(element => {
         event.addAdvanced(element, (item, advanced, text) => {

@@ -660,6 +660,7 @@
 		}
 		{
 			dependencies: ["5C182F768906554A"]
+			description: ["合成..."]
 			id: "7C8F21F274C74D59"
 			shape: "hexagon"
 			subtitle: "灵感：新生魔艺"
@@ -673,6 +674,7 @@
 		}
 		{
 			dependencies: ["5C182F768906554A"]
+			description: ["感应..."]
 			id: "39A3EB250644FA7A"
 			shape: "hexagon"
 			subtitle: "灵感：龙之研究"
@@ -686,6 +688,7 @@
 		}
 		{
 			dependencies: ["5C182F768906554A"]
+			description: ["合成..."]
 			id: "368B50D9FA24ABBA"
 			shape: "hexagon"
 			subtitle: "灵感：工业屠宰"
@@ -699,6 +702,7 @@
 		}
 		{
 			dependencies: ["5C182F768906554A"]
+			description: ["感应..."]
 			id: "76551EEFA4598D87"
 			shape: "hexagon"
 			subtitle: "灵感：深空探索"
@@ -712,6 +716,7 @@
 		}
 		{
 			dependencies: ["5C182F768906554A"]
+			description: ["合成..."]
 			id: "3A49D2C7EE90C2F2"
 			shape: "hexagon"
 			subtitle: "灵感：真正的工业"
@@ -725,6 +730,7 @@
 		}
 		{
 			dependencies: ["5C182F768906554A"]
+			description: ["合成...然后灵火..."]
 			id: "4473E1C35100C688"
 			shape: "hexagon"
 			subtitle: "灵感：魔王"
