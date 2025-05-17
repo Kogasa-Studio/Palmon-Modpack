@@ -1842,7 +1842,7 @@
 			id: "285D8828F5A0B51F"
 			tasks: [{
 				id: "7F0B0249334B1654"
-				item: "celestial_core:virtual_gold_ingot"
+				item: "kubejs:virtual_gold_ingot"
 				type: "item"
 			}]
 			x: 4.0d

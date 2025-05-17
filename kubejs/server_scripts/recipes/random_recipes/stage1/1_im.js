@@ -36,7 +36,7 @@ function s1Im(event) {
 
   event.recipes.immersiveengineering.blueprint('2x kubejs:alpha_framework',
     [
-      'celestial_core:virtual_gold_ingot',
+      'kubejs:virtual_gold_ingot',
       'immersiveengineering:graphite_electrode',
       '#forge:rods/steel',
       '2x firmalife:metal/sheet/stainless_steel'

@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'rftoolsutility:flight_module' })
     event.remove({ id: 'botanicalmachinery:mana_emerald_block_decompress' })
     event.remove({ id: 'botanicalmachinery:mana_infusion/mana_emerald_block' })
-    
+
     event.remove({ id: 'hostilenetworks:prediction_matrix' })
 
     event.remove({ id: 'deeperdarker:reinforced_echo_shard' })
@@ -179,11 +179,15 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'aetherworks:metal_former_block' })
     event.remove({ id: 'aetherworks:alchemy/aether_amalgam' })
-    
+
     event.remove({ id: 'dustandash:crafting/ionizer' })
     event.remove({ id: 'nuclearcraft:rock_crusher/ancient_debris' })
     event.remove({ id: 'expatternprovider:water_cell' })
     event.remove({ id: 'expatternprovider:cobblestone_cell' })
+
+    event.remove({ id: 'techreborn:crafting_table/parts/energy_flow_chip' })
+    event.remove({ id: 'techreborn:crafting_table/parts/data_storage_chip' })
+    event.remove({ id: 'techreborn:crafting_table/parts/data_storage_core' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
@@ -192,16 +196,18 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: 'ars_nouveau:ritual_flight' })
 
-    event.remove({ input: 'immersiveengineering:hammer', not: {id: 'immersiveengineering:crafting/survey_tools'}})
+    event.remove({ output: 'techreborn:advanced_alloy_ingot', not: { type: 'minecraft:crafting_shapeless' } })
+    event.remove({ input: 'immersiveengineering:hammer', not: { id: 'immersiveengineering:crafting/survey_tools' } })
 
     event.remove({ output: '#cobblemon:poke_balls' })
 
-    event.remove({type: 'minecraft:crafting_shaped',  output: '#forge:gears'})
-    event.remove({type: 'minecraft:crafting_shapeless',  input: 'embers:tinker_hammer'})
+    event.remove({ type: 'minecraft:crafting_shaped', output: '#forge:gears' })
+    event.remove({ type: 'minecraft:crafting_shapeless', input: 'embers:tinker_hammer' })
 
 })
 
 MoreJSEvents.villagerTrades(event => {
     event.removeModdedTrades(["ars_nouveau:shady_wizard"], 3)
+    event.removeModdedTrades(['techreborn:metallurgist'], 4)
 
 })

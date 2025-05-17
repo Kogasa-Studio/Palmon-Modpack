@@ -6,6 +6,8 @@
     "item.kubejs.vial_of_chaos": "§m§d混沌小瓶",
     "item.kubejs.cognitio": "§m§d思维",
 
+    "item.kubejs.virtual_gold_ingot": "§a虚金锭",
+
     "item.kubejs.ancient_netherite": "§a远古下界合金锭",
     "item.kubejs.present_alloy": "§m§d现世合金锭",
     "item.kubejs.stable_desh_ingot": "§m§d稳态戴斯锭",
@@ -216,8 +218,8 @@
     "curios.modifiers.otherworld_relics": "与该遗物同调时： ",
 
     "obscure_api.accuracy": "命中率",
-    "obscure_api.criticalDamage": "暴击伤害",
-    "obscure_api.criticalHit": "暴击率",
+    "obscure_api.criticalDamage": "第二暴击伤害",
+    "obscure_api.criticalHit": "第二暴击率",
     "obscure_api.dodge": "闪避",
     "obscure_api.healingPower": "治疗量",
     "obscure_api.magicDamage": "魔法伤害",

@@ -86,11 +86,11 @@ const attack_speedModifier = createConstantAttributeApplier(
     "multiply_total"
 )
 
-global.critical_hitAmmount = 0.0
-const critical_hitModifier = createConstantAttributeApplier(
-    "obscure_api:critical_hit",
-    "addition_critical_hit_modifier",
-    () => global.critical_hitAmmount,
+global.critical_chanceAmmount = 0.0
+const critical_chanceModifier = createConstantAttributeApplier(
+    "attributeslib:crit_chance",
+    "addition_critical_chance_modifier",
+    () => global.critical_chanceAmmount,
     "addition"
 )
 
@@ -119,7 +119,7 @@ PlayerEvents.tick(event => {
         maxManaModifier(event.player)
         attack_damageModifier(event.player)
         attack_speedModifier(event.player)
-        critical_hitModifier(event.player)
+        critical_chanceModifier(event.player)
         max_healthModifier(event.player)
         healing_powerModifier(event.player)
 

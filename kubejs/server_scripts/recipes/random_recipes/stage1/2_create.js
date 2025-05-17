@@ -16,7 +16,7 @@ function s1Create(event) {
         "result": "create:andesite_alloy"
     }).id('kubejs:casting_table_andesite_alloy')
 
-    var t = 'celestial_core:virtual_gold_ingot'
+    var t = 'kubejs:virtual_gold_ingot'
     event.recipes.createSequencedAssembly([
         'kubejs:alpha_framework',
     ], t, [

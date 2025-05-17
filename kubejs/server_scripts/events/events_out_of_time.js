@@ -359,23 +359,23 @@ registerBuff("fighter_3", 2, ["fighter_1", "fighter_2"], false, function (event)
 })
 
 registerBuff("assassin_1", 1, ["init"], false, function (event) { }, function (event) {
-    global.critical_hitAmmount += 0.05
+    global.critical_chanceAmmount += 0.05
 })
 
-registerBuff("assassin_2", 2, ["assassin_1"], false, function (event) { }, function (event) {
-    global.critical_hitAmmount += 0.05
+registerBuff("assassin_2", 1, ["assassin_1"], false, function (event) { }, function (event) {
+    global.critical_chanceAmmount += 0.05
 })
 
 registerBuff("fighter_4", 3, ["fighter_3", "assassin_2", "true_ending"], false, function (event) { }, function (event) {
     global.attack_damageAmmount += 4.0
     global.attack_speedAmmount += 0.1
-    global.critical_hitAmmount += 0.05
+    global.critical_chanceAmmount += 0.05
 })
 
 registerBuff("fighter_5", 3, ["fighter_4"], true, function (event) { }, function (event) {
     global.attack_damageAmmount += 5.0
     global.attack_speedAmmount += 0.1
-    global.critical_hitAmmount += 0.05
+    global.critical_chanceAmmount += 0.05
 })
 
 registerBuff("tank_1", 1, ["init"], false, function (event) { }, function (event) {

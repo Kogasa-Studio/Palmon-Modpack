@@ -12,6 +12,18 @@ ServerEvents.recipes(event => {
 
     event.shapeless('occultism:chalk_red_impure', ['occultism:chalk_white_impure', 'occultism:afrit_essence', '#forge:dusts/blaze', 'kubejs:epsilon_dust']).id('kubejs:chalk_red_impure_s6')
 
+    event.shaped('kubejs:advanced_machine_frame', [
+        'ADA',
+        'BCB',
+        'BAB'
+    ],
+        {
+            A: '#forge:plates/advanced_alloy',
+            B: '#forge:plates/carbon',
+            C: 'techreborn:advanced_machine_frame',
+            D: 'kubejs:epsilon_dust'
+        }).id('kubejs:advanced_machine_frame_s6')
+
     event.shaped('kubejs:basic_machine_frame', [
         'ABA',
         'ACA',
@@ -82,113 +94,135 @@ ServerEvents.recipes(event => {
             F: 'kubejs:essence_computation_frame'
         }).id('kubejs:soul_laser_base_s6')
 
-        event.shaped('industrialforegoing:enchantment_factory', [
-            'PBP',
-            'DMD',
-            'OFO'
-        ], {
-            P: '#forge:plastic',
-            B: 'kubejs:epsilon_dust',
-            D: 'minecraft:diamond',
-            M: '#industrialforegoing:machine_frame/simple',
-            O: 'minecraft:obsidian',
-            F: 'kubejs:essence_computation_frame'
-        }).id('kubejs:enchantment_factory_s6')
-    
-        event.shaped('industrialforegoing:enchantment_extractor', [
-            'PSP',
-            'BMB',
-            'DGD'
-        ], {
-            P: '#forge:plastic',
-            S: 'kubejs:epsilon_dust',
-            B: 'minecraft:book',
-            M: '#industrialforegoing:machine_frame/simple',
-            D: 'minecraft:diamond',
-            G: 'kubejs:essence_computation_frame'
-        }).id('kubejs:enchantment_extractor_s6')
-    
-        event.shaped('industrialforegoing:enchantment_applicator', [
-            'PFP',
-            'BMB',
-            'GBG'
-        ], {
-            P: '#forge:plastic',
-            B: 'minecraft:anvil',
-            M: '#industrialforegoing:machine_frame/simple',
-            G: 'kubejs:epsilon_dust',
-            F: 'kubejs:essence_computation_frame'
-        }).id('kubejs:enchantment_applicator_s6')
-    
-        event.shaped('industrialforegoing:ore_laser_base', [
-            'pfp',
-            'bmb',
-            'grg'
-        ], {
-            p: '#forge:plastic',
-            f: 'minecraft:diamond_pickaxe',
-            b: '#forge:ores/iron',
-            m: '#industrialforegoing:machine_frame/simple',
-            g: 'kubejs:epsilon_dust',
-            r: 'kubejs:essence_computation_frame'
-        }).id('kubejs:ore_laser_base_s6')
-    
-        event.shaped('industrialforegoing:potion_brewer', [
-            'PSP',
-            'BMB',
-            'GFG'
-        ], {
-            P: '#forge:plastic',
-            S: 'minecraft:brewing_stand',
-            B: 'kubejs:epsilon_dust',
-            F: 'kubejs:essence_computation_frame',
-            M: '#industrialforegoing:machine_frame/simple',
-            G: 'minecraft:repeater'
-        }).id('kubejs:potion_brewer_s6')
-    
-        event.shaped('industrialforegoing:marine_fisher', [
-            'pfp',
-            'bmb',
-            'grg'
-        ], {
-            p: '#forge:plastic',
-            f: 'minecraft:fishing_rod',
-            b: 'minecraft:bucket',
-            m: '#industrialforegoing:machine_frame/simple',
-            g: 'kubejs:epsilon_dust',
-            r: 'kubejs:essence_computation_frame'
-        }).id('kubejs:marine_fisher_s6')
-    
-        event.shaped('industrialforegoing:material_stonework_factory', [
-            'pcp',
-            'gmf',
-            'aba'
-        ], {
-            p: '#forge:plastic',
-            c: 'kubejs:essence_computation_frame',
-            g: 'minecraft:diamond_pickaxe',
-            m: '#industrialforegoing:machine_frame/simple',
-            f: 'kubejs:epsilon_dust',
-            a: '#forge:gears/gold',
-            b: 'industrialforegoing:pink_slime'
-        }).id('kubejs:material_stonework_factory_s6')
+    event.shaped('industrialforegoing:enchantment_factory', [
+        'PBP',
+        'DMD',
+        'OFO'
+    ], {
+        P: '#forge:plastic',
+        B: 'kubejs:epsilon_dust',
+        D: 'minecraft:diamond',
+        M: '#industrialforegoing:machine_frame/simple',
+        O: 'minecraft:obsidian',
+        F: 'kubejs:essence_computation_frame'
+    }).id('kubejs:enchantment_factory_s6')
 
-        event.shaped('tiab:time_in_a_bottle', [
-            'GFG',
-            'DCD',
-            'LBL'
-        ], {
-            G: 'kubejs:epsilon_dust',
-            D: '#forge:gems/diamond',
-            L: '#forge:gems/lapis',
-            C: 'minecraft:clock',
-            B: 'minecraft:glass_bottle',
-            F: 'kubejs:essence_computation_frame'
-        }).id('kubejs:time_in_a_bottle_s6')
+    event.shaped('industrialforegoing:enchantment_extractor', [
+        'PSP',
+        'BMB',
+        'DGD'
+    ], {
+        P: '#forge:plastic',
+        S: 'kubejs:epsilon_dust',
+        B: 'minecraft:book',
+        M: '#industrialforegoing:machine_frame/simple',
+        D: 'minecraft:diamond',
+        G: 'kubejs:essence_computation_frame'
+    }).id('kubejs:enchantment_extractor_s6')
+
+    event.shaped('industrialforegoing:enchantment_applicator', [
+        'PFP',
+        'BMB',
+        'GBG'
+    ], {
+        P: '#forge:plastic',
+        B: 'minecraft:anvil',
+        M: '#industrialforegoing:machine_frame/simple',
+        G: 'kubejs:epsilon_dust',
+        F: 'kubejs:essence_computation_frame'
+    }).id('kubejs:enchantment_applicator_s6')
+
+    event.shaped('industrialforegoing:ore_laser_base', [
+        'pfp',
+        'bmb',
+        'grg'
+    ], {
+        p: '#forge:plastic',
+        f: 'minecraft:diamond_pickaxe',
+        b: '#forge:ores/iron',
+        m: '#industrialforegoing:machine_frame/simple',
+        g: 'kubejs:epsilon_dust',
+        r: 'kubejs:essence_computation_frame'
+    }).id('kubejs:ore_laser_base_s6')
+
+    event.shaped('industrialforegoing:potion_brewer', [
+        'PSP',
+        'BMB',
+        'GFG'
+    ], {
+        P: '#forge:plastic',
+        S: 'minecraft:brewing_stand',
+        B: 'kubejs:epsilon_dust',
+        F: 'kubejs:essence_computation_frame',
+        M: '#industrialforegoing:machine_frame/simple',
+        G: 'minecraft:repeater'
+    }).id('kubejs:potion_brewer_s6')
+
+    event.shaped('industrialforegoing:marine_fisher', [
+        'pfp',
+        'bmb',
+        'grg'
+    ], {
+        p: '#forge:plastic',
+        f: 'minecraft:fishing_rod',
+        b: 'minecraft:bucket',
+        m: '#industrialforegoing:machine_frame/simple',
+        g: 'kubejs:epsilon_dust',
+        r: 'kubejs:essence_computation_frame'
+    }).id('kubejs:marine_fisher_s6')
+
+    event.shaped('industrialforegoing:material_stonework_factory', [
+        'pcp',
+        'gmf',
+        'aba'
+    ], {
+        p: '#forge:plastic',
+        c: 'kubejs:essence_computation_frame',
+        g: 'minecraft:diamond_pickaxe',
+        m: '#industrialforegoing:machine_frame/simple',
+        f: 'kubejs:epsilon_dust',
+        a: '#forge:gears/gold',
+        b: 'industrialforegoing:pink_slime'
+    }).id('kubejs:material_stonework_factory_s6')
+
+    event.shaped('tiab:time_in_a_bottle', [
+        'GFG',
+        'DCD',
+        'LBL'
+    ], {
+        G: 'kubejs:epsilon_dust',
+        D: '#forge:gems/diamond',
+        L: '#forge:gems/lapis',
+        C: 'minecraft:clock',
+        B: 'minecraft:glass_bottle',
+        F: 'kubejs:essence_computation_frame'
+    }).id('kubejs:time_in_a_bottle_s6')
 
     event.recipes.thermal.smelter('kubejs:reinforced_sheet',
         ['kubejs:epsilon_dust', '#forge:plates/terrasteel', '#forge:plates/elementium']
     ).energy(204800)
         .id('kubejs:reinforced_sheet_s6')
+
+    event.custom({
+        "type": "techreborn:alloy_smelter",
+        "ingredients": [
+            {
+                "count": 5,
+                "item": 'techreborn:mixed_metal_ingot'
+            },
+            {
+                "count": 1,
+                "item": 'ars_elemental:lesser_fire_focus'
+            }
+        ],
+        "power": 180,
+        "results": [
+            {
+                "count": 2,
+                "item": 'techreborn:advanced_alloy_ingot'
+            }
+        ],
+        "time": 600
+    }).id('kubejs:advanced_alloy_ingot_s6')
 
 })

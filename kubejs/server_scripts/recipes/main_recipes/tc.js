@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
     tcTFCCastIngot('red_steel')
     tcTFCCastIngot('blue_steel')
 
-    tcCastingTable({ "item": 'tfc:metal/sheet/blue_steel' }, true, 200, { "amount": 180, "tag": "tfc:red_steel" }, 'celestial_core:virtual_gold_ingot', 'kubejs:virtual_gold_ingot')
+    tcCastingTable({ "item": 'tfc:metal/sheet/blue_steel' }, true, 200, { "amount": 180, "tag": "tfc:red_steel" }, 'kubejs:virtual_gold_ingot', 'kubejs:virtual_gold_ingot')
     tcCastingTable({ "tag": 'forge:sheets' }, true, 200, { "amount": 90, "tag": "forge:molten_gold" }, 'tconstruct:plate_cast', 'kubejs:plate_cast_tfc')
 
     // tcMaterial({"tag": "forge:ingots/blue_steel"}, "tconstruct:blue_steel", {"tag": "forge:nuggets/steel"}, 'tfc:metal/blue_steel', 100, 50, true, 1000);

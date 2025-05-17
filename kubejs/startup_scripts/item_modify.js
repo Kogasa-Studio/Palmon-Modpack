@@ -9,14 +9,6 @@ ItemEvents.modification(event => {
     }
   })
 
-  // event.modify('celestial_core:sakura_sword', item => {
-  //   item.attackDamage = 13
-  // })
-
-  // event.modify('celestial_core:virtual_gold_sword', item => {
-  //   item.attackDamage = 15
-  // })
-
   // event.modify('stalwart_dungeons:tungsten_sword', item => {
   //   item.attackDamage = 11
   // })

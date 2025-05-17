@@ -29,7 +29,7 @@ function s1Occ(event) {
     event.recipes.occultism.ritual(
         'kubejs:alpha_framework',
         [
-            'celestial_core:virtual_gold_ingot',
+            'kubejs:virtual_gold_ingot',
             'occultism:datura',
             'occultism:burnt_otherstone',
             'occultism:otherworld_ashes'

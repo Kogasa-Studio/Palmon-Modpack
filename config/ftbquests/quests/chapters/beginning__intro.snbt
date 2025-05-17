@@ -135,6 +135,39 @@
 			x: 2.0d
 			y: -6.0d
 		}
+		{
+			dependencies: ["4C273D948C0B6562"]
+			description: [
+				"&a护甲值&r，&e盔甲韧性&r，与&b保护&r已经全面重做！"
+				""
+				"修正伤害 = 原始伤害 - (&a护甲值&r * (1 + &e盔甲韧性&r * 0.02))"
+				""
+				"&b保护&r附魔将作用在修正伤害之后！"
+				""
+				"暴击一共有三种：&e跳劈暴击&r，&a随机暴击&r，&d第二暴击"
+				""
+				"&e跳劈暴击&r和原版一致，基础造成50%的额外伤害"
+				""
+				"&a随机暴击&r初始拥有5%的概率，造成的额外伤害倍率与&e跳劈暴击&r一致"
+				""
+				"&d第二暴击&r的概率只能通过特殊的饰品获得，基础造成100%的额外伤害"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E78B710555C3AC5"
+			tasks: [{
+				id: "5324383315F9819B"
+				type: "checkmark"
+			}]
+			title: "护甲 \\& 伤害机制 | Armor \\& Damage Changes"
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 	title: "开始 \\& 介绍 | Beginning \\& Intro."
 }

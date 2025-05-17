@@ -221,10 +221,6 @@
 		{ item: "fluxnetworks:herculean_flux_storage" }
 		{ item: "industrialforegoing:enchantment_extractor" }
 		{ item: "malum:spirit_pouch" }
-		{ item: "celestial_core:virtual_gold_ingot" }
-		{ item: "celestial_core:guardian_ocean_ingot" }
-		{ item: "celestial_core:sakura_steel" }
-		{ item: "celestial_core:ocean_ingot" }
 		{ item: "celestial_enchantments:legendary_celestial_catalyst" }
 		{ item: "celestial_enchantments:basic_celestial_catalyst" }
 		{ item: "dustandash:nano_machine" }

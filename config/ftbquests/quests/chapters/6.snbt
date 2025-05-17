@@ -8,16 +8,255 @@
 	id: "63BC8C83B57A07B7"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["7FBCDFE4BCD60A00"]
-		id: "37D5AA7EFF0079FC"
-		tasks: [{
-			id: "152494741A94E658"
-			item: "kubejs:epsilon_dust"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["7FBCDFE4BCD60A00"]
+			id: "37D5AA7EFF0079FC"
+			subtitle: "...一切都回到原点"
+			tasks: [{
+				id: "152494741A94E658"
+				item: "kubejs:epsilon_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37D5AA7EFF0079FC"]
+			id: "4888A3BA1752652F"
+			tasks: [{
+				id: "24E34BEFA4CD112B"
+				item: "techreborn:mixed_metal_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37D5AA7EFF0079FC"]
+			id: "3873B8F83E2771EC"
+			tasks: [{
+				id: "78566B54A8BF517F"
+				item: "ars_elemental:lesser_fire_focus"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3873B8F83E2771EC"
+				"4888A3BA1752652F"
+			]
+			id: "19E02D5EB43D2E5F"
+			tasks: [{
+				id: "6A4FCF20BCCD7049"
+				item: "techreborn:advanced_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19E02D5EB43D2E5F"]
+			id: "5127062529933D44"
+			tasks: [{
+				id: "5C27DE2F091FE9A0"
+				item: "kubejs:advanced_machine_frame"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5127062529933D44"]
+			id: "4FEC99388ECEC301"
+			tasks: [{
+				id: "29647A6860755D4C"
+				item: "techreborn:industrial_blast_furnace"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5127062529933D44"]
+			id: "7EE674CC522E90D7"
+			tasks: [{
+				id: "045F4E7A809F155E"
+				item: "techreborn:assembly_machine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5127062529933D44"]
+			id: "084309B68CEAA3F4"
+			tasks: [{
+				id: "1506BCE5070D019D"
+				item: "techreborn:industrial_electrolyzer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5127062529933D44"]
+			id: "0914A8FA6EB54E88"
+			tasks: [{
+				id: "21A567846E6E8805"
+				item: "techreborn:industrial_centrifuge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5127062529933D44"]
+			id: "38521E7E5BC7587D"
+			tasks: [{
+				id: "5B78B686F90385FC"
+				item: "techreborn:implosion_compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4FEC99388ECEC301"]
+			id: "3FF03FC2CD0EF540"
+			tasks: [{
+				id: "232295CACC627233"
+				item: "techreborn:hot_tungstensteel_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4FEC99388ECEC301"]
+			id: "667D8FB103446387"
+			tasks: [{
+				id: "0EF141A442F7B03F"
+				item: "techreborn:silicon_plate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EE674CC522E90D7"]
+			id: "1CA5B78526DA6C16"
+			tasks: [{
+				id: "1FF06533F735F625"
+				item: "techreborn:energy_flow_chip"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38521E7E5BC7587D"]
+			id: "40FB45D8A51C027D"
+			tasks: [{
+				id: "3498DD64B812D2C7"
+				item: "techreborn:iridium_alloy_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EE674CC522E90D7"]
+			id: "0CE3481BD935DA17"
+			tasks: [{
+				id: "48BF5D9E0AC8916F"
+				item: "techreborn:data_storage_chip"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["084309B68CEAA3F4"]
+			id: "6DAE82724A4A42D1"
+			tasks: [{
+				id: "38E5409081552B6E"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:chlorite"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["084309B68CEAA3F4"]
+			id: "6BA5225AE487C0BD"
+			tasks: [{
+				id: "38306F067DAF3D8E"
+				item: "techreborn:lithium_ion_battery"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0914A8FA6EB54E88"]
+			id: "27D67BDF14CED833"
+			tasks: [{
+				id: "0FE33043FE5DAF45"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:mercury"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0914A8FA6EB54E88"]
+			id: "5BFD22FA83AFE0F2"
+			tasks: [{
+				id: "0E68A6FD53087E92"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:helium3"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0914A8FA6EB54E88"]
+			id: "46D3C4D6D79CD168"
+			tasks: [{
+				id: "31DCDFE551264E23"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:methane"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
 	title: "6. 超越彼方 | Beyond, and Beyond"
 }

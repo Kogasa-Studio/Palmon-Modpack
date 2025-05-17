@@ -11,6 +11,8 @@ StartupEvents.registry('item', event => {
 	event.create('vial_of_chaos').displayName('§m§dVial of Chaos').fireResistant().rarity('rare').glow(true)
 	event.create('cognitio').displayName('§m§dCognitio').fireResistant().rarity('epic').glow(true)
 
+	event.create('virtual_gold_ingot').displayName('§mVirtual Gold Ingot').fireResistant().rarity('rare')
+
 	event.create('ancient_netherite').displayName('§mAncient Netherite').fireResistant().rarity('rare')
 
 	event.create('present_alloy').displayName('§m§dPresent Alloy Ingot').fireResistant().rarity('rare')
