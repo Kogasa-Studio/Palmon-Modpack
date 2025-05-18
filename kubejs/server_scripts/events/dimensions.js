@@ -5,11 +5,11 @@ NativeEvents.onEvent($EntityTravelToDimensionEvent, /** @param {Internal.EntityT
     * @type {Internal.ServerPlayer}
     */
     let player = event.entity
-    let key = event.dimension.getPath()
+    let key = event.dimension.location().toString()
 
     if (player.player) {
         switch (key) {
-            case 'the_end':
+            case 'minecraft:the_end':
                 if (!player.stages.has(global.endStage)) {
                     event.setCanceled(true)
                     player.tell(Text.translatable('ui.kubejs.banned').darkPurple())

@@ -346,7 +346,7 @@ registerBuff("miner_4", 3, ["miner_3", "master_ending"], true, function (event) 
 
 // 战斗
 registerBuff("fighter_1", 1, ["init"], false, function (event) { }, function (event) {
-    global.attack_damageAmmount += 3.0
+    global.attack_damageAmmount += 4.0
 })
 
 registerBuff("fighter_2", 1, ["init"], false, function (event) { }, function (event) {
@@ -354,7 +354,7 @@ registerBuff("fighter_2", 1, ["init"], false, function (event) { }, function (ev
 })
 
 registerBuff("fighter_3", 2, ["fighter_1", "fighter_2"], false, function (event) { }, function (event) {
-    global.attack_damageAmmount += 3.0
+    global.attack_damageAmmount += 4.0
     global.attack_speedAmmount += 0.075
 })
 

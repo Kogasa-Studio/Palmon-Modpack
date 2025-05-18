@@ -10,7 +10,7 @@
 	# Hunger multiplied for each block mined with ultimine
 	# Default: 20.0
 	# Range: 0.0 ~ 10000.0
-	exhaustion_per_block: 200.0d
+	exhaustion_per_block: 300.0d
 	
 	# Amount of experience taken per block mined (fractional values allowed)
 	# Default: 0.0

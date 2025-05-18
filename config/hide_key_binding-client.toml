@@ -1,4 +1,0 @@
-#Key bindings listed here will be hidden from the key bindings menu.
-#Use this to hide key bindings that are not used by the player.
-hide_key_bindings = ["key.l2mods.up", "key.l2mods.down", "key.l2mods.swap", "key.loadToolbarActivator", "keu.l2mods.alt", "key.saveToolbarActivator", "key.l2mods.right", "keu.l2mods.shift", "key.entityculling.toggle", "key.l2mods.left"]
-

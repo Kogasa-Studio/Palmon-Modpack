@@ -120,7 +120,7 @@ ServerEvents.recipes((event) => {
         () => e1PL(event)
     ]
     sf1e[s1e[0]]()
-    console.log(`s1 recipes loaded: ${s1m[0]} ${s1e[0]}`)
+    console.log(`s1 recipes loaded: ${s1m[0]}, ${s1e[0]}`)
 
     // stage 2 1+1
     // main
@@ -149,7 +149,7 @@ ServerEvents.recipes((event) => {
         () => s2Frame2(event)
     ]
     sf2f[s2f[0]]()
-    console.log(`s2 recipes loaded:  ${s2m[0]} ${s2e[0]} ${s2f[0]}`)
+    console.log(`s2 recipes loaded: ${s2m[0]}, ${s2e[0]}, ${s2f[0]}`)
 
     // stage 3 2+2
     // main
@@ -179,7 +179,7 @@ ServerEvents.recipes((event) => {
 
     // convergence
     s3ConvergenceRecipe(event, s3m[0], s3m[1])
-    console.log(`s3 recipes loaded: ${s3m[0]} ${s3m[1]} ${s3e[0]} ${s3e[1]}`)
+    console.log(`s3 recipes loaded: ${s3m[0]} ${s3m[1]}, ${s3e[0]} ${s3e[1]}`)
 
     // stage 4 3+2
     // main
@@ -210,7 +210,7 @@ ServerEvents.recipes((event) => {
 
     // convergence
     s4ConvergenceRecipe(event, s4m[0], s4m[1], s4m[2])
-    console.log(`s4 recipes loaded: ${s4m[0]} ${s4m[1]} ${s4m[2]} ${s4e[0]} ${s4e[1]}`)
+    console.log(`s4 recipes loaded: ${s4m[0]} ${s4m[1]} ${s4m[2]}, ${s4e[0]} ${s4e[1]}`)
 
     // stage 5 3+2
     // main
@@ -238,7 +238,7 @@ ServerEvents.recipes((event) => {
     // convergence
     s5ConvergenceRecipe(event, s5m[0], s5m[1], s5m[2])
 
-    console.log(`s5 recipes loaded: ${s5m[0]} ${s5m[1]} ${s5m[2]} ${s5e[0]} ${s5e[1]}`)
+    console.log(`s5 recipes loaded: ${s5m[0]} ${s5m[1]} ${s5m[2]}, ${s5e[0]} ${s5e[1]}`)
 
     if (global.removeBMRecipes) {
         // Botanical Machinery, by e5BM

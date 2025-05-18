@@ -1,7 +1,8 @@
-let $GuiGraphics = Java.loadClass("net.minecraft.client.gui.GuiGraphics")
-let $ClimateRenderCache = Java.loadClass("net.dries007.tfc.client.ClimateRenderCache")
-let $Calendars = Java.loadClass("net.dries007.tfc.util.calendar.Calendars")
-let $Month = Java.loadClass("net.dries007.tfc.util.calendar.Month")
+const $GuiGraphics = Java.loadClass("net.minecraft.client.gui.GuiGraphics")
+const $ClimateRenderCache = Java.loadClass("net.dries007.tfc.client.ClimateRenderCache")
+const $Calendars = Java.loadClass("net.dries007.tfc.util.calendar.Calendars")
+const $Month = Java.loadClass("net.dries007.tfc.util.calendar.Month")
+const $ClimateClassification = Java.loadClass("net.dries007.tfc.util.climate.KoppenClimateClassification")
 
 NativeEvents.onEvent("net.minecraftforge.client.event.RenderGuiEvent$Pre", event => {
     global.renderGuiEvent(event)
@@ -15,6 +16,13 @@ global.renderGuiEvent = function (event) {
 
     let climateCache = $ClimateRenderCache.INSTANCE
     let calendarsClient = $Calendars.CLIENT
+
+    let rainFall = climateCache.getRainfall()
+    let avgTemp = climateCache.getAverageTemperature()
+    let currentTemp  = climateCache.getTemperature()
+
+    let climateEnum = $ClimateClassification.classify(avgTemp, rainFall)
+    let climateText = ("tfc.enum." + climateEnum.getDeclaringClass().getSimpleName() + "." + climateEnum.name()).toLowerCase()
 
     poseStack.pushPose()
     {
@@ -38,22 +46,36 @@ global.renderGuiEvent = function (event) {
             )
             guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
                 Client.font,
-                Text.translate("tfc.screen.climate").getString(),
+                Text.translate("ui.kubejs.current_dimension", Client.player.level.dimension.location()).getString(),
                 0, 24,
                 getColorWithRGBA(55, 255, 155, 100),
                 false
             )
             guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
                 Client.font,
-                Text.translate("tfc.tooltip.climate_average_temperature", climateCache.getAverageTemperature().toFixed(1)).getString(),
-                4, 36,
+                Text.translate("tfc.tooltip.climate_koppen_climate_classification", Text.translatable(climateText)).getString(),
+                0, 36,
                 getColorWithRGBA(55, 255, 155, 100),
                 false
             )
             guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
                 Client.font,
-                Text.translate("tfc.tooltip.climate_annual_rainfall", climateCache.getRainfall().toFixed(1)).getString(),
+                Text.translate("tfc.tooltip.climate_annual_rainfall", rainFall.toFixed(1)).getString(),
                 4, 48,
+                getColorWithRGBA(55, 255, 155, 100),
+                false
+            )
+            guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
+                Client.font,
+                Text.translate("tfc.tooltip.climate_average_temperature", avgTemp.toFixed(1)).getString(),
+                4, 60,
+                getColorWithRGBA(55, 255, 155, 100),
+                false
+            )
+            guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
+                Client.font,
+                Text.translate("tfc.tooltip.climate_current_temp", currentTemp.toFixed(1)).getString(),
+                4, 72,
                 getColorWithRGBA(55, 255, 155, 100),
                 false
             )

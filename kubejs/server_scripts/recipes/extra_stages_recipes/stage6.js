@@ -198,10 +198,74 @@ ServerEvents.recipes(event => {
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:time_in_a_bottle_s6')
 
+    event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_2',
+        ['2x kubejs:superconducting_coil_type_1', '2x #forge:ingots/hot_tungstensteel', '4x #forge:gems/boron_nitride']
+    ).energy(409600)
+        .id('kubejs:superconducting_coil_type_2_s6')
+
+    event.recipes.thermal.smelter('techreborn:silicon_plate',
+        ['4x ae2:printed_silicon', '#forge:dusts/quartz']
+    ).energy(51200)
+        .id('kubejs:silicon_plate_s6')
+
     event.recipes.thermal.smelter('kubejs:reinforced_sheet',
         ['kubejs:epsilon_dust', '#forge:plates/terrasteel', '#forge:plates/elementium']
     ).energy(204800)
         .id('kubejs:reinforced_sheet_s6')
+
+    event.recipes.create.filling(Item.of('techreborn:cell', '{fluid:"techreborn:oil"}'), [
+        Fluid.of('ad_astra:oil', 1000),
+        'techreborn:cell'
+    ]).id('kubejs:oil_cell_1')
+
+    event.recipes.create.filling(Item.of('techreborn:cell', '{fluid:"techreborn:oil"}'), [
+        Fluid.of('thermal:crude_oil', 1000),
+        'techreborn:cell'
+    ]).id('kubejs:oil_cell_2')
+
+    event.recipes.create.filling(Item.of('techreborn:cell', '{fluid:"techreborn:oil"}'), [
+        Fluid.of('techreborn:oil', 1000),
+        'techreborn:cell'
+    ]).id('kubejs:oil_cell_3')
+
+    event.recipes.create.mixing(Fluid.of('kubejs:methane_helium_3_fuel', 1000), [
+        Fluid.of('techreborn:methane', 1000),
+        Fluid.of('techreborn:helium3', 500)
+    ]).superheated().processingTime(800).id('kubejs:methane_helium_3_fuel_s6')
+
+    event.recipes.create.mechanical_crafting('kubejs:industrial_machine_frame', [
+        ' AA AA ',
+        'ACGBGEA',
+        'AGDHFGA',
+        ' IH HI ',
+        'AGFHDGA',
+        'AEGBGCA',
+        ' AA AA '
+    ], {
+        A: 'nuclearcraft:plate_elite',
+        B: '#forge:plates/iridium_alloy',
+        C: 'kubejs:superconducting_coil_type_2',
+        D: 'techreborn:data_storage_chip',
+        E: 'techreborn:industrial_machine_frame',
+        F: 'techreborn:energy_flow_chip',
+        G: Item.of('techreborn:cell', '{fluid:"techreborn:mercury"}').weakNBT(),
+        H: '#forge:plates/silicon',
+        I: Item.of('techreborn:cell', '{fluid:"techreborn:chlorite"}').weakNBT()
+    }).id('kubejs:industrial_machine_frame_s6')
+
+    var t = 'kubejs:industrial_machine_frame'
+    event.recipes.createSequencedAssembly([
+        'mekanism:steel_casing',
+    ], t, [
+        event.recipes.createDeploying(t, [t, '#forge:ingots/osmium']),
+        event.recipes.createDeploying(t, [t, '#forge:ingots/stainless_steel']),
+        event.recipes.createFilling(t, [t, Fluid.of('techreborn:glyceryl', 250)]),
+        event.recipes.createPressing(t, t),
+        event.recipes.createDeploying(t, [t, 'techreborn:uu_matter']),
+        event.recipes.createDeploying(t, [t, 'thermal_extra:dragonsteel_glass'])
+    ]).transitionalItem(t)
+        .loops(4)
+        .id('kubejs:steel_casing_s6')
 
     event.custom({
         "type": "techreborn:alloy_smelter",

@@ -55,7 +55,7 @@ EntityEvents.spawned(event => {
     if (entity && entity.isLiving()) {
         let name = entity.type
         if (entity.isMonster() && !global.entityBlackList.has(name) && entity.persistentData && !entity.persistentData.contains('ova_difficulty')) {
-            let dim = String(event.level.dimension.getNamespace() + ':' + entity.getLevel().getDimension().getPath())
+            let dim = event.level.dimension.location().toString()
 
             entity.persistentData.putString('ova_difficulty', dim)
 

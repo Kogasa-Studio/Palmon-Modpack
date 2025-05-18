@@ -179,4 +179,11 @@ StartupEvents.registry('fluid', event => {
 		.temperature(1400)
 		.temperature(1400)
 
+	event.create('methane_helium_3_fuel')
+		.displayName('Methane-Helium 3 Entropy Fuel')
+		.bucketColor(0x800080)
+		.thickTexture(0xFFC8FF)
+		.temperature(1400)
+		.temperature(1400)
+
 })

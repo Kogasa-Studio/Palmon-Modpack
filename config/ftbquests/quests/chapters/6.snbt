@@ -99,7 +99,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5127062529933D44"]
@@ -109,8 +109,8 @@
 				item: "techreborn:industrial_centrifuge"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5127062529933D44"]
@@ -120,8 +120,8 @@
 				item: "techreborn:implosion_compressor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4FEC99388ECEC301"]
@@ -131,7 +131,7 @@
 				item: "techreborn:hot_tungstensteel_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -142,8 +142,8 @@
 				item: "techreborn:silicon_plate"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7EE674CC522E90D7"]
@@ -154,7 +154,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["38521E7E5BC7587D"]
@@ -164,8 +164,8 @@
 				item: "techreborn:iridium_alloy_plate"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7EE674CC522E90D7"]
@@ -176,7 +176,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["084309B68CEAA3F4"]
@@ -190,17 +190,6 @@
 						fluid: "techreborn:chlorite"
 					}
 				}
-				type: "item"
-			}]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["084309B68CEAA3F4"]
-			id: "6BA5225AE487C0BD"
-			tasks: [{
-				id: "38306F067DAF3D8E"
-				item: "techreborn:lithium_ion_battery"
 				type: "item"
 			}]
 			x: 10.0d
@@ -220,8 +209,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0914A8FA6EB54E88"]
@@ -237,8 +226,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0914A8FA6EB54E88"]
@@ -254,8 +243,139 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0CE3481BD935DA17"
+				"1CA5B78526DA6C16"
+				"40FB45D8A51C027D"
+				"27D67BDF14CED833"
+				"6DAE82724A4A42D1"
+				"667D8FB103446387"
+				"13E47294E16CB194"
+			]
+			id: "6479C3ACB63B7CEF"
+			tasks: [{
+				id: "010B7CE72F1DBBCF"
+				item: "kubejs:industrial_machine_frame"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FF03FC2CD0EF540"]
+			id: "13E47294E16CB194"
+			tasks: [{
+				id: "3AA233C5317A3C91"
+				item: "kubejs:superconducting_coil_type_2"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6479C3ACB63B7CEF"]
+			id: "385DACF212F7767C"
+			subtitle: "几乎就是等价交换！"
+			tasks: [{
+				id: "032F9DEA1F29C088"
+				item: "techreborn:matter_fabricator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6479C3ACB63B7CEF"]
+			id: "59510E507F970BDC"
+			tasks: [{
+				id: "3261E299B22D17DC"
+				item: "techreborn:distillation_tower"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59510E507F970BDC"]
+			id: "1625ED10B2911285"
+			tasks: [{
+				id: "2AB4C14CE2B1398B"
+				item: {
+					Count: 1
+					id: "techreborn:cell"
+					tag: {
+						fluid: "techreborn:glyceryl"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["385DACF212F7767C"]
+			id: "452C463084E6A80C"
+			tasks: [{
+				id: "6E0F9EBECE09F884"
+				item: "techreborn:uu_matter"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1625ED10B2911285"
+				"452C463084E6A80C"
+			]
+			id: "189250FB6C4DA694"
+			tasks: [{
+				id: "7187E438CD374DC3"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46D3C4D6D79CD168"
+				"5BFD22FA83AFE0F2"
+			]
+			id: "5D560D9C2A54A70F"
+			tasks: [{
+				id: "244C65A98126C8DC"
+				item: "kubejs:methane_helium_3_fuel_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["37D5AA7EFF0079FC"]
+			id: "4BAF04393E036383"
+			tasks: [{
+				id: "50425E5D91F48CC8"
+				item: "kubejs:intelligent_draconium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37D5AA7EFF0079FC"]
+			id: "35835B48174A9C1F"
+			tasks: [{
+				id: "6DB48B0B6A61AFAC"
+				item: "kubejs:reinforced_sheet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "6. 超越彼方 | Beyond, and Beyond"

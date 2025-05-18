@@ -48,6 +48,11 @@
 		}
 		{
 			dependencies: ["7CFDC05FE7ACCB5E"]
+			description: [
+				"我们对终末之诗、致谢名单以及结语各进行了一处修改。"
+				""
+				"有时间的话，还请找到它们。"
+			]
 			id: "68694C58414525D4"
 			tasks: [{
 				advancement: "minecraft:end/kill_dragon"
@@ -179,7 +184,12 @@
 		}
 		{
 			dependencies: ["7433CEDE4D39BDFC"]
-			description: ["你理解了一类被视为禁忌的机器的原理，但是为什么他们是禁忌......"]
+			description: [
+				"你理解了一类被视为禁忌的机器的原理"
+				"但是，为什么它们是禁忌......"
+				""
+				"注意：此分支较为特殊，如果没有来到拥有此分支的世界线，则在该世界线上永远无法收束该分支"
+			]
 			icon: "botanicalmachinery:industrial_agglomeration_factory"
 			id: "2C3DEE8F626DE274"
 			rewards: [{

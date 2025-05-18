@@ -1,3 +1,0 @@
-#Whether or not to allow entities within the Team to attack themselves
-allowDamageSelf = true
-

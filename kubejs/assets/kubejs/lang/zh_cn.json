@@ -133,6 +133,7 @@
     "fluid.kubejs.melted_cursium": "熔融咒魂",
 
     "fluid.kubejs.melted_beryllium_bronze_alloy": "§e熔融铍青铜合金",
+    "fluid.kubejs.methane_helium_3_fuel": "§e甲烷-氦-3 熵燃料",
 
     "item.kubejs.melted_voidarium_bucket": "桶装熔融虚空",
     "item.kubejs.hybrid_fuel_bucket": "桶装混合燃料",
@@ -147,6 +148,8 @@
     "item.kubejs.melted_cursium_bucket": "桶装熔融咒魂",
     
     "item.kubejs.melted_beryllium_bronze_alloy_bucket": "§e桶装熔融铍青铜合金",
+
+    "item.kubejs.methane_helium_3_fuel_bucket": "§e桶装甲烷-氦-3 熵燃料",
 
     "ui.kubejs.slashblade": "你还未领悟§e剑之魂",
     "ui.kubejs.banned": "你没资格啊你没资格，正因为如此你没资格啊你没资格",
@@ -232,6 +235,7 @@
     "ui.kubejs.sunken_city": "......深渊也在凝视着你",
 
     "ui.kubejs.marker": "Palmon - by Tonywww",
+    "ui.kubejs.current_dimension": "当前星球/维度：%s",
     "kubejs.modpack_name": "帕鲁梦",
 
     "kubejs.eot.list_prefix": "[EOT]列表：",
@@ -282,13 +286,13 @@
         
 
     "kubejs.eot.fighter_1_name": "[力量战士]",
-    "kubejs.eot.fighter_1_desc": "·属性 攻击伤害 + 3",
+    "kubejs.eot.fighter_1_desc": "·属性 攻击伤害 + 4",
 
     "kubejs.eot.fighter_2_name": "[迅捷战士]",
     "kubejs.eot.fighter_2_desc": "·属性 攻击速度 + 7.5%",
 
     "kubejs.eot.fighter_3_name": "[精锐战士]",
-    "kubejs.eot.fighter_3_desc": "·属性 攻击伤害 + 3\n·属性 攻击速度 + 7.5%",
+    "kubejs.eot.fighter_3_desc": "·属性 攻击伤害 + 4\n·属性 攻击速度 + 7.5%",
 
     "kubejs.eot.assassin_1_name": "[学徒刺客]",
     "kubejs.eot.assassin_1_desc": "·属性 暴击率 + 0.05",

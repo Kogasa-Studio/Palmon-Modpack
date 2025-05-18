@@ -63,6 +63,29 @@ ServerEvents.recipes(event => {
     ).energy(38400)
         .id('kubejs:essence_computation_frame_s4')
 
+    event.recipes.occultism.ritual(
+        '2x kubejs:marid_binded_gem',
+        [
+            'kubejs:essence_computation_frame',
+            'kubejs:essence_computation_frame',
+            'occultism:spirit_attuned_gem',
+            'occultism:spirit_attuned_gem',
+            'kubejs:present_alloy',
+            'occultism:storage_stabilizer_tier4',
+            'jaopca:processors.terrasteel',
+            'jaopca:processors.elementium'
+        ],
+        'occultism:book_of_binding_bound_marid',
+        'occultism:craft_marid',
+        200
+    ).id("kubejs:occ_marid_binded_gem_0")
+
+
+    event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_1',
+        ['7x techreborn:cupronickel_heating_coil', '5x thermal:rf_coil', '3x techreborn:electronic_circuit']
+    ).energy(76800)
+        .id('kubejs:superconducting_coil_type_1_s4')
+
     event.recipes.ars_nouveau.imbuement(
         '#forge:gems/source_gem',
         'kubejs:charged_source_gem',

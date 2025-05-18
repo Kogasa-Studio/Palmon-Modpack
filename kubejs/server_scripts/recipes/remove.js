@@ -188,6 +188,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'techreborn:crafting_table/parts/energy_flow_chip' })
     event.remove({ id: 'techreborn:crafting_table/parts/data_storage_chip' })
     event.remove({ id: 'techreborn:crafting_table/parts/data_storage_core' })
+    
+    event.remove({ id: 'mekanism:steel_casing' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

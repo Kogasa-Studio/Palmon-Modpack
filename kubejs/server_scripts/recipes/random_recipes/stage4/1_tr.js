@@ -14,9 +14,4 @@ function s4TR(event) {
             C: 'techreborn:basic_machine_frame',
             D: 'industrialforegoing:machine_frame_simple'
         }).id('kubejs:basic_machine_frame_s4')
-
-    event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_1',
-        ['7x techreborn:cupronickel_heating_coil', '5x thermal:rf_coil', '3x techreborn:electronic_circuit']
-    ).energy(76800)
-        .id('kubejs:superconducting_coil_type_1_s4')
 }
