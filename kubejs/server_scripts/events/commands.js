@@ -53,7 +53,7 @@ ServerEvents.commandRegistry(event => {
                                 let num = Arguments.INTEGER.getResult(ctx, 'num')
 
 
-                                return giveAnchorShard(player, num) == 1
+                                return giveAnchorShard(player, num)
                             })
                     )
             )

@@ -1412,6 +1412,13 @@
 			dependencies: ["5DAD718093971689"]
 			hide_until_deps_complete: true
 			id: "5DA47C9FB0351EA7"
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 2"
+				icon: "kubejs:anchor_shard"
+				id: "523C7AD020F0A003"
+				title: "锚定"
+				type: "command"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{

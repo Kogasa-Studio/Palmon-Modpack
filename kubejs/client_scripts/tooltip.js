@@ -44,6 +44,7 @@ ItemEvents.tooltip(event => {
 
     event.add('#kubejs:voucher', [Text.translate("ui.kubejs.voucher").gold()])
     event.add('cataclysm:abyss_eye', [Text.translate("ui.kubejs.abyss_eye").darkPurple()])
+    event.add('kubejs:anchor_shard', [Text.translate("ui.kubejs.anchor_shard").darkBlue()])
 
     deliveryCoordinate.forEach(element => {
         event.addAdvanced(element, (item, advanced, text) => {

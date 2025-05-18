@@ -83,7 +83,7 @@ function getHover(buff) {
  */
 global.renderBuffs = function (player) {
     // 前缀
-    let line = Text.of('========================\n========================')
+    let line = Text.of('================================================\n================================================')
         .append('\n')
         .append(Text.translatable('kubejs.eot.list_prefix')
             .color(Color.AQUA)
@@ -128,7 +128,7 @@ global.renderBuffs = function (player) {
     }
 
     // 后缀
-    line = line.append('\n========================\n========================')
+    line = line.append('\n================================================\n================================================')
     player.tell(line);
 }
 
@@ -433,12 +433,12 @@ registerBuff("flight_1", 3, ["speed_1"], true, function (event) {
 })
 
 // 宝可梦 *
-registerBuff("poke_1", 1, ["init"], false, function (event) {
+registerBuff("poke_1", 2, ["init"], false, function (event) {
     event.player.give(Item.of('2x cobblemon:master_ball'))
     event.player.give(Item.of('cobblemon:kings_rock'))
 }, function (event) { })
 
-registerBuff("poke_2", 1, ["true_ending"], false, function (event) {
+registerBuff("poke_2", 2, ["true_ending"], false, function (event) {
     event.server.runCommand(`pokegiveother ${event.player.name.string} porygonz level=20 hp_iv=31 special_attack_iv=31 speed_iv=31`)
 }, function (event) { })
 
@@ -552,11 +552,11 @@ registerBuff("init", 0, [], false, function (event) {
     giveAnchorShard(event.player, 1)
 }, function (event) { })
 
-registerBuff("true_ending", 1, ["init"], false, function (event) {
+registerBuff("true_ending", 3, ["init"], false, function (event) {
     event.player.give(Item.of('kubejs:present_soul'))
 }, function (event) { })
 
-registerBuff("master_ending", 1, ["true_ending"], false, function (event) {
+registerBuff("master_ending", 3, ["true_ending"], false, function (event) {
     event.player.give(Item.of('kubejs:scranton_reality_anchor'))
 }, function (event) { })
 

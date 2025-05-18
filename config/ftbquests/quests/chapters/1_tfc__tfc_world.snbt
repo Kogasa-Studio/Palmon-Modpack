@@ -1973,6 +1973,13 @@
 				"该框架的配方由&l&e世界线变动率&l&f决定。"
 			]
 			id: "32EAD9843E44D905"
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 1"
+				icon: "kubejs:anchor_shard"
+				id: "46E7F6B3ED4C1D3B"
+				title: "锚定"
+				type: "command"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "最初的起点"
