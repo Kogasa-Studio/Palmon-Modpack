@@ -54,6 +54,7 @@ StartupEvents.registry('item', event => {
 	event.create('alfheim_iridescent').displayName('§lAlfheim Iridescent').fireResistant().rarity('epic')
 
 	event.create('basepoint_alloy').displayName('§lBasepoint Alloy').fireResistant().rarity('epic')
+	event.create('yin_yang_steel').displayName('§lYin & Yang Steel Ingot').fireResistant().rarity('epic')
 
 	let anchorgleam = event.create('anchorgleam')
 	anchorgleam.displayName('§aAnchorgleam™').fireResistant().rarity('epic')
@@ -77,9 +78,9 @@ StartupEvents.registry('item', event => {
 	event.create('delta_framework').displayName('§dDelta Framework').fireResistant().rarity('epic')
 	event.create('epsilon_framework').displayName('§eEpsilon Framework').fireResistant().rarity('epic').glow(true)
 
-	event.create('delivery_coordinate_gamma').displayName('§cDelivery Coordinate Gamma').fireResistant().rarity('epic').glow(true)
-	event.create('delivery_coordinate_epsilon').displayName('§eDelivery Coordinate Epsilon').fireResistant().rarity('epic').glow(true)
-	event.create('delivery_coordinate_ultimate').displayName('§fDelivery Coordinate Ultimate').fireResistant().rarity('epic').glow(true)
+	event.create('delivery_coordinate_gamma').displayName('§cDelivery Coordinate Gamma').maxStackSize(1).fireResistant().rarity('epic').glow(true)
+	event.create('delivery_coordinate_epsilon').displayName('§eDelivery Coordinate Epsilon').maxStackSize(1).fireResistant().rarity('epic').glow(true)
+	event.create('delivery_coordinate_ultimate').displayName('§fDelivery Coordinate Ultimate').maxStackSize(1).fireResistant().rarity('epic').glow(true)
 
 	event.create('anchor_shard').displayName('§9Anchor Shard').fireResistant().rarity('epic').glow(true)
 

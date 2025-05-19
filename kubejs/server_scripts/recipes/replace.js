@@ -42,6 +42,13 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
+        { id: 'mekanism:metallurgic_infuser'}
+    ],
+        '#forge:ingots/osmium',
+        'mekanism:steel_casing'
+    )
+
+    event.replaceInput([
         { id: 'expatternprovider:circuit_cutter'}
     ],
         'ae2:quartz_glass',

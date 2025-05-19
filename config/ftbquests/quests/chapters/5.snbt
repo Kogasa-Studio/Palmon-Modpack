@@ -66,6 +66,7 @@
 		}
 		{
 			dependencies: ["7CFDC05FE7ACCB5E"]
+			hide_until_deps_complete: true
 			icon: "cataclysm:void_infused_end_stone_bricks"
 			id: "0D04C151CA099222"
 			tasks: [{
@@ -276,6 +277,7 @@
 		}
 		{
 			dependencies: ["6B46BCE6AEDB7159"]
+			hide_until_deps_complete: true
 			icon: "kubejs:anchor_shard"
 			id: "7433CEDE4D39BDFC"
 			tasks: [{
@@ -288,6 +290,7 @@
 		}
 		{
 			dependencies: ["6B46BCE6AEDB7159"]
+			hide_until_deps_complete: true
 			id: "483C08732D23AB5B"
 			tasks: [{
 				id: "402F6229994B91FD"
@@ -299,6 +302,7 @@
 		}
 		{
 			dependencies: ["6B46BCE6AEDB7159"]
+			hide_until_deps_complete: true
 			id: "4E59F9682AAA35A2"
 			tasks: [{
 				id: "0405C92E7C3C4BCB"
@@ -310,6 +314,7 @@
 		}
 		{
 			dependencies: ["6B46BCE6AEDB7159"]
+			hide_until_deps_complete: true
 			id: "328C71FE57A42FA2"
 			subtitle: "空间中的预测"
 			tasks: [{
@@ -348,6 +353,7 @@
 		}
 		{
 			dependencies: ["15331B0B0CEB395A"]
+			hide_until_deps_complete: true
 			id: "55EABF6C1867A62D"
 			tasks: [{
 				id: "6B3DA9634872D17A"
@@ -359,6 +365,7 @@
 		}
 		{
 			dependencies: ["15331B0B0CEB395A"]
+			hide_until_deps_complete: true
 			id: "79587F497F62635C"
 			tasks: [{
 				id: "3DE2D6232BCCF08C"
@@ -370,6 +377,7 @@
 		}
 		{
 			dependencies: ["15331B0B0CEB395A"]
+			hide_until_deps_complete: true
 			id: "693CF7CD9BCC421F"
 			tasks: [{
 				id: "5D524128EEA19446"
@@ -398,6 +406,7 @@
 		{
 			dependencies: ["46E035BDE38016C4"]
 			description: ["合成..."]
+			hide_until_deps_complete: true
 			icon: "mythicbotany:central_rune_holder"
 			id: "204AE37D9BF3A002"
 			subtitle: "灵感：神话植物学"
@@ -434,6 +443,7 @@
 		{
 			dependencies: ["6C3FB00EDD463FA3"]
 			description: ["今后还需要更多......"]
+			hide_until_deps_complete: true
 			id: "6334EE9A9E9222B9"
 			tasks: [{
 				id: "3E6A87571AD2CB98"
@@ -460,6 +470,7 @@
 		{
 			dependencies: ["46E035BDE38016C4"]
 			description: ["合成..."]
+			hide_until_deps_complete: true
 			id: "2E91FE9B7E360E40"
 			rewards: [{
 				id: "4DF7AAF90DD2C4C4"
@@ -478,6 +489,7 @@
 		{
 			dependencies: ["46E035BDE38016C4"]
 			description: ["合成..."]
+			hide_until_deps_complete: true
 			id: "4B8E4123930135A1"
 			subtitle: "灵感：尘土炼金"
 			tasks: [{
@@ -491,6 +503,7 @@
 		{
 			dependencies: ["46E035BDE38016C4"]
 			description: ["合成..."]
+			hide_until_deps_complete: true
 			id: "11F21F539E01619E"
 			subtitle: "灵感：托卡马克"
 			tasks: [{
@@ -510,6 +523,7 @@
 				""
 				"注意：不能保证抵达地的安全性"
 			]
+			hide_until_deps_complete: true
 			id: "060D01209461727F"
 			rewards: [{
 				auto: "invisible"
@@ -530,6 +544,7 @@
 		}
 		{
 			dependencies: ["11F21F539E01619E"]
+			hide_until_deps_complete: true
 			id: "57B1FC6308BAB929"
 			tasks: [{
 				id: "4DA3F60112D4D8E5"
@@ -541,6 +556,7 @@
 		}
 		{
 			dependencies: ["6B46BCE6AEDB7159"]
+			hide_until_deps_complete: true
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "48878B5E13B0390A"
 			tasks: [{
@@ -652,6 +668,7 @@
 		}
 		{
 			dependencies: ["060D01209461727F"]
+			hide_until_deps_complete: true
 			icon: "deeperdarker:sculk_stone"
 			id: "49AE0898F1666F6D"
 			tasks: [{
@@ -756,6 +773,7 @@
 		}
 		{
 			dependencies: ["5BE86D89DCA6EBCA"]
+			hide_until_deps_complete: true
 			id: "79B60394F8868246"
 			shape: "hexagon"
 			tasks: [{
@@ -768,6 +786,7 @@
 		}
 		{
 			dependencies: ["4A9E562D1C7EBF2A"]
+			hide_until_deps_complete: true
 			id: "323EFC6D00D6EFEE"
 			shape: "hexagon"
 			tasks: [{
@@ -792,6 +811,7 @@
 		}
 		{
 			dependencies: ["204AE37D9BF3A002"]
+			hide_until_deps_complete: true
 			icon: "mythicbotany:midgard_rune"
 			id: "5BB05D777DB5E7FC"
 			tasks: [
@@ -826,6 +846,7 @@
 		}
 		{
 			dependencies: ["204AE37D9BF3A002"]
+			hide_until_deps_complete: true
 			id: "60C956E6C21CA69F"
 			tasks: [{
 				id: "5CE7B339890FB7D0"
@@ -875,6 +896,7 @@
 		}
 		{
 			dependencies: ["2E91FE9B7E360E40"]
+			hide_until_deps_complete: true
 			id: "1576D14D77DC19F7"
 			tasks: [{
 				id: "0C8D36AB387EECF9"
@@ -956,6 +978,7 @@
 		}
 		{
 			dependencies: ["1760D9021E580581"]
+			hide_until_deps_complete: true
 			id: "6745C9744B99DC77"
 			tasks: [{
 				id: "554F691DEBA58EF5"
@@ -967,6 +990,7 @@
 		}
 		{
 			dependencies: ["1760D9021E580581"]
+			hide_until_deps_complete: true
 			id: "43612C8E8386C03A"
 			tasks: [{
 				id: "74C0D92BB939CC3A"
@@ -1041,6 +1065,7 @@
 		}
 		{
 			dependencies: ["4B8E4123930135A1"]
+			hide_until_deps_complete: true
 			id: "76A2A8DD94751279"
 			tasks: [{
 				id: "311333EA53396942"
@@ -1063,6 +1088,7 @@
 		}
 		{
 			dependencies: ["4B8E4123930135A1"]
+			hide_until_deps_complete: true
 			id: "2A1FE9B3C9BE5074"
 			tasks: [{
 				id: "27D58625A992DBDC"
@@ -1111,6 +1137,7 @@
 		{
 			dependencies: ["311EB27C36572AA1"]
 			description: ["是的，你有很多获取方式"]
+			hide_until_deps_complete: true
 			icon: "dustandash:titanium_ingot"
 			id: "62CEC2632FB4E692"
 			tasks: [{
@@ -1172,7 +1199,7 @@
 			dependencies: ["25C877330E513CD0"]
 			id: "7FBCDFE4BCD60A00"
 			rewards: [{
-				command: "/eot_give_anchor_shard @p 3"
+				command: "/eot_give_anchor_shard @p 2"
 				icon: "kubejs:anchor_shard"
 				id: "3A3EFA7083C87B6E"
 				title: "锚定"
@@ -1198,6 +1225,7 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "kubejs:anchor_shard"
 			id: "25C877330E513CD0"
 			tasks: [{

@@ -23,30 +23,30 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
-| getCenterPos |  |  | BlockPos | ✘ |
-| getCenterBlock |  |  | BlockContainerJS | ✘ |
 | isFake |  |  | boolean | ✘ |
-| getRadiusSquared |  |  | double | ✘ |
+| getCenterPos |  |  | BlockPos | ✘ |
 | getSecondaryPositions |  |  | List<BlockPos> | ✘ |
+| getCenterBlock |  |  | BlockContainerJS | ✘ |
+| getRadiusSquared |  |  | double | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `double getRadiusSquared()`
-```
-Returns the maximum distance from the center block of collapsing blocks, or 0 if the collapse is fake
-```
-
 - `List<BlockPos> getSecondaryPositions()`
 ```
 Returns a list of `BlockPos`es where a block collapses or, if the collapse is fake, particles spawn
+```
+
+- `double getRadiusSquared()`
+```
+Returns the maximum distance from the center block of collapsing blocks, or 0 if the collapse is fake
 ```
 
 - `Object exit(Object var0)`
@@ -85,6 +85,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -92,13 +99,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

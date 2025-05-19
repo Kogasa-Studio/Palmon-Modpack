@@ -36,15 +36,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | scale | float, float |  | void | ✘ |
 | scale | float |  | void | ✘ |
 | text | Component, int, int, int, boolean |  | void | ✘ |
-| getVariables |  |  | VariableSet | ✘ |
-| translate | double, double |  | void | ✘ |
 | rectangle | float, float, float, float, float, int, float, float, float, float |  | void | ✘ |
 | rectangle | float, float, float, float, float, int |  | void | ✘ |
 | rawText | FormattedCharSequence, int, int, int, boolean |  | void | ✘ |
-| rotateDeg | float |  | void | ✘ |
+| alignY | float, float, AlignMode |  | float | ✘ |
 | rotateRad | float |  | void | ✘ |
 | alignX | float, float, AlignMode |  | float | ✘ |
-| alignY | float, float, AlignMode |  | float | ✘ |
+| rotateDeg | float |  | void | ✘ |
+| translate | double, double |  | void | ✘ |
+| getVariables |  |  | VariableSet | ✘ |
 | blend | boolean |  | void | ✘ |
 | begin | VertexFormat$Mode, VertexFormat |  | void | ✘ |
 | end |  |  | void | ✘ |
@@ -52,22 +52,22 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | multiply | Quaternionf |  | void | ✘ |
 | push |  |  | void | ✘ |
 | pop |  |  | void | ✘ |
-| translate | double, double, double |  | void | ✘ |
-| bindTextureForSetup | ResourceLocation |  | void | ✘ |
 | getMatrix |  |  | Matrix4f | ✘ |
 | setShaderColor | float, float, float, float |  | void | ✘ |
 | setShaderTexture | ResourceLocation |  | void | ✘ |
+| bindTextureForSetup | ResourceLocation |  | void | ✘ |
 | vertex | Matrix4f, float, float, float, int, float, float |  | void | ✘ |
 | vertex | Matrix4f, float, float, float, int |  | void | ✘ |
 | setShaderInstance | Supplier<ShaderInstance> |  | void | ✘ |
-| setPositionColorShader |  |  | void | ✘ |
-| setPositionColorTextureShader |  |  | void | ✘ |
-| multiplyWithMatrix | Matrix4f |  | void | ✘ |
 | resetShaderColor |  |  | void | ✘ |
+| multiplyWithMatrix | Matrix4f |  | void | ✘ |
 | beginQuads | boolean |  | void | ✘ |
 | beginQuads | VertexFormat |  | void | ✘ |
+| setPositionColorShader |  |  | void | ✘ |
+| setPositionColorTextureShader |  |  | void | ✘ |
+| translate | double, double, double |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getEntity |  |  | Entity | ✘ |
-| getPlayer |  |  | LocalPlayer | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
@@ -77,8 +77,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -146,6 +146,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -153,13 +160,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

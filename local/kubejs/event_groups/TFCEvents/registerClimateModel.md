@@ -24,21 +24,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | register | ResourceLocation, Consumer<Builder> |  | void | ✘ |
-| registerClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
-| newVec2 | float, float |  | Vec2 | ✘ |
-| getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
-| getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
-| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
-| getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
 | getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
-| getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
+| getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
+| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
+| registerClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
+| getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| newVec2 | float, float |  | Vec2 | ✘ |
 | getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
+| getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -53,32 +53,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Creates a new climate model with the given name and properties
 ```
 
-- `void registerClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
-
-  Parameters:
-  - var0: ResourceLocation
-  - var1: Consumer<Builder>
-
-```
-Deprecated, use `.register`
-```
-
-- `Vec2 newVec2(float var0, float var1)`
-
-  Parameters:
-  - var0: float
-  - var1: float
-
+- `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
 ```
 Deprecated
 ```
 
-- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
-```
-Deprecated
-```
-
-- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
+- `WindVectorCallback getDefaultWindVectorCallback()`
 ```
 Deprecated
 ```
@@ -93,22 +73,42 @@ Deprecated
 Deprecated, use `.register`
 ```
 
-- `WindVectorCallback getDefaultWindVectorCallback()`
+- `void registerClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
+
+  Parameters:
+  - var0: ResourceLocation
+  - var1: Consumer<Builder>
+
+```
+Deprecated, use `.register`
+```
+
+- `LevelPosLong2FloatCallback getDefaultWaterFogCallback()`
 ```
 Deprecated
 ```
 
-- `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
+- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
 ```
 Deprecated
 ```
 
-- `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
+- `Vec2 newVec2(float var0, float var1)`
+
+  Parameters:
+  - var0: float
+  - var1: float
+
 ```
 Deprecated
 ```
 
 - `TemperatureCallback getDefaultCurrentTemperatureCallback()`
+```
+Deprecated
+```
+
+- `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
 ```
 Deprecated
 ```
@@ -149,6 +149,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -156,13 +163,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

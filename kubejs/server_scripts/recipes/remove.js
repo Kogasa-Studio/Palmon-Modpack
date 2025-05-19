@@ -190,6 +190,15 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'techreborn:crafting_table/parts/data_storage_core' })
     
     event.remove({ id: 'mekanism:steel_casing' })
+    event.remove({ id: 'mekanism:metallurgic_infusing/alloy/infused' })
+    event.remove({ id: 'mekanism:control_circuit/basic' })
+    event.remove({ id: 'draconicevolution:awakened_draconium_block' })
+    event.remove({ id: 'mekanismgenerators:fission_reactor/casing' })
+    event.remove({ id: 'mekanismgenerators:fission_reactor/fuel_assembly' })
+    event.remove({ id: 'mekanism:isotopic_centrifuge' })
+    event.remove({ id: 'mekanism:chemical_infuser' })
+    event.remove({ id: 'mekanism:chemical_oxidizer' })
+    event.remove({ id: 'mekanism:electrolytic_separator' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
@@ -199,6 +208,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'ars_nouveau:ritual_flight' })
 
     event.remove({ output: 'techreborn:advanced_alloy_ingot', not: { type: 'minecraft:crafting_shapeless' } })
+    event.remove({ output: 'draconicevolution:awakened_draconium_ingot', not: { type: 'minecraft:crafting_shapeless' } })
     event.remove({ input: 'immersiveengineering:hammer', not: { id: 'immersiveengineering:crafting/survey_tools' } })
 
     event.remove({ output: '#cobblemon:poke_balls' })

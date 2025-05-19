@@ -46,6 +46,7 @@
     "item.kubejs.alfheim_iridescent": "§l亚尔夫海姆之虹光",
 
     "item.kubejs.basepoint_alloy": "§l基点合金",
+    "item.kubejs.yin_yang_steel": "§l阴阳钢锭",
 
     "item.kubejs.anchorgleam": "§a锚光™",
     
@@ -234,6 +235,7 @@
    
     "ui.kubejs.sunken_city": "......深渊也在凝视着你",
     "ui.kubejs.anchor_shard": "使用它干涉世界......",
+    "ui.kubejs.cognitio": "我思，故我在。",
 
     "ui.kubejs.marker": "Palmon - by Tonywww",
     "ui.kubejs.current_dimension": "当前星球/维度：%s",
@@ -264,7 +266,7 @@
     "kubejs.eot.init_desc": "·初始携带 §9锚之碎片§f",
     
     "kubejs.eot.true_ending_name": "[真正结局]",
-    "kubejs.eot.true_ending_desc": "·初始携带 §e现世之魂§f\n·允许开启章节7",
+    "kubejs.eot.true_ending_desc": "·初始携带 §e现世之魂§f\n·允许进入真正结局",
     
     "kubejs.eot.master_ending_name": "[专家结局]",
     "kubejs.eot.master_ending_desc": "·初始携带 §d斯克兰顿现实稳定锚§f\n·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行专家试炼",

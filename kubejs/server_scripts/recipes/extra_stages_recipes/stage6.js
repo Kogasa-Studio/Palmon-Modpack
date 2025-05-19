@@ -12,6 +12,64 @@ ServerEvents.recipes(event => {
 
     event.shapeless('occultism:chalk_red_impure', ['occultism:chalk_white_impure', 'occultism:afrit_essence', '#forge:dusts/blaze', 'kubejs:epsilon_dust']).id('kubejs:chalk_red_impure_s6')
 
+    event.shaped('mekanism:electrolytic_separator', [
+        'IHI',
+        'ARA',
+        'IXI'
+    ], {
+        I: '#forge:ingots/iron',
+        R: '#forge:dusts/redstone',
+        A: '#mekanism:alloys/infused',
+        H: 'mekanism:electrolytic_core',
+        S: 'mekanism:steel_casing'
+    }).id('kubejs:electrolytic_separator_s6');
+
+    event.shaped('mekanism:isotopic_centrifuge', [
+        'III',
+        'CTC',
+        'III'
+    ], {
+        I: '#forge:ingots/lead',
+        C: '#forge:circuits/ultimate',
+        T: 'nuclearcraft:americium_rtg'
+    }).id('kubejs:isotopic_centrifuge_s6')
+
+    event.shaped('mekanism:chemical_infuser', [
+        'ACA',
+        'TXT',
+        'ACA'
+    ], {
+        A: '#mekanism:alloys/infused',
+        C: '#forge:circuits/basic',
+        T: 'draconicevolution:draconic_energy_core',
+        X: 'mekanism:steel_casing'
+    }).id('kubejs:chemical_infuser_s6')
+
+    event.shaped('mekanism:chemical_oxidizer', [
+        'ACA',
+        'PHT',
+        'ACA'
+    ], {
+        A: '#mekanism:alloys/infused',
+        C: '#forge:circuits/basic',
+        P: '#mekanism:personal_storage',
+        H: 'mekanism:dynamic_tank',
+        T: 'draconicevolution:draconic_energy_core'
+    }).id('kubejs:chemical_oxidizer_s6')
+
+    event.shaped('2x mekanismgenerators:fission_reactor_casing', [
+        'ACA',
+        'BDB',
+        'AEA'
+    ],
+        {
+            A: 'nuclearcraft:plate_du',
+            B: 'dustandash:fission_reactor_casing',
+            C: 'draconicevolution:draconium_core',
+            D: 'mekanism:steel_casing',
+            E: Item.of('tconstruct:large_plate', '{Material:"tconstruct:lead"}').weakNBT()
+        }).id('kubejs:fission_reactor_casing_s6')
+
     event.shaped('kubejs:advanced_machine_frame', [
         'ADA',
         'BCB',
@@ -49,7 +107,18 @@ ServerEvents.recipes(event => {
             E: 'kubejs:epsilon_dust',
         }).id('kubejs:imbuement_chamber_s6')
 
-    event.recipes.thermal.smelter('12x kubejs:intelligent_draconium_ingot',
+    event.recipes.ars_nouveau.enchanting_apparatus([
+        'mekanism:pellet_antimatter',
+        'ars_nouveau:starbuncle_charm',
+        'ars_nouveau:whirlisprig_charm',
+        'ars_nouveau:drygmy_charm',
+        'ars_nouveau:wixie_charm',
+        'ars_nouveau:amethyst_golem_charm',
+        'ars_elemental:siren_charm',
+        'ars_elemental:firenando_charm'
+    ], 'draconicevolution:awakened_core', 'kubejs:cognitio', 40000).id('kubejs:cognitio_s6')
+
+    event.recipes.thermal.smelter('16x kubejs:intelligent_draconium_ingot',
         ['kubejs:epsilon_dust', '16x jaopca:processors.draconium']
     ).energy(102400)
         .id('kubejs:intelligent_draconium_ingot_s6')
@@ -198,6 +267,12 @@ ServerEvents.recipes(event => {
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:time_in_a_bottle_s6')
 
+    event.recipes.mekanism.metallurgic_infusing('mekanism:alloy_infused',
+        'kubejs:yin_yang_steel', '20x mekanism:redstone').id('kubejs:alloy_infused_s6')
+
+    event.recipes.mekanism.metallurgic_infusing('mekanism:basic_control_circuit',
+        '#forge:gears/osmium', '40x mekanism:redstone').id('kubejs:basic_control_circuit_s6')
+
     event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_2',
         ['2x kubejs:superconducting_coil_type_1', '2x #forge:ingots/hot_tungstensteel', '4x #forge:gems/boron_nitride']
     ).energy(409600)
@@ -207,6 +282,16 @@ ServerEvents.recipes(event => {
         ['4x ae2:printed_silicon', '#forge:dusts/quartz']
     ).energy(51200)
         .id('kubejs:silicon_plate_s6')
+
+    event.recipes.thermal.smelter('2x kubejs:yin_yang_steel',
+        ['dustandash:ash_steel_ingot', 'create:refined_radiance', 'create:shadow_steel']
+    ).energy(102400)
+        .id('kubejs:yin_yang_steel_s6')
+
+    event.recipes.thermal.smelter('2x dustandash:ash_steel_ingot',
+        ['2x #forge:ingots/iron', '#forge:ingots/steel', '#forge:ash']
+    ).energy(51200)
+        .id('kubejs:ash_steel_ingot_s6')
 
     event.recipes.thermal.smelter('kubejs:reinforced_sheet',
         ['kubejs:epsilon_dust', '#forge:plates/terrasteel', '#forge:plates/elementium']
@@ -288,5 +373,84 @@ ServerEvents.recipes(event => {
         ],
         "time": 600
     }).id('kubejs:advanced_alloy_ingot_s6')
+
+    event.custom({
+        "type": "dustandash:centrifuge",
+        "tick": 400,
+        "ingredients": [
+            Item.of('techreborn:cell', '{fluid:"aetherworks:aether_gas_painful"}').weakNBT().toJson(),
+            Item.of('techreborn:cell', '{fluid:"kubejs:methane_helium_3_fuel"}').weakNBT().toJson()
+        ],
+        "outputs": [
+            Item.of('draconicevolution:awakened_draconium_dust').toJson(),
+            Item.of('dustandash:empty').toJson(),
+            Item.of('draconicevolution:awakened_draconium_dust').toJson(),
+            Item.of('dustandash:empty').toJson(),
+
+            Item.of('dustandash:empty').toJson(),
+            Item.of('dustandash:empty').toJson(),
+            Item.of('dustandash:empty').toJson(),
+            Item.of('draconicevolution:awakened_draconium_dust').toJson()
+        ]
+    }).id('kubejs:awakened_draconium_dust_s6')
+
+
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "ATTACK",
+        "min_level": 80,
+        "required_type": 'steel',
+        "base_hp": 70,
+        "base_atk": 70,
+        "base_def": 50,
+        "base_spa": 50,
+        "base_spd": 50,
+        "base_spe": 50,
+        "area_blocks": [
+            {
+                "item": 'draconicevolution:draconium_block'
+            }
+        ],
+        "block_count": 48,
+        "input_items": [
+            Item.of('16x kubejs:intelligent_draconium_ingot').toJson(),
+            Item.of('8x draconicevolution:awakened_draconium_dust').toJson(),
+            Item.of('4x kubejs:collapse_prediction').toJson(),
+            Item.of('draconicevolution:dragon_heart').toJson()
+        ],
+        "input_power": 4096000,
+        "input_fluid": {
+            "fluid": "aetherworks:aether_gas_painful",
+            "amount": 250
+        },
+        "tick": 1200,
+        "result_items": [
+            Item.of('16x draconicevolution:awakened_draconium_ingot').toJson()
+        ]
+    }).id('kubejs:awakened_draconium_ingot_s6')
+
+    event.recipes.occultism.ritual(
+        'mekanismgenerators:fission_fuel_assembly',
+        [
+            'draconicevolution:awakened_draconium_ingot',
+            'nuclearcraft:plate_du',
+            'draconicevolution:awakened_draconium_ingot',
+            'nuclearcraft:plate_du',
+
+            '#forge:alloys/ultimate',
+            'kubejs:reinforced_sheet',
+            '#forge:alloys/ultimate',
+            'kubejs:reinforced_sheet',
+
+            'mekanismgenerators:fission_reactor_casing',
+            Item.of('tconstruct:large_plate', '{Material:"tconstruct:lead"}').weakNBT(),
+            'mekanismgenerators:fission_reactor_casing',
+            Item.of('tconstruct:large_plate', '{Material:"tconstruct:lead"}').weakNBT()
+        ],
+        'occultism:book_of_binding_bound_marid',
+        'occultism:craft_marid',
+        200
+    ).id("kubejs:fission_fuel_assembly_s6")
 
 })

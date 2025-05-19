@@ -60,6 +60,7 @@
 		{
 			dependencies: ["19E02D5EB43D2E5F"]
 			id: "5127062529933D44"
+			shape: "hexagon"
 			tasks: [{
 				id: "5C27DE2F091FE9A0"
 				item: "kubejs:advanced_machine_frame"
@@ -257,6 +258,7 @@
 				"13E47294E16CB194"
 			]
 			id: "6479C3ACB63B7CEF"
+			shape: "hexagon"
 			tasks: [{
 				id: "010B7CE72F1DBBCF"
 				item: "kubejs:industrial_machine_frame"
@@ -333,6 +335,7 @@
 				"452C463084E6A80C"
 			]
 			id: "189250FB6C4DA694"
+			shape: "hexagon"
 			tasks: [{
 				id: "7187E438CD374DC3"
 				item: "mekanism:steel_casing"
@@ -352,7 +355,7 @@
 				item: "kubejs:methane_helium_3_fuel_bucket"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 10.0d
 		}
 		{
@@ -376,6 +379,601 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["189250FB6C4DA694"]
+			id: "41832772EDD303E0"
+			tasks: [{
+				id: "5DE2C568D23253C3"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41832772EDD303E0"]
+			id: "3E4D0886BFA06C69"
+			tasks: [{
+				id: "38D54786FDC976AD"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E4D0886BFA06C69"]
+			id: "55D080C2D32226A6"
+			tasks: [{
+				id: "725076FCC02DD484"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BAF04393E036383"]
+			id: "3E04086F41F0534B"
+			tasks: [{
+				id: "0A8D99588F75C4A8"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E04086F41F0534B"]
+			id: "1F196F3722338735"
+			tasks: [{
+				id: "3405B0CD89F25F10"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E04086F41F0534B"]
+			id: "16F0A7E11F9B96DD"
+			tasks: [{
+				id: "2B0A3B4A80ABACE4"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16F0A7E11F9B96DD"]
+			id: "6FE2EF879CD98A63"
+			tasks: [{
+				id: "699E476B69717C8D"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1F196F3722338735"
+				"6FE2EF879CD98A63"
+			]
+			id: "5D8972D3622D38DF"
+			tasks: [{
+				id: "2D3A73F5FB236404"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5D560D9C2A54A70F"
+				"61AA2B177A19EAE6"
+				"4BAF04393E036383"
+			]
+			id: "3EB1062703F92090"
+			tasks: [{
+				id: "77B06DE337FFC219"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19E02D5EB43D2E5F"]
+			id: "61AA2B177A19EAE6"
+			tasks: [{
+				id: "24B6994193CBBDC6"
+				item: "aetherworks:aether_gas_painful_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5D8972D3622D38DF"
+				"3EB1062703F92090"
+			]
+			id: "11BB558482A55A27"
+			shape: "hexagon"
+			tasks: [{
+				id: "04C52872E1AA41C0"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["37D5AA7EFF0079FC"]
+			id: "62069C621FADA3D1"
+			tasks: [{
+				id: "7261B4480A925248"
+				item: {
+					Count: 1
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55D080C2D32226A6"]
+			description: ["与NC的裂变反应堆不同，MEK的裂变反应堆将直接使用特定配比的气体燃料。"]
+			icon: "mekanismgenerators:fission_fuel_assembly"
+			id: "16623B5A079687A0"
+			tasks: [
+				{
+					id: "166DF3F20358FD69"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "0F5F27EE36949BB1"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+			]
+			title: "MEK裂变反应堆"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16623B5A079687A0"]
+			id: "56C75C83C86E1DCA"
+			tasks: [{
+				id: "669F7ECE0251BDCA"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16623B5A079687A0"]
+			id: "0DE4D45BEBFA3B62"
+			tasks: [{
+				id: "25830380D1ADE06F"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16623B5A079687A0"]
+			id: "0CE738FC9D28135D"
+			tasks: [{
+				id: "6113D70F7E60CD78"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16623B5A079687A0"]
+			id: "78BD5C40263C9C29"
+			tasks: [{
+				id: "2B79605FF8DBE8C8"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16623B5A079687A0"]
+			id: "53D471F700EEEB30"
+			tasks: [{
+				id: "7DB2902DD84A9F20"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"56C75C83C86E1DCA"
+				"0DE4D45BEBFA3B62"
+				"78BD5C40263C9C29"
+				"53D471F700EEEB30"
+				"0CE738FC9D28135D"
+			]
+			id: "4867E3B9146FB5B6"
+			tasks: [{
+				id: "61AA5B9812F5C554"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"56C75C83C86E1DCA"
+				"0DE4D45BEBFA3B62"
+				"78BD5C40263C9C29"
+				"53D471F700EEEB30"
+				"0CE738FC9D28135D"
+			]
+			id: "680221CEBDCDA6C1"
+			tasks: [{
+				id: "70734E7CE9415820"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"680221CEBDCDA6C1"
+				"4867E3B9146FB5B6"
+			]
+			id: "01F4CF512AE897D5"
+			tasks: [{
+				id: "721B6382567D6FF0"
+				item: "mekanism:sps_casing"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["01F4CF512AE897D5"]
+			id: "5214A43B4EBD8331"
+			shape: "hexagon"
+			subtitle: "告一段落"
+			tasks: [{
+				id: "4B2F1E674EF860FE"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5214A43B4EBD8331"
+				"164CC45EA9717F9A"
+				"6B1B3F8FD568C408"
+				"1E34C32C2E9CBB4C"
+				"275573EF838B4539"
+				"770A1632ECEA7C6B"
+				"22383AC6FB7EBF0C"
+				"5CCDB11FCCD56FBA"
+				"5C06A4057E292125"
+			]
+			id: "2C8F6D440E89C247"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "08F3AF0C5B15DB6B"
+				item: "kubejs:cognitio"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["11BB558482A55A27"]
+			id: "164CC45EA9717F9A"
+			tasks: [{
+				id: "0F938113F364CAD2"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["164CC45EA9717F9A"]
+			id: "5CCDB11FCCD56FBA"
+			tasks: [{
+				id: "660B05594CEDD02A"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["164CC45EA9717F9A"]
+			id: "1E34C32C2E9CBB4C"
+			tasks: [{
+				id: "73E0018C85CBA39E"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["164CC45EA9717F9A"]
+			id: "770A1632ECEA7C6B"
+			tasks: [{
+				id: "77F57BBF717433DB"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["164CC45EA9717F9A"]
+			id: "5C06A4057E292125"
+			tasks: [{
+				id: "5C9F00539AC7D3EB"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["164CC45EA9717F9A"]
+			id: "275573EF838B4539"
+			tasks: [{
+				id: "4636139A84BF89D5"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["164CC45EA9717F9A"]
+			id: "22383AC6FB7EBF0C"
+			tasks: [{
+				id: "0D0DD4EF0D5C04B3"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["164CC45EA9717F9A"]
+			id: "6B1B3F8FD568C408"
+			tasks: [{
+				id: "216D596CA3DFA87F"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2C8F6D440E89C247"]
+			description: [
+				"这是终点吗？"
+				""
+				"是，已经结束了。"
+				""
+				"否，你的故事将在其他世界延续。"
+				""
+				"亦或，这是新的开端。"
+			]
+			icon: "kubejs:anchor_shard"
+			id: "3386DDEF79DEA47C"
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 3"
+				icon: "kubejs:anchor_shard"
+				id: "2A0A0CE2ACBE156C"
+				title: "最终锚定"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0F21341643339AFB"
+				type: "checkmark"
+			}]
+			title: "终点？"
+			x: 28.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3386DDEF79DEA47C"]
+			description: ["你可以通过完成这个系列的任务，获取锚之碎片。"]
+			id: "416A91D8BB4F0450"
+			optional: true
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 1"
+				icon: "kubejs:anchor_shard"
+				id: "2B816E1A70EFF270"
+				title: "锚定"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6259888FE12980EF"
+				item: { Count: 16, id: "kubejs:cognitio" }
+				type: "item"
+			}]
+			title: "无限观测1"
+			x: 30.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3386DDEF79DEA47C"]
+			description: [
+				"如果你拥有进入真正结局的资格，投入思维之后，你将可以完成这个任务。"
+				""
+				"否则，这就是终点了。"
+			]
+			icon: "kubejs:deity_from_the_outside"
+			id: "3976DA1D6D6D3A45"
+			optional: true
+			tasks: [
+				{
+					consume_items: true
+					id: "4F6579DF4AFB5F2E"
+					item: "kubejs:cognitio"
+					type: "item"
+				}
+				{
+					id: "5F6C877A3BB756B0"
+					stage: "true_ending"
+					type: "gamestage"
+				}
+			]
+			title: "结局之零"
+			x: 28.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["416A91D8BB4F0450"]
+			description: ["你可以通过完成这个系列的任务，获取锚之碎片。"]
+			id: "11F29049EACC0587"
+			optional: true
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 1"
+				icon: "kubejs:anchor_shard"
+				id: "04FD15B6F6F43BDA"
+				title: "锚定"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "03A203D725E144CB"
+				item: { Count: 16, id: "kubejs:cognitio" }
+				type: "item"
+			}]
+			title: "无限观测2"
+			x: 32.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["11F29049EACC0587"]
+			description: ["你可以通过完成这个系列的任务，获取锚之碎片。"]
+			id: "2A59D9A4EC64E5E1"
+			optional: true
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 1"
+				icon: "kubejs:anchor_shard"
+				id: "6D533726638B449C"
+				title: "锚定"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "78B1E10ABB40D900"
+				item: { Count: 16, id: "kubejs:cognitio" }
+				type: "item"
+			}]
+			title: "无限观测3"
+			x: 34.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2A59D9A4EC64E5E1"]
+			description: ["你可以通过完成这个系列的任务，获取锚之碎片。"]
+			id: "13D5AAE9E1F31419"
+			optional: true
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 1"
+				icon: "kubejs:anchor_shard"
+				id: "2CFE7B24C7A01D96"
+				title: "锚定"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "423783FAAB07CBF6"
+				item: { Count: 16, id: "kubejs:cognitio" }
+				type: "item"
+			}]
+			title: "无限观测4"
+			x: 36.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13D5AAE9E1F31419"]
+			description: ["你可以通过完成这个系列的任务，获取锚之碎片。"]
+			id: "706BA724BEFFEA58"
+			optional: true
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 1"
+				icon: "kubejs:anchor_shard"
+				id: "691D5E375C39DD90"
+				title: "锚定"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "6C89396243CDACE5"
+				item: { Count: 16, id: "kubejs:cognitio" }
+				type: "item"
+			}]
+			title: "无限观测5"
+			x: 38.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["706BA724BEFFEA58"]
+			description: ["该任务可重复完成 "]
+			id: "3F358235FE7D34A9"
+			optional: true
+			repeatable: true
+			rewards: [{
+				command: "/eot_give_anchor_shard @p 1"
+				icon: "kubejs:anchor_shard"
+				id: "19831F1554A0EA94"
+				title: "锚定"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2413FFD93BCA94E4"
+				item: { Count: 16, id: "kubejs:cognitio" }
+				type: "item"
+			}]
+			title: "真·无限观测"
+			x: 40.0d
+			y: 10.0d
 		}
 	]
 	title: "6. 超越彼方 | Beyond, and Beyond"

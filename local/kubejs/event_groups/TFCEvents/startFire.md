@@ -25,21 +25,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
-| getBlock |  |  | BlockContainerJS | ✘ |
 | getTargetedFace |  |  | Direction | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | isStrong |  |  | boolean | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -54,24 +54,24 @@ Returns the level of the event
 Returns the item used to start the fire
 ```
 
-- `LivingEntity getEntity()`
-```
-Returns the player that started the fire, may be null
-```
-
-- `BlockContainerJS getBlock()`
-```
-Returns the level and position of the event
-```
-
 - `Direction getTargetedFace()`
 ```
 Returns the targeted face of the event
 ```
 
+- `LivingEntity getEntity()`
+```
+Returns the player that started the fire, may be null
+```
+
 - `boolean isStrong()`
 ```
 Returns true if fire created is considered 'strong'
+```
+
+- `BlockContainerJS getBlock()`
+```
+Returns the level and position of the event
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -137,6 +137,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -144,13 +151,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

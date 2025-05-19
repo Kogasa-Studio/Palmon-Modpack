@@ -51,6 +51,10 @@ ServerEvents.tags('item', event => {
         'jaopca:gears.unknown'
     )
 
+    event.add('dustandash:centrifuge_catalyst',
+        'techreborn:cell'
+    )
+
 })
 
 ServerEvents.tags('fluid', event => {

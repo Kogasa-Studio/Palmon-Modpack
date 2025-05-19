@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
 
     event.shaped('minecraft:barrel', [
         'ADA',
-        'ACA',
+        'ABA',
         'ADA'
     ],
         {

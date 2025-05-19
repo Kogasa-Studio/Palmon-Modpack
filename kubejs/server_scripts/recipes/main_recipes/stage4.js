@@ -80,7 +80,6 @@ ServerEvents.recipes(event => {
         200
     ).id("kubejs:occ_marid_binded_gem_0")
 
-
     event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_1',
         ['7x techreborn:cupronickel_heating_coil', '5x thermal:rf_coil', '3x techreborn:electronic_circuit']
     ).energy(76800)
@@ -117,7 +116,6 @@ ServerEvents.recipes(event => {
         D: 'mythicbotany:alfsteel_ingot',
         E: 'kubejs:delta_framework'
     }).id('kubejs:scranton_reality_anchor_s4')
-
 
     event.custom({
         "type": "industrialforegoing:dissolution_chamber",

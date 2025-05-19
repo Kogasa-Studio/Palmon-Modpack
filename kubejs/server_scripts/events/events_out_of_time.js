@@ -544,6 +544,16 @@ registerBuff("special_2", 6, ["true_ending"], true, function (event) {
             A: 'kubejs:epsilon_framework',
             B: 'minecraft:ender_chest'
         }).id('kubejs:eot_special_2_delivery_coordinate_epsilon')
+        
+    event.shaped('kubejs:delivery_coordinate_ultimate', [
+        'ABA',
+        'B B',
+        'ABA'
+    ],
+        {
+            A: 'kubejs:cognitio',
+            B: 'minecraft:ender_chest'
+        }).id('kubejs:eot_special_2_delivery_coordinate_epsilon')
 
 })
 
@@ -554,6 +564,7 @@ registerBuff("init", 0, [], false, function (event) {
 
 registerBuff("true_ending", 3, ["init"], false, function (event) {
     event.player.give(Item.of('kubejs:present_soul'))
+    event.player.stages.add('true_ending')
 }, function (event) { })
 
 registerBuff("master_ending", 3, ["true_ending"], false, function (event) {

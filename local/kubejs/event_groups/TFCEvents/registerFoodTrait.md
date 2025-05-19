@@ -23,27 +23,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| registerTrait | float, ResourceLocation |  | void | ✘ |
 | registerTraitWithTooltip | float, ResourceLocation |  | void | ✘ |
+| registerTrait | float, ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `void registerTrait(float decayModifier, ResourceLocation id)`
-
-  Parameters:
-  - decayModifier: float- The decay modifier of the trait, a higher values means the food rots faster
-  - id: ResourceLocation- The registry id of the food trait
-
-```
-registers a new food trait
-```
 
 - `void registerTraitWithTooltip(float decayModifier, ResourceLocation id)`
 
@@ -53,6 +43,16 @@ registers a new food trait
 
 ```
 registers a new food trait with a tooltip
+```
+
+- `void registerTrait(float decayModifier, ResourceLocation id)`
+
+  Parameters:
+  - decayModifier: float- The decay modifier of the trait, a higher values means the food rots faster
+  - id: ResourceLocation- The registry id of the food trait
+
+```
+registers a new food trait
 ```
 
 - `Object exit(Object var0)`
@@ -91,6 +91,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -98,13 +105,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

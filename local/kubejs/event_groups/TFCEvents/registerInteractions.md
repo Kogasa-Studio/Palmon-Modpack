@@ -23,21 +23,31 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| registerCustomPlacements |  |  | void | ✔ |
-| interaction | Ingredient, OnItemUseAction |  | void | ✘ |
-| interaction | Ingredient, boolean, OnItemUseAction |  | void | ✘ |
-| interaction | Ingredient, boolean, boolean, OnItemUseAction |  | void | ✘ |
-| blockItemPlacement | Item, Block |  | void | ✘ |
 | addBlockItemPlacement | Supplier<Item>, Supplier<Block> |  | void | ✔ |
+| registerCustomPlacements |  |  | void | ✔ |
+| blockItemPlacement | Item, Block |  | void | ✘ |
+| interaction | Ingredient, OnItemUseAction |  | void | ✘ |
+| interaction | Ingredient, boolean, boolean, OnItemUseAction |  | void | ✘ |
+| interaction | Ingredient, boolean, OnItemUseAction |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `void blockItemPlacement(Item item, Block block)`
+
+  Parameters:
+  - item: Item- The item
+  - block: Block- The block to be placed
+
+```
+Registers a default block placement interaction
+```
 
 - `void interaction(Ingredient ingredient, OnItemUseAction action)`
 
@@ -47,17 +57,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ```
 Registers an interaction, targeting blocks, but not air, by default
-```
-
-- `void interaction(Ingredient ingredient, boolean targetAir, OnItemUseAction action)`
-
-  Parameters:
-  - ingredient: Ingredient- The items this interactions applies to
-  - targetAir: boolean- If the interaction should register when clicking in the air
-  - action: OnItemUseAction- A callback for the action to perform, requires an `InteractionResult` be returned
-
-```
-Registers an interaction, targeting blocks by default
 ```
 
 - `void interaction(Ingredient ingredient, boolean targetBlocks, boolean targetAir, OnItemUseAction action)`
@@ -72,14 +71,15 @@ Registers an interaction, targeting blocks by default
 Registers an interaction
 ```
 
-- `void blockItemPlacement(Item item, Block block)`
+- `void interaction(Ingredient ingredient, boolean targetAir, OnItemUseAction action)`
 
   Parameters:
-  - item: Item- The item
-  - block: Block- The block to be placed
+  - ingredient: Ingredient- The items this interactions applies to
+  - targetAir: boolean- If the interaction should register when clicking in the air
+  - action: OnItemUseAction- A callback for the action to perform, requires an `InteractionResult` be returned
 
 ```
-Registers a default block placement interaction
+Registers an interaction, targeting blocks by default
 ```
 
 - `Object exit(Object var0)`
@@ -118,6 +118,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -125,13 +132,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
